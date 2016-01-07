@@ -1,0 +1,1017 @@
+
+
+<!DOCTYPE html>
+<html>
+    
+<!-- Mirrored from pyvideo.org/api/v2/video/?page=160 by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 07 Jan 2016 03:54:09 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+    
+
+        
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+        <meta name="robots" content="NONE,NOARCHIVE" />
+        
+
+        <title>Django REST framework</title>
+
+        
+        
+            <link rel="stylesheet" type="text/css" href="/static/rest_framework/css/bootstrap.min.css"/>
+            <link rel="stylesheet" type="text/css" href="/static/rest_framework/css/bootstrap-tweaks.css"/>
+        
+        <link rel="stylesheet" type="text/css" href="/static/rest_framework/css/prettify.css"/>
+        <link rel="stylesheet" type="text/css" href="/static/rest_framework/css/default.css"/>
+        
+
+    
+    </head>
+
+  <body class=" container">
+
+    <div class="wrapper">
+
+    
+    <div class="navbar navbar-inverse">
+        <div class="navbar-inner">
+            <div class="container-fluid">
+                <span href="/">
+                    <a class='brand' rel="nofollow" href='http://www.django-rest-framework.org'>Django REST framework <span class="version">2.3.14</span></a>
+                </span>
+                <ul class="nav pull-right">
+                    
+                        
+                            <li></li>
+                        
+                    
+                </ul>
+            </div>
+        </div>
+    </div>
+    
+
+    
+    <ul class="breadcrumb">
+        
+            <li>
+                <a href="/api/v2/video/" class="active">Video List Create Api</a> 
+            </li>
+        
+    </ul>
+    
+
+    <!-- Content -->
+    <div id="content">
+
+        
+            <form id="get-form" class="pull-right">
+                <fieldset>
+                    <div class="btn-group format-selection">
+                        <a class="btn btn-primary js-tooltip" href='/api/v2/video/?page=160' rel="nofollow" title="Make a GET request on the Video List Create Api resource">GET</a>
+
+                        <button class="btn btn-primary dropdown-toggle js-tooltip" data-toggle="dropdown" title="Specify a format for the GET request">
+                            <span class="caret"></span>
+                        </button>
+                        <ul class="dropdown-menu">
+                            
+                                <li>
+                                    <a class="js-tooltip format-option" href='/api/v2/video/?page=160&format=json' rel="nofollow" title="Make a GET request on the Video List Create Api resource with the format set to `json`">json</a>
+                                </li>
+                            
+                                <li>
+                                    <a class="js-tooltip format-option" href='/api/v2/video/?page=160&format=api' rel="nofollow" title="Make a GET request on the Video List Create Api resource with the format set to `api`">api</a>
+                                </li>
+                            
+                        </ul>
+                    </div>
+
+                </fieldset>
+            </form>
+        
+
+        
+            <form class="button-form" action="/api/v2/video/?page=160" method="POST" class="pull-right">
+                <input type='hidden' name='csrfmiddlewaretoken' value='pT8iI6zhtQdsGFmu4tryYgFrUlipl2B3' />
+                <input type="hidden" name="_method" value="OPTIONS" />
+                <button class="btn btn-primary js-tooltip" title="Make an OPTIONS request on the Video List Create Api resource">OPTIONS</button>
+            </form>
+        
+
+        
+
+        <div class="content-main">
+            <div class="page-header"><h1>Video List Create Api</h1></div>
+            
+            
+            
+            <div class="request-info" style="clear: both" >
+                <pre class="prettyprint"><b>GET</b> /api/v2/video/?page=160</pre>
+            </div>
+            <div class="response-info">
+                <pre class="prettyprint"><div class="meta nocode"><b>HTTP 200 OK</b>
+<b>Content-Type:</b> <span class="lit">application/json</span>
+<b>Vary:</b> <span class="lit">Accept</span>
+<b>Allow:</b> <span class="lit">GET, POST, HEAD, OPTIONS</span>
+
+</div>{
+    &quot;count&quot;: 3439, 
+    &quot;next&quot;: &quot;<a href="http://pyvideo.org/api/v2/video/?page=161" rel="nofollow">http://pyvideo.org/api/v2/video/?page=161</a>&quot;, 
+    &quot;previous&quot;: &quot;<a href="http://pyvideo.org/api/v2/video/?page=159" rel="nofollow">http://pyvideo.org/api/v2/video/?page=159</a>&quot;, 
+    &quot;results&quot;: [
+        {
+            &quot;category&quot;: &quot;EuroPython 2011&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;debugging-and-profiling-techniques-0&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Giovanni Bajo&quot;
+            ], 
+            &quot;tags&quot;: [
+                &quot;cpython&quot;, 
+                &quot;debugging&quot;, 
+                &quot;design&quot;, 
+                &quot;memory&quot;, 
+                &quot;performance&quot;, 
+                &quot;profiling&quot;, 
+                &quot;python,&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 1157, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Debugging and profiling techniques&quot;, 
+            &quot;summary&quot;: &quot;[EuroPython 2011] Giovanni Bajo - 22 June 2011 in \&quot;Track Spaghetti\&quot;\n\n&quot;, 
+            &quot;description&quot;: &quot;This talk will give on overview over some common problems related to profiling\nand debugging CPython applications (especially desktop-based ones).\n\nThe following subjects will be covered:\n\n  * Debugging of memory/resource leaks (circular references, **del**, weakref, garbage collector, etc.). We will show in details how the memory management of Python objects work and we will show a few tricks to track memory leaks\n  * Python code profiling (profile/hotshots/cProfile, design of small tests, etc.). We will show how to measure, profile, and analyse an application to spot performance problems and solve them.\n  * Post-mortem step-by-step debugging of C/C++ extension under Windows. We will show how to setup Visual Studio for debugging, how to see a traceback in case of an unexpected segfault, and how to further debug and solve the crash.\n\nThis talk is aimed at intermediate Python programmers, who have already\ndeveloped non-trivial Python applications but have never \&quot;jumped through\&quot; the\ninterpreter abstraction layer. If you feel a little lost when you see a\nsegfault from a Python program or you don&#39;t have a clear idea how memory is\ncollected in Python, this talk is perfect for you.\n\n&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;Standard YouTube License&quot;, 
+            &quot;embed&quot;: &quot;&lt;object width=\&quot;640\&quot; height=\&quot;390\&quot;&gt;&lt;param name=\&quot;movie\&quot; value=\&quot;http://youtube.com/v/J29uIkdmHs8?version=3&amp;amp;hl=en_US\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowFullScreen\&quot; value=\&quot;true\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowscriptaccess\&quot; value=\&quot;always\&quot;&gt;&lt;/param&gt;&lt;embed src=\&quot;http://youtube.com/v/J29uIkdmHs8?version=3&amp;amp;hl=en_US\&quot; type=\&quot;application/x-shockwave-flash\&quot; width=\&quot;640\&quot; height=\&quot;390\&quot; allowscriptaccess=\&quot;always\&quot; allowfullscreen=\&quot;true\&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://i.ytimg.com/vi/J29uIkdmHs8/hqdefault.jpg" rel="nofollow">http://i.ytimg.com/vi/J29uIkdmHs8/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: null, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="http://www.youtube.com/watch?v=J29uIkdmHs8" rel="nofollow">http://www.youtube.com/watch?v=J29uIkdmHs8</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2011-07-07&quot;, 
+            &quot;added&quot;: &quot;2012-08-30T21:02:46&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:27.934&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;EuroPython 2011&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;dependency-injection-is-your-friend&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Alan Franzoni&quot;
+            ], 
+            &quot;tags&quot;: [
+                &quot;design&quot;, 
+                &quot;maintenance&quot;, 
+                &quot;xml&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 1156, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Dependency injection is your friend&quot;, 
+            &quot;summary&quot;: &quot;[EuroPython 2011] Alan Franzoni - 24 June 2011 in \&quot;Track Spaghetti\&quot;\n\n&quot;, 
+            &quot;description&quot;: &quot;Dependency injection is a technique that has been around since long, and it&#39;s\nwidely used in many programming languages and environments, but it&#39;s not that\nwidespread in the Python world.\n\nMany think that using dependency injection will force writing large-and-\ncomplex xml blobs, break encapsulation, or reduce code readability, or just\nthat it&#39;s unneeded in an highly expressive language like Python is.\n\nOn the contrary, I&#39;ll show you that DI: - doesn&#39;t require any library or\nframework; - encourages peer role identification; - helps keeping a class\nfocused and cohesive; - encourages separation between wiring from applicative\ncode; - makes your code more reusable, expressive and testable; - doesn&#39;t\nbreak encapsulation; - turns part of your coding efforts into configuration\n\nLarge applications, by the way, might just get a great maintenance boost by\nusing a real DI container, hence I&#39;ll briefly cover Pydenji, the Python(ic)\ndependency injection toolkit, and what it can do for your application.\n\nA basic knowledge of object oriented design and SOLID principles is required\nin order to fully appreciate the content of this talk.\n\n&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;Standard YouTube License&quot;, 
+            &quot;embed&quot;: &quot;&lt;object width=\&quot;640\&quot; height=\&quot;390\&quot;&gt;&lt;param name=\&quot;movie\&quot; value=\&quot;http://youtube.com/v/PSeSWINJ5YM?version=3&amp;amp;hl=en_US\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowFullScreen\&quot; value=\&quot;true\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowscriptaccess\&quot; value=\&quot;always\&quot;&gt;&lt;/param&gt;&lt;embed src=\&quot;http://youtube.com/v/PSeSWINJ5YM?version=3&amp;amp;hl=en_US\&quot; type=\&quot;application/x-shockwave-flash\&quot; width=\&quot;640\&quot; height=\&quot;390\&quot; allowscriptaccess=\&quot;always\&quot; allowfullscreen=\&quot;true\&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://i.ytimg.com/vi/PSeSWINJ5YM/hqdefault.jpg" rel="nofollow">http://i.ytimg.com/vi/PSeSWINJ5YM/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: null, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="http://www.youtube.com/watch?v=PSeSWINJ5YM" rel="nofollow">http://www.youtube.com/watch?v=PSeSWINJ5YM</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2011-07-07&quot;, 
+            &quot;added&quot;: &quot;2012-08-30T21:02:46&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:27.935&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;ChiPy&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;gnu-mediagoblin-for-a-federated-media-future&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Christopher Allan Webber&quot;
+            ], 
+            &quot;tags&quot;: [
+                &quot;chipy&quot;, 
+                &quot;chriswebber&quot;, 
+                &quot;cwebber&quot;, 
+                &quot;foss&quot;, 
+                &quot;gnu&quot;, 
+                &quot;media&quot;, 
+                &quot;mediagoblin&quot;, 
+                &quot;mongodb&quot;, 
+                &quot;mongokit&quot;, 
+                &quot;wsgi&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 565, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;GNU MediaGoblin for a federated media future&quot;, 
+            &quot;summary&quot;: &quot;Christopher Allan Webber talks about GNU MediaGoblin, a federated\n(decentralized) media publishing system (images, and later other media like\nvideo) written in python and under the AGPL. Infrastructure discussion\ndescribes what it means that GNU MediaGoblin uses an unframework / is \&quot;wsgi\nminimalist\&quot;, about the choice of MongoDB and MongoKit, and how to impress an\naudience with ascii art mockups.\n\n&quot;, 
+            &quot;description&quot;: &quot;\n\n&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;Creative Commons Attribution-ShareAlike 3.0&quot;, 
+            &quot;embed&quot;: &quot;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://a.images.blip.tv/CarlFK-GNUMediaGoblinForAFederatedMediaFuture830.png" rel="nofollow">http://a.images.blip.tv/CarlFK-GNUMediaGoblinForAFederatedMediaFuture830.png</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: &quot;<a href="http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/chipy/565_gnu-mediagoblin-for-a-federated-media-future.ogv" rel="nofollow">http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/chipy/565_gnu-mediagoblin-for-a-federated-media-future.ogv</a>&quot;, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: 302223624, 
+            &quot;video_mp4_url&quot;: &quot;<a href="http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/chipy/565_gnu-mediagoblin-for-a-federated-media-future.m4v" rel="nofollow">http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/chipy/565_gnu-mediagoblin-for-a-federated-media-future.m4v</a>&quot;, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: &quot;&quot;, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: &quot;&quot;, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2011-06-09&quot;, 
+            &quot;added&quot;: &quot;2012-02-23T04:20:00&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:27.936&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;ChiPy&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;using-opencv-with-python-and-ros&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Bill Mania&quot;, 
+                &quot;Eric Kinzle&quot;
+            ], 
+            &quot;tags&quot;: [
+                &quot;billmania&quot;, 
+                &quot;camera&quot;, 
+                &quot;chipy&quot;, 
+                &quot;image&quot;, 
+                &quot;opencv&quot;, 
+                &quot;robot&quot;, 
+                &quot;ros&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 564, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Using OpenCV with Python and ROS&quot;, 
+            &quot;summary&quot;: &quot;Bill Mania and Eric Kinzle A brief presentation of using the OpenCV computer\nvision toolset with Python and ROS. Included at the end will be a\ndemonstration of tracking a colored object using a camera with servo-driven\npan and tilt capability.\n\n&quot;, 
+            &quot;description&quot;: &quot;&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;Creative Commons Attribution-NonCommercial-ShareAlike 3.0&quot;, 
+            &quot;embed&quot;: &quot;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://a.images.blip.tv/CarlFK-UsingOpenCVWithPythonAndROS709.png" rel="nofollow">http://a.images.blip.tv/CarlFK-UsingOpenCVWithPythonAndROS709.png</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: &quot;<a href="http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/chipy/564_using-opencv-with-python-and-ros.ogv" rel="nofollow">http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/chipy/564_using-opencv-with-python-and-ros.ogv</a>&quot;, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: 446805119, 
+            &quot;video_mp4_url&quot;: &quot;<a href="http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/chipy/564_using-opencv-with-python-and-ros.m4v" rel="nofollow">http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/chipy/564_using-opencv-with-python-and-ros.m4v</a>&quot;, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: &quot;&quot;, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: &quot;&quot;, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2011-06-09&quot;, 
+            &quot;added&quot;: &quot;2012-02-23T04:20:00&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:27.937&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyCon US 2011&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;pycon-2011--advanced-network-architectures-with-z&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Zed A. Shaw&quot;
+            ], 
+            &quot;tags&quot;: [
+                &quot;mongrel&quot;, 
+                &quot;pycon2011&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 442, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Advanced Network Architectures With ZeroMQ&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;Advanced Network Architectures With ZeroMQ\n\nPresented by Zed A. Shaw\n\nIn this talk I will demonstrate how to use ZeroMQ with Python (and others) to\ndo really advanced or even weird network architectures. You&#39;ll see Python talk\nto other languages, handle HTTP, JSON, XML, WebSockets, encode videos, chat\nmessaging, etc. All in a short talk with only code, no diagrams. You should\nknow ZeroMQ already.\n\nAbstract\n\nThis talk will demonstrate a series of progressively difficult problems that\nyou can solve with ZeroMQ:\n\n  1. Basic messaging types (request/response, publish/subscribe). \n  2. Mongrel2 and HTTP processing. \n  3. Coroutine based web frameworks and why they suck (so quit making them). \n  4. Distributed worker queues of various flavors. \n  5. Asynchronous chat protocols with JSON and XML. \n  6. Clusters of calculators considering and communicating. \n  7. Talking to other languages and easily ditching Python if you need. \n  8. Anything else I can think up and do in a single screen of Python. \n\nThis talk will assume you know ZeroMQ and Python, but if you don&#39;t know ZeroMQ\nyou can probably still keep up.\n\n&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;Creative Commons Attribution-NonCommercial-ShareAlike 3.0&quot;, 
+            &quot;embed&quot;: &quot;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://a.images.blip.tv/Pycon-PyCon2011AdvancedNetworkArchitecturesWithZeroMQ366.png" rel="nofollow">http://a.images.blip.tv/Pycon-PyCon2011AdvancedNetworkArchitecturesWithZeroMQ366.png</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: 140780098, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: &quot;<a href="http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2011/442_advanced-network-architectures-with-zeromq.mp4" rel="nofollow">http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2011/442_advanced-network-architectures-with-zeromq.mp4</a>&quot;, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2011-03-11&quot;, 
+            &quot;added&quot;: &quot;2012-02-23T04:20:00&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:27.939&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyCon US 2011&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;pycon-2011--algorithmic-generation-of-opengl-geom&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Jonathan Hartley&quot;
+            ], 
+            &quot;tags&quot;: [
+                &quot;3d&quot;, 
+                &quot;opengl&quot;, 
+                &quot;pycon&quot;, 
+                &quot;pycon2011&quot;, 
+                &quot;pyglet&quot;, 
+                &quot;pyopengl&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 381, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Algorithmic Generation of OpenGL Geometry&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;Algorithmic Generation of OpenGL Geometry\n\nPresented by Jonathan Hartley\n\nStarting from a basic &#39;hello world&#39; OpenGL app, a simple and Pythonic model of\n3D polyhedra is presented, with neat generators to convert these into ctype\narrays for OpenGL. Geometric algorithms then generate some fun geometry, and\nthese are compounded to produce successively more complex and interesting\nshapes.\n\nAbstract\n\nThe author&#39;s intent is to demonstrate that effective stylistic 3D graphics can\nbe achieved using surprisingly small amounts of code. This hopefully makes the\ntopic amenable to 3D beginners, while possibly suggesting some alternative\napproaches to those with 3D experience.\n\nTalk Outline\n\nThroughout, discussion of ideas and code dissection alternates with live\nanimated demos, at 60fps on very modest hardware.\n\n  1. Inspirations - Effective non-photo-realistic work in gaming, movies and the demo scene. (1m) \n  2. A convenient &amp; Pythonic way to model 3D polyhedra, and some neat generators to convert these into OpenGL arrays at runtime. (7m) \n  3. Composition of polyhedra to create more complex shapes. (3m) \n  4. The resulting performance characteristics: What works well from Python, and what doesn&#39;t. (2m) \n  5. Koch tetrahedron &amp; tetrix, aka Sierpinski tetrahedron. (1m) \n  6. Surprisingly effective 3D models created from small bitmaps. (1m) \n  7. Automatic generation of trees, mazes, complex spaces. (3m) \n  8. Algorithmic modification of existing shapes, such as bevels, geometric duals, and polyhedron stellation. (2m) \n  9. Shapes that morph: Rearranging vertices on the fly (5m) \n  10. Questions (5m) \n\nThe ideas demonstrated in the talk are written against OpenGL 2.1, but written\nin a &#39;mostly OpenGL 3&#39; style, using vertex buffer objects or vertex arrays.\n\nThe demo code uses pyglet to create a window and handle GUI events, and uses\nPyOpenGL for the majority of OpenGL calls, since it provides a more friendly\nand Pythonic interface. In the performance-sensitive inner render loop,\nhowever, I use pyglet&#39;s slightly more bare-bones OpenGL bindings.\n\nHowever, the majority of the talk focuses on the manipulation of abstract data\nstructures to represent geometry, which is not affected by these or other\nOpenGL library choices.\n\nThis is a substantially improved version of the talk &#39;Flying High: Hobbyist\nOpenGL from Python&#39;, previously presented at EuroPython 2010.\n\n&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;Creative Commons Attribution-NonCommercial-ShareAlike 3.0&quot;, 
+            &quot;embed&quot;: &quot;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://a.images.blip.tv/Pycon-PyCon2011AlgorithmicGenerationOfOpenGLGeometry275-566.jpg" rel="nofollow">http://a.images.blip.tv/Pycon-PyCon2011AlgorithmicGenerationOfOpenGLGeometry275-566.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: 171117418, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: &quot;<a href="http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2011/381_algorithmic-generation-of-opengl-geometry.mp4" rel="nofollow">http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2011/381_algorithmic-generation-of-opengl-geometry.mp4</a>&quot;, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2011-03-11&quot;, 
+            &quot;added&quot;: &quot;2012-02-23T04:20:00&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:27.940&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyCon US 2011&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;pycon-2011--an--biased--survey-of-the-python-web&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Mark Ramm&quot;
+            ], 
+            &quot;tags&quot;: [
+                &quot;pycon&quot;, 
+                &quot;pycon2011&quot;, 
+                &quot;web&quot;, 
+                &quot;webframeworks&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 434, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;An (biased) survey of the python web&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;An (biased) survey of the python web\n\nPresented by Mark Ramm\n\nI may be BDFL of one framework, but that&#39;s also why I pay attention to the\nwhole ecosystem. From the release of Plone 4, TurboGears 2, Django 1.2 and\nPylons 1 ,it&#39;s been an interesting year. And things like html5lib, an updated\nWSGI spec, and a contender for the next generation WSGI have all made things\ninteresting. Come explore the wild and dynamic jungle that I call \&quot;the python\nweb toolkit.\&quot;\n\nAbstract\n\nThis talk will not teach people to use python to make websites. It&#39;s to teach\npeople who already use python, that there are lots of different tools out\nthere, and to help us all get some perspective on the python web toolkit.\n\nIn 2005 Pycon had the great PyWebOff, and while this talk won&#39;t be about\nthrowing Twisted into a cage match with Zope3, or setting Flask up in a fight\nto the death against web.py, it will one again provide an attempt to survey\nthe full landscape of the python web world, and to see how far we&#39;ve come in\nthe last 5 years.\n\nWe&#39;ve definitely come a long way. Django has brought over many converts to\nPython, google released app engine with python as the first supported\nlanguage, and there are quite a few sites in the top 100 using python to serve\nup dynamic content to hundreds of millions of users.\n\nBut it hasn&#39;t all been good either, there&#39;s more fragmentation than ever.\nWe&#39;ve also got more half finished libraries, and broken framework extensions,\nand abandoned projects littering up the landscape.\n\n&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;Creative Commons Attribution-NonCommercial-ShareAlike 3.0&quot;, 
+            &quot;embed&quot;: &quot;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://a.images.blip.tv/Pycon-PyCon2011AnBiasedSurveyOfThePythonWeb847.png" rel="nofollow">http://a.images.blip.tv/Pycon-PyCon2011AnBiasedSurveyOfThePythonWeb847.png</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: 135394179, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: &quot;<a href="http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2011/434_an-biased-survey-of-the-python-web.mp4" rel="nofollow">http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2011/434_an-biased-survey-of-the-python-web.mp4</a>&quot;, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2011-03-11&quot;, 
+            &quot;added&quot;: &quot;2012-02-23T04:20:00&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:27.942&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyCon US 2011&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;pycon-2011--an-introduction-to-tornado&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Gavin M. Roy&quot;
+            ], 
+            &quot;tags&quot;: [
+                &quot;pycon&quot;, 
+                &quot;pycon2011&quot;, 
+                &quot;tornado&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 416, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;An Introduction to Tornado&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;An Introduction to Tornado\n\nPresented by Gavin M. Roy\n\nTornado is an open source version of the scalable, non-blocking web server and\ntools that power FriendFeed. It is not only a web server but it is a light-\nweight, use only what you need, web development framework. In this talk we\nwill review the current state of the Tornado project, review the features\nTornado provides and give examples of how to implement asynchronous web\napplications in Tornado.\n\nAbstract\n\nTornado is an open source version of the scalable, non-blocking web server and\ntools that power FriendFeed. It is not only a web server but it is a light-\nweight, use only what you need, web development framework. In this talk we\nwill review the current state of the Tornado project, review the features\nTornado provides and give examples of how to implement asynchronous web\napplications in Tornado.\n\nTopics covered will include:\n\n  * Core Tornado concepts \n  * Building an asynchronous web application \n  * Using the Tornado template engine \n  * Database Interaction \n  * Secure cookies and Sessions \n  * Utilizing built-in OAuth Clients for Authentication \n  * Websockets \n  * State of asynchronous drivers available to Tornado \n  * A light introduction to Tornado internals \n\n&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;Creative Commons Attribution-NonCommercial-ShareAlike 3.0&quot;, 
+            &quot;embed&quot;: &quot;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://a.images.blip.tv/Pycon-PyCon2011AnIntroductionToTornado238.png" rel="nofollow">http://a.images.blip.tv/Pycon-PyCon2011AnIntroductionToTornado238.png</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: 227050290, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: &quot;<a href="http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2011/416_an-introduction-to-tornado.mp4" rel="nofollow">http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2011/416_an-introduction-to-tornado.mp4</a>&quot;, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2011-03-11&quot;, 
+            &quot;added&quot;: &quot;2012-02-23T04:20:00&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:27.943&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyCon US 2011&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;pycon-2011--an-open-success-for-the-cloud--openst&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Andy Smith&quot;
+            ], 
+            &quot;tags&quot;: [
+                &quot;openstack&quot;, 
+                &quot;pycon&quot;, 
+                &quot;pycon2011&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 393, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;An Open success for the cloud: OpenStack&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;An Open success for the cloud: OpenStack\n\nPresented by Andy Smith\n\nOpenStack is a collection of open source technologies written entirely in\nPython, delivering a massively scalable cloud operating system. OpenStack is\ncurrently developing two interrelated projects: OpenStack Compute and\nOpenStack Object Storage. OpenStack Compute is software to provision and\nmanage large groups of virtual private servers, and OpenStack Object Storage\nis software for creating redundant, scalable object storage using clusters of\ncommodity servers to store terabytes or even petabytes of data.\n\nThis talk will go into details about the success of OpenStack with Python,\nlimitations and how overall, Python was the right technology choice.\n\n&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;Creative Commons Attribution-NonCommercial-ShareAlike 3.0&quot;, 
+            &quot;embed&quot;: &quot;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://a.images.blip.tv/Pycon-PyCon2011AnOpenSuccessForTheCloudOpenStack791.png" rel="nofollow">http://a.images.blip.tv/Pycon-PyCon2011AnOpenSuccessForTheCloudOpenStack791.png</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: 117480009, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: &quot;<a href="http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2011/393_an-open-success-for-the-cloud-openstack.mp4" rel="nofollow">http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2011/393_an-open-success-for-the-cloud-openstack.mp4</a>&quot;, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2011-03-11&quot;, 
+            &quot;added&quot;: &quot;2012-02-23T04:20:00&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:27.944&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyCon US 2011&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;pycon-2011--an-outsider--39-s-look-at-co-routines&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Peter Portante&quot;
+            ], 
+            &quot;tags&quot;: [
+                &quot;concurrence&quot;, 
+                &quot;coroutines&quot;, 
+                &quot;gevent&quot;, 
+                &quot;greenlets&quot;, 
+                &quot;pycon&quot;, 
+                &quot;pycon2011&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 396, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;An outsider&#39;s look at co-routines.&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;An outsider&#39;s look at co-routines.\n\nPresented by Peter Portante\n\nLet&#39;s take an outsiders look at coroutines, the underlying concept used by\ngreenlets. First we&#39;ll define what they are conceptually, and show some\ntypical use cases. Then we&#39;ll take a look at a sampling of the implementations\nout there to see what they are actually doing to implement the concept.\nFinally, we&#39;ll show their pluses and minuses, and highlight some features of\npackages that use them.\n\nAbstract\n\nTalk outline:\n\n  * Define what a coroutine is \n    * Coroutine state not known to operating system \n    * Difference between a thread or process \n    * What state is required for tracking \n  * Show how coroutines are used \n    * gevent example \n    * concurrence example \n  * Review two implementations \n    * Greenlets \n    * Python based co-routines using generators \n  * Advantages/Disadvantages \n  * Differentiating features of packages that use them \n    * Concurrence \n    * Gevent \n    * Eventlets \n\n&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;Creative Commons Attribution-NonCommercial-ShareAlike 3.0&quot;, 
+            &quot;embed&quot;: &quot;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://a.images.blip.tv/Pycon-PyCon2011AnOutsidersLookAtCoroutines790-929.jpg" rel="nofollow">http://a.images.blip.tv/Pycon-PyCon2011AnOutsidersLookAtCoroutines790-929.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: 129516368, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: &quot;<a href="http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2011/396_an-outsider-s-look-at-co-routines.mp4" rel="nofollow">http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2011/396_an-outsider-s-look-at-co-routines.mp4</a>&quot;, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2011-03-11&quot;, 
+            &quot;added&quot;: &quot;2012-02-23T04:20:00&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:27.945&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyCon US 2011&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;pycon-2011--api-design-anti-patterns&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Alex Martelli&quot;
+            ], 
+            &quot;tags&quot;: [
+                &quot;api&quot;, 
+                &quot;pycon&quot;, 
+                &quot;pycon2011&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 445, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;API Design anti-patterns&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;API Design Anti-Patterns\n\nPresented by Alex Martelli\n\nDesigning interfaces so that other code can interact with ours (whether our\ncode is a library, framework, application, website...) is a very common and\nclearly crucial activity, but fraught with dangers -- stuff we all keep doing\nwrong time after time. This talks shows some common cases of API design errors\nencountered in the wild, with tips on how to avoid them when you design your\nnext API.\n\nAbstract\n\nWhenever we write code we should always be thinking about how other code\n(whether our own, or other people&#39;s) will interact with ours (an \&quot;API\&quot;, in\ncommon parlance). Indeed, the most common and terrible mistake in API design\nis... not doing any! -- i.e., not providing any designed, architected way for\nother code to interact with ours. That&#39;s fortunately less common when \&quot;our\ncode\&quot; is a library or framework;-), but, alas!, sadly widespread when \&quot;our\ncode\&quot; is an application or website -- that&#39;s why questions about screen-\nscraping the web and simulating keystrokes and mouse gestures need be so\ntragically frequent all over the web.\n\nOnce past the obvious hurdle of not having any API at all, there&#39;s still\nplenty of ways we can go badly wrong in the process of designing one -- and\nmany of those ways fall into recognizable categories, i.e., patterns.\nSpecifically, since they&#39;re frequently observed categories of defective\ndesign, they&#39;re anti-patterns -- and that&#39;s what this talk is in fact about\n(as the smartest among you could tell from the title...).\n\nI&#39;m eminently qualified to present on this subject, since, in a lifetime spent\nmostly stumbling into software (after actually qualifying to design hardware\nin college, but only doing that for a few years), I&#39;ve been responsible for\nmore of my shares of API design fumbles (plus, of course, just like every\nother programmer, I&#39;ve done my share of swearing at the design fumbles of\nother API designers). And, as novelist Richard Bach reminds us, \&quot;You teach\nbest what you most need to learn\&quot;!-)\n\n&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;Creative Commons Attribution-NonCommercial-ShareAlike 3.0&quot;, 
+            &quot;embed&quot;: &quot;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://a.images.blip.tv/Pycon-PyCon2011APIDesignAntipatterns897.png" rel="nofollow">http://a.images.blip.tv/Pycon-PyCon2011APIDesignAntipatterns897.png</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: 222617966, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: &quot;<a href="http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2011/445_api-design-anti-patterns.mp4" rel="nofollow">http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2011/445_api-design-anti-patterns.mp4</a>&quot;, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2011-03-11&quot;, 
+            &quot;added&quot;: &quot;2012-02-23T04:20:00&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:27.947&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyCon US 2011&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;pycon-2011--api-design--lessons-learned&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Raymond Hettinger&quot;
+            ], 
+            &quot;tags&quot;: [
+                &quot;api&quot;, 
+                &quot;apidesign&quot;, 
+                &quot;cpython&quot;, 
+                &quot;pycon&quot;, 
+                &quot;pycon2011&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 366, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;API Design: Lessons Learned&quot;, 
+            &quot;summary&quot;: &quot;API lessons learned from a decade of core Python development.\n\n&quot;, 
+            &quot;description&quot;: &quot;Share the lessons learned from a decade of core Python development, what\nworked and what didn&#39;t. Look at the development process and thinking behind\nsome of Python&#39;s successful APIs and ones that leave something to be desired.\nLearn general principles for designing a good API for public consumption.\n\nHear the story and principles behind the design of Python&#39;s \&quot;in\&quot; operator, the\ndevelopment of deques, and the evolution of the set API.\n\nExamine the principles and story behind the development of the named tuple\nAPI. Learn about unforeseen use cases and a bug that made it to production.\n\nDiscuss the decimal module&#39;s API challenge -- adhering to a published\nstandard. Talk about the Queue module&#39;s framework style and how the API was\nrefactored.\n\nDiscuss what we&#39;ve learned about naming functions and methods. Look at the\ni-naming convention in itertools, camelcase oddities, the proposed Italian\nname for enumerate, and vaguely named methods like assertItemsEqual.\n\nLearn about Guido&#39;s ideas on when to add flags to method signatures. Recap his\nthoughts on the problems with the percent formatting operator. Then hear\nRaymond&#39;s advice on packaging, hierarchies, and nested name spaces.\n\nSee how to use documentation to mitigate API problems using examples from\nregular expressions, decimal, tokenize, sorting.\n\n&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;Creative Commons Attribution-NonCommercial-ShareAlike 3.0&quot;, 
+            &quot;embed&quot;: &quot;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://a.images.blip.tv/Pycon-PyCon2011APIDesignLessonsLearned555.png" rel="nofollow">http://a.images.blip.tv/Pycon-PyCon2011APIDesignLessonsLearned555.png</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: 262408868, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: &quot;<a href="http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2011/366_api-design-lessons-learned.mp4" rel="nofollow">http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2011/366_api-design-lessons-learned.mp4</a>&quot;, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2011-03-11&quot;, 
+            &quot;added&quot;: &quot;2012-02-23T04:20:00&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:27.948&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyCon US 2011&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;pycon-2011--backup-is-hard--let--39-s-go-shopping&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Gary Bernhardt&quot;
+            ], 
+            &quot;tags&quot;: [
+                &quot;backup&quot;, 
+                &quot;bigdata&quot;, 
+                &quot;bitbacker&quot;, 
+                &quot;pycon&quot;, 
+                &quot;pycon2011&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 424, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Backup Is Hard; Let&#39;s Go Shopping&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;Backup Is Hard; Let&#39;s Go Shopping\n\nPresented by Gary Bernhardt\n\nWe&#39;ll fly through the most clever bits of BitBacker, an online backup app\ndeveloped as a startup for three years and eventually abandoned. Highlights: a\nhacked-up httplib/asyncore HTTP client; a real-life, HATEOAS-respecting\nRESTful API, and an encryption scheme that can quickly diff a file system\nagainst the server while leaking no information \u2013 not even file timestamps.\n\nAbstract\n\nThis is the story of a solution to a huge problem: fast, secure online backup.\nA single client generates a hundred gigabytes, millions of data chunks, and\nthousands of file system snapshots. To appreciate the problem&#39;s scale,\nconsider that a Python array holding content hashes for 1,000,000 files\nconsumes 100 MB of memory. File hashes are only a portion of the required per-\nfile metadata, and that&#39;s only one for snapshot of thousands.\n\nWe&#39;ll tour the hard parts of this system with no apology for their difficulty.\nThe httplib/asyncore hybrid monster that served millions of parallel requests,\ntransparently retrying on failures and timeouts, with only 300 lines of\npython. The RESTful API \u2013 fully respecting hypertext, with every request\nsafely repeatable, even POSTs, and not a single hard-coded URL in the client.\nThe encryption scheme that leaked nothing \u2013 not even modification times \u2013 but\ncould quickly diff local file systems against the server. And, that one time\nthat a client accidentally requested a 4.76 megabyte URL in production.\n\n&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;Creative Commons Attribution-NonCommercial-ShareAlike 3.0&quot;, 
+            &quot;embed&quot;: &quot;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://a.images.blip.tv/Pycon-PyCon2011BackupIsHardLetsGoShopping206.png" rel="nofollow">http://a.images.blip.tv/Pycon-PyCon2011BackupIsHardLetsGoShopping206.png</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: 169795828, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: &quot;<a href="http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2011/424_backup-is-hard-let-s-go-shopping.mp4" rel="nofollow">http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2011/424_backup-is-hard-let-s-go-shopping.mp4</a>&quot;, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2011-03-11&quot;, 
+            &quot;added&quot;: &quot;2012-02-23T04:20:00&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:27.949&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyCon US 2011&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;pycon-2011--best-practices-for-impossible-deadlin&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Christopher Groskopf&quot;
+            ], 
+            &quot;tags&quot;: [
+                &quot;beeswithmachineguns&quot;, 
+                &quot;bestpractices&quot;, 
+                &quot;casestudy&quot;, 
+                &quot;pycon&quot;, 
+                &quot;pycon2011&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 391, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Best Practices for Impossible Deadlines&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;Best Practices for Impossible Deadlines\n\nPresented by Christopher Groskopf\n\nAt the Chicago Tribune we develop, test, and deploy production web\napplications on schedules that range from two hours to two months. This talk\nwill discuss the tools and techniques that allow us to make our deadlines,\nincluding automated deployments, frameworks, just-in-time testing, and more.\nAttention will be paid to [<a href="http://github.com/newsapps/beeswithmachineguns](htt%5Cnp://github.com/newsapps/beeswithmachineguns)" rel="nofollow">http://github.com/newsapps/beeswithmachineguns](htt\np://github.com/newsapps/beeswithmachineguns)</a> and the problems they solve.\n\nAbstract\n\nOn my first day at the Chicago Tribune I was given a CSV of data about\ndefoliant spraying in Vietnam and told to build this: Agent Orange. What\nfollowed was one of the most stressful and difficult weeks of my life, during\nwhich I learned an incredible amount about web development. I had to stop\nthinking about databases and start thinking about serialized JSON structures\nstashed on S3; stop thinking about building tools and start thinking about\nmashing up tech that was never designed to be married (in this case Simile\nTimeline and Google Maps); stop thinking about idealistic development\npractices and start thinking about getting a working product out the door. In\nshort: I had to rewire my brain for news.\n\nThis talk will go in-depth on deadline-oriented strategies that I&#39;ve learned\nin a year of building news applications. Some of these revolve around specific\ntechnologies, like fabric for single-keystroke deployments or Varnish for\ncaching, but most will be matters of practice, like what to test when you have\nno time for testing or how to avoid (yes, avoid!) database migrations.\n\nThey say Django is \&quot;the web framework for perfectionists with deadlines.\&quot; This\nis their Art of War.\n\nTalk outline:\n\n  * An anecdote: Agent Orange \n  * We can&#39;t have nice things (or best practices) \n  * Low-hanging fruit: staging environment, git branches, PEP8. \n  * Only build it once: Iterations, interviews and stakeholders \n  * Salvage, share and steal [code] \n  * Keeping track: Be a ticketing warrior \n  * Tools improve faster than you do: iterate your stack \n  * Single-keystroke deployment (fabric) \n  * Migrations are hard: Building read-only apps \n  * Don&#39;t serve that: Using S3 for hosting \n  * Caching &gt; optimization (varnish) \n  * Know your load limits (beeswithmachineguns) \n  * Configuration-as-application: application frameworks (maps, tables) \n  * Pair programming &gt; functional testing &gt; unit testing \n  * except UseWordpress, e: print \&quot;No, really\&quot; \n\nSites that will be used as examples:\n\n  * Agent Orange \n  * Burr Oak Memorial \n  * Census 2010: Cook county participation rates map \n  * Area judges and supervision rates of speeders table \n  * RedEye Homicide Tracker \n  * Chicago Tribune Elections Center \n  * 2010 Illinois School Report Cards \n  * TribLocal \n\n&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;Creative Commons Attribution-NonCommercial-ShareAlike 3.0&quot;, 
+            &quot;embed&quot;: &quot;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://a.images.blip.tv/Pycon-PyCon2011BestPracticesForImpossibleDeadlines540-981.jpg" rel="nofollow">http://a.images.blip.tv/Pycon-PyCon2011BestPracticesForImpossibleDeadlines540-981.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: 142203515, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: &quot;<a href="http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2011/391_best-practices-for-impossible-deadlines.mp4" rel="nofollow">http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2011/391_best-practices-for-impossible-deadlines.mp4</a>&quot;, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2011-03-11&quot;, 
+            &quot;added&quot;: &quot;2012-02-23T04:20:00&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:27.951&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyCon US 2011&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;pycon-2011--continuous-deployment&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Laurens Van Houtven&quot;
+            ], 
+            &quot;tags&quot;: [
+                &quot;cd&quot;, 
+                &quot;ci&quot;, 
+                &quot;continuousdeployment&quot;, 
+                &quot;deployment&quot;, 
+                &quot;pycon&quot;, 
+                &quot;pycon2011&quot;, 
+                &quot;softwaredevelopment&quot;, 
+                &quot;tdd&quot;, 
+                &quot;workflow&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 407, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Continuous deployment&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;Continuous deployment\n\nPresented by Laurens Van Houtven\n\nThis talk is about continuous deployment practices and tools, lessons learned\nfrom implementing it, and putting them into perspective. The goal is to give\nother people tips and pointers for applying these ideas themselves.\n\nAbstract\n\nContinuous deployment is the practice of putting the latest revision of\nsoftware into production use all the time, as opposed to working towards\nlarger releases. The important difference is iteration time: whereas large\nsoftware packages produce new software in timeframes of years or months,\ncontinuous deployment teams typically put new code into production in\ntimeframes of hours or less.\n\nThe practice is slowly attracting a small but growing group of loyal\nfollowers, just like continuous integration over the past few years and test-\ndriven development did before that. They can be explained in terms of being\nnatural extensions of each other. Like TDD and CI, CD gets eyed somewhat\nsuspiciously (and rightfully so: skeptical analysis is great), but the\nundersigned believes there&#39;s a legitimate advantage for many applications.\n\nMany years ago, TTD and testing tools in general were mostly ad-hockery. Now,\nwith many different production-quality testing tools, this has become\nunthinkable. Similarly, continuous integration was something other people did\nfor a long time, but now we have tools such as Buildbot and Hudson. Continuous\ndeployment is still somewhat in the early stage in terms of ready-to-use\ntools, but it&#39;s likely that we&#39;ll see a similar evolution.\n\nHere&#39;s a rough outline of what I plan to cover:\n\n  * a short history of people developed software \n  * from the recent models to CD (sort of a working definition of CD here) \n  * when is it a good idea? pros/cons \n  * requirements &amp; battle plan for applying CD in an existing development environment (and possibly code base) \n  * an overview of existing tools and how they work together \n  * caveat emptors, known pitfalls (deployment and recovery strategies go here, since most implementations figure out they need them after stuff blows up) \n  * questions! (hopefully lots of people who&#39;ve tried or are thinking about implementing something similar -- like I said, there are a lot of people implementing it but not too many ideas being bounced around) \n\n&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;Creative Commons Attribution-NonCommercial-ShareAlike 3.0&quot;, 
+            &quot;embed&quot;: &quot;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://a.images.blip.tv/Pycon-PyCon2011ContinuousDeployment817.png" rel="nofollow">http://a.images.blip.tv/Pycon-PyCon2011ContinuousDeployment817.png</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: 134193408, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: &quot;<a href="http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2011/407_continuous-deployment.mp4" rel="nofollow">http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2011/407_continuous-deployment.mp4</a>&quot;, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2011-03-11&quot;, 
+            &quot;added&quot;: &quot;2012-02-23T04:20:00&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:27.952&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyCon US 2011&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;pycon-2011--couchdb-and-python-in-practice&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Luke Gotszling&quot;
+            ], 
+            &quot;tags&quot;: [
+                &quot;couchdb&quot;, 
+                &quot;pycon&quot;, 
+                &quot;pycon2011&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 429, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;CouchDB and Python in practice&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;CouchDB and Python in practice\n\nPresented by Luke Gotszling\n\nThis talk introduces one &#39;NoSQL&#39; solution, CouchDB, and how to get it to play\nwell with Python. Topics covered:\n\n  * Introduction to CouchDB \n  * A python ORM for CouchDB \n  * Parsing CouchDB documents within python \n  * Writing view functions in python \n  * Map/reduce on CouchDB from python \n  * Lessons learned from managing and distributing a live deployment at scale under high load \n\nAbstract\n\nThis is a rough draft\n\nNoSQL\n\n  * CouchDB stores schema free documents \n\nWhy CouchDB?\n\n  * Complicated mapping structures handled \n  * Revision history \n  * Maps nicely to Python objects \n  * HTTP protocol \n\nPython ORM\n\n  * couchdb-python \n  * Mapping structures \n  * demo \n\nView functions\n\n  * write in Erlang, Javascript, Python? \n  * demo \n\nScaling\n\n  * Distributed map/reduce \n  * BigCouch \n  * Read/write quorum \n\n&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;Creative Commons Attribution-NonCommercial-ShareAlike 3.0&quot;, 
+            &quot;embed&quot;: &quot;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://a.images.blip.tv/Pycon-PyCon2011CouchDBAndPythonInPractice776.png" rel="nofollow">http://a.images.blip.tv/Pycon-PyCon2011CouchDBAndPythonInPractice776.png</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: 146366548, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: &quot;<a href="http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2011/429_couchdb-and-python-in-practice.mp4" rel="nofollow">http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2011/429_couchdb-and-python-in-practice.mp4</a>&quot;, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2011-03-11&quot;, 
+            &quot;added&quot;: &quot;2012-02-23T04:20:00&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:27.954&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyCon US 2011&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;pycon-2011--dependency-management-with-puppet&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Richard Crowley&quot;
+            ], 
+            &quot;tags&quot;: [
+                &quot;dependencies&quot;, 
+                &quot;puppet&quot;, 
+                &quot;pycon&quot;, 
+                &quot;pycon2011&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 431, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Dependency management with Puppet&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;Dependency management with Puppet\n\nPresented by Richard Crowley\n\nPuppet is a configuration management tool that we&#39;ll learn to use the easy\nway. We&#39;ll introduce the Puppet language and the concept of resources like\npackages, files, shell commands, and more. We&#39;ll use Puppet to build our dev\nenvironment and deploy it to production servers.\n\nAbstract\n\nWe&#39;ve all been there: religiously following the steps in some blog post for\nthe 47th time trying to setup a shiny new server. We thought we&#39;d improved the\nsituation when we copied our Bash history into doit.sh and committed it. Then\nalong came Pip and requirements.txt files.\n\nThat&#39;s where most of us are today. Pip can only manage Python packages so much\nof our servers&#39; behavior is left to Lady Luck. Puppet gives us the power to\nefficiently and confidently specify everything our program needs.\n\nWe&#39;ll start at square one and the concept of resources, the basic unit of\nconfiguration management. We&#39;ll learn the Puppet language&#39;s resource syntax.\nWe&#39;ll talk about obvious resource types like packages and files plus less\nobvious types like shell commands, users, groups, and daemons. We&#39;ll compose\nresources into larger ones, declare dependencies between resources, and\naccommodate differences between OS X and Linux.\n\nThese Puppet manifests can satisfy our program&#39;s dependencies on demand,\nmaking them ideal parts of the deploy process. We&#39;ll walk through how Puppet\nis used to build production environments both through tools such as Fabric and\nPuppet&#39;s traditional client-server mode.\n\nDependency hell doesn&#39;t have to be your reality. Consistent, reliable\nenvironments can be had with Puppet.\n\n&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;Creative Commons Attribution-NonCommercial-ShareAlike 3.0&quot;, 
+            &quot;embed&quot;: &quot;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://a.images.blip.tv/Pycon-PyCon2011DependencyManagementWithPuppet645.png" rel="nofollow">http://a.images.blip.tv/Pycon-PyCon2011DependencyManagementWithPuppet645.png</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: 153342144, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: &quot;<a href="http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2011/431_dependency-management-with-puppet.mp4" rel="nofollow">http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2011/431_dependency-management-with-puppet.mp4</a>&quot;, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2011-03-11&quot;, 
+            &quot;added&quot;: &quot;2012-02-23T04:20:00&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:27.955&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyCon US 2011&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;pycon-2011--deploying-applications-with-zc-buildo&quot;, 
+            &quot;speakers&quot;: [
+                &quot;JIm Fulton&quot;
+            ], 
+            &quot;tags&quot;: [
+                &quot;deployment&quot;, 
+                &quot;pycon&quot;, 
+                &quot;pycon2011&quot;, 
+                &quot;zc.buildout&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 426, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Deploying Applications with zc.buildout&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;Deploying Applications with zc.buildout\n\nPresented by JIm Fulton\n\nThis talk described using zc.buildout for application deployment to production\nenvironments. It presents building self-contained source releases, and using\nthese to create RPM distributions. It shows how to use buildout to configure\nservices, including web servers, cron jobs, monitoring and so on. Finally, it\npresents ongoing efforts to deploy applications that span many machines.\n\nAbstract\n\nWe build and deploy large Python applications for our customers. These\napplications are built from many component parts including Python packages and\nnon-python applications and tools. Assembling these pieces can be a tedious\nand error-prone process. The zc.buildout (Buildout) package was developed to\nautomate this process.\n\nAs our use of buildout has matured, we&#39;ve integrated it with system packaging\ntools and developed techniques for managing software deployemnt and service\nconfiguration. I&#39;ll provide a detailed description of the techniques and tools\nused.\n\nOutline:\n\n  * Buildout \n    * Motivation \n    * History \n    * Configuration files \n    * Recipes \n  * Deployment pholisophy: keeping software and service configuration separate \n  * System Packaging \n    * Making self-contained source releases (tar balls) \n    * Creating system packages from source releases with RPM \n  * Service configuration -- system build outs \n    * Scope: Python processes, cron, log rotation, run scripts, monitoring, etc. \n    * Place files in \&quot;standard\&quot; locations. \n    * Run by root \n    * examples \n  * Meta recipes \n    * Goal: provide only essential information. \n    * Recipes provide basic level of abstraction. \n    * Buildout provides basic tools to build on these abstractions, but these tools only scale so far. \n    * Buildout configuration language is *not* a programming language. \n    * Meta-recipes provide a much more powerful way to build high-level abstractions over basic recipes. \n  * Next step: Make me a ... \n    * Model based definition of complete systems spanning multiple hosts with interlocking services \n    * Automatic management of resources \n    * Implemented with ssh, system packaging tools (e.g. yum) and buildout-based tools. \n    * Four levels of abstraction \n    * Current status \n\n&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;Creative Commons Attribution-NonCommercial-ShareAlike 3.0&quot;, 
+            &quot;embed&quot;: &quot;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://a.images.blip.tv/Pycon-PyCon2011DeployingApplicationsWithZcbuildout710.png" rel="nofollow">http://a.images.blip.tv/Pycon-PyCon2011DeployingApplicationsWithZcbuildout710.png</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: 155307917, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: &quot;<a href="http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2011/426_deploying-applications-with-zc-buildout.mp4" rel="nofollow">http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2011/426_deploying-applications-with-zc-buildout.mp4</a>&quot;, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2011-03-11&quot;, 
+            &quot;added&quot;: &quot;2012-02-23T04:20:00&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:27.956&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyCon US 2011&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;pycon-2011--disqus--serving-400-million-people-wi&quot;, 
+            &quot;speakers&quot;: [
+                &quot;David Cramer&quot;, 
+                &quot;Jason Yan&quot;
+            ], 
+            &quot;tags&quot;: [
+                &quot;casestudy&quot;, 
+                &quot;disqus&quot;, 
+                &quot;pycon&quot;, 
+                &quot;pycon2011&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 418, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Disqus: Serving 400 million people with Python&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;Disqus: Serving 400 million people with Python\n\nPresented by David Cramer and Jason Yan\n\nDisqus, one of the largest Python applications on the web, will explain how\nthey deal with scaling complexities in a growing startup. Founded in 2007,\nDisqus maintains a small engineering team reaching over 400 million users a\nmonth. Being powered by Python has allowed quick iteration of the application,\nwithout sacrificing code quality and performance. The talk will cover key\nparts of the architecture and development process at Disqus, including\nhardware, databases, and common bottlenecks.\n\n&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;Creative Commons Attribution-NonCommercial-ShareAlike 3.0&quot;, 
+            &quot;embed&quot;: &quot;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://a.images.blip.tv/Pycon-PyCon2011DisqusServing400MillionPeopleWithPython212.png" rel="nofollow">http://a.images.blip.tv/Pycon-PyCon2011DisqusServing400MillionPeopleWithPython212.png</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: 93461740, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: &quot;<a href="http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2011/418_disqus-serving-400-million-people-with-python.mp4" rel="nofollow">http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2011/418_disqus-serving-400-million-people-with-python.mp4</a>&quot;, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2011-03-11&quot;, 
+            &quot;added&quot;: &quot;2012-02-23T04:20:00&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:27.957&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyCon US 2011&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;pycon-2011--distributed-tasks-with-celery&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Ryan Petrello&quot;
+            ], 
+            &quot;tags&quot;: [
+                &quot;amqp&quot;, 
+                &quot;celery&quot;, 
+                &quot;pycon&quot;, 
+                &quot;pycon2011&quot;, 
+                &quot;queueing&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 452, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Distributed Tasks with Celery&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;Distributed Tasks with Celery\n\nPresented by Ryan Petrello\n\nCelery is an open source task queueing system based on distributed message\npassing, especially using the AMQP protocol. This talk will focus on the need\nfor task distribution, the tools celery provides to meet those needs, and an\nin-depth discussion of how we&#39;ve used celery at ShootQ to improve the\nefficiency and reliability of our background processes.\n\nAbstract\n\nThe talk (including time for questions) will last approximately 30 minutes and\nwill focus on the following topics:\n\n  * The need for distributed tasks in real world systems, especially in a web application environment. This portion of the talk will describe examples where the traditional request-response model of the web can be improved with background processing. \n  * A brief overview of traditional distributed message passing models and the AMPQ protocol. \n  * An overview of Celery and the variety of tools it provides for task distribution, scheduling, and execution. This portion of the talk will also review production-oriented components of Celery, such as monitoring, error detection/reporting, and error recovery. \n  * Real world discussion of several problems we solved at ShootQ using Celery including before-and-after looks at our implementations. \n  * Common pitfalls and gotchas we encountered while working with Celery. \n\n&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;Creative Commons Attribution-NonCommercial-ShareAlike 3.0&quot;, 
+            &quot;embed&quot;: &quot;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://a.images.blip.tv/Pycon-PyCon2011DistributedTasksWithCelery711.png" rel="nofollow">http://a.images.blip.tv/Pycon-PyCon2011DistributedTasksWithCelery711.png</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: 162590519, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: &quot;<a href="http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2011/452_distributed-tasks-with-celery.mp4" rel="nofollow">http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2011/452_distributed-tasks-with-celery.mp4</a>&quot;, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2011-03-11&quot;, 
+            &quot;added&quot;: &quot;2012-02-23T04:20:00&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:27.959&quot;
+        }
+    ]
+}</pre>
+            </div>
+        </div>
+
+            
+
+                
+
+                
+            
+
+        </div>
+        <!-- END content-main -->
+
+    </div>
+    <!-- END Content -->
+
+        <div id="push"></div>
+
+    </div>
+
+    </div><!-- ./wrapper -->
+
+    
+    
+
+    
+    <script src="/static/rest_framework/js/jquery-1.8.1-min.js"></script>
+    <script src="/static/rest_framework/js/bootstrap.min.js"></script>
+    <script src="/static/rest_framework/js/prettify-min.js"></script>
+    <script src="/static/rest_framework/js/default.js"></script>
+    
+  </body>
+
+<!-- Mirrored from pyvideo.org/api/v2/video/?page=160 by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 07 Jan 2016 03:54:09 GMT -->
+</html>

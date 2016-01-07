@@ -1,0 +1,191 @@
+
+
+<!DOCTYPE html>
+<html>
+    
+<!-- Mirrored from pyvideo.org/api/v2/video/726 by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 07 Jan 2016 03:34:01 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+    
+
+        
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+        <meta name="robots" content="NONE,NOARCHIVE" />
+        
+
+        <title>Django REST framework</title>
+
+        
+        
+            <link rel="stylesheet" type="text/css" href="/static/rest_framework/css/bootstrap.min.css"/>
+            <link rel="stylesheet" type="text/css" href="/static/rest_framework/css/bootstrap-tweaks.css"/>
+        
+        <link rel="stylesheet" type="text/css" href="/static/rest_framework/css/prettify.css"/>
+        <link rel="stylesheet" type="text/css" href="/static/rest_framework/css/default.css"/>
+        
+
+    
+    </head>
+
+  <body class=" container">
+
+    <div class="wrapper">
+
+    
+    <div class="navbar navbar-inverse">
+        <div class="navbar-inner">
+            <div class="container-fluid">
+                <span href="/">
+                    <a class='brand' rel="nofollow" href='http://www.django-rest-framework.org'>Django REST framework <span class="version">2.3.14</span></a>
+                </span>
+                <ul class="nav pull-right">
+                    
+                        
+                            <li></li>
+                        
+                    
+                </ul>
+            </div>
+        </div>
+    </div>
+    
+
+    
+    <ul class="breadcrumb">
+        
+            <li>
+                <a href="/api/v2/video/" >Video List Create Api</a> <span class="divider">&rsaquo;</span>
+            </li>
+        
+            <li>
+                <a href="/api/v2/video/726" class="active">Video Retrieve Update Api</a> 
+            </li>
+        
+    </ul>
+    
+
+    <!-- Content -->
+    <div id="content">
+
+        
+            <form id="get-form" class="pull-right">
+                <fieldset>
+                    <div class="btn-group format-selection">
+                        <a class="btn btn-primary js-tooltip" href='/api/v2/video/726' rel="nofollow" title="Make a GET request on the Video Retrieve Update Api resource">GET</a>
+
+                        <button class="btn btn-primary dropdown-toggle js-tooltip" data-toggle="dropdown" title="Specify a format for the GET request">
+                            <span class="caret"></span>
+                        </button>
+                        <ul class="dropdown-menu">
+                            
+                                <li>
+                                    <a class="js-tooltip format-option" href='/api/v2/video/726?format=json' rel="nofollow" title="Make a GET request on the Video Retrieve Update Api resource with the format set to `json`">json</a>
+                                </li>
+                            
+                                <li>
+                                    <a class="js-tooltip format-option" href='/api/v2/video/726?format=api' rel="nofollow" title="Make a GET request on the Video Retrieve Update Api resource with the format set to `api`">api</a>
+                                </li>
+                            
+                        </ul>
+                    </div>
+
+                </fieldset>
+            </form>
+        
+
+        
+            <form class="button-form" action="/api/v2/video/726" method="POST" class="pull-right">
+                <input type='hidden' name='csrfmiddlewaretoken' value='pT8iI6zhtQdsGFmu4tryYgFrUlipl2B3' />
+                <input type="hidden" name="_method" value="OPTIONS" />
+                <button class="btn btn-primary js-tooltip" title="Make an OPTIONS request on the Video Retrieve Update Api resource">OPTIONS</button>
+            </form>
+        
+
+        
+
+        <div class="content-main">
+            <div class="page-header"><h1>Video Retrieve Update Api</h1></div>
+            
+            
+            
+            <div class="request-info" style="clear: both" >
+                <pre class="prettyprint"><b>GET</b> /api/v2/video/726</pre>
+            </div>
+            <div class="response-info">
+                <pre class="prettyprint"><div class="meta nocode"><b>HTTP 200 OK</b>
+<b>Content-Type:</b> <span class="lit">application/json</span>
+<b>Vary:</b> <span class="lit">Accept</span>
+<b>Allow:</b> <span class="lit">GET, PUT, PATCH, HEAD, OPTIONS</span>
+
+</div>{
+    &quot;category&quot;: &quot;PyCon US 2012&quot;, 
+    &quot;language&quot;: &quot;English&quot;, 
+    &quot;slug&quot;: &quot;43-what-is-ipv6-and-why-does-my-website-i-need-i&quot;, 
+    &quot;speakers&quot;: [
+        &quot;Bob Van Zant&quot;
+    ], 
+    &quot;tags&quot;: [], 
+    &quot;related_urls&quot;: [], 
+    &quot;id&quot;: 726, 
+    &quot;state&quot;: 1, 
+    &quot;title&quot;: &quot;43. What is IPv6 and why does my website I need it&quot;, 
+    &quot;summary&quot;: &quot;On February 3rd, 2011 the world ran out of the IPv4 addresses that we know and\nlove. Clearly the Internet has survived even though hardly anyone has deployed\nIPv4&#39;s successor, IPv6. Drop by to learn about what IPv6 is, why you should\ndeploy it and some of the hurdles to deployment.\n\n&quot;, 
+    &quot;description&quot;: &quot;**Background**\n\nOn February 3rd, 2011 the world ran out of the IPv4 addresses that we know and\nlove. The Internet continues to work thanks to technologies like NAT that\nenable private IP addresses like 192.168.1.1 and 10.0.0.1 to be reused across\norganizations. However, even these large blocks of private IP addresses are\nnot large enough for large ISPs like Comcast in the United States that give\nseveral IP addresses to each customer (ex. cable set top box, voip, cable\nmodem).\n\nTo continue adding new customers large ISPs have begun deploying two\ntechnologies: IPv6 and large scale NAT.\n\nLarge scale NAT is a way for large ISPs to put several of their customers\nbehind a single public IP address. This means that the one public IPv4 address\nyou used to have to yourself is now shared by you and several of your\nneighbors. It means that as a website owner it is now more difficult to\ndiscern anything useful from the IP addresses visiting your website.\n\nIPv6 solves the address exhaustion problem by moving from approximately 4\nbillion IP addresses to 3.4\u00d710^38 IP addresses; more than the number of atoms\non Earth. With plenty of IP addresses ISPs can now return to giving out\nunique, public IP addresses to each customer.\n\nMany mobile operators are already beginning to deploy IPv6. In 2009 Verizon\nissued a mandate that any LTE devices on its network support IPv6 with IPv4\nsupport being listed as optional [1]. An IPv6-only device will still need\naccess to the IPv4 Internet, however, IPv6 and IPv4 are not compatible.\nProviders like Verizon are putting in place protocol translation devices that\ninspect Internet traffic going through them and proxy IPv4-only websites to\ntheir IPv6 customers. While this may sound wonderful it means that mobile\nproviders are inspecting and rewriting your packets. Making things more\ninteresting is that this won&#39;t work securely over SSL. The solution is to\nenable IPv6 on your website so that IPv6-only hosts can directly access your\ncontent.\n\n**Joining the IPv6 bandwagon**\n\nAmazon&#39;s Elastic Load Balancer supports IPv6 and is already enabled in all\neast coast availability zones [2]. If you&#39;re already using ELB enabling IPv6\non your website is as easy as making a single DNS change. Or so we&#39;d hope,\nthere are still some impediments to a world where your site runs seamlessly on\nIPv6.\n\n**The user with broken IPv6**\n\nThere are people in the world with broken or inferior IPv6 connectivity and a\nweb browser or operating system that attempt to use IPv6 anyway. What this\nmeans is that if you turn on IPv6 on your website you have the potential to\ncut off those users from your site. In this talk I&#39;ll discuss methods for\nmeasuring and analyzing this loss before your broadly enable IPv6 so that you\ncan make an informed decision about when and how to flip the switch.\n\n**Geo IP**\n\nGeo IP libraries today are still coming to terms with IPv6. One vendor in\nparticular is working on IPv6 but only provides limited support in their free\nlibraries and not yet in their python driver. In their commercial library, the\none generally considered better, they do not support IPv6 yet due to lack of\ndata [3].\n\n**IPv6 without Amazon**\n\nAt Eventbrite we do development inside of Virtual Box virtual machines. In\nthis talk I&#39;ll discuss how we configure IPv6 on both the host and guest\noperating systems so that we can test IPv6 before we push to Amazon.\n\n**IP Address Validation**\n\nIf you accept IP addresses from end users check your IP address validation\nroutines (Django has support, see GenericIPAddressField).\n\n**References**\n\n  * [1] [<a href="http://www.circleid.com/posts/20090609_verizon_mandates_ipv6_support_for_next_gen_cell_phones/](http://www.circleid.com/posts/20090609_verizon_mandates_ipv6_support_for_next_gen_cell_phones/)%5Cn" rel="nofollow">http://www.circleid.com/posts/20090609_verizon_mandates_ipv6_support_for_next_gen_cell_phones/](http://www.circleid.com/posts/20090609_verizon_mandates_ipv6_support_for_next_gen_cell_phones/)\n</a>  * [2] [<a href="http://www.allthingsdistributed.com/2011/05/aws_ipv6.html](http://www.allthingsdistributed.com/2011/05/aws_ipv6.html)%5Cn" rel="nofollow">http://www.allthingsdistributed.com/2011/05/aws_ipv6.html](http://www.allthingsdistributed.com/2011/05/aws_ipv6.html)\n</a>  * [3] [<a href="http://www.maxmind.com/app/ipv6](http://www.maxmind.com/app/ipv6)%5Cn%5Cn" rel="nofollow">http://www.maxmind.com/app/ipv6](http://www.maxmind.com/app/ipv6)\n\n</a>&quot;, 
+    &quot;quality_notes&quot;: &quot;&quot;, 
+    &quot;copyright_text&quot;: &quot;&quot;, 
+    &quot;embed&quot;: &quot;&lt;object width=\&quot;425\&quot; height=\&quot;344\&quot;&gt;&lt;param name=\&quot;movie\&quot; value=\&quot;http://www.youtube.com/v/DTGi8y1DMtg?version=3&amp;amp;f=videos&amp;amp;app=youtube_gdata\&quot;&gt;&lt;param name=\&quot;allowFullScreen\&quot; value=\&quot;true\&quot;&gt;&lt;param name=\&quot;allowscriptaccess\&quot; value=\&quot;always\&quot;&gt;&lt;embed src=\&quot;http://www.youtube.com/v/DTGi8y1DMtg?version=3&amp;amp;f=videos&amp;amp;app=youtube_gdata\&quot; allowscriptaccess=\&quot;always\&quot; height=\&quot;344\&quot; width=\&quot;425\&quot; allowfullscreen=\&quot;true\&quot; type=\&quot;application/x-shockwave-flash\&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&quot;, 
+    &quot;thumbnail_url&quot;: &quot;<a href="http://img.youtube.com/vi/DTGi8y1DMtg/hqdefault.jpg" rel="nofollow">http://img.youtube.com/vi/DTGi8y1DMtg/hqdefault.jpg</a>&quot;, 
+    &quot;duration&quot;: null, 
+    &quot;video_ogv_length&quot;: null, 
+    &quot;video_ogv_url&quot;: null, 
+    &quot;video_ogv_download_only&quot;: false, 
+    &quot;video_mp4_length&quot;: null, 
+    &quot;video_mp4_url&quot;: null, 
+    &quot;video_mp4_download_only&quot;: false, 
+    &quot;video_webm_length&quot;: null, 
+    &quot;video_webm_url&quot;: null, 
+    &quot;video_webm_download_only&quot;: false, 
+    &quot;video_flv_length&quot;: null, 
+    &quot;video_flv_url&quot;: null, 
+    &quot;video_flv_download_only&quot;: false, 
+    &quot;source_url&quot;: &quot;<a href="https://www.youtube.com/watch?v=VuFW0PkNS74" rel="nofollow">https://www.youtube.com/watch?v=VuFW0PkNS74</a>&quot;, 
+    &quot;whiteboard&quot;: &quot;&quot;, 
+    &quot;recorded&quot;: &quot;2012-03-11&quot;, 
+    &quot;added&quot;: &quot;2012-03-14T02:15:16&quot;, 
+    &quot;updated&quot;: &quot;2014-04-08T20:28:27.360&quot;
+}</pre>
+            </div>
+        </div>
+
+            
+
+                
+
+                
+            
+
+        </div>
+        <!-- END content-main -->
+
+    </div>
+    <!-- END Content -->
+
+        <div id="push"></div>
+
+    </div>
+
+    </div><!-- ./wrapper -->
+
+    
+    
+
+    
+    <script src="/static/rest_framework/js/jquery-1.8.1-min.js"></script>
+    <script src="/static/rest_framework/js/bootstrap.min.js"></script>
+    <script src="/static/rest_framework/js/prettify-min.js"></script>
+    <script src="/static/rest_framework/js/default.js"></script>
+    
+  </body>
+
+<!-- Mirrored from pyvideo.org/api/v2/video/726 by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 07 Jan 2016 03:34:02 GMT -->
+</html>

@@ -1,0 +1,194 @@
+
+
+<!DOCTYPE html>
+<html>
+    
+<!-- Mirrored from pyvideo.org/api/v2/video/3838?format=api by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 07 Jan 2016 03:46:31 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+    
+
+        
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+        <meta name="robots" content="NONE,NOARCHIVE" />
+        
+
+        <title>Django REST framework</title>
+
+        
+        
+            <link rel="stylesheet" type="text/css" href="/static/rest_framework/css/bootstrap.min.css"/>
+            <link rel="stylesheet" type="text/css" href="/static/rest_framework/css/bootstrap-tweaks.css"/>
+        
+        <link rel="stylesheet" type="text/css" href="/static/rest_framework/css/prettify.css"/>
+        <link rel="stylesheet" type="text/css" href="/static/rest_framework/css/default.css"/>
+        
+
+    
+    </head>
+
+  <body class=" container">
+
+    <div class="wrapper">
+
+    
+    <div class="navbar navbar-inverse">
+        <div class="navbar-inner">
+            <div class="container-fluid">
+                <span href="/">
+                    <a class='brand' rel="nofollow" href='http://www.django-rest-framework.org'>Django REST framework <span class="version">2.3.14</span></a>
+                </span>
+                <ul class="nav pull-right">
+                    
+                        
+                            <li></li>
+                        
+                    
+                </ul>
+            </div>
+        </div>
+    </div>
+    
+
+    
+    <ul class="breadcrumb">
+        
+            <li>
+                <a href="/api/v2/video/" >Video List Create Api</a> <span class="divider">&rsaquo;</span>
+            </li>
+        
+            <li>
+                <a href="/api/v2/video/3838" class="active">Video Retrieve Update Api</a> 
+            </li>
+        
+    </ul>
+    
+
+    <!-- Content -->
+    <div id="content">
+
+        
+            <form id="get-form" class="pull-right">
+                <fieldset>
+                    <div class="btn-group format-selection">
+                        <a class="btn btn-primary js-tooltip" href='/api/v2/video/3838?format=api' rel="nofollow" title="Make a GET request on the Video Retrieve Update Api resource">GET</a>
+
+                        <button class="btn btn-primary dropdown-toggle js-tooltip" data-toggle="dropdown" title="Specify a format for the GET request">
+                            <span class="caret"></span>
+                        </button>
+                        <ul class="dropdown-menu">
+                            
+                                <li>
+                                    <a class="js-tooltip format-option" href='/api/v2/video/3838?format=json' rel="nofollow" title="Make a GET request on the Video Retrieve Update Api resource with the format set to `json`">json</a>
+                                </li>
+                            
+                                <li>
+                                    <a class="js-tooltip format-option" href='/api/v2/video/3838?format=api' rel="nofollow" title="Make a GET request on the Video Retrieve Update Api resource with the format set to `api`">api</a>
+                                </li>
+                            
+                        </ul>
+                    </div>
+
+                </fieldset>
+            </form>
+        
+
+        
+            <form class="button-form" action="/api/v2/video/3838?format=api" method="POST" class="pull-right">
+                <input type='hidden' name='csrfmiddlewaretoken' value='pT8iI6zhtQdsGFmu4tryYgFrUlipl2B3' />
+                <input type="hidden" name="_method" value="OPTIONS" />
+                <button class="btn btn-primary js-tooltip" title="Make an OPTIONS request on the Video Retrieve Update Api resource">OPTIONS</button>
+            </form>
+        
+
+        
+
+        <div class="content-main">
+            <div class="page-header"><h1>Video Retrieve Update Api</h1></div>
+            
+            
+            
+            <div class="request-info" style="clear: both" >
+                <pre class="prettyprint"><b>GET</b> /api/v2/video/3838?format=api</pre>
+            </div>
+            <div class="response-info">
+                <pre class="prettyprint"><div class="meta nocode"><b>HTTP 200 OK</b>
+<b>Content-Type:</b> <span class="lit">application/json</span>
+<b>Vary:</b> <span class="lit">Accept</span>
+<b>Allow:</b> <span class="lit">GET, PUT, PATCH, HEAD, OPTIONS</span>
+
+</div>{
+    &quot;category&quot;: &quot;PyCon ZA 2014&quot;, 
+    &quot;language&quot;: &quot;English&quot;, 
+    &quot;slug&quot;: &quot;python-at-the-observatory-old-telescopes-new-i&quot;, 
+    &quot;speakers&quot;: [
+        &quot;Carel van Gend; Briehan Lombaard&quot;
+    ], 
+    &quot;tags&quot;: [
+        &quot;pyconza&quot;, 
+        &quot;pyconza2014&quot;
+    ], 
+    &quot;related_urls&quot;: [], 
+    &quot;id&quot;: 3838, 
+    &quot;state&quot;: 1, 
+    &quot;title&quot;: &quot;Python at the Observatory - Old telescopes, new instruments&quot;, 
+    &quot;summary&quot;: &quot;We&#39;d like to show how we&#39;re using new instruments and the nimbleness of Python to bring seventy-year-old telescopes into the 21st century.\nOur long-term goal is to have the telescopes and associated instruments be remotely operable, easy to use, and robust enough that valuable data is reliably captured and stored.&quot;, 
+    &quot;description&quot;: &quot;Astronomy in South Africa has a long and illustrious history. In addition to the premier, 10-m Southern Africa Large Telescope (SALT) , there are a number of small- and medium-sized telescopes hosted at the South African Astronomical Observatory that still produce a great deal of valuable data. We&#39;d like to show how we&#39;re using new instruments and the nimbleness of Python to bring seventy-year-old telescopes into the 21st century.\nOur long-term goal is to have the telescopes and associated instruments be remotely operable, easy to use, and robust enough that valuable data is reliably captured and stored. In addition, we want to make it as easy as possible to update and improve the software which controls the instruments.\nWe have developed a distributed framework to control the instruments. Drivers for individual components may be written in whichever language is most suitable (we&#39;ve used C, C++ and Python where appropriate). These drivers communicate over a TCP/IP socket with a Python controller process, and on top of that is a Python/Flask driven web interface.\nWe plan to adapt the framework to new instruments (such as a wide-field camera for the 1.9- and 1-m telescopes), under-development instruments (such as an upgrade to the Cassegrain spectrograph on the 1.9-m telescope), and retrofit to older instruments as feasible.\nAs a demonstration of the new framework, we will present our work of migrating the control software for the Sutherland High-speed Optical Camera (SHOC) from being a disparate collection of proprietary, Windows-based software, to a unified, open, web accessible system. SHOC is a high-speed, accurately-timed, imaging instrument that can be mounted on the 1.9-, 1-, and 0.75-m telescopes in Sutherland, control of which includes that for a camera, a global positioning system (GPS), and a filter wheel.&quot;, 
+    &quot;quality_notes&quot;: &quot;&quot;, 
+    &quot;copyright_text&quot;: &quot;<a href="http://creativecommons.org/licenses/by/3.0/" rel="nofollow">http://creativecommons.org/licenses/by/3.0/</a>&quot;, 
+    &quot;embed&quot;: &quot;&quot;, 
+    &quot;thumbnail_url&quot;: &quot;<a href="http://archive.org/download/pyconza2014-python-at-the-observatory/pyconza2014-python-at-the-observatory.thumbs/15%20Python%20at%20the%20Observatory%20-_002130.jpg" rel="nofollow">http://archive.org/download/pyconza2014-python-at-the-observatory/pyconza2014-python-at-the-observatory.thumbs/15%20Python%20at%20the%20Observatory%20-_002130.jpg</a>&quot;, 
+    &quot;duration&quot;: null, 
+    &quot;video_ogv_length&quot;: null, 
+    &quot;video_ogv_url&quot;: &quot;<a href="http://archive.org/download/pyconza2014-python-at-the-observatory/15%20Python%20at%20the%20Observatory%20-.ogv" rel="nofollow">http://archive.org/download/pyconza2014-python-at-the-observatory/15%20Python%20at%20the%20Observatory%20-.ogv</a>&quot;, 
+    &quot;video_ogv_download_only&quot;: false, 
+    &quot;video_mp4_length&quot;: null, 
+    &quot;video_mp4_url&quot;: &quot;<a href="http://archive.org/download/pyconza2014-python-at-the-observatory/15%20Python%20at%20the%20Observatory%20-.mp4" rel="nofollow">http://archive.org/download/pyconza2014-python-at-the-observatory/15%20Python%20at%20the%20Observatory%20-.mp4</a>&quot;, 
+    &quot;video_mp4_download_only&quot;: false, 
+    &quot;video_webm_length&quot;: null, 
+    &quot;video_webm_url&quot;: &quot;&quot;, 
+    &quot;video_webm_download_only&quot;: false, 
+    &quot;video_flv_length&quot;: null, 
+    &quot;video_flv_url&quot;: &quot;&quot;, 
+    &quot;video_flv_download_only&quot;: false, 
+    &quot;source_url&quot;: &quot;<a href="http://archive.org/details/pyconza2014-python-at-the-observatory" rel="nofollow">http://archive.org/details/pyconza2014-python-at-the-observatory</a>&quot;, 
+    &quot;whiteboard&quot;: &quot;ia scrape&quot;, 
+    &quot;recorded&quot;: &quot;2014-10-03&quot;, 
+    &quot;added&quot;: &quot;2015-08-22T21:43:27.834&quot;, 
+    &quot;updated&quot;: &quot;2015-08-22T21:43:27.834&quot;
+}</pre>
+            </div>
+        </div>
+
+            
+
+                
+
+                
+            
+
+        </div>
+        <!-- END content-main -->
+
+    </div>
+    <!-- END Content -->
+
+        <div id="push"></div>
+
+    </div>
+
+    </div><!-- ./wrapper -->
+
+    
+    
+
+    
+    <script src="/static/rest_framework/js/jquery-1.8.1-min.js"></script>
+    <script src="/static/rest_framework/js/bootstrap.min.js"></script>
+    <script src="/static/rest_framework/js/prettify-min.js"></script>
+    <script src="/static/rest_framework/js/default.js"></script>
+    
+  </body>
+
+<!-- Mirrored from pyvideo.org/api/v2/video/3838?format=api by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 07 Jan 2016 03:46:31 GMT -->
+</html>

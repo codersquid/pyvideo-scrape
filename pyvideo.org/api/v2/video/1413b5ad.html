@@ -1,0 +1,194 @@
+
+
+<!DOCTYPE html>
+<html>
+    
+<!-- Mirrored from pyvideo.org/api/v2/video/1413?format=api by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 07 Jan 2016 03:46:31 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+    
+
+        
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+        <meta name="robots" content="NONE,NOARCHIVE" />
+        
+
+        <title>Django REST framework</title>
+
+        
+        
+            <link rel="stylesheet" type="text/css" href="/static/rest_framework/css/bootstrap.min.css"/>
+            <link rel="stylesheet" type="text/css" href="/static/rest_framework/css/bootstrap-tweaks.css"/>
+        
+        <link rel="stylesheet" type="text/css" href="/static/rest_framework/css/prettify.css"/>
+        <link rel="stylesheet" type="text/css" href="/static/rest_framework/css/default.css"/>
+        
+
+    
+    </head>
+
+  <body class=" container">
+
+    <div class="wrapper">
+
+    
+    <div class="navbar navbar-inverse">
+        <div class="navbar-inner">
+            <div class="container-fluid">
+                <span href="/">
+                    <a class='brand' rel="nofollow" href='http://www.django-rest-framework.org'>Django REST framework <span class="version">2.3.14</span></a>
+                </span>
+                <ul class="nav pull-right">
+                    
+                        
+                            <li></li>
+                        
+                    
+                </ul>
+            </div>
+        </div>
+    </div>
+    
+
+    
+    <ul class="breadcrumb">
+        
+            <li>
+                <a href="/api/v2/video/" >Video List Create Api</a> <span class="divider">&rsaquo;</span>
+            </li>
+        
+            <li>
+                <a href="/api/v2/video/1413" class="active">Video Retrieve Update Api</a> 
+            </li>
+        
+    </ul>
+    
+
+    <!-- Content -->
+    <div id="content">
+
+        
+            <form id="get-form" class="pull-right">
+                <fieldset>
+                    <div class="btn-group format-selection">
+                        <a class="btn btn-primary js-tooltip" href='/api/v2/video/1413?format=api' rel="nofollow" title="Make a GET request on the Video Retrieve Update Api resource">GET</a>
+
+                        <button class="btn btn-primary dropdown-toggle js-tooltip" data-toggle="dropdown" title="Specify a format for the GET request">
+                            <span class="caret"></span>
+                        </button>
+                        <ul class="dropdown-menu">
+                            
+                                <li>
+                                    <a class="js-tooltip format-option" href='/api/v2/video/1413?format=json' rel="nofollow" title="Make a GET request on the Video Retrieve Update Api resource with the format set to `json`">json</a>
+                                </li>
+                            
+                                <li>
+                                    <a class="js-tooltip format-option" href='/api/v2/video/1413?format=api' rel="nofollow" title="Make a GET request on the Video Retrieve Update Api resource with the format set to `api`">api</a>
+                                </li>
+                            
+                        </ul>
+                    </div>
+
+                </fieldset>
+            </form>
+        
+
+        
+            <form class="button-form" action="/api/v2/video/1413?format=api" method="POST" class="pull-right">
+                <input type='hidden' name='csrfmiddlewaretoken' value='pT8iI6zhtQdsGFmu4tryYgFrUlipl2B3' />
+                <input type="hidden" name="_method" value="OPTIONS" />
+                <button class="btn btn-primary js-tooltip" title="Make an OPTIONS request on the Video Retrieve Update Api resource">OPTIONS</button>
+            </form>
+        
+
+        
+
+        <div class="content-main">
+            <div class="page-header"><h1>Video Retrieve Update Api</h1></div>
+            
+            
+            
+            <div class="request-info" style="clear: both" >
+                <pre class="prettyprint"><b>GET</b> /api/v2/video/1413?format=api</pre>
+            </div>
+            <div class="response-info">
+                <pre class="prettyprint"><div class="meta nocode"><b>HTTP 200 OK</b>
+<b>Content-Type:</b> <span class="lit">application/json</span>
+<b>Vary:</b> <span class="lit">Accept</span>
+<b>Allow:</b> <span class="lit">GET, PUT, PATCH, HEAD, OPTIONS</span>
+
+</div>{
+    &quot;category&quot;: &quot;DjangoCon 2012&quot;, 
+    &quot;language&quot;: &quot;English&quot;, 
+    &quot;slug&quot;: &quot;under-the-microscope-evaluating-existing-django&quot;, 
+    &quot;speakers&quot;: [
+        &quot;Brian Moloney&quot;, 
+        &quot;Joe Jasinski&quot;
+    ], 
+    &quot;tags&quot;: [
+        &quot;django&quot;
+    ], 
+    &quot;related_urls&quot;: [], 
+    &quot;id&quot;: 1413, 
+    &quot;state&quot;: 1, 
+    &quot;title&quot;: &quot;Under the Microscope: Evaluating Existing Django Code When Onboarding a New Client&quot;, 
+    &quot;summary&quot;: &quot;As a Web development firm that specializes in Django, we receive many\ninquiries from organizations looking for assistance with their existing Django\nwebsites. This session will describe our process for evaluating existing\ncodebases and deployment structures. The goal is to provide a framework for\nevaluating other people&#39;s code and understand the scrutiny your code may\nsomeday endure.\n\n&quot;, 
+    &quot;description&quot;: &quot;Taking over someone else\u2019s code is an exercise fraught with peril. However,\nwith the growing popularity of Django, more and more organizations are seeking\ncompanies and individuals to take over their Django website and support their\nexisting Django codebase. This talk will describe the standardized process\nImaginary Landscape has developed to evaluate existing code as part of their\nnew client onboarding process.\n\nCovered topics:\n\n  * Introduction/Overview\n\n  * Top reasons why clients are looking to change vendor\n\n  * Initial assessment\n\n&gt;     * What questions to ask before looking at the code.\n\n  * Where to start when looking at code? \n\n&gt;     * Traversing the code tree to get a feel for how the code is structured\n\n&gt;     * Trying to determine how the previous developer thinks\n\n  * Detailed code review including checklist\n\n&gt;     * Things to look for when evaluating code: Version control, \&quot;Standard\&quot;\nsite layout, Settings file, hardcoding, Virtualenv, south, etc.\n\n  * Examples (names have been changed to protect the imperfect)\n\n&gt;     * The good: the kinds of coding and configuration techniques that seem\nto be consistent among well-thought-out projects.\n\n&gt;     * The bad: examples of code and configuration that make onboarding and\nmaintenance difficult.\n\n  * Final thoughts\n\n&gt;     * What you can do as a developer taking over a project.\n\n&gt;     * What you can do as a developer hoping to make great code that others\nmay someday see.\n\n&gt;     * Exercise your right to say no, it\u2019s your reputation on the line\n\n  * Q&amp;A\n\n&quot;, 
+    &quot;quality_notes&quot;: &quot;&quot;, 
+    &quot;copyright_text&quot;: &quot;Creative Commons Attribution license (reuse allowed&quot;, 
+    &quot;embed&quot;: &quot;&lt;object width=\&quot;640\&quot; height=\&quot;390\&quot;&gt;&lt;param name=\&quot;movie\&quot; value=\&quot;http://youtube.com/v/-hma3mlcrD8?version=3&amp;amp;hl=en_US\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowFullScreen\&quot; value=\&quot;true\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowscriptaccess\&quot; value=\&quot;always\&quot;&gt;&lt;/param&gt;&lt;embed src=\&quot;http://youtube.com/v/-hma3mlcrD8?version=3&amp;amp;hl=en_US\&quot; type=\&quot;application/x-shockwave-flash\&quot; width=\&quot;640\&quot; height=\&quot;390\&quot; allowscriptaccess=\&quot;always\&quot; allowfullscreen=\&quot;true\&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&quot;, 
+    &quot;thumbnail_url&quot;: &quot;<a href="http://i.ytimg.com/vi/-hma3mlcrD8/hqdefault.jpg" rel="nofollow">http://i.ytimg.com/vi/-hma3mlcrD8/hqdefault.jpg</a>&quot;, 
+    &quot;duration&quot;: null, 
+    &quot;video_ogv_length&quot;: null, 
+    &quot;video_ogv_url&quot;: null, 
+    &quot;video_ogv_download_only&quot;: false, 
+    &quot;video_mp4_length&quot;: null, 
+    &quot;video_mp4_url&quot;: null, 
+    &quot;video_mp4_download_only&quot;: false, 
+    &quot;video_webm_length&quot;: null, 
+    &quot;video_webm_url&quot;: null, 
+    &quot;video_webm_download_only&quot;: false, 
+    &quot;video_flv_length&quot;: null, 
+    &quot;video_flv_url&quot;: null, 
+    &quot;video_flv_download_only&quot;: false, 
+    &quot;source_url&quot;: &quot;<a href="http://www.youtube.com/watch?v=-hma3mlcrD8" rel="nofollow">http://www.youtube.com/watch?v=-hma3mlcrD8</a>&quot;, 
+    &quot;whiteboard&quot;: &quot;needs editing&quot;, 
+    &quot;recorded&quot;: &quot;2012-09-06&quot;, 
+    &quot;added&quot;: &quot;2012-10-08T17:39:54&quot;, 
+    &quot;updated&quot;: &quot;2014-04-08T20:28:26.980&quot;
+}</pre>
+            </div>
+        </div>
+
+            
+
+                
+
+                
+            
+
+        </div>
+        <!-- END content-main -->
+
+    </div>
+    <!-- END Content -->
+
+        <div id="push"></div>
+
+    </div>
+
+    </div><!-- ./wrapper -->
+
+    
+    
+
+    
+    <script src="/static/rest_framework/js/jquery-1.8.1-min.js"></script>
+    <script src="/static/rest_framework/js/bootstrap.min.js"></script>
+    <script src="/static/rest_framework/js/prettify-min.js"></script>
+    <script src="/static/rest_framework/js/default.js"></script>
+    
+  </body>
+
+<!-- Mirrored from pyvideo.org/api/v2/video/1413?format=api by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 07 Jan 2016 03:46:31 GMT -->
+</html>

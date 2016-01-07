@@ -1,0 +1,999 @@
+
+
+<!DOCTYPE html>
+<html>
+    
+<!-- Mirrored from pyvideo.org/api/v2/video/?page=15 by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 07 Jan 2016 03:47:13 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+    
+
+        
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+        <meta name="robots" content="NONE,NOARCHIVE" />
+        
+
+        <title>Django REST framework</title>
+
+        
+        
+            <link rel="stylesheet" type="text/css" href="/static/rest_framework/css/bootstrap.min.css"/>
+            <link rel="stylesheet" type="text/css" href="/static/rest_framework/css/bootstrap-tweaks.css"/>
+        
+        <link rel="stylesheet" type="text/css" href="/static/rest_framework/css/prettify.css"/>
+        <link rel="stylesheet" type="text/css" href="/static/rest_framework/css/default.css"/>
+        
+
+    
+    </head>
+
+  <body class=" container">
+
+    <div class="wrapper">
+
+    
+    <div class="navbar navbar-inverse">
+        <div class="navbar-inner">
+            <div class="container-fluid">
+                <span href="/">
+                    <a class='brand' rel="nofollow" href='http://www.django-rest-framework.org'>Django REST framework <span class="version">2.3.14</span></a>
+                </span>
+                <ul class="nav pull-right">
+                    
+                        
+                            <li></li>
+                        
+                    
+                </ul>
+            </div>
+        </div>
+    </div>
+    
+
+    
+    <ul class="breadcrumb">
+        
+            <li>
+                <a href="/api/v2/video/" class="active">Video List Create Api</a> 
+            </li>
+        
+    </ul>
+    
+
+    <!-- Content -->
+    <div id="content">
+
+        
+            <form id="get-form" class="pull-right">
+                <fieldset>
+                    <div class="btn-group format-selection">
+                        <a class="btn btn-primary js-tooltip" href='/api/v2/video/?page=15' rel="nofollow" title="Make a GET request on the Video List Create Api resource">GET</a>
+
+                        <button class="btn btn-primary dropdown-toggle js-tooltip" data-toggle="dropdown" title="Specify a format for the GET request">
+                            <span class="caret"></span>
+                        </button>
+                        <ul class="dropdown-menu">
+                            
+                                <li>
+                                    <a class="js-tooltip format-option" href='/api/v2/video/?page=15&format=json' rel="nofollow" title="Make a GET request on the Video List Create Api resource with the format set to `json`">json</a>
+                                </li>
+                            
+                                <li>
+                                    <a class="js-tooltip format-option" href='/api/v2/video/?page=15&format=api' rel="nofollow" title="Make a GET request on the Video List Create Api resource with the format set to `api`">api</a>
+                                </li>
+                            
+                        </ul>
+                    </div>
+
+                </fieldset>
+            </form>
+        
+
+        
+            <form class="button-form" action="/api/v2/video/?page=15" method="POST" class="pull-right">
+                <input type='hidden' name='csrfmiddlewaretoken' value='pT8iI6zhtQdsGFmu4tryYgFrUlipl2B3' />
+                <input type="hidden" name="_method" value="OPTIONS" />
+                <button class="btn btn-primary js-tooltip" title="Make an OPTIONS request on the Video List Create Api resource">OPTIONS</button>
+            </form>
+        
+
+        
+
+        <div class="content-main">
+            <div class="page-header"><h1>Video List Create Api</h1></div>
+            
+            
+            
+            <div class="request-info" style="clear: both" >
+                <pre class="prettyprint"><b>GET</b> /api/v2/video/?page=15</pre>
+            </div>
+            <div class="response-info">
+                <pre class="prettyprint"><div class="meta nocode"><b>HTTP 200 OK</b>
+<b>Content-Type:</b> <span class="lit">application/json</span>
+<b>Vary:</b> <span class="lit">Accept</span>
+<b>Allow:</b> <span class="lit">GET, POST, HEAD, OPTIONS</span>
+
+</div>{
+    &quot;count&quot;: 3439, 
+    &quot;next&quot;: &quot;<a href="http://pyvideo.org/api/v2/video/?page=16" rel="nofollow">http://pyvideo.org/api/v2/video/?page=16</a>&quot;, 
+    &quot;previous&quot;: &quot;<a href="http://pyvideo.org/api/v2/video/?page=14" rel="nofollow">http://pyvideo.org/api/v2/video/?page=14</a>&quot;, 
+    &quot;results&quot;: [
+        {
+            &quot;category&quot;: &quot;PyCon US 2009&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;pycon-2009--the-state-of-the-python-community--le&quot;, 
+            &quot;speakers&quot;: [], 
+            &quot;tags&quot;: [
+                &quot;psf&quot;, 
+                &quot;pycon&quot;, 
+                &quot;pycon2009&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 145, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;PyCon 2009: The State of the Python Community: Leading the Python tribe (#118)&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;  \nSteve Holden, Chairman of the Python Software Foundation, reflects on the\nmeaning of the phrase \&quot;the Python community\&quot; and the changes that have taken\nplace in the PSF in the last year. He discusses further possible changes that\ncould turn the PSF into a more \&quot;community-facing\&quot; organization, and solicits\nyour input on what kind of projects and activities it should be supporting.\n\n&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;Creative Commons Attribution-NonCommercial-ShareAlike 3.0&quot;, 
+            &quot;embed&quot;: &quot;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://a.images.blip.tv/Pycon-TheStateOfThePythonCommunityLeadingThePythonTribe902-75.jpg" rel="nofollow">http://a.images.blip.tv/Pycon-TheStateOfThePythonCommunityLeadingThePythonTribe902-75.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: 214255799, 
+            &quot;video_mp4_url&quot;: &quot;<a href="http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2009/145_pycon-2009-the-state-of-the-python-community-leading-the-python-tribe-118.mp4" rel="nofollow">http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2009/145_pycon-2009-the-state-of-the-python-community-leading-the-python-tribe-118.mp4</a>&quot;, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: null, 
+            &quot;added&quot;: &quot;2012-02-23T04:20:00&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:25.719&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyCon US 2009&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;pycon-2009--toscawidgets--test-driven-modular-aja&quot;, 
+            &quot;speakers&quot;: [], 
+            &quot;tags&quot;: [
+                &quot;pycon&quot;, 
+                &quot;pycon2009&quot;, 
+                &quot;testing&quot;, 
+                &quot;toscawidgets&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 211, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;PyCon 2009: ToscaWidgets: Test Driven Modular Ajax (Part 1 of 2)&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;  \n[VIDEO HAS ISSUES: room&#39;s AC was loud] If you have ever struggled with having\nto re-create the same content in multiple places in your web application it\nmight be time to look at ToscaWidgets. ToscaWidgets gives the developer the\nability to create reusable web content. This 3 hour lesson will cover\ninstallation, integration, and usage of ToscaWidgets. After we have a handle\non how to create validated forms with ToscaWidgets, we will spend the second\nhalf of this lesson creating a working ajax widget, which we will test the\nclient side component using ToscaWidget javascript technology.\n\n&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;Creative Commons Attribution-NonCommercial-ShareAlike 3.0&quot;, 
+            &quot;embed&quot;: &quot;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://a.images.blip.tv/Pycon-ToscaWidgetsTestDrivenModularAjaxPart001985-9.jpg" rel="nofollow">http://a.images.blip.tv/Pycon-ToscaWidgetsTestDrivenModularAjaxPart001985-9.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: 1038784757, 
+            &quot;video_mp4_url&quot;: &quot;<a href="http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2009/211_pycon-2009-toscawidgets-test-driven-modular-ajax-part-1-of-2.mp4" rel="nofollow">http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2009/211_pycon-2009-toscawidgets-test-driven-modular-ajax-part-1-of-2.mp4</a>&quot;, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: null, 
+            &quot;added&quot;: &quot;2012-02-23T04:20:00&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:25.757&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyCon US 2009&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;pycon-2009--toscawidgets--test-driven-modular-aj0&quot;, 
+            &quot;speakers&quot;: [], 
+            &quot;tags&quot;: [
+                &quot;pycon&quot;, 
+                &quot;pycon2009&quot;, 
+                &quot;testing&quot;, 
+                &quot;toscawidgets&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 212, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;PyCon 2009: ToscaWidgets: Test Driven Modular Ajax (Part 2 of 2)&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;  \n[VIDEO HAS ISSUES: room&#39;s AC was loud] If you have ever struggled with having\nto re-create the same content in multiple places in your web application it\nmight be time to look at ToscaWidgets. ToscaWidgets gives the developer the\nability to create reusable web content. This 3 hour lesson will cover\ninstallation, integration, and usage of ToscaWidgets. After we have a handle\non how to create validated forms with ToscaWidgets, we will spend the second\nhalf of this lesson creating a working ajax widget, which we will test the\nclient side component using ToscaWidget javascript technology.\n\n&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;Creative Commons Attribution-NonCommercial-ShareAlike 3.0&quot;, 
+            &quot;embed&quot;: &quot;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://a.images.blip.tv/Pycon-ToscaWidgetsTestDrivenModularAjaxPart002764-754.jpg" rel="nofollow">http://a.images.blip.tv/Pycon-ToscaWidgetsTestDrivenModularAjaxPart002764-754.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: 75066342, 
+            &quot;video_mp4_url&quot;: &quot;<a href="http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2009/212_pycon-2009-toscawidgets-test-driven-modular-ajax-part-2-of-2.mp4" rel="nofollow">http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2009/212_pycon-2009-toscawidgets-test-driven-modular-ajax-part-2-of-2.mp4</a>&quot;, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: null, 
+            &quot;added&quot;: &quot;2012-02-23T04:20:00&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:25.759&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyCon US 2009&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;pycon-2009--using-twisted-deferreds--part-1-of-3&quot;, 
+            &quot;speakers&quot;: [], 
+            &quot;tags&quot;: [
+                &quot;asynchronous&quot;, 
+                &quot;deferreds&quot;, 
+                &quot;pycon&quot;, 
+                &quot;pycon2009&quot;, 
+                &quot;tutorial&quot;, 
+                &quot;twisted&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 204, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;PyCon 2009: Using Twisted Deferreds (Part 1 of 3)&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;  \nWhile the documentation about deferreds is good, it is still not enough for\nmany. In this interactive tutorial, I will cover both the basics of deferreds\nand many non-trivial use-cases, with discussion of various approaches. Common\nmistakes, gotchas and other issues will be explained, as well as good idioms\nand techniques to use deferreds without pain. Deferreds bring asynchronous\nAPIs the clarity and programming power that is sometimes lost when using\nevent-based programming. They are an idea taken from many other programming\nlanguages, and made into a Pythonic solution If you are using Twisted, or\nwould like to use Twisted, this tutorial can help you with one of the most\nsubtle issues inherent in its APIs - Deferreds.\n\n&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;Creative Commons Attribution-NonCommercial-ShareAlike 3.0&quot;, 
+            &quot;embed&quot;: &quot;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://a.images.blip.tv/Pycon-UsingTwistedDeferredsPart001300-178.jpg" rel="nofollow">http://a.images.blip.tv/Pycon-UsingTwistedDeferredsPart001300-178.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: 1040669836, 
+            &quot;video_mp4_url&quot;: &quot;<a href="http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2009/204_pycon-2009-using-twisted-deferreds-part-1-of-3.mp4" rel="nofollow">http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2009/204_pycon-2009-using-twisted-deferreds-part-1-of-3.mp4</a>&quot;, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: null, 
+            &quot;added&quot;: &quot;2012-02-23T04:20:00&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:25.760&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyCon US 2009&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;pycon-2009--using-twisted-deferreds--part-2-of-3&quot;, 
+            &quot;speakers&quot;: [], 
+            &quot;tags&quot;: [
+                &quot;asynchronous&quot;, 
+                &quot;deferreds&quot;, 
+                &quot;pycon&quot;, 
+                &quot;pycon2009&quot;, 
+                &quot;tutorial&quot;, 
+                &quot;twisted&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 203, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;PyCon 2009: Using Twisted Deferreds (Part 2 of 3)&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;[](http://blip.tv/file/1997952)\n\nWhile the documentation about deferreds is good, it is still not enough for\nmany. In this interactive tutorial, I will cover both the basics of deferreds\nand many non-trivial use-cases, with discussion of various approaches. Common\nmistakes, gotchas and other issues will be explained, as well as good idioms\nand techniques to use deferreds without pain. Deferreds bring asynchronous\nAPIs the clarity and programming power that is sometimes lost when using\nevent-based programming. They are an idea taken from many other programming\nlanguages, and made into a Pythonic solution If you are using Twisted, or\nwould like to use Twisted, this tutorial can help you with one of the most\nsubtle issues inherent in its APIs - Deferreds.\n\n&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;Creative Commons Attribution-NonCommercial-ShareAlike 3.0&quot;, 
+            &quot;embed&quot;: &quot;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://a.images.blip.tv/Pycon-UsingTwistedDeferredsPart002282-868.jpg" rel="nofollow">http://a.images.blip.tv/Pycon-UsingTwistedDeferredsPart002282-868.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: 1043770003, 
+            &quot;video_mp4_url&quot;: &quot;<a href="http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2009/203_pycon-2009-using-twisted-deferreds-part-2-of-3.mp4" rel="nofollow">http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2009/203_pycon-2009-using-twisted-deferreds-part-2-of-3.mp4</a>&quot;, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: null, 
+            &quot;added&quot;: &quot;2012-02-23T04:20:00&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:25.761&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyCon US 2009&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;pycon-2009--using-twisted-deferreds--part-3-of-3&quot;, 
+            &quot;speakers&quot;: [], 
+            &quot;tags&quot;: [
+                &quot;asynchronous&quot;, 
+                &quot;deferreds&quot;, 
+                &quot;pycon&quot;, 
+                &quot;pycon2009&quot;, 
+                &quot;tutorial&quot;, 
+                &quot;twisted&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 205, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;PyCon 2009: Using Twisted Deferreds (Part 3 of 3)&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;  \nWhile the documentation about deferreds is good, it is still not enough for\nmany. In this interactive tutorial, I will cover both the basics of deferreds\nand many non-trivial use-cases, with discussion of various approaches. Common\nmistakes, gotchas and other issues will be explained, as well as good idioms\nand techniques to use deferreds without pain. Deferreds bring asynchronous\nAPIs the clarity and programming power that is sometimes lost when using\nevent-based programming. They are an idea taken from many other programming\nlanguages, and made into a Pythonic solution If you are using Twisted, or\nwould like to use Twisted, this tutorial can help you with one of the most\nsubtle issues inherent in its APIs - Deferreds.\n\n&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;Creative Commons Attribution-NonCommercial-ShareAlike 3.0&quot;, 
+            &quot;embed&quot;: &quot;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://a.images.blip.tv/Pycon-UsingTwistedDeferredsPart003600-823.jpg" rel="nofollow">http://a.images.blip.tv/Pycon-UsingTwistedDeferredsPart003600-823.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: 2566011, 
+            &quot;video_mp4_url&quot;: &quot;<a href="http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2009/205_pycon-2009-using-twisted-deferreds-part-3-of-3.mp4" rel="nofollow">http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2009/205_pycon-2009-using-twisted-deferreds-part-3-of-3.mp4</a>&quot;, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: null, 
+            &quot;added&quot;: &quot;2012-02-23T04:20:00&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:25.763&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyCon AU 2010&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;pyconau-2010--an-introduction-to-processing&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Clinton J Roy&quot;
+            ], 
+            &quot;tags&quot;: [
+                &quot;gui&quot;, 
+                &quot;multimedia&quot;, 
+                &quot;processing&quot;, 
+                &quot;pyconau&quot;, 
+                &quot;pyconau2010&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 457, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;PyConAU 2010: An Introduction to Processing&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;An Introduction to Processing\n\nPresented by Clinton J Roy (University of Queensland)\n\nProcessing is an Open Source language designed to make interactive graphics\nand animation programming easier than traditional GUI toolkits. Processing is\nused to prototype systems and create interactive data visualisations.\n\n[NOTES: Missing first 2 minutes of audio, then camera microphone for first\nsection.]\n\n&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;Creative Commons Attribution-NonCommercial-ShareAlike 3.0&quot;, 
+            &quot;embed&quot;: &quot;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://a.images.blip.tv/Pyconau-AnIntroductionToProcessing388.png" rel="nofollow">http://a.images.blip.tv/Pyconau-AnIntroductionToProcessing388.png</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: null, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: &quot;<a href="http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-au-2010/457_pyconau-2010-an-introduction-to-processing.flv" rel="nofollow">http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-au-2010/457_pyconau-2010-an-introduction-to-processing.flv</a>&quot;, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: null, 
+            &quot;added&quot;: &quot;2012-02-23T04:20:00&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:25.764&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyCon AU 2010&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;pyconau-2010--app-engine-101&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Brian K Quinlan&quot;
+            ], 
+            &quot;tags&quot;: [
+                &quot;appengine&quot;, 
+                &quot;gae&quot;, 
+                &quot;pyconau&quot;, 
+                &quot;pyconau2010&quot;, 
+                &quot;tutorial&quot;, 
+                &quot;web&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 458, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;PyConAU 2010: App Engine 101&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;App Engine 101\n\nPresented by Brian K Quinlan (Google)\n\nApp Engine lets you run your Python web applications on Google&#39;s\ninfrastructure.\n\nThis tutorial will provide an overview on how to create, configure and deploy\napplications on App Engine using a simple (but useful!) example application.\n\n&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;Creative Commons Attribution-NonCommercial-ShareAlike 3.0&quot;, 
+            &quot;embed&quot;: &quot;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://a.images.blip.tv/Pyconau-AppEngine101534.png" rel="nofollow">http://a.images.blip.tv/Pyconau-AppEngine101534.png</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: null, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: &quot;<a href="http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-au-2010/458_pyconau-2010-app-engine-101.flv" rel="nofollow">http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-au-2010/458_pyconau-2010-app-engine-101.flv</a>&quot;, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: null, 
+            &quot;added&quot;: &quot;2012-02-23T04:20:00&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:25.765&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyCon AU 2010&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;pyconau-2010--building-the-wave-robots-api--behin&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Pamela S Fox&quot;
+            ], 
+            &quot;tags&quot;: [
+                &quot;apis&quot;, 
+                &quot;json&quot;, 
+                &quot;jsonrpc&quot;, 
+                &quot;pyconau&quot;, 
+                &quot;pyconau2010&quot;, 
+                &quot;web&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 459, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;PyConAU 2010: Building the Wave Robots API: Behind the Scenes&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;Building the Wave Robots API: Behind the Scenes\n\nPresented by Pamela S Fox (Google)\n\nThe Google Wave robots protocol involves JSON-RPC messages that are sent\nbetween the Wave server and the robot, communicating events to process and\noperations to perform. The Python Robots API abstracts on top of that JSON-RPC\nservice, allowing developers to interact with waves using event callbacks,\npython classes, and chained functions. In this talk, we&#39;ll explain the JSON-\nRPC protocol, talk about how we designed the API to sit on top of that\nprotocol, and show how developers can use the API.\n\n&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;Creative Commons Attribution-NonCommercial-ShareAlike 3.0&quot;, 
+            &quot;embed&quot;: &quot;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://a.images.blip.tv/Pyconau-BuildingTheWaveRobotsAPIBehindTheScenes216.png" rel="nofollow">http://a.images.blip.tv/Pyconau-BuildingTheWaveRobotsAPIBehindTheScenes216.png</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: null, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: &quot;<a href="http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-au-2010/459_pyconau-2010-building-the-wave-robots-api-behind-the-scenes.flv" rel="nofollow">http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-au-2010/459_pyconau-2010-building-the-wave-robots-api-behind-the-scenes.flv</a>&quot;, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: null, 
+            &quot;added&quot;: &quot;2012-02-23T04:20:00&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:25.767&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyCon AU 2010&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;pyconau-2010--displaying-australian-datasets-with&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Malcolm Tredinnick&quot;
+            ], 
+            &quot;tags&quot;: [
+                &quot;datasets&quot;, 
+                &quot;gis&quot;, 
+                &quot;pyconau&quot;, 
+                &quot;pyconau2010&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 477, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;PyConAU 2010: Displaying Australian datasets with Django&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;Displaying Australian datasets with Django\n\nPresented by Malcolm Tredinnick\n\nThe last 18 months or so in Australia have seen an increased number of\ngovernment and public sector organisations releasing datasets to the public\nunder reasonable reuse terms (often Creative Commons license). This talk will\ntake a couple of those local real-world datasets and create a minimal website\nfor remixing them, using Django as the underlying framework. The goals are to\nprovide a short walk through the process of importing and extracting such data\nin practice, show how to incorporate Django&#39;s GIS features into an\napplication, as well as highlighting that real world is messy and so is the\ndata it produces. Working with datasets for journalism or research purposes,\nor simply fun, requires a certain attention to detail.\n\nBasic knowledge of Django is assumed, although the GIS components will be\nintroduced carefully as they are less familiar to many developers.\n\n&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;Creative Commons Attribution-NonCommercial-ShareAlike 3.0&quot;, 
+            &quot;embed&quot;: &quot;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://a.images.blip.tv/Pyconau-DisplayingAustralianDatasetsWithDjango920.png" rel="nofollow">http://a.images.blip.tv/Pyconau-DisplayingAustralianDatasetsWithDjango920.png</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: null, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: &quot;<a href="http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-au-2010/477_pyconau-2010-displaying-australian-datasets-with-django.flv" rel="nofollow">http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-au-2010/477_pyconau-2010-displaying-australian-datasets-with-django.flv</a>&quot;, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: null, 
+            &quot;added&quot;: &quot;2012-02-23T04:20:00&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:25.768&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyCon AU 2010&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;pyconau-2010--don--39-t-break-it--continuous-inte&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Benno Rice&quot;
+            ], 
+            &quot;tags&quot;: [
+                &quot;agile&quot;, 
+                &quot;architecture&quot;, 
+                &quot;packaging&quot;, 
+                &quot;pyconau&quot;, 
+                &quot;pyconau2010&quot;, 
+                &quot;testing&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 461, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;PyConAU 2010: Don&#39;t Break It: Continuous Integration &amp;amp; Deployment&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;Don&#39;t Break It: Continuous Integration &amp; Deployment\n\nPresented by Benno Rice\n\nSo you&#39;ve developed your application, it appears to work and you may even have\nsome tests to back that up. Now what?\n\nOne part of software development that tends to receive not nearly enough\nattention is the process of deploying, supporting and maintaining your code in\nproduction. This demonstration will give an overview of using tools such as\nHudson, nose, stdeb and freshen to automate the testing, packaging, deployment\nand verification of production software.\n\n&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;Creative Commons Attribution-NonCommercial-ShareAlike 3.0&quot;, 
+            &quot;embed&quot;: &quot;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://a.images.blip.tv/Pyconau-DontBreakItContinuousIntegrationDeployment397.png" rel="nofollow">http://a.images.blip.tv/Pyconau-DontBreakItContinuousIntegrationDeployment397.png</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: null, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: &quot;<a href="http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-au-2010/461_pyconau-2010-don-t-break-it-continuous-integration-amp-deployment.flv" rel="nofollow">http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-au-2010/461_pyconau-2010-don-t-break-it-continuous-integration-amp-deployment.flv</a>&quot;, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: null, 
+            &quot;added&quot;: &quot;2012-02-23T04:20:00&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:25.769&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyCon AU 2010&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;pyconau-2010--esky--keep-your-frozen-apps-fresh&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Ryan F Kelly&quot;
+            ], 
+            &quot;tags&quot;: [
+                &quot;esky&quot;, 
+                &quot;packaging&quot;, 
+                &quot;pyconau&quot;, 
+                &quot;pyconau2010&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 470, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;PyConAU 2010: Esky: keep your frozen apps fresh&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;Esky: keep your frozen apps fresh\n\nPresented by Ryan F Kelly\n\nEsky ([<a href="http://pypi.python.org/pypi/esky/](http://pypi.python.org/pypi/esky/))%5Cnis" rel="nofollow">http://pypi.python.org/pypi/esky/](http://pypi.python.org/pypi/esky/))\nis</a> an auto-update framework for frozen Python applications, designed to be\nsimple to use while guaranteeing the safety of your app in case of failed or\npartial updates. It provides easy support for differential updates and is\ncompatible with py2exe, py2app, cx-freeze and bbfreeze.\n\nThis talk will give an overview of esky&#39;s features, and show how to extend an\nexisting frozen application with auto-update support.\n\n&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;Creative Commons Attribution-NonCommercial-ShareAlike 3.0&quot;, 
+            &quot;embed&quot;: &quot;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://a.images.blip.tv/Pyconau-EskyKeepYourFrozenAppsFresh588.png" rel="nofollow">http://a.images.blip.tv/Pyconau-EskyKeepYourFrozenAppsFresh588.png</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: null, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: &quot;<a href="http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-au-2010/470_pyconau-2010-esky-keep-your-frozen-apps-fresh.flv" rel="nofollow">http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-au-2010/470_pyconau-2010-esky-keep-your-frozen-apps-fresh.flv</a>&quot;, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: null, 
+            &quot;added&quot;: &quot;2012-02-23T04:20:00&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:25.771&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyCon AU 2010&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;pyconau-2010--fast-engineering-computation-in-wit&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Filip Zalio&quot;
+            ], 
+            &quot;tags&quot;: [
+                &quot;casestudy&quot;, 
+                &quot;pyconau&quot;, 
+                &quot;pyconau2010&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 479, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;PyConAU 2010: Fast Engineering Computation in with Boost::Python and Numarray&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;Fast Engineering Computation in with Boost::Python and Numarray\n\nPresented by Filip Zalio (NEC Australia)\n\nIn the 3G Mobile Research and Development Division in NEC Australia\n(www.nec.com.au) we have been using Python based environment since 2005. We\nrun digital signal processing simulations of 3G and 4G mobile phone radio\nlinks. Our simulations are CPU-bound, where efficient and fast interfacing\nbetween C++ and Python is one of the keys to the growing success of Python\nwithin NEC. In this short presentation, we describe our current framework\nwhich achieves the fast processing.\n\n&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;Creative Commons Attribution-NonCommercial-ShareAlike 3.0&quot;, 
+            &quot;embed&quot;: &quot;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://a.images.blip.tv/Pyconau-FastEngineeringComputationInWithBoostPythonAndNumarray677.png" rel="nofollow">http://a.images.blip.tv/Pyconau-FastEngineeringComputationInWithBoostPythonAndNumarray677.png</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: null, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: &quot;<a href="http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-au-2010/479_pyconau-2010-fast-engineering-computation-in-with-boost-python-and-numarray.flv" rel="nofollow">http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-au-2010/479_pyconau-2010-fast-engineering-computation-in-with-boost-python-and-numarray.flv</a>&quot;, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: null, 
+            &quot;added&quot;: &quot;2012-02-23T04:20:00&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:25.772&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyCon AU 2010&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;pyconau-2010--genropy---a-framework-for-creating-&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Jeff B Edwards&quot;
+            ], 
+            &quot;tags&quot;: [
+                &quot;databases&quot;, 
+                &quot;gui&quot;, 
+                &quot;pyconau&quot;, 
+                &quot;pyconau2010&quot;, 
+                &quot;web&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 482, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;PyConAU 2010: Genropy - a framework for creating complex applications deployed on the web&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;Genropy - A framework for creating complex applications deployed on the web\n\nPresented by Jeff B Edwards (Goodsoftware)\n\n[Genropy](http://blog.genropy.org/) is the python implementation of Genro, and\nis an application framework quite different from the standard (django,\ncherrypy, turbogears), for building powerful database applications deployed\nfrom the browser. Many differences and advantages between this framework and\ntraditional python application frameworks are explained. Genropy is a suitable\nfor creating complex &#39;applications&#39; as opposed to &#39;sites&#39;. The differentiation\nis that an application is something an operator uses all day, has trained\nusers, that have to &#39;squeeze&#39; all the power from it available. Conversely, a\n&#39;site&#39; is basically public and not necessarily powerful as a user spends a\nrelatively small amount of time on it. Genropy is the framework for creation\napplications. It is used for attendee registration and sales in pycon italy,\nthe larger national conference in Europe (Florence, Italy).\n\nThis session will demonstrate how to create a simple application (3 tables)\nand demonstrate the ease and power of using python for the model view and\ncontroller on the client. It demonstrates how one api- being the genro Bag -\nis used to create the model, to map the sql to objects, to create the GUI and\ncommunicate all data. So all of it can be done in python instead of having to\nuse many different technologies and languages.\n\nJeff Edwards from Goodsoftware is strategic partner of Sofwell who is the\nauthor of Genropy.\n\n&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;Creative Commons Attribution-NonCommercial-ShareAlike 3.0&quot;, 
+            &quot;embed&quot;: &quot;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://a.images.blip.tv/Pyconau-GenropyAFrameworkForCreatingComplexApplicationsDeployed301.png" rel="nofollow">http://a.images.blip.tv/Pyconau-GenropyAFrameworkForCreatingComplexApplicationsDeployed301.png</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: null, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: &quot;<a href="http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-au-2010/482_pyconau-2010-genropy-a-framework-for-creating-complex-applications-deployed-on-the-web.flv" rel="nofollow">http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-au-2010/482_pyconau-2010-genropy-a-framework-for-creating-complex-applications-deployed-on-the-web.flv</a>&quot;, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: null, 
+            &quot;added&quot;: &quot;2012-02-23T04:20:00&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:25.773&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyCon AU 2010&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;pyconau-2010--getting-started-with-apache-mod-wsg&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Graham Dumpleton&quot;
+            ], 
+            &quot;tags&quot;: [
+                &quot;mod_wsgi&quot;, 
+                &quot;pyconau&quot;, 
+                &quot;pyconau2010&quot;, 
+                &quot;virtualenv&quot;, 
+                &quot;wsgi&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 468, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;PyConAU 2010: Getting started with Apache/mod_wsgi&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;Getting started with Apache/mod_wsgi\n\nPresented by Graham Dumpleton\n\nAn introduction to using Apache/mod_wsgi to host Python web applications\nsupporting the Python Web Server Gateway Interface (WSGI).\n\n&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;Creative Commons Attribution-NonCommercial-ShareAlike 3.0&quot;, 
+            &quot;embed&quot;: &quot;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://a.images.blip.tv/Pyconau-GettingStartedWithApachemod_wsgi847.png" rel="nofollow">http://a.images.blip.tv/Pyconau-GettingStartedWithApachemod_wsgi847.png</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: null, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: &quot;<a href="http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-au-2010/468_pyconau-2010-getting-started-with-apache-mod-wsgi.flv" rel="nofollow">http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-au-2010/468_pyconau-2010-getting-started-with-apache-mod-wsgi.flv</a>&quot;, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: null, 
+            &quot;added&quot;: &quot;2012-02-23T04:20:00&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:25.774&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyCon AU 2010&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;pyconau-2010--glamkit--a-harder--better--faster--&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Dr. Greg Turner&quot;
+            ], 
+            &quot;tags&quot;: [
+                &quot;advocacy&quot;, 
+                &quot;architecture&quot;, 
+                &quot;community&quot;, 
+                &quot;pyconau&quot;, 
+                &quot;pyconau2010&quot;, 
+                &quot;web&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 472, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;PyConAU 2010: GLAMkit: a harder, better, faster, stronger way to write reusable Django code&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;GLAMkit: a harder, better, faster, stronger way to write reusable Django code\n\nPresented by Dr. Greg Turner (the Interaction Consortium)\n\nAs part of our web development work for Galleries, Libraries, Archives and\nMuseums (the so-called GLAM sector), we have open-sourced the common tools and\ndesign patterns that we have developed as a web framework called GLAMkit\n([http://glamkit.org/](http://glamkit.org/)).\n\nGLAMkit is based on Django, and is inspired by its design philosophy of\nseveral apps which implement specific features. However, by looking at the\nsuccesses and challenges faced by other CMSes and collections of apps such as\nPinax, we have taken the philosophy a stage futher.\n\nRather than being a collection of Django apps, we have constructed GLAMkit as\na collection of optional and reusable Django &#39;toolkits&#39; for implementing\ncommon features. We leave the implementation details - the things that Django\nalready does brilliantly - to the application developers themselves.\n\nIn this talk, we will present the history of GLAMkit&#39;s development, with\nparticular focus on how our approach to reusability came about, and some\nexamples of that approach.\n\n&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;Creative Commons Attribution-NonCommercial-ShareAlike 3.0&quot;, 
+            &quot;embed&quot;: &quot;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://a.images.blip.tv/Pyconau-GLAMkitABetterFasterStrongerWayToWriteReusableDjangoCo180.png" rel="nofollow">http://a.images.blip.tv/Pyconau-GLAMkitABetterFasterStrongerWayToWriteReusableDjangoCo180.png</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: null, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: &quot;<a href="http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-au-2010/472_pyconau-2010-glamkit-a-harder-better-faster-stronger-way-to-write-reusable-django-code.flv" rel="nofollow">http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-au-2010/472_pyconau-2010-glamkit-a-harder-better-faster-stronger-way-to-write-reusable-django-code.flv</a>&quot;, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: null, 
+            &quot;added&quot;: &quot;2012-02-23T04:20:00&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:25.776&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyCon AU 2010&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;pyconau-2010--hard-real-time-python--or--giant-ro&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Simon Wittber&quot;
+            ], 
+            &quot;tags&quot;: [
+                &quot;casestudy&quot;, 
+                &quot;pyconau&quot;, 
+                &quot;pyconau2010&quot;, 
+                &quot;robots&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 481, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;PyConAU 2010: Hard Real-time Python, or, Giant Robots of Doom&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;Hard Real-time Python, or, Giant Robots of Doom\n\nPresented by Simon Wittber (Different Methods Pty Ltd)\n\nCan you use Python to control a pair of 30 tonne robots as they spin at 72\nkilometres per hour? Can you use Python to provide realtime collision\navoidance and fly-by-wire control?\n\nYes, you can. See how Perth based engineering company Transmin Pty Ltd\n(www.transmin.com.au) used Python to deliver a safety-crticial robotic control\nsystem in record time.\n\n[NOTE: Missing first 2.5 minutes of talk, then camera audio for first section]\n\n&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;Creative Commons Attribution-NonCommercial-ShareAlike 3.0&quot;, 
+            &quot;embed&quot;: &quot;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://a.images.blip.tv/Pyconau-HardRealtimePythonOrGiantRobotsOfDoom180.png" rel="nofollow">http://a.images.blip.tv/Pyconau-HardRealtimePythonOrGiantRobotsOfDoom180.png</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: null, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: &quot;<a href="http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-au-2010/481_pyconau-2010-hard-real-time-python-or-giant-robots-of-doom.flv" rel="nofollow">http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-au-2010/481_pyconau-2010-hard-real-time-python-or-giant-robots-of-doom.flv</a>&quot;, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: null, 
+            &quot;added&quot;: &quot;2012-02-23T04:20:00&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:25.777&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyCon AU 2010&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;pyconau-2010--introducing-python-to-a-java-shop&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Juergen Brendel&quot;
+            ], 
+            &quot;tags&quot;: [
+                &quot;advocacy&quot;, 
+                &quot;jython&quot;, 
+                &quot;prototyping&quot;, 
+                &quot;pyconau&quot;, 
+                &quot;pyconau2010&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 456, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;PyConAU 2010: Introducing Python to a Java shop&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;Introducing Python to a Java shop\n\nPresented by Juergen Brendel (MuleSoft)\n\nThere is a time and place for everything: For some applications Python is\nperfect, for others a language like Java and its entire ecosystem is more\nideal. In this talk we see how Python was introduced to a Java shop as a\nvehicle for rapid and dynamic prototyping of a new project. The talk then\nexplains how Jython/Java integration was used to translate this project step\nby step from Python to Java. Going beyond the advocacy focus, the talk then\nshows the interfaces to call Java from Python and vice versa and illustrates\nthose with examples. Furthermore, unit testing of Java classes via test cases\nwritten in Python is also touched upon.\n\n&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;Creative Commons Attribution-NonCommercial-ShareAlike 3.0&quot;, 
+            &quot;embed&quot;: &quot;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://a.images.blip.tv/Pyconau-IntroducingPythonToAJavaShop731.png" rel="nofollow">http://a.images.blip.tv/Pyconau-IntroducingPythonToAJavaShop731.png</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: null, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: &quot;<a href="http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-au-2010/456_pyconau-2010-introducing-python-to-a-java-shop.flv" rel="nofollow">http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-au-2010/456_pyconau-2010-introducing-python-to-a-java-shop.flv</a>&quot;, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: null, 
+            &quot;added&quot;: &quot;2012-02-23T04:20:00&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:25.778&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyCon AU 2010&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;pyconau-2010--keynote--mark-pesce---quot-how-not-&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Mark Pesce&quot;
+            ], 
+            &quot;tags&quot;: [
+                &quot;keynote&quot;, 
+                &quot;pyconau&quot;, 
+                &quot;pyconau2010&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 483, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;PyConAU 2010: Keynote: Mark Pesce; &amp;quot;How Not To Be Seen&amp;quot;&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;PyConAU 2010 KeyNote\n\nPresented by Mark Pesce\n\nAlthough Mark Pesce does know Python, he doesn&#39;t consider himself any sort of\nexpert so he won&#39;t be talking about Python, except to whinge that his friends\npick on him for choosing a language which uses whitespace as syntax. Try as he\nmight, he can&#39;t get his friends to see the logic of this - even though they\nalways pretty-print their own code, in whatever language they write. Go\nfigure. So, Mark will not be talking about that. What will Mark be talking\nabout? Well, um, err... (sound of shuffling papers) ...oh, yeah, here it is:\n&#39;Mark Pesce will be talking about stuff. And things. And how great it all is.\nNo, really. You&#39;ll see. Promise.&#39; ? Mark is best-known as the co-inventor of\nVRML, and as panelist/judge on ABC&#39;s \&quot;The New Inventors\&quot;. The author of five\nbooks and numerous articles, he has a monthly column in NETT magazine, is a\nfrequent contributor to ABC Unleashed, and is a sought-after commentator on\nboth radio and television. Since 2006, Pesce has held an Honorary Appointment\nin the Digital Cultures Program at the University of Sydney.\n\n[NOTES: ~10 secs lost audio at start]\n\n&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;Creative Commons Attribution-NonCommercial-ShareAlike 3.0&quot;, 
+            &quot;embed&quot;: &quot;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://a.images.blip.tv/Pyconau-KeynoteMarkPesceHowNotToBeSeen121-838.jpg" rel="nofollow">http://a.images.blip.tv/Pyconau-KeynoteMarkPesceHowNotToBeSeen121-838.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: 273112195, 
+            &quot;video_mp4_url&quot;: null, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: &quot;<a href="http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-au-2010/483_pyconau-2010-keynote-mark-pesce-quot-how-not-to-be-seen-quot.flv" rel="nofollow">http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-au-2010/483_pyconau-2010-keynote-mark-pesce-quot-how-not-to-be-seen-quot.flv</a>&quot;, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: null, 
+            &quot;added&quot;: &quot;2012-02-23T04:20:00&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:25.779&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyCon AU 2010&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;pyconau-2010--keynote--nick-hodge---quot-ironpyth&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Nick Hodge&quot;
+            ], 
+            &quot;tags&quot;: [
+                &quot;keynote&quot;, 
+                &quot;pyconau&quot;, 
+                &quot;pyconau2010&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 473, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;PyConAU 2010: Keynote: Nick Hodge; &amp;quot;IronPython &amp;amp; The Quest for the Holy Grail&amp;quot;&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;Keynote: Nick Hodge, \&quot;IronPython &amp; The Quest for the Holy Grail\&quot;\n\nPresented by Nick Hodge\n\nLanguage interoperability is one of the Holy Grails of programming languages.\nChoose your language, choose your framework and freely exchange objects and\nmethods.\n\nIs this Anarcho-syndicalism of application architecture? Are the serfs in the\nfields of development teams rebelling against the rightful King of the Realm?\n\nIs the Dynamic Language Runtime from Microsoft merely a French castle in the\nKingdom of England?\n\nHow does this all fit with the open source Knights of Ni that lurk in the\nthickest of forests?\n\nAnd the so-called Holy Hand Grenade of Antioch, Ruby, really a weapon of mass\ndestruction?\n\nFind out in Nick Hodge&#39;s keynote.\n\nA Professional Geek at Microsoft in Australia, Nick spends his time with open\nsource communities showing off Microsoft open source cool and shiny toys.\nPrior to Microsoft, Nick spent many a weekend over 3 years building an\ninternal sales management tool using Python, Excel and SAP to counter-act the\nevilness of being a sales manager. Please do not ask about these dark times in\npolite conversations. More info about Nick may or may not be found at\n[http://www.nickhodge.com/](http://www.nickhodge.com/).\n\n&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;Creative Commons Attribution-NonCommercial-ShareAlike 3.0&quot;, 
+            &quot;embed&quot;: &quot;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://a.images.blip.tv/Pyconau-KeynoteNickHodgeIronPythonTheQuestForTheHolyGrail836.png" rel="nofollow">http://a.images.blip.tv/Pyconau-KeynoteNickHodgeIronPythonTheQuestForTheHolyGrail836.png</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: null, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: &quot;<a href="http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-au-2010/473_pyconau-2010-keynote-nick-hodge-quot-ironpython-amp-the-quest-for-the-holy-grail-quot.flv" rel="nofollow">http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-au-2010/473_pyconau-2010-keynote-nick-hodge-quot-ironpython-amp-the-quest-for-the-holy-grail-quot.flv</a>&quot;, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: null, 
+            &quot;added&quot;: &quot;2012-02-23T04:20:00&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:25.781&quot;
+        }
+    ]
+}</pre>
+            </div>
+        </div>
+
+            
+
+                
+
+                
+            
+
+        </div>
+        <!-- END content-main -->
+
+    </div>
+    <!-- END Content -->
+
+        <div id="push"></div>
+
+    </div>
+
+    </div><!-- ./wrapper -->
+
+    
+    
+
+    
+    <script src="/static/rest_framework/js/jquery-1.8.1-min.js"></script>
+    <script src="/static/rest_framework/js/bootstrap.min.js"></script>
+    <script src="/static/rest_framework/js/prettify-min.js"></script>
+    <script src="/static/rest_framework/js/default.js"></script>
+    
+  </body>
+
+<!-- Mirrored from pyvideo.org/api/v2/video/?page=15 by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 07 Jan 2016 03:47:13 GMT -->
+</html>

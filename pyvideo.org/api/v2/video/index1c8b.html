@@ -1,0 +1,979 @@
+
+
+<!DOCTYPE html>
+<html>
+    
+<!-- Mirrored from pyvideo.org/api/v2/video/?page=11 by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 07 Jan 2016 03:47:02 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+    
+
+        
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+        <meta name="robots" content="NONE,NOARCHIVE" />
+        
+
+        <title>Django REST framework</title>
+
+        
+        
+            <link rel="stylesheet" type="text/css" href="/static/rest_framework/css/bootstrap.min.css"/>
+            <link rel="stylesheet" type="text/css" href="/static/rest_framework/css/bootstrap-tweaks.css"/>
+        
+        <link rel="stylesheet" type="text/css" href="/static/rest_framework/css/prettify.css"/>
+        <link rel="stylesheet" type="text/css" href="/static/rest_framework/css/default.css"/>
+        
+
+    
+    </head>
+
+  <body class=" container">
+
+    <div class="wrapper">
+
+    
+    <div class="navbar navbar-inverse">
+        <div class="navbar-inner">
+            <div class="container-fluid">
+                <span href="/">
+                    <a class='brand' rel="nofollow" href='http://www.django-rest-framework.org'>Django REST framework <span class="version">2.3.14</span></a>
+                </span>
+                <ul class="nav pull-right">
+                    
+                        
+                            <li></li>
+                        
+                    
+                </ul>
+            </div>
+        </div>
+    </div>
+    
+
+    
+    <ul class="breadcrumb">
+        
+            <li>
+                <a href="/api/v2/video/" class="active">Video List Create Api</a> 
+            </li>
+        
+    </ul>
+    
+
+    <!-- Content -->
+    <div id="content">
+
+        
+            <form id="get-form" class="pull-right">
+                <fieldset>
+                    <div class="btn-group format-selection">
+                        <a class="btn btn-primary js-tooltip" href='/api/v2/video/?page=11' rel="nofollow" title="Make a GET request on the Video List Create Api resource">GET</a>
+
+                        <button class="btn btn-primary dropdown-toggle js-tooltip" data-toggle="dropdown" title="Specify a format for the GET request">
+                            <span class="caret"></span>
+                        </button>
+                        <ul class="dropdown-menu">
+                            
+                                <li>
+                                    <a class="js-tooltip format-option" href='/api/v2/video/?page=11&format=json' rel="nofollow" title="Make a GET request on the Video List Create Api resource with the format set to `json`">json</a>
+                                </li>
+                            
+                                <li>
+                                    <a class="js-tooltip format-option" href='/api/v2/video/?page=11&format=api' rel="nofollow" title="Make a GET request on the Video List Create Api resource with the format set to `api`">api</a>
+                                </li>
+                            
+                        </ul>
+                    </div>
+
+                </fieldset>
+            </form>
+        
+
+        
+            <form class="button-form" action="/api/v2/video/?page=11" method="POST" class="pull-right">
+                <input type='hidden' name='csrfmiddlewaretoken' value='pT8iI6zhtQdsGFmu4tryYgFrUlipl2B3' />
+                <input type="hidden" name="_method" value="OPTIONS" />
+                <button class="btn btn-primary js-tooltip" title="Make an OPTIONS request on the Video List Create Api resource">OPTIONS</button>
+            </form>
+        
+
+        
+
+        <div class="content-main">
+            <div class="page-header"><h1>Video List Create Api</h1></div>
+            
+            
+            
+            <div class="request-info" style="clear: both" >
+                <pre class="prettyprint"><b>GET</b> /api/v2/video/?page=11</pre>
+            </div>
+            <div class="response-info">
+                <pre class="prettyprint"><div class="meta nocode"><b>HTTP 200 OK</b>
+<b>Content-Type:</b> <span class="lit">application/json</span>
+<b>Vary:</b> <span class="lit">Accept</span>
+<b>Allow:</b> <span class="lit">GET, POST, HEAD, OPTIONS</span>
+
+</div>{
+    &quot;count&quot;: 3439, 
+    &quot;next&quot;: &quot;<a href="http://pyvideo.org/api/v2/video/?page=12" rel="nofollow">http://pyvideo.org/api/v2/video/?page=12</a>&quot;, 
+    &quot;previous&quot;: &quot;<a href="http://pyvideo.org/api/v2/video/?page=10" rel="nofollow">http://pyvideo.org/api/v2/video/?page=10</a>&quot;, 
+    &quot;results&quot;: [
+        {
+            &quot;category&quot;: &quot;PyCon US 2009&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;pycon-2009--a-curious-course-on-coroutines-and-c0&quot;, 
+            &quot;speakers&quot;: [], 
+            &quot;tags&quot;: [
+                &quot;concurrency&quot;, 
+                &quot;coroutines&quot;, 
+                &quot;generator&quot;, 
+                &quot;pycon&quot;, 
+                &quot;pycon2009&quot;, 
+                &quot;python-advanced&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 214, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;PyCon 2009: A Curious Course on Coroutines and Concurrency (Part 3 of 3)&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;A Curious Course on Coroutines and Concurrency (part 3 of 3)\n\n  \nPresented at PyCon 2009 by David Beazley\n\n  \nIf you are a programmer who cares about Python and concurrency, then you\nshould also care about Python coroutines. Although they were first introduced\nin Python 2.5, coroutines remain one of Python&#39;s most overlooked features---\noften vaguely described as a curious \&quot;extension\&quot; of generator functions with\nlittle insight as to how they might be applied to real-world problems. This\ntutorial examines coroutines in a more practical light by showing how they are\nactually a very elegant way to implement a processing \&quot;task.\&quot; Using this task\nabstraction, it is possible to use coroutines to implement processing\npipelines, event handling systems, and programs based on cooperative\nmultitasking. Moreover, if you define tasks using coroutines, they can be\neasily incorporated into more traditional concurrent programs that utilize\nthreads or message passing.\n\n  \n[VIDEO HAS ISSUES: bit of clipping start to finish.]\n\n&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;Creative Commons Attribution-NonCommercial-ShareAlike 3.0&quot;, 
+            &quot;embed&quot;: &quot;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://a.images.blip.tv/Pycon-ACuriousCourseOnCoroutinesAndConcurrencyPart003639-350.jpg" rel="nofollow">http://a.images.blip.tv/Pycon-ACuriousCourseOnCoroutinesAndConcurrencyPart003639-350.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: 193891513, 
+            &quot;video_mp4_url&quot;: &quot;<a href="http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2009/214_pycon-2009-a-curious-course-on-coroutines-and-concurrency-part-3-of-3.mp4" rel="nofollow">http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2009/214_pycon-2009-a-curious-course-on-coroutines-and-concurrency-part-3-of-3.mp4</a>&quot;, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: null, 
+            &quot;added&quot;: &quot;2012-02-23T04:20:00&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:25.620&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyCon US 2009&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;pycon-2009--advanced-sqlalchemy--part-1-of-3&quot;, 
+            &quot;speakers&quot;: [], 
+            &quot;tags&quot;: [
+                &quot;pycon&quot;, 
+                &quot;pycon2009&quot;, 
+                &quot;sqlalchemy&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 155, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;PyCon 2009: Advanced SQLAlchemy (Part 1 of 3)&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;  \nSQLAlchemy is the premier SQL toolkit for Python. SQLAlchemy exposes the full\npower of SQL while remaining easy to use for the basics, and is flexible\nenough to work with existing database schemas as well as fresh designs.\nSQLAlchemy is used in production by leading Python web frameworks Pylons and\nTurboGears as well as many other web and non-web developers. This tutorial\ndiscusses current data mapping techniques, advanced Query techniques,\nSession/transaction usage, and maximizing schema usage with SQLAlchemy&#39;s event\nmodel.\n\n&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;Creative Commons Attribution-NonCommercial-ShareAlike 3.0&quot;, 
+            &quot;embed&quot;: &quot;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://a.images.blip.tv/Pycon-AdvancedSQLAlchemyPart001250-190.jpg" rel="nofollow">http://a.images.blip.tv/Pycon-AdvancedSQLAlchemyPart001250-190.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: 1039887585, 
+            &quot;video_mp4_url&quot;: &quot;<a href="http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2009/155_pycon-2009-advanced-sqlalchemy-part-1-of-3.mp4" rel="nofollow">http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2009/155_pycon-2009-advanced-sqlalchemy-part-1-of-3.mp4</a>&quot;, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: null, 
+            &quot;added&quot;: &quot;2012-02-23T04:20:00&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:25.621&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyCon US 2009&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;pycon-2009--advanced-sqlalchemy--part-2-of-3&quot;, 
+            &quot;speakers&quot;: [], 
+            &quot;tags&quot;: [
+                &quot;pycon&quot;, 
+                &quot;pycon2009&quot;, 
+                &quot;sqlalchemy&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 154, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;PyCon 2009: Advanced SQLAlchemy (Part 2 of 3)&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;[](http://blip.tv/file/2023897)\n\nSQLAlchemy is the premier SQL toolkit for Python. SQLAlchemy exposes the full\npower of SQL while remaining easy to use for the basics, and is flexible\nenough to work with existing database schemas as well as fresh designs.\nSQLAlchemy is used in production by leading Python web frameworks Pylons and\nTurboGears as well as many other web and non-web developers. This tutorial\ndiscusses current data mapping techniques, advanced Query techniques,\nSession/transaction usage, and maximizing schema usage with SQLAlchemy&#39;s event\nmodel.\n\n&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;Creative Commons Attribution-NonCommercial-ShareAlike 3.0&quot;, 
+            &quot;embed&quot;: &quot;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://a.images.blip.tv/Pycon-AdvancedSQLAlchemyPart002668-996.jpg" rel="nofollow">http://a.images.blip.tv/Pycon-AdvancedSQLAlchemyPart002668-996.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: &quot;<a href="http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2009/154_pycon-2009-advanced-sqlalchemy-part-2-of-3.mp4" rel="nofollow">http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2009/154_pycon-2009-advanced-sqlalchemy-part-2-of-3.mp4</a>&quot;, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: null, 
+            &quot;added&quot;: &quot;2012-02-23T04:20:00&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:25.622&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyCon US 2009&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;pycon-2009--advanced-sqlalchemy--part-3-of-3&quot;, 
+            &quot;speakers&quot;: [], 
+            &quot;tags&quot;: [
+                &quot;pycon&quot;, 
+                &quot;pycon2009&quot;, 
+                &quot;sqlalchemy&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 156, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;PyCon 2009: Advanced SQLAlchemy (Part 3 of 3)&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;  \nSQLAlchemy is the premier SQL toolkit for Python. SQLAlchemy exposes the full\npower of SQL while remaining easy to use for the basics, and is flexible\nenough to work with existing database schemas as well as fresh designs.\nSQLAlchemy is used in production by leading Python web frameworks Pylons and\nTurboGears as well as many other web and non-web developers. This tutorial\ndiscusses current data mapping techniques, advanced Query techniques,\nSession/transaction usage, and maximizing schema usage with SQLAlchemy&#39;s event\nmodel.\n\n&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;Creative Commons Attribution-NonCommercial-ShareAlike 3.0&quot;, 
+            &quot;embed&quot;: &quot;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://a.images.blip.tv/Pycon-AdvancedSQLAlchemyPart003534-288.jpg" rel="nofollow">http://a.images.blip.tv/Pycon-AdvancedSQLAlchemyPart003534-288.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: 331064645, 
+            &quot;video_mp4_url&quot;: &quot;<a href="http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2009/156_pycon-2009-advanced-sqlalchemy-part-3-of-3.mp4" rel="nofollow">http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2009/156_pycon-2009-advanced-sqlalchemy-part-3-of-3.mp4</a>&quot;, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: null, 
+            &quot;added&quot;: &quot;2012-02-23T04:20:00&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:25.624&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyCon US 2009&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;pycon-2009--an-introduction-to-google-app-engine-&quot;, 
+            &quot;speakers&quot;: [], 
+            &quot;tags&quot;: [
+                &quot;gae&quot;, 
+                &quot;googleappengine&quot;, 
+                &quot;pycon&quot;, 
+                &quot;pycon2009&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 152, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;PyCon 2009: An Introduction to Google App Engine (Part 1 of 2)&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;  \n[VIDEO HAS ISSUES: ] Google App Engine allows you to build scalable web\napplications and host them on Google hardware. This hands on tutorial will\nwalk you through the steps of building a basic web application, from setting\nup the SDK through to using the major APIs that App Engine provides.\n\n&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;Creative Commons Attribution-NonCommercial-ShareAlike 3.0&quot;, 
+            &quot;embed&quot;: &quot;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://a.images.blip.tv/Pycon-AnIntroductionToGoogleAppEnginePart001520-885.jpg" rel="nofollow">http://a.images.blip.tv/Pycon-AnIntroductionToGoogleAppEnginePart001520-885.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: 1042140539, 
+            &quot;video_mp4_url&quot;: &quot;<a href="http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2009/152_pycon-2009-an-introduction-to-google-app-engine-part-1-of-2.mp4" rel="nofollow">http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2009/152_pycon-2009-an-introduction-to-google-app-engine-part-1-of-2.mp4</a>&quot;, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: null, 
+            &quot;added&quot;: &quot;2012-02-23T04:20:00&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:25.625&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyCon US 2009&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;pycon-2009--an-introduction-to-google-app-engine0&quot;, 
+            &quot;speakers&quot;: [], 
+            &quot;tags&quot;: [
+                &quot;gae&quot;, 
+                &quot;googleappengine&quot;, 
+                &quot;pycon&quot;, 
+                &quot;pycon2009&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 153, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;PyCon 2009: An Introduction to Google App Engine (Part 2 of 2)&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;  \n[VIDEO HAS ISSUES: ] Google App Engine allows you to build scalable web\napplications and host them on Google hardware. This hands on tutorial will\nwalk you through the steps of building a basic web application, from setting\nup the SDK through to using the major APIs that App Engine provides.\n\n&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;Creative Commons Attribution-NonCommercial-ShareAlike 3.0&quot;, 
+            &quot;embed&quot;: &quot;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://a.images.blip.tv/Pycon-AnIntroductionToGoogleAppEnginePart002235-499.jpg" rel="nofollow">http://a.images.blip.tv/Pycon-AnIntroductionToGoogleAppEnginePart002235-499.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: 980969103, 
+            &quot;video_mp4_url&quot;: &quot;<a href="http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2009/153_pycon-2009-an-introduction-to-google-app-engine-part-2-of-2.mp4" rel="nofollow">http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2009/153_pycon-2009-an-introduction-to-google-app-engine-part-2-of-2.mp4</a>&quot;, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: null, 
+            &quot;added&quot;: &quot;2012-02-23T04:20:00&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:25.626&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyCon US 2009&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;pycon-2009--application-developing-with-ironpyth1&quot;, 
+            &quot;speakers&quot;: [], 
+            &quot;tags&quot;: [
+                &quot;ironpython&quot;, 
+                &quot;pycon&quot;, 
+                &quot;pycon2009&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 221, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;PyCon 2009: Application Developing with IronPython (Part 1 of 3)&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;A tutorial on \&quot;Developing with IronPython\&quot;: Python for .NET and Mono. The\nCommon Language Runtime is very different to CPython, with a powerful JIT\ncompiler, and different garbage collection and threading model. More\nimportantly, .NET&#39;s huge range of libraries can now be used from Python.\nVarious aspects of developing with IronPython will be covered and attendees\nwill put this into practice by extending an example application. Topics\ninclude: Differences between IronPython and CPython, including \&quot;Why Use\nIronPython?\&quot; Introduction to the .NET framework - a dynamic language on a\nstatically typed framework GUIs with Windows Forms Databases Network requests\nand web services Handling XML Threading Come with laptop - running Linux,\nWindows or Mac OS X - and ready to code!\n\n  \n[VIDEO HAS ISSUES: first 5 min muted ]\n\n&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;Creative Commons Attribution-NonCommercial-ShareAlike 3.0&quot;, 
+            &quot;embed&quot;: &quot;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://a.images.blip.tv/Pycon-DevelopingWithIronPythonPart001216-319.jpg" rel="nofollow">http://a.images.blip.tv/Pycon-DevelopingWithIronPythonPart001216-319.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: 1040499789, 
+            &quot;video_mp4_url&quot;: &quot;<a href="http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2009/221_pycon-2009-application-developing-with-ironpython-part-1-of-3.mp4" rel="nofollow">http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2009/221_pycon-2009-application-developing-with-ironpython-part-1-of-3.mp4</a>&quot;, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: null, 
+            &quot;added&quot;: &quot;2012-02-23T04:20:00&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:25.627&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyCon US 2009&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;pycon-2009--application-developing-with-ironpytho&quot;, 
+            &quot;speakers&quot;: [], 
+            &quot;tags&quot;: [
+                &quot;ironpython&quot;, 
+                &quot;pycon&quot;, 
+                &quot;pycon2009&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 219, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;PyCon 2009: Application Developing with IronPython (Part 2 of 3)&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;A tutorial on \&quot;Developing with IronPython\&quot;: Python for .NET and Mono. The\nCommon Language Runtime is very different to CPython, with a powerful JIT\ncompiler, and different garbage collection and threading model. More\nimportantly, .NET&#39;s huge range of libraries can now be used from Python.\nVarious aspects of developing with IronPython will be covered and attendees\nwill put this into practice by extending an example application. Topics\ninclude: Differences between IronPython and CPython, including \&quot;Why Use\nIronPython?\&quot; Introduction to the .NET framework - a dynamic language on a\nstatically typed framework GUIs with Windows Forms Databases Network requests\nand web services Handling XML Threading Come with laptop - running Linux,\nWindows or Mac OS X - and ready to code!\n\n  \n[VIDEO HAS ISSUES: first 5 min muted ]\n\n&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;Creative Commons Attribution-NonCommercial-ShareAlike 3.0&quot;, 
+            &quot;embed&quot;: &quot;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://a.images.blip.tv/Pycon-DevelopingWithIronPythonPart002699-446.jpg" rel="nofollow">http://a.images.blip.tv/Pycon-DevelopingWithIronPythonPart002699-446.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: 1044055125, 
+            &quot;video_mp4_url&quot;: &quot;<a href="http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2009/219_pycon-2009-application-developing-with-ironpython-part-2-of-3.mp4" rel="nofollow">http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2009/219_pycon-2009-application-developing-with-ironpython-part-2-of-3.mp4</a>&quot;, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: null, 
+            &quot;added&quot;: &quot;2012-02-23T04:20:00&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:25.628&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyCon US 2009&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;pycon-2009--application-developing-with-ironpyth0&quot;, 
+            &quot;speakers&quot;: [], 
+            &quot;tags&quot;: [
+                &quot;ironpython&quot;, 
+                &quot;pycon&quot;, 
+                &quot;pycon2009&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 220, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;PyCon 2009: Application Developing with IronPython (Part 3 of 3)&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;A tutorial on \&quot;Developing with IronPython\&quot;: Python for .NET and Mono. The\nCommon Language Runtime is very different to CPython, with a powerful JIT\ncompiler, and different garbage collection and threading model. More\nimportantly, .NET&#39;s huge range of libraries can now be used from Python.\nVarious aspects of developing with IronPython will be covered and attendees\nwill put this into practice by extending an example application. Topics\ninclude: Differences between IronPython and CPython, including \&quot;Why Use\nIronPython?\&quot; Introduction to the .NET framework - a dynamic language on a\nstatically typed framework GUIs with Windows Forms Databases Network requests\nand web services Handling XML Threading Come with laptop - running Linux,\nWindows or Mac OS X - and ready to code!\n\n  \n[VIDEO HAS ISSUES: first 5 min muted ]\n\n&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;Creative Commons Attribution-NonCommercial-ShareAlike 3.0&quot;, 
+            &quot;embed&quot;: &quot;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://a.images.blip.tv/Pycon-DevelopingWithIronPythonPart003708-475.jpg" rel="nofollow">http://a.images.blip.tv/Pycon-DevelopingWithIronPythonPart003708-475.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: 439323248, 
+            &quot;video_mp4_url&quot;: &quot;<a href="http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2009/220_pycon-2009-application-developing-with-ironpython-part-3-of-3.mp4" rel="nofollow">http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2009/220_pycon-2009-application-developing-with-ironpython-part-3-of-3.mp4</a>&quot;, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: null, 
+            &quot;added&quot;: &quot;2012-02-23T04:20:00&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:25.630&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyCon US 2009&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;pycon-2009--a-whirlwind-excursion-through-writing&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Ned Batchelder&quot;
+            ], 
+            &quot;tags&quot;: [
+                &quot;extensions&quot;, 
+                &quot;pycon&quot;, 
+                &quot;pycon2009&quot;, 
+                &quot;python-advanced&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 230, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;PyCon 2009: A Whirlwind Excursion through Writing a C Extension (#68)&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;  \r\n[VIDEO HAS ISSUES: Ambient mic used, some echoing] Everyone&#39;s heard of C\r\nextensions to Python, but few have ventured into those murky depths. This is a\r\nquick overview of how to write a C extension, complete with highlights of the\r\nC API, memory management, error handling, and type creation. Whether you want\r\nto speed up your Python, integrate with legacy code, contribute to Python&#39;s\r\ncore, or just learn a little about how it all works under the covers, you will\r\nenjoy this trip through unfamiliar territory. I guarantee you will return\r\nsafely.\r\n\r\n&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;Creative Commons Attribution-NonCommercial-ShareAlike 3.0&quot;, 
+            &quot;embed&quot;: &quot;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://a.images.blip.tv/Pycon-AWhirlwindExcursionThroughWritingACExtension305-36.jpg" rel="nofollow">http://a.images.blip.tv/Pycon-AWhirlwindExcursionThroughWritingACExtension305-36.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: &quot;&quot;, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: 168747462, 
+            &quot;video_mp4_url&quot;: &quot;<a href="http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2009/230_pycon-2009-a-whirlwind-excursion-through-writing-a-c-extension-68.mp4" rel="nofollow">http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2009/230_pycon-2009-a-whirlwind-excursion-through-writing-a-c-extension-68.mp4</a>&quot;, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: &quot;&quot;, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: &quot;&quot;, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: null, 
+            &quot;added&quot;: &quot;2012-02-23T04:20:00&quot;, 
+            &quot;updated&quot;: &quot;2014-10-28T09:28:09.822&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyCon US 2009&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;pycon-2009--behind-the-scenes-of-everyblock-com--&quot;, 
+            &quot;speakers&quot;: [], 
+            &quot;tags&quot;: [
+                &quot;everyblock&quot;, 
+                &quot;pycon&quot;, 
+                &quot;pycon2009&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 231, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;PyCon 2009: Behind the scenes of <a href="http://EveryBlock.com" rel="nofollow">EveryBlock.com</a> (#111)&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;PyCon 2009: Behind the scenes of <a href="http://EveryBlock.com" rel="nofollow">EveryBlock.com</a> by Adrian Holovaty\n\nAdrian Holovaty, bad-boy YouTube guitar star (search for him, if you dare!)\nand co-author of the Django web framework, takes you under the hood <a href="http://of%5CnEveryBlock.com" rel="nofollow">of\nEveryBlock.com</a>, a Knight Foundation News Challenge startup which rounds up\nlocal news and information, and is powered 100% by Python and Django.\n\n[VIDEO HAS ISSUES: Audio humming]\n\n&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;Creative Commons Attribution-NonCommercial-ShareAlike 3.0&quot;, 
+            &quot;embed&quot;: &quot;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://a.images.blip.tv/Pycon-BehindTheScenesOfEveryBlockcom359-71.jpg" rel="nofollow">http://a.images.blip.tv/Pycon-BehindTheScenesOfEveryBlockcom359-71.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: 204743972, 
+            &quot;video_mp4_url&quot;: &quot;<a href="http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2009/231_pycon-2009-behind-the-scenes-of-everyblock-com-111.mp4" rel="nofollow">http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2009/231_pycon-2009-behind-the-scenes-of-everyblock-com-111.mp4</a>&quot;, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: null, 
+            &quot;added&quot;: &quot;2012-02-23T04:20:00&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:25.632&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyCon US 2009&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;pycon-2009--building-real-time-network-applicatio&quot;, 
+            &quot;speakers&quot;: [], 
+            &quot;tags&quot;: [
+                &quot;network&quot;, 
+                &quot;orbited&quot;, 
+                &quot;pycon&quot;, 
+                &quot;pycon2009&quot;, 
+                &quot;realtime&quot;, 
+                &quot;twisted&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 173, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;PyCon 2009: Building Real-time Network applications for the web with Twisted and Orbited (Part 1 of 3)&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;  \nHaven&#39;t you always wanted to create a massively multiplayer, real-time game\nfor the browser? Or perhaps add chat to your website, or maybe write a real-\ntime financial application, collaborative text editor, or network health\nmonitoring app, all in the browser. Forget web frameworks; Orbited.TCPSocket\nlets you communicate directly from a browser to any network server, with any\nprotocol you want. By tutorial&#39;s end, every attendee will have built their own\nreal-time data monitoring application, or multiplayer game, from scratch using\nOrbited, Twisted, and js.io.\n\n&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;Creative Commons Attribution-NonCommercial-ShareAlike 3.0&quot;, 
+            &quot;embed&quot;: &quot;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://a.images.blip.tv/Pycon-BuildingRealtimeNetworkApplicationsForTheWebWithTwisted226-383.jpg" rel="nofollow">http://a.images.blip.tv/Pycon-BuildingRealtimeNetworkApplicationsForTheWebWithTwisted226-383.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: 1039250040, 
+            &quot;video_mp4_url&quot;: &quot;<a href="http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2009/173_pycon-2009-building-real-time-network-applications-for-the-web-with-twisted-and-orbited-part-1-of-3.mp4" rel="nofollow">http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2009/173_pycon-2009-building-real-time-network-applications-for-the-web-with-twisted-and-orbited-part-1-of-3.mp4</a>&quot;, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: null, 
+            &quot;added&quot;: &quot;2012-02-23T04:20:00&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:25.633&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyCon US 2009&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;pycon-2009--building-real-time-network-applicati1&quot;, 
+            &quot;speakers&quot;: [], 
+            &quot;tags&quot;: [
+                &quot;network&quot;, 
+                &quot;orbited&quot;, 
+                &quot;pycon&quot;, 
+                &quot;pycon2009&quot;, 
+                &quot;realtime&quot;, 
+                &quot;twisted&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 175, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;PyCon 2009: Building Real-time Network applications for the web with Twisted and Orbited (Part 2 of 3)&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;  \nHaven&#39;t you always wanted to create a massively multiplayer, real-time game\nfor the browser? Or perhaps add chat to your website, or maybe write a real-\ntime financial application, collaborative text editor, or network health\nmonitoring app, all in the browser. Forget web frameworks; Orbited.TCPSocket\nlets you communicate directly from a browser to any network server, with any\nprotocol you want. By tutorial&#39;s end, every attendee will have built their own\nreal-time data monitoring application, or multiplayer game, from scratch using\nOrbited, Twisted, and js.io.\n\n&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;Creative Commons Attribution-NonCommercial-ShareAlike 3.0&quot;, 
+            &quot;embed&quot;: &quot;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://a.images.blip.tv/Pycon-BuildingRealtimeNetworkApplicationsForTheWebWithTwisted900-383.jpg" rel="nofollow">http://a.images.blip.tv/Pycon-BuildingRealtimeNetworkApplicationsForTheWebWithTwisted900-383.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: 1044634117, 
+            &quot;video_mp4_url&quot;: &quot;<a href="http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2009/175_pycon-2009-building-real-time-network-applications-for-the-web-with-twisted-and-orbited-part-2-of-3.mp4" rel="nofollow">http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2009/175_pycon-2009-building-real-time-network-applications-for-the-web-with-twisted-and-orbited-part-2-of-3.mp4</a>&quot;, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: null, 
+            &quot;added&quot;: &quot;2012-02-23T04:20:00&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:25.635&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyCon US 2009&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;pycon-2009--building-real-time-network-applicati0&quot;, 
+            &quot;speakers&quot;: [], 
+            &quot;tags&quot;: [
+                &quot;network&quot;, 
+                &quot;orbited&quot;, 
+                &quot;pycon&quot;, 
+                &quot;pycon2009&quot;, 
+                &quot;realtime&quot;, 
+                &quot;twisted&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 174, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;PyCon 2009: Building Real-time Network applications for the web with Twisted and Orbited (Part 3 of 3)&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;  \nHaven&#39;t you always wanted to create a massively multiplayer, real-time game\nfor the browser? Or perhaps add chat to your website, or maybe write a real-\ntime financial application, collaborative text editor, or network health\nmonitoring app, all in the browser. Forget web frameworks; Orbited.TCPSocket\nlets you communicate directly from a browser to any network server, with any\nprotocol you want. By tutorial&#39;s end, every attendee will have built their own\nreal-time data monitoring application, or multiplayer game, from scratch using\nOrbited, Twisted, and js.io.\n\n&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;Creative Commons Attribution-NonCommercial-ShareAlike 3.0&quot;, 
+            &quot;embed&quot;: &quot;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://a.images.blip.tv/Pycon-BuildingRealtimeNetworkApplicationsForTheWebWithTwisted150-71.jpg" rel="nofollow">http://a.images.blip.tv/Pycon-BuildingRealtimeNetworkApplicationsForTheWebWithTwisted150-71.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: 571881838, 
+            &quot;video_mp4_url&quot;: &quot;<a href="http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2009/174_pycon-2009-building-real-time-network-applications-for-the-web-with-twisted-and-orbited-part-3-of-3.mp4" rel="nofollow">http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2009/174_pycon-2009-building-real-time-network-applications-for-the-web-with-twisted-and-orbited-part-3-of-3.mp4</a>&quot;, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: null, 
+            &quot;added&quot;: &quot;2012-02-23T04:20:00&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:25.636&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyCon US 2009&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;pycon-2009--data-storage-in-python---an-overview0&quot;, 
+            &quot;speakers&quot;: [], 
+            &quot;tags&quot;: [
+                &quot;bsddb&quot;, 
+                &quot;databases&quot;, 
+                &quot;excel&quot;, 
+                &quot;flatfile&quot;, 
+                &quot;hdf5&quot;, 
+                &quot;netcdf&quot;, 
+                &quot;pickle&quot;, 
+                &quot;pycon&quot;, 
+                &quot;pycon2009&quot;, 
+                &quot;serialization&quot;, 
+                &quot;zodb&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 190, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;PyCon 2009: Data Storage in Python - An Overview of Options (Part 1 of 3)&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;  \nThere are many possibilities in Python to store data. This tutorials explores\nsome of them: flat file, Excel files, NetCDF and HDF5, serialization with\npickle and friends, relational databases, bsddb and ZODB. The objective of\nthis course is to give the participants an overview over available options as\nwell as there advantages and disadvantages for different purposes.\nParticipants are strongly recommended to bring laptops because all topics are\nintroduced with examples and exercises.\n\n&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;Creative Commons Attribution-NonCommercial-ShareAlike 3.0&quot;, 
+            &quot;embed&quot;: &quot;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://a.images.blip.tv/Pycon-DataStorageInPythonAnOverviewOfOptionsPart001373-556.jpg" rel="nofollow">http://a.images.blip.tv/Pycon-DataStorageInPythonAnOverviewOfOptionsPart001373-556.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: 1040288443, 
+            &quot;video_mp4_url&quot;: &quot;<a href="http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2009/190_pycon-2009-data-storage-in-python-an-overview-of-options-part-1-of-3.mp4" rel="nofollow">http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2009/190_pycon-2009-data-storage-in-python-an-overview-of-options-part-1-of-3.mp4</a>&quot;, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: null, 
+            &quot;added&quot;: &quot;2012-02-23T04:20:00&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:25.637&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyCon US 2009&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;pycon-2009--data-storage-in-python---an-overview-&quot;, 
+            &quot;speakers&quot;: [], 
+            &quot;tags&quot;: [
+                &quot;bsddb&quot;, 
+                &quot;databases&quot;, 
+                &quot;excel&quot;, 
+                &quot;flatfile&quot;, 
+                &quot;hdf5&quot;, 
+                &quot;netcdf&quot;, 
+                &quot;pickle&quot;, 
+                &quot;pycon&quot;, 
+                &quot;pycon2009&quot;, 
+                &quot;serialization&quot;, 
+                &quot;zodb&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 189, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;PyCon 2009: Data Storage in Python - An Overview of Options (Part 2 of 3)&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;  \nThere are many possibilities in Python to store data. This tutorials explores\nsome of them: flat file, Excel files, NetCDF and HDF5, serialization with\npickle and friends, relational databases, bsddb and ZODB. The objective of\nthis course is to give the participants an overview over available options as\nwell as there advantages and disadvantages for different purposes.\nParticipants are strongly recommended to bring laptops because all topics are\nintroduced with examples and exercises.\n\n&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;Creative Commons Attribution-NonCommercial-ShareAlike 3.0&quot;, 
+            &quot;embed&quot;: &quot;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://a.images.blip.tv/Pycon-DataStorageInPythonAnOverviewOfOptionsPart002214-260.jpg" rel="nofollow">http://a.images.blip.tv/Pycon-DataStorageInPythonAnOverviewOfOptionsPart002214-260.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: 1044206941, 
+            &quot;video_mp4_url&quot;: &quot;<a href="http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2009/189_pycon-2009-data-storage-in-python-an-overview-of-options-part-2-of-3.mp4" rel="nofollow">http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2009/189_pycon-2009-data-storage-in-python-an-overview-of-options-part-2-of-3.mp4</a>&quot;, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: null, 
+            &quot;added&quot;: &quot;2012-02-23T04:20:00&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:25.638&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyCon US 2009&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;pycon-2009--data-storage-in-python---an-overview1&quot;, 
+            &quot;speakers&quot;: [], 
+            &quot;tags&quot;: [
+                &quot;bsddb&quot;, 
+                &quot;databases&quot;, 
+                &quot;excel&quot;, 
+                &quot;flatfile&quot;, 
+                &quot;hdf5&quot;, 
+                &quot;netcdf&quot;, 
+                &quot;pickle&quot;, 
+                &quot;pycon&quot;, 
+                &quot;pycon2009&quot;, 
+                &quot;serialization&quot;, 
+                &quot;zodb&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 191, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;PyCon 2009: Data Storage in Python - An Overview of Options (Part 3 of 3)&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;  \nThere are many possibilities in Python to store data. This tutorials explores\nsome of them: flat file, Excel files, NetCDF and HDF5, serialization with\npickle and friends, relational databases, bsddb and ZODB. The objective of\nthis course is to give the participants an overview over available options as\nwell as there advantages and disadvantages for different purposes.\nParticipants are strongly recommended to bring laptops because all topics are\nintroduced with examples and exercises.\n\n&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;Creative Commons Attribution-NonCommercial-ShareAlike 3.0&quot;, 
+            &quot;embed&quot;: &quot;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://a.images.blip.tv/Pycon-DataStorageInPythonAnOverviewOfOptionsPart003803-876.jpg" rel="nofollow">http://a.images.blip.tv/Pycon-DataStorageInPythonAnOverviewOfOptionsPart003803-876.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: 33029068, 
+            &quot;video_mp4_url&quot;: &quot;<a href="http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2009/191_pycon-2009-data-storage-in-python-an-overview-of-options-part-3-of-3.mp4" rel="nofollow">http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2009/191_pycon-2009-data-storage-in-python-an-overview-of-options-part-3-of-3.mp4</a>&quot;, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: null, 
+            &quot;added&quot;: &quot;2012-02-23T04:20:00&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:25.640&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyCon US 2009&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;pycon-2009--designing-a-web-framework--django--39&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Jacob Kaplan-Moss&quot;
+            ], 
+            &quot;tags&quot;: [
+                &quot;pycon&quot;, 
+                &quot;pycon2009&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 225, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;PyCon 2009: Designing a web framework: Django&#39;s design decisions (#75)&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;Designing a web framework: Django&#39;s design decisions\n\n  \nPresented by Jacob Kaplan-Moss\n\n  \nDjango is a high-level web development framework designed for rapid\ndevelopment of database-backed web sites. Since its release three years ago\nDjango&#39;s grown by leaps and bounds; it&#39;s now part of a highly successful new\ngeneration of web development tools.\n\n&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;Creative Commons Attribution-NonCommercial-ShareAlike 3.0&quot;, 
+            &quot;embed&quot;: &quot;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://a.images.blip.tv/Pycon-DesigningAWebFrameworkDjangosDesignDecisions895-36.jpg" rel="nofollow">http://a.images.blip.tv/Pycon-DesigningAWebFrameworkDjangosDesignDecisions895-36.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: 172288254, 
+            &quot;video_mp4_url&quot;: &quot;<a href="http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2009/225_pycon-2009-designing-a-web-framework-django-s-design-decisions-75.mp4" rel="nofollow">http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2009/225_pycon-2009-designing-a-web-framework-django-s-design-decisions-75.mp4</a>&quot;, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: null, 
+            &quot;added&quot;: &quot;2012-02-23T04:20:00&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:25.641&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyCon US 2009&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;pycon-2009--django-in-the-real-world--part-1-of-3&quot;, 
+            &quot;speakers&quot;: [], 
+            &quot;tags&quot;: [
+                &quot;pycon&quot;, 
+                &quot;pycon2009&quot;, 
+                &quot;tutorial&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 140, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;PyCon 2009: Django in the Real World (Part 1 of 3)&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;There&#39;s plenty of material (documentation, blogs, books) out there that&#39;ll\nhelp you write a site using Django... but then what? You&#39;ve still got to test,\ndeploy, monitor, and tune the site; failure at deployment time means all your\nbeautiful code is for naught. This tutorial examines how best to cope when the\nReal World intrudes on your carefully designed website.\n\n  \n[VIDEO HAS ISSUES: blurry vga]\n\n&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;Creative Commons Attribution-NonCommercial-ShareAlike 3.0&quot;, 
+            &quot;embed&quot;: &quot;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://a.images.blip.tv/Pycon-DjangoInTheRealWorldPart001795-302.jpg" rel="nofollow">http://a.images.blip.tv/Pycon-DjangoInTheRealWorldPart001795-302.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: 1039606437, 
+            &quot;video_mp4_url&quot;: &quot;<a href="http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2009/140_pycon-2009-django-in-the-real-world-part-1-of-3.mp4" rel="nofollow">http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2009/140_pycon-2009-django-in-the-real-world-part-1-of-3.mp4</a>&quot;, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: null, 
+            &quot;added&quot;: &quot;2012-02-23T04:20:00&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:25.642&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyCon US 2009&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;pycon-2009--django-in-the-real-world--part-2-of-3&quot;, 
+            &quot;speakers&quot;: [], 
+            &quot;tags&quot;: [
+                &quot;pycon&quot;, 
+                &quot;pycon2009&quot;, 
+                &quot;tutorial&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 139, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;PyCon 2009: Django in the Real World (Part 2 of 3)&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;There&#39;s plenty of material (documentation, blogs, books) out there that&#39;ll\nhelp you write a site using Django... but then what? You&#39;ve still got to test,\ndeploy, monitor, and tune the site; failure at deployment time means all your\nbeautiful code is for naught. This tutorial examines how best to cope when the\nReal World intrudes on your carefully designed website.\n\n  \n[VIDEO HAS ISSUES: blurry vga]\n\n&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;Creative Commons Attribution-NonCommercial-ShareAlike 3.0&quot;, 
+            &quot;embed&quot;: &quot;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://a.images.blip.tv/Pycon-DjangoInTheRealWorldPart002548-829.jpg" rel="nofollow">http://a.images.blip.tv/Pycon-DjangoInTheRealWorldPart002548-829.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: 1044813140, 
+            &quot;video_mp4_url&quot;: &quot;<a href="http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2009/139_pycon-2009-django-in-the-real-world-part-2-of-3.mp4" rel="nofollow">http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2009/139_pycon-2009-django-in-the-real-world-part-2-of-3.mp4</a>&quot;, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: null, 
+            &quot;added&quot;: &quot;2012-02-23T04:20:00&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:25.643&quot;
+        }
+    ]
+}</pre>
+            </div>
+        </div>
+
+            
+
+                
+
+                
+            
+
+        </div>
+        <!-- END content-main -->
+
+    </div>
+    <!-- END Content -->
+
+        <div id="push"></div>
+
+    </div>
+
+    </div><!-- ./wrapper -->
+
+    
+    
+
+    
+    <script src="/static/rest_framework/js/jquery-1.8.1-min.js"></script>
+    <script src="/static/rest_framework/js/bootstrap.min.js"></script>
+    <script src="/static/rest_framework/js/prettify-min.js"></script>
+    <script src="/static/rest_framework/js/default.js"></script>
+    
+  </body>
+
+<!-- Mirrored from pyvideo.org/api/v2/video/?page=11 by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 07 Jan 2016 03:47:02 GMT -->
+</html>

@@ -1,0 +1,902 @@
+
+
+<!DOCTYPE html>
+<html>
+    
+<!-- Mirrored from pyvideo.org/api/v2/video/?page=42&format=api by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 07 Jan 2016 03:48:19 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+    
+
+        
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+        <meta name="robots" content="NONE,NOARCHIVE" />
+        
+
+        <title>Django REST framework</title>
+
+        
+        
+            <link rel="stylesheet" type="text/css" href="/static/rest_framework/css/bootstrap.min.css"/>
+            <link rel="stylesheet" type="text/css" href="/static/rest_framework/css/bootstrap-tweaks.css"/>
+        
+        <link rel="stylesheet" type="text/css" href="/static/rest_framework/css/prettify.css"/>
+        <link rel="stylesheet" type="text/css" href="/static/rest_framework/css/default.css"/>
+        
+
+    
+    </head>
+
+  <body class=" container">
+
+    <div class="wrapper">
+
+    
+    <div class="navbar navbar-inverse">
+        <div class="navbar-inner">
+            <div class="container-fluid">
+                <span href="/">
+                    <a class='brand' rel="nofollow" href='http://www.django-rest-framework.org'>Django REST framework <span class="version">2.3.14</span></a>
+                </span>
+                <ul class="nav pull-right">
+                    
+                        
+                            <li></li>
+                        
+                    
+                </ul>
+            </div>
+        </div>
+    </div>
+    
+
+    
+    <ul class="breadcrumb">
+        
+            <li>
+                <a href="/api/v2/video/" class="active">Video List Create Api</a> 
+            </li>
+        
+    </ul>
+    
+
+    <!-- Content -->
+    <div id="content">
+
+        
+            <form id="get-form" class="pull-right">
+                <fieldset>
+                    <div class="btn-group format-selection">
+                        <a class="btn btn-primary js-tooltip" href='/api/v2/video/?page=42&amp;format=api' rel="nofollow" title="Make a GET request on the Video List Create Api resource">GET</a>
+
+                        <button class="btn btn-primary dropdown-toggle js-tooltip" data-toggle="dropdown" title="Specify a format for the GET request">
+                            <span class="caret"></span>
+                        </button>
+                        <ul class="dropdown-menu">
+                            
+                                <li>
+                                    <a class="js-tooltip format-option" href='/api/v2/video/?page=42&format=json' rel="nofollow" title="Make a GET request on the Video List Create Api resource with the format set to `json`">json</a>
+                                </li>
+                            
+                                <li>
+                                    <a class="js-tooltip format-option" href='/api/v2/video/?page=42&format=api' rel="nofollow" title="Make a GET request on the Video List Create Api resource with the format set to `api`">api</a>
+                                </li>
+                            
+                        </ul>
+                    </div>
+
+                </fieldset>
+            </form>
+        
+
+        
+            <form class="button-form" action="/api/v2/video/?page=42&amp;format=api" method="POST" class="pull-right">
+                <input type='hidden' name='csrfmiddlewaretoken' value='pT8iI6zhtQdsGFmu4tryYgFrUlipl2B3' />
+                <input type="hidden" name="_method" value="OPTIONS" />
+                <button class="btn btn-primary js-tooltip" title="Make an OPTIONS request on the Video List Create Api resource">OPTIONS</button>
+            </form>
+        
+
+        
+
+        <div class="content-main">
+            <div class="page-header"><h1>Video List Create Api</h1></div>
+            
+            
+            
+            <div class="request-info" style="clear: both" >
+                <pre class="prettyprint"><b>GET</b> /api/v2/video/?page=42&amp;format=api</pre>
+            </div>
+            <div class="response-info">
+                <pre class="prettyprint"><div class="meta nocode"><b>HTTP 200 OK</b>
+<b>Content-Type:</b> <span class="lit">application/json</span>
+<b>Vary:</b> <span class="lit">Accept</span>
+<b>Allow:</b> <span class="lit">GET, POST, HEAD, OPTIONS</span>
+
+</div>{
+    &quot;count&quot;: 3439, 
+    &quot;next&quot;: &quot;<a href="http://pyvideo.org/api/v2/video/?page=43&amp;format=api" rel="nofollow">http://pyvideo.org/api/v2/video/?page=43&amp;format=api</a>&quot;, 
+    &quot;previous&quot;: &quot;<a href="http://pyvideo.org/api/v2/video/?page=41&amp;format=api" rel="nofollow">http://pyvideo.org/api/v2/video/?page=41&amp;format=api</a>&quot;, 
+    &quot;results&quot;: [
+        {
+            &quot;category&quot;: &quot;PyData Paris 2015&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;out-of-core-numpy-arrays-without-changing-your-co&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Kirill Smelkov&quot;
+            ], 
+            &quot;tags&quot;: [], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 3528, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Out-of-core NumPy arrays without changing your code with wendelin-core&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;This talk introduces a new implementation of NumPy arrays that provides support for out\u00adof\u00adcore data analysis without changing code, without breaking APIs and without losing the performance advantage provided by FORTRAN libraries or just\u00adin\u00adtime compilers. wendelin\u00adcore acts transparently as distributed shared virtual memory manager for binary data handled by python interpreters deployed on a cluster. Thanks to wendelin\u00ad core, each python interpreter can access elementary ndarray structures of virtually 2 exabytes in a single memory block, whatever the amount of RAM available on each node. With wendelin\u00adcore, a cluster of inexpensive PCs can thus act as a teramory server at much lower cost. A cluster of tera\u00ad-memory servers can act as an examemory machine.\n\n    In addition to bringing true BIg Data support to NumPy libraries, wendelin\u00adcore also provides native persistency of ndarrays thanks to its integration with NEO database. NEO together with wendelin\u00adcore can shard and store ndarrays on a redundant array of inexpensive computers and provide native support for python exception handling, thus enforcing a rollback of any change made to data in case of bug or error during a calculation.\n\n    The talk will focus on the technical aspects of wendelin\u00ad-core. It will explain the technical approach that has been used for the first implementation: what has been achieved, what is still weak, what can be improved. It will explain how to hook wendelin\u00ad-core to a persistency layer. It will then present the technical roadmap and suggest how to integrate wendelin\u00adcore to other persistency layers or to other data structures.&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;youtube&quot;, 
+            &quot;embed&quot;: &quot;&lt;iframe type=&#39;text/html&#39; src=&#39;http://www.youtube.com/embed/aQWK9qQubAc&#39; width=&#39;640&#39; height=&#39;360&#39; frameborder=&#39;0&#39; allowfullscreen=&#39;true&#39;/&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="https://i.ytimg.com/vi/aQWK9qQubAc/hqdefault.jpg" rel="nofollow">https://i.ytimg.com/vi/aQWK9qQubAc/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: null, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="https://www.youtube.com/watch?v=aQWK9qQubAc" rel="nofollow">https://www.youtube.com/watch?v=aQWK9qQubAc</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;needs editing&quot;, 
+            &quot;recorded&quot;: &quot;2015-04-21&quot;, 
+            &quot;added&quot;: &quot;2015-04-22T17:59:39.108&quot;, 
+            &quot;updated&quot;: &quot;2015-04-22T17:59:39.109&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyData Paris 2015&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;numba-a-jit-compiler-for-fast-numerical-code&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Antoine Pitrou&quot;
+            ], 
+            &quot;tags&quot;: [], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 3529, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Numba, a JIT compiler for fast numerical code&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;This talk will be a general introduction to Numba. Numba is a just\u00ad-in-\u00adtime Python compiler that allows you to speed up numerical algorithms for which fast linear algebra (i.e. Numpy array operations) is not enough. It has backends for the CPU and for CUDA GPUs.\n\n    Expected audience: Python programmers / scientists who have an interest in speeding up numerical routines. Also, people who are curious about attempts at high-\u00adperformance Python.&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;youtube&quot;, 
+            &quot;embed&quot;: &quot;&lt;iframe type=&#39;text/html&#39; src=&#39;http://www.youtube.com/embed/eKlNEJlSjuE&#39; width=&#39;640&#39; height=&#39;360&#39; frameborder=&#39;0&#39; allowfullscreen=&#39;true&#39;/&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="https://i.ytimg.com/vi/eKlNEJlSjuE/hqdefault.jpg" rel="nofollow">https://i.ytimg.com/vi/eKlNEJlSjuE/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: null, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="https://www.youtube.com/watch?v=eKlNEJlSjuE" rel="nofollow">https://www.youtube.com/watch?v=eKlNEJlSjuE</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;needs editing&quot;, 
+            &quot;recorded&quot;: &quot;2015-04-20&quot;, 
+            &quot;added&quot;: &quot;2015-04-22T17:59:39.190&quot;, 
+            &quot;updated&quot;: &quot;2015-04-22T17:59:39.190&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyData Paris 2015&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;pythran-static-compilation-of-parallel-scientifi&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Pierrick Brunet&quot;, 
+                &quot;Serge Guelton&quot;
+            ], 
+            &quot;tags&quot;: [], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 3518, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Pythran: Static Compilation of Parallel Scientific Kernels&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;As the use of Python coupled to Numpy/SciPy for numerical computation increases, many tools to optimize performance have emerged. Indeed, this duo has relatively poor performance when compared to scientific codes written in legacy languages like C or Fortran. Cython, Numba, numexpr and parakeet belongs to this new compiler ecosystem. And so does Pythran, a Python to C++11 translator for scientific Python.\r\n\r\n    Pythran uses a static compilation approach a la Cython, but with full backward compatibility with Python. It does not only turns Python code into C++ code, it also performs Python/Numpy specific optimizations, generates calls to a parallel, vectorized runtime and makes it possible to write OpenMP annotation in the original Python code. It supports a large range of Numpy functions and can combine them in efficient ways: it can optimize high\u00adlevel modern Python/Numpy codes and not only Fortran\u00ad with\u00ad a\u00ad Python\u00ad flavor ones.\r\n\r\n    This talk presents the existing compilation approach and optimization opportunities for numerical Python, their strengths and weaknesses, then focus on the specificities of the Pythran compiler.&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;youtube&quot;, 
+            &quot;embed&quot;: &quot;&lt;iframe type=&#39;text/html&#39; src=&#39;http://www.youtube.com/embed/Af8B30mXZ7E&#39; width=&#39;640&#39; height=&#39;360&#39; frameborder=&#39;0&#39; allowfullscreen=&#39;true&#39;/&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="https://i.ytimg.com/vi/Af8B30mXZ7E/hqdefault.jpg" rel="nofollow">https://i.ytimg.com/vi/Af8B30mXZ7E/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: &quot;&quot;, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: &quot;&quot;, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: &quot;&quot;, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: &quot;&quot;, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="https://www.youtube.com/watch?v=Af8B30mXZ7E" rel="nofollow">https://www.youtube.com/watch?v=Af8B30mXZ7E</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;needs editing&quot;, 
+            &quot;recorded&quot;: &quot;2015-04-17&quot;, 
+            &quot;added&quot;: &quot;2015-04-22T17:59:37.249&quot;, 
+            &quot;updated&quot;: &quot;2015-04-22T17:59:37.249&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyCon US 2015&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;keynote-gabriella-coleman&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Gabriella Coleman&quot;
+            ], 
+            &quot;tags&quot;: [], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 3493, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Keynote  - Gabriella Coleman&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;creativeCommon&quot;, 
+            &quot;embed&quot;: &quot;&lt;iframe type=&#39;text/html&#39; src=&#39;http://www.youtube.com/embed/lNqtyi3sM-k&#39; width=&#39;640&#39; height=&#39;360&#39; frameborder=&#39;0&#39; allowfullscreen=&#39;true&#39;/&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="https://i.ytimg.com/vi/lNqtyi3sM-k/hqdefault.jpg" rel="nofollow">https://i.ytimg.com/vi/lNqtyi3sM-k/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: &quot;&quot;, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: &quot;&quot;, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: &quot;&quot;, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: &quot;&quot;, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="https://www.youtube.com/watch?v=lNqtyi3sM-k" rel="nofollow">https://www.youtube.com/watch?v=lNqtyi3sM-k</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;needs editing&quot;, 
+            &quot;recorded&quot;: &quot;2015-04-16&quot;, 
+            &quot;added&quot;: &quot;2015-04-16T14:22:12.966&quot;, 
+            &quot;updated&quot;: &quot;2015-04-16T16:46:17.659&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyCon US 2015&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;keynote-guido-van-rossum-1&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Guido van Rossum&quot;
+            ], 
+            &quot;tags&quot;: [], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 3417, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Keynote - Guido van Rossum&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;creativeCommon&quot;, 
+            &quot;embed&quot;: &quot;&lt;iframe type=&#39;text/html&#39; src=&#39;http://www.youtube.com/embed/G-uKNd5TSBw&#39; width=&#39;640&#39; height=&#39;360&#39; frameborder=&#39;0&#39; allowfullscreen=&#39;true&#39;/&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="https://i.ytimg.com/vi/G-uKNd5TSBw/hqdefault.jpg" rel="nofollow">https://i.ytimg.com/vi/G-uKNd5TSBw/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: &quot;&quot;, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: &quot;&quot;, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: &quot;&quot;, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: &quot;&quot;, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="https://www.youtube.com/watch?v=G-uKNd5TSBw" rel="nofollow">https://www.youtube.com/watch?v=G-uKNd5TSBw</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;needs editing&quot;, 
+            &quot;recorded&quot;: &quot;2015-04-16&quot;, 
+            &quot;added&quot;: &quot;2015-04-16T14:22:05.406&quot;, 
+            &quot;updated&quot;: &quot;2015-04-16T16:46:37.445&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyData Paris 2015&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;scikit-learn-for-predictive-maintenance-at-airbus&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Fabien Mangeant&quot;, 
+                &quot;Vincent Feuillard&quot;
+            ], 
+            &quot;tags&quot;: [], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 3519, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;scikit-learn for predictive maintenance at Airbus&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;youtube&quot;, 
+            &quot;embed&quot;: &quot;&lt;iframe type=&#39;text/html&#39; src=&#39;http://www.youtube.com/embed/Aue3gdFcFtM&#39; width=&#39;640&#39; height=&#39;360&#39; frameborder=&#39;0&#39; allowfullscreen=&#39;true&#39;/&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="https://i.ytimg.com/vi/Aue3gdFcFtM/hqdefault.jpg" rel="nofollow">https://i.ytimg.com/vi/Aue3gdFcFtM/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: null, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="https://www.youtube.com/watch?v=Aue3gdFcFtM" rel="nofollow">https://www.youtube.com/watch?v=Aue3gdFcFtM</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;needs editing&quot;, 
+            &quot;recorded&quot;: &quot;2015-04-16&quot;, 
+            &quot;added&quot;: &quot;2015-04-22T17:59:37.627&quot;, 
+            &quot;updated&quot;: &quot;2015-04-22T17:59:37.627&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyData Paris 2015&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;using-python-and-data-science-to-tackle-real-time&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Cl\u00e9ment Jambou&quot;
+            ], 
+            &quot;tags&quot;: [], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 3534, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Using Python and Data science to tackle real-time transportation problems at Lyft&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;I\u2019m interested in giving a talk for this conference as I believe many students with the same background as mine would be interested in hearing about how Data Science is a crucial tool in building a successful startup and its influence on taking decision every day. As part of my work I use python and scientific librairies ( pandas, scikit\u00adlearn) on a daily basis as it is used both on our backend services as well as for Data analysis. We tackle complex problems such as Dynamic Pricing depending on local demand an supply, dispatching Drivers efficiently, Matching multiple passenger routes together for or real time ride\u00adsharing product Lyft Line, real\u00adtime ETAs and traffic estimation\u2026 The fact that a lot of or analyses use geolocation data adds a specific component to it that leads to complex problems. Optimization is crucial as it is beneficial for everyone in our Marketplace: Passenger can get lower prices and better service, Drivers spend more time with someone in their car and have higher earnings\u2026&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;youtube&quot;, 
+            &quot;embed&quot;: &quot;&lt;iframe type=&#39;text/html&#39; src=&#39;http://www.youtube.com/embed/nb6YiqDCpJo&#39; width=&#39;640&#39; height=&#39;360&#39; frameborder=&#39;0&#39; allowfullscreen=&#39;true&#39;/&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="https://i.ytimg.com/vi/nb6YiqDCpJo/hqdefault.jpg" rel="nofollow">https://i.ytimg.com/vi/nb6YiqDCpJo/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: null, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="https://www.youtube.com/watch?v=nb6YiqDCpJo" rel="nofollow">https://www.youtube.com/watch?v=nb6YiqDCpJo</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;needs editing&quot;, 
+            &quot;recorded&quot;: &quot;2015-04-16&quot;, 
+            &quot;added&quot;: &quot;2015-04-22T17:59:39.633&quot;, 
+            &quot;updated&quot;: &quot;2015-04-22T17:59:39.633&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyData Paris 2015&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;python-sqlalchemy-and-scrapy-for-real-time-data&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Jean Maynier&quot;
+            ], 
+            &quot;tags&quot;: [], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 3523, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Python, SQLalchemy and Scrapy for real-time data processing at Kpler&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;Founded in Paris in 2009, Kpler is an intelligence company providing transparency solutions in energy markets. We develop proprietary technologies that systematically aggregate data from hundreds of sources, ranging from logistics and commercial, to governmental and shipping databases. By connecting the dots across fragmented information landscapes, we are able to deliver our clients with unique real-time market coverage.&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;youtube&quot;, 
+            &quot;embed&quot;: &quot;&lt;iframe type=&#39;text/html&#39; src=&#39;http://www.youtube.com/embed/La8VfalnHnw&#39; width=&#39;640&#39; height=&#39;360&#39; frameborder=&#39;0&#39; allowfullscreen=&#39;true&#39;/&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="https://i.ytimg.com/vi/La8VfalnHnw/hqdefault.jpg" rel="nofollow">https://i.ytimg.com/vi/La8VfalnHnw/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: null, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="https://www.youtube.com/watch?v=La8VfalnHnw" rel="nofollow">https://www.youtube.com/watch?v=La8VfalnHnw</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;needs editing&quot;, 
+            &quot;recorded&quot;: &quot;2015-04-15&quot;, 
+            &quot;added&quot;: &quot;2015-04-22T17:59:38.628&quot;, 
+            &quot;updated&quot;: &quot;2015-04-22T17:59:38.628&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyData Paris 2015&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;embarrassingly-parallel-database-calls-with-pytho&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Niels Zeilemaker&quot;
+            ], 
+            &quot;tags&quot;: [], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 3530, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Embarrassingly parallel database calls with Python&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;Have you ever squeezed you SQL queries to the last millisecond, but still found yourself with not enough speed in your data\u00addriven Python applications? Then this talk is for you. We\u2019ll look at how to shard your data, which design changes should happen and how to use the Python threading module to bring in the data as quickly as possible by making parallel database calls.\n\nExpected audience: Python developers building real\u00adtime applications needing increase their response time.&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;youtube&quot;, 
+            &quot;embed&quot;: &quot;&lt;iframe type=&#39;text/html&#39; src=&#39;http://www.youtube.com/embed/g0eNQSzIbpQ&#39; width=&#39;640&#39; height=&#39;360&#39; frameborder=&#39;0&#39; allowfullscreen=&#39;true&#39;/&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="https://i.ytimg.com/vi/g0eNQSzIbpQ/hqdefault.jpg" rel="nofollow">https://i.ytimg.com/vi/g0eNQSzIbpQ/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: null, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="https://www.youtube.com/watch?v=g0eNQSzIbpQ" rel="nofollow">https://www.youtube.com/watch?v=g0eNQSzIbpQ</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;needs editing&quot;, 
+            &quot;recorded&quot;: &quot;2015-04-14&quot;, 
+            &quot;added&quot;: &quot;2015-04-22T17:59:39.277&quot;, 
+            &quot;updated&quot;: &quot;2015-04-22T17:59:39.277&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyData Paris 2015&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;industrial-monitoring-with-the-wendelin-big-data&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Jean-Paul Smets&quot;, 
+                &quot;S\u00e9bastien Robin&quot;
+            ], 
+            &quot;tags&quot;: [], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 3531, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Industrial Monitoring with the Wendelin Big Data platform&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;This talk presents the Wendelin Big Data \u201cFull Stack\u201d and introduces a first success story related to the collection of vibration data in wind turbines and the analysis of vibrations.\n\nWendelin (<a href="http://wendelin.io/" rel="nofollow">http://wendelin.io/</a>) combines automated cluster deployment, distributed data persistency for NumPy arrays, parallel data processing, fluentd compliant data ingestion interface and JIO compliant javascript interface. It is an all\u00adin\u00adone open source solution that provides a 100% native python alternative to hybrid solutions based on Spark.\n\nThe talk is derived from the presentation made at MariaDB community event (<a href="https://mariadb.org/en/community-events/" rel="nofollow">https://mariadb.org/en/community-events/</a>). The presentation of Wendelin Full Stack will be shorter than in Santa Clara in order to provide enough time to present the first implementation for Wind Turbines. We will show in particular which parts of data analysis are handled on server side with pydata libraries, which parts of data analysis are handled on browser side in javascript and how both can be integrated to minimize implementation costs.\n\nThe talk concludes on Wendelin platform roadmap.&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;youtube&quot;, 
+            &quot;embed&quot;: &quot;&lt;iframe type=&#39;text/html&#39; src=&#39;http://www.youtube.com/embed/kyp8vHnpUXE&#39; width=&#39;640&#39; height=&#39;360&#39; frameborder=&#39;0&#39; allowfullscreen=&#39;true&#39;/&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="https://i.ytimg.com/vi/kyp8vHnpUXE/hqdefault.jpg" rel="nofollow">https://i.ytimg.com/vi/kyp8vHnpUXE/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: null, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="https://www.youtube.com/watch?v=kyp8vHnpUXE" rel="nofollow">https://www.youtube.com/watch?v=kyp8vHnpUXE</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;needs editing&quot;, 
+            &quot;recorded&quot;: &quot;2015-04-14&quot;, 
+            &quot;added&quot;: &quot;2015-04-22T17:59:39.370&quot;, 
+            &quot;updated&quot;: &quot;2015-04-22T17:59:39.370&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyData Paris 2015&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;simulating-and-visualising-commuter-flow-through&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Camilla Montonen&quot;
+            ], 
+            &quot;tags&quot;: [], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 3532, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Simulating and visualising commuter flow through the London Underground&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;Every year the London Tube transports about 1.3 billion commuters. With multiple intersecting lines, the daily functioning of the London Tube network poses many interesting questions: What effects do severe delays on the Piccadilly Line have on passengers taking the Northern Line? What is the shortest path from station x to station y? How does overcrowding on one station affect its neighbouring stations? These are but a few examples of the many questions one can start to investigate using two Python libraries: graph\u00adtool for manipulating and analysing graphs and bokeh for visualizing and streaming \u201clive\u201d data from simulations. In this talk, I will briefly show how one can transform structures such as the London Underground map into programmatic objects that can be analysed and manipulated using Python. Furthermore, I will show examples of simulations based on the publicly available data from Transport for London and illustrate how simulations can be used to glean insight on the large scale behaviour of a complex system. Last but not least, I hope to illustrate how the bokeh server can be leveraged to create \u201creal\u00adtime\u201d visualizations of simulations.&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;youtube&quot;, 
+            &quot;embed&quot;: &quot;&lt;iframe type=&#39;text/html&#39; src=&#39;http://www.youtube.com/embed/lSbpt67GBUo&#39; width=&#39;640&#39; height=&#39;360&#39; frameborder=&#39;0&#39; allowfullscreen=&#39;true&#39;/&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="https://i.ytimg.com/vi/lSbpt67GBUo/hqdefault.jpg" rel="nofollow">https://i.ytimg.com/vi/lSbpt67GBUo/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: null, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="https://www.youtube.com/watch?v=lSbpt67GBUo" rel="nofollow">https://www.youtube.com/watch?v=lSbpt67GBUo</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;needs editing&quot;, 
+            &quot;recorded&quot;: &quot;2015-04-14&quot;, 
+            &quot;added&quot;: &quot;2015-04-22T17:59:39.457&quot;, 
+            &quot;updated&quot;: &quot;2015-04-22T17:59:39.457&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyData Paris 2015&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;why-and-how-to-explain-machine-learning-predictio&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Bora Eang&quot;, 
+                &quot;Christophe Bourguignat&quot;, 
+                &quot;Marcin Detyniecki&quot;
+            ], 
+            &quot;tags&quot;: [], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 3524, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Why and how to explain machine learning predictions&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;Unfortunately, the predictive models that are most powerful are usually the least interpretable. However in some cases, for example fraud detection, end users need an understandable explanation of a particular prediction, at observation level, and not only at population level (e.g. : features importance). During this talk we will present different approaches to tackle this issue, both for random forests and gradient boosting trees. We will also demonstrate an implementation based on scikit-learn.&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;youtube&quot;, 
+            &quot;embed&quot;: &quot;&lt;iframe type=&#39;text/html&#39; src=&#39;http://www.youtube.com/embed/TB3axpIpCiQ&#39; width=&#39;640&#39; height=&#39;360&#39; frameborder=&#39;0&#39; allowfullscreen=&#39;true&#39;/&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="https://i.ytimg.com/vi/TB3axpIpCiQ/hqdefault.jpg" rel="nofollow">https://i.ytimg.com/vi/TB3axpIpCiQ/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: null, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="https://www.youtube.com/watch?v=TB3axpIpCiQ" rel="nofollow">https://www.youtube.com/watch?v=TB3axpIpCiQ</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;needs editing&quot;, 
+            &quot;recorded&quot;: &quot;2015-04-14&quot;, 
+            &quot;added&quot;: &quot;2015-04-22T17:59:38.743&quot;, 
+            &quot;updated&quot;: &quot;2015-04-22T17:59:38.743&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyData Paris 2015&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;introduction-to-pandas-0&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Joris Van Den Bossche&quot;
+            ], 
+            &quot;tags&quot;: [], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 3525, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Introduction to Pandas&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;Pandas is becoming the fundamental library for manipulating and analyzing structured data, providing high-performance, easy-to-use data structures and data analysis tools. This talk will give a basic introduction to pandas, explaining the key concepts and defining features.&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;youtube&quot;, 
+            &quot;embed&quot;: &quot;&lt;iframe type=&#39;text/html&#39; src=&#39;http://www.youtube.com/embed/TSsSWuhBpmY&#39; width=&#39;640&#39; height=&#39;360&#39; frameborder=&#39;0&#39; allowfullscreen=&#39;true&#39;/&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="https://i.ytimg.com/vi/TSsSWuhBpmY/hqdefault.jpg" rel="nofollow">https://i.ytimg.com/vi/TSsSWuhBpmY/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: null, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="https://www.youtube.com/watch?v=TSsSWuhBpmY" rel="nofollow">https://www.youtube.com/watch?v=TSsSWuhBpmY</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;needs editing&quot;, 
+            &quot;recorded&quot;: &quot;2015-04-13&quot;, 
+            &quot;added&quot;: &quot;2015-04-22T17:59:38.832&quot;, 
+            &quot;updated&quot;: &quot;2015-04-22T17:59:38.832&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyData Paris 2015&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;reaching-your-dreams-with-python&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Chloe-Agathe Azencott&quot;
+            ], 
+            &quot;tags&quot;: [], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 3522, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Reaching your DREAMs with Python&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;DREAM challenges (<a href="http://dreamchallenges.org/" rel="nofollow">http://dreamchallenges.org/</a>) gather participants from a wide community of researchers to analyze data provided to help solve fundamental, cutting\u00adedge questions about systems biology and translational medicine.\n\n    I will show how Python and scikit\u00adlearn can be used to process data, try out standard machine learning techniques, and develop ad hoc solutions to address such challenges. This talk will be illustrated by the example of two challenges in which I took part, both times in teams that placed second. The first of these challenges was in toxicogenetics (<a href="https://www.synapse.org/#!Synapse:syn1734172" rel="nofollow">https://www.synapse.org/#!Synapse:syn1734172</a>), aiming at predicting the toxicity of a chemical on a cell line. The second (<a href="https://www.synapse.org/#!Synapse:syn1761567" rel="nofollow">https://www.synapse.org/#!Synapse:syn1761567</a>) was aimed at predicting the response of patients to rhematoid arthritis treatment.&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;youtube&quot;, 
+            &quot;embed&quot;: &quot;&lt;iframe type=&#39;text/html&#39; src=&#39;http://www.youtube.com/embed/IpK9GeYs_KA&#39; width=&#39;640&#39; height=&#39;360&#39; frameborder=&#39;0&#39; allowfullscreen=&#39;true&#39;/&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="https://i.ytimg.com/vi/IpK9GeYs_KA/hqdefault.jpg" rel="nofollow">https://i.ytimg.com/vi/IpK9GeYs_KA/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: null, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="https://www.youtube.com/watch?v=IpK9GeYs_KA" rel="nofollow">https://www.youtube.com/watch?v=IpK9GeYs_KA</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;needs editing&quot;, 
+            &quot;recorded&quot;: &quot;2015-04-13&quot;, 
+            &quot;added&quot;: &quot;2015-04-22T17:59:38.542&quot;, 
+            &quot;updated&quot;: &quot;2015-04-22T17:59:38.542&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyData Paris 2015&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;tree-models-with-scikit-learn&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Gilles Louppe&quot;
+            ], 
+            &quot;tags&quot;: [], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 3521, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Tree models with scikit-learn&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;This talk gives an introduction to tree-based methods, both from a theoretical and practical point of view. It covers decision trees, random forests and boosting estimators, along with concrete examples based on Scikit-Learn about how they work, when they work and why they work.&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;youtube&quot;, 
+            &quot;embed&quot;: &quot;&lt;iframe type=&#39;text/html&#39; src=&#39;http://www.youtube.com/embed/GuRfLbAU9Ho&#39; width=&#39;640&#39; height=&#39;360&#39; frameborder=&#39;0&#39; allowfullscreen=&#39;true&#39;/&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="https://i.ytimg.com/vi/GuRfLbAU9Ho/hqdefault.jpg" rel="nofollow">https://i.ytimg.com/vi/GuRfLbAU9Ho/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: null, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="https://www.youtube.com/watch?v=GuRfLbAU9Ho" rel="nofollow">https://www.youtube.com/watch?v=GuRfLbAU9Ho</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;needs editing&quot;, 
+            &quot;recorded&quot;: &quot;2015-04-13&quot;, 
+            &quot;added&quot;: &quot;2015-04-22T17:59:38.223&quot;, 
+            &quot;updated&quot;: &quot;2015-04-22T17:59:38.223&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyCon US 2015&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;achieving-continuous-delivery-an-automation-stor&quot;, 
+            &quot;speakers&quot;: [
+                &quot;James Cammarata&quot;
+            ], 
+            &quot;tags&quot;: [], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 3404, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Achieving Continuous Delivery: An Automation Story&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;Continuos Deployment is the act of deploying software constantly.  The idea is if \&quot;\&quot;release early, release often\&quot;\&quot; is good, releasing very often is better.  It&#39;s not trivial.   Automation is part of the battle, and testing is another.   Learn to use tools like Jenkins and Ansible to move from deploying software once a month to 15 times every hour, and why you&#39;ll want to.\n\n&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;youtube&quot;, 
+            &quot;embed&quot;: &quot;&lt;iframe type=&#39;text/html&#39; src=&#39;http://www.youtube.com/embed/7tfTR42iNSs&#39; width=&#39;640&#39; height=&#39;360&#39; frameborder=&#39;0&#39; allowfullscreen=&#39;true&#39;/&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="https://i.ytimg.com/vi/7tfTR42iNSs/hqdefault.jpg" rel="nofollow">https://i.ytimg.com/vi/7tfTR42iNSs/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: null, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="https://www.youtube.com/watch?v=7tfTR42iNSs" rel="nofollow">https://www.youtube.com/watch?v=7tfTR42iNSs</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;needs editing&quot;, 
+            &quot;recorded&quot;: &quot;2015-04-12&quot;, 
+            &quot;added&quot;: &quot;2015-04-16T14:22:04.168&quot;, 
+            &quot;updated&quot;: &quot;2015-04-16T14:22:04.168&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyCon US 2015&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;avoiding-burnout-and-other-essentials-of-open-so&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Kathleen Danielson&quot;
+            ], 
+            &quot;tags&quot;: [], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 3447, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Avoiding Burnout, and other essentials of Open Source Self-Care&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;As technical community managers we are faced with a unique set of challenges. We do it because we love our communities, but we also are often guilty of neglecting our own very real needs in order to serve those communities. We end up feeling guilty, run down, inadequate, and ultimately burnt out.\n\n&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;creativeCommon&quot;, 
+            &quot;embed&quot;: &quot;&lt;iframe type=&#39;text/html&#39; src=&#39;http://www.youtube.com/embed/RbeHBnWfXUc&#39; width=&#39;640&#39; height=&#39;360&#39; frameborder=&#39;0&#39; allowfullscreen=&#39;true&#39;/&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="https://i.ytimg.com/vi/RbeHBnWfXUc/hqdefault.jpg" rel="nofollow">https://i.ytimg.com/vi/RbeHBnWfXUc/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: null, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="https://www.youtube.com/watch?v=RbeHBnWfXUc" rel="nofollow">https://www.youtube.com/watch?v=RbeHBnWfXUc</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;needs editing&quot;, 
+            &quot;recorded&quot;: &quot;2015-04-12&quot;, 
+            &quot;added&quot;: &quot;2015-04-16T14:22:08.924&quot;, 
+            &quot;updated&quot;: &quot;2015-04-16T14:22:08.924&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyCon US 2015&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;a-winning-strategy-with-the-weakest-link-how-to&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Jim Baker&quot;
+            ], 
+            &quot;tags&quot;: [], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 3437, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;A Winning Strategy with The Weakest Link: how to use weak references to make your code more robust&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;Working with weak references should not just be for Python wizards. Whether you have a cache, memoizing a function, tracking objects, or various other bookkeeping needs, you definitely do not want code leaking memory or resources. In this talk, we will look at illuminating examples drawn from a variety of sources on how to use weak references to prevent such bugs.\n\n&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;creativeCommon&quot;, 
+            &quot;embed&quot;: &quot;&lt;iframe type=&#39;text/html&#39; src=&#39;http://www.youtube.com/embed/NknSssmLk4w&#39; width=&#39;640&#39; height=&#39;360&#39; frameborder=&#39;0&#39; allowfullscreen=&#39;true&#39;/&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="https://i.ytimg.com/vi/NknSssmLk4w/hqdefault.jpg" rel="nofollow">https://i.ytimg.com/vi/NknSssmLk4w/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: null, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="https://www.youtube.com/watch?v=NknSssmLk4w" rel="nofollow">https://www.youtube.com/watch?v=NknSssmLk4w</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;needs editing&quot;, 
+            &quot;recorded&quot;: &quot;2015-04-12&quot;, 
+            &quot;added&quot;: &quot;2015-04-16T14:22:07.880&quot;, 
+            &quot;updated&quot;: &quot;2015-04-16T14:22:07.880&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyCon US 2015&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;beyond-grep-practical-logging-and-metrics&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Hynek Schlawack&quot;
+            ], 
+            &quot;tags&quot;: [], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 3479, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Beyond grep: Practical Logging and Metrics&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;Your Python server applications are running but you\u2019re wondering what they are doing?  Your only clue about their current state is the server load?  Let\u2019s have stroll through the landscape of logging and metrics so you\u2019ll find the perfect fit for your use cases!\n\n&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;youtube&quot;, 
+            &quot;embed&quot;: &quot;&lt;iframe type=&#39;text/html&#39; src=&#39;http://www.youtube.com/embed/gqmAwK0wNyw&#39; width=&#39;640&#39; height=&#39;360&#39; frameborder=&#39;0&#39; allowfullscreen=&#39;true&#39;/&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="https://i.ytimg.com/vi/gqmAwK0wNyw/hqdefault.jpg" rel="nofollow">https://i.ytimg.com/vi/gqmAwK0wNyw/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: null, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="https://www.youtube.com/watch?v=gqmAwK0wNyw" rel="nofollow">https://www.youtube.com/watch?v=gqmAwK0wNyw</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;needs editing&quot;, 
+            &quot;recorded&quot;: &quot;2015-04-12&quot;, 
+            &quot;added&quot;: &quot;2015-04-16T14:22:11.688&quot;, 
+            &quot;updated&quot;: &quot;2015-04-16T14:22:11.688&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyCon US 2015&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;build-and-test-wheel-packages-on-linux-osx-win&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Olivier Grisel&quot;
+            ], 
+            &quot;tags&quot;: [], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 3473, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Build and test wheel packages on Linux, OSX &amp; Windows&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;Practical guide to build and test wheel packages for all platforms using free\nContinuous Integration services such as Travis CI (Linux and OSX) and AppVeyor\n(Windows).\n\n&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;creativeCommon&quot;, 
+            &quot;embed&quot;: &quot;&lt;iframe type=&#39;text/html&#39; src=&#39;http://www.youtube.com/embed/d-p6lJJObLU&#39; width=&#39;640&#39; height=&#39;360&#39; frameborder=&#39;0&#39; allowfullscreen=&#39;true&#39;/&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="https://i.ytimg.com/vi/d-p6lJJObLU/hqdefault.jpg" rel="nofollow">https://i.ytimg.com/vi/d-p6lJJObLU/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: null, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="https://www.youtube.com/watch?v=d-p6lJJObLU" rel="nofollow">https://www.youtube.com/watch?v=d-p6lJJObLU</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;needs editing&quot;, 
+            &quot;recorded&quot;: &quot;2015-04-12&quot;, 
+            &quot;added&quot;: &quot;2015-04-16T14:22:11.131&quot;, 
+            &quot;updated&quot;: &quot;2015-04-16T14:22:11.131&quot;
+        }
+    ]
+}</pre>
+            </div>
+        </div>
+
+            
+
+                
+
+                
+            
+
+        </div>
+        <!-- END content-main -->
+
+    </div>
+    <!-- END Content -->
+
+        <div id="push"></div>
+
+    </div>
+
+    </div><!-- ./wrapper -->
+
+    
+    
+
+    
+    <script src="/static/rest_framework/js/jquery-1.8.1-min.js"></script>
+    <script src="/static/rest_framework/js/bootstrap.min.js"></script>
+    <script src="/static/rest_framework/js/prettify-min.js"></script>
+    <script src="/static/rest_framework/js/default.js"></script>
+    
+  </body>
+
+<!-- Mirrored from pyvideo.org/api/v2/video/?page=42&format=api by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 07 Jan 2016 03:48:19 GMT -->
+</html>

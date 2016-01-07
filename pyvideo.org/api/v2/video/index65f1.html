@@ -1,0 +1,936 @@
+
+
+<!DOCTYPE html>
+<html>
+    
+<!-- Mirrored from pyvideo.org/api/v2/video/?page=64 by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 07 Jan 2016 03:49:16 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+    
+
+        
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+        <meta name="robots" content="NONE,NOARCHIVE" />
+        
+
+        <title>Django REST framework</title>
+
+        
+        
+            <link rel="stylesheet" type="text/css" href="/static/rest_framework/css/bootstrap.min.css"/>
+            <link rel="stylesheet" type="text/css" href="/static/rest_framework/css/bootstrap-tweaks.css"/>
+        
+        <link rel="stylesheet" type="text/css" href="/static/rest_framework/css/prettify.css"/>
+        <link rel="stylesheet" type="text/css" href="/static/rest_framework/css/default.css"/>
+        
+
+    
+    </head>
+
+  <body class=" container">
+
+    <div class="wrapper">
+
+    
+    <div class="navbar navbar-inverse">
+        <div class="navbar-inner">
+            <div class="container-fluid">
+                <span href="/">
+                    <a class='brand' rel="nofollow" href='http://www.django-rest-framework.org'>Django REST framework <span class="version">2.3.14</span></a>
+                </span>
+                <ul class="nav pull-right">
+                    
+                        
+                            <li></li>
+                        
+                    
+                </ul>
+            </div>
+        </div>
+    </div>
+    
+
+    
+    <ul class="breadcrumb">
+        
+            <li>
+                <a href="/api/v2/video/" class="active">Video List Create Api</a> 
+            </li>
+        
+    </ul>
+    
+
+    <!-- Content -->
+    <div id="content">
+
+        
+            <form id="get-form" class="pull-right">
+                <fieldset>
+                    <div class="btn-group format-selection">
+                        <a class="btn btn-primary js-tooltip" href='/api/v2/video/?page=64' rel="nofollow" title="Make a GET request on the Video List Create Api resource">GET</a>
+
+                        <button class="btn btn-primary dropdown-toggle js-tooltip" data-toggle="dropdown" title="Specify a format for the GET request">
+                            <span class="caret"></span>
+                        </button>
+                        <ul class="dropdown-menu">
+                            
+                                <li>
+                                    <a class="js-tooltip format-option" href='/api/v2/video/?page=64&format=json' rel="nofollow" title="Make a GET request on the Video List Create Api resource with the format set to `json`">json</a>
+                                </li>
+                            
+                                <li>
+                                    <a class="js-tooltip format-option" href='/api/v2/video/?page=64&format=api' rel="nofollow" title="Make a GET request on the Video List Create Api resource with the format set to `api`">api</a>
+                                </li>
+                            
+                        </ul>
+                    </div>
+
+                </fieldset>
+            </form>
+        
+
+        
+            <form class="button-form" action="/api/v2/video/?page=64" method="POST" class="pull-right">
+                <input type='hidden' name='csrfmiddlewaretoken' value='pT8iI6zhtQdsGFmu4tryYgFrUlipl2B3' />
+                <input type="hidden" name="_method" value="OPTIONS" />
+                <button class="btn btn-primary js-tooltip" title="Make an OPTIONS request on the Video List Create Api resource">OPTIONS</button>
+            </form>
+        
+
+        
+
+        <div class="content-main">
+            <div class="page-header"><h1>Video List Create Api</h1></div>
+            
+            
+            
+            <div class="request-info" style="clear: both" >
+                <pre class="prettyprint"><b>GET</b> /api/v2/video/?page=64</pre>
+            </div>
+            <div class="response-info">
+                <pre class="prettyprint"><div class="meta nocode"><b>HTTP 200 OK</b>
+<b>Content-Type:</b> <span class="lit">application/json</span>
+<b>Vary:</b> <span class="lit">Accept</span>
+<b>Allow:</b> <span class="lit">GET, POST, HEAD, OPTIONS</span>
+
+</div>{
+    &quot;count&quot;: 3439, 
+    &quot;next&quot;: &quot;<a href="http://pyvideo.org/api/v2/video/?page=65" rel="nofollow">http://pyvideo.org/api/v2/video/?page=65</a>&quot;, 
+    &quot;previous&quot;: &quot;<a href="http://pyvideo.org/api/v2/video/?page=63" rel="nofollow">http://pyvideo.org/api/v2/video/?page=63</a>&quot;, 
+    &quot;results&quot;: [
+        {
+            &quot;category&quot;: &quot;PyOhio 2014&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;software-radio-with-ctypes&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Thomas Winningham&quot;
+            ], 
+            &quot;tags&quot;: [
+                &quot;talk&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 2855, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Software Radio with CTypes&quot;, 
+            &quot;summary&quot;: &quot;The RTL-SDR is a ~$20 USB stick made for watching the European digital TV DVB standard. It was discovered it can also be a general purpose radio receiver and spectrum analyzer. We will evaluate these devices by listening to broadcast FM or emergency frequencies, and demonstrate an original open source Python library I wrote for them.&quot;, 
+            &quot;description&quot;: &quot;&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;CC BY&quot;, 
+            &quot;embed&quot;: &quot;&lt;object width=\&quot;640\&quot; height=\&quot;390\&quot;&gt;&lt;param name=\&quot;movie\&quot; value=\&quot;http://youtube.com/v/HtoefhIaRJY?version=3&amp;amp;hl=en_US\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowFullScreen\&quot; value=\&quot;true\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowscriptaccess\&quot; value=\&quot;always\&quot;&gt;&lt;/param&gt;&lt;embed src=\&quot;http://youtube.com/v/HtoefhIaRJY?version=3&amp;amp;hl=en_US\&quot; type=\&quot;application/x-shockwave-flash\&quot; width=\&quot;640\&quot; height=\&quot;390\&quot; allowscriptaccess=\&quot;always\&quot; allowfullscreen=\&quot;true\&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://i.ytimg.com/vi/HtoefhIaRJY/hqdefault.jpg" rel="nofollow">http://i.ytimg.com/vi/HtoefhIaRJY/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: 3600, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: null, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: &quot;<a href="http://964bdd2f965bbc4ca8f5-3ebaa0e988d98119a4fead51a26da83a.r42.cf2.rackcdn.com/pyohio-2014/2855_Software_Radio_with_CTypes.webm" rel="nofollow">http://964bdd2f965bbc4ca8f5-3ebaa0e988d98119a4fead51a26da83a.r42.cf2.rackcdn.com/pyohio-2014/2855_Software_Radio_with_CTypes.webm</a>&quot;, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="http://youtu.be/HtoefhIaRJY" rel="nofollow">http://youtu.be/HtoefhIaRJY</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2014-07-27&quot;, 
+            &quot;added&quot;: &quot;2014-07-19T02:13:32.150&quot;, 
+            &quot;updated&quot;: &quot;2014-08-09T10:04:19.619&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyOhio 2014&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;the-clean-architecture-in-python&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Brandon Rhodes&quot;
+            ], 
+            &quot;tags&quot;: [
+                &quot;talk&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 2840, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;The Clean Architecture in Python&quot;, 
+            &quot;summary&quot;: &quot;Even design-conscious programmers find large applications difficult to maintain. Come learn about how the recently propounded \u201cClean Architecture\u201d applies in Python, and how this high-level design pattern fits particularly well with the features of the Python language and answers questions that experienced programmers have been asking. (An update of my un-recorded talk from PyCon Ireland 2013!)&quot;, 
+            &quot;description&quot;: &quot;&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;CC BY&quot;, 
+            &quot;embed&quot;: &quot;&lt;object width=\&quot;640\&quot; height=\&quot;390\&quot;&gt;&lt;param name=\&quot;movie\&quot; value=\&quot;http://youtube.com/v/DJtef410XaM?version=3&amp;amp;hl=en_US\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowFullScreen\&quot; value=\&quot;true\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowscriptaccess\&quot; value=\&quot;always\&quot;&gt;&lt;/param&gt;&lt;embed src=\&quot;http://youtube.com/v/DJtef410XaM?version=3&amp;amp;hl=en_US\&quot; type=\&quot;application/x-shockwave-flash\&quot; width=\&quot;640\&quot; height=\&quot;390\&quot; allowscriptaccess=\&quot;always\&quot; allowfullscreen=\&quot;true\&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://i.ytimg.com/vi/DJtef410XaM/hqdefault.jpg" rel="nofollow">http://i.ytimg.com/vi/DJtef410XaM/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: 3600, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: null, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: &quot;<a href="http://964bdd2f965bbc4ca8f5-3ebaa0e988d98119a4fead51a26da83a.r42.cf2.rackcdn.com/pyohio-2014/2840_The_Clean_Architecture_in_Python.webm" rel="nofollow">http://964bdd2f965bbc4ca8f5-3ebaa0e988d98119a4fead51a26da83a.r42.cf2.rackcdn.com/pyohio-2014/2840_The_Clean_Architecture_in_Python.webm</a>&quot;, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="http://youtu.be/DJtef410XaM" rel="nofollow">http://youtu.be/DJtef410XaM</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2014-07-27&quot;, 
+            &quot;added&quot;: &quot;2014-07-19T02:13:13.037&quot;, 
+            &quot;updated&quot;: &quot;2014-08-09T02:17:34.113&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyOhio 2014&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;the-quest-for-the-pocket-sized-python&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Christopher Neugebauer&quot;
+            ], 
+            &quot;tags&quot;: [
+                &quot;talk&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 2828, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;The Quest for the Pocket-Sized Python&quot;, 
+            &quot;summary&quot;: &quot;This talk surveys the current landscape of Python on the major Mobile platforms, and ways you can start targeting Mobile platforms with your Python code. We&#39;ll look at considerations for Mobile web development, the state of Python-based mobile toolkits, and progress towards Python-coded native UIs.&quot;, 
+            &quot;description&quot;: &quot;&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;CC BY&quot;, 
+            &quot;embed&quot;: &quot;&lt;object width=\&quot;640\&quot; height=\&quot;390\&quot;&gt;&lt;param name=\&quot;movie\&quot; value=\&quot;http://youtube.com/v/XO0uIIEWJbY?version=3&amp;amp;hl=en_US\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowFullScreen\&quot; value=\&quot;true\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowscriptaccess\&quot; value=\&quot;always\&quot;&gt;&lt;/param&gt;&lt;embed src=\&quot;http://youtube.com/v/XO0uIIEWJbY?version=3&amp;amp;hl=en_US\&quot; type=\&quot;application/x-shockwave-flash\&quot; width=\&quot;640\&quot; height=\&quot;390\&quot; allowscriptaccess=\&quot;always\&quot; allowfullscreen=\&quot;true\&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://i.ytimg.com/vi/XO0uIIEWJbY/hqdefault.jpg" rel="nofollow">http://i.ytimg.com/vi/XO0uIIEWJbY/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: 3600, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: null, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: &quot;<a href="http://964bdd2f965bbc4ca8f5-3ebaa0e988d98119a4fead51a26da83a.r42.cf2.rackcdn.com/pyohio-2014/2828_The_Quest_for_the_PocketSized_Python.webm" rel="nofollow">http://964bdd2f965bbc4ca8f5-3ebaa0e988d98119a4fead51a26da83a.r42.cf2.rackcdn.com/pyohio-2014/2828_The_Quest_for_the_PocketSized_Python.webm</a>&quot;, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="http://youtu.be/XO0uIIEWJbY" rel="nofollow">http://youtu.be/XO0uIIEWJbY</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2014-07-27&quot;, 
+            &quot;added&quot;: &quot;2014-07-19T02:12:57.565&quot;, 
+            &quot;updated&quot;: &quot;2014-08-10T02:48:08.573&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyOhio 2014&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;using-zmq-for-fun-and-profit&quot;, 
+            &quot;speakers&quot;: [
+                &quot;David Blewett&quot;
+            ], 
+            &quot;tags&quot;: [
+                &quot;talk&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 2830, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Using ZMQ for Fun and Profit&quot;, 
+            &quot;summary&quot;: &quot;In this talk, we will discuss how to use the ZMQ library to build a distributed computing system. We will cover the basics of getting started with ZMQ, designing the flow of data through the system and offer some advice on best practices.&quot;, 
+            &quot;description&quot;: &quot;&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;CC BY&quot;, 
+            &quot;embed&quot;: &quot;&lt;object width=\&quot;640\&quot; height=\&quot;390\&quot;&gt;&lt;param name=\&quot;movie\&quot; value=\&quot;http://youtube.com/v/5OyF-sYLlsU?version=3&amp;amp;hl=en_US\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowFullScreen\&quot; value=\&quot;true\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowscriptaccess\&quot; value=\&quot;always\&quot;&gt;&lt;/param&gt;&lt;embed src=\&quot;http://youtube.com/v/5OyF-sYLlsU?version=3&amp;amp;hl=en_US\&quot; type=\&quot;application/x-shockwave-flash\&quot; width=\&quot;640\&quot; height=\&quot;390\&quot; allowscriptaccess=\&quot;always\&quot; allowfullscreen=\&quot;true\&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://i.ytimg.com/vi/5OyF-sYLlsU/hqdefault.jpg" rel="nofollow">http://i.ytimg.com/vi/5OyF-sYLlsU/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: 3600, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: null, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: &quot;<a href="http://964bdd2f965bbc4ca8f5-3ebaa0e988d98119a4fead51a26da83a.r42.cf2.rackcdn.com/pyohio-2014/2830_Using_ZMQ_for_Fun_and_Profit.webm" rel="nofollow">http://964bdd2f965bbc4ca8f5-3ebaa0e988d98119a4fead51a26da83a.r42.cf2.rackcdn.com/pyohio-2014/2830_Using_ZMQ_for_Fun_and_Profit.webm</a>&quot;, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="http://youtu.be/5OyF-sYLlsU" rel="nofollow">http://youtu.be/5OyF-sYLlsU</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2014-07-27&quot;, 
+            &quot;added&quot;: &quot;2014-07-19T02:13:00.127&quot;, 
+            &quot;updated&quot;: &quot;2014-09-29T12:06:26.129&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyOhio 2014&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;warming-up-to-graphs&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Brad Montgomery&quot;
+            ], 
+            &quot;tags&quot;: [
+                &quot;talk&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 2831, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Warming up to Graphs&quot;, 
+            &quot;summary&quot;: &quot;Graphs are a powerful data structure and are increasingly relevant for today&#39;s social and data-centric applications. This talk offers a brief overview of Graphs, Graph theory, and explores scenarios where using a Graph database (particularly Neo4j) can be of great benefit.&quot;, 
+            &quot;description&quot;: &quot;&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;CC BY&quot;, 
+            &quot;embed&quot;: &quot;&lt;object width=\&quot;640\&quot; height=\&quot;390\&quot;&gt;&lt;param name=\&quot;movie\&quot; value=\&quot;http://youtube.com/v/pfBBdEdCgAY?version=3&amp;amp;hl=en_US\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowFullScreen\&quot; value=\&quot;true\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowscriptaccess\&quot; value=\&quot;always\&quot;&gt;&lt;/param&gt;&lt;embed src=\&quot;http://youtube.com/v/pfBBdEdCgAY?version=3&amp;amp;hl=en_US\&quot; type=\&quot;application/x-shockwave-flash\&quot; width=\&quot;640\&quot; height=\&quot;390\&quot; allowscriptaccess=\&quot;always\&quot; allowfullscreen=\&quot;true\&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://i.ytimg.com/vi/pfBBdEdCgAY/hqdefault.jpg" rel="nofollow">http://i.ytimg.com/vi/pfBBdEdCgAY/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: 3600, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: null, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: &quot;<a href="http://964bdd2f965bbc4ca8f5-3ebaa0e988d98119a4fead51a26da83a.r42.cf2.rackcdn.com/pyohio-2014/2831_Warming_up_to_Graphs.webm" rel="nofollow">http://964bdd2f965bbc4ca8f5-3ebaa0e988d98119a4fead51a26da83a.r42.cf2.rackcdn.com/pyohio-2014/2831_Warming_up_to_Graphs.webm</a>&quot;, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="http://youtu.be/pfBBdEdCgAY" rel="nofollow">http://youtu.be/pfBBdEdCgAY</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2014-07-27&quot;, 
+            &quot;added&quot;: &quot;2014-07-19T02:13:01.461&quot;, 
+            &quot;updated&quot;: &quot;2014-08-10T02:48:11.137&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyOhio 2014&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;a-gentle-introduction-to-asyncio&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Brian Costlow&quot;
+            ], 
+            &quot;tags&quot;: [
+                &quot;talk&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 2841, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;A gentle introduction to asyncio&quot;, 
+            &quot;summary&quot;: &quot;Asyncio is the new standard library module for doing asynchronous IO and concurrency in Python 3.4. In this talk, I&#39;ll discuss some earlier strategies for writing such code in Python. I&#39;ll cover some of the decisions that went into it&#39;s design. Then I&#39;ll walk through a tuturial on asyncio itself. Finally, I&#39;ll take some well known example code for Gevent and Twisted, and rewrite it in asyncio.&quot;, 
+            &quot;description&quot;: &quot;&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;CC BY&quot;, 
+            &quot;embed&quot;: &quot;&lt;object width=\&quot;640\&quot; height=\&quot;390\&quot;&gt;&lt;param name=\&quot;movie\&quot; value=\&quot;http://youtube.com/v/vdSZ61IjC6E?version=3&amp;amp;hl=en_US\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowFullScreen\&quot; value=\&quot;true\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowscriptaccess\&quot; value=\&quot;always\&quot;&gt;&lt;/param&gt;&lt;embed src=\&quot;http://youtube.com/v/vdSZ61IjC6E?version=3&amp;amp;hl=en_US\&quot; type=\&quot;application/x-shockwave-flash\&quot; width=\&quot;640\&quot; height=\&quot;390\&quot; allowscriptaccess=\&quot;always\&quot; allowfullscreen=\&quot;true\&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://i.ytimg.com/vi/vdSZ61IjC6E/hqdefault.jpg" rel="nofollow">http://i.ytimg.com/vi/vdSZ61IjC6E/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: 3600, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: null, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: &quot;<a href="http://964bdd2f965bbc4ca8f5-3ebaa0e988d98119a4fead51a26da83a.r42.cf2.rackcdn.com/pyohio-2014/2841_A_gentle_introduction_to_asyncio.webm" rel="nofollow">http://964bdd2f965bbc4ca8f5-3ebaa0e988d98119a4fead51a26da83a.r42.cf2.rackcdn.com/pyohio-2014/2841_A_gentle_introduction_to_asyncio.webm</a>&quot;, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="http://youtu.be/vdSZ61IjC6E" rel="nofollow">http://youtu.be/vdSZ61IjC6E</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2014-07-26&quot;, 
+            &quot;added&quot;: &quot;2014-07-19T02:13:14.307&quot;, 
+            &quot;updated&quot;: &quot;2014-09-29T12:06:34.240&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyData Berlin 2014&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;algorithmic-trading-with-zipline&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Thomas Wiecki&quot;
+            ], 
+            &quot;tags&quot;: [], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 3068, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Algorithmic Trading with Zipline&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;PyData Berlin 2014 - Python is quickly becoming the glue language which holds together data science and related fields like quantitative finance. Zipline is a BSD-licensed quantitative trading system which allows easy backtesting of investment algorithms on historical data. The system is fundamentally event-driven and a close approximation of how live-trading systems operate. Moreover, Zipline comes \&quot;batteries included\&quot; as many common statistics like moving average and linear regression can be readily accessed from within a user-written algorithm. Input of historical data and output of performance statistics is based on Pandas DataFrames to integrate nicely into the existing Python eco-system. Furthermore, statistic and machine learning libraries like matplotlib, scipy, statsmodels, and sklearn integrate nicely to support development, analysis and visualization of state-of-the-art trading systems. Zipline is currently used in production as the backtesting engine powering <a href="http://Quantopian.com" rel="nofollow">Quantopian.com</a> -- a free, community-centered platform that allows development and real-time backtesting of trading algorithms in the web browser.&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;<a href="http://creativecommons.org/licenses/by/3.0/" rel="nofollow">http://creativecommons.org/licenses/by/3.0/</a>&quot;, 
+            &quot;embed&quot;: &quot;&lt;object width=\&quot;640\&quot; height=\&quot;390\&quot;&gt;&lt;param name=\&quot;movie\&quot; value=\&quot;http://youtube.com/v/Qva7uxmOZuA?version=3&amp;amp;hl=en_US\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowFullScreen\&quot; value=\&quot;true\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowscriptaccess\&quot; value=\&quot;always\&quot;&gt;&lt;/param&gt;&lt;embed src=\&quot;http://youtube.com/v/Qva7uxmOZuA?version=3&amp;amp;hl=en_US\&quot; type=\&quot;application/x-shockwave-flash\&quot; width=\&quot;640\&quot; height=\&quot;390\&quot; allowscriptaccess=\&quot;always\&quot; allowfullscreen=\&quot;true\&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://i.ytimg.com/vi/Qva7uxmOZuA/hqdefault.jpg" rel="nofollow">http://i.ytimg.com/vi/Qva7uxmOZuA/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: &quot;&quot;, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: &quot;<a href="http://video.ep14.c3voc.de/20250.mp4" rel="nofollow">http://video.ep14.c3voc.de/20250.mp4</a>&quot;, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: &quot;&quot;, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: &quot;&quot;, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="http://www.youtube.com/watch?v=Qva7uxmOZuA" rel="nofollow">http://www.youtube.com/watch?v=Qva7uxmOZuA</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2014-07-26&quot;, 
+            &quot;added&quot;: &quot;2014-08-06T18:53:20.180&quot;, 
+            &quot;updated&quot;: &quot;2014-08-06T19:29:20.076&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyOhio 2014&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;analyzing-social-media-data-with-python&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Fletcher Heisler&quot;
+            ], 
+            &quot;tags&quot;: [
+                &quot;talk&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 2850, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Analyzing social media data with Python&quot;, 
+            &quot;summary&quot;: &quot;What does the perfect tweet or a viral blog post look like? When should it be posted? We&#39;ll introduce various tools for working with data in terms of collecting (requests), exploring (IPython, pandas), analyzing (NLTK, scikit-learn) and visualizing (matplotlib). In the process, we will uncover some surprising strategies for getting content shared across social media.&quot;, 
+            &quot;description&quot;: &quot;&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;CC BY&quot;, 
+            &quot;embed&quot;: &quot;&lt;object width=\&quot;640\&quot; height=\&quot;390\&quot;&gt;&lt;param name=\&quot;movie\&quot; value=\&quot;http://youtube.com/v/UeSUUJFiHFY?version=3&amp;amp;hl=en_US\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowFullScreen\&quot; value=\&quot;true\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowscriptaccess\&quot; value=\&quot;always\&quot;&gt;&lt;/param&gt;&lt;embed src=\&quot;http://youtube.com/v/UeSUUJFiHFY?version=3&amp;amp;hl=en_US\&quot; type=\&quot;application/x-shockwave-flash\&quot; width=\&quot;640\&quot; height=\&quot;390\&quot; allowscriptaccess=\&quot;always\&quot; allowfullscreen=\&quot;true\&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://i.ytimg.com/vi/UeSUUJFiHFY/hqdefault.jpg" rel="nofollow">http://i.ytimg.com/vi/UeSUUJFiHFY/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: 3600, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: null, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: &quot;<a href="http://964bdd2f965bbc4ca8f5-3ebaa0e988d98119a4fead51a26da83a.r42.cf2.rackcdn.com/pyohio-2014/2850_Analyzing_social_media_data_with_Python.webm" rel="nofollow">http://964bdd2f965bbc4ca8f5-3ebaa0e988d98119a4fead51a26da83a.r42.cf2.rackcdn.com/pyohio-2014/2850_Analyzing_social_media_data_with_Python.webm</a>&quot;, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="http://youtu.be/UeSUUJFiHFY" rel="nofollow">http://youtu.be/UeSUUJFiHFY</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2014-07-26&quot;, 
+            &quot;added&quot;: &quot;2014-07-19T02:13:25.777&quot;, 
+            &quot;updated&quot;: &quot;2014-08-15T12:52:47.697&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyOhio 2014&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;a-new-default-web-stack&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Simon Willison&quot;
+            ], 
+            &quot;tags&quot;: [
+                &quot;talk&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 2856, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;A new default web stack&quot;, 
+            &quot;summary&quot;: &quot;When building a new web application, the default set of tools used to be a web framework such as Django and a relational database such as PostgreSQL. In 2014, these tools are no longer enough. In this talk, I&#39;ll present a new default stack to help build applications that are faster, more robust, easy to scale and still support rapid iteration and fast feature development.&quot;, 
+            &quot;description&quot;: &quot;&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;CC BY&quot;, 
+            &quot;embed&quot;: &quot;&lt;object width=\&quot;640\&quot; height=\&quot;390\&quot;&gt;&lt;param name=\&quot;movie\&quot; value=\&quot;http://youtube.com/v/P68zXJ_ACCE?version=3&amp;amp;hl=en_US\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowFullScreen\&quot; value=\&quot;true\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowscriptaccess\&quot; value=\&quot;always\&quot;&gt;&lt;/param&gt;&lt;embed src=\&quot;http://youtube.com/v/P68zXJ_ACCE?version=3&amp;amp;hl=en_US\&quot; type=\&quot;application/x-shockwave-flash\&quot; width=\&quot;640\&quot; height=\&quot;390\&quot; allowscriptaccess=\&quot;always\&quot; allowfullscreen=\&quot;true\&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://i.ytimg.com/vi/P68zXJ_ACCE/hqdefault.jpg" rel="nofollow">http://i.ytimg.com/vi/P68zXJ_ACCE/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: 3600, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: null, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: &quot;<a href="http://964bdd2f965bbc4ca8f5-3ebaa0e988d98119a4fead51a26da83a.r42.cf2.rackcdn.com/pyohio-2014/2856_A_new_default_web_stack.webm" rel="nofollow">http://964bdd2f965bbc4ca8f5-3ebaa0e988d98119a4fead51a26da83a.r42.cf2.rackcdn.com/pyohio-2014/2856_A_new_default_web_stack.webm</a>&quot;, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="http://youtu.be/P68zXJ_ACCE" rel="nofollow">http://youtu.be/P68zXJ_ACCE</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2014-07-26&quot;, 
+            &quot;added&quot;: &quot;2014-07-19T02:13:33.423&quot;, 
+            &quot;updated&quot;: &quot;2014-08-23T14:02:56.799&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyOhio 2014&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;a-python-script-to-replace-a-dos-batch-file-adven&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Craig Lang&quot;
+            ], 
+            &quot;tags&quot;: [
+                &quot;talk&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 2827, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;A Python Script to Replace a DOS Batch File Adventure&quot;, 
+            &quot;summary&quot;: &quot;An engineer who turned C++ programmer began an adventure well outside his comfort zone and found Python.  The discovery is highlighted while a dos batch script is converted into a much more powerful Python script.  Several standard modules that were useful in the script are covered.  This retrospective of one&#39;s discovery of Python is very newbie friendly and entertaining for experienced as well.&quot;, 
+            &quot;description&quot;: &quot;&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;CC BY&quot;, 
+            &quot;embed&quot;: &quot;&lt;object width=\&quot;640\&quot; height=\&quot;390\&quot;&gt;&lt;param name=\&quot;movie\&quot; value=\&quot;http://youtube.com/v/3DIVMwYkJXY?version=3&amp;amp;hl=en_US\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowFullScreen\&quot; value=\&quot;true\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowscriptaccess\&quot; value=\&quot;always\&quot;&gt;&lt;/param&gt;&lt;embed src=\&quot;http://youtube.com/v/3DIVMwYkJXY?version=3&amp;amp;hl=en_US\&quot; type=\&quot;application/x-shockwave-flash\&quot; width=\&quot;640\&quot; height=\&quot;390\&quot; allowscriptaccess=\&quot;always\&quot; allowfullscreen=\&quot;true\&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://i.ytimg.com/vi/3DIVMwYkJXY/hqdefault.jpg" rel="nofollow">http://i.ytimg.com/vi/3DIVMwYkJXY/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: 3600, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: &quot;&quot;, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: null, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: &quot;<a href="http://964bdd2f965bbc4ca8f5-3ebaa0e988d98119a4fead51a26da83a.r42.cf2.rackcdn.com/pyohio-2014/2827_A_Python_Script_to_Replace_a_DOS_Batch_File_Advent.webm" rel="nofollow">http://964bdd2f965bbc4ca8f5-3ebaa0e988d98119a4fead51a26da83a.r42.cf2.rackcdn.com/pyohio-2014/2827_A_Python_Script_to_Replace_a_DOS_Batch_File_Advent.webm</a>&quot;, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="http://youtu.be/3DIVMwYkJXY" rel="nofollow">http://youtu.be/3DIVMwYkJXY</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2014-07-26&quot;, 
+            &quot;added&quot;: &quot;2014-07-19T02:12:56.321&quot;, 
+            &quot;updated&quot;: &quot;2014-08-08T00:11:08.222&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyData Berlin 2014&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;data-oriented-programming&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Francesc Alted&quot;
+            ], 
+            &quot;tags&quot;: [], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 3073, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Data Oriented Programming&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;Computers have traditionally been thought as tools for performing computations with numbers. Of course, its name in English has a lot to do with this conception, but in other languages, like the french &#39;ordinateur&#39; (which express concepts more like sorting or classifying), one can clearly see the other side of the coin: computers can also be used to extract (usually new) information from data. Storage, reduction, classification, selection, sorting, grouping, among others, are typical operations in this &#39;alternate&#39; goal of computers, and although carrying out all these tasks does imply doing a lot of computations, it also requires thinking about the computer as a different entity than the view offered by the traditional von Neumann architecture (basically a CPU with memory). In fact, when it is about programming the data handling efficiently, the most interesting part of a computer is the so-called hierarchical storage, where the different levels of caches in CPUs, the RAM memory, the SSD layers (there are several in the market already), the mechanical disks and finally, the network, are pretty much more important than the ALUs (arithmetic and logical units) in CPUs. In data handling, techniques like data deduplication and compression become critical when speaking about dealing with extremely large datasets. Moreover, distributed environments are useful mainly because of its increased storage capacities and I/O bandwidth, rather than for their aggregated computing throughput. During my talk I will describe several programming paradigms that should be taken in account when programming data oriented applications and that are usually different than those required for achieving pure computational throughput. But specially, and in a surprising turnaround, how the amazing amount of computational power in modern CPUs can also be useful for data handling as well.&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;<a href="http://creativecommons.org/licenses/by/3.0/" rel="nofollow">http://creativecommons.org/licenses/by/3.0/</a>&quot;, 
+            &quot;embed&quot;: &quot;&lt;object width=\&quot;640\&quot; height=\&quot;390\&quot;&gt;&lt;param name=\&quot;movie\&quot; value=\&quot;http://youtube.com/v/KhJSg_rSzj8?version=3&amp;amp;hl=en_US\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowFullScreen\&quot; value=\&quot;true\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowscriptaccess\&quot; value=\&quot;always\&quot;&gt;&lt;/param&gt;&lt;embed src=\&quot;http://youtube.com/v/KhJSg_rSzj8?version=3&amp;amp;hl=en_US\&quot; type=\&quot;application/x-shockwave-flash\&quot; width=\&quot;640\&quot; height=\&quot;390\&quot; allowscriptaccess=\&quot;always\&quot; allowfullscreen=\&quot;true\&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://i.ytimg.com/vi/KhJSg_rSzj8/hqdefault.jpg" rel="nofollow">http://i.ytimg.com/vi/KhJSg_rSzj8/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: &quot;&quot;, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: &quot;<a href="http://video.ep14.c3voc.de/20260.mp4" rel="nofollow">http://video.ep14.c3voc.de/20260.mp4</a>&quot;, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: &quot;&quot;, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: &quot;&quot;, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="http://www.youtube.com/watch?v=KhJSg_rSzj8" rel="nofollow">http://www.youtube.com/watch?v=KhJSg_rSzj8</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2014-07-26&quot;, 
+            &quot;added&quot;: &quot;2014-08-06T18:53:20.704&quot;, 
+            &quot;updated&quot;: &quot;2014-08-06T19:30:19.871&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyData Berlin 2014&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;dealing-with-complexity&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Jean-Paul Schmetz&quot;
+            ], 
+            &quot;tags&quot;: [], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 3081, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Dealing With Complexity&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;<a href="http://creativecommons.org/licenses/by/3.0/" rel="nofollow">http://creativecommons.org/licenses/by/3.0/</a>&quot;, 
+            &quot;embed&quot;: &quot;&lt;object width=\&quot;640\&quot; height=\&quot;390\&quot;&gt;&lt;param name=\&quot;movie\&quot; value=\&quot;http://youtube.com/v/1_oU4qW7I9M?version=3&amp;amp;hl=en_US\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowFullScreen\&quot; value=\&quot;true\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowscriptaccess\&quot; value=\&quot;always\&quot;&gt;&lt;/param&gt;&lt;embed src=\&quot;http://youtube.com/v/1_oU4qW7I9M?version=3&amp;amp;hl=en_US\&quot; type=\&quot;application/x-shockwave-flash\&quot; width=\&quot;640\&quot; height=\&quot;390\&quot; allowscriptaccess=\&quot;always\&quot; allowfullscreen=\&quot;true\&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://i.ytimg.com/vi/1_oU4qW7I9M/hqdefault.jpg" rel="nofollow">http://i.ytimg.com/vi/1_oU4qW7I9M/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: &quot;&quot;, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: &quot;<a href="http://video.ep14.c3voc.de/20263.mp4" rel="nofollow">http://video.ep14.c3voc.de/20263.mp4</a>&quot;, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: &quot;&quot;, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: &quot;&quot;, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="http://www.youtube.com/watch?v=1_oU4qW7I9M" rel="nofollow">http://www.youtube.com/watch?v=1_oU4qW7I9M</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2014-07-26&quot;, 
+            &quot;added&quot;: &quot;2014-08-06T18:53:21.528&quot;, 
+            &quot;updated&quot;: &quot;2014-08-06T19:31:04.032&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyOhio 2014&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;docker-101-meet-the-portable-future-tutorial&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Andrew T. Baker&quot;
+            ], 
+            &quot;tags&quot;: [
+                &quot;talk&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 2837, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Docker 101: Meet the portable future (tutorial)&quot;, 
+            &quot;summary&quot;: &quot;Docker was one of last year\u2019s most talked about open source projects - but what is it? And what does it mean for deploying applications? This tutorial will explain what docker is and where it fits in with other deployment and configuration management tools. Students will then learn the basics of working with docker containers, how to \u201cdockerize\u201d their apps, and some emerging docker best practices.&quot;, 
+            &quot;description&quot;: &quot;&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;CC BY&quot;, 
+            &quot;embed&quot;: &quot;&lt;object width=\&quot;640\&quot; height=\&quot;390\&quot;&gt;&lt;param name=\&quot;movie\&quot; value=\&quot;http://youtube.com/v/S-EOr9a5lr8?version=3&amp;amp;hl=en_US\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowFullScreen\&quot; value=\&quot;true\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowscriptaccess\&quot; value=\&quot;always\&quot;&gt;&lt;/param&gt;&lt;embed src=\&quot;http://youtube.com/v/S-EOr9a5lr8?version=3&amp;amp;hl=en_US\&quot; type=\&quot;application/x-shockwave-flash\&quot; width=\&quot;640\&quot; height=\&quot;390\&quot; allowscriptaccess=\&quot;always\&quot; allowfullscreen=\&quot;true\&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://i.ytimg.com/vi/S-EOr9a5lr8/hqdefault.jpg" rel="nofollow">http://i.ytimg.com/vi/S-EOr9a5lr8/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: 7200, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: null, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: &quot;<a href="http://964bdd2f965bbc4ca8f5-3ebaa0e988d98119a4fead51a26da83a.r42.cf2.rackcdn.com/pyohio-2014/2837_Docker_101_Meet_the_portable_future_tutorial.webm" rel="nofollow">http://964bdd2f965bbc4ca8f5-3ebaa0e988d98119a4fead51a26da83a.r42.cf2.rackcdn.com/pyohio-2014/2837_Docker_101_Meet_the_portable_future_tutorial.webm</a>&quot;, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="http://youtu.be/S-EOr9a5lr8" rel="nofollow">http://youtu.be/S-EOr9a5lr8</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2014-07-26&quot;, 
+            &quot;added&quot;: &quot;2014-07-19T02:13:09.216&quot;, 
+            &quot;updated&quot;: &quot;2014-08-23T14:02:53.197&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyData Berlin 2014&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;driving-moores-law-with-python-powered-machine-l&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Trent McConaghy&quot;
+            ], 
+            &quot;tags&quot;: [], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 3075, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Driving Moore&#39;s Law with Python-Powered Machine Learning: An Insider&#39;s Perspective&quot;, 
+            &quot;summary&quot;: &quot;People talk about a Moore&#39;s Law for gene sequencing, a Moore&#39;s Law for software, etc. This is talk is about *the* Moore&#39;s Law, the bull that the other \&quot;Laws\&quot; ride; and how Python-powered ML helps drive it. How do we keep making ever-smaller devices? How do we harness atomic-scale physics? Large-scale machine learning is key. The computation drives new chip designs, and those new chip designs are used for new computations, ad infinitum. High-dimensional regression, classification, active learning, optimization, ranking, clustering, density estimation, scientific visualization, massively parallel processing -- it all comes into play, and Python is powering it all.&quot;, 
+            &quot;description&quot;: &quot;&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;<a href="http://creativecommons.org/licenses/by/3.0/" rel="nofollow">http://creativecommons.org/licenses/by/3.0/</a>&quot;, 
+            &quot;embed&quot;: &quot;&lt;object width=\&quot;640\&quot; height=\&quot;390\&quot;&gt;&lt;param name=\&quot;movie\&quot; value=\&quot;http://youtube.com/v/Jm-eBD9xR3w?version=3&amp;amp;hl=en_US\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowFullScreen\&quot; value=\&quot;true\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowscriptaccess\&quot; value=\&quot;always\&quot;&gt;&lt;/param&gt;&lt;embed src=\&quot;http://youtube.com/v/Jm-eBD9xR3w?version=3&amp;amp;hl=en_US\&quot; type=\&quot;application/x-shockwave-flash\&quot; width=\&quot;640\&quot; height=\&quot;390\&quot; allowscriptaccess=\&quot;always\&quot; allowfullscreen=\&quot;true\&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://i.ytimg.com/vi/Jm-eBD9xR3w/hqdefault.jpg" rel="nofollow">http://i.ytimg.com/vi/Jm-eBD9xR3w/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: &quot;&quot;, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: &quot;<a href="http://video.ep14.c3voc.de/20271.mp4" rel="nofollow">http://video.ep14.c3voc.de/20271.mp4</a>&quot;, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: &quot;&quot;, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: &quot;&quot;, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="http://www.youtube.com/watch?v=Jm-eBD9xR3w" rel="nofollow">http://www.youtube.com/watch?v=Jm-eBD9xR3w</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2014-07-26&quot;, 
+            &quot;added&quot;: &quot;2014-08-06T18:53:20.898&quot;, 
+            &quot;updated&quot;: &quot;2014-08-06T19:31:57.197&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyData Berlin 2014&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;exploratory-time-series-analysis-of-nyc-subway-da&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Felix Marczinowski&quot;, 
+                &quot;Philipp Mack&quot;, 
+                &quot;S\u00f6nke Niekamp&quot;
+            ], 
+            &quot;tags&quot;: [], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 3065, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Exploratory Time Series Analysis of NYC Subway Data&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;What questions arise during a quick model assessment? In this hands-on-tutorial we want to cover the whole chain from preparing data to choosing and fitting a model to properly assessing the quality of a predictive model. Our dataset in this tutorial are the numbers of people entering and exiting New York subway stations. Among other ways of building a predictive model, we introduce the python package pydse ( <a href="http://pydse.readthedocs.org/" rel="nofollow">http://pydse.readthedocs.org/</a> ) and apply it to the dataset in order to derive the parameters of an ARMA-model (autoregressive moving average). At the end of the tutorial we evaluate the models and examine the strengths and weaknesses of various ways to measure the accuracy and quality of a predictive model.&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;<a href="http://creativecommons.org/licenses/by/3.0/" rel="nofollow">http://creativecommons.org/licenses/by/3.0/</a>&quot;, 
+            &quot;embed&quot;: &quot;&lt;object width=\&quot;640\&quot; height=\&quot;390\&quot;&gt;&lt;param name=\&quot;movie\&quot; value=\&quot;http://youtube.com/v/U4p46XdXy6A?version=3&amp;amp;hl=en_US\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowFullScreen\&quot; value=\&quot;true\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowscriptaccess\&quot; value=\&quot;always\&quot;&gt;&lt;/param&gt;&lt;embed src=\&quot;http://youtube.com/v/U4p46XdXy6A?version=3&amp;amp;hl=en_US\&quot; type=\&quot;application/x-shockwave-flash\&quot; width=\&quot;640\&quot; height=\&quot;390\&quot; allowscriptaccess=\&quot;always\&quot; allowfullscreen=\&quot;true\&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://i.ytimg.com/vi/U4p46XdXy6A/hqdefault.jpg" rel="nofollow">http://i.ytimg.com/vi/U4p46XdXy6A/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: &quot;&quot;, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: &quot;<a href="http://video.ep14.c3voc.de/20270.mp4" rel="nofollow">http://video.ep14.c3voc.de/20270.mp4</a>&quot;, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: &quot;&quot;, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: &quot;&quot;, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="http://www.youtube.com/watch?v=U4p46XdXy6A" rel="nofollow">http://www.youtube.com/watch?v=U4p46XdXy6A</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2014-07-26&quot;, 
+            &quot;added&quot;: &quot;2014-08-06T18:53:19.866&quot;, 
+            &quot;updated&quot;: &quot;2014-08-06T19:33:15.078&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyData Berlin 2014&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;extract-transform-load-using-metl&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Bence Faludi&quot;
+            ], 
+            &quot;tags&quot;: [], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 3082, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Extract Transform Load using mETL&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;mETL is an ETL package written in Python which was developed to load elective data for Central European University. Program can be used in a more general way, it can be used to load practically any kind of data to any target. Code is open source and available for anyone who want to use it. The main advantage to configurable via Yaml files and You have the possibility to write any transformation in Python and You can use it natively from any framework as well. We are using this tool in production for many of our clients and It is really stable and reliable. The project has a few contributors all around the world right now and I hope many developer will join soon. I really want to show you how you can use it in your daily work. In this tutorial We will see the most common situations: - Installation - Write simple Yaml configration files to load CSV, JSON, XML into MySQL or PostgreSQL Database, or convert CSV to JSON, etc. - Add tranformations on your fields - Filter records based on condition - Walk through a directory to feed the tool - How the mapping works - Generate Yaml configurations automatically from data source - Migrate a database to another database&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;<a href="http://creativecommons.org/licenses/by/3.0/" rel="nofollow">http://creativecommons.org/licenses/by/3.0/</a>&quot;, 
+            &quot;embed&quot;: &quot;&lt;object width=\&quot;640\&quot; height=\&quot;390\&quot;&gt;&lt;param name=\&quot;movie\&quot; value=\&quot;http://youtube.com/v/NOGXdKbB-gQ?version=3&amp;amp;hl=en_US\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowFullScreen\&quot; value=\&quot;true\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowscriptaccess\&quot; value=\&quot;always\&quot;&gt;&lt;/param&gt;&lt;embed src=\&quot;http://youtube.com/v/NOGXdKbB-gQ?version=3&amp;amp;hl=en_US\&quot; type=\&quot;application/x-shockwave-flash\&quot; width=\&quot;640\&quot; height=\&quot;390\&quot; allowscriptaccess=\&quot;always\&quot; allowfullscreen=\&quot;true\&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://i.ytimg.com/vi/NOGXdKbB-gQ/hqdefault.jpg" rel="nofollow">http://i.ytimg.com/vi/NOGXdKbB-gQ/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: &quot;&quot;, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: &quot;<a href="http://video.ep14.c3voc.de/20253.mp4" rel="nofollow">http://video.ep14.c3voc.de/20253.mp4</a>&quot;, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: &quot;&quot;, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: &quot;&quot;, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="http://www.youtube.com/watch?v=NOGXdKbB-gQ" rel="nofollow">http://www.youtube.com/watch?v=NOGXdKbB-gQ</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2014-07-26&quot;, 
+            &quot;added&quot;: &quot;2014-08-06T18:53:21.622&quot;, 
+            &quot;updated&quot;: &quot;2014-08-06T19:39:45.995&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyOhio 2014&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;functional-programming-in-python-with-pytoolz&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Erik Welch&quot;
+            ], 
+            &quot;tags&quot;: [
+                &quot;talk&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 2858, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Functional programming in Python with PyToolz&quot;, 
+            &quot;summary&quot;: &quot;Learn the principles of functional programming from the comfort of Python.  I&#39;ll motivate the principles of standardization, composability, laziness, and purity within a standard workflow.  We&#39;ll go far beyond the standard libraries `itertools` and `functools` by using a functional standard library `toolz` and its high-performance counterpart `cytoolz` written in Cython.&quot;, 
+            &quot;description&quot;: &quot;&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;CC BY&quot;, 
+            &quot;embed&quot;: &quot;&lt;object width=\&quot;640\&quot; height=\&quot;390\&quot;&gt;&lt;param name=\&quot;movie\&quot; value=\&quot;http://youtube.com/v/Y6cANn-zCVc?version=3&amp;amp;hl=en_US\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowFullScreen\&quot; value=\&quot;true\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowscriptaccess\&quot; value=\&quot;always\&quot;&gt;&lt;/param&gt;&lt;embed src=\&quot;http://youtube.com/v/Y6cANn-zCVc?version=3&amp;amp;hl=en_US\&quot; type=\&quot;application/x-shockwave-flash\&quot; width=\&quot;640\&quot; height=\&quot;390\&quot; allowscriptaccess=\&quot;always\&quot; allowfullscreen=\&quot;true\&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://i.ytimg.com/vi/Y6cANn-zCVc/hqdefault.jpg" rel="nofollow">http://i.ytimg.com/vi/Y6cANn-zCVc/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: 3600, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: &quot;&quot;, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: null, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: &quot;<a href="http://964bdd2f965bbc4ca8f5-3ebaa0e988d98119a4fead51a26da83a.r42.cf2.rackcdn.com/pyohio-2014/2858_Functional_programming_in_Python_with_PyToolz.webm" rel="nofollow">http://964bdd2f965bbc4ca8f5-3ebaa0e988d98119a4fead51a26da83a.r42.cf2.rackcdn.com/pyohio-2014/2858_Functional_programming_in_Python_with_PyToolz.webm</a>&quot;, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="http://youtu.be/Y6cANn-zCVc" rel="nofollow">http://youtu.be/Y6cANn-zCVc</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2014-07-26&quot;, 
+            &quot;added&quot;: &quot;2014-07-19T02:13:35.978&quot;, 
+            &quot;updated&quot;: &quot;2014-09-29T12:06:42.727&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyData Berlin 2014&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;generators-will-free-your-mind&quot;, 
+            &quot;speakers&quot;: [
+                &quot;James Powell&quot;
+            ], 
+            &quot;tags&quot;: [], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 3078, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Generators Will Free Your Mind&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;<a href="http://creativecommons.org/licenses/by/3.0/" rel="nofollow">http://creativecommons.org/licenses/by/3.0/</a>&quot;, 
+            &quot;embed&quot;: &quot;&lt;object width=\&quot;640\&quot; height=\&quot;390\&quot;&gt;&lt;param name=\&quot;movie\&quot; value=\&quot;http://youtube.com/v/JasPrZqImxo?version=3&amp;amp;hl=en_US\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowFullScreen\&quot; value=\&quot;true\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowscriptaccess\&quot; value=\&quot;always\&quot;&gt;&lt;/param&gt;&lt;embed src=\&quot;http://youtube.com/v/JasPrZqImxo?version=3&amp;amp;hl=en_US\&quot; type=\&quot;application/x-shockwave-flash\&quot; width=\&quot;640\&quot; height=\&quot;390\&quot; allowscriptaccess=\&quot;always\&quot; allowfullscreen=\&quot;true\&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://i.ytimg.com/vi/JasPrZqImxo/hqdefault.jpg" rel="nofollow">http://i.ytimg.com/vi/JasPrZqImxo/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: &quot;&quot;, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: &quot;<a href="http://video.ep14.c3voc.de/20258.mp4" rel="nofollow">http://video.ep14.c3voc.de/20258.mp4</a>&quot;, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: &quot;&quot;, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: &quot;&quot;, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="http://www.youtube.com/watch?v=JasPrZqImxo" rel="nofollow">http://www.youtube.com/watch?v=JasPrZqImxo</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2014-07-26&quot;, 
+            &quot;added&quot;: &quot;2014-08-06T18:53:21.196&quot;, 
+            &quot;updated&quot;: &quot;2014-08-06T19:40:45.743&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyOhio 2014&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;getting-python-all-up-in-your-mobile-with-kivy&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Ben Rousch&quot;
+            ], 
+            &quot;tags&quot;: [
+                &quot;talk&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 2825, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Getting Python All Up in Your Mobile with Kivy&quot;, 
+            &quot;summary&quot;: &quot;You know you can use Python to make apps for desktops and the web, but did you know you can also use it to make mobile apps? Kivy is a Python GUI framework for making cross-platform multitouch applications. This talk will introduce Kivy&#39;s mobile dev stack, focusing mainly on Android. It will be made using a Kivy app on an Android device, and which was developed entirely on an Android device. &quot;, 
+            &quot;description&quot;: &quot;&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;CC BY&quot;, 
+            &quot;embed&quot;: &quot;&lt;object width=\&quot;640\&quot; height=\&quot;390\&quot;&gt;&lt;param name=\&quot;movie\&quot; value=\&quot;http://youtube.com/v/YOhx-5BTcNc?version=3&amp;amp;hl=en_US\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowFullScreen\&quot; value=\&quot;true\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowscriptaccess\&quot; value=\&quot;always\&quot;&gt;&lt;/param&gt;&lt;embed src=\&quot;http://youtube.com/v/YOhx-5BTcNc?version=3&amp;amp;hl=en_US\&quot; type=\&quot;application/x-shockwave-flash\&quot; width=\&quot;640\&quot; height=\&quot;390\&quot; allowscriptaccess=\&quot;always\&quot; allowfullscreen=\&quot;true\&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://i.ytimg.com/vi/YOhx-5BTcNc/hqdefault.jpg" rel="nofollow">http://i.ytimg.com/vi/YOhx-5BTcNc/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: 3600, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: &quot;&quot;, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: &quot;&quot;, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: 354613811, 
+            &quot;video_webm_url&quot;: &quot;<a href="http://964bdd2f965bbc4ca8f5-3ebaa0e988d98119a4fead51a26da83a.r42.cf2.rackcdn.com/pyohio-2014/2825_Getting_Python_All_Up_in_Your_Mobile_with_Kivy.webm" rel="nofollow">http://964bdd2f965bbc4ca8f5-3ebaa0e988d98119a4fead51a26da83a.r42.cf2.rackcdn.com/pyohio-2014/2825_Getting_Python_All_Up_in_Your_Mobile_with_Kivy.webm</a>&quot;, 
+            &quot;video_webm_download_only&quot;: true, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: &quot;&quot;, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="http://www.youtube.com/watch?v=YOhx-5BTcNc" rel="nofollow">http://www.youtube.com/watch?v=YOhx-5BTcNc</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2014-07-26&quot;, 
+            &quot;added&quot;: &quot;2014-07-19T02:12:52.079&quot;, 
+            &quot;updated&quot;: &quot;2014-08-08T19:01:57.511&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyData Berlin 2014&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;how-to-spy-with-python&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Lynn Root&quot;
+            ], 
+            &quot;tags&quot;: [], 
+            &quot;related_urls&quot;: [
+                {
+                    &quot;url&quot;: &quot;<a href="https://github.com/econchick/spy" rel="nofollow">https://github.com/econchick/spy</a>&quot;, 
+                    &quot;description&quot;: &quot;iPython notebooks for talk&quot;
+                }, 
+                {
+                    &quot;url&quot;: &quot;<a href="http://rogue.ly/spy" rel="nofollow">http://rogue.ly/spy</a>&quot;, 
+                    &quot;description&quot;: &quot;Slides&quot;
+                }, 
+                {
+                    &quot;url&quot;: &quot;<a href="http://nbviewer.ipython.org/github/econchick/spy/tree/master/" rel="nofollow">http://nbviewer.ipython.org/github/econchick/spy/tree/master/</a>&quot;, 
+                    &quot;description&quot;: &quot;nbviewer for talk repo&quot;
+                }
+            ], 
+            &quot;id&quot;: 3069, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;How to Spy with Python&quot;, 
+            &quot;summary&quot;: &quot;This talk will walk through what the US government has done in terms of spying on US citizens and foreigners with their PRISM program, then walk through how to do exactly that with Python.&quot;, 
+            &quot;description&quot;: &quot;&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;<a href="http://creativecommons.org/licenses/by/3.0/" rel="nofollow">http://creativecommons.org/licenses/by/3.0/</a>&quot;, 
+            &quot;embed&quot;: &quot;&lt;object width=\&quot;640\&quot; height=\&quot;390\&quot;&gt;&lt;param name=\&quot;movie\&quot; value=\&quot;http://youtube.com/v/8m3fFPCUPQg?version=3&amp;amp;hl=en_US\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowFullScreen\&quot; value=\&quot;true\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowscriptaccess\&quot; value=\&quot;always\&quot;&gt;&lt;/param&gt;&lt;embed src=\&quot;http://youtube.com/v/8m3fFPCUPQg?version=3&amp;amp;hl=en_US\&quot; type=\&quot;application/x-shockwave-flash\&quot; width=\&quot;640\&quot; height=\&quot;390\&quot; allowscriptaccess=\&quot;always\&quot; allowfullscreen=\&quot;true\&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://i.ytimg.com/vi/8m3fFPCUPQg/hqdefault.jpg" rel="nofollow">http://i.ytimg.com/vi/8m3fFPCUPQg/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: &quot;&quot;, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: &quot;<a href="http://video.ep14.c3voc.de/20274.mp4" rel="nofollow">http://video.ep14.c3voc.de/20274.mp4</a>&quot;, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: &quot;&quot;, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: &quot;&quot;, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="http://www.youtube.com/watch?v=8m3fFPCUPQg" rel="nofollow">http://www.youtube.com/watch?v=8m3fFPCUPQg</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2014-07-26&quot;, 
+            &quot;added&quot;: &quot;2014-08-06T18:53:20.286&quot;, 
+            &quot;updated&quot;: &quot;2014-08-06T22:48:52.567&quot;
+        }
+    ]
+}</pre>
+            </div>
+        </div>
+
+            
+
+                
+
+                
+            
+
+        </div>
+        <!-- END content-main -->
+
+    </div>
+    <!-- END Content -->
+
+        <div id="push"></div>
+
+    </div>
+
+    </div><!-- ./wrapper -->
+
+    
+    
+
+    
+    <script src="/static/rest_framework/js/jquery-1.8.1-min.js"></script>
+    <script src="/static/rest_framework/js/bootstrap.min.js"></script>
+    <script src="/static/rest_framework/js/prettify-min.js"></script>
+    <script src="/static/rest_framework/js/default.js"></script>
+    
+  </body>
+
+<!-- Mirrored from pyvideo.org/api/v2/video/?page=64 by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 07 Jan 2016 03:49:16 GMT -->
+</html>

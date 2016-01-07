@@ -1,0 +1,964 @@
+
+
+<!DOCTYPE html>
+<html>
+    
+<!-- Mirrored from pyvideo.org/api/v2/video/?page=22 by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 07 Jan 2016 03:47:29 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+    
+
+        
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+        <meta name="robots" content="NONE,NOARCHIVE" />
+        
+
+        <title>Django REST framework</title>
+
+        
+        
+            <link rel="stylesheet" type="text/css" href="/static/rest_framework/css/bootstrap.min.css"/>
+            <link rel="stylesheet" type="text/css" href="/static/rest_framework/css/bootstrap-tweaks.css"/>
+        
+        <link rel="stylesheet" type="text/css" href="/static/rest_framework/css/prettify.css"/>
+        <link rel="stylesheet" type="text/css" href="/static/rest_framework/css/default.css"/>
+        
+
+    
+    </head>
+
+  <body class=" container">
+
+    <div class="wrapper">
+
+    
+    <div class="navbar navbar-inverse">
+        <div class="navbar-inner">
+            <div class="container-fluid">
+                <span href="/">
+                    <a class='brand' rel="nofollow" href='http://www.django-rest-framework.org'>Django REST framework <span class="version">2.3.14</span></a>
+                </span>
+                <ul class="nav pull-right">
+                    
+                        
+                            <li></li>
+                        
+                    
+                </ul>
+            </div>
+        </div>
+    </div>
+    
+
+    
+    <ul class="breadcrumb">
+        
+            <li>
+                <a href="/api/v2/video/" class="active">Video List Create Api</a> 
+            </li>
+        
+    </ul>
+    
+
+    <!-- Content -->
+    <div id="content">
+
+        
+            <form id="get-form" class="pull-right">
+                <fieldset>
+                    <div class="btn-group format-selection">
+                        <a class="btn btn-primary js-tooltip" href='/api/v2/video/?page=22' rel="nofollow" title="Make a GET request on the Video List Create Api resource">GET</a>
+
+                        <button class="btn btn-primary dropdown-toggle js-tooltip" data-toggle="dropdown" title="Specify a format for the GET request">
+                            <span class="caret"></span>
+                        </button>
+                        <ul class="dropdown-menu">
+                            
+                                <li>
+                                    <a class="js-tooltip format-option" href='/api/v2/video/?page=22&format=json' rel="nofollow" title="Make a GET request on the Video List Create Api resource with the format set to `json`">json</a>
+                                </li>
+                            
+                                <li>
+                                    <a class="js-tooltip format-option" href='/api/v2/video/?page=22&format=api' rel="nofollow" title="Make a GET request on the Video List Create Api resource with the format set to `api`">api</a>
+                                </li>
+                            
+                        </ul>
+                    </div>
+
+                </fieldset>
+            </form>
+        
+
+        
+            <form class="button-form" action="/api/v2/video/?page=22" method="POST" class="pull-right">
+                <input type='hidden' name='csrfmiddlewaretoken' value='pT8iI6zhtQdsGFmu4tryYgFrUlipl2B3' />
+                <input type="hidden" name="_method" value="OPTIONS" />
+                <button class="btn btn-primary js-tooltip" title="Make an OPTIONS request on the Video List Create Api resource">OPTIONS</button>
+            </form>
+        
+
+        
+
+        <div class="content-main">
+            <div class="page-header"><h1>Video List Create Api</h1></div>
+            
+            
+            
+            <div class="request-info" style="clear: both" >
+                <pre class="prettyprint"><b>GET</b> /api/v2/video/?page=22</pre>
+            </div>
+            <div class="response-info">
+                <pre class="prettyprint"><div class="meta nocode"><b>HTTP 200 OK</b>
+<b>Content-Type:</b> <span class="lit">application/json</span>
+<b>Vary:</b> <span class="lit">Accept</span>
+<b>Allow:</b> <span class="lit">GET, POST, HEAD, OPTIONS</span>
+
+</div>{
+    &quot;count&quot;: 3439, 
+    &quot;next&quot;: &quot;<a href="http://pyvideo.org/api/v2/video/?page=23" rel="nofollow">http://pyvideo.org/api/v2/video/?page=23</a>&quot;, 
+    &quot;previous&quot;: &quot;<a href="http://pyvideo.org/api/v2/video/?page=21" rel="nofollow">http://pyvideo.org/api/v2/video/?page=21</a>&quot;, 
+    &quot;results&quot;: [
+        {
+            &quot;category&quot;: &quot;DjangoCon 2011&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;djangocon-2011--testing--the-developer-strikes-ba&quot;, 
+            &quot;speakers&quot;: [], 
+            &quot;tags&quot;: [
+                &quot;coverage.py&quot;, 
+                &quot;djangocon&quot;, 
+                &quot;djangocon2011&quot;, 
+                &quot;jenkins&quot;, 
+                &quot;testing&quot;, 
+                &quot;web&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 73, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Testing: The Developer Strikes Back&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;Testing: The Developer Strikes Back\n\nSandy Strong\n\n\u201cCode not tested is broken by design\u201d - Jacob Kaplan-Moss\n\nEvery programming project has unique testing needs. It\u2019s not always easy to\nunderstand what those needs are, or how to write tests that satisfy them. One\nof our goals as developers is to write tests that minimize failures in\nproduction that can cost our companies time, money, resources, and in many\ncases, hours of sleep!\n\n&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;&quot;, 
+            &quot;embed&quot;: &quot;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://a.images.blip.tv/Robertlofthouse-TestingTheDeveloperStrikesBack360-494.jpg" rel="nofollow">http://a.images.blip.tv/Robertlofthouse-TestingTheDeveloperStrikesBack360-494.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: 199243351, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: &quot;<a href="http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/djangocon-2011/73_testing-the-developer-strikes-back.m4v" rel="nofollow">http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/djangocon-2011/73_testing-the-developer-strikes-back.m4v</a>&quot;, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: null, 
+            &quot;added&quot;: &quot;2012-02-23T04:20:00&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:25.933&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;DjangoCon 2011&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;djangocon-2011--testing-with-lettuce-and-splinter&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Adam Nelson&quot;
+            ], 
+            &quot;tags&quot;: [
+                &quot;djangocon&quot;, 
+                &quot;djangocon2011&quot;, 
+                &quot;lettuce&quot;, 
+                &quot;splinter&quot;, 
+                &quot;testing&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 106, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Testing with Lettuce and Splinter&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;Testing with Lettuce and Splinter\n\nPresented by Adam Nelson\n\nLettuce, adapted from Ruby&#39;s Cucumber, is a behavior driven development (BDD)\ntesting suite that sits on top of Splinter - a web driver for simulating real-\nworld usage of your site. Learn the ins and outs of BDD using Lettuce and\nSplinter for rapid deployment.\n\n&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;&quot;, 
+            &quot;embed&quot;: &quot;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://a.images.blip.tv/Robertlofthouse-TestingWithLettuceAndSplinter801-433.jpg" rel="nofollow">http://a.images.blip.tv/Robertlofthouse-TestingWithLettuceAndSplinter801-433.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: 89972141, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: &quot;<a href="http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/djangocon-2011/106_testing-with-lettuce-and-splinter.m4v" rel="nofollow">http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/djangocon-2011/106_testing-with-lettuce-and-splinter.m4v</a>&quot;, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: null, 
+            &quot;added&quot;: &quot;2012-02-23T04:20:00&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:25.935&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyTexas 2011&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;the-magic-of-metaprogramming&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Jeff Rush&quot;
+            ], 
+            &quot;tags&quot;: [], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 550, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;The Magic of Metaprogramming&quot;, 
+            &quot;summary&quot;: &quot;Learn the magic of writing programs that monitor, alter and react to the\nexecution of program code by responding to imports, changes to variables,\ncalls to functions and invocations of the builtins. This talk goes beyond the\nstatic world of metaclasses and class decorators into the dynamics of\ntracepoints.\n\n&quot;, 
+            &quot;description&quot;: &quot;&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;&quot;, 
+            &quot;embed&quot;: &quot;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://a.images.blip.tv/Nextdayvideo-TheMagicOfMetaprogramming664-615.jpg" rel="nofollow">http://a.images.blip.tv/Nextdayvideo-TheMagicOfMetaprogramming664-615.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: 245418365, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: &quot;<a href="http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pytexas-2011/550_the-magic-of-metaprogramming.m4v" rel="nofollow">http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pytexas-2011/550_the-magic-of-metaprogramming.m4v</a>&quot;, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: null, 
+            &quot;added&quot;: &quot;2012-02-23T04:20:00&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:25.936&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;DjangoCon 2011&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;djangocon-2011--the-story-and-tech-of-read-the-do&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Eric Holscher&quot;
+            ], 
+            &quot;tags&quot;: [
+                &quot;casestudy&quot;, 
+                &quot;djangocon&quot;, 
+                &quot;djangocon2011&quot;, 
+                &quot;documentation&quot;, 
+                &quot;readthedocs&quot;, 
+                &quot;rtd&quot;, 
+                &quot;rtfd&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 101, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;The story and tech of Read the Docs&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;The story and tech of Read the Docs\n\nPresented by Eric Holscher\n\nHosting open source documentation was a mess. The best-of-class solution for\nthe Python world as uploading a tarball of html to <a href="http://packages.python.org" rel="nofollow">packages.python.org</a> or\ndoing similar to upload to github pages. We set out to solve this problem\nusing the current best of class tools that Django has to offer.\n\n&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;&quot;, 
+            &quot;embed&quot;: &quot;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://a.images.blip.tv/Robertlofthouse-TheStoryAndTechOfReadTheDocs338-916.jpg" rel="nofollow">http://a.images.blip.tv/Robertlofthouse-TheStoryAndTechOfReadTheDocs338-916.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: 95530297, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: &quot;<a href="http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/djangocon-2011/101_the-story-and-tech-of-read-the-docs.m4v" rel="nofollow">http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/djangocon-2011/101_the-story-and-tech-of-read-the-docs.m4v</a>&quot;, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: null, 
+            &quot;added&quot;: &quot;2012-02-23T04:20:00&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:25.937&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;SciPy 2014&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;time-series-analysis-network-security&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Phil Roth&quot;
+            ], 
+            &quot;tags&quot;: [], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 2864, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Time Series Analysis for Network Security&quot;, 
+            &quot;summary&quot;: &quot;Endgame seeks to develop products that allow customers to gain visibility into their networks and discover anomalies. I will describe how Endgame brings together various Python packages (scipy, pandas, statsmodels, kairos, etc...) in order to collect, record, and then analyze time series that are collected from network security data feeds.&quot;, 
+            &quot;description&quot;: &quot;In this talk, I will describe how Endgame has brought together many different Python tools in order to solve the problem of detecting outliers in network security data.\r\n\r\nThe first step in this process is collecting and storing the metrics that will form a time series. Here, I will describe how Endgame plugs into the flow of network data and then stores that data. (Python packages: elasticsearch, pyspark, kairos)\r\n\r\nThe next step is applying a Fourier transform in order to classify time series that exhibit daily and weekly patterns. This information is especially useful in deciding how to characterize a time series&#39;s past behavior and thus judge how unusual new data is. (Python package: numpy)\r\n\r\nFinally, exponentially weighted moving averages and standard deviations are calculated in different ways depending on how the time series was classified. For example, if strong daily patterns are present, the data is stacked by daily time bin and moving averages are calculated within each time bin. Corrections for weekend and weekday behavior are also applied if necessary. Autoregressive moving average models are also used and the performance of each algorithm is gauged and compared (Python packages: pandas, scikits.statsmodels).\r\n\r\nThe final result of this process is a list of outliers and their severity. Further algorithms will judge what outliers are serious enough to present to users.&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;<a href="http://www.youtube.com/t/terms" rel="nofollow">http://www.youtube.com/t/terms</a>&quot;, 
+            &quot;embed&quot;: &quot;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://i.ytimg.com/vi/ZSM-tmbBZ5E/hqdefault.jpg" rel="nofollow">http://i.ytimg.com/vi/ZSM-tmbBZ5E/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: &quot;&quot;, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: &quot;&quot;, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: &quot;&quot;, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: &quot;&quot;, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="http://www.youtube.com/watch?v=ZSM-tmbBZ5E" rel="nofollow">http://www.youtube.com/watch?v=ZSM-tmbBZ5E</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: null, 
+            &quot;added&quot;: &quot;2014-07-24T09:57:53.684&quot;, 
+            &quot;updated&quot;: &quot;2014-07-24T09:58:24.387&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;Kiwi PyCon 2009&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;tim-knapp---getting-all-your-web-apps-to-wear-the&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Tim Knapp&quot;
+            ], 
+            &quot;tags&quot;: [
+                &quot;deliverance&quot;, 
+                &quot;kiwipycon&quot;, 
+                &quot;kiwipycon2009&quot;, 
+                &quot;plone&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 126, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Tim Knapp - Getting All Your Web Apps To Wear The Company Brand&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;Getting all your web apps to wear the company brand\n\nPresented by Tim Knapp\n\nAbstract\n\nCross-platform theming! No matter what the platform/language, you can\nseamlessly apply 1 theme across all your disparate web applications.\n\nOutline\n\nThe technology is called Deliverance and Tim Knapp will demonstrate how to use\nthis powerful tool to theme your web applications.\n\n[VIDEO HAS ISSUES: Sound and video are poor. Slides are hard to read.]\n\n&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;Creative Commons Attribution-NonCommercial-ShareAlike 3.0&quot;, 
+            &quot;embed&quot;: &quot;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://a.images.blip.tv/Kiwipycon-TimKnappGettingAllYourWebAppsToWearTheCompanyBrand869-36.jpg" rel="nofollow">http://a.images.blip.tv/Kiwipycon-TimKnappGettingAllYourWebAppsToWearTheCompanyBrand869-36.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: null, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: &quot;<a href="http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/kiwi-pycon-2009/126_tim-knapp-getting-all-your-web-apps-to-wear-the-company-brand.flv" rel="nofollow">http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/kiwi-pycon-2009/126_tim-knapp-getting-all-your-web-apps-to-wear-the-company-brand.flv</a>&quot;, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: null, 
+            &quot;added&quot;: &quot;2012-02-23T04:20:00&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:25.938&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;Kiwi PyCon 2009&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;tim-mcnamara---olpc-xo--python-bringing-education&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Tim McNamara&quot;
+            ], 
+            &quot;tags&quot;: [
+                &quot;kiwipycon&quot;, 
+                &quot;kiwipycon2009&quot;, 
+                &quot;olpc&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 116, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Tim McNamara - OLPC XO: Python bringing education to the world&#39;s poorest children&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;OLPC XO: Python bringing education to the world&#39;s poorest children\n\nPresented by Tim McNamara\n\nAbstract\n\nThis topic will be divided into five different area of 10 minutes each, with\ntime for questions and discussion. We&#39;ll talk about the OLPC programme, the\nhardware, the software, the educational theory and how to get involved NZ.\n\nOutline\n\n  1. In defence of the OLPC XO This section will be a brief overview of the whole project hopefully with an eye to dispel some rumour and controversy surrounding the project. There has been several mixed messages, and I would like to \n  2. Overview of the hardware In this section, the talk to move into a discussion about the overview of the hardware itself. There will be several machines for the audience to have a look at, and we&#39;ll try and test some of the mesh networking, collaboration and sharing capabilities that are built into the machine. \n  3. Overview of the software The OLPC XO is run using a Python environment called Sugar ([<a href="http://sugarlabs.org.nz](http://sugarlabs.org.nz/)" rel="nofollow">http://sugarlabs.org.nz](http://sugarlabs.org.nz/)</a>), which itself is a Fedora Remix. We will talk a little about how an Activity is built and how to start contributing to the Sugar system. \n  4. How to deploy into schools This segment will go over some of the theoretical underpinnings of the user interface and Sugar&#39;s approach to things like the directory structure. We&#39;ll also explore some of the tools that teachers and parents can use to progressively encourage their children to learn about computing and develop creative and critical thinking. \n  5. How to get involved There are small pockets of XOs around the country. Learn where they are and how to start improving them! \n\n[VIDEO HAS ISSUES: Sound and video are poor. Slides are hard to read.]\n\n&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;Creative Commons Attribution-NonCommercial-ShareAlike 3.0&quot;, 
+            &quot;embed&quot;: &quot;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://a.images.blip.tv/Kiwipycon-TimMcNamaraOLPCXOPythonBringingEducationToTheWorldsPo728-638.jpg" rel="nofollow">http://a.images.blip.tv/Kiwipycon-TimMcNamaraOLPCXOPythonBringingEducationToTheWorldsPo728-638.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: null, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: &quot;<a href="http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/kiwi-pycon-2009/116_tim-mcnamara-olpc-xo-python-bringing-education-to-the-world-s-poorest-children.flv" rel="nofollow">http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/kiwi-pycon-2009/116_tim-mcnamara-olpc-xo-python-bringing-education-to-the-world-s-poorest-children.flv</a>&quot;, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: null, 
+            &quot;added&quot;: &quot;2012-02-23T04:20:00&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:25.942&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;Kiwi PyCon 2009&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;tim-penhey---launchpad--the-good--the-bad--and-th&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Tim Penhey&quot;
+            ], 
+            &quot;tags&quot;: [
+                &quot;kiwipycon&quot;, 
+                &quot;kiwipycon2009&quot;, 
+                &quot;launchpad&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 122, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Tim Penhey - Launchpad: The Good, the Bad, and the OMG How Does That Work&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;Launchpad: The Good, The Bad, and the OMG How Does That Work\n\nPresented by Tim Penhey\n\nKeynote\n\n[VIDEO HAS ISSUES: Sound and video are poor. Slides are hard to read.]\n\n&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;Creative Commons Attribution-NonCommercial-ShareAlike 3.0&quot;, 
+            &quot;embed&quot;: &quot;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://a.images.blip.tv/Kiwipycon-TimPenheyLaunchpadTheGoodTheBadAndTheOMGHowDoesThat845-307.jpg" rel="nofollow">http://a.images.blip.tv/Kiwipycon-TimPenheyLaunchpadTheGoodTheBadAndTheOMGHowDoesThat845-307.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: null, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: &quot;<a href="http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/kiwi-pycon-2009/122_tim-penhey-launchpad-the-good-the-bad-and-the-omg-how-does-that-work.flv" rel="nofollow">http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/kiwi-pycon-2009/122_tim-penhey-launchpad-the-good-the-bad-and-the-omg-how-does-that-work.flv</a>&quot;, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: null, 
+            &quot;added&quot;: &quot;2012-02-23T04:20:00&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:25.943&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;DjangoCon 2009&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;djangocon-2009--token-testing-talk&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Eric Holscher&quot;
+            ], 
+            &quot;tags&quot;: [
+                &quot;djangocon&quot;, 
+                &quot;djangocon2009&quot;, 
+                &quot;testing&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 29, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Token Testing Talk&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;Token Testing Talk\n\n  \nPresented by Eric Holscher\n\n  \nTalks about testing in Django.\n\n  \n[VIDEO HAS ISSUES: audio in left channel only]\n\n&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;Creative Commons Attribution-NonCommercial-ShareAlike 3.0&quot;, 
+            &quot;embed&quot;: &quot;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://a.images.blip.tv/Robertlofthouse-TokenTestingTalk148.png" rel="nofollow">http://a.images.blip.tv/Robertlofthouse-TokenTestingTalk148.png</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: &quot;<a href="http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/djangocon-2009/29_token-testing-talk.ogv" rel="nofollow">http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/djangocon-2009/29_token-testing-talk.ogv</a>&quot;, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: null, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: null, 
+            &quot;added&quot;: &quot;2012-02-23T04:20:00&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:25.945&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;DjangoCon 2010&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;djangocon-2010--topics-of-interest&quot;, 
+            &quot;speakers&quot;: [
+                &quot;James Bennett&quot;
+            ], 
+            &quot;tags&quot;: [
+                &quot;djangocon&quot;, 
+                &quot;djangocon2010&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 45, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Topics of Interest&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;Topics of Interest\n\nPresented by James Bennett\n\nInspired by Ian Bicking&#39;s session of the same name at PyCon 2009, this will be\na somewhat eclectic talk covering various subjects near and dear to the\nspeaker&#39;s heart, including Django&#39;s release process, best practices for\napplication development and what the future holds for our favorite Python web\nframework.\n\nAbstract\n\nThis talk will come in, roughly, four parts:\n\n  * The release process \n    * How Django gets made \n    * Things we&#39;ve screwed up \n    * Things (I think) we&#39;ve gotten right \n    * The unsung heroes who make Django happen \n  * The state of Django applications \n    * A summary of current best practices for development, documentation, packaging, collaboration, etc. \n    * Common issues and ways to fix them \n    * \&quot;There&#39;s an app for that\&quot; and its discontents \n  * The future \n    * Musings on Django 1.3 and 1.4 \n    * Python 3: when will we get there, and what will it mean for us? \n    * The world is changing; how can we change with it? \n  * General Q&amp;A;\n\n&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;Creative Commons Attribution-NonCommercial-ShareAlike 3.0&quot;, 
+            &quot;embed&quot;: &quot;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://a.images.blip.tv/Robertlofthouse-TopicsOfInterest641.png" rel="nofollow">http://a.images.blip.tv/Robertlofthouse-TopicsOfInterest641.png</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: 255930551, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: null, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: &quot;<a href="http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/djangocon-2010/45_topics-of-interest.flv" rel="nofollow">http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/djangocon-2010/45_topics-of-interest.flv</a>&quot;, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: null, 
+            &quot;added&quot;: &quot;2012-02-23T04:20:00&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:25.946&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyCon US 2009&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;tour-of-python-standard-library--3-of-3&quot;, 
+            &quot;speakers&quot;: [], 
+            &quot;tags&quot;: [
+                &quot;pycon&quot;, 
+                &quot;pycon2009&quot;, 
+                &quot;python-basics&quot;, 
+                &quot;stdlib&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 168, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Tour of Python Standard Library (3 of 3)&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;  \nWelcome to A Tour of Python Standard Library. Together let us explore the\nvarious modules, which will help you to build robust working programs. Once\nyou know about a particular library well, you will start replacing those 20\nodd lines of code you used to write with a 2-3 lines and feel safe that your\ncode will now work on all the platforms that Python supports. Just like the\ngalaxy, the Python Standard Library is vast and when hitch-hiking I will take\nyou through some important ones that happen to be used most often. You can\nexplore, ask questions, experiment through out the ride. Welcome! And let the\njourney begin.\n\n&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;Creative Commons Attribution-NonCommercial-ShareAlike 3.0&quot;, 
+            &quot;embed&quot;: &quot;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://a.images.blip.tv/Pycon-ATourOfPythonStandardLibraryPart003650-998.jpg" rel="nofollow">http://a.images.blip.tv/Pycon-ATourOfPythonStandardLibraryPart003650-998.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: 243491007, 
+            &quot;video_mp4_url&quot;: &quot;<a href="http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2009/168_tour-of-python-standard-library-3-of-3.mp4" rel="nofollow">http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2009/168_tour-of-python-standard-library-3-of-3.mp4</a>&quot;, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: null, 
+            &quot;added&quot;: &quot;2012-02-23T04:20:00&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:25.947&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;DjangoCon 2010&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;djangocon-2010--treehugging&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Brian Luft&quot;
+            ], 
+            &quot;tags&quot;: [
+                &quot;djangocon&quot;, 
+                &quot;djangocon2010&quot;, 
+                &quot;django-mptt&quot;, 
+                &quot;django-treebeard&quot;, 
+                &quot;graphs&quot;, 
+                &quot;structureddata&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 50, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Treehugging&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;Treehugging\n\nPresented by Brian Luft\n\nHierarchical data sprouts up almost everywhere, but not all trees look alike.\nLearn to how tell them apart and love them all in Django.\n\nAbstract\n\nThis talk would cover some common examples of hierarchical data in web\napplications and then review solutions like django-mptt and django-treebeard.\nRather than trying to cover tree algorithms in-depth, the focus would be on\nbest practices for querying and rendering trees in your Django apps.\n\nThis talk is not geared for the smart kids; they already know this stuff. It\nis intended to help less experienced developers take advantage of patterns\nwithout needing to worry about the deeper concepts.\n\n&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;Creative Commons Attribution-NonCommercial-ShareAlike 3.0&quot;, 
+            &quot;embed&quot;: &quot;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://a.images.blip.tv/Robertlofthouse-Treehugging694.png" rel="nofollow">http://a.images.blip.tv/Robertlofthouse-Treehugging694.png</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: 166431370, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: null, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: &quot;<a href="http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/djangocon-2010/50_treehugging.flv" rel="nofollow">http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/djangocon-2010/50_treehugging.flv</a>&quot;, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: null, 
+            &quot;added&quot;: &quot;2012-02-23T04:20:00&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:25.948&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;DjangoCon 2010&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;djangocon-2010--typewar--a-case-study&quot;, 
+            &quot;speakers&quot;: [
+                &quot;James Tauber&quot;
+            ], 
+            &quot;tags&quot;: [
+                &quot;casestudy&quot;, 
+                &quot;djangocon&quot;, 
+                &quot;djangocon2010&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 64, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Typewar: A Case Study&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;Typewar: A Case Study\n\nPresented by James Tauber\n\nTypewar is a popular font-guessing game built with Django and Pinax. This talk\nwill cover everything from game mechanics and statistics to development of an\nAPI for an iPhone client and from how we promoted and launched the site to the\nperformance challenges we faced.\n\nAbstract\n\nTypewar was developed as a side project at Eldarion and went from concept to\nlaunch in a matter of weeks. The first day saw 5,000 visitors and since then,\nover 50,000 people have attempted to \&quot;guess the typeface\&quot; more than 5 million\ntimes.\n\nThe talk will cover:\n\n  * how we went from concept to design mockup to prototype \n  * game mechanics such as: \n    * points \n    * levels \n    * badges \n    * streaks \n    * leader boards \n    * stats (with lots of bayesian goodness) \n  * generation of glyphs with PIL \n  * mitigation against cheaters \n  * twitter integration \n  * migrating unauthenticated user data over on sign up / log in \n  * activity streams \n  * performance challenges \n  * database optimizations \n  * queuing of asynchronous tasks \n  * development of an API for use in an iPhone client \n  * deployment \n  * how we promoted and launched the site \n\nWe will also discuss various open source Django apps that have been extracted\nfrom the project and used on subsequent sites by us and others.\n\n[http://typewar.com/](http://typewar.com/)\n\n&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;Creative Commons Attribution-NonCommercial-ShareAlike 3.0&quot;, 
+            &quot;embed&quot;: &quot;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://a.images.blip.tv/Robertlofthouse-TypewarACaseStudy770-135.jpg" rel="nofollow">http://a.images.blip.tv/Robertlofthouse-TypewarACaseStudy770-135.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: 223572623, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: null, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: &quot;<a href="http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/djangocon-2010/64_typewar-a-case-study.flv" rel="nofollow">http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/djangocon-2010/64_typewar-a-case-study.flv</a>&quot;, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: null, 
+            &quot;added&quot;: &quot;2012-02-23T04:20:00&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:25.950&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;DjangoCon 2009&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;ur-doing-it-wrong&quot;, 
+            &quot;speakers&quot;: [], 
+            &quot;tags&quot;: [
+                &quot;djangocon&quot;, 
+                &quot;djangocon2009&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 32, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;UR DOING IT WRONG&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;UR DOIN IT WRONG\n\n  \nJames Bennett\n\n  \nTalks about new people having problems doing what they&#39;re trying to do with\nDjango. Some things discussed: not reading the documentation, learning Python\nas you go, ... Talks about the minimum Python you should know when working\nwith Django.\n\n  \n[VIDEO HAS ISSUES: audio is soft at the beginning]\n\n&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;Creative Commons Attribution-NonCommercial-ShareAlike 3.0&quot;, 
+            &quot;embed&quot;: &quot;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://a.images.blip.tv/Robertlofthouse-URDOINGITWRONG701.png" rel="nofollow">http://a.images.blip.tv/Robertlofthouse-URDOINGITWRONG701.png</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: &quot;<a href="http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/djangocon-2009/32_ur-doing-it-wrong.ogv" rel="nofollow">http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/djangocon-2009/32_ur-doing-it-wrong.ogv</a>&quot;, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: null, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: null, 
+            &quot;added&quot;: &quot;2012-02-23T04:20:00&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:25.951&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;DjangoCon 2009&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;using-django-in-non-standard-ways&quot;, 
+            &quot;speakers&quot;: [], 
+            &quot;tags&quot;: [
+                &quot;djangocon&quot;, 
+                &quot;djangocon2009&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 21, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Using Django in Non-Standard Ways&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;Using Django in Non-Standard Ways\n\n  \nEric Florenzano\n\n  \nFirst, tries to define what \&quot;non-standard ways\&quot; entails, then talks about\nusing Django in these ways.\n\n  \n[VIDEO HAS ISSUES: video freezes at times, but audio continues]\n\n&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;Creative Commons Attribution-NonCommercial-ShareAlike 3.0&quot;, 
+            &quot;embed&quot;: &quot;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://a.images.blip.tv/Robertlofthouse-UsingDjangoInNonStandardWays293.png" rel="nofollow">http://a.images.blip.tv/Robertlofthouse-UsingDjangoInNonStandardWays293.png</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: &quot;<a href="http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/djangocon-2009/21_using-django-in-non-standard-ways.ogv" rel="nofollow">http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/djangocon-2009/21_using-django-in-non-standard-ways.ogv</a>&quot;, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: null, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: null, 
+            &quot;added&quot;: &quot;2012-02-23T04:20:00&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:25.952&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyTexas 2011&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;using-message-queues-for-distributed-processing&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Jason Zylks&quot;
+            ], 
+            &quot;tags&quot;: [], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 562, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Using Message Queues for Distributed Processing&quot;, 
+            &quot;summary&quot;: &quot;Message queues provide a reliable, language agnostic method for sharing data\nbetween processes for distributed processing, and to manage work flows. This\ntalk will examine the role of message queues in a redesign of the provisioning\nprocess for Texas A&amp;M; University&#39;s enterprise directory.\n\n&quot;, 
+            &quot;description&quot;: &quot;About six months ago we moved our account provisioning process from a\nmonolithic Perl script to a set of distributed, interconnected python scripts.\nBy using message queues (specifically beanstalkd) to pass messages between the\nprocesses, we were able to build a system that was much faster, more reliable\nand more flexible.\n\nI will walk through the process that led us to choose beanstalkd, look at some\nalternatives that are available, and describe some use cases for message\nqueues.\n\n&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;&quot;, 
+            &quot;embed&quot;: &quot;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://a.images.blip.tv/Nextdayvideo-UsingMessageQueuesForDistributedProcessing897-27.jpg" rel="nofollow">http://a.images.blip.tv/Nextdayvideo-UsingMessageQueuesForDistributedProcessing897-27.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: 149493215, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: &quot;<a href="http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pytexas-2011/562_using-message-queues-for-distributed-processing.m4v" rel="nofollow">http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pytexas-2011/562_using-message-queues-for-distributed-processing.m4v</a>&quot;, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: null, 
+            &quot;added&quot;: &quot;2012-02-23T04:20:00&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:25.953&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyTexas 2011&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;virtualenv--pip--and-virtualenvwrapper&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Jon Nials&quot;
+            ], 
+            &quot;tags&quot;: [], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 553, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;virtualenv, pip, and virtualenvwrapper&quot;, 
+            &quot;summary&quot;: &quot;virtualenv, pip, and virtualenvwrapper are vital tools for any Python\ndeveloper. This beginner-level presentation will introduce each of these.\n\n&quot;, 
+            &quot;description&quot;: &quot;&quot;, 
+            &quot;quality_notes&quot;: &quot;No audio first minute.&quot;, 
+            &quot;copyright_text&quot;: &quot;&quot;, 
+            &quot;embed&quot;: &quot;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://a.images.blip.tv/Nextdayvideo-virtualenvPipAndVirtualenvwrapper256-563.jpg" rel="nofollow">http://a.images.blip.tv/Nextdayvideo-virtualenvPipAndVirtualenvwrapper256-563.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: 170977124, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: &quot;<a href="http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pytexas-2011/553_virtualenv-pip-and-virtualenvwrapper.m4v" rel="nofollow">http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pytexas-2011/553_virtualenv-pip-and-virtualenvwrapper.m4v</a>&quot;, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: null, 
+            &quot;added&quot;: &quot;2012-02-23T04:20:00&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:25.955&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;Kiwi PyCon 2009&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;volker-kuhlmann---rapid-gui-application-developme&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Volker Kuhlmann&quot;
+            ], 
+            &quot;tags&quot;: [
+                &quot;gui&quot;, 
+                &quot;kiwipycon&quot;, 
+                &quot;kiwipycon2009&quot;, 
+                &quot;qt&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 117, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Volker Kuhlmann - Rapid GUI application development with python&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;Rapid GUI application development with Python\n\nPresented by Volker Kuhlmann\n\nAbstract\n\nOptions and tools for rapid desktop GUI application development using python\nare examined, and how they compare to competing languages and platforms.\n\nOutline\n\nExamine GUI options for python including Qt, and their performance with\nrespect to ease of use, runtime, and platform portability. Examine options for\nthe tool chain (IDE, editor, debugger, programming aids) and characterise\ntheir ease of use and level of sophistication, and compare with commonly used\nequivalents, both open source and not open source. Demonstrate a sample\nprogram.\n\n&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;Creative Commons Attribution-NonCommercial-ShareAlike 3.0&quot;, 
+            &quot;embed&quot;: &quot;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://a.images.blip.tv/Kiwipycon-VolkerKuhlmannRapidGUIApplicationDevelopmentWithPython822-341.jpg" rel="nofollow">http://a.images.blip.tv/Kiwipycon-VolkerKuhlmannRapidGUIApplicationDevelopmentWithPython822-341.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: null, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: &quot;<a href="http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/kiwi-pycon-2009/117_volker-kuhlmann-rapid-gui-application-development-with-python.flv" rel="nofollow">http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/kiwi-pycon-2009/117_volker-kuhlmann-rapid-gui-application-development-with-python.flv</a>&quot;, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: null, 
+            &quot;added&quot;: &quot;2012-02-23T04:20:00&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:25.956&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;DjangoCon 2010&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;djangocon-2010--welcome-and-chairman--39-s-addres&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Steve Holden&quot;
+            ], 
+            &quot;tags&quot;: [
+                &quot;djangocon&quot;, 
+                &quot;djangocon2010&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 46, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Welcome and Chairman&#39;s Address&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;Welcome and Chairman&#39;s Address\n\nPresented by Steve Holden\n\n[VIDEO HAS ISSUES: Looks like the presentation started before recording.]\n\n&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;Creative Commons Attribution-NonCommercial-ShareAlike 3.0&quot;, 
+            &quot;embed&quot;: &quot;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://a.images.blip.tv/Robertlofthouse-WelcomeAndChairmansAddress563.png" rel="nofollow">http://a.images.blip.tv/Robertlofthouse-WelcomeAndChairmansAddress563.png</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: 258726136, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: null, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: &quot;<a href="http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/djangocon-2010/46_welcome-and-chairman-s-address.flv" rel="nofollow">http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/djangocon-2010/46_welcome-and-chairman-s-address.flv</a>&quot;, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: null, 
+            &quot;added&quot;: &quot;2012-02-23T04:20:00&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:25.957&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;Kiwi PyCon 2009&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;wenchen-hol---coursebuilder--reusable-multimodal-&quot;, 
+            &quot;speakers&quot;: [
+                &quot;WenChen Hol&quot;
+            ], 
+            &quot;tags&quot;: [
+                &quot;coursebuilder&quot;, 
+                &quot;kiwipycon&quot;, 
+                &quot;kiwipycon2009&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 128, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;WenChen Hol - coursebuilder: reusable multimodal elearning resource editor&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;coursebuilder: reusable multimodal elearning resource editor\n\nPresented by WenChen Hol\n\nAbstract\n\nTo showcase and explain the core technology of the coursebuilder tool. It is a\nweb technology that can help deliver the reuse of quality learning and web\ndesigns and to facilitate putting extra teaching information and community\ninput inside context.\n\nOutline\n\ntechnology background demo what is the difference q&amp;a;\n\n[VIDEO HAS ISSUES: Sound and video are poor. Slides are hard to read.]\n\n&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;Creative Commons Attribution-NonCommercial-ShareAlike 3.0&quot;, 
+            &quot;embed&quot;: &quot;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://a.images.blip.tv/Kiwipycon-WenChenHolCoursebuilderReusableMultimodalElearningResourc896-68.jpg" rel="nofollow">http://a.images.blip.tv/Kiwipycon-WenChenHolCoursebuilderReusableMultimodalElearningResourc896-68.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: null, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: &quot;<a href="http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/kiwi-pycon-2009/128_wenchen-hol-coursebuilder-reusable-multimodal-elearning-resource-editor.flv" rel="nofollow">http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/kiwi-pycon-2009/128_wenchen-hol-coursebuilder-reusable-multimodal-elearning-resource-editor.flv</a>&quot;, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: null, 
+            &quot;added&quot;: &quot;2012-02-23T04:20:00&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:25.960&quot;
+        }
+    ]
+}</pre>
+            </div>
+        </div>
+
+            
+
+                
+
+                
+            
+
+        </div>
+        <!-- END content-main -->
+
+    </div>
+    <!-- END Content -->
+
+        <div id="push"></div>
+
+    </div>
+
+    </div><!-- ./wrapper -->
+
+    
+    
+
+    
+    <script src="/static/rest_framework/js/jquery-1.8.1-min.js"></script>
+    <script src="/static/rest_framework/js/bootstrap.min.js"></script>
+    <script src="/static/rest_framework/js/prettify-min.js"></script>
+    <script src="/static/rest_framework/js/default.js"></script>
+    
+  </body>
+
+<!-- Mirrored from pyvideo.org/api/v2/video/?page=22 by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 07 Jan 2016 03:47:29 GMT -->
+</html>

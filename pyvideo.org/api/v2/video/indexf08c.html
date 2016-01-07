@@ -1,0 +1,901 @@
+
+
+<!DOCTYPE html>
+<html>
+    
+<!-- Mirrored from pyvideo.org/api/v2/video/?page=25&format=api by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 07 Jan 2016 03:47:37 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+    
+
+        
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+        <meta name="robots" content="NONE,NOARCHIVE" />
+        
+
+        <title>Django REST framework</title>
+
+        
+        
+            <link rel="stylesheet" type="text/css" href="/static/rest_framework/css/bootstrap.min.css"/>
+            <link rel="stylesheet" type="text/css" href="/static/rest_framework/css/bootstrap-tweaks.css"/>
+        
+        <link rel="stylesheet" type="text/css" href="/static/rest_framework/css/prettify.css"/>
+        <link rel="stylesheet" type="text/css" href="/static/rest_framework/css/default.css"/>
+        
+
+    
+    </head>
+
+  <body class=" container">
+
+    <div class="wrapper">
+
+    
+    <div class="navbar navbar-inverse">
+        <div class="navbar-inner">
+            <div class="container-fluid">
+                <span href="/">
+                    <a class='brand' rel="nofollow" href='http://www.django-rest-framework.org'>Django REST framework <span class="version">2.3.14</span></a>
+                </span>
+                <ul class="nav pull-right">
+                    
+                        
+                            <li></li>
+                        
+                    
+                </ul>
+            </div>
+        </div>
+    </div>
+    
+
+    
+    <ul class="breadcrumb">
+        
+            <li>
+                <a href="/api/v2/video/" class="active">Video List Create Api</a> 
+            </li>
+        
+    </ul>
+    
+
+    <!-- Content -->
+    <div id="content">
+
+        
+            <form id="get-form" class="pull-right">
+                <fieldset>
+                    <div class="btn-group format-selection">
+                        <a class="btn btn-primary js-tooltip" href='/api/v2/video/?page=25&amp;format=api' rel="nofollow" title="Make a GET request on the Video List Create Api resource">GET</a>
+
+                        <button class="btn btn-primary dropdown-toggle js-tooltip" data-toggle="dropdown" title="Specify a format for the GET request">
+                            <span class="caret"></span>
+                        </button>
+                        <ul class="dropdown-menu">
+                            
+                                <li>
+                                    <a class="js-tooltip format-option" href='/api/v2/video/?page=25&format=json' rel="nofollow" title="Make a GET request on the Video List Create Api resource with the format set to `json`">json</a>
+                                </li>
+                            
+                                <li>
+                                    <a class="js-tooltip format-option" href='/api/v2/video/?page=25&format=api' rel="nofollow" title="Make a GET request on the Video List Create Api resource with the format set to `api`">api</a>
+                                </li>
+                            
+                        </ul>
+                    </div>
+
+                </fieldset>
+            </form>
+        
+
+        
+            <form class="button-form" action="/api/v2/video/?page=25&amp;format=api" method="POST" class="pull-right">
+                <input type='hidden' name='csrfmiddlewaretoken' value='pT8iI6zhtQdsGFmu4tryYgFrUlipl2B3' />
+                <input type="hidden" name="_method" value="OPTIONS" />
+                <button class="btn btn-primary js-tooltip" title="Make an OPTIONS request on the Video List Create Api resource">OPTIONS</button>
+            </form>
+        
+
+        
+
+        <div class="content-main">
+            <div class="page-header"><h1>Video List Create Api</h1></div>
+            
+            
+            
+            <div class="request-info" style="clear: both" >
+                <pre class="prettyprint"><b>GET</b> /api/v2/video/?page=25&amp;format=api</pre>
+            </div>
+            <div class="response-info">
+                <pre class="prettyprint"><div class="meta nocode"><b>HTTP 200 OK</b>
+<b>Content-Type:</b> <span class="lit">application/json</span>
+<b>Vary:</b> <span class="lit">Accept</span>
+<b>Allow:</b> <span class="lit">GET, POST, HEAD, OPTIONS</span>
+
+</div>{
+    &quot;count&quot;: 3439, 
+    &quot;next&quot;: &quot;<a href="http://pyvideo.org/api/v2/video/?page=26&amp;format=api" rel="nofollow">http://pyvideo.org/api/v2/video/?page=26&amp;format=api</a>&quot;, 
+    &quot;previous&quot;: &quot;<a href="http://pyvideo.org/api/v2/video/?page=24&amp;format=api" rel="nofollow">http://pyvideo.org/api/v2/video/?page=24&amp;format=api</a>&quot;, 
+    &quot;results&quot;: [
+        {
+            &quot;category&quot;: &quot;Kiwi PyCon 2015&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;a-practical-guide-to-web-security&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Jeremy Stott&quot;
+            ], 
+            &quot;tags&quot;: [], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 3855, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;A practical guide to web security&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;This presentation is an introduction to securing your Python web application. I am definitely not a security expert, just a developer who thinks security should be everyone&#39;s job. That&#39;s right. It&#39;s your responsibility too. Hopefully I can soften the blow by giving you a beginner&#39;s guide to security. That&#39;s me, the beginner.\r\n\r\nWe will pick apart an example Python web application to demonstrate good security practices, along with examples and explanations of why they are important.\r\n\r\nI&#39;ll cover a few different web security topics:\r\n\r\n* Not trusting any input from your users\r\n* Authentication and session management\r\n* Using HTTPS effectively\r\n* Things not to do in client land\r\n* Obvious mistakes\r\n* Not so obvious mistakes\r\n\r\nIf you have written a web application and not thought twice about security, this talk is for you. If you can name the OWASP Top 10, then you can come along anyway and ask me a really tricky question at the end.&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;CC BY-SA&quot;, 
+            &quot;embed&quot;: &quot;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="https://i.ytimg.com/vi/54E8GVe8m0o/hqdefault.jpg" rel="nofollow">https://i.ytimg.com/vi/54E8GVe8m0o/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: 1936, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: &quot;&quot;, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="http://youtu.be/54E8GVe8m0o" rel="nofollow">http://youtu.be/54E8GVe8m0o</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2015-09-05&quot;, 
+            &quot;added&quot;: &quot;2015-09-14T05:43:14.001&quot;, 
+            &quot;updated&quot;: &quot;2015-09-16T04:32:31.415&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;Kiwi PyCon 2015&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;build-a-better-hat-rack-all-contributions-welcom&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Katie McLaughlin&quot;
+            ], 
+            &quot;tags&quot;: [], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 3865, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Build a Better Hat Rack: All Contributions Welcome&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;We have many ways of reporting and recognising our code contributions in open source projects, but often it is the work we do outside of code commits themselves that get forgotten and unattributed. Hours of code review, documentation, testing; organising of meetups and volunteering at conferences; even just brainstorming and talking about things - how much of these have you done without accreditation?\r\n\r\nDuring this session, we will discuss what it means to contribute to open source projects, what constitutes a non-code contribution, steps we can take to recognise the work of our peers, and how projects can better encourage non-code participation through recognition and acknowledgement.&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;CC BY-SA&quot;, 
+            &quot;embed&quot;: &quot;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="https://i.ytimg.com/vi/wQxFKxbWcFM/hqdefault.jpg" rel="nofollow">https://i.ytimg.com/vi/wQxFKxbWcFM/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: 2040, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: null, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="http://youtu.be/wQxFKxbWcFM" rel="nofollow">http://youtu.be/wQxFKxbWcFM</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2015-09-05&quot;, 
+            &quot;added&quot;: &quot;2015-09-14T05:46:14.669&quot;, 
+            &quot;updated&quot;: &quot;2015-09-16T04:33:40.480&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;Kiwi PyCon 2015&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;connascence-in-python&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Thomi Richards&quot;
+            ], 
+            &quot;tags&quot;: [], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 3876, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Connascence in Python&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;Connascence is the taxonomy of coupling: it allows us to specify how two or more pieces of code are connected, and suggests ways of minimising the impact of that coupling. Ultimately this allows developers to write software that is more flexible to change.\r\n\r\nAt the end of the talk the audience will have learned some of the forms of connascence with real python code examples, and will understand how to apply those principles to their own code.&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;CC BY-SA&quot;, 
+            &quot;embed&quot;: &quot;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="https://i.ytimg.com/vi/iwADIlIgDNA/hqdefault.jpg" rel="nofollow">https://i.ytimg.com/vi/iwADIlIgDNA/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: 2159, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: &quot;&quot;, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="http://youtu.be/iwADIlIgDNA" rel="nofollow">http://youtu.be/iwADIlIgDNA</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2015-09-05&quot;, 
+            &quot;added&quot;: &quot;2015-09-14T05:51:44.525&quot;, 
+            &quot;updated&quot;: &quot;2015-09-16T04:32:06.020&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;Kiwi PyCon 2015&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;cython-get-the-benefits-of-c-without-leaving-pyt&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Chris LeBlanc&quot;
+            ], 
+            &quot;tags&quot;: [], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 3874, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Cython: get the benefits of C without leaving Python&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;Cython is an optimising static compiler based on Pyrex, created by Greg Ewing from the university of Canterbury.  It bridges the worlds of Python and C, letting you write code that runs close to C speed in a syntax that is very close to Python.  This talk will show how you can speed up a typical Python program with Cython datatypes.  We\u2019ll call C functions directly, passing NumPy arrays with ease.  We\u2019ll see how we can release the global interpreter lock, letting us run multiple threads in parallel near C speeds.  We\u2019ll look at Cython\u2019s parallel module for data parallelism and compare it to some alternatives and discuss the pros and cons.&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;CC BY-SA&quot;, 
+            &quot;embed&quot;: &quot;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="https://i.ytimg.com/vi/L-FyCT02gqc/hqdefault.jpg" rel="nofollow">https://i.ytimg.com/vi/L-FyCT02gqc/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: 1670, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: &quot;&quot;, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="http://youtu.be/L-FyCT02gqc" rel="nofollow">http://youtu.be/L-FyCT02gqc</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2015-09-05&quot;, 
+            &quot;added&quot;: &quot;2015-09-14T05:51:39.110&quot;, 
+            &quot;updated&quot;: &quot;2015-09-16T04:31:50.335&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;Kiwi PyCon 2015&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;functionalish-programming-in-python-with-effect&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Robert Collins&quot;
+            ], 
+            &quot;tags&quot;: [], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 3878, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Functionalish programming in Python with effect&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;&#39;everyone&#39; knows that separating out IO and other side effects makes code easier to unit test. What if there were a Python library that helps do that systematically which you could use to make all your things better? There is. Come and find out more.\r\n\r\nChris Armstrong&#39;s Effect library is the library in question. I found this while digging into all the varied implementations of monads for Python (a generic concept that encapsulates the principle of IO and side effects) - and I&#39;d like to share its beauty with other folk. Effect (<a href="https://pypi.python.org/pypi/effect" rel="nofollow">https://pypi.python.org/pypi/effect</a>) allows consistent separation of side effect (e.g. IO or even just global state changes) from the code that depends on those effects. Testing and reasoning about code becomes easier. But it can often be hard to get into such a system. Allow me to take you on a tour through how to change regular code into super testable code using Effect.&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;CC BY-SA&quot;, 
+            &quot;embed&quot;: &quot;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="https://i.ytimg.com/vi/fM5d_2BS6FY/hqdefault.jpg" rel="nofollow">https://i.ytimg.com/vi/fM5d_2BS6FY/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: 1976, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: &quot;&quot;, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="http://youtu.be/fM5d_2BS6FY" rel="nofollow">http://youtu.be/fM5d_2BS6FY</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2015-09-05&quot;, 
+            &quot;added&quot;: &quot;2015-09-17T05:33:19.745&quot;, 
+            &quot;updated&quot;: &quot;2015-09-17T05:33:33.996&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;Kiwi PyCon 2015&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;integrating-python-apps-with-centralised-identity&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Fraser Tweedale&quot;
+            ], 
+            &quot;tags&quot;: [], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 3877, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Integrating Python Apps with Centralised Identity Management Systems&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;Most Python web developers are familiar with authentication and\r\nauthorisation on the open web, but the requirements and technologies\r\nused inside companies and large organisations are different:\r\n\r\n* Identities and groups are probably stored in an external identity\r\nmanagement system&#39;s directory rather than in an application&#39;s\r\ndatabase tables.\r\n\r\n* Authorisation decisions will be based on group membership and\r\npolicies that are defined outside the application.\r\n\r\n* Users may be expected or required to use a *single sign-on*\r\ntechnology such as Kerberos or SAML to authenticate to\r\napplications.\r\n\r\nThis talk will familiarise the audience with these technologies and\r\ndemonstrate how Python web applications can be integrated with an\r\nidentity management system to meet business requirements while\r\nproviding a positive user experience.  Particular technologies\r\ncovered will include:\r\n\r\n* [FreeIPA](https://www.freeipa.org): an open-source identity\r\nmanagement solution, for defining users, groups and authorisation\r\npolicies\r\n\r\n* [mod_auth_gssapi](https://github.com/modauthgssapi/mod_auth_gssapi) /\r\nmod_auth_kerb: Apache modules for Kerberos authentication\r\n\r\n* [mod_lookup_identity](http://www.adelton.com/apache/mod_lookup_identity/): Apache\r\nmodule to retrieve user information from a directory\r\n\r\nThe talk will conclude with discussion about upcoming Kerberos\r\nfeatures, techniques for dealing with multiple authentication\r\nmethods, and progress in making identity management integration\r\neasier for Python (and in particular, Django) developers.\r\n\r\nPeople developing or deploying Python web applications in business\r\nenvironments or for large open source projects with centralised\r\nidentity management will get the most out of this talk.&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;CC BY-SA&quot;, 
+            &quot;embed&quot;: &quot;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="https://i.ytimg.com/vi/YwWC7DOC3tE/hqdefault.jpg" rel="nofollow">https://i.ytimg.com/vi/YwWC7DOC3tE/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: 1683, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: &quot;&quot;, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="http://youtu.be/YwWC7DOC3tE" rel="nofollow">http://youtu.be/YwWC7DOC3tE</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2015-09-05&quot;, 
+            &quot;added&quot;: &quot;2015-09-14T05:51:47.139&quot;, 
+            &quot;updated&quot;: &quot;2015-09-16T04:33:27.363&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;Kiwi PyCon 2015&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;keynote-how-python-works-as-a-teaching-language&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Katie Bell&quot;
+            ], 
+            &quot;tags&quot;: [], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 3873, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Keynote: How Python works as a teaching language&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;CC BY-SA&quot;, 
+            &quot;embed&quot;: &quot;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="https://i.ytimg.com/vi/dj9RR4BSqvM/hqdefault.jpg" rel="nofollow">https://i.ytimg.com/vi/dj9RR4BSqvM/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: 3204, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: &quot;&quot;, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="http://youtu.be/dj9RR4BSqvM" rel="nofollow">http://youtu.be/dj9RR4BSqvM</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2015-09-05&quot;, 
+            &quot;added&quot;: &quot;2015-09-14T05:49:12.034&quot;, 
+            &quot;updated&quot;: &quot;2015-09-16T04:34:22.860&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;Kiwi PyCon 2015&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;message-passing-interface-and-inversion-of-contro&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Rand Huso&quot;
+            ], 
+            &quot;tags&quot;: [], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 3862, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Message Passing Interface and Inversion of Control&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;The myriad of methods available for MPI programming is daunting by itself, and largely unnecessary. The solutions proposed by the developers of MPI and the new languages in this space are all addressing the problem the way it&#39;s always been addressed. What I present is a way to attack the massively parallel problem that reduces the complexity of MPI programming to that of implementing a very simple state machine. I&#39;ve used this combination of MPI and IoC to write state-of-the-art applications that run on some of the largest supercomputers around the world.&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;CC BY-SA&quot;, 
+            &quot;embed&quot;: &quot;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="https://i.ytimg.com/vi/h4gYrAuKgqM/hqdefault.jpg" rel="nofollow">https://i.ytimg.com/vi/h4gYrAuKgqM/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: 1516, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: &quot;&quot;, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="http://youtu.be/h4gYrAuKgqM" rel="nofollow">http://youtu.be/h4gYrAuKgqM</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2015-09-05&quot;, 
+            &quot;added&quot;: &quot;2015-09-14T05:45:19.601&quot;, 
+            &quot;updated&quot;: &quot;2015-09-16T04:33:17.101&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;Kiwi PyCon 2015&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;micro-services-is-http-the-only-way&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Ben Shaw&quot;
+            ], 
+            &quot;tags&quot;: [], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 3871, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Micro-Services: Is HTTP the only way?&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;Introduction\r\n============\r\n\r\nOver the past few years, micro-services have been gaining popularity due to their advantages over traditional monolithic architectures. It becomes easier to horizontally scale the heavier portions of an application; you&#39;re not tied to the same OS or programming language for the entire application, meaning you can easily slot in the best tool for the job; and finally, you can quickly build the entire application in dynamic yet less performant languages, then rebuild any bottlenecks with faster (but slower to develop) languages.\r\n\r\nAs a basic example, rather than directly communicating with a database for user authentication, a web front-end would make an HTTP request to another lightweight REST service to check credentials.\r\n\r\n\r\nAn Example Application\r\n======================\r\n\r\nIn order to elucidate the difference between monolithic and micro-services, we will use a simple Social-Network web application that allows users to post 141 character messages. A user must first sign up, then log in with a username and password, then they can post their messages publicly. A user can then follow any other user, and receive real time updates when that user posts. While the behaviour is simple, there are a number of different concepts that are explored: template rendering, user signup and authentication, data storage and notification delegation.\r\n\r\n\r\nA Monolithic Version\r\n======================\r\n\r\nThe first version of the will be a single Django application. The talk does not go into detail on the source code, instead briefly discusses the views, databases (tables and queries) and overall architecture at a high level.\r\n\r\n\r\nThe HTTP Micro-Service Version\r\n===============================\r\n\r\nIn order to deconstruct the monolith into micro-services, we look at different functions of the application: message viewing, user signup and authentication, data storage and search, and user notification. Django is kept as the front-end, but the databases for authentication, data storage and searching and user-follows are each transformed into their own micro-service. Flask is used as the HTTP framework for these services, with SQLAlchemy for database as necessary. Some source code is discussed (mostly in terms of standard Django database access c.f. HTTP) but this is also quite high level. The talk will also cover what HTTP comes with \&quot;out of the box\&quot;, in terms of authentication, deployment and scalability.\r\n\r\n\r\nAlternative Transports\r\n======================\r\n\r\nAfter the micro-services have been split, we can start to think about different transports that might be more appropriate (or at least more interesting) in some circumstances.\r\n\r\n\r\nIntroducing a Message Queue\r\n---------------------------\r\n\r\nFrom a user perspective, HTTP is a synchronous protocol, so making other synchronous HTTP calls inside an HTTP handler doesn&#39;t introduce much complexity. Message queues, on the other hand, are asynchronous by nature. We look at using message queues for delegating user notifications (which don&#39;t require a response, and are easy to handle), then for authentication, data storage and searching \u2013 each requiring a slightly different \&quot;level\&quot; of \&quot;synchronicity\&quot; and a need to be shoehorned into HTTP differently. We&#39;ll look at code for message producing and consuming and discuss architecture again.\r\n\r\nMessage queues are already widely used for handling intensive background tasks, so we&#39;ll look at how they compare to HTTP in this application (for security and deployment), and briefly also talk about cross-platform compatibility.\r\n\r\n\r\nLower Down the Stack - Raw Sockets\r\n----------------------------------\r\n\r\nIf, for some reason, the overhead of HTTP or a message queue is too high, direct socket communication might be better. We&#39;ll look at a Python TCP server for user authentication, and a UDP server for handling user notifications, and example code for both. Also discussed are the security implications (it&#39;s DIY all the way), performance, and how you might scale these.\r\n\r\n\r\nConclusion\r\n==========\r\n\r\nFinally we&#39;ll look at a comparison overview for all these different methods and summarise with the pros and cons of each.\r\n&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;CC BY-SA&quot;, 
+            &quot;embed&quot;: &quot;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="https://i.ytimg.com/vi/O1qaoykYIXY/hqdefault.jpg" rel="nofollow">https://i.ytimg.com/vi/O1qaoykYIXY/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: 2027, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: &quot;&quot;, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="http://youtu.be/O1qaoykYIXY" rel="nofollow">http://youtu.be/O1qaoykYIXY</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2015-09-05&quot;, 
+            &quot;added&quot;: &quot;2015-09-14T05:48:08.635&quot;, 
+            &quot;updated&quot;: &quot;2015-09-16T04:34:17.948&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;Kiwi PyCon 2015&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;my-own-platform-as-a-service-in-python-which-you&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Lee Begg&quot;
+            ], 
+            &quot;tags&quot;: [], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 3864, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;My own Platform as a Service in Python, which you can do too&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;Over the last couple of years I have evolved my own Platform as a Service (PaaS) for hosting Django apps, and you can run it too.\r\n\r\nI use Nginx, Circus, Chaussette, and Django, with some support from Django-environ and deployment automation using Fabric. All of that except Nginx are written in Python. Systemd is a new init process coming.\r\n\r\n* Circus is a process and socket manager, and gives a nice way to scale processes. \r\n* Chaussette WSGI server works well with Circus, as Circus can pass the socket to it.\r\n* Django-environ it&#39;s a library that parses environment variables or files with key-value pairs. Environment variables are used on some PaaS, but the file support I find very useful.\r\n* Fabric is a framework for writing system commands to be run on remote hosts, and is great for automating system administration.\r\n* Systemd is a new \&quot;init\&quot; process for Linux and offers some interesting possibilities for hosting Python webapps.&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;CC BY-SA&quot;, 
+            &quot;embed&quot;: &quot;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="https://i.ytimg.com/vi/AxTeVemFBkQ/hqdefault.jpg" rel="nofollow">https://i.ytimg.com/vi/AxTeVemFBkQ/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: 1774, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: null, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="http://youtu.be/AxTeVemFBkQ" rel="nofollow">http://youtu.be/AxTeVemFBkQ</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2015-09-05&quot;, 
+            &quot;added&quot;: &quot;2015-09-14T05:45:54.344&quot;, 
+            &quot;updated&quot;: &quot;2015-09-16T04:33:33.555&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;Kiwi PyCon 2015&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;python-and-elasticsearch-add-full-text-search-to&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Benoit Chabord&quot;
+            ], 
+            &quot;tags&quot;: [], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 3854, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Python and Elasticsearch (Add Full Text Search to your legacy application)&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;At GrabOne we started to use Elasticsearch a year ago and integrate it with Django. The transition was pretty smooth.\r\n\r\n## What Is Elasticsearch ?\r\n* Open Source product <a href="https://www.elastic.co/products/elasticsearch%5Cr%5Cn*" rel="nofollow">https://www.elastic.co/products/elasticsearch\r\n*</a> Based on Apache Lucene index system\r\n* Dristibuted, scalable and highly available\r\n* Real time search and analytics capabilities\r\n* RESTful API\r\n\r\n## Integration With Python\r\n* Because it is RESTful can be integrated with urllib\r\n* Official Python connector maintained by the elasticsearch team <a href="https://github.com/elastic/elasticsearch-py%5Cr%5Cn*" rel="nofollow">https://github.com/elastic/elasticsearch-py\r\n*</a> Official Pythonic Query builder and Model mapper (ORM) <a href="https://github.com/elastic/elasticsearch-dsl-py%5Cr%5Cn%5Cr%5Cn##" rel="nofollow">https://github.com/elastic/elasticsearch-dsl-py\r\n\r\n##</a> GrabOne use case\r\n* Started by redoing the search page\r\n* Rebuilding the entire frontend using Elasticsearch as datasource for a Django website\r\n\r\n\r\n\r\n&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;CC BY-SA&quot;, 
+            &quot;embed&quot;: &quot;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="https://i.ytimg.com/vi/FM2e2J7OJpM/hqdefault.jpg" rel="nofollow">https://i.ytimg.com/vi/FM2e2J7OJpM/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: 1567, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: null, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="http://youtu.be/FM2e2J7OJpM" rel="nofollow">http://youtu.be/FM2e2J7OJpM</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2015-09-05&quot;, 
+            &quot;added&quot;: &quot;2015-09-14T05:43:01.347&quot;, 
+            &quot;updated&quot;: &quot;2015-09-16T04:32:25.553&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;Kiwi PyCon 2015&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;python-in-classrooms&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Eloise \&quot;Ducky\&quot; Macdonald-Meyer&quot;, 
+                &quot;Martin Henschke&quot;
+            ], 
+            &quot;tags&quot;: [], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 3858, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Python in Classrooms&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;Python as a language has had great success in being accessible to aspiring programmers of much younger ages than most contemporary languages, and the skill set attained from learning to program may include basic problem solving, mathematics and even literacy. We have conducted several workshops with diverse groups of primary school children in years 4 to 6, attempting to teach elementary programming skills using Python. The goals of the workshops were to promote numeracy and literacy in Tasmanian schools, where there may be lower rates of competency in these areas. We wanted to do this through the use of a formal, syntax-dependent language, which could have benefits related to natural language skills and literacy. To engage our students we constructed exercises in different topics, that lead to children being able to modify a small, simple and modular game using PyGame for Python 2.7. In some of these exercises, the students created elementary programs to answer simple math questions and participated in group exercises to make modifications to one version of the  game (adding characters, dialogue and interactions) before being able to modify their own version. In these sessions we found participants to engage well with the source material despite being reasonably advanced, with teaching staff making comparisons between accurate python syntax and grammatically correct English.&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;CC BY-SA&quot;, 
+            &quot;embed&quot;: &quot;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="https://i.ytimg.com/vi/cKcL7-IxEwg/hqdefault.jpg" rel="nofollow">https://i.ytimg.com/vi/cKcL7-IxEwg/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: 1646, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: &quot;&quot;, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="http://youtu.be/cKcL7-IxEwg" rel="nofollow">http://youtu.be/cKcL7-IxEwg</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2015-09-05&quot;, 
+            &quot;added&quot;: &quot;2015-09-14T05:43:56.657&quot;, 
+            &quot;updated&quot;: &quot;2015-09-16T04:32:49.930&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;Kiwi PyCon 2015&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;why-python-is-awesome-and-some-other-languages&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Lee Symes&quot;
+            ], 
+            &quot;tags&quot;: [], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 3868, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Why Python is awesome \u2013 and some other languages are cool too&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;Switching between many languages quickly clarifies each language&#39;s strengths and weaknesses. My background is in Java \u2013 however more recently I have moved onto using Python, JavaScript and PHP, whilst dabbling in Go. My talk will cover:\r\n\r\n - Asynchronous programming, and the various ways it can be written in code, with reference to JavaScript and Go.\r\n - Packaging, how some languages do it better and worse than Python, and what Python can learn from them.\r\n - Unit testing in all languages is hard, but the syntactic sugar that is added can ease the pain, and make the output when your tests inevitably fail easier to read.\r\n - Syntax Shock, what brackets and semi-colons? Why are you not running \u2013 oh yes I need a semi-colon there.\r\n - Cool stuff with Magic(al) methods and Duck Typing that languages like Java would not have a hope of implementing. \r\n\r\nThis talk will highlight some of the delight I get when coming back to Python; and some of the aspects of other languages that I think would be really cool to add. \r\n\r\n\r\n\r\n\r\n\r\n\r\n&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;CC BY-SA&quot;, 
+            &quot;embed&quot;: &quot;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="https://i.ytimg.com/vi/L2JDiduangk/hqdefault.jpg" rel="nofollow">https://i.ytimg.com/vi/L2JDiduangk/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: 1828, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: &quot;&quot;, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="http://youtu.be/L2JDiduangk" rel="nofollow">http://youtu.be/L2JDiduangk</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2015-09-05&quot;, 
+            &quot;added&quot;: &quot;2015-09-14T05:47:16.545&quot;, 
+            &quot;updated&quot;: &quot;2015-09-16T04:33:59.401&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;Kiwi PyCon 2015&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;keynote-brenda-wallace-copyright&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Brenda Wallace&quot;
+            ], 
+            &quot;tags&quot;: [], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 3869, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Keynote: Brenda Wallace - Copyright&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;CC BY-SA&quot;, 
+            &quot;embed&quot;: &quot;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="https://i.ytimg.com/vi/crWXUgWKMrI/hqdefault.jpg" rel="nofollow">https://i.ytimg.com/vi/crWXUgWKMrI/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: 3281, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: &quot;&quot;, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="http://youtu.be/crWXUgWKMrI" rel="nofollow">http://youtu.be/crWXUgWKMrI</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2015-09-04&quot;, 
+            &quot;added&quot;: &quot;2015-09-14T05:47:43.561&quot;, 
+            &quot;updated&quot;: &quot;2015-09-16T04:34:07.251&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;Chicago Djangonauts&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;django-based-autocompl&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Jonathan Bisson&quot;
+            ], 
+            &quot;tags&quot;: [
+                &quot;autocomplete&quot;, 
+                &quot;Django&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 3848, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Django Based Autocompl\u2026&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;Django does not do autocomplete out of the box because it is easy to do it yourelf. Here is how, and some othther stuff. &quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;CC BY-SA&quot;, 
+            &quot;embed&quot;: &quot;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="https://i.ytimg.com/vi/XMp-wzzMsls/hqdefault.jpg" rel="nofollow">https://i.ytimg.com/vi/XMp-wzzMsls/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: 1322, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: &quot;<a href="http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/chicago-djangonauts/3848_django-based-autocomplete.mp4" rel="nofollow">http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/chicago-djangonauts/3848_django-based-autocomplete.mp4</a>&quot;, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="http://youtu.be/XMp-wzzMsls" rel="nofollow">http://youtu.be/XMp-wzzMsls</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2015-09-03&quot;, 
+            &quot;added&quot;: &quot;2015-08-23T15:59:10.132&quot;, 
+            &quot;updated&quot;: &quot;2015-09-04T11:23:46.178&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;Chicago Djangonauts&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;mongoengine-basics&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Joe Jasinski&quot;
+            ], 
+            &quot;tags&quot;: [], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 3849, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Mongoengine Basics&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;A walk through of MondoDB pymongo and mongoengine and how they can be used in a production environment.&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;CC BY-SA&quot;, 
+            &quot;embed&quot;: &quot;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="https://i.ytimg.com/vi/CApYuQWNCKo/hqdefault.jpg" rel="nofollow">https://i.ytimg.com/vi/CApYuQWNCKo/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: 2425, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: &quot;<a href="http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/chicago-djangonauts/mongoengine_basics.mp4" rel="nofollow">http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/chicago-djangonauts/mongoengine_basics.mp4</a>&quot;, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="http://youtu.be/CApYuQWNCKo" rel="nofollow">http://youtu.be/CApYuQWNCKo</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2015-09-03&quot;, 
+            &quot;added&quot;: &quot;2015-09-04T01:53:58.334&quot;, 
+            &quot;updated&quot;: &quot;2015-09-04T11:23:50.450&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;Chicago Djangonauts&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;why-most-new-projects-should-implement-a-custom-u&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Marlon Castillo&quot;
+            ], 
+            &quot;tags&quot;: [], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 3850, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Why Most New Projects Should Implement a Custom User Model&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;All the Gain with Little of the Pain: Why Most New Projects Should Implement a Custom User Model - \r\n\r\nSubstituting a custom User model for Django&#39;s default User model can seem intimidating. I&#39;ll show you a simple 3 step method of implementing a custom User model for a new project that&#39;s actually quite easy to do and can provide tremendous benefits in flexibility and customization.&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;CC BY-SA&quot;, 
+            &quot;embed&quot;: &quot;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="https://i.ytimg.com/vi/0bAJV0zNWQw/hqdefault.jpg" rel="nofollow">https://i.ytimg.com/vi/0bAJV0zNWQw/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: 401, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: &quot;<a href="http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/chicago-djangonauts/why_most_new_projects_should_implement_custom_user.mp4" rel="nofollow">http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/chicago-djangonauts/why_most_new_projects_should_implement_custom_user.mp4</a>&quot;, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="http://youtu.be/0bAJV0zNWQw" rel="nofollow">http://youtu.be/0bAJV0zNWQw</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2015-09-03&quot;, 
+            &quot;added&quot;: &quot;2015-09-04T09:57:29.576&quot;, 
+            &quot;updated&quot;: &quot;2015-09-04T11:23:48.406&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyCon AU 2015&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;are-they-ready-a-quick-review-of-graph-databases&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Nic Crouch&quot;
+            ], 
+            &quot;tags&quot;: [], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 3981, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Are they ready? A quick review of graph databases and Python&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;Graph databases store, retrieve and process data that takes the form of a graph: a network of nodes and the relationships between them. As one of the fastest growing database models over the past two years, they promise a number of fantastic outcomes including increased performance, faster development, and cleaner code. Vendors also boast of large corporate deployments throughout the US and Europe. \n\nSo, are graph databases as good as they sound? How can we use them with Python? \n\nThis talk will review a couple of the most popular graph databases including Neo4J, Titan and OrientDB.   The focus will be on interacting with each database as Pythonically as possible \u2013 using Python APIs as much as possible. Along the way it will give an idea of ease of use, speed, documentation quality and stability, as well as any other challenges or tricks that found along the way. It isn\u2019t a tutorial \u2013 there\u2019s not enough time, and those exist elsewhere \u2013 but instead more of an introduction to what is out there and what you can do with it. \n\nAt the end of the talk, you will have an idea of what it takes to get started with Graph Databases in Python, and also an idea of which toolset you want to use. You\u2019ll also have an idea of the sorts of problems which map well to graph databases, and which ones may be better suited to other storage and processing methods. \n\nYou won\u2019t need to have a background in graphs or even a lot of Python experience to get through this talk. However, it\u2019s always good to have a potential application in mind.\n\n\n&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;creativeCommon&quot;, 
+            &quot;embed&quot;: &quot;&lt;iframe width=\&quot;640\&quot; height=\&quot;360\&quot; src=\&quot;//www.youtube.com/embed/Wnj31Nejstc\&quot; frameborder=\&quot;0\&quot; allowfullscreen&gt;&lt;/iframe&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="https://i.ytimg.com/vi/Wnj31Nejstc/hqdefault.jpg" rel="nofollow">https://i.ytimg.com/vi/Wnj31Nejstc/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: null, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="https://www.youtube.com/watch?v=Wnj31Nejstc" rel="nofollow">https://www.youtube.com/watch?v=Wnj31Nejstc</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;needs editing&quot;, 
+            &quot;recorded&quot;: &quot;2015-08-29&quot;, 
+            &quot;added&quot;: &quot;2015-10-18T16:10:56.120&quot;, 
+            &quot;updated&quot;: &quot;2015-10-18T16:10:56.120&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyCon AU 2015&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;cooking-with-cryptography&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Fraser Tweedale&quot;
+            ], 
+            &quot;tags&quot;: [], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 3989, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Cooking with Cryptography&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;The ``cryptography`` library emerged in 2014 with the goal of\nbecoming Python&#39;s \&quot;cryptographic standard library\&quot;.  It is designed\nto be easy to use but flexible, exposing a *recipes* layer for\ncommon use cases, and a *hazmat* layer that provides crypto\nprimitives but demands users know what they&#39;re doing in order to use\nthem properly.\n\nThis talk will explain the motivations and goals of the\n``cryptography`` library, take a tour of its features and discuss\nits implementation.  ``cryptography`` will be compared to some other\npopular and emerging crypto libraries.  Finally, we will examine\nsome real-world use of the library.\n\nAudience members should have a passing familiarity with cryptography\n(e.g. know the differences between hashing and encryption, or public\nkey and private key crypto) to get the most out of this talk.\n\n&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;creativeCommon&quot;, 
+            &quot;embed&quot;: &quot;&lt;iframe width=\&quot;640\&quot; height=\&quot;360\&quot; src=\&quot;//www.youtube.com/embed/c16jwvOmKxM\&quot; frameborder=\&quot;0\&quot; allowfullscreen&gt;&lt;/iframe&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="https://i.ytimg.com/vi/c16jwvOmKxM/hqdefault.jpg" rel="nofollow">https://i.ytimg.com/vi/c16jwvOmKxM/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: null, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="https://www.youtube.com/watch?v=c16jwvOmKxM" rel="nofollow">https://www.youtube.com/watch?v=c16jwvOmKxM</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;needs editing&quot;, 
+            &quot;recorded&quot;: &quot;2015-08-17&quot;, 
+            &quot;added&quot;: &quot;2015-10-18T16:10:57.379&quot;, 
+            &quot;updated&quot;: &quot;2015-10-18T16:10:57.379&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyCon AU 2015&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;education-miniconf-closing-keynote&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Anne Philbin&quot;
+            ], 
+            &quot;tags&quot;: [], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 4037, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Education Miniconf Closing Keynote&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;creativeCommon&quot;, 
+            &quot;embed&quot;: &quot;&lt;iframe width=\&quot;640\&quot; height=\&quot;360\&quot; src=\&quot;//www.youtube.com/embed/2e9dMr5sErs\&quot; frameborder=\&quot;0\&quot; allowfullscreen&gt;&lt;/iframe&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="https://i.ytimg.com/vi/2e9dMr5sErs/hqdefault.jpg" rel="nofollow">https://i.ytimg.com/vi/2e9dMr5sErs/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: null, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="https://www.youtube.com/watch?v=2e9dMr5sErs" rel="nofollow">https://www.youtube.com/watch?v=2e9dMr5sErs</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;needs editing&quot;, 
+            &quot;recorded&quot;: &quot;2015-08-17&quot;, 
+            &quot;added&quot;: &quot;2015-11-23T19:30:04.497&quot;, 
+            &quot;updated&quot;: &quot;2015-11-23T19:30:04.498&quot;
+        }
+    ]
+}</pre>
+            </div>
+        </div>
+
+            
+
+                
+
+                
+            
+
+        </div>
+        <!-- END content-main -->
+
+    </div>
+    <!-- END Content -->
+
+        <div id="push"></div>
+
+    </div>
+
+    </div><!-- ./wrapper -->
+
+    
+    
+
+    
+    <script src="/static/rest_framework/js/jquery-1.8.1-min.js"></script>
+    <script src="/static/rest_framework/js/bootstrap.min.js"></script>
+    <script src="/static/rest_framework/js/prettify-min.js"></script>
+    <script src="/static/rest_framework/js/default.js"></script>
+    
+  </body>
+
+<!-- Mirrored from pyvideo.org/api/v2/video/?page=25&format=api by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 07 Jan 2016 03:47:37 GMT -->
+</html>

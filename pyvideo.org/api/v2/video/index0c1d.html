@@ -1,0 +1,1006 @@
+
+
+<!DOCTYPE html>
+<html>
+    
+<!-- Mirrored from pyvideo.org/api/v2/video/?page=156&format=api by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 07 Jan 2016 03:53:55 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+    
+
+        
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+        <meta name="robots" content="NONE,NOARCHIVE" />
+        
+
+        <title>Django REST framework</title>
+
+        
+        
+            <link rel="stylesheet" type="text/css" href="/static/rest_framework/css/bootstrap.min.css"/>
+            <link rel="stylesheet" type="text/css" href="/static/rest_framework/css/bootstrap-tweaks.css"/>
+        
+        <link rel="stylesheet" type="text/css" href="/static/rest_framework/css/prettify.css"/>
+        <link rel="stylesheet" type="text/css" href="/static/rest_framework/css/default.css"/>
+        
+
+    
+    </head>
+
+  <body class=" container">
+
+    <div class="wrapper">
+
+    
+    <div class="navbar navbar-inverse">
+        <div class="navbar-inner">
+            <div class="container-fluid">
+                <span href="/">
+                    <a class='brand' rel="nofollow" href='http://www.django-rest-framework.org'>Django REST framework <span class="version">2.3.14</span></a>
+                </span>
+                <ul class="nav pull-right">
+                    
+                        
+                            <li></li>
+                        
+                    
+                </ul>
+            </div>
+        </div>
+    </div>
+    
+
+    
+    <ul class="breadcrumb">
+        
+            <li>
+                <a href="/api/v2/video/" class="active">Video List Create Api</a> 
+            </li>
+        
+    </ul>
+    
+
+    <!-- Content -->
+    <div id="content">
+
+        
+            <form id="get-form" class="pull-right">
+                <fieldset>
+                    <div class="btn-group format-selection">
+                        <a class="btn btn-primary js-tooltip" href='/api/v2/video/?page=156&amp;format=api' rel="nofollow" title="Make a GET request on the Video List Create Api resource">GET</a>
+
+                        <button class="btn btn-primary dropdown-toggle js-tooltip" data-toggle="dropdown" title="Specify a format for the GET request">
+                            <span class="caret"></span>
+                        </button>
+                        <ul class="dropdown-menu">
+                            
+                                <li>
+                                    <a class="js-tooltip format-option" href='/api/v2/video/?page=156&format=json' rel="nofollow" title="Make a GET request on the Video List Create Api resource with the format set to `json`">json</a>
+                                </li>
+                            
+                                <li>
+                                    <a class="js-tooltip format-option" href='/api/v2/video/?page=156&format=api' rel="nofollow" title="Make a GET request on the Video List Create Api resource with the format set to `api`">api</a>
+                                </li>
+                            
+                        </ul>
+                    </div>
+
+                </fieldset>
+            </form>
+        
+
+        
+            <form class="button-form" action="/api/v2/video/?page=156&amp;format=api" method="POST" class="pull-right">
+                <input type='hidden' name='csrfmiddlewaretoken' value='pT8iI6zhtQdsGFmu4tryYgFrUlipl2B3' />
+                <input type="hidden" name="_method" value="OPTIONS" />
+                <button class="btn btn-primary js-tooltip" title="Make an OPTIONS request on the Video List Create Api resource">OPTIONS</button>
+            </form>
+        
+
+        
+
+        <div class="content-main">
+            <div class="page-header"><h1>Video List Create Api</h1></div>
+            
+            
+            
+            <div class="request-info" style="clear: both" >
+                <pre class="prettyprint"><b>GET</b> /api/v2/video/?page=156&amp;format=api</pre>
+            </div>
+            <div class="response-info">
+                <pre class="prettyprint"><div class="meta nocode"><b>HTTP 200 OK</b>
+<b>Content-Type:</b> <span class="lit">application/json</span>
+<b>Vary:</b> <span class="lit">Accept</span>
+<b>Allow:</b> <span class="lit">GET, POST, HEAD, OPTIONS</span>
+
+</div>{
+    &quot;count&quot;: 3439, 
+    &quot;next&quot;: &quot;<a href="http://pyvideo.org/api/v2/video/?page=157&amp;format=api" rel="nofollow">http://pyvideo.org/api/v2/video/?page=157&amp;format=api</a>&quot;, 
+    &quot;previous&quot;: &quot;<a href="http://pyvideo.org/api/v2/video/?page=155&amp;format=api" rel="nofollow">http://pyvideo.org/api/v2/video/?page=155&amp;format=api</a>&quot;, 
+    &quot;results&quot;: [
+        {
+            &quot;category&quot;: &quot;EuroPython 2011&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;how-to-build-complex-web-applications-having-fun-0&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Andrew Mleczko&quot;
+            ], 
+            &quot;tags&quot;: [
+                &quot;cms&quot;, 
+                &quot;design&quot;, 
+                &quot;framework&quot;, 
+                &quot;plone&quot;, 
+                &quot;pyramid&quot;, 
+                &quot;rest&quot;, 
+                &quot;web&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 1140, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;How to build complex web applications having fun?&quot;, 
+            &quot;summary&quot;: &quot;[EuroPython 2011] Andrew Mleczko - 22 June 2011 in \&quot;Track Ravioli \&quot;\n\n&quot;, 
+            &quot;description&quot;: &quot;Web development is a complexity challenge nowadays. Growing number of\nfunctionalities results in customer expectations increase which makes project\ndesign more difficult. Using proper tools that suite your customer needs is\nessential.\n\nIn this talk I would like to present two successful stories using closely\ntogether Pyramid and Plone. Basing on these examples I wished to highlight the\nmain reasons for using Plone as a CMS only and letting Pyramid do the rest\n(vertical application). Moreover, I will underscore good and bad practices\nduring integration process and how to make farsighted architectural decisions\nin a right moment.\n\nPrerequisites: be familiarized with common python web framework concepts.\n\n&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;Standard YouTube License&quot;, 
+            &quot;embed&quot;: &quot;&lt;object width=\&quot;640\&quot; height=\&quot;390\&quot;&gt;&lt;param name=\&quot;movie\&quot; value=\&quot;http://youtube.com/v/eXW_lN4x04k?version=3&amp;amp;hl=en_US\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowFullScreen\&quot; value=\&quot;true\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowscriptaccess\&quot; value=\&quot;always\&quot;&gt;&lt;/param&gt;&lt;embed src=\&quot;http://youtube.com/v/eXW_lN4x04k?version=3&amp;amp;hl=en_US\&quot; type=\&quot;application/x-shockwave-flash\&quot; width=\&quot;640\&quot; height=\&quot;390\&quot; allowscriptaccess=\&quot;always\&quot; allowfullscreen=\&quot;true\&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://i.ytimg.com/vi/eXW_lN4x04k/hqdefault.jpg" rel="nofollow">http://i.ytimg.com/vi/eXW_lN4x04k/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: null, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="http://www.youtube.com/watch?v=eXW_lN4x04k" rel="nofollow">http://www.youtube.com/watch?v=eXW_lN4x04k</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2011-07-13&quot;, 
+            &quot;added&quot;: &quot;2012-08-30T21:02:42&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:27.830&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;EuroPython 2011&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;how-to-make-intelligent-web-apps-0&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Deepak Thukral&quot;
+            ], 
+            &quot;tags&quot;: [
+                &quot;django&quot;, 
+                &quot;learning&quot;, 
+                &quot;web&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 1139, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;How to make intelligent web-apps&quot;, 
+            &quot;summary&quot;: &quot;[EuroPython 2011] Deepak Thukral - 22 June 2011 in \&quot;Track Ravioli \&quot;\n\n&quot;, 
+            &quot;description&quot;: &quot;The primary goal of this talk is twofold: to evaluate the need of data mining\nand introduce some very cool, simple yet powerful machine learning techniques\nto audience such as classification, clustering, collaborative filtering,\nrecommendation etc in your Python web applications. This talk will conclude\nwith some explanation and limitations of machine learning algorithms.\n\nBasic knowledge of Python is sufficient. However some experience with Django,\nmeshups, machine learning or data hunger is encouraged. All talk material and\ndjango apps will be available after talk under MIT license.\n\n&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;Standard YouTube License&quot;, 
+            &quot;embed&quot;: &quot;&lt;object width=\&quot;640\&quot; height=\&quot;390\&quot;&gt;&lt;param name=\&quot;movie\&quot; value=\&quot;http://youtube.com/v/N7monH2jXNI?version=3&amp;amp;hl=en_US\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowFullScreen\&quot; value=\&quot;true\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowscriptaccess\&quot; value=\&quot;always\&quot;&gt;&lt;/param&gt;&lt;embed src=\&quot;http://youtube.com/v/N7monH2jXNI?version=3&amp;amp;hl=en_US\&quot; type=\&quot;application/x-shockwave-flash\&quot; width=\&quot;640\&quot; height=\&quot;390\&quot; allowscriptaccess=\&quot;always\&quot; allowfullscreen=\&quot;true\&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://i.ytimg.com/vi/N7monH2jXNI/hqdefault.jpg" rel="nofollow">http://i.ytimg.com/vi/N7monH2jXNI/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: null, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="http://www.youtube.com/watch?v=N7monH2jXNI" rel="nofollow">http://www.youtube.com/watch?v=N7monH2jXNI</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2011-07-13&quot;, 
+            &quot;added&quot;: &quot;2012-08-30T21:02:42&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:27.831&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;EuroPython 2011&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;implementing-distributed-applications-using-zerom&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Francesco Crippa&quot;
+            ], 
+            &quot;tags&quot;: [
+                &quot;design&quot;, 
+                &quot;distributed&quot;, 
+                &quot;zeromq&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 1138, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Implementing distributed applications using ZeroMQ, Python and other bad guys...&quot;, 
+            &quot;summary&quot;: &quot;[EuroPython 2011] Francesco Crippa - 24 June 2011 in \&quot;Track Spaghetti\&quot;\n\n&quot;, 
+            &quot;description&quot;: &quot;Cloud Computing and Large Scale environments require sometime applications\nbased on complex and distributed architectures\u2026 and this usually means a huge\noverhead in the design and confusion out of control in the code (network wise\nrace conditions, single points of failure and so on)\n\nIntroducing elements like *MQ and IPC frameworks in this kind of applications\nis the only way to reduce the complexity and enable a fluid design (in other\nwords: mess-under-control)\n\nThe talk is focused on describing how to design a distributed application in\ndifferent scenarios, using ZeroMQ (a modern broker-less MQ system) as core\nframework, with examples and demos.\n\n&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;Standard YouTube License&quot;, 
+            &quot;embed&quot;: &quot;&lt;object width=\&quot;640\&quot; height=\&quot;390\&quot;&gt;&lt;param name=\&quot;movie\&quot; value=\&quot;http://youtube.com/v/pYlKLaqlFj8?version=3&amp;amp;hl=en_US\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowFullScreen\&quot; value=\&quot;true\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowscriptaccess\&quot; value=\&quot;always\&quot;&gt;&lt;/param&gt;&lt;embed src=\&quot;http://youtube.com/v/pYlKLaqlFj8?version=3&amp;amp;hl=en_US\&quot; type=\&quot;application/x-shockwave-flash\&quot; width=\&quot;640\&quot; height=\&quot;390\&quot; allowscriptaccess=\&quot;always\&quot; allowfullscreen=\&quot;true\&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://i.ytimg.com/vi/pYlKLaqlFj8/hqdefault.jpg" rel="nofollow">http://i.ytimg.com/vi/pYlKLaqlFj8/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: null, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="http://www.youtube.com/watch?v=pYlKLaqlFj8" rel="nofollow">http://www.youtube.com/watch?v=pYlKLaqlFj8</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2011-07-13&quot;, 
+            &quot;added&quot;: &quot;2012-08-30T21:02:41&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:27.832&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;EuroPython 2011&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;interoperability-from-python-to-clojure-and-the&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Enrico Franchi&quot;
+            ], 
+            &quot;tags&quot;: [
+                &quot;java&quot;, 
+                &quot;jvm&quot;, 
+                &quot;jython&quot;, 
+                &quot;memory&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 1137, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Interoperability: from Python to Clojure and the other way round&quot;, 
+            &quot;summary&quot;: &quot;[EuroPython 2011] Enrico Franchi - 21 June 2011 in \&quot;Track Lasagne\&quot;\n\n&quot;, 
+            &quot;description&quot;: &quot;Clojure is a modern Lisp dialect symbiotic with the Java Virtual Machine and\ndesigned for concurrency. Clojure is compiled to byte-code and yet is fully\ndynamic. It is very oriented towards functional programming and manages state\nchange in a controlled environment with software transactional memory (STM).\nSince Clojure is a Lisp dialect, it retains the code-as-data philosophy and\nhas a powerful macro system\n\nUsing the Jython, an implementation of the Python programming language written\nin Java, it is possible to call Clojure from Python and call Python from\nClojure, using the JVM as an interoperability platform.\n\nAfter a brief introduction of the main Clojure features, the presentation will\nshow how Jython and Clojure can be used together.\n\nNo previous knowledge of Clojure (or Lisp) is assumed nor required.\n\n&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;Standard YouTube License&quot;, 
+            &quot;embed&quot;: &quot;&lt;object width=\&quot;640\&quot; height=\&quot;390\&quot;&gt;&lt;param name=\&quot;movie\&quot; value=\&quot;http://youtube.com/v/jYhLqo4Mqbc?version=3&amp;amp;hl=en_US\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowFullScreen\&quot; value=\&quot;true\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowscriptaccess\&quot; value=\&quot;always\&quot;&gt;&lt;/param&gt;&lt;embed src=\&quot;http://youtube.com/v/jYhLqo4Mqbc?version=3&amp;amp;hl=en_US\&quot; type=\&quot;application/x-shockwave-flash\&quot; width=\&quot;640\&quot; height=\&quot;390\&quot; allowscriptaccess=\&quot;always\&quot; allowfullscreen=\&quot;true\&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://i.ytimg.com/vi/jYhLqo4Mqbc/hqdefault.jpg" rel="nofollow">http://i.ytimg.com/vi/jYhLqo4Mqbc/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: null, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="http://www.youtube.com/watch?v=jYhLqo4Mqbc" rel="nofollow">http://www.youtube.com/watch?v=jYhLqo4Mqbc</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2011-07-13&quot;, 
+            &quot;added&quot;: &quot;2012-08-30T21:02:41&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:27.833&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;EuroPython 2011&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;introducing-django-rest-framework&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Tom Christie&quot;
+            ], 
+            &quot;tags&quot;: [
+                &quot;django&quot;, 
+                &quot;framework&quot;, 
+                &quot;rest&quot;, 
+                &quot;web&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 1136, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Introducing Django REST framework&quot;, 
+            &quot;summary&quot;: &quot;[EuroPython 2011] Tom Christie - 23 June 2011 in \&quot;Track Tagliatelle\&quot;\n\n&quot;, 
+            &quot;description&quot;: &quot;Django REST framework is a new project that aims to make it easy to build\nRESTful Web APIs.\n\nThe APIs it creates are fully Web browse-able, using an awesome Django admin\nstyle interface, allowing them to be truly self-describing, well-connected\nsystems.\n\nThe talk will include:\n\n  * RESTful Web APIs and Django - what batteries aren&#39;t in the box\n  * An introduction to the framework - What it is, what problems it tries to solve\n  * Why it&#39;s so important that Web APIs should be Web browse-able\n  * A live coding demonstration\n  * Audience discussion\n\nSign up for the [sprint](http://ep2011.europython.eu/p3/sprints/) More\n[info](http://django-rest-framework.org)\n\n&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;Standard YouTube License&quot;, 
+            &quot;embed&quot;: &quot;&lt;object width=\&quot;640\&quot; height=\&quot;390\&quot;&gt;&lt;param name=\&quot;movie\&quot; value=\&quot;http://youtube.com/v/SGj0-BZsFn4?version=3&amp;amp;hl=en_US\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowFullScreen\&quot; value=\&quot;true\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowscriptaccess\&quot; value=\&quot;always\&quot;&gt;&lt;/param&gt;&lt;embed src=\&quot;http://youtube.com/v/SGj0-BZsFn4?version=3&amp;amp;hl=en_US\&quot; type=\&quot;application/x-shockwave-flash\&quot; width=\&quot;640\&quot; height=\&quot;390\&quot; allowscriptaccess=\&quot;always\&quot; allowfullscreen=\&quot;true\&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://i.ytimg.com/vi/SGj0-BZsFn4/hqdefault.jpg" rel="nofollow">http://i.ytimg.com/vi/SGj0-BZsFn4/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: null, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="http://www.youtube.com/watch?v=SGj0-BZsFn4" rel="nofollow">http://www.youtube.com/watch?v=SGj0-BZsFn4</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2011-07-13&quot;, 
+            &quot;added&quot;: &quot;2012-08-30T21:02:41&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:27.835&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;EuroPython 2011&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;introduction-to-gevent-0&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Denis Bilenko&quot;
+            ], 
+            &quot;tags&quot;: [
+                &quot;gevent&quot;, 
+                &quot;network&quot;, 
+                &quot;web&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 1135, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Introduction to Gevent&quot;, 
+            &quot;summary&quot;: &quot;[EuroPython 2011] Denis Bilenko - 20 June 2011 in \&quot;Track Spaghetti\&quot;\n\n&quot;, 
+            &quot;description&quot;: &quot;[Gevent](http://gevent.org) is a coroutine-based library that enables you to\nwrite highly-concurrent network and web applications. learn in detail what\nGevent is, what it does and how it does it.\n\nI will introduce a coroutine-based approach to network programming, explain it\nbenefits and pitfalls. We will walk through the Gevent API, including the most\nrecent additions, and understand how it is implemented. I will make a quick\noverview of the most interesting 3rd party add-on and applications after that.\n\n&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;Standard YouTube License&quot;, 
+            &quot;embed&quot;: &quot;&lt;object width=\&quot;640\&quot; height=\&quot;390\&quot;&gt;&lt;param name=\&quot;movie\&quot; value=\&quot;http://youtube.com/v/5MZDzwmfRmo?version=3&amp;amp;hl=en_US\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowFullScreen\&quot; value=\&quot;true\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowscriptaccess\&quot; value=\&quot;always\&quot;&gt;&lt;/param&gt;&lt;embed src=\&quot;http://youtube.com/v/5MZDzwmfRmo?version=3&amp;amp;hl=en_US\&quot; type=\&quot;application/x-shockwave-flash\&quot; width=\&quot;640\&quot; height=\&quot;390\&quot; allowscriptaccess=\&quot;always\&quot; allowfullscreen=\&quot;true\&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://i.ytimg.com/vi/5MZDzwmfRmo/hqdefault.jpg" rel="nofollow">http://i.ytimg.com/vi/5MZDzwmfRmo/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: null, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="http://www.youtube.com/watch?v=5MZDzwmfRmo" rel="nofollow">http://www.youtube.com/watch?v=5MZDzwmfRmo</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2011-07-13&quot;, 
+            &quot;added&quot;: &quot;2012-08-30T21:02:41&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:27.836&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;EuroPython 2011&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;introduction-to-qt-0&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Matti Airas&quot;
+            ], 
+            &quot;tags&quot;: [
+                &quot;pyqt&quot;, 
+                &quot;pyside&quot;, 
+                &quot;qt&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 1134, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Introduction to Qt&quot;, 
+            &quot;summary&quot;: &quot;[EuroPython 2011] Matti Airas - 23 June 2011 in \&quot;Track Ravioli\&quot;\n\n&quot;, 
+            &quot;description&quot;: &quot;This presentation introduces Nokia&#39;s Qt Development Frameworks and their\nrelationship to Python. After an overview of Qt and the Qt ecosystem, Qt&#39;s\nhistory and future roadmap are discussed. Different Python bindings, PyQt and\nPySide in particular, are introduced. Finally, hands-on examples of Qt Quick\nwith Python are shown.\n\n&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;Standard YouTube License&quot;, 
+            &quot;embed&quot;: &quot;&lt;object width=\&quot;640\&quot; height=\&quot;390\&quot;&gt;&lt;param name=\&quot;movie\&quot; value=\&quot;http://youtube.com/v/K5u1MToA3NU?version=3&amp;amp;hl=en_US\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowFullScreen\&quot; value=\&quot;true\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowscriptaccess\&quot; value=\&quot;always\&quot;&gt;&lt;/param&gt;&lt;embed src=\&quot;http://youtube.com/v/K5u1MToA3NU?version=3&amp;amp;hl=en_US\&quot; type=\&quot;application/x-shockwave-flash\&quot; width=\&quot;640\&quot; height=\&quot;390\&quot; allowscriptaccess=\&quot;always\&quot; allowfullscreen=\&quot;true\&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://i.ytimg.com/vi/K5u1MToA3NU/hqdefault.jpg" rel="nofollow">http://i.ytimg.com/vi/K5u1MToA3NU/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: null, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="http://www.youtube.com/watch?v=K5u1MToA3NU" rel="nofollow">http://www.youtube.com/watch?v=K5u1MToA3NU</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2011-07-13&quot;, 
+            &quot;added&quot;: &quot;2012-08-30T21:02:40&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:27.837&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;EuroPython 2011&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;its-the-message-stupid-python-amqp&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Muharem Hrnjadovic&quot;
+            ], 
+            &quot;tags&quot;: [
+                &quot;amqp&quot;, 
+                &quot;asynchronous&quot;, 
+                &quot;patterns&quot;, 
+                &quot;performance&quot;, 
+                &quot;queues&quot;, 
+                &quot;scalability&quot;, 
+                &quot;technology&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 1133, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;It&#39;s the message, stupid: python &amp; amqp&quot;, 
+            &quot;summary&quot;: &quot;[EuroPython 2011] Muharem Hrnjadovic - 21 June 2011 in \&quot;Track Ravioli\&quot;\n\n&quot;, 
+            &quot;description&quot;: &quot;Messaging is a well established domain in information technology and can\ngreatly improve the scalability and throughput of a system when employed\nappropriately. Message queues can be used to achieve\n\n  * spatial decoupling i.e. the systems that produce and consume messages may be deployed on different machines, networks, continents etc.\n  * temporal decoupling i.e. a system can enqueue a message and carry on without waiting for the message consumer.\n\nWe use e.g. messaging in [OpenQuake](http://openquake.org) to distribute\ncalculations of [seismic hazard](http://openquake.org/about/gem/) and the\nrespective risk to human lives and infrastructure.\n\nThere is a huge number of messaging patterns identified in the\n[industry](http://www.amazon.com/dp/0321200683/) and a small selection of\nthese will be presented to whet your appetite :-)\n\n[AMQP](http://www.amqp.org/) is a fairly new and open messaging standard with\na number of freely available open source message brokers\n([RabbitMQ](http://www.rabbitmq.com/), [ZeroMQ](http://www.zeromq.org/),\n[qpid](http://qpid.apache.org/) etc.) with different features and performance\ntrade-offs.\n\nIn the course of the presentation you will be - introduced to AMQP concepts\nand jargon - introduced to available Python AMQP bindings (focussing on an\nasynchronous ([txAMQP](https://launchpad.net/txamqp)) and a synchronous\nvariant (most likely [kombu](http://ask.github.com/kombu/)) - shown code\nexamples demonstrating how to use these Python bindings\n\nThe presentation (45 minutes in total) is structured as follows:\n\n  * 7.5 minutes for messaging concepts and patterns\n  * 7.5 minutes for AMQP concepts\n  * 5 minutes for an overview of the Python bindings for AMQP\n  * 10 minutes for txAMQP examples (asynchronous bindings)\n  * 10 minutes for kombu examples (synchronous bindings)\n  * 5 minutes for questions\n\nReferences:\n\n  * [<a href="http://www.amqp.org/](http://www.amqp.org/)%5Cn" rel="nofollow">http://www.amqp.org/](http://www.amqp.org/)\n</a>  * [<a href="http://www.rabbitmq.com/](http://www.rabbitmq.com/)%5Cn" rel="nofollow">http://www.rabbitmq.com/](http://www.rabbitmq.com/)\n</a>  * [<a href="http://www.zeromq.org/](http://www.zeromq.org/)%5Cn" rel="nofollow">http://www.zeromq.org/](http://www.zeromq.org/)\n</a>  * [<a href="http://qpid.apache.org/](http://qpid.apache.org/)%5Cn" rel="nofollow">http://qpid.apache.org/](http://qpid.apache.org/)\n</a>  * [<a href="https://launchpad.net/txamqp](https://launchpad.net/txamqp)%5Cn" rel="nofollow">https://launchpad.net/txamqp](https://launchpad.net/txamqp)\n</a>  * [<a href="http://ask.github.com/kombu/](http://ask.github.com/kombu/)%5Cn" rel="nofollow">http://ask.github.com/kombu/](http://ask.github.com/kombu/)\n</a>  * [<a href="http://www.amazon.com/dp/0321200683/](http://www.amazon.com/dp/0321200683/)%5Cn%5Cn" rel="nofollow">http://www.amazon.com/dp/0321200683/](http://www.amazon.com/dp/0321200683/)\n\n</a>&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;Standard YouTube License&quot;, 
+            &quot;embed&quot;: &quot;&lt;object width=\&quot;640\&quot; height=\&quot;390\&quot;&gt;&lt;param name=\&quot;movie\&quot; value=\&quot;http://youtube.com/v/dIwsKYNbtnI?version=3&amp;amp;hl=en_US\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowFullScreen\&quot; value=\&quot;true\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowscriptaccess\&quot; value=\&quot;always\&quot;&gt;&lt;/param&gt;&lt;embed src=\&quot;http://youtube.com/v/dIwsKYNbtnI?version=3&amp;amp;hl=en_US\&quot; type=\&quot;application/x-shockwave-flash\&quot; width=\&quot;640\&quot; height=\&quot;390\&quot; allowscriptaccess=\&quot;always\&quot; allowfullscreen=\&quot;true\&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://i.ytimg.com/vi/dIwsKYNbtnI/hqdefault.jpg" rel="nofollow">http://i.ytimg.com/vi/dIwsKYNbtnI/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: null, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="http://www.youtube.com/watch?v=dIwsKYNbtnI" rel="nofollow">http://www.youtube.com/watch?v=dIwsKYNbtnI</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2011-07-13&quot;, 
+            &quot;added&quot;: &quot;2012-08-30T21:02:40&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:27.838&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;EuroPython 2011&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;json-data-rml-template-pdf-report-0&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Stefano Cotta Ramusino&quot;
+            ], 
+            &quot;tags&quot;: [
+                &quot;internationalization&quot;, 
+                &quot;json&quot;, 
+                &quot;matplotlib&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 1132, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;JSON data + RML template = PDF report&quot;, 
+            &quot;summary&quot;: &quot;[EuroPython 2011] Stefano Cotta Ramusino - 23 June 2011 in \&quot;Track Ravioli\&quot;\n\n&quot;, 
+            &quot;description&quot;: &quot;The main problem with reports generated in Python is how to separate the\ncontent from the style using ReportLab library, because all informations\nshould be saved in a single source file that, by example, is impossible to\nunderstand for your graphic designer.\n\nSo the solution: just modularizes all components you need and identify simple\ncontainer formats for your data input (JSON) and document template (ReportLab\nRML).\n\nNow with the power of Genshi and XInclude we will create dynamic templates\nthat include specific snippets (e.g., to generate on the fly a decent graph\nwith matplotlib or cairoplot to fill some lacks of ReportLab) and we will\ndetach the stylesheet from the template structure.\n\nAnd at the end you can also have the internationalization service in the PDF\nreport generation!\n\n&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;Standard YouTube License&quot;, 
+            &quot;embed&quot;: &quot;&lt;object width=\&quot;640\&quot; height=\&quot;390\&quot;&gt;&lt;param name=\&quot;movie\&quot; value=\&quot;http://youtube.com/v/9Cq_Zmr0OgM?version=3&amp;amp;hl=en_US\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowFullScreen\&quot; value=\&quot;true\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowscriptaccess\&quot; value=\&quot;always\&quot;&gt;&lt;/param&gt;&lt;embed src=\&quot;http://youtube.com/v/9Cq_Zmr0OgM?version=3&amp;amp;hl=en_US\&quot; type=\&quot;application/x-shockwave-flash\&quot; width=\&quot;640\&quot; height=\&quot;390\&quot; allowscriptaccess=\&quot;always\&quot; allowfullscreen=\&quot;true\&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://i.ytimg.com/vi/9Cq_Zmr0OgM/hqdefault.jpg" rel="nofollow">http://i.ytimg.com/vi/9Cq_Zmr0OgM/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: null, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="http://www.youtube.com/watch?v=9Cq_Zmr0OgM" rel="nofollow">http://www.youtube.com/watch?v=9Cq_Zmr0OgM</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2011-07-13&quot;, 
+            &quot;added&quot;: &quot;2012-08-30T21:02:40&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:27.840&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;EuroPython 2011&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;leveraging-an-instant-messaging-protocol-to-build&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Achiel van der Mandele&quot;
+            ], 
+            &quot;tags&quot;: [
+                &quot;architecture&quot;, 
+                &quot;cloud&quot;, 
+                &quot;hosting&quot;, 
+                &quot;real-time&quot;, 
+                &quot;scalable&quot;, 
+                &quot;technology&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 1131, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Leveraging an instant messaging protocol to build a scalable cloud architecture&quot;, 
+            &quot;summary&quot;: &quot;[EuroPython 2011] Achiel van der Mandele - 24 June 2011 in \&quot;Track Lasagne\&quot;\n\n&quot;, 
+            &quot;description&quot;: &quot;XMPP is an open technology for real-time communication. Although primarily\nknown for its application in the IM service \&quot;Jabber\&quot; (and, subsequently,\ngchat/gtalk), it has numerous applications and creates new opportunities for\ninter-system communication.\n\nWhile researching for an alternative to webservices at Mendix, we came across\nXMPP and realized it solved many of the shortcomings of webservices. It is\ncurrently being used to handle all inter-system and inter-process\ncommunication in the Mendix cloud hosting environment.\n\nThe talk will give a general overview of what XMPP is, an introduction to the\nsleekxmpp python library and how the core features of xmpp can help an\narchitecture scale well horizontally.\n\nRequired knowledge: basic understanding of hosting environments.\n\n&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;Standard YouTube License&quot;, 
+            &quot;embed&quot;: &quot;&lt;object width=\&quot;640\&quot; height=\&quot;390\&quot;&gt;&lt;param name=\&quot;movie\&quot; value=\&quot;http://youtube.com/v/xlVCtmbIYNE?version=3&amp;amp;hl=en_US\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowFullScreen\&quot; value=\&quot;true\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowscriptaccess\&quot; value=\&quot;always\&quot;&gt;&lt;/param&gt;&lt;embed src=\&quot;http://youtube.com/v/xlVCtmbIYNE?version=3&amp;amp;hl=en_US\&quot; type=\&quot;application/x-shockwave-flash\&quot; width=\&quot;640\&quot; height=\&quot;390\&quot; allowscriptaccess=\&quot;always\&quot; allowfullscreen=\&quot;true\&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://i.ytimg.com/vi/xlVCtmbIYNE/hqdefault.jpg" rel="nofollow">http://i.ytimg.com/vi/xlVCtmbIYNE/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: null, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="http://www.youtube.com/watch?v=xlVCtmbIYNE" rel="nofollow">http://www.youtube.com/watch?v=xlVCtmbIYNE</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2011-07-13&quot;, 
+            &quot;added&quot;: &quot;2012-08-30T21:02:39&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:27.841&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;EuroPython 2011&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;making-cpython-fast-using-trace-based-optimisatio&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Mark Shannon&quot;
+            ], 
+            &quot;tags&quot;: [
+                &quot;cpython&quot;, 
+                &quot;jit&quot;, 
+                &quot;pypy&quot;, 
+                &quot;vm&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 1130, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Making CPython Fast Using Trace-based Optimisations&quot;, 
+            &quot;summary&quot;: &quot;[EuroPython 2011] Mark Shannon - 24 June 2011 in \&quot;Track Lasagne\&quot;\n\n&quot;, 
+            &quot;description&quot;: &quot;CPython can be made faster by implementing the sort of optimizations used in\nthe PyPy VM, and in my HotPy VM. All the necessary changes can be made without\nmodifying the language or the API.\n\nThe CPython VM can be modified to support optimizations by adding an effective\ngarbage collector and by separating the virtual-machine state from the real-\nmachine state (like Stackless).\n\nOptimizations can be implemented incrementally. Since almost all of the\noptimizations are implemented in the interpreter, all hardware platforms can\nbenefit. JIT compiler(s) can then be added for common platforms (intel, ARM,\netc.).\n\nFor more information see\n[http://hotpy.blogspot.com/](http://hotpy.blogspot.com/)\n\n&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;Standard YouTube License&quot;, 
+            &quot;embed&quot;: &quot;&lt;object width=\&quot;640\&quot; height=\&quot;390\&quot;&gt;&lt;param name=\&quot;movie\&quot; value=\&quot;http://youtube.com/v/3uTnXITm-kA?version=3&amp;amp;hl=en_US\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowFullScreen\&quot; value=\&quot;true\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowscriptaccess\&quot; value=\&quot;always\&quot;&gt;&lt;/param&gt;&lt;embed src=\&quot;http://youtube.com/v/3uTnXITm-kA?version=3&amp;amp;hl=en_US\&quot; type=\&quot;application/x-shockwave-flash\&quot; width=\&quot;640\&quot; height=\&quot;390\&quot; allowscriptaccess=\&quot;always\&quot; allowfullscreen=\&quot;true\&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://i.ytimg.com/vi/3uTnXITm-kA/hqdefault.jpg" rel="nofollow">http://i.ytimg.com/vi/3uTnXITm-kA/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: null, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="http://www.youtube.com/watch?v=3uTnXITm-kA" rel="nofollow">http://www.youtube.com/watch?v=3uTnXITm-kA</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2011-07-13&quot;, 
+            &quot;added&quot;: &quot;2012-08-30T21:02:39&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:27.842&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;EuroPython 2011&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;making-use-of-openstreetmap-data-with-python&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Andrii Mishkovskyi&quot;
+            ], 
+            &quot;tags&quot;: [
+                &quot;gis&quot;, 
+                &quot;google&quot;, 
+                &quot;importing&quot;, 
+                &quot;learning&quot;, 
+                &quot;maps&quot;, 
+                &quot;parsing&quot;, 
+                &quot;postgresql&quot;, 
+                &quot;web&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 1129, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Making use of OpenStreetMap data with Python&quot;, 
+            &quot;summary&quot;: &quot;[EuroPython 2011] Andrii Mishkovskyi - 22 June 2011 in \&quot;Track Lasagne\&quot;\n\n&quot;, 
+            &quot;description&quot;: &quot;Ever wondered how web maps are created? Ever wondered if you could build\nsomething like Google Maps over a weekend? You probably can&#39;t, but this talk\nwill show you the basics of what you need to know, such as importing data,\nrendering maps and even building simple routes. And all of this in Python!\n\nAbstract: * Learning how OSM data looks * Parsing and importing the data *\nRendering maps with Mapnik * Bits of code required to build geocoder *\nBuilding simple router with Python and PostGIS * And anything else I forgot to\nmention in this abstract but will talk about\n\nDefinitions: OpenStreetMap - the so-called \&quot;Wikipedia of maps\&quot; project, with\nthousands of contributors who edit the map data of the whole world. Unlike\nsimilar projects, the map data is completely free (both as in beer and as in\nspeech) and thus anyone can make use of it. Mapnik - rendering framework,\ncreated specifically for OpenStreetMap, written in C++ and Python. PostGIS -\nan extension of PostgreSQL database, with support for many useful GIS\nfeatures.\n\n&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;Standard YouTube License&quot;, 
+            &quot;embed&quot;: &quot;&lt;object width=\&quot;640\&quot; height=\&quot;390\&quot;&gt;&lt;param name=\&quot;movie\&quot; value=\&quot;http://youtube.com/v/ULxpa5jPvow?version=3&amp;amp;hl=en_US\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowFullScreen\&quot; value=\&quot;true\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowscriptaccess\&quot; value=\&quot;always\&quot;&gt;&lt;/param&gt;&lt;embed src=\&quot;http://youtube.com/v/ULxpa5jPvow?version=3&amp;amp;hl=en_US\&quot; type=\&quot;application/x-shockwave-flash\&quot; width=\&quot;640\&quot; height=\&quot;390\&quot; allowscriptaccess=\&quot;always\&quot; allowfullscreen=\&quot;true\&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://i.ytimg.com/vi/ULxpa5jPvow/hqdefault.jpg" rel="nofollow">http://i.ytimg.com/vi/ULxpa5jPvow/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: null, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="http://www.youtube.com/watch?v=ULxpa5jPvow" rel="nofollow">http://www.youtube.com/watch?v=ULxpa5jPvow</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2011-07-13&quot;, 
+            &quot;added&quot;: &quot;2012-08-30T21:02:39&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:27.844&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;EuroPython 2011&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;managing-the-cloud-with-libcloud-0&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Toma\u017e Muraus&quot;
+            ], 
+            &quot;tags&quot;: [
+                &quot;api&quot;, 
+                &quot;cloud&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 1128, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Managing the cloud with libcloud&quot;, 
+            &quot;summary&quot;: &quot;[EuroPython 2011] Toma\u017e Muraus - 22 June 2011 in \&quot;Track Ravioli \&quot;\n\n&quot;, 
+            &quot;description&quot;: &quot;libcloud is an open-source client library for interacting with different cloud\nproviders.\n\nThe primary goal of the library is to abstract all the provider differences\naway and expose common functionality in a nice, clean and concise API.\n\nThis talk will address the following topics:\n\n  * Why a library like this was built in the first place\n  * Different problems we have encountered while building it (not all the providers always play nice)\n  * An introduction to the library API (compute, storage and load-balancer part)\n  * How to use it to build something useful and fun\n  * How to participate and contribute\n  * Roadmap and plans for the future\n\n&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;Standard YouTube License&quot;, 
+            &quot;embed&quot;: &quot;&lt;object width=\&quot;640\&quot; height=\&quot;390\&quot;&gt;&lt;param name=\&quot;movie\&quot; value=\&quot;http://youtube.com/v/6FlvXN2JxTc?version=3&amp;amp;hl=en_US\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowFullScreen\&quot; value=\&quot;true\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowscriptaccess\&quot; value=\&quot;always\&quot;&gt;&lt;/param&gt;&lt;embed src=\&quot;http://youtube.com/v/6FlvXN2JxTc?version=3&amp;amp;hl=en_US\&quot; type=\&quot;application/x-shockwave-flash\&quot; width=\&quot;640\&quot; height=\&quot;390\&quot; allowscriptaccess=\&quot;always\&quot; allowfullscreen=\&quot;true\&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://i.ytimg.com/vi/6FlvXN2JxTc/hqdefault.jpg" rel="nofollow">http://i.ytimg.com/vi/6FlvXN2JxTc/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: null, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="http://www.youtube.com/watch?v=6FlvXN2JxTc" rel="nofollow">http://www.youtube.com/watch?v=6FlvXN2JxTc</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2011-07-13&quot;, 
+            &quot;added&quot;: &quot;2012-08-30T21:02:39&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:27.845&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;EuroPython 2011&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;merengue-the-new-surprising-and-refreshing-djang&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Manuel Saelices&quot;
+            ], 
+            &quot;tags&quot;: [
+                &quot;cms&quot;, 
+                &quot;django&quot;, 
+                &quot;framework&quot;, 
+                &quot;university&quot;, 
+                &quot;web&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 1127, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Merengue: the new surprising and refreshing Django based CMS.&quot;, 
+            &quot;summary&quot;: &quot;[EuroPython 2011] Manuel Saelices - 20 June 2011 in \&quot;Track Tagliatelle\&quot;\n\n&quot;, 
+            &quot;description&quot;: &quot;Django is an excellent web development platform with an extensive developers\ncommunity. It may be the most popular Python web framework nowadays. However,\nthe exisiting django based CMS products are not as feature complete as other\ncomparable solutions (Drupal, Plone, Alfresco, ModX, etc.).\n\nThe Merengue project tries to fill this gap. It is financed by the University\nof M\u00e1laga (Spain) and takes advantage of existing code and knowledge from\nother projects (Plone, Drupal, Pinax, django-cms, feincms, LFC, etc.)\n\n&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;Standard YouTube License&quot;, 
+            &quot;embed&quot;: &quot;&lt;object width=\&quot;640\&quot; height=\&quot;390\&quot;&gt;&lt;param name=\&quot;movie\&quot; value=\&quot;http://youtube.com/v/jUHTORehfRg?version=3&amp;amp;hl=en_US\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowFullScreen\&quot; value=\&quot;true\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowscriptaccess\&quot; value=\&quot;always\&quot;&gt;&lt;/param&gt;&lt;embed src=\&quot;http://youtube.com/v/jUHTORehfRg?version=3&amp;amp;hl=en_US\&quot; type=\&quot;application/x-shockwave-flash\&quot; width=\&quot;640\&quot; height=\&quot;390\&quot; allowscriptaccess=\&quot;always\&quot; allowfullscreen=\&quot;true\&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://i.ytimg.com/vi/jUHTORehfRg/hqdefault.jpg" rel="nofollow">http://i.ytimg.com/vi/jUHTORehfRg/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: null, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="http://www.youtube.com/watch?v=jUHTORehfRg" rel="nofollow">http://www.youtube.com/watch?v=jUHTORehfRg</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2011-07-13&quot;, 
+            &quot;added&quot;: &quot;2012-08-30T21:02:38&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:27.846&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;EuroPython 2011&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;meteorology-climate-and-python-desperately-tryi&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Claude Gibert&quot;
+            ], 
+            &quot;tags&quot;: [
+                &quot;framework&quot;, 
+                &quot;nasa&quot;, 
+                &quot;parallel&quot;, 
+                &quot;performance&quot;, 
+                &quot;python,&quot;, 
+                &quot;scientific&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 1126, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Meteorology, Climate and Python: desperately trying to forget technical details&quot;, 
+            &quot;summary&quot;: &quot;[EuroPython 2011] Claude Gibert - 24 June 2011 in \&quot;Track Lasagne\&quot;\n\n&quot;, 
+            &quot;description&quot;: &quot;# Contents\n\nPython is a great language for writing programming frameworks. Python\nframeworks are normally addressed to software developers who are Python\nprofessionals. I developed a software package in a scientific institution,\ndesigned to be used by non-programmers, but also designed to enable\ncustomisation through programming by some users. I finally designed a three\nlevel package:\n\n  * A Python programming framework, addressed whoever wanted to invest in Python and had plans to develop applications;\n\n  * An application built on that framework with an interface designed for non-programmers;\n\n  * Ways of customising the behaviour of the application by providing some basic Python functions or more elaborated code.\n\nOne of the challenges was to offer an application with an easy to use\ninterface, not graphical, not web-based and not requiring Python programming.\nThis interface was necessary for batch processing.\n\nThis talk addresses how this project was carried out, the technical solutions\nadopted and how Python was introduced in an operational scientific institution\n([http://www.ecmwf.int](http://www.ecmwf.int)) where most users were Fortran\nprogrammers. Python was introduced as early as 2004 and it was a challenge to\ngain acceptance. I will also make a parallel with a project I am currently\nworking on for NASA\n([http://gmao.gsfc.nasa.gov/](http://gmao.gsfc.nasa.gov/)). _Desperately\ntrying to forget technical details_ summarises how I tried, using Python, to\nhelp Meteorology scientists to focus on their domain of expertise instead of\nconstantly solving technical problems.\n\n# Background:\n\nThe disciplines of Meteorology and Climate involve numerical modelling of\nphysical phenomena. The amount of data going in and out of the model is\nconsiderable. The organisation and the storage of data is complicated, their\npost-processing is a challenge. Scientists need to access and process input\nand output data to monitor the trends of the input data and to evaluate the\nperformance of their models. Those statistics, diagnostics, plots and\nverifications are crucial to the improvement of the quality of the models.\nFinding the right data, decoding it, transforming it to be ready for use are\nnecessary steps to initiate the pre-processing. All these actions are\nfundamentally the same between different prediction centres, but the data\norganisation and file formats can differ.\n\n&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;Standard YouTube License&quot;, 
+            &quot;embed&quot;: &quot;&lt;object width=\&quot;640\&quot; height=\&quot;390\&quot;&gt;&lt;param name=\&quot;movie\&quot; value=\&quot;http://youtube.com/v/zZY-5cHZsT0?version=3&amp;amp;hl=en_US\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowFullScreen\&quot; value=\&quot;true\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowscriptaccess\&quot; value=\&quot;always\&quot;&gt;&lt;/param&gt;&lt;embed src=\&quot;http://youtube.com/v/zZY-5cHZsT0?version=3&amp;amp;hl=en_US\&quot; type=\&quot;application/x-shockwave-flash\&quot; width=\&quot;640\&quot; height=\&quot;390\&quot; allowscriptaccess=\&quot;always\&quot; allowfullscreen=\&quot;true\&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://i.ytimg.com/vi/zZY-5cHZsT0/hqdefault.jpg" rel="nofollow">http://i.ytimg.com/vi/zZY-5cHZsT0/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: null, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="http://www.youtube.com/watch?v=zZY-5cHZsT0" rel="nofollow">http://www.youtube.com/watch?v=zZY-5cHZsT0</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2011-07-13&quot;, 
+            &quot;added&quot;: &quot;2012-08-30T21:02:38&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:27.847&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;EuroPython 2011&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;mig-a-complete-grid-middleware-mostly-in-pyt-0&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Jonas Bardino&quot;
+            ], 
+            &quot;tags&quot;: [
+                &quot;forms&quot;, 
+                &quot;hpc&quot;, 
+                &quot;network&quot;, 
+                &quot;science&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 1125, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;MiG - A Complete Grid Middleware (mostly) in Python&quot;, 
+            &quot;summary&quot;: &quot;[EuroPython 2011] Jonas Bardino - 22 June 2011 in \&quot;Track Tagliatelle \&quot;\n\n&quot;, 
+            &quot;description&quot;: &quot;Grid computing was all the buzz in the beginning of the millennium and still\nhas serious attention in different forms although many of the original grand\npromises were never delivered. The general level of ambitions have instead\nslowly but steadily degraded to those of the latest buzz word, Cloud.\n\nWe as a project have proven that most of the original promises _can_ actually\nbe delivered and we have done so using Python almost solely as the\nimplementation language. The choice of Python provided us with a stable and\nversatile base for quickly getting this far and it significantly eases\nextending and maintaining our middleware in the future. MiG is currently about\n50000 lines of source code but it still offers more features than competing\ngrid systems with millions of lines of code.\n\nApart from introducing the open source MiG middleware and summarizing how we\ngot here, this talk will outline some of the core technologies used to reach\nthat goal and underline why it can make a lot of sense to choose Python for\ncomplex HPC projects like MiG, too. Talk keywords include Network Programming,\nOpen Source Python projects, Science and Math and Web-based Systems. There&#39;s\nno special intended audience, but a certain level of Python knowledge and\nexperience may be an advantage. Please refer to\n[http://code.google.com/p/migrid/](http://code.google.com/p/migrid/) for\nfurther MiG information.\n\n&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;Standard YouTube License&quot;, 
+            &quot;embed&quot;: &quot;&lt;object width=\&quot;640\&quot; height=\&quot;390\&quot;&gt;&lt;param name=\&quot;movie\&quot; value=\&quot;http://youtube.com/v/enNcrMTg2lM?version=3&amp;amp;hl=en_US\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowFullScreen\&quot; value=\&quot;true\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowscriptaccess\&quot; value=\&quot;always\&quot;&gt;&lt;/param&gt;&lt;embed src=\&quot;http://youtube.com/v/enNcrMTg2lM?version=3&amp;amp;hl=en_US\&quot; type=\&quot;application/x-shockwave-flash\&quot; width=\&quot;640\&quot; height=\&quot;390\&quot; allowscriptaccess=\&quot;always\&quot; allowfullscreen=\&quot;true\&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://i.ytimg.com/vi/enNcrMTg2lM/hqdefault.jpg" rel="nofollow">http://i.ytimg.com/vi/enNcrMTg2lM/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: null, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="http://www.youtube.com/watch?v=enNcrMTg2lM" rel="nofollow">http://www.youtube.com/watch?v=enNcrMTg2lM</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2011-07-13&quot;, 
+            &quot;added&quot;: &quot;2012-08-30T21:02:38&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:27.849&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;EuroPython 2011&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;new-beauty-in-camelot-0&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Erik Janssens&quot;, 
+                &quot;Jeroen Dierckx&quot;
+            ], 
+            &quot;tags&quot;: [
+                &quot;deployment&quot;, 
+                &quot;django&quot;, 
+                &quot;framework&quot;, 
+                &quot;matplotlib&quot;, 
+                &quot;qt&quot;, 
+                &quot;sqlalchemy&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 1124, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;New beauty in Camelot&quot;, 
+            &quot;summary&quot;: &quot;[EuroPython 2011] Erik Janssens,Jeroen Dierckx - 22 June 2011 in \&quot;Track\nRavioli \&quot;\n\n&quot;, 
+            &quot;description&quot;: &quot;Camelot is a Python framework that leverages SQLAlchemy and QT to build rich\ndesktop applications. The model - view definition used was inspired by the\nDjango Admin interface. Some see it as a replacement for MS Access, but it&#39;s\nunderlying libraries allow much more advanced features.\n\nIn this talk we will focus on the changes and new features that were\nintroduced in Camelot and more importantly, how they can be used in your\napplications. Those features range from Matplotlib chart integration and new\ntypes of actions to displaying custom SQLAlchemy queries in a table view.\n\nWe will share our experiences with large scale deployment of Python and\nCamelot applications to the desktop of the user. In a number of case studies\nwe will point out the mistakes we made and how they were corrected.\n\n&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;Standard YouTube License&quot;, 
+            &quot;embed&quot;: &quot;&lt;object width=\&quot;640\&quot; height=\&quot;390\&quot;&gt;&lt;param name=\&quot;movie\&quot; value=\&quot;http://youtube.com/v/jwwEyEAR1YA?version=3&amp;amp;hl=en_US\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowFullScreen\&quot; value=\&quot;true\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowscriptaccess\&quot; value=\&quot;always\&quot;&gt;&lt;/param&gt;&lt;embed src=\&quot;http://youtube.com/v/jwwEyEAR1YA?version=3&amp;amp;hl=en_US\&quot; type=\&quot;application/x-shockwave-flash\&quot; width=\&quot;640\&quot; height=\&quot;390\&quot; allowscriptaccess=\&quot;always\&quot; allowfullscreen=\&quot;true\&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://i.ytimg.com/vi/jwwEyEAR1YA/hqdefault.jpg" rel="nofollow">http://i.ytimg.com/vi/jwwEyEAR1YA/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: null, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="http://www.youtube.com/watch?v=jwwEyEAR1YA" rel="nofollow">http://www.youtube.com/watch?v=jwwEyEAR1YA</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2011-07-13&quot;, 
+            &quot;added&quot;: &quot;2012-08-30T21:02:37&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:27.850&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;EuroPython 2011&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;objects-and-classes-in-python-and-javascript-0&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Jonathan Fine&quot;
+            ], 
+            &quot;tags&quot;: [
+                &quot;dictionaries&quot;, 
+                &quot;javascript&quot;, 
+                &quot;tutorial&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 1123, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Objects and classes in Python (and JavaScript)&quot;, 
+            &quot;summary&quot;: &quot;[EuroPython 2011] Jonathan Fine - 23 June 2011 in \&quot;Training Pizza Napoli \&quot;\n\n&quot;, 
+            &quot;description&quot;: &quot;Python has a well-thought out system for classes. Beginners can use it without\nunderstanding it all. Experts can use it to produce code that is both elegant\nand powerful (such as models and class-based views in Django). Python classes\ncan be used for many purposes.\n\nThis tutorial arises from the author&#39;s experience in using classes to solve\nproblems, such as:\n\n  * Add custom methods and attributes to objects that are, at root, just an integer\n  * Construct dictionaries whose values are functions\n  * Construct classes on-the-fly\n  * Implement JavaScript object semantics in Python (advanced topic)\n\nThe outline syllabus is:\n\n  * Review of the class statement in Python (and decorators)\n  * Subclassing built-in types such as int and tuple\n  * How to define classes without using a class statement\n  * How to define a dispatch dictionary using a class statement\n  * Metaclasses as syntactic sugar for class construction\n  * Metaclasses to provide new class semantics\n  * Review of JavaScript object semantics\n  * Using Python classes to implement JavaScript object semantics\n\nFor Guido on the history of Python classes see:\n\n  * [<a href="http://python-history.blogspot.com/2010/06/new-style-classes.html](http://python-history.blogspot.com/2010/06/new-style-classes.html)%5Cn" rel="nofollow">http://python-history.blogspot.com/2010/06/new-style-classes.html](http://python-history.blogspot.com/2010/06/new-style-classes.html)\n</a>  * [<a href="http://python-history.blogspot.com/2010/06/inside-story-on-new-style-classes.html](http://python-history.blogspot.com/2010/06/inside-story-on-new-style-classes.html)%5Cn" rel="nofollow">http://python-history.blogspot.com/2010/06/inside-story-on-new-style-classes.html](http://python-history.blogspot.com/2010/06/inside-story-on-new-style-classes.html)\n</a>  * [<a href="http://python-history.blogspot.com/2010/06/method-resolution-order.html](http://python-history.blogspot.com/2010/06/method-resolution-order.html)%5Cn%5CnThis" rel="nofollow">http://python-history.blogspot.com/2010/06/method-resolution-order.html](http://python-history.blogspot.com/2010/06/method-resolution-order.html)\n\nThis</a> tutorial is for Intermediate or Advanced Python programmers. (Beginners\nwill find it very hard going.) The aim of the course is to explain exactly\nwhat happens when a class in constructed, and to learn ways of using this\nknowledge.\n\n&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;Standard YouTube License&quot;, 
+            &quot;embed&quot;: &quot;&lt;object width=\&quot;640\&quot; height=\&quot;390\&quot;&gt;&lt;param name=\&quot;movie\&quot; value=\&quot;http://youtube.com/v/tIgRlaChOqU?version=3&amp;amp;hl=en_US\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowFullScreen\&quot; value=\&quot;true\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowscriptaccess\&quot; value=\&quot;always\&quot;&gt;&lt;/param&gt;&lt;embed src=\&quot;http://youtube.com/v/tIgRlaChOqU?version=3&amp;amp;hl=en_US\&quot; type=\&quot;application/x-shockwave-flash\&quot; width=\&quot;640\&quot; height=\&quot;390\&quot; allowscriptaccess=\&quot;always\&quot; allowfullscreen=\&quot;true\&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://i.ytimg.com/vi/tIgRlaChOqU/hqdefault.jpg" rel="nofollow">http://i.ytimg.com/vi/tIgRlaChOqU/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: null, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="http://www.youtube.com/watch?v=tIgRlaChOqU" rel="nofollow">http://www.youtube.com/watch?v=tIgRlaChOqU</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2011-07-13&quot;, 
+            &quot;added&quot;: &quot;2012-08-30T21:02:37&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:27.851&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;EuroPython 2011&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;openerp-100-pythonic-way-for-business-managemen&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Davide Corio&quot;
+            ], 
+            &quot;tags&quot;: [
+                &quot;business&quot;, 
+                &quot;crm&quot;, 
+                &quot;java&quot;, 
+                &quot;.net&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 1122, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;OpenERP: 100% pythonic way for business management&quot;, 
+            &quot;summary&quot;: &quot;[EuroPython 2011] Davide Corio - 23 June 2011 in \&quot;Track Tagliatelle\&quot;\n\n&quot;, 
+            &quot;description&quot;: &quot;Business management isn&#39;t just accounting. Let&#39;s see how Python can help us to\nbuild a complete ERP infrastructure. From CRM to e-commerce, from accounting\nto document management\u2026we&#39;ll see how Python is mature and able to do great\nthings where Java and .NET are still considered as the only option. Case\nstudies to be presented.\n\n&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;Standard YouTube License&quot;, 
+            &quot;embed&quot;: &quot;&lt;object width=\&quot;640\&quot; height=\&quot;390\&quot;&gt;&lt;param name=\&quot;movie\&quot; value=\&quot;http://youtube.com/v/b70_GgWpH40?version=3&amp;amp;hl=en_US\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowFullScreen\&quot; value=\&quot;true\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowscriptaccess\&quot; value=\&quot;always\&quot;&gt;&lt;/param&gt;&lt;embed src=\&quot;http://youtube.com/v/b70_GgWpH40?version=3&amp;amp;hl=en_US\&quot; type=\&quot;application/x-shockwave-flash\&quot; width=\&quot;640\&quot; height=\&quot;390\&quot; allowscriptaccess=\&quot;always\&quot; allowfullscreen=\&quot;true\&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://i.ytimg.com/vi/b70_GgWpH40/hqdefault.jpg" rel="nofollow">http://i.ytimg.com/vi/b70_GgWpH40/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: null, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="http://www.youtube.com/watch?v=b70_GgWpH40" rel="nofollow">http://www.youtube.com/watch?v=b70_GgWpH40</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2011-07-13&quot;, 
+            &quot;added&quot;: &quot;2012-08-30T21:02:37&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:27.853&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;EuroPython 2011&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;openstack-computes-automated-testing&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Soren Hansen&quot;
+            ], 
+            &quot;tags&quot;: [
+                &quot;openstack&quot;, 
+                &quot;packages&quot;, 
+                &quot;testing&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 1121, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;OpenStack Compute&#39;s automated testing&quot;, 
+            &quot;summary&quot;: &quot;[EuroPython 2011] Soren Hansen - 24 June 2011 in \&quot;Track Tagliatelle \&quot;\n\n&quot;, 
+            &quot;description&quot;: &quot;When a patch is propoed against OpenStack compute (a.k.a. Nova) and it makes\nit through our peer review process, our automated test system takes over:\n\n  * It finds the approved patch on Launchpad;\n\n  * An attempt to merge the patch is performed;\n\n  * The unit tests are run;\n\n  * A PEP-8 check is run;\n\n  * The merge is completed, applying the patch to our trunk;\n\n  * A tarball is built and published;\n\n  * An Ubuntu source package is built for several editions of Ubuntu;\n\n  * The source packages get uploaded to a PPA;\n\n  * Once built, the packages are installed on a test setup;\n\n  * A test battery is run against the installed \&quot;cloud\&quot;.\n\nI&#39;ll explain the various steps, showing how it works and attempt to\ndemonstrate it (Murphy&#39;s law permitting), and then I&#39;ll speak about the\nbenefits we&#39;ve gotten from PPA&#39;s and working closely with Ubuntu.\n\n&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;Standard YouTube License&quot;, 
+            &quot;embed&quot;: &quot;&lt;object width=\&quot;640\&quot; height=\&quot;390\&quot;&gt;&lt;param name=\&quot;movie\&quot; value=\&quot;http://youtube.com/v/MVo0qEKK0wo?version=3&amp;amp;hl=en_US\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowFullScreen\&quot; value=\&quot;true\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowscriptaccess\&quot; value=\&quot;always\&quot;&gt;&lt;/param&gt;&lt;embed src=\&quot;http://youtube.com/v/MVo0qEKK0wo?version=3&amp;amp;hl=en_US\&quot; type=\&quot;application/x-shockwave-flash\&quot; width=\&quot;640\&quot; height=\&quot;390\&quot; allowscriptaccess=\&quot;always\&quot; allowfullscreen=\&quot;true\&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://i.ytimg.com/vi/MVo0qEKK0wo/hqdefault.jpg" rel="nofollow">http://i.ytimg.com/vi/MVo0qEKK0wo/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: null, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="http://www.youtube.com/watch?v=MVo0qEKK0wo" rel="nofollow">http://www.youtube.com/watch?v=MVo0qEKK0wo</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2011-07-13&quot;, 
+            &quot;added&quot;: &quot;2012-08-30T21:02:37&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:27.854&quot;
+        }
+    ]
+}</pre>
+            </div>
+        </div>
+
+            
+
+                
+
+                
+            
+
+        </div>
+        <!-- END content-main -->
+
+    </div>
+    <!-- END Content -->
+
+        <div id="push"></div>
+
+    </div>
+
+    </div><!-- ./wrapper -->
+
+    
+    
+
+    
+    <script src="/static/rest_framework/js/jquery-1.8.1-min.js"></script>
+    <script src="/static/rest_framework/js/bootstrap.min.js"></script>
+    <script src="/static/rest_framework/js/prettify-min.js"></script>
+    <script src="/static/rest_framework/js/default.js"></script>
+    
+  </body>
+
+<!-- Mirrored from pyvideo.org/api/v2/video/?page=156&format=api by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 07 Jan 2016 03:53:55 GMT -->
+</html>

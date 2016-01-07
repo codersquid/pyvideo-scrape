@@ -1,0 +1,191 @@
+
+
+<!DOCTYPE html>
+<html>
+    
+<!-- Mirrored from pyvideo.org/api/v2/video/1333 by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 07 Jan 2016 03:23:00 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+    
+
+        
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+        <meta name="robots" content="NONE,NOARCHIVE" />
+        
+
+        <title>Django REST framework</title>
+
+        
+        
+            <link rel="stylesheet" type="text/css" href="/static/rest_framework/css/bootstrap.min.css"/>
+            <link rel="stylesheet" type="text/css" href="/static/rest_framework/css/bootstrap-tweaks.css"/>
+        
+        <link rel="stylesheet" type="text/css" href="/static/rest_framework/css/prettify.css"/>
+        <link rel="stylesheet" type="text/css" href="/static/rest_framework/css/default.css"/>
+        
+
+    
+    </head>
+
+  <body class=" container">
+
+    <div class="wrapper">
+
+    
+    <div class="navbar navbar-inverse">
+        <div class="navbar-inner">
+            <div class="container-fluid">
+                <span href="/">
+                    <a class='brand' rel="nofollow" href='http://www.django-rest-framework.org'>Django REST framework <span class="version">2.3.14</span></a>
+                </span>
+                <ul class="nav pull-right">
+                    
+                        
+                            <li></li>
+                        
+                    
+                </ul>
+            </div>
+        </div>
+    </div>
+    
+
+    
+    <ul class="breadcrumb">
+        
+            <li>
+                <a href="/api/v2/video/" >Video List Create Api</a> <span class="divider">&rsaquo;</span>
+            </li>
+        
+            <li>
+                <a href="/api/v2/video/1333" class="active">Video Retrieve Update Api</a> 
+            </li>
+        
+    </ul>
+    
+
+    <!-- Content -->
+    <div id="content">
+
+        
+            <form id="get-form" class="pull-right">
+                <fieldset>
+                    <div class="btn-group format-selection">
+                        <a class="btn btn-primary js-tooltip" href='/api/v2/video/1333' rel="nofollow" title="Make a GET request on the Video Retrieve Update Api resource">GET</a>
+
+                        <button class="btn btn-primary dropdown-toggle js-tooltip" data-toggle="dropdown" title="Specify a format for the GET request">
+                            <span class="caret"></span>
+                        </button>
+                        <ul class="dropdown-menu">
+                            
+                                <li>
+                                    <a class="js-tooltip format-option" href='/api/v2/video/1333?format=json' rel="nofollow" title="Make a GET request on the Video Retrieve Update Api resource with the format set to `json`">json</a>
+                                </li>
+                            
+                                <li>
+                                    <a class="js-tooltip format-option" href='/api/v2/video/1333?format=api' rel="nofollow" title="Make a GET request on the Video Retrieve Update Api resource with the format set to `api`">api</a>
+                                </li>
+                            
+                        </ul>
+                    </div>
+
+                </fieldset>
+            </form>
+        
+
+        
+            <form class="button-form" action="/api/v2/video/1333" method="POST" class="pull-right">
+                <input type='hidden' name='csrfmiddlewaretoken' value='pT8iI6zhtQdsGFmu4tryYgFrUlipl2B3' />
+                <input type="hidden" name="_method" value="OPTIONS" />
+                <button class="btn btn-primary js-tooltip" title="Make an OPTIONS request on the Video Retrieve Update Api resource">OPTIONS</button>
+            </form>
+        
+
+        
+
+        <div class="content-main">
+            <div class="page-header"><h1>Video Retrieve Update Api</h1></div>
+            
+            
+            
+            <div class="request-info" style="clear: both" >
+                <pre class="prettyprint"><b>GET</b> /api/v2/video/1333</pre>
+            </div>
+            <div class="response-info">
+                <pre class="prettyprint"><div class="meta nocode"><b>HTTP 200 OK</b>
+<b>Content-Type:</b> <span class="lit">application/json</span>
+<b>Vary:</b> <span class="lit">Accept</span>
+<b>Allow:</b> <span class="lit">GET, PUT, PATCH, HEAD, OPTIONS</span>
+
+</div>{
+    &quot;category&quot;: &quot;EuroPython 2012&quot;, 
+    &quot;language&quot;: null, 
+    &quot;slug&quot;: &quot;python-white-magic&quot;, 
+    &quot;speakers&quot;: [
+        &quot;Antonio Cuni&quot;
+    ], 
+    &quot;tags&quot;: [], 
+    &quot;related_urls&quot;: [], 
+    &quot;id&quot;: 1333, 
+    &quot;state&quot;: 1, 
+    &quot;title&quot;: &quot;Python white magic&quot;, 
+    &quot;summary&quot;: &quot;[EuroPython 2012] Antonio Cuni - 3 JULY 2012 in \&quot;Track Spaghetti\&quot;\n\n&quot;, 
+    &quot;description&quot;: &quot;Python is a powerful language. Beginners appreciate its surface of simplicity\nand ease to use, where (almost) everything \u201cjust works\u201d (TM) as expected.\nHowever, under the hood, there is a whole world of rules and layers which can\nbe (ab)used by experienced programmers to tweak the language in unexpected\nways. Often, these techniques are labeled as \u201chacks\u201d or \u201cblack magic\u201d, to\nindicate that they should not used in production or that you should not look\nat it unless you are \u201cinitiated\u201d to some not better specified sorcery.\nHowever, if used with care and in the right places, these techniques can lead\nto better, faster and/or more readable code, or can be extremely useful during\ndebugging, and thus deserve the definition of \u201cwhite magic\u201d which programmers\ncan use to improve their code. Moreover, looking at how they are implemented\nis a good way to learn about some of the deep corners of the language. This\ntalk presents some of these advanced techniques which I have seen in use in\nreal code, e.g. in PyPy or pdb++. Including, but not limited to: creating new\nfunctions by reusing existing code objects, instantiating multiple copies of\nthe same module, playing with metaclasses in various ways, changing the\n__class__ of an object on the fly to get specialized behavior, automatically\nentering the debugger when a certain event occur, etc.\n\n&quot;, 
+    &quot;quality_notes&quot;: &quot;&quot;, 
+    &quot;copyright_text&quot;: &quot;Standard YouTube License&quot;, 
+    &quot;embed&quot;: &quot;&lt;object width=\&quot;640\&quot; height=\&quot;390\&quot;&gt;&lt;param name=\&quot;movie\&quot; value=\&quot;http://youtube.com/v/WqVMZnefnO8?version=3&amp;amp;hl=en_US\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowFullScreen\&quot; value=\&quot;true\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowscriptaccess\&quot; value=\&quot;always\&quot;&gt;&lt;/param&gt;&lt;embed src=\&quot;http://youtube.com/v/WqVMZnefnO8?version=3&amp;amp;hl=en_US\&quot; type=\&quot;application/x-shockwave-flash\&quot; width=\&quot;640\&quot; height=\&quot;390\&quot; allowscriptaccess=\&quot;always\&quot; allowfullscreen=\&quot;true\&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&quot;, 
+    &quot;thumbnail_url&quot;: &quot;<a href="http://i.ytimg.com/vi/WqVMZnefnO8/hqdefault.jpg" rel="nofollow">http://i.ytimg.com/vi/WqVMZnefnO8/hqdefault.jpg</a>&quot;, 
+    &quot;duration&quot;: null, 
+    &quot;video_ogv_length&quot;: null, 
+    &quot;video_ogv_url&quot;: null, 
+    &quot;video_ogv_download_only&quot;: false, 
+    &quot;video_mp4_length&quot;: null, 
+    &quot;video_mp4_url&quot;: null, 
+    &quot;video_mp4_download_only&quot;: false, 
+    &quot;video_webm_length&quot;: null, 
+    &quot;video_webm_url&quot;: null, 
+    &quot;video_webm_download_only&quot;: false, 
+    &quot;video_flv_length&quot;: null, 
+    &quot;video_flv_url&quot;: null, 
+    &quot;video_flv_download_only&quot;: false, 
+    &quot;source_url&quot;: &quot;<a href="http://www.youtube.com/watch?v=WqVMZnefnO8" rel="nofollow">http://www.youtube.com/watch?v=WqVMZnefnO8</a>&quot;, 
+    &quot;whiteboard&quot;: &quot;&quot;, 
+    &quot;recorded&quot;: &quot;2012-07-04&quot;, 
+    &quot;added&quot;: &quot;2012-09-06T22:33:26&quot;, 
+    &quot;updated&quot;: &quot;2014-04-08T20:28:27.298&quot;
+}</pre>
+            </div>
+        </div>
+
+            
+
+                
+
+                
+            
+
+        </div>
+        <!-- END content-main -->
+
+    </div>
+    <!-- END Content -->
+
+        <div id="push"></div>
+
+    </div>
+
+    </div><!-- ./wrapper -->
+
+    
+    
+
+    
+    <script src="/static/rest_framework/js/jquery-1.8.1-min.js"></script>
+    <script src="/static/rest_framework/js/bootstrap.min.js"></script>
+    <script src="/static/rest_framework/js/prettify-min.js"></script>
+    <script src="/static/rest_framework/js/default.js"></script>
+    
+  </body>
+
+<!-- Mirrored from pyvideo.org/api/v2/video/1333 by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 07 Jan 2016 03:23:00 GMT -->
+</html>

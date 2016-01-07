@@ -1,0 +1,191 @@
+
+
+<!DOCTYPE html>
+<html>
+    
+<!-- Mirrored from pyvideo.org/api/v2/video/2243?format=api by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 07 Jan 2016 03:46:32 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+    
+
+        
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+        <meta name="robots" content="NONE,NOARCHIVE" />
+        
+
+        <title>Django REST framework</title>
+
+        
+        
+            <link rel="stylesheet" type="text/css" href="/static/rest_framework/css/bootstrap.min.css"/>
+            <link rel="stylesheet" type="text/css" href="/static/rest_framework/css/bootstrap-tweaks.css"/>
+        
+        <link rel="stylesheet" type="text/css" href="/static/rest_framework/css/prettify.css"/>
+        <link rel="stylesheet" type="text/css" href="/static/rest_framework/css/default.css"/>
+        
+
+    
+    </head>
+
+  <body class=" container">
+
+    <div class="wrapper">
+
+    
+    <div class="navbar navbar-inverse">
+        <div class="navbar-inner">
+            <div class="container-fluid">
+                <span href="/">
+                    <a class='brand' rel="nofollow" href='http://www.django-rest-framework.org'>Django REST framework <span class="version">2.3.14</span></a>
+                </span>
+                <ul class="nav pull-right">
+                    
+                        
+                            <li></li>
+                        
+                    
+                </ul>
+            </div>
+        </div>
+    </div>
+    
+
+    
+    <ul class="breadcrumb">
+        
+            <li>
+                <a href="/api/v2/video/" >Video List Create Api</a> <span class="divider">&rsaquo;</span>
+            </li>
+        
+            <li>
+                <a href="/api/v2/video/2243" class="active">Video Retrieve Update Api</a> 
+            </li>
+        
+    </ul>
+    
+
+    <!-- Content -->
+    <div id="content">
+
+        
+            <form id="get-form" class="pull-right">
+                <fieldset>
+                    <div class="btn-group format-selection">
+                        <a class="btn btn-primary js-tooltip" href='/api/v2/video/2243?format=api' rel="nofollow" title="Make a GET request on the Video Retrieve Update Api resource">GET</a>
+
+                        <button class="btn btn-primary dropdown-toggle js-tooltip" data-toggle="dropdown" title="Specify a format for the GET request">
+                            <span class="caret"></span>
+                        </button>
+                        <ul class="dropdown-menu">
+                            
+                                <li>
+                                    <a class="js-tooltip format-option" href='/api/v2/video/2243?format=json' rel="nofollow" title="Make a GET request on the Video Retrieve Update Api resource with the format set to `json`">json</a>
+                                </li>
+                            
+                                <li>
+                                    <a class="js-tooltip format-option" href='/api/v2/video/2243?format=api' rel="nofollow" title="Make a GET request on the Video Retrieve Update Api resource with the format set to `api`">api</a>
+                                </li>
+                            
+                        </ul>
+                    </div>
+
+                </fieldset>
+            </form>
+        
+
+        
+            <form class="button-form" action="/api/v2/video/2243?format=api" method="POST" class="pull-right">
+                <input type='hidden' name='csrfmiddlewaretoken' value='pT8iI6zhtQdsGFmu4tryYgFrUlipl2B3' />
+                <input type="hidden" name="_method" value="OPTIONS" />
+                <button class="btn btn-primary js-tooltip" title="Make an OPTIONS request on the Video Retrieve Update Api resource">OPTIONS</button>
+            </form>
+        
+
+        
+
+        <div class="content-main">
+            <div class="page-header"><h1>Video Retrieve Update Api</h1></div>
+            
+            
+            
+            <div class="request-info" style="clear: both" >
+                <pre class="prettyprint"><b>GET</b> /api/v2/video/2243?format=api</pre>
+            </div>
+            <div class="response-info">
+                <pre class="prettyprint"><div class="meta nocode"><b>HTTP 200 OK</b>
+<b>Content-Type:</b> <span class="lit">application/json</span>
+<b>Vary:</b> <span class="lit">Accept</span>
+<b>Allow:</b> <span class="lit">GET, PUT, PATCH, HEAD, OPTIONS</span>
+
+</div>{
+    &quot;category&quot;: &quot;DjangoCon AU 2013&quot;, 
+    &quot;language&quot;: &quot;English&quot;, 
+    &quot;slug&quot;: &quot;unleash-the-ponies-using-feincms-to-add-content&quot;, 
+    &quot;speakers&quot;: [
+        &quot;Greg Turner&quot;
+    ], 
+    &quot;tags&quot;: [], 
+    &quot;related_urls&quot;: [], 
+    &quot;id&quot;: 2243, 
+    &quot;state&quot;: 1, 
+    &quot;title&quot;: &quot;Unleash the ponies! Using FeinCMS to add content tools that users love to any Django model&quot;, 
+    &quot;summary&quot;: &quot;Site editors often struggle with editing rich content and managing variations in layout in Django admin. By rich content we mean text, images, video, tables, and so on. Trying to squeeze all this content into a single rich-text editor is like trying to jam a magical pony into a dog kennel. A better approach is to use a rich content framework like FeinCMS. FeinCMS is a sensible, flexible framework which allows rich content of any shape to be manipulated within any Django model in your project.\r\n\r\nThis talk describes what FeinCMS does and how it works, and most importantly whether it should be pronounced to rhyme with \&quot;Vein\&quot; or \&quot;Vine\&quot;. The talk is supported with working example code that shows the progression of a FeinCMS project through several levels of functionality, plus some real-world demonstrations of fully-developed functionality.\r\n\r\nA FeinCMS Document model is just like any Django model, except it has one or more &#39;templates&#39;. Each &#39;template&#39; has one or more regions, and each region is a place where an unlimited amount of rich content types can be added, removed or rearranged to form the content in that region. This is all wrapped up in a nifty lightweight Javascript interface for Django&#39;s admin, and a surprisingly simple implementation at the database level.\r\n\r\nThe types of content available in a given region is defined by a collection of abstract Django models (e.g. one model to represent a passage of text, another model to represent an image, and so on). Developers are free to define their own FeinCMS content types, using all the usual features of Django models.\r\n\r\nAt the HTML template level, each FeinCMS content item renders a standard template, and can optionally render different templates in different circumstances.\r\n\r\nThis flexibility allows Django developers to quickly design and build CMSes that match the content and layout perfectly, meaning happier content editors, fewer maintenance headaches and greater magical pony freedom.&quot;, 
+    &quot;description&quot;: &quot;&quot;, 
+    &quot;quality_notes&quot;: &quot;&quot;, 
+    &quot;copyright_text&quot;: &quot;CC-BY-SA&quot;, 
+    &quot;embed&quot;: &quot;&lt;object width=\&quot;640\&quot; height=\&quot;390\&quot;&gt;&lt;param name=\&quot;movie\&quot; value=\&quot;http://youtube.com/v/RnMsobX3soE?version=3&amp;amp;hl=en_US\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowFullScreen\&quot; value=\&quot;true\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowscriptaccess\&quot; value=\&quot;always\&quot;&gt;&lt;/param&gt;&lt;embed src=\&quot;http://youtube.com/v/RnMsobX3soE?version=3&amp;amp;hl=en_US\&quot; type=\&quot;application/x-shockwave-flash\&quot; width=\&quot;640\&quot; height=\&quot;390\&quot; allowscriptaccess=\&quot;always\&quot; allowfullscreen=\&quot;true\&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&quot;, 
+    &quot;thumbnail_url&quot;: &quot;<a href="http://i1.ytimg.com/vi/RnMsobX3soE/hqdefault.jpg" rel="nofollow">http://i1.ytimg.com/vi/RnMsobX3soE/hqdefault.jpg</a>&quot;, 
+    &quot;duration&quot;: 45, 
+    &quot;video_ogv_length&quot;: null, 
+    &quot;video_ogv_url&quot;: &quot;&quot;, 
+    &quot;video_ogv_download_only&quot;: false, 
+    &quot;video_mp4_length&quot;: null, 
+    &quot;video_mp4_url&quot;: &quot;<a href="http://s3.us.archive.org/ndvpyconau2013/Unleash_the_ponies_Using_FeinC.mp4" rel="nofollow">http://s3.us.archive.org/ndvpyconau2013/Unleash_the_ponies_Using_FeinC.mp4</a>&quot;, 
+    &quot;video_mp4_download_only&quot;: true, 
+    &quot;video_webm_length&quot;: null, 
+    &quot;video_webm_url&quot;: null, 
+    &quot;video_webm_download_only&quot;: false, 
+    &quot;video_flv_length&quot;: null, 
+    &quot;video_flv_url&quot;: null, 
+    &quot;video_flv_download_only&quot;: false, 
+    &quot;source_url&quot;: &quot;<a href="https://www.youtube.com/watch?v=RnMsobX3soE" rel="nofollow">https://www.youtube.com/watch?v=RnMsobX3soE</a>&quot;, 
+    &quot;whiteboard&quot;: &quot;&quot;, 
+    &quot;recorded&quot;: &quot;2013-07-05&quot;, 
+    &quot;added&quot;: &quot;2013-07-13T01:07:09&quot;, 
+    &quot;updated&quot;: &quot;2014-04-08T20:28:26.319&quot;
+}</pre>
+            </div>
+        </div>
+
+            
+
+                
+
+                
+            
+
+        </div>
+        <!-- END content-main -->
+
+    </div>
+    <!-- END Content -->
+
+        <div id="push"></div>
+
+    </div>
+
+    </div><!-- ./wrapper -->
+
+    
+    
+
+    
+    <script src="/static/rest_framework/js/jquery-1.8.1-min.js"></script>
+    <script src="/static/rest_framework/js/bootstrap.min.js"></script>
+    <script src="/static/rest_framework/js/prettify-min.js"></script>
+    <script src="/static/rest_framework/js/default.js"></script>
+    
+  </body>
+
+<!-- Mirrored from pyvideo.org/api/v2/video/2243?format=api by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 07 Jan 2016 03:46:32 GMT -->
+</html>

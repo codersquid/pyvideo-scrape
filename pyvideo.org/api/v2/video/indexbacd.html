@@ -1,0 +1,868 @@
+
+
+<!DOCTYPE html>
+<html>
+    
+<!-- Mirrored from pyvideo.org/api/v2/video/?page=4&format=api by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 07 Jan 2016 03:46:49 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+    
+
+        
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+        <meta name="robots" content="NONE,NOARCHIVE" />
+        
+
+        <title>Django REST framework</title>
+
+        
+        
+            <link rel="stylesheet" type="text/css" href="/static/rest_framework/css/bootstrap.min.css"/>
+            <link rel="stylesheet" type="text/css" href="/static/rest_framework/css/bootstrap-tweaks.css"/>
+        
+        <link rel="stylesheet" type="text/css" href="/static/rest_framework/css/prettify.css"/>
+        <link rel="stylesheet" type="text/css" href="/static/rest_framework/css/default.css"/>
+        
+
+    
+    </head>
+
+  <body class=" container">
+
+    <div class="wrapper">
+
+    
+    <div class="navbar navbar-inverse">
+        <div class="navbar-inner">
+            <div class="container-fluid">
+                <span href="/">
+                    <a class='brand' rel="nofollow" href='http://www.django-rest-framework.org'>Django REST framework <span class="version">2.3.14</span></a>
+                </span>
+                <ul class="nav pull-right">
+                    
+                        
+                            <li></li>
+                        
+                    
+                </ul>
+            </div>
+        </div>
+    </div>
+    
+
+    
+    <ul class="breadcrumb">
+        
+            <li>
+                <a href="/api/v2/video/" class="active">Video List Create Api</a> 
+            </li>
+        
+    </ul>
+    
+
+    <!-- Content -->
+    <div id="content">
+
+        
+            <form id="get-form" class="pull-right">
+                <fieldset>
+                    <div class="btn-group format-selection">
+                        <a class="btn btn-primary js-tooltip" href='/api/v2/video/?page=4&amp;format=api' rel="nofollow" title="Make a GET request on the Video List Create Api resource">GET</a>
+
+                        <button class="btn btn-primary dropdown-toggle js-tooltip" data-toggle="dropdown" title="Specify a format for the GET request">
+                            <span class="caret"></span>
+                        </button>
+                        <ul class="dropdown-menu">
+                            
+                                <li>
+                                    <a class="js-tooltip format-option" href='/api/v2/video/?page=4&format=json' rel="nofollow" title="Make a GET request on the Video List Create Api resource with the format set to `json`">json</a>
+                                </li>
+                            
+                                <li>
+                                    <a class="js-tooltip format-option" href='/api/v2/video/?page=4&format=api' rel="nofollow" title="Make a GET request on the Video List Create Api resource with the format set to `api`">api</a>
+                                </li>
+                            
+                        </ul>
+                    </div>
+
+                </fieldset>
+            </form>
+        
+
+        
+            <form class="button-form" action="/api/v2/video/?page=4&amp;format=api" method="POST" class="pull-right">
+                <input type='hidden' name='csrfmiddlewaretoken' value='pT8iI6zhtQdsGFmu4tryYgFrUlipl2B3' />
+                <input type="hidden" name="_method" value="OPTIONS" />
+                <button class="btn btn-primary js-tooltip" title="Make an OPTIONS request on the Video List Create Api resource">OPTIONS</button>
+            </form>
+        
+
+        
+
+        <div class="content-main">
+            <div class="page-header"><h1>Video List Create Api</h1></div>
+            
+            
+            
+            <div class="request-info" style="clear: both" >
+                <pre class="prettyprint"><b>GET</b> /api/v2/video/?page=4&amp;format=api</pre>
+            </div>
+            <div class="response-info">
+                <pre class="prettyprint"><div class="meta nocode"><b>HTTP 200 OK</b>
+<b>Content-Type:</b> <span class="lit">application/json</span>
+<b>Vary:</b> <span class="lit">Accept</span>
+<b>Allow:</b> <span class="lit">GET, POST, HEAD, OPTIONS</span>
+
+</div>{
+    &quot;count&quot;: 3439, 
+    &quot;next&quot;: &quot;<a href="http://pyvideo.org/api/v2/video/?page=5&amp;format=api" rel="nofollow">http://pyvideo.org/api/v2/video/?page=5&amp;format=api</a>&quot;, 
+    &quot;previous&quot;: &quot;<a href="http://pyvideo.org/api/v2/video/?page=3&amp;format=api" rel="nofollow">http://pyvideo.org/api/v2/video/?page=3&amp;format=api</a>&quot;, 
+    &quot;results&quot;: [
+        {
+            &quot;category&quot;: &quot;DjangoCon 2011&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;djangocon-2011--deployment--daemons-and-datacente&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Andrew Godwin&quot;
+            ], 
+            &quot;tags&quot;: [
+                &quot;daemons&quot;, 
+                &quot;datacenters&quot;, 
+                &quot;deployment&quot;, 
+                &quot;djangocon&quot;, 
+                &quot;djangocon2011&quot;, 
+                &quot;epio&quot;, 
+                &quot;ep.io&quot;, 
+                &quot;hosting&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 78, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Deployment, Daemons and Datacenters&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;Deployment, Daemons, and Datacenters\n\nPresented by Andrew Godwin\n\nA tour through the systems that power [ep.io](http://ep.io/), the Python\nhosting platform, from the array of daemons powering the system, to how\nredundancy is set up, and also covering general best practices for hosting\nDjango sites yourself.\n\n&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;&quot;, 
+            &quot;embed&quot;: &quot;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://a.images.blip.tv/Robertlofthouse-DeploymentDaemonsAndDatacenters670-810.jpg" rel="nofollow">http://a.images.blip.tv/Robertlofthouse-DeploymentDaemonsAndDatacenters670-810.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: 87549023, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: &quot;<a href="http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/djangocon-2011/78_deployment-daemons-and-datacenters.m4v" rel="nofollow">http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/djangocon-2011/78_deployment-daemons-and-datacenters.m4v</a>&quot;, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: null, 
+            &quot;added&quot;: &quot;2012-02-23T04:20:00&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:25.421&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;DjangoCon EU 2010&quot;, 
+            &quot;language&quot;: null, 
+            &quot;slug&quot;: &quot;djangoconeu-alexgaynorwhatnosqlsupportinthedjango&quot;, 
+            &quot;speakers&quot;: [], 
+            &quot;tags&quot;: [], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 2453, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Djangoconeu-AlexGaynorWhatNoSQLSupportInTheDjangoORMLooksLikeAnd284.flv&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;&quot;, 
+            &quot;embed&quot;: &quot;&quot;, 
+            &quot;thumbnail_url&quot;: null, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: null, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: &quot;<a href="http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/djangocon-eu-2010/Djangoconeu-AlexGaynorWhatNoSQLSupportInTheDjangoORMLooksLikeAnd284.flv" rel="nofollow">http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/djangocon-eu-2010/Djangoconeu-AlexGaynorWhatNoSQLSupportInTheDjangoORMLooksLikeAnd284.flv</a>&quot;, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: null, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: null, 
+            &quot;added&quot;: &quot;2013-11-24T11:47:08.053&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:25.422&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;DjangoCon EU 2010&quot;, 
+            &quot;language&quot;: null, 
+            &quot;slug&quot;: &quot;djangoconeu-andrewgodwinsouthnewandold425flv&quot;, 
+            &quot;speakers&quot;: [], 
+            &quot;tags&quot;: [], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 2454, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Djangoconeu-AndrewGodwinSouthNewAndOld425.flv&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;&quot;, 
+            &quot;embed&quot;: &quot;&quot;, 
+            &quot;thumbnail_url&quot;: null, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: null, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: &quot;<a href="http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/djangocon-eu-2010/Djangoconeu-AndrewGodwinSouthNewAndOld425.flv" rel="nofollow">http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/djangocon-eu-2010/Djangoconeu-AndrewGodwinSouthNewAndOld425.flv</a>&quot;, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: null, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: null, 
+            &quot;added&quot;: &quot;2013-11-24T11:47:08.069&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:25.433&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;DjangoCon EU 2010&quot;, 
+            &quot;language&quot;: null, 
+            &quot;slug&quot;: &quot;djangoconeu-arminronacher355flv&quot;, 
+            &quot;speakers&quot;: [], 
+            &quot;tags&quot;: [], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 2455, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Djangoconeu-ArminRonacher355.flv&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;&quot;, 
+            &quot;embed&quot;: &quot;&quot;, 
+            &quot;thumbnail_url&quot;: null, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: null, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: &quot;<a href="http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/djangocon-eu-2010/Djangoconeu-ArminRonacher355.flv" rel="nofollow">http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/djangocon-eu-2010/Djangoconeu-ArminRonacher355.flv</a>&quot;, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: null, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: null, 
+            &quot;added&quot;: &quot;2013-11-24T11:47:08.074&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:25.434&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;DjangoCon EU 2010&quot;, 
+            &quot;language&quot;: null, 
+            &quot;slug&quot;: &quot;djangoconeu-benotchesneaugunicorndjangoandwsgi714&quot;, 
+            &quot;speakers&quot;: [], 
+            &quot;tags&quot;: [], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 2456, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Djangoconeu-BenotChesneauGunicornDjangoAndWSGI714.flv&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;&quot;, 
+            &quot;embed&quot;: &quot;&quot;, 
+            &quot;thumbnail_url&quot;: null, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: null, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: &quot;<a href="http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/djangocon-eu-2010/Djangoconeu-BenotChesneauGunicornDjangoAndWSGI714.flv" rel="nofollow">http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/djangocon-eu-2010/Djangoconeu-BenotChesneauGunicornDjangoAndWSGI714.flv</a>&quot;, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: null, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: null, 
+            &quot;added&quot;: &quot;2013-11-24T11:47:08.080&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:25.435&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;DjangoCon EU 2010&quot;, 
+            &quot;language&quot;: null, 
+            &quot;slug&quot;: &quot;djangoconeu-benotchesneaurelaxyourprojectwithcouc&quot;, 
+            &quot;speakers&quot;: [], 
+            &quot;tags&quot;: [], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 2457, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Djangoconeu-BenotChesneauRelaxYourProjectWithCouchDB295.flv&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;&quot;, 
+            &quot;embed&quot;: &quot;&quot;, 
+            &quot;thumbnail_url&quot;: null, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: null, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: &quot;<a href="http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/djangocon-eu-2010/Djangoconeu-BenotChesneauRelaxYourProjectWithCouchDB295.flv" rel="nofollow">http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/djangocon-eu-2010/Djangoconeu-BenotChesneauRelaxYourProjectWithCouchDB295.flv</a>&quot;, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: null, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: null, 
+            &quot;added&quot;: &quot;2013-11-24T11:47:08.085&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:25.436&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;DjangoCon EU 2010&quot;, 
+            &quot;language&quot;: null, 
+            &quot;slug&quot;: &quot;djangoconeu-djangotechnicaldesignpanel420flv&quot;, 
+            &quot;speakers&quot;: [], 
+            &quot;tags&quot;: [], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 2458, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Djangoconeu-DjangoTechnicalDesignPanel420.flv&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;&quot;, 
+            &quot;embed&quot;: &quot;&quot;, 
+            &quot;thumbnail_url&quot;: null, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: null, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: &quot;<a href="http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/djangocon-eu-2010/Djangoconeu-DjangoTechnicalDesignPanel420.flv" rel="nofollow">http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/djangocon-eu-2010/Djangoconeu-DjangoTechnicalDesignPanel420.flv</a>&quot;, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: null, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: null, 
+            &quot;added&quot;: &quot;2013-11-24T11:47:08.090&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:25.438&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;DjangoCon EU 2010&quot;, 
+            &quot;language&quot;: null, 
+            &quot;slug&quot;: &quot;djangoconeu-ericholschergettingthemostoutofyourte&quot;, 
+            &quot;speakers&quot;: [], 
+            &quot;tags&quot;: [], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 2459, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Djangoconeu-EricHolscherGettingTheMostOutOfYourTestSuite492.flv&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;&quot;, 
+            &quot;embed&quot;: &quot;&quot;, 
+            &quot;thumbnail_url&quot;: null, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: null, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: &quot;<a href="http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/djangocon-eu-2010/Djangoconeu-EricHolscherGettingTheMostOutOfYourTestSuite492.flv" rel="nofollow">http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/djangocon-eu-2010/Djangoconeu-EricHolscherGettingTheMostOutOfYourTestSuite492.flv</a>&quot;, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: null, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: null, 
+            &quot;added&quot;: &quot;2013-11-24T11:47:08.096&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:25.439&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;DjangoCon EU 2010&quot;, 
+            &quot;language&quot;: null, 
+            &quot;slug&quot;: &quot;djangoconeu-honzakrl224flv&quot;, 
+            &quot;speakers&quot;: [], 
+            &quot;tags&quot;: [], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 2460, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Djangoconeu-HonzaKrl224.flv&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;&quot;, 
+            &quot;embed&quot;: &quot;&quot;, 
+            &quot;thumbnail_url&quot;: null, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: null, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: &quot;<a href="http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/djangocon-eu-2010/Djangoconeu-HonzaKrl224.flv" rel="nofollow">http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/djangocon-eu-2010/Djangoconeu-HonzaKrl224.flv</a>&quot;, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: null, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: null, 
+            &quot;added&quot;: &quot;2013-11-24T11:47:08.101&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:25.440&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;DjangoCon EU 2010&quot;, 
+            &quot;language&quot;: null, 
+            &quot;slug&quot;: &quot;djangoconeu-idangazitdesignfordevelopersmakingyou&quot;, 
+            &quot;speakers&quot;: [], 
+            &quot;tags&quot;: [], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 2461, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Djangoconeu-IdanGazitDesignForDevelopersMakingYourFrontendSuckLess291.flv&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;&quot;, 
+            &quot;embed&quot;: &quot;&quot;, 
+            &quot;thumbnail_url&quot;: null, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: null, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: &quot;<a href="http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/djangocon-eu-2010/Djangoconeu-IdanGazitDesignForDevelopersMakingYourFrontendSuckLess291.flv" rel="nofollow">http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/djangocon-eu-2010/Djangoconeu-IdanGazitDesignForDevelopersMakingYourFrontendSuckLess291.flv</a>&quot;, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: null, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: null, 
+            &quot;added&quot;: &quot;2013-11-24T11:47:08.106&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:25.441&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;DjangoCon EU 2010&quot;, 
+            &quot;language&quot;: null, 
+            &quot;slug&quot;: &quot;djangoconeu-jacobkaplanmosskeynote270flv&quot;, 
+            &quot;speakers&quot;: [], 
+            &quot;tags&quot;: [], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 2462, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Djangoconeu-JacobKaplanMossKeynote270.flv&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;&quot;, 
+            &quot;embed&quot;: &quot;&quot;, 
+            &quot;thumbnail_url&quot;: null, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: null, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: &quot;<a href="http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/djangocon-eu-2010/Djangoconeu-JacobKaplanMossKeynote270.flv" rel="nofollow">http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/djangocon-eu-2010/Djangoconeu-JacobKaplanMossKeynote270.flv</a>&quot;, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: null, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: null, 
+            &quot;added&quot;: &quot;2013-11-24T11:47:08.112&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:25.443&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;DjangoCon EU 2010&quot;, 
+            &quot;language&quot;: null, 
+            &quot;slug&quot;: &quot;djangoconeu-jirkaschfer340flv&quot;, 
+            &quot;speakers&quot;: [], 
+            &quot;tags&quot;: [], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 2463, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Djangoconeu-JirkaSchfer340.flv&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;&quot;, 
+            &quot;embed&quot;: &quot;&quot;, 
+            &quot;thumbnail_url&quot;: null, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: null, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: &quot;<a href="http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/djangocon-eu-2010/Djangoconeu-JirkaSchfer340.flv" rel="nofollow">http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/djangocon-eu-2010/Djangoconeu-JirkaSchfer340.flv</a>&quot;, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: null, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: null, 
+            &quot;added&quot;: &quot;2013-11-24T11:47:08.118&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:25.444&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;DjangoCon EU 2010&quot;, 
+            &quot;language&quot;: null, 
+            &quot;slug&quot;: &quot;djangoconeu-joergkressredsquaredrivinginnovationa&quot;, 
+            &quot;speakers&quot;: [], 
+            &quot;tags&quot;: [], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 2464, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Djangoconeu-JoergKressRedSquareDrivingInnovationAtBMWWithDjango763.flv&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;&quot;, 
+            &quot;embed&quot;: &quot;&quot;, 
+            &quot;thumbnail_url&quot;: null, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: null, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: &quot;<a href="http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/djangocon-eu-2010/Djangoconeu-JoergKressRedSquareDrivingInnovationAtBMWWithDjango763.flv" rel="nofollow">http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/djangocon-eu-2010/Djangoconeu-JoergKressRedSquareDrivingInnovationAtBMWWithDjango763.flv</a>&quot;, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: null, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: null, 
+            &quot;added&quot;: &quot;2013-11-24T11:47:08.123&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:25.445&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;DjangoCon EU 2010&quot;, 
+            &quot;language&quot;: null, 
+            &quot;slug&quot;: &quot;djangoconeu-keynotejanlehnhardt551flv&quot;, 
+            &quot;speakers&quot;: [], 
+            &quot;tags&quot;: [], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 2465, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Djangoconeu-KeynoteJanLehnhardt551.flv&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;&quot;, 
+            &quot;embed&quot;: &quot;&quot;, 
+            &quot;thumbnail_url&quot;: null, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: null, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: &quot;<a href="http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/djangocon-eu-2010/Djangoconeu-KeynoteJanLehnhardt551.flv" rel="nofollow">http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/djangocon-eu-2010/Djangoconeu-KeynoteJanLehnhardt551.flv</a>&quot;, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: null, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: null, 
+            &quot;added&quot;: &quot;2013-11-24T11:47:08.129&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:25.446&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;DjangoCon EU 2010&quot;, 
+            &quot;language&quot;: null, 
+            &quot;slug&quot;: &quot;djangoconeu-lightingtalksthirdday663flv&quot;, 
+            &quot;speakers&quot;: [], 
+            &quot;tags&quot;: [], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 2466, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Djangoconeu-LightingTalksThirdDay663.flv&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;&quot;, 
+            &quot;embed&quot;: &quot;&quot;, 
+            &quot;thumbnail_url&quot;: null, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: null, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: &quot;<a href="http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/djangocon-eu-2010/Djangoconeu-LightingTalksThirdDay663.flv" rel="nofollow">http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/djangocon-eu-2010/Djangoconeu-LightingTalksThirdDay663.flv</a>&quot;, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: null, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: null, 
+            &quot;added&quot;: &quot;2013-11-24T11:47:08.134&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:25.449&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;DjangoCon EU 2010&quot;, 
+            &quot;language&quot;: null, 
+            &quot;slug&quot;: &quot;djangoconeu-lightningtalksmontag905flv&quot;, 
+            &quot;speakers&quot;: [], 
+            &quot;tags&quot;: [], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 2467, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Djangoconeu-LightningTalksMontag905.flv&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;&quot;, 
+            &quot;embed&quot;: &quot;&quot;, 
+            &quot;thumbnail_url&quot;: null, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: null, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: &quot;<a href="http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/djangocon-eu-2010/Djangoconeu-LightningTalksMontag905.flv" rel="nofollow">http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/djangocon-eu-2010/Djangoconeu-LightningTalksMontag905.flv</a>&quot;, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: null, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: null, 
+            &quot;added&quot;: &quot;2013-11-24T11:47:08.139&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:25.450&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;DjangoCon EU 2010&quot;, 
+            &quot;language&quot;: null, 
+            &quot;slug&quot;: &quot;djangoconeu-lightningtalkssecondday965flv&quot;, 
+            &quot;speakers&quot;: [], 
+            &quot;tags&quot;: [], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 2468, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Djangoconeu-LightningTalksSecondDay965.flv&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;&quot;, 
+            &quot;embed&quot;: &quot;&quot;, 
+            &quot;thumbnail_url&quot;: null, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: null, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: &quot;<a href="http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/djangocon-eu-2010/Djangoconeu-LightningTalksSecondDay965.flv" rel="nofollow">http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/djangocon-eu-2010/Djangoconeu-LightningTalksSecondDay965.flv</a>&quot;, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: null, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: null, 
+            &quot;added&quot;: &quot;2013-11-24T11:47:08.145&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:25.451&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;DjangoCon EU 2010&quot;, 
+            &quot;language&quot;: null, 
+            &quot;slug&quot;: &quot;djangoconeu-maciejpasternackibestofbothworldsdepl&quot;, 
+            &quot;speakers&quot;: [], 
+            &quot;tags&quot;: [], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 2469, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Djangoconeu-MaciejPasternackiBestOfBothWorldsDeployingDjangoApplica229.flv&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;&quot;, 
+            &quot;embed&quot;: &quot;&quot;, 
+            &quot;thumbnail_url&quot;: null, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: null, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: &quot;<a href="http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/djangocon-eu-2010/Djangoconeu-MaciejPasternackiBestOfBothWorldsDeployingDjangoApplica229.flv" rel="nofollow">http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/djangocon-eu-2010/Djangoconeu-MaciejPasternackiBestOfBothWorldsDeployingDjangoApplica229.flv</a>&quot;, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: null, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: null, 
+            &quot;added&quot;: &quot;2013-11-24T11:47:08.151&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:25.452&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;DjangoCon EU 2010&quot;, 
+            &quot;language&quot;: null, 
+            &quot;slug&quot;: &quot;djangoconeu-michaelpjungefficientdjangohostingfor&quot;, 
+            &quot;speakers&quot;: [], 
+            &quot;tags&quot;: [], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 2470, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Djangoconeu-MichaelPJungEfficientDjangoHostingForTheMasses869.flv&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;&quot;, 
+            &quot;embed&quot;: &quot;&quot;, 
+            &quot;thumbnail_url&quot;: null, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: null, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: &quot;<a href="http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/djangocon-eu-2010/Djangoconeu-MichaelPJungEfficientDjangoHostingForTheMasses869.flv" rel="nofollow">http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/djangocon-eu-2010/Djangoconeu-MichaelPJungEfficientDjangoHostingForTheMasses869.flv</a>&quot;, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: null, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: null, 
+            &quot;added&quot;: &quot;2013-11-24T11:47:08.156&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:25.454&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;DjangoCon EU 2010&quot;, 
+            &quot;language&quot;: null, 
+            &quot;slug&quot;: &quot;djangoconeu-nosqlpanel416m4v&quot;, 
+            &quot;speakers&quot;: [], 
+            &quot;tags&quot;: [], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 2471, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Djangoconeu-NoSQLPanel416.m4v&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;&quot;, 
+            &quot;embed&quot;: &quot;&quot;, 
+            &quot;thumbnail_url&quot;: null, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: &quot;<a href="http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/djangocon-eu-2010/Djangoconeu-NoSQLPanel416.m4v" rel="nofollow">http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/djangocon-eu-2010/Djangoconeu-NoSQLPanel416.m4v</a>&quot;, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: null, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: null, 
+            &quot;added&quot;: &quot;2013-11-24T11:47:08.161&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:25.455&quot;
+        }
+    ]
+}</pre>
+            </div>
+        </div>
+
+            
+
+                
+
+                
+            
+
+        </div>
+        <!-- END content-main -->
+
+    </div>
+    <!-- END Content -->
+
+        <div id="push"></div>
+
+    </div>
+
+    </div><!-- ./wrapper -->
+
+    
+    
+
+    
+    <script src="/static/rest_framework/js/jquery-1.8.1-min.js"></script>
+    <script src="/static/rest_framework/js/bootstrap.min.js"></script>
+    <script src="/static/rest_framework/js/prettify-min.js"></script>
+    <script src="/static/rest_framework/js/default.js"></script>
+    
+  </body>
+
+<!-- Mirrored from pyvideo.org/api/v2/video/?page=4&format=api by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 07 Jan 2016 03:46:49 GMT -->
+</html>

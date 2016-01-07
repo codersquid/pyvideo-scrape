@@ -1,0 +1,191 @@
+
+
+<!DOCTYPE html>
+<html>
+    
+<!-- Mirrored from pyvideo.org/api/v2/video/2978 by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 07 Jan 2016 03:23:32 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+    
+
+        
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+        <meta name="robots" content="NONE,NOARCHIVE" />
+        
+
+        <title>Django REST framework</title>
+
+        
+        
+            <link rel="stylesheet" type="text/css" href="/static/rest_framework/css/bootstrap.min.css"/>
+            <link rel="stylesheet" type="text/css" href="/static/rest_framework/css/bootstrap-tweaks.css"/>
+        
+        <link rel="stylesheet" type="text/css" href="/static/rest_framework/css/prettify.css"/>
+        <link rel="stylesheet" type="text/css" href="/static/rest_framework/css/default.css"/>
+        
+
+    
+    </head>
+
+  <body class=" container">
+
+    <div class="wrapper">
+
+    
+    <div class="navbar navbar-inverse">
+        <div class="navbar-inner">
+            <div class="container-fluid">
+                <span href="/">
+                    <a class='brand' rel="nofollow" href='http://www.django-rest-framework.org'>Django REST framework <span class="version">2.3.14</span></a>
+                </span>
+                <ul class="nav pull-right">
+                    
+                        
+                            <li></li>
+                        
+                    
+                </ul>
+            </div>
+        </div>
+    </div>
+    
+
+    
+    <ul class="breadcrumb">
+        
+            <li>
+                <a href="/api/v2/video/" >Video List Create Api</a> <span class="divider">&rsaquo;</span>
+            </li>
+        
+            <li>
+                <a href="/api/v2/video/2978" class="active">Video Retrieve Update Api</a> 
+            </li>
+        
+    </ul>
+    
+
+    <!-- Content -->
+    <div id="content">
+
+        
+            <form id="get-form" class="pull-right">
+                <fieldset>
+                    <div class="btn-group format-selection">
+                        <a class="btn btn-primary js-tooltip" href='/api/v2/video/2978' rel="nofollow" title="Make a GET request on the Video Retrieve Update Api resource">GET</a>
+
+                        <button class="btn btn-primary dropdown-toggle js-tooltip" data-toggle="dropdown" title="Specify a format for the GET request">
+                            <span class="caret"></span>
+                        </button>
+                        <ul class="dropdown-menu">
+                            
+                                <li>
+                                    <a class="js-tooltip format-option" href='/api/v2/video/2978?format=json' rel="nofollow" title="Make a GET request on the Video Retrieve Update Api resource with the format set to `json`">json</a>
+                                </li>
+                            
+                                <li>
+                                    <a class="js-tooltip format-option" href='/api/v2/video/2978?format=api' rel="nofollow" title="Make a GET request on the Video Retrieve Update Api resource with the format set to `api`">api</a>
+                                </li>
+                            
+                        </ul>
+                    </div>
+
+                </fieldset>
+            </form>
+        
+
+        
+            <form class="button-form" action="/api/v2/video/2978" method="POST" class="pull-right">
+                <input type='hidden' name='csrfmiddlewaretoken' value='pT8iI6zhtQdsGFmu4tryYgFrUlipl2B3' />
+                <input type="hidden" name="_method" value="OPTIONS" />
+                <button class="btn btn-primary js-tooltip" title="Make an OPTIONS request on the Video Retrieve Update Api resource">OPTIONS</button>
+            </form>
+        
+
+        
+
+        <div class="content-main">
+            <div class="page-header"><h1>Video Retrieve Update Api</h1></div>
+            
+            
+            
+            <div class="request-info" style="clear: both" >
+                <pre class="prettyprint"><b>GET</b> /api/v2/video/2978</pre>
+            </div>
+            <div class="response-info">
+                <pre class="prettyprint"><div class="meta nocode"><b>HTTP 200 OK</b>
+<b>Content-Type:</b> <span class="lit">application/json</span>
+<b>Vary:</b> <span class="lit">Accept</span>
+<b>Allow:</b> <span class="lit">GET, PUT, PATCH, HEAD, OPTIONS</span>
+
+</div>{
+    &quot;category&quot;: &quot;EuroPython 2014&quot;, 
+    &quot;language&quot;: &quot;English&quot;, 
+    &quot;slug&quot;: &quot;the-shogun-machine-learning-toolbox&quot;, 
+    &quot;speakers&quot;: [
+        &quot;Heiko Strathmann&quot;
+    ], 
+    &quot;tags&quot;: [], 
+    &quot;related_urls&quot;: [], 
+    &quot;id&quot;: 2978, 
+    &quot;state&quot;: 1, 
+    &quot;title&quot;: &quot;The Shogun Machine Learning Toolbox&quot;, 
+    &quot;summary&quot;: &quot;We present the Shogun Machine Learning Toolbox, a framework for Machine Learning, which is the art of finding structure in data, with applications in object recognition, brain-computer interfaces, robotics,  stock-prices prediction, etc. We give a gentle introduction to ML and Shogun&#39;s Python interface, focussing on intuition and visualisation.&quot;, 
+    &quot;description&quot;: &quot;We present the Shogun Machine Learning Toolbox, a unified framework for Machine Learning  algorithms. Machine Learning (ML) is the art of finding structure in data in an automated way and has given rise to a wide range of applications such as recommendation systems, object recognition, brain-computer interfaces, robotics, predicting stock prices, etc.\r\n\r\nOur toolbox offers extensive bindings with other software and computing languages, Python being the major target. The library was initiated in 1999 and remained under heavy development henceforth. In addition to its mature core-framework, Shogun offers state-of-the-art techniques based on latest ML research. This is partly made possible by the 21 Google Summer of Code projects (5+8+8 since 2011) that our students successfully completed. Shogun&#39;s codebase has &gt;20k commits made by &gt;100 contributors representing &gt;500k lines of code. While its core is written in C++, a unique of technique for generating interfaces allows usage from a wide range of target languages -- under the same syntax. This includes in particular Python, but also Matlab/Octave, Java, C#, R, ruby, and more. We believe that users should be able to choose their favourite language rather than us dictating this choice. The same applies for supported OS (Linux, Mac, Win). Shogun is part of Debian Linux.\r\n\r\nFeatures of Shogun include most classical ML methods such as classification, regression, dimensionality reduction, clustering, etc, most of them in different flavours. All implemented algorithms in Shogun work on a modular data representation, which allows to easily switch between different sorts of objects as for example strings or matrices. Common ML-tasks and data IO can be carried under a unified interface. This is also true for the various external open-source libraries that are embedded within Shogun.\r\n\r\nCode examples are provided for all implemented algorithms. The main and most complete set of examples is in the Python language. In addition, in order to push usage of Shogun in education at universities, we recently started adding more illustrative IPython notebooks. A growing list of statically rendered versions are readily available from our [website](http://www.shogun-toolbox.org/page/documentation/notebook) and implement a cross-over of tutorial-style explanations, code, and visualization examples. We even took this up a notch and started building our own IPython-notebook server with Shogun installed in the cloud at (try cloud button in notebook view) . This allows users to try Shogun without installation via the IPython notebook web interface. All example notebooks can be loaded, interactively modified, and executed. In addition, using the Python Django framework, we built a collection of interactive web-demos where users can play around with basic ML algorithms, [demos](http://www.shogun-toolbox.org/page/documentation/demo)\r\n\r\nIn the proposed talk, we will give a gentle and general introduction to ML and the core functionality of Shogun, with a focus on its Python interface. This includes solving basic ML tasks such as classification and regression and some of the more recent features, such as last year&#39;s GSoC projects and their IPython notebook writeups. ML material will be presented with a focus on intuition and visualisation and no previous familiarity with ML methods is required.\r\n\r\n## Key points in the talk\r\n\r\n * What are the goals in ML?\r\n * Example problems in ML (classification, regression, clustering)\r\n * Some basic algorithm ideas\r\n * Focus on Visualisation, not Maths\r\n\r\n## Intended Audience\r\n\r\n* All people dealing with data (data scientists, big-data hackers) who are looking for tools to deal with it\r\n * People with a general interest but no education in Machine Learning\r\n * People interested in the technology behind Shogun (swig, cloud notebook server, web-demos)\r\n * People from the ML community (scipy-stack)\r\n * ML scientists/Statisticians\r\n\r\n## Code examples\r\n\r\n * [Classification](https://github.com/shogun-toolbox/shogun/blob/develop/examples/undocumented/python_modular/classifier_libsvm_modular.py)\r\n * [Clustering](https://github.com/shogun-toolbox/shogun/blob/develop/examples/undocumented/python_modular/graphical/em_2d_gmm.py)\r\n * [Source seperation](https://github.com/shogun-toolbox/shogun/blob/develop/examples/undocumented/python_modular/graphical/converter_jade_bss.py)\r\n * [IPython notebook examples](http://www.shogun-toolbox.org/page/documentation/notebook)\r\n\r\n### Slide examples\r\nSee our Europython 2010 [slides](https://www.dropbox.com/sh/jvl4ra885usu4ii/WIoJccXA5r/talk.pdf). Although we aim for more pictures and less formulas this year. &quot;, 
+    &quot;quality_notes&quot;: &quot;&quot;, 
+    &quot;copyright_text&quot;: &quot;<a href="http://creativecommons.org/licenses/by/3.0/" rel="nofollow">http://creativecommons.org/licenses/by/3.0/</a>&quot;, 
+    &quot;embed&quot;: &quot;&lt;object width=\&quot;640\&quot; height=\&quot;390\&quot;&gt;&lt;param name=\&quot;movie\&quot; value=\&quot;http://youtube.com/v/5Zuq0sLFkBY?version=3&amp;amp;hl=en_US\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowFullScreen\&quot; value=\&quot;true\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowscriptaccess\&quot; value=\&quot;always\&quot;&gt;&lt;/param&gt;&lt;embed src=\&quot;http://youtube.com/v/5Zuq0sLFkBY?version=3&amp;amp;hl=en_US\&quot; type=\&quot;application/x-shockwave-flash\&quot; width=\&quot;640\&quot; height=\&quot;390\&quot; allowscriptaccess=\&quot;always\&quot; allowfullscreen=\&quot;true\&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&quot;, 
+    &quot;thumbnail_url&quot;: &quot;<a href="http://i.ytimg.com/vi/5Zuq0sLFkBY/hqdefault.jpg" rel="nofollow">http://i.ytimg.com/vi/5Zuq0sLFkBY/hqdefault.jpg</a>&quot;, 
+    &quot;duration&quot;: null, 
+    &quot;video_ogv_length&quot;: null, 
+    &quot;video_ogv_url&quot;: &quot;&quot;, 
+    &quot;video_ogv_download_only&quot;: false, 
+    &quot;video_mp4_length&quot;: null, 
+    &quot;video_mp4_url&quot;: &quot;&quot;, 
+    &quot;video_mp4_download_only&quot;: false, 
+    &quot;video_webm_length&quot;: null, 
+    &quot;video_webm_url&quot;: &quot;&quot;, 
+    &quot;video_webm_download_only&quot;: false, 
+    &quot;video_flv_length&quot;: null, 
+    &quot;video_flv_url&quot;: &quot;&quot;, 
+    &quot;video_flv_download_only&quot;: false, 
+    &quot;source_url&quot;: &quot;<a href="http://www.youtube.com/watch?v=5Zuq0sLFkBY" rel="nofollow">http://www.youtube.com/watch?v=5Zuq0sLFkBY</a>&quot;, 
+    &quot;whiteboard&quot;: &quot;&quot;, 
+    &quot;recorded&quot;: &quot;2014-07-24&quot;, 
+    &quot;added&quot;: &quot;2014-07-31T00:46:28.510&quot;, 
+    &quot;updated&quot;: &quot;2014-07-31T23:12:02.970&quot;
+}</pre>
+            </div>
+        </div>
+
+            
+
+                
+
+                
+            
+
+        </div>
+        <!-- END content-main -->
+
+    </div>
+    <!-- END Content -->
+
+        <div id="push"></div>
+
+    </div>
+
+    </div><!-- ./wrapper -->
+
+    
+    
+
+    
+    <script src="/static/rest_framework/js/jquery-1.8.1-min.js"></script>
+    <script src="/static/rest_framework/js/bootstrap.min.js"></script>
+    <script src="/static/rest_framework/js/prettify-min.js"></script>
+    <script src="/static/rest_framework/js/default.js"></script>
+    
+  </body>
+
+<!-- Mirrored from pyvideo.org/api/v2/video/2978 by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 07 Jan 2016 03:23:33 GMT -->
+</html>

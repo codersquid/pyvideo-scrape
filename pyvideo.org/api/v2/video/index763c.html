@@ -1,0 +1,898 @@
+
+
+<!DOCTYPE html>
+<html>
+    
+<!-- Mirrored from pyvideo.org/api/v2/video/?page=38 by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 07 Jan 2016 03:48:10 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+    
+
+        
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+        <meta name="robots" content="NONE,NOARCHIVE" />
+        
+
+        <title>Django REST framework</title>
+
+        
+        
+            <link rel="stylesheet" type="text/css" href="/static/rest_framework/css/bootstrap.min.css"/>
+            <link rel="stylesheet" type="text/css" href="/static/rest_framework/css/bootstrap-tweaks.css"/>
+        
+        <link rel="stylesheet" type="text/css" href="/static/rest_framework/css/prettify.css"/>
+        <link rel="stylesheet" type="text/css" href="/static/rest_framework/css/default.css"/>
+        
+
+    
+    </head>
+
+  <body class=" container">
+
+    <div class="wrapper">
+
+    
+    <div class="navbar navbar-inverse">
+        <div class="navbar-inner">
+            <div class="container-fluid">
+                <span href="/">
+                    <a class='brand' rel="nofollow" href='http://www.django-rest-framework.org'>Django REST framework <span class="version">2.3.14</span></a>
+                </span>
+                <ul class="nav pull-right">
+                    
+                        
+                            <li></li>
+                        
+                    
+                </ul>
+            </div>
+        </div>
+    </div>
+    
+
+    
+    <ul class="breadcrumb">
+        
+            <li>
+                <a href="/api/v2/video/" class="active">Video List Create Api</a> 
+            </li>
+        
+    </ul>
+    
+
+    <!-- Content -->
+    <div id="content">
+
+        
+            <form id="get-form" class="pull-right">
+                <fieldset>
+                    <div class="btn-group format-selection">
+                        <a class="btn btn-primary js-tooltip" href='/api/v2/video/?page=38' rel="nofollow" title="Make a GET request on the Video List Create Api resource">GET</a>
+
+                        <button class="btn btn-primary dropdown-toggle js-tooltip" data-toggle="dropdown" title="Specify a format for the GET request">
+                            <span class="caret"></span>
+                        </button>
+                        <ul class="dropdown-menu">
+                            
+                                <li>
+                                    <a class="js-tooltip format-option" href='/api/v2/video/?page=38&format=json' rel="nofollow" title="Make a GET request on the Video List Create Api resource with the format set to `json`">json</a>
+                                </li>
+                            
+                                <li>
+                                    <a class="js-tooltip format-option" href='/api/v2/video/?page=38&format=api' rel="nofollow" title="Make a GET request on the Video List Create Api resource with the format set to `api`">api</a>
+                                </li>
+                            
+                        </ul>
+                    </div>
+
+                </fieldset>
+            </form>
+        
+
+        
+            <form class="button-form" action="/api/v2/video/?page=38" method="POST" class="pull-right">
+                <input type='hidden' name='csrfmiddlewaretoken' value='pT8iI6zhtQdsGFmu4tryYgFrUlipl2B3' />
+                <input type="hidden" name="_method" value="OPTIONS" />
+                <button class="btn btn-primary js-tooltip" title="Make an OPTIONS request on the Video List Create Api resource">OPTIONS</button>
+            </form>
+        
+
+        
+
+        <div class="content-main">
+            <div class="page-header"><h1>Video List Create Api</h1></div>
+            
+            
+            
+            <div class="request-info" style="clear: both" >
+                <pre class="prettyprint"><b>GET</b> /api/v2/video/?page=38</pre>
+            </div>
+            <div class="response-info">
+                <pre class="prettyprint"><div class="meta nocode"><b>HTTP 200 OK</b>
+<b>Content-Type:</b> <span class="lit">application/json</span>
+<b>Vary:</b> <span class="lit">Accept</span>
+<b>Allow:</b> <span class="lit">GET, POST, HEAD, OPTIONS</span>
+
+</div>{
+    &quot;count&quot;: 3439, 
+    &quot;next&quot;: &quot;<a href="http://pyvideo.org/api/v2/video/?page=39" rel="nofollow">http://pyvideo.org/api/v2/video/?page=39</a>&quot;, 
+    &quot;previous&quot;: &quot;<a href="http://pyvideo.org/api/v2/video/?page=37" rel="nofollow">http://pyvideo.org/api/v2/video/?page=37</a>&quot;, 
+    &quot;results&quot;: [
+        {
+            &quot;category&quot;: &quot;PyCon Italia 2015&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;python-3-for-data-science-what-works-what-doesn&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Valerio Maggio&quot;
+            ], 
+            &quot;tags&quot;: [], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 3578, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Python 3 for Data Science: what works, what doesn&#39;t&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;In the last years, the Python programming language has engaged a \nmajor renovation, and Python 3.x is going to be the next generation reference\nof the language.\nHowever, despite the community strives to support the language switch \namong pythonistas, Python 3 is not yet the real de-facto reference version \nof the language and Python 2.x is still on the go.\nMoreover, as for the scientific Python community, only few years ago most \nof the scientific python packages only (or mainly) supported Python 2.\nIn this talk we will analyse how far the support to Python 3 extent to the \nPython scientific packages, emphasising what actually works and \nwhat doesn\u2019t.\nThe general claim of this talk is that, from a technical perspective, Python 3 \nis a more mature language from many point of view (w.r.t. Python 2), \nand the scientific community is now able more than ever to switch to Python 3. \nHowever, so far, the switch has not been done yet. \nThus, some reflections on this \u201cparticular\u201d community of pythonistas will \nconclude the talk in order to stimulate the discussion and derive together \npossible solutions and \u201cworkaround\u201d to support this change.\n&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;&quot;, 
+            &quot;embed&quot;: &quot;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="https://i.ytimg.com/vi/TE7xo1Xk9Fo/maxresdefault.jpg" rel="nofollow">https://i.ytimg.com/vi/TE7xo1Xk9Fo/maxresdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: 1546, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: null, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="https://www.youtube.com/watch?v=TE7xo1Xk9Fo" rel="nofollow">https://www.youtube.com/watch?v=TE7xo1Xk9Fo</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2015-05-30&quot;, 
+            &quot;added&quot;: &quot;2015-06-14T17:02:22.026&quot;, 
+            &quot;updated&quot;: &quot;2015-06-14T17:02:22.026&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;DePy 2015&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;python-in-computer-security-students-perspecti&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Li-Wey Lu&quot;, 
+                &quot;Ryan Haley&quot;
+            ], 
+            &quot;tags&quot;: [], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 3558, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Python in Computer Security - Student&#39;s Perspective&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;As students of computer security, we are often the subject of academic discussion regarding the best topics to study. We hope to show how we have utilized python to within our area of study and why it is important for future students. Our goal is to encourage future classes of students to enjoy scripting. We will introduce how we as security students utilize Python as an everyday tool with specific examples of how we used Python in various security competitions and gave us a noticeable advantage over other teams.  This will include scripts used as defenders against various red team attacks&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;&quot;, 
+            &quot;embed&quot;: &quot;&lt;object width=\&quot;640\&quot; height=\&quot;390\&quot;&gt;&lt;param name=\&quot;movie\&quot; value=\&quot;http://youtube.com/v/UKY3scPIMd8?version=3&amp;amp;hl=en_US\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowFullScreen\&quot; value=\&quot;true\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowscriptaccess\&quot; value=\&quot;always\&quot;&gt;&lt;/param&gt;&lt;embed src=\&quot;http://youtube.com/v/UKY3scPIMd8?version=3&amp;amp;hl=en_US\&quot; type=\&quot;application/x-shockwave-flash\&quot; width=\&quot;640\&quot; height=\&quot;390\&quot; allowscriptaccess=\&quot;always\&quot; allowfullscreen=\&quot;true\&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://i.ytimg.com/vi/UKY3scPIMd8/hqdefault.jpg" rel="nofollow">http://i.ytimg.com/vi/UKY3scPIMd8/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: 1357, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: &quot;<a href="http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/depy-2015/3558_Python_in_Computer_Security_Students_Perspective.mp4" rel="nofollow">http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/depy-2015/3558_Python_in_Computer_Security_Students_Perspective.mp4</a>&quot;, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="http://youtu.be/qoNADxPpc2U" rel="nofollow">http://youtu.be/qoNADxPpc2U</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2015-05-30&quot;, 
+            &quot;added&quot;: &quot;2015-05-27T13:53:38.442&quot;, 
+            &quot;updated&quot;: &quot;2015-06-01T07:09:37.151&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;DePy 2015&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;python-powered-machine-learning-in-the-cloud&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Stephen Hoover&quot;
+            ], 
+            &quot;tags&quot;: [], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 3556, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Python-Powered Machine Learning in the Cloud&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;Python is a powerful, easy-to-use language which now has a wide range of numerical and machine-learning open source libraries. At Civis Analytics, we&#39;ve built a cloud-based platform for data science which empowers analysts to extract insights from their data with less effort. The platform itself runs on Amazon Web Services, and the machine learning workflows at the core of the platform are coded in Python. Open-source Python libraries such as pandas, numpy, statsmodels, and scikit-learn let our data scientists focus on high-level workflows and greatly accelerate our development process. In this talk, I&#39;ll give an overview of Civis&#39;s new data science platform, focusing on the machine-learning aspects. I&#39;ll talk about how we use Python open-source libraries to help with data analysis, and some of the challenges we&#39;ve overcome along the way.&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;&quot;, 
+            &quot;embed&quot;: &quot;&lt;object width=\&quot;640\&quot; height=\&quot;390\&quot;&gt;&lt;param name=\&quot;movie\&quot; value=\&quot;http://youtube.com/v/UKY3scPIMd8?version=3&amp;amp;hl=en_US\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowFullScreen\&quot; value=\&quot;true\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowscriptaccess\&quot; value=\&quot;always\&quot;&gt;&lt;/param&gt;&lt;embed src=\&quot;http://youtube.com/v/UKY3scPIMd8?version=3&amp;amp;hl=en_US\&quot; type=\&quot;application/x-shockwave-flash\&quot; width=\&quot;640\&quot; height=\&quot;390\&quot; allowscriptaccess=\&quot;always\&quot; allowfullscreen=\&quot;true\&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://i.ytimg.com/vi/UKY3scPIMd8/hqdefault.jpg" rel="nofollow">http://i.ytimg.com/vi/UKY3scPIMd8/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: 1074, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: &quot;<a href="http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/depy-2015/3556_PythonPowered_Machine_Learning_in_the_Cloud.mp4" rel="nofollow">http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/depy-2015/3556_PythonPowered_Machine_Learning_in_the_Cloud.mp4</a>&quot;, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="http://youtu.be/dHP7qo2xyX0" rel="nofollow">http://youtu.be/dHP7qo2xyX0</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2015-05-30&quot;, 
+            &quot;added&quot;: &quot;2015-05-27T13:53:36.215&quot;, 
+            &quot;updated&quot;: &quot;2015-06-09T11:43:56.687&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyCon Italia 2015&quot;, 
+            &quot;language&quot;: &quot;Italian&quot;, 
+            &quot;slug&quot;: &quot;si-puo-fare-e-commerce-con-django&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Marco Badan&quot;
+            ], 
+            &quot;tags&quot;: [], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 3586, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Si puo\u0300 fare E Commerce con Django?&quot;, 
+            &quot;summary&quot;: &quot;Ci sono molte soluzioni per il commercio elettronico al di fuori di Python.\nVi racconter\u00f2 perch\u00e9  per me \u00e8 meglio fare e-commerce con Python  e Django anche per  piccoli progetti.\nFar\u00f2 un\u2019introduzione a  django-oscar una soluzione  e-commerce per Django.\n&quot;, 
+            &quot;description&quot;: &quot;&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;&quot;, 
+            &quot;embed&quot;: &quot;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="https://i.ytimg.com/vi/3YeVL5faRo4/maxresdefault.jpg" rel="nofollow">https://i.ytimg.com/vi/3YeVL5faRo4/maxresdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: 2565, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: null, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="https://www.youtube.com/watch?v=3YeVL5faRo4" rel="nofollow">https://www.youtube.com/watch?v=3YeVL5faRo4</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2015-05-30&quot;, 
+            &quot;added&quot;: &quot;2015-06-14T17:02:22.836&quot;, 
+            &quot;updated&quot;: &quot;2015-06-14T17:02:22.836&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyCon Italia 2015&quot;, 
+            &quot;language&quot;: &quot;Italian&quot;, 
+            &quot;slug&quot;: &quot;test-driven-machine-learning-with-scikit-learn&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Valerio Maggio&quot;
+            ], 
+            &quot;tags&quot;: [], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 3574, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Test-driven machine learning with scikit-learn&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;Machine learning is an amazing research and application field, which perfectly matches math skills with coding abilities in order to define programs that are able to learn from data.  Therefore, after having defined our own (mathematical) model, machine learning is about writing code - sometimes a lot of - to actually make the model to work.  However, one point usually underestimated or omitted when dealing with machine learning algorithms is how to write good quality code.\r\n\r\nTest-driven development (TDD) is one of the most popular agile methods, specifically designed to support developers in producing (potential) less-buggy code by writing tests before the actual code under test.  The application of test-first programming principles to the implementation of Naive Bayes classifiers or Neural networks looks like a daunting challenge. \r\n\r\nConversely, the test-code-refactor cycle strategy founds its principles in the scientific method: make a proposition of validity, share results, work in feedback loops.  Moreover, this kind of approach to tackle problems, in this particular case would also allow for a better understanding of how the whole learning model works under the hood.\r\n\r\nIn this talk, examples of Test-Driven implementations of some of the most famous machine learning algorithms will be presented using scikit-learn.\r\n\r\nThe talk is intended for an intermediate audience.  The content of the talk is intended to be mostly practical, and code oriented. Thus a good proficiency with the Python language is required.  Conversely, no prior knowledge about TDD nor Machine Learning algorithms is necessary to attend this talk.\r\n&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;&quot;, 
+            &quot;embed&quot;: &quot;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="https://i.ytimg.com/vi/JlcDw2V9JJY/maxresdefault.jpg" rel="nofollow">https://i.ytimg.com/vi/JlcDw2V9JJY/maxresdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: 2425, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: &quot;&quot;, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: &quot;&quot;, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: &quot;&quot;, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: &quot;&quot;, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="https://www.youtube.com/watch?v=JlcDw2V9JJY" rel="nofollow">https://www.youtube.com/watch?v=JlcDw2V9JJY</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2015-05-30&quot;, 
+            &quot;added&quot;: &quot;2015-06-14T17:02:21.558&quot;, 
+            &quot;updated&quot;: &quot;2015-06-14T17:32:26.618&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyCon Italia 2015&quot;, 
+            &quot;language&quot;: &quot;Italian&quot;, 
+            &quot;slug&quot;: &quot;testing-di-applicazioni-django-con-pytest&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Simone Dalla&quot;
+            ], 
+            &quot;tags&quot;: [], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 3572, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Testing di applicazioni Django con pytest&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;Django lo conosciamo. Scriviamo le nostre applicazione e nel mentre abbiamo la nostra suite di test automatizzati. Possibilmente seguiamo la disciplina del \u201ctest-driven development\u201d e Django ci fornisce gi\u00e0 una serie di strumenti per seguirla. Pytest  si definisce \u201ca mature full-featured Python testing tool\u201d e io sono d\u2019accordo. Vedremo come pu\u00f2 aggiungere qualcosa, pu\u00f2 integrarsi o perfino sostituire gli strumenti forniti da Django per scrivere ed effettuare i nostri tests.\n&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;&quot;, 
+            &quot;embed&quot;: &quot;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="https://i.ytimg.com/vi/LYxTIH0hggM/maxresdefault.jpg" rel="nofollow">https://i.ytimg.com/vi/LYxTIH0hggM/maxresdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: 2386, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: null, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="https://www.youtube.com/watch?v=LYxTIH0hggM" rel="nofollow">https://www.youtube.com/watch?v=LYxTIH0hggM</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2015-05-30&quot;, 
+            &quot;added&quot;: &quot;2015-06-14T17:02:21.374&quot;, 
+            &quot;updated&quot;: &quot;2015-06-14T17:02:21.375&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;DePy 2015&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;the-use-of-web-games-to-train-data-analysts&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Casey Schroeder&quot;
+            ], 
+            &quot;tags&quot;: [], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 3557, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;The Use of Web Games to Train Data Analysts&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;There has been recent work on the taxonomy of games which are based, one way or another, on real world data. Typically these games help people learn that data or how to cope with it. The traditional examples are simulation games (flight, driving, etc.), while other games incorporate data in such a way that it is beneficial to learn the real world data in the game play (trivia). These types of data-games commonly have a domain specific focus.  We intend to explore the possibility of interactive games which help people to learn data analysis, in general, implementing some such games in python using web2py.&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;&quot;, 
+            &quot;embed&quot;: &quot;&lt;object width=\&quot;640\&quot; height=\&quot;390\&quot;&gt;&lt;param name=\&quot;movie\&quot; value=\&quot;http://youtube.com/v/UKY3scPIMd8?version=3&amp;amp;hl=en_US\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowFullScreen\&quot; value=\&quot;true\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowscriptaccess\&quot; value=\&quot;always\&quot;&gt;&lt;/param&gt;&lt;embed src=\&quot;http://youtube.com/v/UKY3scPIMd8?version=3&amp;amp;hl=en_US\&quot; type=\&quot;application/x-shockwave-flash\&quot; width=\&quot;640\&quot; height=\&quot;390\&quot; allowscriptaccess=\&quot;always\&quot; allowfullscreen=\&quot;true\&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://i.ytimg.com/vi/UKY3scPIMd8/hqdefault.jpg" rel="nofollow">http://i.ytimg.com/vi/UKY3scPIMd8/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: 1118, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: &quot;<a href="http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/depy-2015/3557_The_Use_of_Web_Games_to_Train_Data_Analysts.mp4" rel="nofollow">http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/depy-2015/3557_The_Use_of_Web_Games_to_Train_Data_Analysts.mp4</a>&quot;, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="http://youtu.be/nwABte_7JWg" rel="nofollow">http://youtu.be/nwABte_7JWg</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2015-05-30&quot;, 
+            &quot;added&quot;: &quot;2015-05-27T13:53:37.310&quot;, 
+            &quot;updated&quot;: &quot;2015-06-03T12:10:38.102&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;DePy 2015&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;work-work-money-money&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Tanya Schlusser&quot;
+            ], 
+            &quot;tags&quot;: [], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 3550, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Work work money money&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;Public census and economics data are combined with job board postings to paint a portrait of industry growth and salary differences across the United States. Apache Spark&#39;s Python shell is used for analytics; Heroku hosts the visualizations.&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;&quot;, 
+            &quot;embed&quot;: &quot;&lt;object width=\&quot;640\&quot; height=\&quot;390\&quot;&gt;&lt;param name=\&quot;movie\&quot; value=\&quot;http://youtube.com/v/UKY3scPIMd8?version=3&amp;amp;hl=en_US\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowFullScreen\&quot; value=\&quot;true\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowscriptaccess\&quot; value=\&quot;always\&quot;&gt;&lt;/param&gt;&lt;embed src=\&quot;http://youtube.com/v/UKY3scPIMd8?version=3&amp;amp;hl=en_US\&quot; type=\&quot;application/x-shockwave-flash\&quot; width=\&quot;640\&quot; height=\&quot;390\&quot; allowscriptaccess=\&quot;always\&quot; allowfullscreen=\&quot;true\&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://i.ytimg.com/vi/UKY3scPIMd8/hqdefault.jpg" rel="nofollow">http://i.ytimg.com/vi/UKY3scPIMd8/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: 1253, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: &quot;<a href="http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/depy-2015/3550_Work_work_money_money.mp4" rel="nofollow">http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/depy-2015/3550_Work_work_money_money.mp4</a>&quot;, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="http://youtu.be/MQzvgpFyeSQ" rel="nofollow">http://youtu.be/MQzvgpFyeSQ</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2015-05-30&quot;, 
+            &quot;added&quot;: &quot;2015-05-27T13:53:29.368&quot;, 
+            &quot;updated&quot;: &quot;2015-06-01T07:09:34.761&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyCon Italia 2015&quot;, 
+            &quot;language&quot;: &quot;Italian&quot;, 
+            &quot;slug&quot;: &quot;a-little-multiplatform-pure-python-gui&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Davide Rosa&quot;
+            ], 
+            &quot;tags&quot;: [], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 3613, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;A little, multiplatform, pure python GUI&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;Nuova piattaforma, nuova GUI. Sempre la stessa storia. Quante volte vi \u00e8 capitato di adattare un vostro script ad una nuova piattaforma, solo perch\u00e9 l\u2019interfaccia utente non era supportata dal device di destinazione? E poi installa questo, installa quello e qualcosa non v\u00e0\u2026 Bene, vi presento la mia GUI, 28Kb di puro python, puro stupendo e morbido python. \nE che dire della possibilit\u00e0 di accesso remoto all\u2019interfaccia? Quanto sarebbe bello poter sviluppare su Android o Raspberry e dare comandi da remoto tramite il vostro PC? Certo, perch\u00e9 oltre ad essere multipiattaforma, la vostra nuova interfaccia \u00e8 visualizzabile da qualunque dispositivo sulla rete (se voi lo vorrete ovviamente ;-) ) attraverso un comunissimo browser.\nVe la presento. \nLink: github.com/dddomodossola/gui\n&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;&quot;, 
+            &quot;embed&quot;: &quot;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="https://i.ytimg.com/vi/HNyKU3o3v5c/maxresdefault.jpg" rel="nofollow">https://i.ytimg.com/vi/HNyKU3o3v5c/maxresdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: 1190, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: null, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="https://www.youtube.com/watch?v=HNyKU3o3v5c" rel="nofollow">https://www.youtube.com/watch?v=HNyKU3o3v5c</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2015-05-29&quot;, 
+            &quot;added&quot;: &quot;2015-06-14T17:04:25.817&quot;, 
+            &quot;updated&quot;: &quot;2015-06-14T17:04:25.817&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyCon Italia 2015&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;asynchronous-web-development-with-python-3&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Anton Caceres&quot;
+            ], 
+            &quot;tags&quot;: [], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 3630, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Asynchronous Web Development with Python 3&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;The asyncio module with updated chainable coroutines introduced with Python 3.4 was a game-changer for I/O management and asynchronous web development in Python. Even web frameworks like Tornado that already had an own asynchronous IO-loop implementation, can now take advantage of the subgenerator delegation syntax to provide a high degree of concurrency and responsiveness while keeping the simplicity of sequential code.\nThis talk will focus on the new way of writing asynchronous code with Python 3, explaining the concept of futures, coroutines and ioloop. It will complete with a basic demo of running this code on Tornado, comparing its syntax and performance with other popular web frameworks.\n\nIt is also possible to present this topic in a workshop format. Contact me for details.\n&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;&quot;, 
+            &quot;embed&quot;: &quot;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="https://i.ytimg.com/vi/tQL-TbDsv0U/maxresdefault.jpg" rel="nofollow">https://i.ytimg.com/vi/tQL-TbDsv0U/maxresdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: 2385, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: null, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="https://www.youtube.com/watch?v=tQL-TbDsv0U" rel="nofollow">https://www.youtube.com/watch?v=tQL-TbDsv0U</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2015-05-29&quot;, 
+            &quot;added&quot;: &quot;2015-06-14T17:04:27.374&quot;, 
+            &quot;updated&quot;: &quot;2015-06-14T17:04:27.374&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyCon Italia 2015&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;bokeh-is-here-interactive-visualization-for-pyth&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Fabio Pliger&quot;
+            ], 
+            &quot;tags&quot;: [], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 3596, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Bokeh is here! Interactive Visualization for Python (and friends).&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;Bokeh is a Python interactive visualization library for large datasets that natively uses the latest web technologies. Its goal is to provide elegant, concise construction of novel graphics in the style of Protovis/D3, while delivering high-performance interactivity over large data to thin clients. \nThe talk will go through it\u2019s design providing details of the different API layers (bottom to top) concluding with a comprehensive showcase of examples to expose many of the features that make Bokeh so powerful and easy.\n&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;&quot;, 
+            &quot;embed&quot;: &quot;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="https://i.ytimg.com/vi/j4J1z3Taquc/maxresdefault.jpg" rel="nofollow">https://i.ytimg.com/vi/j4J1z3Taquc/maxresdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: 2838, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: null, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="https://www.youtube.com/watch?v=j4J1z3Taquc" rel="nofollow">https://www.youtube.com/watch?v=j4J1z3Taquc</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2015-05-29&quot;, 
+            &quot;added&quot;: &quot;2015-06-14T17:04:24.118&quot;, 
+            &quot;updated&quot;: &quot;2015-06-14T17:04:24.118&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyCon Italia 2015&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;breaking-backwards-compatibility-the-easy-way&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Flavio Percoco&quot;
+            ], 
+            &quot;tags&quot;: [], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 3617, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Breaking backwards compatibility The easy way&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;Say you have this piece of software that many people use. One day, you wake up and you have the urge to make them suffer. Well, there\u2019s no better way to do so than breaking the software they\u2019re using.\nIn this talk, I\u2019ll walk you through very good ways to do so by showing examples taken from experience - because experience is the only thing that matters (TM) - so that you\u2019ll be able, by the time this talk ends, to do the same to your users.\n(P.S: If you\u2019ve a kinder hearth, you can also do the exact oposite of what I\u2019ll say and keep your users happy.)\n&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;&quot;, 
+            &quot;embed&quot;: &quot;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="https://i.ytimg.com/vi/EYKdmo9Rg2s/maxresdefault.jpg" rel="nofollow">https://i.ytimg.com/vi/EYKdmo9Rg2s/maxresdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: 1848, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: null, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="https://www.youtube.com/watch?v=EYKdmo9Rg2s" rel="nofollow">https://www.youtube.com/watch?v=EYKdmo9Rg2s</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2015-05-29&quot;, 
+            &quot;added&quot;: &quot;2015-06-14T17:04:26.182&quot;, 
+            &quot;updated&quot;: &quot;2015-06-14T17:04:26.183&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyCon Italia 2015&quot;, 
+            &quot;language&quot;: &quot;Italian&quot;, 
+            &quot;slug&quot;: &quot;building-successful-apis-overnight&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Orlando Kalossakas&quot;
+            ], 
+            &quot;tags&quot;: [], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 3612, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Building Successful APIs Overnight&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;Hackathons have boomed, people attending such events have been consuming thousands of APIs to power their creative projects. However, not everyone can consume APIs like a boss. Companies spend hundreds of thousands of dollars in promoting and ensuring best practices are followed when building APIs.\nIn this talk I will give you an overview of how to build a potentially successful API overnight, like hackathoneers love them and that they will consume with ease.\nA recipe for success as a takeaway from this talk will be successfully shared with the audience.\n&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;&quot;, 
+            &quot;embed&quot;: &quot;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="https://i.ytimg.com/vi/Asfz4VVKMbY/maxresdefault.jpg" rel="nofollow">https://i.ytimg.com/vi/Asfz4VVKMbY/maxresdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: 1587, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: null, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="https://www.youtube.com/watch?v=Asfz4VVKMbY" rel="nofollow">https://www.youtube.com/watch?v=Asfz4VVKMbY</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2015-05-29&quot;, 
+            &quot;added&quot;: &quot;2015-06-14T17:04:25.729&quot;, 
+            &quot;updated&quot;: &quot;2015-06-14T17:04:25.729&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;DePy 2015&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;cloudmesh-virtual-cluster-management-for-data-int&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Gregor von Laszewski&quot;
+            ], 
+            &quot;tags&quot;: [], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 3539, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Cloudmesh Virtual Cluster Management for Data Intensive Applications&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;Cloudmesh is an important component to deliver a software-defined system  encompassing virtualized and bare-metal infrastructure, networks, application, systems and platform software  with a unifying goal of providing Cloud Testbeds as a Service (CTaaS). Cloudmesh federates a number of resources from academia and industry. This includes existing FutureSystems, Amazon Web Services, Azure, HP Cloud, Karlsruhe using various technologies. An high level architectural image is provided at {http://cloudmesh.github.io/introduction_to_cloud_computing/_images/cloudmesh-arch-2013.png&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;&quot;, 
+            &quot;embed&quot;: &quot;&lt;object width=\&quot;640\&quot; height=\&quot;390\&quot;&gt;&lt;param name=\&quot;movie\&quot; value=\&quot;http://youtube.com/v/UKY3scPIMd8?version=3&amp;amp;hl=en_US\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowFullScreen\&quot; value=\&quot;true\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowscriptaccess\&quot; value=\&quot;always\&quot;&gt;&lt;/param&gt;&lt;embed src=\&quot;http://youtube.com/v/UKY3scPIMd8?version=3&amp;amp;hl=en_US\&quot; type=\&quot;application/x-shockwave-flash\&quot; width=\&quot;640\&quot; height=\&quot;390\&quot; allowscriptaccess=\&quot;always\&quot; allowfullscreen=\&quot;true\&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://i.ytimg.com/vi/UKY3scPIMd8/hqdefault.jpg" rel="nofollow">http://i.ytimg.com/vi/UKY3scPIMd8/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: 1763, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: &quot;<a href="http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/depy-2015/3539_Cloudmesh_Virtual_Cluster_Management_for_Data_Inte.mp4" rel="nofollow">http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/depy-2015/3539_Cloudmesh_Virtual_Cluster_Management_for_Data_Inte.mp4</a>&quot;, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="http://youtu.be/PCIqLdeKqaQ" rel="nofollow">http://youtu.be/PCIqLdeKqaQ</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2015-05-29&quot;, 
+            &quot;added&quot;: &quot;2015-05-27T13:53:16.620&quot;, 
+            &quot;updated&quot;: &quot;2015-06-11T03:03:37.197&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyCon Italia 2015&quot;, 
+            &quot;language&quot;: &quot;Italian&quot;, 
+            &quot;slug&quot;: &quot;come-creare-api-rest-per-tutti-i-gusti-con-django&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Federico Frenguelli&quot;
+            ], 
+            &quot;tags&quot;: [], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 3606, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Come creare API REST per tutti i gusti con Django OAuth Toolkit&quot;, 
+            &quot;summary&quot;: &quot;Il vostro backend ha bisogno di una API REST? Prendete una cucchiaiata di Django, mescolate bene con Django REST Framework e alla fine una bella spolverata di Django OAuth Toolkit per cucinare l\u2019API perfetta in pochi minuti.\n&quot;, 
+            &quot;description&quot;: &quot;&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;&quot;, 
+            &quot;embed&quot;: &quot;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="https://i.ytimg.com/vi/RHjQHn_aYVk/maxresdefault.jpg" rel="nofollow">https://i.ytimg.com/vi/RHjQHn_aYVk/maxresdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: 1451, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: null, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="https://www.youtube.com/watch?v=RHjQHn_aYVk" rel="nofollow">https://www.youtube.com/watch?v=RHjQHn_aYVk</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2015-05-29&quot;, 
+            &quot;added&quot;: &quot;2015-06-14T17:04:25.077&quot;, 
+            &quot;updated&quot;: &quot;2015-06-14T17:04:25.077&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyCon Italia 2015&quot;, 
+            &quot;language&quot;: &quot;Italian&quot;, 
+            &quot;slug&quot;: &quot;controllo-di-un-dispositivo-per-la-riabilitazione&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Matteo Malosio&quot;
+            ], 
+            &quot;tags&quot;: [], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 3619, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Controllo di un dispositivo per la riabilitazione dell\u2019arto superiore&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;Le moderne pratiche di neuroriabilitazione possono beneficiare di dispositivi robotici, progettati e realizzati per assistere il paziente e il personale medico durante la fase di recupero funzionale e cognitivo. Essi possono alleviare lo sforzo fisico del fisioterapista durante la terapia, rendere i pazienti parzialmente indipendenti durante gli esercizi, ottimizzare la disponibilit\u00e0 dei terapisti durante sessioni parallele di riabilitazione e rendere oggettiva la valutazione delle capacit\u00e0 motorie. Alcune cliniche hanno la possibilit\u00e0 di acquistare dispositivi costosi e complessi, ma questi stessi aspetti li rendono non adatti ad essere installati nella maggior parte dei centri di riabilitazione e presso le case dei pazienti. Per questi motivi \u00e8 stato realizzato LINarm, un dispositivo robotico a basso costo dedicato alla riabilitazione dell\u2019arto superiore. Esso sfrutta la tecnica FDM di stampa 3D per la realizzazione di alcuni componenti meccanici, un peculiare schema meccanico a rigidezza variabile ed un microcontrollore Arduino interfacciato ad un PC Linux-based per una soluzione di controllo flessibile ed economica.\nIl talk sar\u00e0 relativo alla descrizione dell\u2019architettura di controllo sviluppata, focalizzandosi sull\u2019interfaccia utente realizzata in Python. Essa integra un layer per la comunicazione bidirezionale con la scheda Arduino, funzionalit\u00e0 di plot real-time 2D e 3D per il monitoraggio del dispositivo e per il feedback visivo, comandi grafici per un controllo interattivo e la possibilit\u00e0 di programmare esercizi di training riaiblitativo attraverso script Python. \nI requisiti richiesti sono un minimo background di conoscenza relativa al linguaggio Python ed alla piattaforma Arduino, oltre ad una discreta passione per i dispositivi elettromeccanici.\n&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;&quot;, 
+            &quot;embed&quot;: &quot;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="https://i.ytimg.com/vi/_rJ9M078yJs/maxresdefault.jpg" rel="nofollow">https://i.ytimg.com/vi/_rJ9M078yJs/maxresdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: 1689, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: null, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="https://www.youtube.com/watch?v=_rJ9M078yJs" rel="nofollow">https://www.youtube.com/watch?v=_rJ9M078yJs</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2015-05-29&quot;, 
+            &quot;added&quot;: &quot;2015-06-14T17:04:26.360&quot;, 
+            &quot;updated&quot;: &quot;2015-06-14T17:04:26.360&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyCon Italia 2015&quot;, 
+            &quot;language&quot;: &quot;Italian&quot;, 
+            &quot;slug&quot;: &quot;da-e-verso-odoo-importazione-e-sincronizzazione-d&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Francesco Apruzzese&quot;
+            ], 
+            &quot;tags&quot;: [], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 3593, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Da e Verso Odoo importazione e sincronizzazione dei dati&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;\u201cDa e Verso Odoo: XML-RPC,  Erppeek e Python\u201d\nimportazione e sincronizzazione dei dati\ncome affrontare le necessit\u00e0 di importazione dei dati a seguito di una prima installazione, la sincronizzazione in ambienti dove sono presenti database da allineare.\n&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;&quot;, 
+            &quot;embed&quot;: &quot;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="https://i.ytimg.com/vi/COGP71Lgms4/maxresdefault.jpg" rel="nofollow">https://i.ytimg.com/vi/COGP71Lgms4/maxresdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: 1252, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: null, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="https://www.youtube.com/watch?v=COGP71Lgms4" rel="nofollow">https://www.youtube.com/watch?v=COGP71Lgms4</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2015-05-29&quot;, 
+            &quot;added&quot;: &quot;2015-06-14T17:02:23.484&quot;, 
+            &quot;updated&quot;: &quot;2015-06-14T17:02:23.484&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyCon Italia 2015&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;data-structures-discipline-with-python&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Fernando Masanori Ashikaga&quot;
+            ], 
+            &quot;tags&quot;: [], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 3624, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Data Structures Discipline with Python&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;Data Structures is traditionally a \u201cbogeyman\u201d discipline in Computer Science courses and has a high degree of failure. In FATEC S\u00e3o Jos\u00e9 dos Campos we are adopting a hybrid approach, with C and Python languages. The failure rate decreased from 85% (2008) to 12% (2014). The talk will be extensively illustrated with code in C and Python, addressing the various concepts taught in this course.\n&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;&quot;, 
+            &quot;embed&quot;: &quot;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="https://i.ytimg.com/vi/gm1znqHiqkI/maxresdefault.jpg" rel="nofollow">https://i.ytimg.com/vi/gm1znqHiqkI/maxresdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: 1550, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: null, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="https://www.youtube.com/watch?v=gm1znqHiqkI" rel="nofollow">https://www.youtube.com/watch?v=gm1znqHiqkI</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2015-05-29&quot;, 
+            &quot;added&quot;: &quot;2015-06-14T17:04:26.842&quot;, 
+            &quot;updated&quot;: &quot;2015-06-14T17:04:26.842&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyCon Italia 2015&quot;, 
+            &quot;language&quot;: &quot;Italian&quot;, 
+            &quot;slug&quot;: &quot;davvy-django-webdav-e-pessimo-stato-dellart&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Adriano Di Luzio&quot;
+            ], 
+            &quot;tags&quot;: [], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 3609, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Davvy - Django, WebDAV e (pessimo) stato dell&#39;arte.&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;Davvy \u00e8 un\u2019applicazione Django che permette la gestione di servizi WebDAV.\nGli obiettivi del talk comprendono: fornire un\u2019overview del protocollo WebDAV e mostrarne la nostra implementazione; mostrare la costruzione di un\u2019applicazione Django che gestisca servizi basati su protocolli di questo tipo, in modo che sia estendibile a piacimento e pienamente configurabile (e quindi anche qualche buona regola da seguire nello sviluppo Django). \nAnalizzare lo stato dell\u2019arte e quindi, in particolare, come ogni client implementi, a proprio piacimento,  specifiche \u201cpersonalizzate\u201d del protocollo, risultando in una quasi impossibile interoperabilit\u00e0 e una scarsa compatibilit\u00e0 con i fornitori di servizi.\nI prerequisiti necessari richiedono soltanto una conoscenza poco approfondita di Django.\nIl talk includer\u00e0:\n\nDettagli sul protocollo WebDAV: cos\u2019\u00e8, a cosa serve, come lo utilizziamo, e le alternative odierne.\nDettagli implementativi: come funziona WebDAV sotto il cofano, le estensioni che apporta ad HTTP, come utilizza l\u2019XML e soprattutto, come utilizzare Django per gestirlo.\nDjango e WebDAV: la struttura nello specifico della nostra implementazione, il model, le view e l\u2019implementazione di un\u2019applicazione Django sui generis.\nScelte di implementazione, difficolt\u00e0 tecniche e soluzioni: dove abbiamo utilizzato il database e dove invece abbiamo ritenuto pi\u00f9 opportuno sfruttare le periferiche di archiviazione, i problemi che abbiamo incontrato durante lo sviluppo, e come li abbiamo risolti.\nIl pessimo stato dell\u2019arte: come ogni client implementi una propria versione \u201cpersonalizzata\u201d di WebDAV e come Davvy si adatta in mdo implicito ed automatico alle diverse richieste dei client. Esempi sui pi\u00f9 noti client: Apple\u2019s Calendar, Mozilla Thunderbird, e cos\u00ec via.\n\n&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;&quot;, 
+            &quot;embed&quot;: &quot;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="https://i.ytimg.com/vi/YGwciTWE60A/maxresdefault.jpg" rel="nofollow">https://i.ytimg.com/vi/YGwciTWE60A/maxresdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: 942, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: null, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="https://www.youtube.com/watch?v=YGwciTWE60A" rel="nofollow">https://www.youtube.com/watch?v=YGwciTWE60A</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2015-05-29&quot;, 
+            &quot;added&quot;: &quot;2015-06-14T17:04:25.454&quot;, 
+            &quot;updated&quot;: &quot;2015-06-14T17:04:25.454&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyCon Italia 2015&quot;, 
+            &quot;language&quot;: &quot;Italian&quot;, 
+            &quot;slug&quot;: &quot;django-17-on-app-engine-it-cloud-work&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Massimiliano Pippi&quot;
+            ], 
+            &quot;tags&quot;: [], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 3608, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Django 1.7 on App Engine: It cloud work!&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;Django was actively supported at an early stage of the Python runtime in App Engine SDK through the notable django-nonrel framework, a fork of the original project that adds support for NoSql databases. But starting from the App Engine SDK 1.6.2, released more than two years ago, you can instead deploy Django\u2019s official releases and take advantages from the whole stack of the framework.\nIn less than half an hour we\u2019ll see how we can easily deploy the latest version of Django on the Google Cloud Platform, taking advantage of the tools and services provided by App Engine, Cloud SQL and Cloud Storage.\n&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;&quot;, 
+            &quot;embed&quot;: &quot;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="https://i.ytimg.com/vi/FxqNij_zNcE/maxresdefault.jpg" rel="nofollow">https://i.ytimg.com/vi/FxqNij_zNcE/maxresdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: 1509, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: null, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="https://www.youtube.com/watch?v=FxqNij_zNcE" rel="nofollow">https://www.youtube.com/watch?v=FxqNij_zNcE</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2015-05-29&quot;, 
+            &quot;added&quot;: &quot;2015-06-14T17:04:25.364&quot;, 
+            &quot;updated&quot;: &quot;2015-06-14T17:04:25.364&quot;
+        }
+    ]
+}</pre>
+            </div>
+        </div>
+
+            
+
+                
+
+                
+            
+
+        </div>
+        <!-- END content-main -->
+
+    </div>
+    <!-- END Content -->
+
+        <div id="push"></div>
+
+    </div>
+
+    </div><!-- ./wrapper -->
+
+    
+    
+
+    
+    <script src="/static/rest_framework/js/jquery-1.8.1-min.js"></script>
+    <script src="/static/rest_framework/js/bootstrap.min.js"></script>
+    <script src="/static/rest_framework/js/prettify-min.js"></script>
+    <script src="/static/rest_framework/js/default.js"></script>
+    
+  </body>
+
+<!-- Mirrored from pyvideo.org/api/v2/video/?page=38 by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 07 Jan 2016 03:48:10 GMT -->
+</html>

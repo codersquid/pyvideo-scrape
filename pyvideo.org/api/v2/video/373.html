@@ -1,0 +1,199 @@
+
+
+<!DOCTYPE html>
+<html>
+    
+<!-- Mirrored from pyvideo.org/api/v2/video/373 by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 07 Jan 2016 03:33:37 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+    
+
+        
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+        <meta name="robots" content="NONE,NOARCHIVE" />
+        
+
+        <title>Django REST framework</title>
+
+        
+        
+            <link rel="stylesheet" type="text/css" href="/static/rest_framework/css/bootstrap.min.css"/>
+            <link rel="stylesheet" type="text/css" href="/static/rest_framework/css/bootstrap-tweaks.css"/>
+        
+        <link rel="stylesheet" type="text/css" href="/static/rest_framework/css/prettify.css"/>
+        <link rel="stylesheet" type="text/css" href="/static/rest_framework/css/default.css"/>
+        
+
+    
+    </head>
+
+  <body class=" container">
+
+    <div class="wrapper">
+
+    
+    <div class="navbar navbar-inverse">
+        <div class="navbar-inner">
+            <div class="container-fluid">
+                <span href="/">
+                    <a class='brand' rel="nofollow" href='http://www.django-rest-framework.org'>Django REST framework <span class="version">2.3.14</span></a>
+                </span>
+                <ul class="nav pull-right">
+                    
+                        
+                            <li></li>
+                        
+                    
+                </ul>
+            </div>
+        </div>
+    </div>
+    
+
+    
+    <ul class="breadcrumb">
+        
+            <li>
+                <a href="/api/v2/video/" >Video List Create Api</a> <span class="divider">&rsaquo;</span>
+            </li>
+        
+            <li>
+                <a href="/api/v2/video/373" class="active">Video Retrieve Update Api</a> 
+            </li>
+        
+    </ul>
+    
+
+    <!-- Content -->
+    <div id="content">
+
+        
+            <form id="get-form" class="pull-right">
+                <fieldset>
+                    <div class="btn-group format-selection">
+                        <a class="btn btn-primary js-tooltip" href='/api/v2/video/373' rel="nofollow" title="Make a GET request on the Video Retrieve Update Api resource">GET</a>
+
+                        <button class="btn btn-primary dropdown-toggle js-tooltip" data-toggle="dropdown" title="Specify a format for the GET request">
+                            <span class="caret"></span>
+                        </button>
+                        <ul class="dropdown-menu">
+                            
+                                <li>
+                                    <a class="js-tooltip format-option" href='/api/v2/video/373?format=json' rel="nofollow" title="Make a GET request on the Video Retrieve Update Api resource with the format set to `json`">json</a>
+                                </li>
+                            
+                                <li>
+                                    <a class="js-tooltip format-option" href='/api/v2/video/373?format=api' rel="nofollow" title="Make a GET request on the Video Retrieve Update Api resource with the format set to `api`">api</a>
+                                </li>
+                            
+                        </ul>
+                    </div>
+
+                </fieldset>
+            </form>
+        
+
+        
+            <form class="button-form" action="/api/v2/video/373" method="POST" class="pull-right">
+                <input type='hidden' name='csrfmiddlewaretoken' value='pT8iI6zhtQdsGFmu4tryYgFrUlipl2B3' />
+                <input type="hidden" name="_method" value="OPTIONS" />
+                <button class="btn btn-primary js-tooltip" title="Make an OPTIONS request on the Video Retrieve Update Api resource">OPTIONS</button>
+            </form>
+        
+
+        
+
+        <div class="content-main">
+            <div class="page-header"><h1>Video Retrieve Update Api</h1></div>
+            
+            
+            
+            <div class="request-info" style="clear: both" >
+                <pre class="prettyprint"><b>GET</b> /api/v2/video/373</pre>
+            </div>
+            <div class="response-info">
+                <pre class="prettyprint"><div class="meta nocode"><b>HTTP 200 OK</b>
+<b>Content-Type:</b> <span class="lit">application/json</span>
+<b>Vary:</b> <span class="lit">Accept</span>
+<b>Allow:</b> <span class="lit">GET, PUT, PATCH, HEAD, OPTIONS</span>
+
+</div>{
+    &quot;category&quot;: &quot;PyCon US 2011&quot;, 
+    &quot;language&quot;: &quot;English&quot;, 
+    &quot;slug&quot;: &quot;pycon-2011--testing-the-mobile--and-desktop--web-&quot;, 
+    &quot;speakers&quot;: [
+        &quot;Jason Huggins&quot;
+    ], 
+    &quot;tags&quot;: [
+        &quot;browsers&quot;, 
+        &quot;embedded&quot;, 
+        &quot;html5&quot;, 
+        &quot;pycon&quot;, 
+        &quot;pycon2011&quot;, 
+        &quot;selenium&quot;, 
+        &quot;webdriver&quot;
+    ], 
+    &quot;related_urls&quot;: [], 
+    &quot;id&quot;: 373, 
+    &quot;state&quot;: 1, 
+    &quot;title&quot;: &quot;Testing the Mobile (and Desktop) Web with Selenium 2.0 - Better, Faster, and more Pythonicly&quot;, 
+    &quot;summary&quot;: &quot;&quot;, 
+    &quot;description&quot;: &quot;Testing the Mobile (and Desktop) Web with Selenium 2.0 - Better, Faster, and\nmore Pythonicly\n\nPresented by Jason Huggins\n\nSelenium is a popular web application testing tool for acceptance testing\ndynamic web applications. Selenium 2.0 has a different architecture that makes\nit leaner, meaner, and more pythonic -- for testing desktop *and* mobile web\n(iPhone/Android) apps. This talk will go into detail on how Selenium 2 works.\nIf you like testing and Python, you&#39;ll enjoy what&#39;s cooking in Selenium 2.\n\nAbstract\n\nSelenium was originally created by Jason Huggins and his team at ThoughtWorks\nin 2004 as a tool for cross-browser acceptance testing of dynamic web apps --\napps that use JavaScript heavily on the client. Over the years, the Selenium\ntool family has expanded to include a Firefox record and playback tool\n(Selenium IDE), a Remote Control server that allows API access from any major\nprogramming language, and a Grid server that allows tests to run in parallel\nacross many machines.\n\nDespite it&#39;s widespread industry adoption, the Selenium project is far from\ndone. Selenium&#39;s goal is to drive any browser the same way an end user would\n(e.g. opening pages, clicking buttons, entering text, etc.) with any\nprogramming language on any OS platform. It&#39;s an ambitious goal, and with a\nsteady stream of new browsers (Chrome), new platforms (Android, iPhone), and\nnew HTML5 technologies (video, canvas, offline storage) to support, just\nkeeping up is an arduous task.\n\nAstute observers will note, though, the bulk of Selenium&#39;s automation engine\nis implemented in JavaScript, which is confined by the browser&#39;s security\nsandbox in which it executes JavaScript code. That security sandbox ultimately\nis at odds with Selenium&#39;s goal to drive the browser just as a user would. A\nuser has no problem interacting with security alerts for untrusted\ncertificates, or file upload dialog boxes, but Selenium can&#39;t deal with these\nkinds of things easily without extra effort.\n\nEnter WebDriver. There&#39;s a lot in common between the Selenium and WebDriver\nprojects. They&#39;re both tools for automated testing of web applications, and\nboth aspire to offer browser test automation from any language on any\nplatform. However, they do their thing in radically different ways. Selenium\nuses the strategy that JavaScript is the one common tool available for\nautomating all browsers, even though its capabilities can be highly\nconstrained. Meanwhile, WebDriver leverages the strategy that acknowledges\ndifferent automation strategies work best for different browsers. COM works\nbest for IE on Windows, Apple Events for Safari on OS X. And Firefox, well,\nthe best way to natively automate Firefox is to turn it into a telnet server.\n(But that&#39;s a whole other PyCon talk entirely!) WebDriver aims to natively\ndrive each browser the best way possible for maximum capability, then hiding\nthose differences between lower level C and C++ APIs, and finally exposing the\nfunctionality through the appropriate C/C++ mechanism for each target\nlanguage, such as using ctypes for Python. With WebDriver&#39;s technical\napproach, anything a user can do is now possible in test automation code.\n\nThis talk will go into detail explaining how Selenium and WebDriver (aka\nSelenium 2) work, comparing the strengths and weaknesses of each tool&#39;s\napproach to browser automation. The talk will then explain what Selenium 2.0\nlooks like and how to use it.\n\nTalk outline:\n\n  * Description of problem space \n    * More browsers \n    * More frequent browser releases \n    * HTML 5 - video, canvas, offline storage \n    * The web in more places - Mobile, Chrome OS \n  * Description of Selenium \n  * Strengths of Selenium \n  * Description of challenges for Selenium 1 \n    * Javascript security sandbox \n    * Same origin policy / cross-site scripting \n    * OS-level popups \n    * Speed / stability \n    * Java as the cross-language integration point (aka Not Very Pythonic, eh?) \n  * Description of Selenium 2 (aka WebDriver) \n  * Strengths of Selenium 2 \n  * How Selenium 2 is more pythonic \n    * (Lots and lots of example code goes here.) \n    * Spoiler Alert: No Java server required! \n  * How to test Android apps \n  * How to test iPhone apps \n  * Selenium development roadmap \n\n&quot;, 
+    &quot;quality_notes&quot;: &quot;&quot;, 
+    &quot;copyright_text&quot;: &quot;Creative Commons Attribution-NonCommercial-ShareAlike 3.0&quot;, 
+    &quot;embed&quot;: &quot;&quot;, 
+    &quot;thumbnail_url&quot;: &quot;<a href="http://a.images.blip.tv/Pycon-PyCon2011TestingTheMobileAndDesktopWebWithSelenium20524.png" rel="nofollow">http://a.images.blip.tv/Pycon-PyCon2011TestingTheMobileAndDesktopWebWithSelenium20524.png</a>&quot;, 
+    &quot;duration&quot;: null, 
+    &quot;video_ogv_length&quot;: 141105384, 
+    &quot;video_ogv_url&quot;: null, 
+    &quot;video_ogv_download_only&quot;: false, 
+    &quot;video_mp4_length&quot;: null, 
+    &quot;video_mp4_url&quot;: &quot;<a href="http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2011/373_testing-the-mobile-and-desktop-web-with-selenium-2-0-better-faster-and-more-pythonicly.mp4" rel="nofollow">http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2011/373_testing-the-mobile-and-desktop-web-with-selenium-2-0-better-faster-and-more-pythonicly.mp4</a>&quot;, 
+    &quot;video_mp4_download_only&quot;: false, 
+    &quot;video_webm_length&quot;: null, 
+    &quot;video_webm_url&quot;: null, 
+    &quot;video_webm_download_only&quot;: false, 
+    &quot;video_flv_length&quot;: null, 
+    &quot;video_flv_url&quot;: null, 
+    &quot;video_flv_download_only&quot;: false, 
+    &quot;source_url&quot;: &quot;&quot;, 
+    &quot;whiteboard&quot;: &quot;&quot;, 
+    &quot;recorded&quot;: &quot;2011-03-11&quot;, 
+    &quot;added&quot;: &quot;2012-02-23T04:20:00&quot;, 
+    &quot;updated&quot;: &quot;2014-04-08T20:28:28.044&quot;
+}</pre>
+            </div>
+        </div>
+
+            
+
+                
+
+                
+            
+
+        </div>
+        <!-- END content-main -->
+
+    </div>
+    <!-- END Content -->
+
+        <div id="push"></div>
+
+    </div>
+
+    </div><!-- ./wrapper -->
+
+    
+    
+
+    
+    <script src="/static/rest_framework/js/jquery-1.8.1-min.js"></script>
+    <script src="/static/rest_framework/js/bootstrap.min.js"></script>
+    <script src="/static/rest_framework/js/prettify-min.js"></script>
+    <script src="/static/rest_framework/js/default.js"></script>
+    
+  </body>
+
+<!-- Mirrored from pyvideo.org/api/v2/video/373 by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 07 Jan 2016 03:33:38 GMT -->
+</html>

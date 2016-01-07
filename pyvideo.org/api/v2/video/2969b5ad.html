@@ -1,0 +1,191 @@
+
+
+<!DOCTYPE html>
+<html>
+    
+<!-- Mirrored from pyvideo.org/api/v2/video/2969?format=api by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 07 Jan 2016 03:46:32 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+    
+
+        
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+        <meta name="robots" content="NONE,NOARCHIVE" />
+        
+
+        <title>Django REST framework</title>
+
+        
+        
+            <link rel="stylesheet" type="text/css" href="/static/rest_framework/css/bootstrap.min.css"/>
+            <link rel="stylesheet" type="text/css" href="/static/rest_framework/css/bootstrap-tweaks.css"/>
+        
+        <link rel="stylesheet" type="text/css" href="/static/rest_framework/css/prettify.css"/>
+        <link rel="stylesheet" type="text/css" href="/static/rest_framework/css/default.css"/>
+        
+
+    
+    </head>
+
+  <body class=" container">
+
+    <div class="wrapper">
+
+    
+    <div class="navbar navbar-inverse">
+        <div class="navbar-inner">
+            <div class="container-fluid">
+                <span href="/">
+                    <a class='brand' rel="nofollow" href='http://www.django-rest-framework.org'>Django REST framework <span class="version">2.3.14</span></a>
+                </span>
+                <ul class="nav pull-right">
+                    
+                        
+                            <li></li>
+                        
+                    
+                </ul>
+            </div>
+        </div>
+    </div>
+    
+
+    
+    <ul class="breadcrumb">
+        
+            <li>
+                <a href="/api/v2/video/" >Video List Create Api</a> <span class="divider">&rsaquo;</span>
+            </li>
+        
+            <li>
+                <a href="/api/v2/video/2969" class="active">Video Retrieve Update Api</a> 
+            </li>
+        
+    </ul>
+    
+
+    <!-- Content -->
+    <div id="content">
+
+        
+            <form id="get-form" class="pull-right">
+                <fieldset>
+                    <div class="btn-group format-selection">
+                        <a class="btn btn-primary js-tooltip" href='/api/v2/video/2969?format=api' rel="nofollow" title="Make a GET request on the Video Retrieve Update Api resource">GET</a>
+
+                        <button class="btn btn-primary dropdown-toggle js-tooltip" data-toggle="dropdown" title="Specify a format for the GET request">
+                            <span class="caret"></span>
+                        </button>
+                        <ul class="dropdown-menu">
+                            
+                                <li>
+                                    <a class="js-tooltip format-option" href='/api/v2/video/2969?format=json' rel="nofollow" title="Make a GET request on the Video Retrieve Update Api resource with the format set to `json`">json</a>
+                                </li>
+                            
+                                <li>
+                                    <a class="js-tooltip format-option" href='/api/v2/video/2969?format=api' rel="nofollow" title="Make a GET request on the Video Retrieve Update Api resource with the format set to `api`">api</a>
+                                </li>
+                            
+                        </ul>
+                    </div>
+
+                </fieldset>
+            </form>
+        
+
+        
+            <form class="button-form" action="/api/v2/video/2969?format=api" method="POST" class="pull-right">
+                <input type='hidden' name='csrfmiddlewaretoken' value='pT8iI6zhtQdsGFmu4tryYgFrUlipl2B3' />
+                <input type="hidden" name="_method" value="OPTIONS" />
+                <button class="btn btn-primary js-tooltip" title="Make an OPTIONS request on the Video Retrieve Update Api resource">OPTIONS</button>
+            </form>
+        
+
+        
+
+        <div class="content-main">
+            <div class="page-header"><h1>Video Retrieve Update Api</h1></div>
+            
+            
+            
+            <div class="request-info" style="clear: both" >
+                <pre class="prettyprint"><b>GET</b> /api/v2/video/2969?format=api</pre>
+            </div>
+            <div class="response-info">
+                <pre class="prettyprint"><div class="meta nocode"><b>HTTP 200 OK</b>
+<b>Content-Type:</b> <span class="lit">application/json</span>
+<b>Vary:</b> <span class="lit">Accept</span>
+<b>Allow:</b> <span class="lit">GET, PUT, PATCH, HEAD, OPTIONS</span>
+
+</div>{
+    &quot;category&quot;: &quot;EuroPython 2014&quot;, 
+    &quot;language&quot;: &quot;English&quot;, 
+    &quot;slug&quot;: &quot;scikit-learn-to-learn-them-all&quot;, 
+    &quot;speakers&quot;: [
+        &quot;Valerio Maggio&quot;
+    ], 
+    &quot;tags&quot;: [], 
+    &quot;related_urls&quot;: [], 
+    &quot;id&quot;: 2969, 
+    &quot;state&quot;: 1, 
+    &quot;title&quot;: &quot;Scikit-learn to \&quot;learn them all\&quot;&quot;, 
+    &quot;summary&quot;: &quot;**Scikit-learn** is a powerful library, providing implementations for \r\nmany of the most popular machine learning algorithms. \r\nThis talk will provide an overview of the \&quot;batteries\&quot; included in \r\nScikit-learn, along with working code examples and internal insights, in order to \r\nget the best for our machine learning code.&quot;, 
+    &quot;description&quot;: &quot;**Machine Learning** is about *using the right features, to build the right \r\nmodels, to achieve the right tasks* [[Flach, 2012]][0]\r\nHowever, to come up with a definition of what actually means **right** for \r\nthe problem at the hand, it is required to analyse \r\nhuge amounts of data, and to evaluate the performance of different algorithms \r\non these data.\r\n\r\nHowever, deriving a working machine learning solution for a given problem \r\nis far from being a *waterfall* process. \r\nIt is an iterative process where continuous refinements are required for the \r\ndata to be used (i.e., the *right features*), and the algorithms to apply \r\n(i.e., the *right models*).\r\n\r\nIn this scenario, Python has been found very useful for practitioners and \r\nresearchers: its high-level nature, in combination with available tools and \r\nlibraries, allows to rapidly implement working machine learning code \r\nwithout *reinventing the wheel*.\r\n\r\n[**Scikit-learn**](http://scikit-learn.org/stable/) is an actively \r\ndeveloping Python library, built on top of the solid `numpy` and `scipy` \r\npackages.\r\n\r\nScikit-learn (`sklearn`) is an *all-in-one* software solution, providing \r\nimplementations for several machine learning methods, along with datasets and \r\n(performance) evaluation algorithms.\r\n\r\nThese \&quot;batteries\&quot; included in the library, in combination with a nice and intuitive\r\nsoftware API, have made scikit-learn to become one of the most popular Python \r\npackage to write machine learning code.\r\n\r\nIn this talk, a general overview of scikit-learn will be presented, along with \r\nbrief explanations of the techniques provided out-of-the-box by the library.\r\n\r\nThese explanations will be supported by working code examples, and insights on \r\nalgorithms&#39; implementations aimed at providing hints on \r\nhow to extend the library code.\r\n\r\nMoreover, advantages and limitations of the `sklearn` package will be discussed \r\naccording to other existing machine learning Python libraries\r\n(e.g., [`shogun`](http://shogun-toolbox.org \&quot;Shogun Toolbox\&quot;), \r\n[`pyML`](http://pyml.sourceforge.net \&quot;PyML\&quot;), \r\n[`mlpy`](http://mlpy.sourceforge.net \&quot;MLPy\&quot;)).\r\n\r\nIn conclusion, (examples of) applications of scikit-learn to big data and \r\ncomputational intensive tasks will be also presented.\r\n\r\nThe general outline of the talk is reported as follows (the order of the topics may vary):\r\n\r\n*   Intro to Machine Learning\r\n    *   Machine Learning in Python\r\n    *   Intro to Scikit-Learn\r\n*   Overview of Scikit-Learn\r\n    *   Comparison with other existing ML Python libraries\r\n*   Supervised Learning with `sklearn`\r\n    *   Text Classification with SVM and Kernel Methods\r\n*   Unsupervised Learning with `sklearn`\r\n    *   Partitional and Model-based Clustering (i.e., k-means and Mixture Models)\r\n*   Scaling up Machine Learning\r\n    *   Parallel and Large Scale ML with `sklearn`\r\n\r\nThe talk is intended for an intermediate level audience (i.e., Advanced).\r\nIt requires basic math skills and a good knowledge of the Python language.\r\n\r\nGood knowledge of the `numpy` and `scipy` packages is also a plus.\r\n\r\n[0]: <a href="http://goo.gl/BnhoHa" rel="nofollow">http://goo.gl/BnhoHa</a> \&quot;Machine Learning: The Art and Science of Algorithms that Make Sense of Data, *Peter Flach, 2012*\&quot;&quot;, 
+    &quot;quality_notes&quot;: &quot;&quot;, 
+    &quot;copyright_text&quot;: &quot;<a href="http://creativecommons.org/licenses/by/3.0/" rel="nofollow">http://creativecommons.org/licenses/by/3.0/</a>&quot;, 
+    &quot;embed&quot;: &quot;&lt;object width=\&quot;640\&quot; height=\&quot;390\&quot;&gt;&lt;param name=\&quot;movie\&quot; value=\&quot;http://youtube.com/v/zVPfVkC5qDk?version=3&amp;amp;hl=en_US\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowFullScreen\&quot; value=\&quot;true\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowscriptaccess\&quot; value=\&quot;always\&quot;&gt;&lt;/param&gt;&lt;embed src=\&quot;http://youtube.com/v/zVPfVkC5qDk?version=3&amp;amp;hl=en_US\&quot; type=\&quot;application/x-shockwave-flash\&quot; width=\&quot;640\&quot; height=\&quot;390\&quot; allowscriptaccess=\&quot;always\&quot; allowfullscreen=\&quot;true\&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&quot;, 
+    &quot;thumbnail_url&quot;: &quot;<a href="http://i.ytimg.com/vi/zVPfVkC5qDk/hqdefault.jpg" rel="nofollow">http://i.ytimg.com/vi/zVPfVkC5qDk/hqdefault.jpg</a>&quot;, 
+    &quot;duration&quot;: null, 
+    &quot;video_ogv_length&quot;: null, 
+    &quot;video_ogv_url&quot;: &quot;&quot;, 
+    &quot;video_ogv_download_only&quot;: false, 
+    &quot;video_mp4_length&quot;: null, 
+    &quot;video_mp4_url&quot;: &quot;&quot;, 
+    &quot;video_mp4_download_only&quot;: false, 
+    &quot;video_webm_length&quot;: null, 
+    &quot;video_webm_url&quot;: &quot;&quot;, 
+    &quot;video_webm_download_only&quot;: false, 
+    &quot;video_flv_length&quot;: null, 
+    &quot;video_flv_url&quot;: &quot;&quot;, 
+    &quot;video_flv_download_only&quot;: false, 
+    &quot;source_url&quot;: &quot;<a href="http://www.youtube.com/watch?v=zVPfVkC5qDk" rel="nofollow">http://www.youtube.com/watch?v=zVPfVkC5qDk</a>&quot;, 
+    &quot;whiteboard&quot;: &quot;&quot;, 
+    &quot;recorded&quot;: &quot;2014-07-24&quot;, 
+    &quot;added&quot;: &quot;2014-07-31T00:46:27.255&quot;, 
+    &quot;updated&quot;: &quot;2014-07-31T23:04:48.769&quot;
+}</pre>
+            </div>
+        </div>
+
+            
+
+                
+
+                
+            
+
+        </div>
+        <!-- END content-main -->
+
+    </div>
+    <!-- END Content -->
+
+        <div id="push"></div>
+
+    </div>
+
+    </div><!-- ./wrapper -->
+
+    
+    
+
+    
+    <script src="/static/rest_framework/js/jquery-1.8.1-min.js"></script>
+    <script src="/static/rest_framework/js/bootstrap.min.js"></script>
+    <script src="/static/rest_framework/js/prettify-min.js"></script>
+    <script src="/static/rest_framework/js/default.js"></script>
+    
+  </body>
+
+<!-- Mirrored from pyvideo.org/api/v2/video/2969?format=api by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 07 Jan 2016 03:46:32 GMT -->
+</html>

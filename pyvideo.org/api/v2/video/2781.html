@@ -1,0 +1,191 @@
+
+
+<!DOCTYPE html>
+<html>
+    
+<!-- Mirrored from pyvideo.org/api/v2/video/2781 by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 07 Jan 2016 03:45:25 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+    
+
+        
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+        <meta name="robots" content="NONE,NOARCHIVE" />
+        
+
+        <title>Django REST framework</title>
+
+        
+        
+            <link rel="stylesheet" type="text/css" href="/static/rest_framework/css/bootstrap.min.css"/>
+            <link rel="stylesheet" type="text/css" href="/static/rest_framework/css/bootstrap-tweaks.css"/>
+        
+        <link rel="stylesheet" type="text/css" href="/static/rest_framework/css/prettify.css"/>
+        <link rel="stylesheet" type="text/css" href="/static/rest_framework/css/default.css"/>
+        
+
+    
+    </head>
+
+  <body class=" container">
+
+    <div class="wrapper">
+
+    
+    <div class="navbar navbar-inverse">
+        <div class="navbar-inner">
+            <div class="container-fluid">
+                <span href="/">
+                    <a class='brand' rel="nofollow" href='http://www.django-rest-framework.org'>Django REST framework <span class="version">2.3.14</span></a>
+                </span>
+                <ul class="nav pull-right">
+                    
+                        
+                            <li></li>
+                        
+                    
+                </ul>
+            </div>
+        </div>
+    </div>
+    
+
+    
+    <ul class="breadcrumb">
+        
+            <li>
+                <a href="/api/v2/video/" >Video List Create Api</a> <span class="divider">&rsaquo;</span>
+            </li>
+        
+            <li>
+                <a href="/api/v2/video/2781" class="active">Video Retrieve Update Api</a> 
+            </li>
+        
+    </ul>
+    
+
+    <!-- Content -->
+    <div id="content">
+
+        
+            <form id="get-form" class="pull-right">
+                <fieldset>
+                    <div class="btn-group format-selection">
+                        <a class="btn btn-primary js-tooltip" href='/api/v2/video/2781' rel="nofollow" title="Make a GET request on the Video Retrieve Update Api resource">GET</a>
+
+                        <button class="btn btn-primary dropdown-toggle js-tooltip" data-toggle="dropdown" title="Specify a format for the GET request">
+                            <span class="caret"></span>
+                        </button>
+                        <ul class="dropdown-menu">
+                            
+                                <li>
+                                    <a class="js-tooltip format-option" href='/api/v2/video/2781?format=json' rel="nofollow" title="Make a GET request on the Video Retrieve Update Api resource with the format set to `json`">json</a>
+                                </li>
+                            
+                                <li>
+                                    <a class="js-tooltip format-option" href='/api/v2/video/2781?format=api' rel="nofollow" title="Make a GET request on the Video Retrieve Update Api resource with the format set to `api`">api</a>
+                                </li>
+                            
+                        </ul>
+                    </div>
+
+                </fieldset>
+            </form>
+        
+
+        
+            <form class="button-form" action="/api/v2/video/2781" method="POST" class="pull-right">
+                <input type='hidden' name='csrfmiddlewaretoken' value='pT8iI6zhtQdsGFmu4tryYgFrUlipl2B3' />
+                <input type="hidden" name="_method" value="OPTIONS" />
+                <button class="btn btn-primary js-tooltip" title="Make an OPTIONS request on the Video Retrieve Update Api resource">OPTIONS</button>
+            </form>
+        
+
+        
+
+        <div class="content-main">
+            <div class="page-header"><h1>Video Retrieve Update Api</h1></div>
+            
+            
+            
+            <div class="request-info" style="clear: both" >
+                <pre class="prettyprint"><b>GET</b> /api/v2/video/2781</pre>
+            </div>
+            <div class="response-info">
+                <pre class="prettyprint"><div class="meta nocode"><b>HTTP 200 OK</b>
+<b>Content-Type:</b> <span class="lit">application/json</span>
+<b>Vary:</b> <span class="lit">Accept</span>
+<b>Allow:</b> <span class="lit">GET, PUT, PATCH, HEAD, OPTIONS</span>
+
+</div>{
+    &quot;category&quot;: &quot;SciPy 2014&quot;, 
+    &quot;language&quot;: &quot;English&quot;, 
+    &quot;slug&quot;: &quot;light-weight-real-time-event-detection-with-pytho&quot;, 
+    &quot;speakers&quot;: [
+        &quot;Carson Farmer&quot;
+    ], 
+    &quot;tags&quot;: [], 
+    &quot;related_urls&quot;: [], 
+    &quot;id&quot;: 2781, 
+    &quot;state&quot;: 1, 
+    &quot;title&quot;: &quot;Light-weight real-time event detection with Python&quot;, 
+    &quot;summary&quot;: &quot;Real-time feeds of user activity from various apps such as Twitter, Foursquare, and others are becoming increasingly available. These &#39;digital footprints&#39; provide new means to understand how individuals utilize the places and spaces of urban environments. We present a light-weight framework for real-time event detection in a city based on existing SciPy libraries and real-time Twitter streams.&quot;, 
+    &quot;description&quot;: &quot;In this paper, we utilize real-time &#39;social information sources&#39; to automatically detect important events at the urban scale. The goal is to provide city planners and others with information on *what* is going on, and *when* and *where* it is happening. Traditionally, this type of analysis would require a large investment in heavy-duty computing infrastructure, however, we suggest that a focus on real-time analytics in a lightweight streaming framework is the most logical step forward.\r\n\r\nUsing online Latent Semantic Analysis (LSA) from the [`gensim`][gensim] Python package, we extract &#39;topics&#39; from tweets in an online training fashion. To maintain real-time relevance, the topic model is continually updated, and depending on parameterization, can &#39;forget&#39; past topics. Based on a set of learned topics, a grid of spatially located tweets for each identified topic is generated using standard `numpy` and `scipy.spatial` functionality. Using an efficient streaming algorithm for approximating 2D kernel density estimation (KDE), locations with the highest density of tweets on a particular topic are located. Locations are semantically labeled using the learned topics, based on the assumption that events can be directly tied to a particularly popular topic at a particular location.\r\n\r\nTo facilitate real time visualization of results, we utilize the [`pico`][pico] Python/Javascript library as a real-time bridge between server-side Python analysis and client-side Javascript visualization. This enables fast, responsive interactivity of computationally intensive tasks. Additionally, since `pico` allows streaming data from Python to Javascript, updates to the web-interface are sent and consumed as needed, such that only significant changes in an event&#39;s status, or the introduction of a new event, will cause updates to the visualizations. Finally, because all models, data structures, and outputs on the server side are pickle-able Python objects, this entire framework is small enough to be deployed on almost any server with Python installed.\r\n\r\n[pico]: <a href="https://github.com/fergalwalsh/pico%5Cr%5Cn[gensim]" rel="nofollow">https://github.com/fergalwalsh/pico\r\n[gensim]</a>: <a href="https://github.com/piskvorky/gensim/%5Cr%5Cn" rel="nofollow">https://github.com/piskvorky/gensim/\r\n</a>&quot;, 
+    &quot;quality_notes&quot;: &quot;&quot;, 
+    &quot;copyright_text&quot;: &quot;<a href="http://www.youtube.com/t/terms" rel="nofollow">http://www.youtube.com/t/terms</a>&quot;, 
+    &quot;embed&quot;: &quot;&lt;object width=\&quot;640\&quot; height=\&quot;390\&quot;&gt;&lt;param name=\&quot;movie\&quot; value=\&quot;http://youtube.com/v/iT_QmeJsBhE?version=3&amp;amp;hl=en_US\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowFullScreen\&quot; value=\&quot;true\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowscriptaccess\&quot; value=\&quot;always\&quot;&gt;&lt;/param&gt;&lt;embed src=\&quot;http://youtube.com/v/iT_QmeJsBhE?version=3&amp;amp;hl=en_US\&quot; type=\&quot;application/x-shockwave-flash\&quot; width=\&quot;640\&quot; height=\&quot;390\&quot; allowscriptaccess=\&quot;always\&quot; allowfullscreen=\&quot;true\&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&quot;, 
+    &quot;thumbnail_url&quot;: &quot;<a href="http://i1.ytimg.com/vi/iT_QmeJsBhE/hqdefault.jpg" rel="nofollow">http://i1.ytimg.com/vi/iT_QmeJsBhE/hqdefault.jpg</a>&quot;, 
+    &quot;duration&quot;: null, 
+    &quot;video_ogv_length&quot;: null, 
+    &quot;video_ogv_url&quot;: &quot;&quot;, 
+    &quot;video_ogv_download_only&quot;: false, 
+    &quot;video_mp4_length&quot;: null, 
+    &quot;video_mp4_url&quot;: &quot;&quot;, 
+    &quot;video_mp4_download_only&quot;: false, 
+    &quot;video_webm_length&quot;: null, 
+    &quot;video_webm_url&quot;: &quot;&quot;, 
+    &quot;video_webm_download_only&quot;: false, 
+    &quot;video_flv_length&quot;: null, 
+    &quot;video_flv_url&quot;: &quot;&quot;, 
+    &quot;video_flv_download_only&quot;: false, 
+    &quot;source_url&quot;: &quot;<a href="http://www.youtube.com/watch?v=iT_QmeJsBhE" rel="nofollow">http://www.youtube.com/watch?v=iT_QmeJsBhE</a>&quot;, 
+    &quot;whiteboard&quot;: &quot;&quot;, 
+    &quot;recorded&quot;: &quot;2014-07-14&quot;, 
+    &quot;added&quot;: &quot;2014-07-15T22:45:38.627&quot;, 
+    &quot;updated&quot;: &quot;2014-07-15T23:07:49.753&quot;
+}</pre>
+            </div>
+        </div>
+
+            
+
+                
+
+                
+            
+
+        </div>
+        <!-- END content-main -->
+
+    </div>
+    <!-- END Content -->
+
+        <div id="push"></div>
+
+    </div>
+
+    </div><!-- ./wrapper -->
+
+    
+    
+
+    
+    <script src="/static/rest_framework/js/jquery-1.8.1-min.js"></script>
+    <script src="/static/rest_framework/js/bootstrap.min.js"></script>
+    <script src="/static/rest_framework/js/prettify-min.js"></script>
+    <script src="/static/rest_framework/js/default.js"></script>
+    
+  </body>
+
+<!-- Mirrored from pyvideo.org/api/v2/video/2781 by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 07 Jan 2016 03:45:25 GMT -->
+</html>

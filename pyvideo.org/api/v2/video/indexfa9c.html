@@ -1,0 +1,897 @@
+
+
+<!DOCTYPE html>
+<html>
+    
+<!-- Mirrored from pyvideo.org/api/v2/video/?page=32 by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 07 Jan 2016 03:47:55 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+    
+
+        
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+        <meta name="robots" content="NONE,NOARCHIVE" />
+        
+
+        <title>Django REST framework</title>
+
+        
+        
+            <link rel="stylesheet" type="text/css" href="/static/rest_framework/css/bootstrap.min.css"/>
+            <link rel="stylesheet" type="text/css" href="/static/rest_framework/css/bootstrap-tweaks.css"/>
+        
+        <link rel="stylesheet" type="text/css" href="/static/rest_framework/css/prettify.css"/>
+        <link rel="stylesheet" type="text/css" href="/static/rest_framework/css/default.css"/>
+        
+
+    
+    </head>
+
+  <body class=" container">
+
+    <div class="wrapper">
+
+    
+    <div class="navbar navbar-inverse">
+        <div class="navbar-inner">
+            <div class="container-fluid">
+                <span href="/">
+                    <a class='brand' rel="nofollow" href='http://www.django-rest-framework.org'>Django REST framework <span class="version">2.3.14</span></a>
+                </span>
+                <ul class="nav pull-right">
+                    
+                        
+                            <li></li>
+                        
+                    
+                </ul>
+            </div>
+        </div>
+    </div>
+    
+
+    
+    <ul class="breadcrumb">
+        
+            <li>
+                <a href="/api/v2/video/" class="active">Video List Create Api</a> 
+            </li>
+        
+    </ul>
+    
+
+    <!-- Content -->
+    <div id="content">
+
+        
+            <form id="get-form" class="pull-right">
+                <fieldset>
+                    <div class="btn-group format-selection">
+                        <a class="btn btn-primary js-tooltip" href='/api/v2/video/?page=32' rel="nofollow" title="Make a GET request on the Video List Create Api resource">GET</a>
+
+                        <button class="btn btn-primary dropdown-toggle js-tooltip" data-toggle="dropdown" title="Specify a format for the GET request">
+                            <span class="caret"></span>
+                        </button>
+                        <ul class="dropdown-menu">
+                            
+                                <li>
+                                    <a class="js-tooltip format-option" href='/api/v2/video/?page=32&format=json' rel="nofollow" title="Make a GET request on the Video List Create Api resource with the format set to `json`">json</a>
+                                </li>
+                            
+                                <li>
+                                    <a class="js-tooltip format-option" href='/api/v2/video/?page=32&format=api' rel="nofollow" title="Make a GET request on the Video List Create Api resource with the format set to `api`">api</a>
+                                </li>
+                            
+                        </ul>
+                    </div>
+
+                </fieldset>
+            </form>
+        
+
+        
+            <form class="button-form" action="/api/v2/video/?page=32" method="POST" class="pull-right">
+                <input type='hidden' name='csrfmiddlewaretoken' value='pT8iI6zhtQdsGFmu4tryYgFrUlipl2B3' />
+                <input type="hidden" name="_method" value="OPTIONS" />
+                <button class="btn btn-primary js-tooltip" title="Make an OPTIONS request on the Video List Create Api resource">OPTIONS</button>
+            </form>
+        
+
+        
+
+        <div class="content-main">
+            <div class="page-header"><h1>Video List Create Api</h1></div>
+            
+            
+            
+            <div class="request-info" style="clear: both" >
+                <pre class="prettyprint"><b>GET</b> /api/v2/video/?page=32</pre>
+            </div>
+            <div class="response-info">
+                <pre class="prettyprint"><div class="meta nocode"><b>HTTP 200 OK</b>
+<b>Content-Type:</b> <span class="lit">application/json</span>
+<b>Vary:</b> <span class="lit">Accept</span>
+<b>Allow:</b> <span class="lit">GET, POST, HEAD, OPTIONS</span>
+
+</div>{
+    &quot;count&quot;: 3439, 
+    &quot;next&quot;: &quot;<a href="http://pyvideo.org/api/v2/video/?page=33" rel="nofollow">http://pyvideo.org/api/v2/video/?page=33</a>&quot;, 
+    &quot;previous&quot;: &quot;<a href="http://pyvideo.org/api/v2/video/?page=31" rel="nofollow">http://pyvideo.org/api/v2/video/?page=31</a>&quot;, 
+    &quot;results&quot;: [
+        {
+            &quot;category&quot;: &quot;PyCon AU 2015&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;reliable-testing-with-pip-constraints&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Robert Collins&quot;
+            ], 
+            &quot;tags&quot;: [], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 3988, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;reliable testing with pip constraints&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;pip freeze files and similar techniques like buildout have been used for reliable testing and reliable deployments for some time. But they are not flexible enough to deal with situations like OpenStack where there are dozens of separate codebases, evolving independently, which still need the same rigour and reliability.\r\n\r\nEnter pip constraints, new in 7.1.0. I will cover their use, design, and how we&#39;re using them in devstack (and thus OpenStack CI) - and how you can (and should) use them in your local projects.\n\n&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;creativeCommon&quot;, 
+            &quot;embed&quot;: &quot;&lt;iframe width=\&quot;640\&quot; height=\&quot;360\&quot; src=\&quot;//www.youtube.com/embed/aZ_y_U6rZRM\&quot; frameborder=\&quot;0\&quot; allowfullscreen&gt;&lt;/iframe&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="https://i.ytimg.com/vi/aZ_y_U6rZRM/hqdefault.jpg" rel="nofollow">https://i.ytimg.com/vi/aZ_y_U6rZRM/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: null, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="https://www.youtube.com/watch?v=aZ_y_U6rZRM" rel="nofollow">https://www.youtube.com/watch?v=aZ_y_U6rZRM</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;needs editing&quot;, 
+            &quot;recorded&quot;: &quot;2015-08-04&quot;, 
+            &quot;added&quot;: &quot;2015-10-18T16:10:57.217&quot;, 
+            &quot;updated&quot;: &quot;2015-10-18T16:10:57.217&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyCon AU 2015&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;slow-down-compose-yourself&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Amber \&quot;Hawkie\&quot; Brown&quot;
+            ], 
+            &quot;tags&quot;: [], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 3994, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Slow Down, Compose Yourself&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;As your codebase grows, you will have instances where you have code that needs to be reused. Then you think, I can do this with subclassing! Now you have a diamond-tree of problems.\r\n\r\nHere, we\u2019ll talk about a better way of code reuse and introducing alternate behaviour into existing classes \u2014 composition. It\u2019ll improve how you test your code \u2014 making your test runs faster, making it easier to test exceptional cases, and making everything easier to understand.\n\n&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;creativeCommon&quot;, 
+            &quot;embed&quot;: &quot;&lt;iframe width=\&quot;640\&quot; height=\&quot;360\&quot; src=\&quot;//www.youtube.com/embed/kUIjaHPvaTo\&quot; frameborder=\&quot;0\&quot; allowfullscreen&gt;&lt;/iframe&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="https://i.ytimg.com/vi/kUIjaHPvaTo/hqdefault.jpg" rel="nofollow">https://i.ytimg.com/vi/kUIjaHPvaTo/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: null, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="https://www.youtube.com/watch?v=kUIjaHPvaTo" rel="nofollow">https://www.youtube.com/watch?v=kUIjaHPvaTo</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;needs editing&quot;, 
+            &quot;recorded&quot;: &quot;2015-08-04&quot;, 
+            &quot;added&quot;: &quot;2015-10-18T16:10:58.124&quot;, 
+            &quot;updated&quot;: &quot;2015-10-18T16:10:58.124&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyCon AU 2015&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;software-carpentry-expansion-and-partnerships-i&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Nic Crouch&quot;
+            ], 
+            &quot;tags&quot;: [], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 3990, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Software Carpentry - Expansion and Partnerships in 2015&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;The Software Carpentry Foundation is an international volunteer organisation that teaches basic programming skills to researchers in science, engineering, medicine and other disciplines. Further, the foundation maintains a wealth of open-source, open-access teaching materials for a several programming related topics, including Python, the Unix shell, Git, SQL, R and Matlab. \r\n\r\nLessons from Software Carpentry are usually delivered in the form of two day workshops. Taught by trained instructors, these workshops cover automation of repetitive tasks using the shell, building modular and testable programs using Python or R and using version control to build software in a collaborative and efficient manner. Furthermore, workshops may be expanded, covering topics such as SQL and the use of databases to reliably store and maintain data. Though of course it is impossible to train expert programmers in two days, Software Carpentry has had great success in teaching \u2018just enough\u2019 to researchers that they can then return to the lab with a strong foundation of skills to build from.\r\n\r\nThis presentation will focus on the major progress that has been made by Software Carpentry in Australia and worldwide since PyCon-Au 2014. In particular, the pool of Australian instructors has dramatically increased through the live training session held as part of the Research Bazaar conference held at Melbourne University in February. As such, the presentation will be somewhat meta \u2013 answering the question \u2018What are the educational principles and techniques you should know before attempting to teach novice programmers?\u2019 The Software Carpentry lesson content has also evolved in the last 12 months, with the lesson content expanding to such topics as the use of Pandas and the more effective use of the iPython Notebook to work with data and visualisation. These changes allow Software Carpentry to cater to a broader audience of researchers. There will also be some discussion of the Research Bazaar conference, which partnered with Software Carpentry this year to not only train instructors, but also run a series of other \u2018basic skills\u2019 workshops for researchers. Finally, there is an interesting sister organisation of Software Carpentry, known as Data Carpentry, which focuses on improving the way researchers work with and store their data. \r\n\r\n\n\n&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;creativeCommon&quot;, 
+            &quot;embed&quot;: &quot;&lt;iframe width=\&quot;640\&quot; height=\&quot;360\&quot; src=\&quot;//www.youtube.com/embed/dGJzl286D5I\&quot; frameborder=\&quot;0\&quot; allowfullscreen&gt;&lt;/iframe&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="https://i.ytimg.com/vi/dGJzl286D5I/hqdefault.jpg" rel="nofollow">https://i.ytimg.com/vi/dGJzl286D5I/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: null, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="https://www.youtube.com/watch?v=dGJzl286D5I" rel="nofollow">https://www.youtube.com/watch?v=dGJzl286D5I</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;needs editing&quot;, 
+            &quot;recorded&quot;: &quot;2015-08-04&quot;, 
+            &quot;added&quot;: &quot;2015-10-18T16:10:57.564&quot;, 
+            &quot;updated&quot;: &quot;2015-10-18T16:10:57.564&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyCon AU 2015&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;spreadsheet-driven-meta-programming-for-python&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Javier Candeira&quot;
+            ], 
+            &quot;tags&quot;: [], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 3959, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Spreadsheet-Driven Meta-Programming for Python&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;We&#39;ve all had those very detail-oriented clients who are able to specify their needs very neatly, often by means of exhaustive spreadsheets. Wouldn&#39;t it be nice if we could turn these spreadsheets straight into Python code?\r\n\r\nIn this tutorial we&#39;ll use two sets of meta-programming techniques to derive Python code out of semi-formal descriptions: first, to build Django models requiring very detailed validation supplied by the client in a spreadsheet; second, to build a Python API for a hardware device, the description of which is maintained by the engineers in a spreadsheet.\r\n\r\nFor the Pycon attendance, this tutorial has both business value and technical value:\r\n\r\nBusiness value because spreadsheet-driven metaprogramming allows developers to:\r\n\r\n- respond to changes very fast by re-rendering their Python code from the modified spreadsheet descriptions.\r\n- avoid a certain class of human errors unavoidable when transcribing the requirements by hand.\r\n- save time which can be employed in other areas of the project, or with other clients.\r\n- clarify ambiguous specifications by making explicit all programmer&#39;s assumptions into the code generator.\r\n\r\nTechnical value because we&#39;ll be talking about:\r\n\r\n- api design,\r\n- Django modeling and validation,\r\n- consuming spreadsheets via csv dictreaders and elbow grease,\r\n- writing partially-applied functions via custom classes with a __call__ method,\r\n- implementing fluent apis with table-driven __getattr__ methods,\r\n- implementing iterators with __iter__ and __next__,\r\n- papering over some differences between Python 2 and Python 3 syntax,\r\n- and much, much more.\r\n\r\nWe&#39;ll be doing all of it in a hands-on manner, without getting distracted by abstract discussions of Python syntax. There will be some discussions of Python syntax, but they won&#39;t be abstract. We&#39;ll always have a goal in sight.\r\n\r\nLevel:\r\n\r\nIntermediate. You&#39;ll learn some advanced techniques, but all you need to really know in order to follow this tutorial is how lists, dictionaries, iteration and reading files work in Python. \r\n\r\nRequirements:\r\n\r\n- Attendees are expected to know basic Python (see above, under \&quot;Level\&quot;).\r\n- A laptop and some knowledge of git will be useful for those wanting to follow along, but is not required. You can get a lot out of this tutorial just by watching and paying attention.\r\n\n\n&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;creativeCommon&quot;, 
+            &quot;embed&quot;: &quot;&lt;iframe width=\&quot;640\&quot; height=\&quot;360\&quot; src=\&quot;//www.youtube.com/embed/DmLHqOvbG9M\&quot; frameborder=\&quot;0\&quot; allowfullscreen&gt;&lt;/iframe&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="https://i.ytimg.com/vi/DmLHqOvbG9M/hqdefault.jpg" rel="nofollow">https://i.ytimg.com/vi/DmLHqOvbG9M/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: null, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="https://www.youtube.com/watch?v=DmLHqOvbG9M" rel="nofollow">https://www.youtube.com/watch?v=DmLHqOvbG9M</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;needs editing&quot;, 
+            &quot;recorded&quot;: &quot;2015-08-04&quot;, 
+            &quot;added&quot;: &quot;2015-10-18T16:10:53.291&quot;, 
+            &quot;updated&quot;: &quot;2015-10-18T16:10:53.291&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyCon AU 2015&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;sprinting-for-beginners&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Tennessee Leeuwenburg&quot;
+            ], 
+            &quot;tags&quot;: [], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 3952, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Sprinting For Beginners&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;What do sprinters eat before a race?\r\nNothing, they fast.\r\n\r\nSprinting at PyCon AU is not like that at all. Instead, it&#39;s a great chance to do something good for the community and get to know some fellow devs along the way. The sprints are an semi-formal two-day event following the close of the main track of the conference where people get together and code on whatever takes their fancy. Most of the time, it&#39;s a a chance to work on an open source package you&#39;re already involved with in some way, or to meet face-to-face with people you otherwise know only by email.\r\n\r\nHowever, there are also those brave souls who are joining in for the first time. It can be particularly intimidating if you don&#39;t know the others there or how to really get started. This presentation will talk about the sprint format, how to get in with a sprint group, and how to be productive in such a short time (especially if you&#39;re new to the concept).\r\n\r\nWe&#39;ll cover off basics like getting your environment set up, checking out the code, and identifying appropriate projects and tasks to work on. Standard workflows and tips on how and when to approach people for assistance can also help to make things flow more smoothly.\r\n\r\nIt will also include some tips for sprint leaders about how to make your project easy and enjoyable for others to hack on. There is a lot than can be done without a lot of effort, such as pre-classifying bugs or identifying appropriate tasks for newcomers, identifying \&quot;go-to\&quot; people in your project, and spending time on the day talking to people and getting them comfortable working on your code. Clearly documenting simple workflows (like how to submit a patch, what code standards are used, and how to validate results) can help tremendously.\r\n\r\nWith any luck, this presentation can help both sprint leaders and attendees with a smoother experience which gets the difficulties out the way and leaves maximum opportunity for coding and enjoyment.\r\n\r\nTennessee has gone through the meatgrinder of sprinting, from sitting down with a group of strangers trying to help them fix trivial bugs, to developing significant extensions, to leading sprints. With the scars to show and lessons learned, he is in a reasonable position to help suggest some simple things that can make sprinting easier and more enjoyable for the newcomer.\n\n&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;creativeCommon&quot;, 
+            &quot;embed&quot;: &quot;&lt;iframe width=\&quot;640\&quot; height=\&quot;360\&quot; src=\&quot;//www.youtube.com/embed/6NUBO1DDQAY\&quot; frameborder=\&quot;0\&quot; allowfullscreen&gt;&lt;/iframe&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="https://i.ytimg.com/vi/6NUBO1DDQAY/hqdefault.jpg" rel="nofollow">https://i.ytimg.com/vi/6NUBO1DDQAY/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: null, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="https://www.youtube.com/watch?v=6NUBO1DDQAY" rel="nofollow">https://www.youtube.com/watch?v=6NUBO1DDQAY</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;needs editing&quot;, 
+            &quot;recorded&quot;: &quot;2015-08-04&quot;, 
+            &quot;added&quot;: &quot;2015-10-18T16:10:52.289&quot;, 
+            &quot;updated&quot;: &quot;2015-10-18T16:10:52.289&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyCon AU 2015&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;stop-and-smell-the-djangos&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Richard Shea&quot;
+            ], 
+            &quot;tags&quot;: [], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 4066, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Stop and smell the Djangos&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;A great strength of Django is how much functionality there is baked in without the developer doing anything to obtain it.\r\n\r\nA corollary of this is that there\u2019s a great deal of functionality in Django which the average developer is hardly aware exists. The happy dev is pleased to ignore the problems that have been solved for them as their requests rush in and their responses rush out.\r\n\r\nThere&#39;s Middleware, Signals, Authentication, Caching, Internationalization, Serialization and ... a lot more and that&#39;s just the core framework.\r\n\r\nIn this talk we\u2019re going to stop and admire the view .\r\n\r\nWe\u2019ll demonstrate the effects that these core aspects of Django have on a request - response cycle by reviewing how they work and feeling the pain of what life would be like without them.\r\n\r\nMy talk is aimed at the average Django dev who has been happy to ignore what goes on under the hood. By better understanding the machinery that Django relies on it gives us all the opportunity to exploit it in our work and, of course, to impress our colleagues!&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;creativeCommon&quot;, 
+            &quot;embed&quot;: &quot;&lt;iframe width=\&quot;640\&quot; height=\&quot;360\&quot; src=\&quot;//www.youtube.com/embed/tl0wkY78jk4\&quot; frameborder=\&quot;0\&quot; allowfullscreen&gt;&lt;/iframe&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="https://i.ytimg.com/vi/tl0wkY78jk4/hqdefault.jpg" rel="nofollow">https://i.ytimg.com/vi/tl0wkY78jk4/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: null, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="https://www.youtube.com/watch?v=tl0wkY78jk4" rel="nofollow">https://www.youtube.com/watch?v=tl0wkY78jk4</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;needs editing&quot;, 
+            &quot;recorded&quot;: &quot;2015-08-04&quot;, 
+            &quot;added&quot;: &quot;2015-11-23T19:30:13.089&quot;, 
+            &quot;updated&quot;: &quot;2015-11-23T19:30:13.089&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyCon AU 2015&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;swagger-driven-rest-api-development-with-the-falc&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Andrew Stuart&quot;
+            ], 
+            &quot;tags&quot;: [], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 3953, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Swagger driven REST API development with the Falcon web server&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;Swagger is a JSON format for defining and documenting REST API&#39;s. Falcon is a lightweight Python web server designed specifically for building REST web services.\r\n\r\nThis presentation shows you how to combine Swagger API specifications with the Falcon web server to make REST API development incredibly fast and easy.\r\n\r\n\n\n&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;creativeCommon&quot;, 
+            &quot;embed&quot;: &quot;&lt;iframe width=\&quot;640\&quot; height=\&quot;360\&quot; src=\&quot;//www.youtube.com/embed/6oeXeX0NrFM\&quot; frameborder=\&quot;0\&quot; allowfullscreen&gt;&lt;/iframe&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="https://i.ytimg.com/vi/6oeXeX0NrFM/hqdefault.jpg" rel="nofollow">https://i.ytimg.com/vi/6oeXeX0NrFM/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: null, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="https://www.youtube.com/watch?v=6oeXeX0NrFM" rel="nofollow">https://www.youtube.com/watch?v=6oeXeX0NrFM</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;needs editing&quot;, 
+            &quot;recorded&quot;: &quot;2015-08-04&quot;, 
+            &quot;added&quot;: &quot;2015-10-18T16:10:52.433&quot;, 
+            &quot;updated&quot;: &quot;2015-10-18T16:10:52.433&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyCon AU 2015&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;talking-to-browsers-with-cors&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Michael Krotscheck&quot;
+            ], 
+            &quot;tags&quot;: [], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 3987, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Talking to Browsers with CORS&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;This session will demonstrate how to break the browser&#39;s single origin policy, and permit true separability between a Python API and a browser-based client.\n\n&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;creativeCommon&quot;, 
+            &quot;embed&quot;: &quot;&lt;iframe width=\&quot;640\&quot; height=\&quot;360\&quot; src=\&quot;//www.youtube.com/embed/a9ze1XilXSI\&quot; frameborder=\&quot;0\&quot; allowfullscreen&gt;&lt;/iframe&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="https://i.ytimg.com/vi/a9ze1XilXSI/hqdefault.jpg" rel="nofollow">https://i.ytimg.com/vi/a9ze1XilXSI/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: null, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="https://www.youtube.com/watch?v=a9ze1XilXSI" rel="nofollow">https://www.youtube.com/watch?v=a9ze1XilXSI</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;needs editing&quot;, 
+            &quot;recorded&quot;: &quot;2015-08-04&quot;, 
+            &quot;added&quot;: &quot;2015-10-18T16:10:57.065&quot;, 
+            &quot;updated&quot;: &quot;2015-10-18T16:10:57.065&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyCon AU 2015&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;test-driven-repair&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Christopher Neugebauer&quot;
+            ], 
+            &quot;tags&quot;: [], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 3949, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Test-Driven Repair&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;\u201cit is impossible BY DEFINITION to do Test-Driven Development after the code is written.\u201d \u2014 Tim Ottinger, author of \u2018Clean Code\u2019, on Twitter [1].\r\n\r\nAutomated testing is one of the most important tools in the modern programming toolbox: good tests help you find regressions early, and help you make sure your code is right before it ships. Test-driven development is a great way to make sure your software is up to specification before you start work. Even better, it makes sure your software\u2019s architecture is amenable to writing tests from day 1.\r\n\r\nSo what happens when you find yourself working on code where automated testing took a back seat to being shipped? Chances are you\u2019ll have a sea of bugs, strung together in a structure where writing simple unit tests just isn\u2019t going to happen.\r\n\r\nBroken code is a support burden, and if it\u2019s in production, you\u2019ve got no choice but to make things work. Luckily, automated testing isn\u2019t a lost cause here!\r\n\r\nIn this talk, we\u2019ll look at how to approach automated testing on late-stage, or even production code\u2026 or in any situation when you don\u2019t have the luxury of starting with a test-driven structure. We\u2019ll look at techniques that I\u2019ve used to analyse faults in existing code, and how to translate those into tests, and how to use that to fix bugs.\r\n\r\nIn particular, we\u2019ll look at:\r\n\r\n- Tooling and metrics to help you decide what code to test, and how to measure progress when you\u2019re writing tests\r\n- Approaches to constructing test cases for old code, including using data-driven approaches, and approaches based on requirements specifications\r\n- Granularity \u2014 making tests on old code granular enough is difficult, so we\u2019ll look at the trade-offs between unit and integration tests on old code, and ways to make integration-level tests granular enough to make results reliable\r\n\r\nWe\u2019ll see that testing old code is both achievable, and actually a worthwhile exercise. You\u2019ll find bugs. You\u2019ll increase quality. You\u2019ll make your code more maintainable! Do try it!\r\n\r\n[1] <a href="https://twitter.com/tottinge/status/544632253205475329%5Cr%5Cn%5Cn%5Cn" rel="nofollow">https://twitter.com/tottinge/status/544632253205475329\r\n\n\n</a>&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;creativeCommon&quot;, 
+            &quot;embed&quot;: &quot;&lt;iframe width=\&quot;640\&quot; height=\&quot;360\&quot; src=\&quot;//www.youtube.com/embed/1i5leCslA4g\&quot; frameborder=\&quot;0\&quot; allowfullscreen&gt;&lt;/iframe&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="https://i.ytimg.com/vi/1i5leCslA4g/hqdefault.jpg" rel="nofollow">https://i.ytimg.com/vi/1i5leCslA4g/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: null, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="https://www.youtube.com/watch?v=1i5leCslA4g" rel="nofollow">https://www.youtube.com/watch?v=1i5leCslA4g</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;needs editing&quot;, 
+            &quot;recorded&quot;: &quot;2015-08-04&quot;, 
+            &quot;added&quot;: &quot;2015-10-18T16:10:51.815&quot;, 
+            &quot;updated&quot;: &quot;2015-10-18T16:10:51.815&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyCon AU 2015&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;testing-aint-hard-even-for-sysadmins&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Geoff Crompton&quot;
+            ], 
+            &quot;tags&quot;: [], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 3991, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Testing ain&#39;t hard, even for SysAdmins&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;While fabric is a great tool for systems automation, saltstack is better. When Geoff decided to re-work the procedure at Trinity College for doing their regular package installs using salt, he ended up writing his own script that interacted with salt. He learned to love how testing improved his ability to debug this script without breaking his production environment, and wants to share what he learned with you.\n\n&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;creativeCommon&quot;, 
+            &quot;embed&quot;: &quot;&lt;iframe width=\&quot;640\&quot; height=\&quot;360\&quot; src=\&quot;//www.youtube.com/embed/eteKEpoV8Lk\&quot; frameborder=\&quot;0\&quot; allowfullscreen&gt;&lt;/iframe&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="https://i.ytimg.com/vi/eteKEpoV8Lk/hqdefault.jpg" rel="nofollow">https://i.ytimg.com/vi/eteKEpoV8Lk/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: null, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="https://www.youtube.com/watch?v=eteKEpoV8Lk" rel="nofollow">https://www.youtube.com/watch?v=eteKEpoV8Lk</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;needs editing&quot;, 
+            &quot;recorded&quot;: &quot;2015-08-04&quot;, 
+            &quot;added&quot;: &quot;2015-10-18T16:10:57.703&quot;, 
+            &quot;updated&quot;: &quot;2015-10-18T16:10:57.703&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyCon AU 2015&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;the-future-of-identity-keystone-in-openstack&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Morgan Fainberg&quot;
+            ], 
+            &quot;tags&quot;: [], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 4041, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;The Future of Identity (Keystone) in OpenStack&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;Since the Essex release, the OpenStack Identity Project (Keystone) has seen significant numbers of improvements. Some of these improvement include the addition of the V3 API, PKI Tokens, Trusts, Federated Identity, Non-Persistent Tokens, etc.\r\n\r\nThis talk will discuss the most recent developments for Keystone and what is being planned for Identity during Liberty and beyond.&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;creativeCommon&quot;, 
+            &quot;embed&quot;: &quot;&lt;iframe width=\&quot;640\&quot; height=\&quot;360\&quot; src=\&quot;//www.youtube.com/embed/BiFUDT4aGFk\&quot; frameborder=\&quot;0\&quot; allowfullscreen&gt;&lt;/iframe&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="https://i.ytimg.com/vi/BiFUDT4aGFk/hqdefault.jpg" rel="nofollow">https://i.ytimg.com/vi/BiFUDT4aGFk/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: null, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="https://www.youtube.com/watch?v=BiFUDT4aGFk" rel="nofollow">https://www.youtube.com/watch?v=BiFUDT4aGFk</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;needs editing&quot;, 
+            &quot;recorded&quot;: &quot;2015-08-04&quot;, 
+            &quot;added&quot;: &quot;2015-11-23T19:30:05.548&quot;, 
+            &quot;updated&quot;: &quot;2015-11-23T19:30:05.548&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyCon AU 2015&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;the-one-true-way-of-doing-django-deployments&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Tom Eastman&quot;
+            ], 
+            &quot;tags&quot;: [], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 4035, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;The one true way of doing Django deployments...&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;...doesn&#39;t exist. (Sorry)\r\n\r\nThe power and flexibility of Django comes with drawbacks. One of the toughest for project management is working out how to deploy your Django application. If you ask five different authorities on how you should do it, you&#39;ll get six different answers.\r\n\r\nAnd if someone says \&quot;Just use fabric!\&quot;: they&#39;re not helping.\r\n\r\nRelease management, dependency wrangling, virtualenv care and feeding; to .whl or .deb? To containerize or Heroku-ize? Do you really have to allow your servers unconstrained Internet access just to build your virtualenv?\r\n\r\nAs a Django user, you might end up writing more deployment solutions than Django projects. I know I have.\r\n\r\nThere&#39;s no one true way of doing Django deployments, but some work better than others. Maybe I can show you.&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;creativeCommon&quot;, 
+            &quot;embed&quot;: &quot;&lt;iframe width=\&quot;640\&quot; height=\&quot;360\&quot; src=\&quot;//www.youtube.com/embed/1ABPQyANid0\&quot; frameborder=\&quot;0\&quot; allowfullscreen&gt;&lt;/iframe&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="https://i.ytimg.com/vi/1ABPQyANid0/hqdefault.jpg" rel="nofollow">https://i.ytimg.com/vi/1ABPQyANid0/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: null, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="https://www.youtube.com/watch?v=1ABPQyANid0" rel="nofollow">https://www.youtube.com/watch?v=1ABPQyANid0</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;needs editing&quot;, 
+            &quot;recorded&quot;: &quot;2015-08-04&quot;, 
+            &quot;added&quot;: &quot;2015-11-23T19:30:03.721&quot;, 
+            &quot;updated&quot;: &quot;2015-11-23T19:30:03.721&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyCon AU 2015&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;trials-tribulations-teaching-python-at-coderdoj&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Caleb Hattingh&quot;
+            ], 
+            &quot;tags&quot;: [], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 3980, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Trials &amp; tribulations teaching Python at CoderDojo&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;This talk will relate the experience of teaching coding, including Python, to a (nominally) 6-18 age group at a local Brisbane CoderDojo for 2015 Term 1 and 2.\r\n\r\nScratch and Alice have become very popular for teaching beginner coding at CoderDojo events. Languages such as Python, and even HTML/CSS, are more difficult to introduce, partly because more skills are required before something \&quot;useful\&quot; can be created, and partly because the \&quot;building blocks\&quot; are usually not presented with the same visual immediacy as Scratch, and similar environments. This talk presents some of the difficulties found in transitioning from graphical environments to Python, and observations in using existing tools for learning Python with younger students.\r\n\n\n&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;creativeCommon&quot;, 
+            &quot;embed&quot;: &quot;&lt;iframe width=\&quot;640\&quot; height=\&quot;360\&quot; src=\&quot;//www.youtube.com/embed/Wlw6SXSb5eU\&quot; frameborder=\&quot;0\&quot; allowfullscreen&gt;&lt;/iframe&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="https://i.ytimg.com/vi/Wlw6SXSb5eU/hqdefault.jpg" rel="nofollow">https://i.ytimg.com/vi/Wlw6SXSb5eU/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: null, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="https://www.youtube.com/watch?v=Wlw6SXSb5eU" rel="nofollow">https://www.youtube.com/watch?v=Wlw6SXSb5eU</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;needs editing&quot;, 
+            &quot;recorded&quot;: &quot;2015-08-04&quot;, 
+            &quot;added&quot;: &quot;2015-10-18T16:10:56.006&quot;, 
+            &quot;updated&quot;: &quot;2015-10-18T16:10:56.006&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyCon AU 2015&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;using-flask-and-python-anywhere-in-the-classroom&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Brad Nielsen&quot;
+            ], 
+            &quot;tags&quot;: [], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 4064, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Using Flask and Python Anywhere in the Classroom&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;Flask is a python web server and web framework that makes server-side programming using Python easy. Flask has less &#39;magic&#39; than Django and therefore makes server requests and responses easier to understand for students. Python Anywhere is a cloud server that allows you to easily set up a live Flask or Django application. Students can develop and debug code online without the hassle of installing and configuring their development environments. This session will look at how Flask and Python Anywhere was used in the classroom with a year 12 student cohort.&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;creativeCommon&quot;, 
+            &quot;embed&quot;: &quot;&lt;iframe width=\&quot;640\&quot; height=\&quot;360\&quot; src=\&quot;//www.youtube.com/embed/pIh7G8RG6JM\&quot; frameborder=\&quot;0\&quot; allowfullscreen&gt;&lt;/iframe&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="https://i.ytimg.com/vi/pIh7G8RG6JM/hqdefault.jpg" rel="nofollow">https://i.ytimg.com/vi/pIh7G8RG6JM/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: null, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="https://www.youtube.com/watch?v=pIh7G8RG6JM" rel="nofollow">https://www.youtube.com/watch?v=pIh7G8RG6JM</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;needs editing&quot;, 
+            &quot;recorded&quot;: &quot;2015-08-04&quot;, 
+            &quot;added&quot;: &quot;2015-11-23T19:30:12.693&quot;, 
+            &quot;updated&quot;: &quot;2015-11-23T19:30:12.693&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyCon AU 2015&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;what-django-can-learn-from-twisted&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Amber \&quot;Hawkie\&quot; Brown&quot;
+            ], 
+            &quot;tags&quot;: [], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 4053, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;What Django can learn from Twisted&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;Web frameworks like Django are designed around the traditional request-response cycle \u2014 a request comes in, a response is generated, and that is delivered to the client. In the day of \u201csingle page\u201d applications, where only sections of the page are updated through requests, doing real-time can be clunky. Twisted, and things that build off it, like Django Channels, might be worth thinking about, and this is what this talk will be about.&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;creativeCommon&quot;, 
+            &quot;embed&quot;: &quot;&lt;iframe width=\&quot;640\&quot; height=\&quot;360\&quot; src=\&quot;//www.youtube.com/embed/_HZR7_ZBkYY\&quot; frameborder=\&quot;0\&quot; allowfullscreen&gt;&lt;/iframe&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="https://i.ytimg.com/vi/_HZR7_ZBkYY/hqdefault.jpg" rel="nofollow">https://i.ytimg.com/vi/_HZR7_ZBkYY/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: null, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="https://www.youtube.com/watch?v=_HZR7_ZBkYY" rel="nofollow">https://www.youtube.com/watch?v=_HZR7_ZBkYY</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;needs editing&quot;, 
+            &quot;recorded&quot;: &quot;2015-08-04&quot;, 
+            &quot;added&quot;: &quot;2015-11-23T19:30:08.460&quot;, 
+            &quot;updated&quot;: &quot;2015-11-23T19:30:08.460&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyCon AU 2015&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;writing-python-for-kids&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Brendan Scott&quot;
+            ], 
+            &quot;tags&quot;: [], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 3997, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Writing Python For Kids&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;Thinking of writing a book? We are in the midst of a boom in interest in amateur programming, particularly among children. Brendan spent the most recent summer past using his blog <a href="http://python4kids.brendanscott.com" rel="nofollow">python4kids.brendanscott.com</a> as inspiration for a new project based instructional book, Python for Kids for Dummies (US release by Wiley this northern summer). This talk will provide an overview of the development cycle for the book both in respect of the book&#39;s content and the process involved in creating that content and shepherding it through the publisher&#39;s internal processes. \r\nTopics to be covered include engaging and negotiating with the publisher, the different functions provided by a publisher, project management of the writing, interacting with editorial and technical reviewers, integrating with an existing \&quot;house style\&quot;, art requirements and cross platform issues. In relation to content, Brendan will discuss the thought that went into targeting the material to a kids audience and the challenges involved in structuring a narrative which wends its way through each of the concepts that need to be introduced and providing a motivation for each of them. This includes how the content was structured, what concepts were included and what were passed over, trying to balance material to maintain interest without overwhelming the readers, the tension between explanation and demonstration and how to remain mindful of the audience&#39;s limitations. The highs, the lows, the triumphs (getting it done!) and tragedies (whole chapters consigned to the pyre), it&#39;s all here. \r\n\r\nThe book on Amazon:\r\nhttp://www.amazon.com/Python-For-Kids-Dummies/dp/1119093104\n\n&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;creativeCommon&quot;, 
+            &quot;embed&quot;: &quot;&lt;iframe width=\&quot;640\&quot; height=\&quot;360\&quot; src=\&quot;//www.youtube.com/embed/lWyJ_HXGsm0\&quot; frameborder=\&quot;0\&quot; allowfullscreen&gt;&lt;/iframe&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="https://i.ytimg.com/vi/lWyJ_HXGsm0/hqdefault.jpg" rel="nofollow">https://i.ytimg.com/vi/lWyJ_HXGsm0/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: null, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="https://www.youtube.com/watch?v=lWyJ_HXGsm0" rel="nofollow">https://www.youtube.com/watch?v=lWyJ_HXGsm0</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;needs editing&quot;, 
+            &quot;recorded&quot;: &quot;2015-08-04&quot;, 
+            &quot;added&quot;: &quot;2015-10-18T16:10:58.501&quot;, 
+            &quot;updated&quot;: &quot;2015-10-18T16:10:58.501&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyCon AU 2015&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;automated-scientific-pipelines-with-doit&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Sam Hames&quot;
+            ], 
+            &quot;tags&quot;: [], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 4055, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Automated Scientific Pipelines With Doit&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;Doit is a Python library for task management and automation. It provides a straightforward Python approach to manage and execute any series of interrelated tasks, such as in scientific data analysis. Doit can be used as a command line substitute for Make to drive existing tools/applications, or can be integrated directly with your application at the Python level. Task automation can be as simple as manually specifying a dictionary of dependencies, target files and actions, or as complex as automatically determining dependencies and whether a task is up to date using arbitrary Python expressions. This talk will give an overview of why and how to use doit for your project.\r\n\r\nThis talk assumes no particular background except some familiarity with Python, but is geared towards a scientific computing audience and will touch on automated data analysis as a motivating example.&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;creativeCommon&quot;, 
+            &quot;embed&quot;: &quot;&lt;iframe width=\&quot;640\&quot; height=\&quot;360\&quot; src=\&quot;//www.youtube.com/embed/ccFqbCwcLko\&quot; frameborder=\&quot;0\&quot; allowfullscreen&gt;&lt;/iframe&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="https://i.ytimg.com/vi/ccFqbCwcLko/hqdefault.jpg" rel="nofollow">https://i.ytimg.com/vi/ccFqbCwcLko/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: null, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="https://www.youtube.com/watch?v=ccFqbCwcLko" rel="nofollow">https://www.youtube.com/watch?v=ccFqbCwcLko</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;needs editing&quot;, 
+            &quot;recorded&quot;: &quot;2015-08-03&quot;, 
+            &quot;added&quot;: &quot;2015-11-23T19:30:09.013&quot;, 
+            &quot;updated&quot;: &quot;2015-11-23T19:30:09.014&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyCon AU 2015&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;keynote-consequences-of-an-insightful-algorithm&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Carina C. Zona&quot;
+            ], 
+            &quot;tags&quot;: [], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 4047, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Keynote: Consequences of an Insightful Algorithm&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;We have ethical responsibilities when coding. We\u2019re able to extract remarkably precise intuitions about an individual. But do we have a right to know what they didn\u2019t consent to share, even when they willingly shared the data that leads us there? A major retailer\u2019s data-driven marketing accidentally revealed to a teen\u2019s family that she was pregnant. Eek.\r\n\r\nWhat are our obligations to people who did not expect themselves to be so intimately known without sharing directly? How do we mitigate against unintended outcomes? For instance, an activity tracker carelessly revealed users\u2019 sexual activity data to search engines. A social network\u2019s algorithm accidentally triggered painful memories for grieving families who\u2019d recently experienced death of their child and other loved ones.\r\n\r\nWe design software for humans. Balancing human needs and business specs can be tough. It\u2019s crucial that we learn how to build in systematic empathy.\r\n\r\nIn this talk, we\u2019ll delve into specific examples of uncritical programming, and painful results from using insightful data in ways that were benignly intended. You\u2019ll learn ways we can integrate practices for examining how our code might harm individuals. We\u2019ll look at how to flip the paradigm, netting consequences that can be better for everyone.&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;creativeCommon&quot;, 
+            &quot;embed&quot;: &quot;&lt;iframe width=\&quot;640\&quot; height=\&quot;360\&quot; src=\&quot;//www.youtube.com/embed/NheE6udjfGI\&quot; frameborder=\&quot;0\&quot; allowfullscreen&gt;&lt;/iframe&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="https://i.ytimg.com/vi/NheE6udjfGI/hqdefault.jpg" rel="nofollow">https://i.ytimg.com/vi/NheE6udjfGI/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: null, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="https://www.youtube.com/watch?v=NheE6udjfGI" rel="nofollow">https://www.youtube.com/watch?v=NheE6udjfGI</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;needs editing&quot;, 
+            &quot;recorded&quot;: &quot;2015-08-03&quot;, 
+            &quot;added&quot;: &quot;2015-11-23T19:30:07.024&quot;, 
+            &quot;updated&quot;: &quot;2015-11-23T19:30:07.024&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyCon AU 2015&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;keynote-designed-for-education-a-python-solutio&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Carrie Anne Philbin&quot;
+            ], 
+            &quot;tags&quot;: [], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 4059, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Keynote: Designed for education: a Python solution&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;The problem of introducing children to programming and computer science has seen growing attention in the past few years. Initiatives like Raspberry Pi, Code Club, <a href="http://code.org" rel="nofollow">code.org</a>, (and many more) have been created to help solve this problem. With the introduction of a national computing curriculum in the UK, teachers have been searching for a text based programming language to help teach computational thinking as a follow on from visual languages like Scratch.\r\n\r\nThe educational community has been served well by Python, benefiting from its straight-forward syntax, large selection of libraries, and supportive community. Education-focused summits are now a major part of most major Python Conferences. Assistance in terms of documentation and training is invaluable, but perhaps there are technical means of improving the experience of those using Python in education. Clearly the needs of teachers and their students are different to those of the seasoned programmer. Children are unlikely to come to their teachers with frustrations about the Global Interpreter Lock! But issues such as usability of IDEs or comprehensibility of error messages are of utmost importance.\r\n\r\nIn this keynote, Carrie Anne will discuss existing barriers to Python becoming the premier language of choice for teaching computer science, and how learning Python could be helped immensely through tooling and further support from the Python developer community.&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;creativeCommon&quot;, 
+            &quot;embed&quot;: &quot;&lt;iframe width=\&quot;640\&quot; height=\&quot;360\&quot; src=\&quot;//www.youtube.com/embed/gaFk0Sya_HI\&quot; frameborder=\&quot;0\&quot; allowfullscreen&gt;&lt;/iframe&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="https://i.ytimg.com/vi/gaFk0Sya_HI/hqdefault.jpg" rel="nofollow">https://i.ytimg.com/vi/gaFk0Sya_HI/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: null, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="https://www.youtube.com/watch?v=gaFk0Sya_HI" rel="nofollow">https://www.youtube.com/watch?v=gaFk0Sya_HI</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;needs editing&quot;, 
+            &quot;recorded&quot;: &quot;2015-08-03&quot;, 
+            &quot;added&quot;: &quot;2015-11-23T19:30:09.815&quot;, 
+            &quot;updated&quot;: &quot;2015-11-23T19:30:09.815&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyCon AU 2015&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;open-edx-an-edx-partner-perspective&quot;, 
+            &quot;speakers&quot;: [
+                &quot;John Zornig&quot;
+            ], 
+            &quot;tags&quot;: [], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 4039, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Open edX: An edX partner perspective&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;Open edX is an open source MOOC platform. It powers courses on <a href="http://edx.org" rel="nofollow">edx.org</a> and those of the many adopters of the Open edX platform. Open edX is a complex platform with many interconnected parts, but the largest components are Python Django apps. \r\nThis presentation will describe the experiences of developers at The University of Queensland&#39;s UQx project from 2013 when UQ joined the edX consortium through to the present and the future. Your presenters are John Zornig, Director UQx (former Senior Architect) and Andrew Dekker Senior Developer.&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;creativeCommon&quot;, 
+            &quot;embed&quot;: &quot;&lt;iframe width=\&quot;640\&quot; height=\&quot;360\&quot; src=\&quot;//www.youtube.com/embed/8BUuq0KVXm0\&quot; frameborder=\&quot;0\&quot; allowfullscreen&gt;&lt;/iframe&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="https://i.ytimg.com/vi/8BUuq0KVXm0/hqdefault.jpg" rel="nofollow">https://i.ytimg.com/vi/8BUuq0KVXm0/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: null, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="https://www.youtube.com/watch?v=8BUuq0KVXm0" rel="nofollow">https://www.youtube.com/watch?v=8BUuq0KVXm0</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;needs editing&quot;, 
+            &quot;recorded&quot;: &quot;2015-08-03&quot;, 
+            &quot;added&quot;: &quot;2015-11-23T19:30:04.988&quot;, 
+            &quot;updated&quot;: &quot;2015-11-23T19:30:04.988&quot;
+        }
+    ]
+}</pre>
+            </div>
+        </div>
+
+            
+
+                
+
+                
+            
+
+        </div>
+        <!-- END content-main -->
+
+    </div>
+    <!-- END Content -->
+
+        <div id="push"></div>
+
+    </div>
+
+    </div><!-- ./wrapper -->
+
+    
+    
+
+    
+    <script src="/static/rest_framework/js/jquery-1.8.1-min.js"></script>
+    <script src="/static/rest_framework/js/bootstrap.min.js"></script>
+    <script src="/static/rest_framework/js/prettify-min.js"></script>
+    <script src="/static/rest_framework/js/default.js"></script>
+    
+  </body>
+
+<!-- Mirrored from pyvideo.org/api/v2/video/?page=32 by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 07 Jan 2016 03:47:55 GMT -->
+</html>

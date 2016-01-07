@@ -1,0 +1,940 @@
+
+
+<!DOCTYPE html>
+<html>
+    
+<!-- Mirrored from pyvideo.org/api/v2/video/?page=50 by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 07 Jan 2016 03:48:35 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+    
+
+        
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+        <meta name="robots" content="NONE,NOARCHIVE" />
+        
+
+        <title>Django REST framework</title>
+
+        
+        
+            <link rel="stylesheet" type="text/css" href="/static/rest_framework/css/bootstrap.min.css"/>
+            <link rel="stylesheet" type="text/css" href="/static/rest_framework/css/bootstrap-tweaks.css"/>
+        
+        <link rel="stylesheet" type="text/css" href="/static/rest_framework/css/prettify.css"/>
+        <link rel="stylesheet" type="text/css" href="/static/rest_framework/css/default.css"/>
+        
+
+    
+    </head>
+
+  <body class=" container">
+
+    <div class="wrapper">
+
+    
+    <div class="navbar navbar-inverse">
+        <div class="navbar-inner">
+            <div class="container-fluid">
+                <span href="/">
+                    <a class='brand' rel="nofollow" href='http://www.django-rest-framework.org'>Django REST framework <span class="version">2.3.14</span></a>
+                </span>
+                <ul class="nav pull-right">
+                    
+                        
+                            <li></li>
+                        
+                    
+                </ul>
+            </div>
+        </div>
+    </div>
+    
+
+    
+    <ul class="breadcrumb">
+        
+            <li>
+                <a href="/api/v2/video/" class="active">Video List Create Api</a> 
+            </li>
+        
+    </ul>
+    
+
+    <!-- Content -->
+    <div id="content">
+
+        
+            <form id="get-form" class="pull-right">
+                <fieldset>
+                    <div class="btn-group format-selection">
+                        <a class="btn btn-primary js-tooltip" href='/api/v2/video/?page=50' rel="nofollow" title="Make a GET request on the Video List Create Api resource">GET</a>
+
+                        <button class="btn btn-primary dropdown-toggle js-tooltip" data-toggle="dropdown" title="Specify a format for the GET request">
+                            <span class="caret"></span>
+                        </button>
+                        <ul class="dropdown-menu">
+                            
+                                <li>
+                                    <a class="js-tooltip format-option" href='/api/v2/video/?page=50&format=json' rel="nofollow" title="Make a GET request on the Video List Create Api resource with the format set to `json`">json</a>
+                                </li>
+                            
+                                <li>
+                                    <a class="js-tooltip format-option" href='/api/v2/video/?page=50&format=api' rel="nofollow" title="Make a GET request on the Video List Create Api resource with the format set to `api`">api</a>
+                                </li>
+                            
+                        </ul>
+                    </div>
+
+                </fieldset>
+            </form>
+        
+
+        
+            <form class="button-form" action="/api/v2/video/?page=50" method="POST" class="pull-right">
+                <input type='hidden' name='csrfmiddlewaretoken' value='pT8iI6zhtQdsGFmu4tryYgFrUlipl2B3' />
+                <input type="hidden" name="_method" value="OPTIONS" />
+                <button class="btn btn-primary js-tooltip" title="Make an OPTIONS request on the Video List Create Api resource">OPTIONS</button>
+            </form>
+        
+
+        
+
+        <div class="content-main">
+            <div class="page-header"><h1>Video List Create Api</h1></div>
+            
+            
+            
+            <div class="request-info" style="clear: both" >
+                <pre class="prettyprint"><b>GET</b> /api/v2/video/?page=50</pre>
+            </div>
+            <div class="response-info">
+                <pre class="prettyprint"><div class="meta nocode"><b>HTTP 200 OK</b>
+<b>Content-Type:</b> <span class="lit">application/json</span>
+<b>Vary:</b> <span class="lit">Accept</span>
+<b>Allow:</b> <span class="lit">GET, POST, HEAD, OPTIONS</span>
+
+</div>{
+    &quot;count&quot;: 3439, 
+    &quot;next&quot;: &quot;<a href="http://pyvideo.org/api/v2/video/?page=51" rel="nofollow">http://pyvideo.org/api/v2/video/?page=51</a>&quot;, 
+    &quot;previous&quot;: &quot;<a href="http://pyvideo.org/api/v2/video/?page=49" rel="nofollow">http://pyvideo.org/api/v2/video/?page=49</a>&quot;, 
+    &quot;results&quot;: [
+        {
+            &quot;category&quot;: &quot;PyCon Ar 2014&quot;, 
+            &quot;language&quot;: &quot;Spanish&quot;, 
+            &quot;slug&quot;: &quot;adaptando-un-erp-libre-a-la-argentina&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Laureano Kloss&quot;, 
+                &quot;Sebasti\u00e1n Kennedy&quot;
+            ], 
+            &quot;tags&quot;: [], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 3368, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Adaptando un ERP libre a la Argentina&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;youtube&quot;, 
+            &quot;embed&quot;: &quot;&lt;iframe type=&#39;text/html&#39; src=&#39;http://www.youtube.com/embed/x0bYhf2GogY&#39; width=&#39;640&#39; height=&#39;360&#39; frameborder=&#39;0&#39; allowfullscreen=&#39;true&#39;/&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="https://i.ytimg.com/vi/x0bYhf2GogY/hqdefault.jpg" rel="nofollow">https://i.ytimg.com/vi/x0bYhf2GogY/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: &quot;&quot;, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: &quot;&quot;, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: &quot;&quot;, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: &quot;&quot;, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="https://www.youtube.com/watch?v=x0bYhf2GogY" rel="nofollow">https://www.youtube.com/watch?v=x0bYhf2GogY</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;needs editing&quot;, 
+            &quot;recorded&quot;: &quot;2014-12-03&quot;, 
+            &quot;added&quot;: &quot;2014-12-07T21:07:43.018&quot;, 
+            &quot;updated&quot;: &quot;2014-12-07T21:10:54.399&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyCon Ar 2014&quot;, 
+            &quot;language&quot;: &quot;Spanish&quot;, 
+            &quot;slug&quot;: &quot;django-security-quick-wins&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Andr\u00e9s Riancho&quot;
+            ], 
+            &quot;tags&quot;: [], 
+            &quot;related_urls&quot;: [
+                {
+                    &quot;url&quot;: &quot;<a href="https://speakerdeck.com/andresriancho/djangomeetup-buenos-aires-django-security-qui" rel="nofollow">https://speakerdeck.com/andresriancho/djangomeetup-buenos-aires-django-security-qui</a>&quot;, 
+                    &quot;description&quot;: &quot;slides 1&quot;
+                }, 
+                {
+                    &quot;url&quot;: &quot;<a href="https://speakerdeck.com/andresriancho/djangomeetup-buenos-aires-django-security-quick-wins-ii" rel="nofollow">https://speakerdeck.com/andresriancho/djangomeetup-buenos-aires-django-security-quick-wins-ii</a>&quot;, 
+                    &quot;description&quot;: &quot;slides 2&quot;
+                }
+            ], 
+            &quot;id&quot;: 3365, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Django Security Quick-Wins&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;youtube&quot;, 
+            &quot;embed&quot;: &quot;&lt;iframe type=&#39;text/html&#39; src=&#39;http://www.youtube.com/embed/nCjnAf4X-LM&#39; width=&#39;640&#39; height=&#39;360&#39; frameborder=&#39;0&#39; allowfullscreen=&#39;true&#39;/&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="https://i.ytimg.com/vi/nCjnAf4X-LM/hqdefault.jpg" rel="nofollow">https://i.ytimg.com/vi/nCjnAf4X-LM/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: &quot;&quot;, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: &quot;&quot;, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: &quot;&quot;, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: &quot;&quot;, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="https://www.youtube.com/watch?v=nCjnAf4X-LM" rel="nofollow">https://www.youtube.com/watch?v=nCjnAf4X-LM</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2014-12-02&quot;, 
+            &quot;added&quot;: &quot;2014-12-07T21:07:42.695&quot;, 
+            &quot;updated&quot;: &quot;2014-12-07T21:14:02.001&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyCon Ar 2014&quot;, 
+            &quot;language&quot;: &quot;Spanish&quot;, 
+            &quot;slug&quot;: &quot;mejores-momentos&quot;, 
+            &quot;speakers&quot;: [], 
+            &quot;tags&quot;: [], 
+            &quot;related_urls&quot;: [
+                {
+                    &quot;url&quot;: &quot;<a href="https://www.jamendo.com/en/track/1156320/this-is-how-we-stand" rel="nofollow">https://www.jamendo.com/en/track/1156320/this-is-how-we-stand</a>&quot;, 
+                    &quot;description&quot;: &quot;Mirva - This Is How We Stand, CC-BY SA&quot;
+                }
+            ], 
+            &quot;id&quot;: 3367, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Mejores Momentos&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;V\u00eddeo producido por Mar\u00eda Andrea Vignau\r\n\r\nPista Musical: Mirva - This Is How We Stand\r\n&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;youtube&quot;, 
+            &quot;embed&quot;: &quot;&lt;iframe type=&#39;text/html&#39; src=&#39;http://www.youtube.com/embed/tBIH1OdKHnU&#39; width=&#39;640&#39; height=&#39;360&#39; frameborder=&#39;0&#39; allowfullscreen=&#39;true&#39;/&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="https://i.ytimg.com/vi/tBIH1OdKHnU/hqdefault.jpg" rel="nofollow">https://i.ytimg.com/vi/tBIH1OdKHnU/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: &quot;&quot;, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: &quot;&quot;, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: &quot;&quot;, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: &quot;&quot;, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="https://www.youtube.com/watch?v=tBIH1OdKHnU" rel="nofollow">https://www.youtube.com/watch?v=tBIH1OdKHnU</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2014-12-02&quot;, 
+            &quot;added&quot;: &quot;2014-12-07T21:07:42.919&quot;, 
+            &quot;updated&quot;: &quot;2014-12-07T21:29:44.795&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyCon Ar 2014&quot;, 
+            &quot;language&quot;: &quot;Spanish&quot;, 
+            &quot;slug&quot;: &quot;argentina-en-python&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Manuel Kaufmann&quot;
+            ], 
+            &quot;tags&quot;: [], 
+            &quot;related_urls&quot;: [
+                {
+                    &quot;url&quot;: &quot;<a href="http://elblogdehumitos.com.ar/posts/python-conference-argentina-2014/argentina-en-python_pyconar2014_humitos.pdf" rel="nofollow">http://elblogdehumitos.com.ar/posts/python-conference-argentina-2014/argentina-en-python_pyconar2014_humitos.pdf</a>&quot;, 
+                    &quot;description&quot;: &quot;slides&quot;
+                }
+            ], 
+            &quot;id&quot;: 3362, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Argentina En Python: Como destruir el sue\u00f1o de todo programador en 2 minutos&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;youtube&quot;, 
+            &quot;embed&quot;: &quot;&lt;iframe type=&#39;text/html&#39; src=&#39;http://www.youtube.com/embed/eNQ9O_3ySs8&#39; width=&#39;640&#39; height=&#39;360&#39; frameborder=&#39;0&#39; allowfullscreen=&#39;true&#39;/&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="https://i.ytimg.com/vi/eNQ9O_3ySs8/hqdefault.jpg" rel="nofollow">https://i.ytimg.com/vi/eNQ9O_3ySs8/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: &quot;&quot;, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: &quot;&quot;, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: &quot;&quot;, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: &quot;&quot;, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="https://www.youtube.com/watch?v=eNQ9O_3ySs8" rel="nofollow">https://www.youtube.com/watch?v=eNQ9O_3ySs8</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2014-11-29&quot;, 
+            &quot;added&quot;: &quot;2014-12-07T21:07:42.399&quot;, 
+            &quot;updated&quot;: &quot;2014-12-07T21:18:08.023&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyCon Ar 2014&quot;, 
+            &quot;language&quot;: &quot;Spanish&quot;, 
+            &quot;slug&quot;: &quot;haciendo-codigo-que-analiza-codigo-con-ast&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Diego Sarmentero&quot;
+            ], 
+            &quot;tags&quot;: [], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 3364, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Haciendo c\u00f3digo que analiza c\u00f3digo con AST&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;youtube&quot;, 
+            &quot;embed&quot;: &quot;&lt;iframe type=&#39;text/html&#39; src=&#39;http://www.youtube.com/embed/gaNzBZa9Ah0&#39; width=&#39;640&#39; height=&#39;360&#39; frameborder=&#39;0&#39; allowfullscreen=&#39;true&#39;/&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="https://i.ytimg.com/vi/gaNzBZa9Ah0/hqdefault.jpg" rel="nofollow">https://i.ytimg.com/vi/gaNzBZa9Ah0/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: &quot;&quot;, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: &quot;&quot;, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: &quot;&quot;, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: &quot;&quot;, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="https://www.youtube.com/watch?v=gaNzBZa9Ah0" rel="nofollow">https://www.youtube.com/watch?v=gaNzBZa9Ah0</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2014-11-28&quot;, 
+            &quot;added&quot;: &quot;2014-12-07T21:07:42.595&quot;, 
+            &quot;updated&quot;: &quot;2014-12-07T21:19:41.512&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyCon Ar 2014&quot;, 
+            &quot;language&quot;: &quot;Spanish&quot;, 
+            &quot;slug&quot;: &quot;introduccion-a-jupyter&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Dami\u00e1n Avila&quot;
+            ], 
+            &quot;tags&quot;: [], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 3363, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Introducci\u00f3n A Jupyter&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;youtube&quot;, 
+            &quot;embed&quot;: &quot;&lt;iframe type=&#39;text/html&#39; src=&#39;http://www.youtube.com/embed/fTRkm3d6ebw&#39; width=&#39;640&#39; height=&#39;360&#39; frameborder=&#39;0&#39; allowfullscreen=&#39;true&#39;/&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="https://i.ytimg.com/vi/fTRkm3d6ebw/hqdefault.jpg" rel="nofollow">https://i.ytimg.com/vi/fTRkm3d6ebw/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: &quot;&quot;, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: &quot;&quot;, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: &quot;&quot;, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: &quot;&quot;, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="https://www.youtube.com/watch?v=fTRkm3d6ebw" rel="nofollow">https://www.youtube.com/watch?v=fTRkm3d6ebw</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2014-11-28&quot;, 
+            &quot;added&quot;: &quot;2014-12-07T21:07:42.489&quot;, 
+            &quot;updated&quot;: &quot;2014-12-07T21:22:59.281&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyCon Ar 2014&quot;, 
+            &quot;language&quot;: &quot;Spanish&quot;, 
+            &quot;slug&quot;: &quot;introduccion-a-pilas&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Hugo Ruscitti&quot;
+            ], 
+            &quot;tags&quot;: [], 
+            &quot;related_urls&quot;: [
+                {
+                    &quot;url&quot;: &quot;<a href="https://speakerdeck.com/hugoruscitti/taller-introduccion-a-pilas-por-hugo-ruscitti" rel="nofollow">https://speakerdeck.com/hugoruscitti/taller-introduccion-a-pilas-por-hugo-ruscitti</a>&quot;, 
+                    &quot;description&quot;: &quot;slides&quot;
+                }
+            ], 
+            &quot;id&quot;: 3360, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Introducci\u00f3n a Pilas&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;youtube&quot;, 
+            &quot;embed&quot;: &quot;&lt;iframe type=&#39;text/html&#39; src=&#39;http://www.youtube.com/embed/5EpWCfT7f-c&#39; width=&#39;640&#39; height=&#39;360&#39; frameborder=&#39;0&#39; allowfullscreen=&#39;true&#39;/&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="https://i.ytimg.com/vi/5EpWCfT7f-c/hqdefault.jpg" rel="nofollow">https://i.ytimg.com/vi/5EpWCfT7f-c/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: &quot;&quot;, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: &quot;&quot;, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: &quot;&quot;, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: &quot;&quot;, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="https://www.youtube.com/watch?v=5EpWCfT7f-c" rel="nofollow">https://www.youtube.com/watch?v=5EpWCfT7f-c</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2014-11-28&quot;, 
+            &quot;added&quot;: &quot;2014-12-07T21:07:42.122&quot;, 
+            &quot;updated&quot;: &quot;2014-12-07T21:24:21.735&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyCon Ar 2014&quot;, 
+            &quot;language&quot;: &quot;Spanish&quot;, 
+            &quot;slug&quot;: &quot;introduccion-a-python&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Facundo Batista&quot;
+            ], 
+            &quot;tags&quot;: [], 
+            &quot;related_urls&quot;: [
+                {
+                    &quot;url&quot;: &quot;<a href="http://www.taniquetil.com.ar/homedevel/presents/intropython.odp" rel="nofollow">http://www.taniquetil.com.ar/homedevel/presents/intropython.odp</a>&quot;, 
+                    &quot;description&quot;: &quot;slides&quot;
+                }
+            ], 
+            &quot;id&quot;: 3361, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Introducci\u00f3n A Python&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;youtube&quot;, 
+            &quot;embed&quot;: &quot;&lt;iframe type=&#39;text/html&#39; src=&#39;http://www.youtube.com/embed/VUti1RG6Jj8&#39; width=&#39;640&#39; height=&#39;360&#39; frameborder=&#39;0&#39; allowfullscreen=&#39;true&#39;/&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="https://i.ytimg.com/vi/VUti1RG6Jj8/hqdefault.jpg" rel="nofollow">https://i.ytimg.com/vi/VUti1RG6Jj8/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: &quot;&quot;, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: &quot;&quot;, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: &quot;&quot;, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: &quot;&quot;, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="https://www.youtube.com/watch?v=VUti1RG6Jj8" rel="nofollow">https://www.youtube.com/watch?v=VUti1RG6Jj8</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2014-11-28&quot;, 
+            &quot;added&quot;: &quot;2014-12-07T21:07:42.275&quot;, 
+            &quot;updated&quot;: &quot;2014-12-07T21:25:50.486&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyCon Ar 2014&quot;, 
+            &quot;language&quot;: &quot;Spanish&quot;, 
+            &quot;slug&quot;: &quot;machine-learning&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Juan Pedro Fisanotti&quot;
+            ], 
+            &quot;tags&quot;: [], 
+            &quot;related_urls&quot;: [
+                {
+                    &quot;url&quot;: &quot;<a href="http://nbviewer.ipython.org/github/fisadev/talks/blob/master/machine-learning-intro-with-worldcup/machine-learning-intro-worldcup.ipynb" rel="nofollow">http://nbviewer.ipython.org/github/fisadev/talks/blob/master/machine-learning-intro-with-worldcup/machine-learning-intro-worldcup.ipynb</a>&quot;, 
+                    &quot;description&quot;: &quot;ipynb slides&quot;
+                }
+            ], 
+            &quot;id&quot;: 3369, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Machine Learning&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;youtube&quot;, 
+            &quot;embed&quot;: &quot;&lt;iframe type=&#39;text/html&#39; src=&#39;http://www.youtube.com/embed/yDUFGXUfUA8&#39; width=&#39;640&#39; height=&#39;360&#39; frameborder=&#39;0&#39; allowfullscreen=&#39;true&#39;/&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="https://i.ytimg.com/vi/yDUFGXUfUA8/hqdefault.jpg" rel="nofollow">https://i.ytimg.com/vi/yDUFGXUfUA8/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: &quot;&quot;, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: &quot;&quot;, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: &quot;&quot;, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: &quot;&quot;, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="https://www.youtube.com/watch?v=yDUFGXUfUA8" rel="nofollow">https://www.youtube.com/watch?v=yDUFGXUfUA8</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;needs editing&quot;, 
+            &quot;recorded&quot;: &quot;2014-11-28&quot;, 
+            &quot;added&quot;: &quot;2014-12-07T21:07:43.119&quot;, 
+            &quot;updated&quot;: &quot;2014-12-07T21:26:56.976&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyCon Ar 2014&quot;, 
+            &quot;language&quot;: &quot;Spanish&quot;, 
+            &quot;slug&quot;: &quot;tu-propio-cliente-de-torrent-streaming-en-python&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Felipe Lerena&quot;
+            ], 
+            &quot;tags&quot;: [], 
+            &quot;related_urls&quot;: [
+                {
+                    &quot;url&quot;: &quot;<a href="http://bit.ly/pyconar" rel="nofollow">http://bit.ly/pyconar</a>&quot;, 
+                    &quot;description&quot;: &quot;slides&quot;
+                }, 
+                {
+                    &quot;url&quot;: &quot;<a href="http://pastebin.com/ZRwfUEB3" rel="nofollow">http://pastebin.com/ZRwfUEB3</a>&quot;, 
+                    &quot;description&quot;: &quot;examples&quot;
+                }
+            ], 
+            &quot;id&quot;: 3366, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Tu propio cliente de Torrent streaming en Python&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;youtube&quot;, 
+            &quot;embed&quot;: &quot;&lt;iframe type=&#39;text/html&#39; src=&#39;http://www.youtube.com/embed/oMl1UiF_2Ss&#39; width=&#39;640&#39; height=&#39;360&#39; frameborder=&#39;0&#39; allowfullscreen=&#39;true&#39;/&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="https://i.ytimg.com/vi/oMl1UiF_2Ss/hqdefault.jpg" rel="nofollow">https://i.ytimg.com/vi/oMl1UiF_2Ss/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: &quot;&quot;, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: &quot;&quot;, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: &quot;&quot;, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: &quot;&quot;, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="https://www.youtube.com/watch?v=oMl1UiF_2Ss" rel="nofollow">https://www.youtube.com/watch?v=oMl1UiF_2Ss</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;needs editing&quot;, 
+            &quot;recorded&quot;: &quot;2014-11-28&quot;, 
+            &quot;added&quot;: &quot;2014-12-07T21:07:42.783&quot;, 
+            &quot;updated&quot;: &quot;2014-12-07T21:29:33.949&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyCon Ukraine 2014&quot;, 
+            &quot;language&quot;: &quot;Russian&quot;, 
+            &quot;slug&quot;: &quot;data-mining-python&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Vitaly Haritonskiy&quot;
+            ], 
+            &quot;tags&quot;: [], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 3356, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Data Mining \u043d\u0430 Python&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;This report analyzes practical example of Clope clusterization algorythm, as a way of building model database using similar items given unknown cluster quantity. I will try to shed some light on Python&#39;s advantages and drawbacks in this task&#39;s implementation as well as some ways of scaling, optimizing and distributing the calculations, using alternative implementations of Python(PyPy, Stackless, etc.).&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;youtube&quot;, 
+            &quot;embed&quot;: &quot;&lt;iframe type=&#39;text/html&#39; src=&#39;http://www.youtube.com/embed/o_wEh-spa9I&#39; width=&#39;640&#39; height=&#39;360&#39; frameborder=&#39;0&#39; allowfullscreen=&#39;true&#39;/&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="https://i.ytimg.com/vi/o_wEh-spa9I/hqdefault.jpg" rel="nofollow">https://i.ytimg.com/vi/o_wEh-spa9I/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: &quot;&quot;, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: &quot;&quot;, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: &quot;&quot;, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: &quot;&quot;, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="https://www.youtube.com/watch?v=o_wEh-spa9I" rel="nofollow">https://www.youtube.com/watch?v=o_wEh-spa9I</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2014-11-18&quot;, 
+            &quot;added&quot;: &quot;2014-11-26T17:50:51.179&quot;, 
+            &quot;updated&quot;: &quot;2014-11-27T16:16:12.784&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyCon Ukraine 2014&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;how-to-create-a-self-learning-robot&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Ian Tsybulkin&quot;
+            ], 
+            &quot;tags&quot;: [], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 3357, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;How to create a self-learning robot&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;Creating a robot or an intelligent agent which can behave as a human being, make decisions effectively, take actions optimally, and more over, can learn from its own experience were always be a goal for scientists. This presentation describes how everybody can create a software agent capable to learn from its own actions and adopt its behavior by using reinforcement learning approach. A few examples of self-learning agents will be shown and discussed during presentation.&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;youtube&quot;, 
+            &quot;embed&quot;: &quot;&lt;iframe type=&#39;text/html&#39; src=&#39;http://www.youtube.com/embed/r8cgxDaTapg&#39; width=&#39;640&#39; height=&#39;360&#39; frameborder=&#39;0&#39; allowfullscreen=&#39;true&#39;/&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="https://i.ytimg.com/vi/r8cgxDaTapg/hqdefault.jpg" rel="nofollow">https://i.ytimg.com/vi/r8cgxDaTapg/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: &quot;&quot;, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: &quot;&quot;, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: &quot;&quot;, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: &quot;&quot;, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="https://www.youtube.com/watch?v=r8cgxDaTapg" rel="nofollow">https://www.youtube.com/watch?v=r8cgxDaTapg</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2014-11-18&quot;, 
+            &quot;added&quot;: &quot;2014-11-26T17:50:51.305&quot;, 
+            &quot;updated&quot;: &quot;2014-11-26T17:55:16.591&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyCon Ukraine 2014&quot;, 
+            &quot;language&quot;: &quot;Russian&quot;, 
+            &quot;slug&quot;: &quot;how-to-detect-similar-images-with-python&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Viktor Drachov&quot;
+            ], 
+            &quot;tags&quot;: [], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 3351, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;How to detect similar images with python&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;Brief overview on existing techniques of near-duplicate image detection from scratch. I&#39;ll show how to compare images using numpy, scipy, scikit-image and OpenCV and what caveats are hidden there.&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;youtube&quot;, 
+            &quot;embed&quot;: &quot;&lt;iframe type=&#39;text/html&#39; src=&#39;http://www.youtube.com/embed/a0KMyj-0NP4&#39; width=&#39;640&#39; height=&#39;360&#39; frameborder=&#39;0&#39; allowfullscreen=&#39;true&#39;/&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="https://i.ytimg.com/vi/a0KMyj-0NP4/hqdefault.jpg" rel="nofollow">https://i.ytimg.com/vi/a0KMyj-0NP4/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: &quot;&quot;, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: &quot;&quot;, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: &quot;&quot;, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: &quot;&quot;, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="https://www.youtube.com/watch?v=a0KMyj-0NP4" rel="nofollow">https://www.youtube.com/watch?v=a0KMyj-0NP4</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2014-11-18&quot;, 
+            &quot;added&quot;: &quot;2014-11-26T17:50:50.703&quot;, 
+            &quot;updated&quot;: &quot;2014-11-27T16:16:41.018&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyCon Ukraine 2014&quot;, 
+            &quot;language&quot;: &quot;Russian&quot;, 
+            &quot;slug&quot;: &quot;pycon-ukraine-2014-lightning-talks-day-1&quot;, 
+            &quot;speakers&quot;: [], 
+            &quot;tags&quot;: [], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 3343, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;PyCon Ukraine 2014: Lightning talks day 1&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;youtube&quot;, 
+            &quot;embed&quot;: &quot;&lt;iframe type=&#39;text/html&#39; src=&#39;http://www.youtube.com/embed/7IYMTAKfk5o&#39; width=&#39;640&#39; height=&#39;360&#39; frameborder=&#39;0&#39; allowfullscreen=&#39;true&#39;/&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="https://i.ytimg.com/vi/7IYMTAKfk5o/hqdefault.jpg" rel="nofollow">https://i.ytimg.com/vi/7IYMTAKfk5o/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: &quot;&quot;, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: &quot;&quot;, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: &quot;&quot;, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: &quot;&quot;, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="https://www.youtube.com/watch?v=7IYMTAKfk5o" rel="nofollow">https://www.youtube.com/watch?v=7IYMTAKfk5o</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2014-11-18&quot;, 
+            &quot;added&quot;: &quot;2014-11-26T17:50:48.825&quot;, 
+            &quot;updated&quot;: &quot;2014-11-27T16:17:01.826&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyCon Ukraine 2014&quot;, 
+            &quot;language&quot;: &quot;Ukrainian&quot;, 
+            &quot;slug&quot;: &quot;pycon-ukraine-2014-lightning-talks-day-2&quot;, 
+            &quot;speakers&quot;: [], 
+            &quot;tags&quot;: [], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 3354, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;PyCon Ukraine 2014: Lightning talks day 2&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;youtube&quot;, 
+            &quot;embed&quot;: &quot;&lt;iframe type=&#39;text/html&#39; src=&#39;http://www.youtube.com/embed/gHT3poHHfvg&#39; width=&#39;640&#39; height=&#39;360&#39; frameborder=&#39;0&#39; allowfullscreen=&#39;true&#39;/&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="https://i.ytimg.com/vi/gHT3poHHfvg/hqdefault.jpg" rel="nofollow">https://i.ytimg.com/vi/gHT3poHHfvg/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: &quot;&quot;, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: &quot;&quot;, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: &quot;&quot;, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: &quot;&quot;, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="https://www.youtube.com/watch?v=gHT3poHHfvg" rel="nofollow">https://www.youtube.com/watch?v=gHT3poHHfvg</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2014-11-18&quot;, 
+            &quot;added&quot;: &quot;2014-11-26T17:50:50.993&quot;, 
+            &quot;updated&quot;: &quot;2014-11-26T17:57:36.521&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyCon Ukraine 2014&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;rethinking-packaging-development-and-deployment-0&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Domen Ko\u017ear&quot;
+            ], 
+            &quot;tags&quot;: [], 
+            &quot;related_urls&quot;: [
+                {
+                    &quot;url&quot;: &quot;<a href="http://nixos.org/nix/" rel="nofollow">http://nixos.org/nix/</a>&quot;, 
+                    &quot;description&quot;: &quot;Nix: The Purely Functional Package Manager&quot;
+                }
+            ], 
+            &quot;id&quot;: 3346, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Rethinking packaging, development and deployment&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;In Python, we&#39;re trying to solve packaging problems in our own domain, but maybe someone else already solved most our problems. \r\n\r\nIn the talk I&#39;ll show how I develop and deploy Python projects that can be easily mixed with non-Python dependencies. \r\n\r\nhttp://nixos.org/nix/ will be demonstrated to replace technologies in our stack: pip, virtualenv, buildout, ansible, jenkins.&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;youtube&quot;, 
+            &quot;embed&quot;: &quot;&lt;iframe type=&#39;text/html&#39; src=&#39;http://www.youtube.com/embed/MODZCTk8iK0&#39; width=&#39;640&#39; height=&#39;360&#39; frameborder=&#39;0&#39; allowfullscreen=&#39;true&#39;/&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="https://i.ytimg.com/vi/MODZCTk8iK0/hqdefault.jpg" rel="nofollow">https://i.ytimg.com/vi/MODZCTk8iK0/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: &quot;&quot;, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: &quot;&quot;, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: &quot;&quot;, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: &quot;&quot;, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="https://www.youtube.com/watch?v=MODZCTk8iK0" rel="nofollow">https://www.youtube.com/watch?v=MODZCTk8iK0</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;needs editing&quot;, 
+            &quot;recorded&quot;: &quot;2014-11-18&quot;, 
+            &quot;added&quot;: &quot;2014-11-26T17:50:50.227&quot;, 
+            &quot;updated&quot;: &quot;2014-11-26T18:00:26.891&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyCon Ukraine 2014&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;role-of-python-in-data-science-and-machine-learni&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Jeremy Achin&quot;
+            ], 
+            &quot;tags&quot;: [], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 3344, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Role of Python in Data Science and Machine Learning&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;youtube&quot;, 
+            &quot;embed&quot;: &quot;&lt;iframe type=&#39;text/html&#39; src=&#39;http://www.youtube.com/embed/CoxjADZHUQA&#39; width=&#39;640&#39; height=&#39;360&#39; frameborder=&#39;0&#39; allowfullscreen=&#39;true&#39;/&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="https://i.ytimg.com/vi/CoxjADZHUQA/hqdefault.jpg" rel="nofollow">https://i.ytimg.com/vi/CoxjADZHUQA/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: &quot;&quot;, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: &quot;&quot;, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: &quot;&quot;, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: &quot;&quot;, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="https://www.youtube.com/watch?v=CoxjADZHUQA" rel="nofollow">https://www.youtube.com/watch?v=CoxjADZHUQA</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;needs editing&quot;, 
+            &quot;recorded&quot;: &quot;2014-11-18&quot;, 
+            &quot;added&quot;: &quot;2014-11-26T17:50:49.391&quot;, 
+            &quot;updated&quot;: &quot;2014-11-26T18:01:28.060&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyCon Ukraine 2014&quot;, 
+            &quot;language&quot;: &quot;Russian&quot;, 
+            &quot;slug&quot;: &quot;7-reasons-to-start-using-docker&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Taras Liapun&quot;
+            ], 
+            &quot;tags&quot;: [], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 3358, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;7 REASONS TO START USING DOCKER&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;In this talk I will try to give you my vision of reasons why Docker became one of the most trending topic last year. We will see how Docker changes the way you develop, test and deploy your software and how Docker helps to build scale infrastructure and even own platform.&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;youtube&quot;, 
+            &quot;embed&quot;: &quot;&lt;iframe type=&#39;text/html&#39; src=&#39;http://www.youtube.com/embed/s7GhL3EGcgI&#39; width=&#39;640&#39; height=&#39;360&#39; frameborder=&#39;0&#39; allowfullscreen=&#39;true&#39;/&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="https://i.ytimg.com/vi/s7GhL3EGcgI/hqdefault.jpg" rel="nofollow">https://i.ytimg.com/vi/s7GhL3EGcgI/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: &quot;&quot;, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: &quot;&quot;, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: &quot;&quot;, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: &quot;&quot;, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="https://www.youtube.com/watch?v=s7GhL3EGcgI" rel="nofollow">https://www.youtube.com/watch?v=s7GhL3EGcgI</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2014-11-02&quot;, 
+            &quot;added&quot;: &quot;2014-11-26T17:50:51.411&quot;, 
+            &quot;updated&quot;: &quot;2014-11-27T16:18:03.976&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyCon Ukraine 2014&quot;, 
+            &quot;language&quot;: &quot;Russian&quot;, 
+            &quot;slug&quot;: &quot;from-code-patching-to-law-patching&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Mikhail Kashkin&quot;
+            ], 
+            &quot;tags&quot;: [], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 3355, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;From code patching to law patching&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;youtube&quot;, 
+            &quot;embed&quot;: &quot;&lt;iframe type=&#39;text/html&#39; src=&#39;http://www.youtube.com/embed/lciOImm7srw&#39; width=&#39;640&#39; height=&#39;360&#39; frameborder=&#39;0&#39; allowfullscreen=&#39;true&#39;/&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="https://i.ytimg.com/vi/lciOImm7srw/hqdefault.jpg" rel="nofollow">https://i.ytimg.com/vi/lciOImm7srw/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: &quot;&quot;, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: &quot;&quot;, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: &quot;&quot;, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: &quot;&quot;, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="https://www.youtube.com/watch?v=lciOImm7srw" rel="nofollow">https://www.youtube.com/watch?v=lciOImm7srw</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2014-11-02&quot;, 
+            &quot;added&quot;: &quot;2014-11-26T17:50:51.087&quot;, 
+            &quot;updated&quot;: &quot;2014-11-27T16:18:27.359&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyCon Ukraine 2014&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;from-the-first-love-to-a-serious-relationship-py&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Vladimir Kirillov&quot;
+            ], 
+            &quot;tags&quot;: [], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 3349, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;From the first love to a serious relationship: Python to Haskell&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;Python is a terrific everyday tool for solving practical tasks, but there always was a missing thing here and there. Vlad has tried many languages during his career as an engineer, got excited with a functional programming community and settled with using Haskell as a prime-time instrument. Come to the talk to find out what&#39;s going on. In this talk passion is going to be (almost) purely technical and no hello worlds, promise.&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;youtube&quot;, 
+            &quot;embed&quot;: &quot;&lt;iframe type=&#39;text/html&#39; src=&#39;http://www.youtube.com/embed/SKJBU3HqxoM&#39; width=&#39;640&#39; height=&#39;360&#39; frameborder=&#39;0&#39; allowfullscreen=&#39;true&#39;/&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="https://i.ytimg.com/vi/SKJBU3HqxoM/hqdefault.jpg" rel="nofollow">https://i.ytimg.com/vi/SKJBU3HqxoM/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: &quot;&quot;, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: &quot;&quot;, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: &quot;&quot;, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: &quot;&quot;, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="https://www.youtube.com/watch?v=SKJBU3HqxoM" rel="nofollow">https://www.youtube.com/watch?v=SKJBU3HqxoM</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2014-11-02&quot;, 
+            &quot;added&quot;: &quot;2014-11-26T17:50:50.535&quot;, 
+            &quot;updated&quot;: &quot;2014-11-26T18:05:23.931&quot;
+        }
+    ]
+}</pre>
+            </div>
+        </div>
+
+            
+
+                
+
+                
+            
+
+        </div>
+        <!-- END content-main -->
+
+    </div>
+    <!-- END Content -->
+
+        <div id="push"></div>
+
+    </div>
+
+    </div><!-- ./wrapper -->
+
+    
+    
+
+    
+    <script src="/static/rest_framework/js/jquery-1.8.1-min.js"></script>
+    <script src="/static/rest_framework/js/bootstrap.min.js"></script>
+    <script src="/static/rest_framework/js/prettify-min.js"></script>
+    <script src="/static/rest_framework/js/default.js"></script>
+    
+  </body>
+
+<!-- Mirrored from pyvideo.org/api/v2/video/?page=50 by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 07 Jan 2016 03:48:35 GMT -->
+</html>

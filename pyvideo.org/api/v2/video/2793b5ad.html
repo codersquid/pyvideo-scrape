@@ -1,0 +1,191 @@
+
+
+<!DOCTYPE html>
+<html>
+    
+<!-- Mirrored from pyvideo.org/api/v2/video/2793?format=api by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 07 Jan 2016 03:46:36 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+    
+
+        
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+        <meta name="robots" content="NONE,NOARCHIVE" />
+        
+
+        <title>Django REST framework</title>
+
+        
+        
+            <link rel="stylesheet" type="text/css" href="/static/rest_framework/css/bootstrap.min.css"/>
+            <link rel="stylesheet" type="text/css" href="/static/rest_framework/css/bootstrap-tweaks.css"/>
+        
+        <link rel="stylesheet" type="text/css" href="/static/rest_framework/css/prettify.css"/>
+        <link rel="stylesheet" type="text/css" href="/static/rest_framework/css/default.css"/>
+        
+
+    
+    </head>
+
+  <body class=" container">
+
+    <div class="wrapper">
+
+    
+    <div class="navbar navbar-inverse">
+        <div class="navbar-inner">
+            <div class="container-fluid">
+                <span href="/">
+                    <a class='brand' rel="nofollow" href='http://www.django-rest-framework.org'>Django REST framework <span class="version">2.3.14</span></a>
+                </span>
+                <ul class="nav pull-right">
+                    
+                        
+                            <li></li>
+                        
+                    
+                </ul>
+            </div>
+        </div>
+    </div>
+    
+
+    
+    <ul class="breadcrumb">
+        
+            <li>
+                <a href="/api/v2/video/" >Video List Create Api</a> <span class="divider">&rsaquo;</span>
+            </li>
+        
+            <li>
+                <a href="/api/v2/video/2793" class="active">Video Retrieve Update Api</a> 
+            </li>
+        
+    </ul>
+    
+
+    <!-- Content -->
+    <div id="content">
+
+        
+            <form id="get-form" class="pull-right">
+                <fieldset>
+                    <div class="btn-group format-selection">
+                        <a class="btn btn-primary js-tooltip" href='/api/v2/video/2793?format=api' rel="nofollow" title="Make a GET request on the Video Retrieve Update Api resource">GET</a>
+
+                        <button class="btn btn-primary dropdown-toggle js-tooltip" data-toggle="dropdown" title="Specify a format for the GET request">
+                            <span class="caret"></span>
+                        </button>
+                        <ul class="dropdown-menu">
+                            
+                                <li>
+                                    <a class="js-tooltip format-option" href='/api/v2/video/2793?format=json' rel="nofollow" title="Make a GET request on the Video Retrieve Update Api resource with the format set to `json`">json</a>
+                                </li>
+                            
+                                <li>
+                                    <a class="js-tooltip format-option" href='/api/v2/video/2793?format=api' rel="nofollow" title="Make a GET request on the Video Retrieve Update Api resource with the format set to `api`">api</a>
+                                </li>
+                            
+                        </ul>
+                    </div>
+
+                </fieldset>
+            </form>
+        
+
+        
+            <form class="button-form" action="/api/v2/video/2793?format=api" method="POST" class="pull-right">
+                <input type='hidden' name='csrfmiddlewaretoken' value='pT8iI6zhtQdsGFmu4tryYgFrUlipl2B3' />
+                <input type="hidden" name="_method" value="OPTIONS" />
+                <button class="btn btn-primary js-tooltip" title="Make an OPTIONS request on the Video Retrieve Update Api resource">OPTIONS</button>
+            </form>
+        
+
+        
+
+        <div class="content-main">
+            <div class="page-header"><h1>Video Retrieve Update Api</h1></div>
+            
+            
+            
+            <div class="request-info" style="clear: both" >
+                <pre class="prettyprint"><b>GET</b> /api/v2/video/2793?format=api</pre>
+            </div>
+            <div class="response-info">
+                <pre class="prettyprint"><div class="meta nocode"><b>HTTP 200 OK</b>
+<b>Content-Type:</b> <span class="lit">application/json</span>
+<b>Vary:</b> <span class="lit">Accept</span>
+<b>Allow:</b> <span class="lit">GET, PUT, PATCH, HEAD, OPTIONS</span>
+
+</div>{
+    &quot;category&quot;: &quot;SciPy 2014&quot;, 
+    &quot;language&quot;: &quot;English&quot;, 
+    &quot;slug&quot;: &quot;fast-algorithms-for-binary-spatial-adjacency-meas&quot;, 
+    &quot;speakers&quot;: [
+        &quot;Jason Lauara&quot;
+    ], 
+    &quot;tags&quot;: [], 
+    &quot;related_urls&quot;: [], 
+    &quot;id&quot;: 2793, 
+    &quot;state&quot;: 1, 
+    &quot;title&quot;: &quot;Fast Algorithms for Binary Spatial Adjacency Measures&quot;, 
+    &quot;summary&quot;: &quot;Spatial weights matrices, $W$, represent potential interaction between all $i,j$ in a study area and play an essential role in many spatial analysis tasks. Commonly applied binary adjacency algorithms using decomposition and tree representations scale quadratically and are ill suited for large data sets. We present a linearly scaling, adjacency algorithm with significantly improved performance.&quot;, 
+    &quot;description&quot;: &quot;Spatial weights matrices, $W$, play an essential role in many spatial analysis tasks including measures of spatial association, regionalization, and spatial regression.  A spatial weight $w_{i,j}$ represents potential interaction between each $i,j$ pair in a set of $n$ spatial units.  The weights are generally defined as either binary $w_{i,j}=\\\\{1,0\\\\}$, depending on whether or not $i$ and $j$ are considered neighbors, or a continuous value reflecting some general distance relationship between $i$ and $j$.  This work focuses on the case of binary weights using a contiguity criteria where $i$ and $j$ are rook neighbors when sharing an edge and queen neighbors when sharing a vertex.\r\n\r\nPopulation of the $W$ is computationally expensive, requiring, in the naive case, $O(n^2)$ point or edge comparisons.  To improve efficiency data decomposition techniques, in the form of regular grids and quad-trees, as well as spatial indexing techniques using r-trees have be utilized to reduce the total number of local point or edge comparisons.  Unfortunately, these algorithms still scale quadratically.  Recent research has also shown that even with the application of parallel processing techniques, the gridded decomposition method does not scale as $n$ increases.  \r\n\r\nThis work presents the development and testing of a high performance [implementation](https://github.com/jlaura/pysal/blob/weights/pysal/weights/_contW_binning.py#L181), written in pure Python, using time constant and $O(n)$ operations, by leveraging high performance containers and a vertex comparison method.  The figures below depict results of initial testing using synthetically generated lattices of triangles, squares, and hexagons with rook contiguity in black and queen contiguity in gray.  These geometries were selected to control for average neighbour cardinality and average vertex count per geometry.  From these initial tests, we report a significant speedup over r-tree implementations and a more modest speedup over gridded decomposition methods.  In addition to scaling linearly, while existing methods scale quadratically, this method is also more memory efficient.  Ongoing work is focusing on testing using randomly distributed data, and U.S. Census data, the application of parallelization techniques to test further performance improvements, and the use of fuzzy operator to account for spatial error .\r\n\r\n![raw times](http://github.com/pysal/pPysal/blob/master/weights/figures/rawtime.png?raw=true \\\&quot;Initial Results - Raw Speed\\\&quot;)\r\n\r\n![speedup](http://github.com/pysal/pPysal/blob/master/weights/figures/speedup.png?raw=true \\\&quot;Initial Results - Speedup\\\&quot;)\r\n\r\n![linear speed](http://github.com/pysal/pPysal/blob/master/weights/figures/rawl.png?raw=true \\\&quot;Initial Results - List Raw Speed\\\&quot;)\r\n&quot;, 
+    &quot;quality_notes&quot;: &quot;&quot;, 
+    &quot;copyright_text&quot;: &quot;<a href="http://www.youtube.com/t/terms" rel="nofollow">http://www.youtube.com/t/terms</a>&quot;, 
+    &quot;embed&quot;: &quot;&lt;object width=\&quot;640\&quot; height=\&quot;390\&quot;&gt;&lt;param name=\&quot;movie\&quot; value=\&quot;http://youtube.com/v/kNcA-yE_iNI?version=3&amp;amp;hl=en_US\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowFullScreen\&quot; value=\&quot;true\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowscriptaccess\&quot; value=\&quot;always\&quot;&gt;&lt;/param&gt;&lt;embed src=\&quot;http://youtube.com/v/kNcA-yE_iNI?version=3&amp;amp;hl=en_US\&quot; type=\&quot;application/x-shockwave-flash\&quot; width=\&quot;640\&quot; height=\&quot;390\&quot; allowscriptaccess=\&quot;always\&quot; allowfullscreen=\&quot;true\&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&quot;, 
+    &quot;thumbnail_url&quot;: &quot;<a href="http://i1.ytimg.com/vi/kNcA-yE_iNI/hqdefault.jpg" rel="nofollow">http://i1.ytimg.com/vi/kNcA-yE_iNI/hqdefault.jpg</a>&quot;, 
+    &quot;duration&quot;: null, 
+    &quot;video_ogv_length&quot;: null, 
+    &quot;video_ogv_url&quot;: &quot;&quot;, 
+    &quot;video_ogv_download_only&quot;: false, 
+    &quot;video_mp4_length&quot;: null, 
+    &quot;video_mp4_url&quot;: &quot;&quot;, 
+    &quot;video_mp4_download_only&quot;: false, 
+    &quot;video_webm_length&quot;: null, 
+    &quot;video_webm_url&quot;: &quot;&quot;, 
+    &quot;video_webm_download_only&quot;: false, 
+    &quot;video_flv_length&quot;: null, 
+    &quot;video_flv_url&quot;: &quot;&quot;, 
+    &quot;video_flv_download_only&quot;: false, 
+    &quot;source_url&quot;: &quot;<a href="http://www.youtube.com/watch?v=kNcA-yE_iNI" rel="nofollow">http://www.youtube.com/watch?v=kNcA-yE_iNI</a>&quot;, 
+    &quot;whiteboard&quot;: &quot;&quot;, 
+    &quot;recorded&quot;: &quot;2014-07-13&quot;, 
+    &quot;added&quot;: &quot;2014-07-15T22:45:40.244&quot;, 
+    &quot;updated&quot;: &quot;2014-07-16T13:59:01.407&quot;
+}</pre>
+            </div>
+        </div>
+
+            
+
+                
+
+                
+            
+
+        </div>
+        <!-- END content-main -->
+
+    </div>
+    <!-- END Content -->
+
+        <div id="push"></div>
+
+    </div>
+
+    </div><!-- ./wrapper -->
+
+    
+    
+
+    
+    <script src="/static/rest_framework/js/jquery-1.8.1-min.js"></script>
+    <script src="/static/rest_framework/js/bootstrap.min.js"></script>
+    <script src="/static/rest_framework/js/prettify-min.js"></script>
+    <script src="/static/rest_framework/js/default.js"></script>
+    
+  </body>
+
+<!-- Mirrored from pyvideo.org/api/v2/video/2793?format=api by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 07 Jan 2016 03:46:36 GMT -->
+</html>

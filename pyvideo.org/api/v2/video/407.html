@@ -1,0 +1,201 @@
+
+
+<!DOCTYPE html>
+<html>
+    
+<!-- Mirrored from pyvideo.org/api/v2/video/407 by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 07 Jan 2016 03:33:00 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+    
+
+        
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+        <meta name="robots" content="NONE,NOARCHIVE" />
+        
+
+        <title>Django REST framework</title>
+
+        
+        
+            <link rel="stylesheet" type="text/css" href="/static/rest_framework/css/bootstrap.min.css"/>
+            <link rel="stylesheet" type="text/css" href="/static/rest_framework/css/bootstrap-tweaks.css"/>
+        
+        <link rel="stylesheet" type="text/css" href="/static/rest_framework/css/prettify.css"/>
+        <link rel="stylesheet" type="text/css" href="/static/rest_framework/css/default.css"/>
+        
+
+    
+    </head>
+
+  <body class=" container">
+
+    <div class="wrapper">
+
+    
+    <div class="navbar navbar-inverse">
+        <div class="navbar-inner">
+            <div class="container-fluid">
+                <span href="/">
+                    <a class='brand' rel="nofollow" href='http://www.django-rest-framework.org'>Django REST framework <span class="version">2.3.14</span></a>
+                </span>
+                <ul class="nav pull-right">
+                    
+                        
+                            <li></li>
+                        
+                    
+                </ul>
+            </div>
+        </div>
+    </div>
+    
+
+    
+    <ul class="breadcrumb">
+        
+            <li>
+                <a href="/api/v2/video/" >Video List Create Api</a> <span class="divider">&rsaquo;</span>
+            </li>
+        
+            <li>
+                <a href="/api/v2/video/407" class="active">Video Retrieve Update Api</a> 
+            </li>
+        
+    </ul>
+    
+
+    <!-- Content -->
+    <div id="content">
+
+        
+            <form id="get-form" class="pull-right">
+                <fieldset>
+                    <div class="btn-group format-selection">
+                        <a class="btn btn-primary js-tooltip" href='/api/v2/video/407' rel="nofollow" title="Make a GET request on the Video Retrieve Update Api resource">GET</a>
+
+                        <button class="btn btn-primary dropdown-toggle js-tooltip" data-toggle="dropdown" title="Specify a format for the GET request">
+                            <span class="caret"></span>
+                        </button>
+                        <ul class="dropdown-menu">
+                            
+                                <li>
+                                    <a class="js-tooltip format-option" href='/api/v2/video/407?format=json' rel="nofollow" title="Make a GET request on the Video Retrieve Update Api resource with the format set to `json`">json</a>
+                                </li>
+                            
+                                <li>
+                                    <a class="js-tooltip format-option" href='/api/v2/video/407?format=api' rel="nofollow" title="Make a GET request on the Video Retrieve Update Api resource with the format set to `api`">api</a>
+                                </li>
+                            
+                        </ul>
+                    </div>
+
+                </fieldset>
+            </form>
+        
+
+        
+            <form class="button-form" action="/api/v2/video/407" method="POST" class="pull-right">
+                <input type='hidden' name='csrfmiddlewaretoken' value='pT8iI6zhtQdsGFmu4tryYgFrUlipl2B3' />
+                <input type="hidden" name="_method" value="OPTIONS" />
+                <button class="btn btn-primary js-tooltip" title="Make an OPTIONS request on the Video Retrieve Update Api resource">OPTIONS</button>
+            </form>
+        
+
+        
+
+        <div class="content-main">
+            <div class="page-header"><h1>Video Retrieve Update Api</h1></div>
+            
+            
+            
+            <div class="request-info" style="clear: both" >
+                <pre class="prettyprint"><b>GET</b> /api/v2/video/407</pre>
+            </div>
+            <div class="response-info">
+                <pre class="prettyprint"><div class="meta nocode"><b>HTTP 200 OK</b>
+<b>Content-Type:</b> <span class="lit">application/json</span>
+<b>Vary:</b> <span class="lit">Accept</span>
+<b>Allow:</b> <span class="lit">GET, PUT, PATCH, HEAD, OPTIONS</span>
+
+</div>{
+    &quot;category&quot;: &quot;PyCon US 2011&quot;, 
+    &quot;language&quot;: &quot;English&quot;, 
+    &quot;slug&quot;: &quot;pycon-2011--continuous-deployment&quot;, 
+    &quot;speakers&quot;: [
+        &quot;Laurens Van Houtven&quot;
+    ], 
+    &quot;tags&quot;: [
+        &quot;cd&quot;, 
+        &quot;ci&quot;, 
+        &quot;continuousdeployment&quot;, 
+        &quot;deployment&quot;, 
+        &quot;pycon&quot;, 
+        &quot;pycon2011&quot;, 
+        &quot;softwaredevelopment&quot;, 
+        &quot;tdd&quot;, 
+        &quot;workflow&quot;
+    ], 
+    &quot;related_urls&quot;: [], 
+    &quot;id&quot;: 407, 
+    &quot;state&quot;: 1, 
+    &quot;title&quot;: &quot;Continuous deployment&quot;, 
+    &quot;summary&quot;: &quot;&quot;, 
+    &quot;description&quot;: &quot;Continuous deployment\n\nPresented by Laurens Van Houtven\n\nThis talk is about continuous deployment practices and tools, lessons learned\nfrom implementing it, and putting them into perspective. The goal is to give\nother people tips and pointers for applying these ideas themselves.\n\nAbstract\n\nContinuous deployment is the practice of putting the latest revision of\nsoftware into production use all the time, as opposed to working towards\nlarger releases. The important difference is iteration time: whereas large\nsoftware packages produce new software in timeframes of years or months,\ncontinuous deployment teams typically put new code into production in\ntimeframes of hours or less.\n\nThe practice is slowly attracting a small but growing group of loyal\nfollowers, just like continuous integration over the past few years and test-\ndriven development did before that. They can be explained in terms of being\nnatural extensions of each other. Like TDD and CI, CD gets eyed somewhat\nsuspiciously (and rightfully so: skeptical analysis is great), but the\nundersigned believes there&#39;s a legitimate advantage for many applications.\n\nMany years ago, TTD and testing tools in general were mostly ad-hockery. Now,\nwith many different production-quality testing tools, this has become\nunthinkable. Similarly, continuous integration was something other people did\nfor a long time, but now we have tools such as Buildbot and Hudson. Continuous\ndeployment is still somewhat in the early stage in terms of ready-to-use\ntools, but it&#39;s likely that we&#39;ll see a similar evolution.\n\nHere&#39;s a rough outline of what I plan to cover:\n\n  * a short history of people developed software \n  * from the recent models to CD (sort of a working definition of CD here) \n  * when is it a good idea? pros/cons \n  * requirements &amp; battle plan for applying CD in an existing development environment (and possibly code base) \n  * an overview of existing tools and how they work together \n  * caveat emptors, known pitfalls (deployment and recovery strategies go here, since most implementations figure out they need them after stuff blows up) \n  * questions! (hopefully lots of people who&#39;ve tried or are thinking about implementing something similar -- like I said, there are a lot of people implementing it but not too many ideas being bounced around) \n\n&quot;, 
+    &quot;quality_notes&quot;: &quot;&quot;, 
+    &quot;copyright_text&quot;: &quot;Creative Commons Attribution-NonCommercial-ShareAlike 3.0&quot;, 
+    &quot;embed&quot;: &quot;&quot;, 
+    &quot;thumbnail_url&quot;: &quot;<a href="http://a.images.blip.tv/Pycon-PyCon2011ContinuousDeployment817.png" rel="nofollow">http://a.images.blip.tv/Pycon-PyCon2011ContinuousDeployment817.png</a>&quot;, 
+    &quot;duration&quot;: null, 
+    &quot;video_ogv_length&quot;: 134193408, 
+    &quot;video_ogv_url&quot;: null, 
+    &quot;video_ogv_download_only&quot;: false, 
+    &quot;video_mp4_length&quot;: null, 
+    &quot;video_mp4_url&quot;: &quot;<a href="http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2011/407_continuous-deployment.mp4" rel="nofollow">http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2011/407_continuous-deployment.mp4</a>&quot;, 
+    &quot;video_mp4_download_only&quot;: false, 
+    &quot;video_webm_length&quot;: null, 
+    &quot;video_webm_url&quot;: null, 
+    &quot;video_webm_download_only&quot;: false, 
+    &quot;video_flv_length&quot;: null, 
+    &quot;video_flv_url&quot;: null, 
+    &quot;video_flv_download_only&quot;: false, 
+    &quot;source_url&quot;: &quot;&quot;, 
+    &quot;whiteboard&quot;: &quot;&quot;, 
+    &quot;recorded&quot;: &quot;2011-03-11&quot;, 
+    &quot;added&quot;: &quot;2012-02-23T04:20:00&quot;, 
+    &quot;updated&quot;: &quot;2014-04-08T20:28:27.952&quot;
+}</pre>
+            </div>
+        </div>
+
+            
+
+                
+
+                
+            
+
+        </div>
+        <!-- END content-main -->
+
+    </div>
+    <!-- END Content -->
+
+        <div id="push"></div>
+
+    </div>
+
+    </div><!-- ./wrapper -->
+
+    
+    
+
+    
+    <script src="/static/rest_framework/js/jquery-1.8.1-min.js"></script>
+    <script src="/static/rest_framework/js/bootstrap.min.js"></script>
+    <script src="/static/rest_framework/js/prettify-min.js"></script>
+    <script src="/static/rest_framework/js/default.js"></script>
+    
+  </body>
+
+<!-- Mirrored from pyvideo.org/api/v2/video/407 by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 07 Jan 2016 03:33:01 GMT -->
+</html>

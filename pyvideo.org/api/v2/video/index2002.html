@@ -1,0 +1,914 @@
+
+
+<!DOCTYPE html>
+<html>
+    
+<!-- Mirrored from pyvideo.org/api/v2/video/?page=69&format=api by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 07 Jan 2016 03:49:35 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+    
+
+        
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+        <meta name="robots" content="NONE,NOARCHIVE" />
+        
+
+        <title>Django REST framework</title>
+
+        
+        
+            <link rel="stylesheet" type="text/css" href="/static/rest_framework/css/bootstrap.min.css"/>
+            <link rel="stylesheet" type="text/css" href="/static/rest_framework/css/bootstrap-tweaks.css"/>
+        
+        <link rel="stylesheet" type="text/css" href="/static/rest_framework/css/prettify.css"/>
+        <link rel="stylesheet" type="text/css" href="/static/rest_framework/css/default.css"/>
+        
+
+    
+    </head>
+
+  <body class=" container">
+
+    <div class="wrapper">
+
+    
+    <div class="navbar navbar-inverse">
+        <div class="navbar-inner">
+            <div class="container-fluid">
+                <span href="/">
+                    <a class='brand' rel="nofollow" href='http://www.django-rest-framework.org'>Django REST framework <span class="version">2.3.14</span></a>
+                </span>
+                <ul class="nav pull-right">
+                    
+                        
+                            <li></li>
+                        
+                    
+                </ul>
+            </div>
+        </div>
+    </div>
+    
+
+    
+    <ul class="breadcrumb">
+        
+            <li>
+                <a href="/api/v2/video/" class="active">Video List Create Api</a> 
+            </li>
+        
+    </ul>
+    
+
+    <!-- Content -->
+    <div id="content">
+
+        
+            <form id="get-form" class="pull-right">
+                <fieldset>
+                    <div class="btn-group format-selection">
+                        <a class="btn btn-primary js-tooltip" href='/api/v2/video/?page=69&amp;format=api' rel="nofollow" title="Make a GET request on the Video List Create Api resource">GET</a>
+
+                        <button class="btn btn-primary dropdown-toggle js-tooltip" data-toggle="dropdown" title="Specify a format for the GET request">
+                            <span class="caret"></span>
+                        </button>
+                        <ul class="dropdown-menu">
+                            
+                                <li>
+                                    <a class="js-tooltip format-option" href='/api/v2/video/?page=69&format=json' rel="nofollow" title="Make a GET request on the Video List Create Api resource with the format set to `json`">json</a>
+                                </li>
+                            
+                                <li>
+                                    <a class="js-tooltip format-option" href='/api/v2/video/?page=69&format=api' rel="nofollow" title="Make a GET request on the Video List Create Api resource with the format set to `api`">api</a>
+                                </li>
+                            
+                        </ul>
+                    </div>
+
+                </fieldset>
+            </form>
+        
+
+        
+            <form class="button-form" action="/api/v2/video/?page=69&amp;format=api" method="POST" class="pull-right">
+                <input type='hidden' name='csrfmiddlewaretoken' value='pT8iI6zhtQdsGFmu4tryYgFrUlipl2B3' />
+                <input type="hidden" name="_method" value="OPTIONS" />
+                <button class="btn btn-primary js-tooltip" title="Make an OPTIONS request on the Video List Create Api resource">OPTIONS</button>
+            </form>
+        
+
+        
+
+        <div class="content-main">
+            <div class="page-header"><h1>Video List Create Api</h1></div>
+            
+            
+            
+            <div class="request-info" style="clear: both" >
+                <pre class="prettyprint"><b>GET</b> /api/v2/video/?page=69&amp;format=api</pre>
+            </div>
+            <div class="response-info">
+                <pre class="prettyprint"><div class="meta nocode"><b>HTTP 200 OK</b>
+<b>Content-Type:</b> <span class="lit">application/json</span>
+<b>Vary:</b> <span class="lit">Accept</span>
+<b>Allow:</b> <span class="lit">GET, POST, HEAD, OPTIONS</span>
+
+</div>{
+    &quot;count&quot;: 3439, 
+    &quot;next&quot;: &quot;<a href="http://pyvideo.org/api/v2/video/?page=70&amp;format=api" rel="nofollow">http://pyvideo.org/api/v2/video/?page=70&amp;format=api</a>&quot;, 
+    &quot;previous&quot;: &quot;<a href="http://pyvideo.org/api/v2/video/?page=68&amp;format=api" rel="nofollow">http://pyvideo.org/api/v2/video/?page=68&amp;format=api</a>&quot;, 
+    &quot;results&quot;: [
+        {
+            &quot;category&quot;: &quot;EuroPython 2014&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;design-your-tests&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Julian Berman&quot;
+            ], 
+            &quot;tags&quot;: [], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 2997, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Design Your Tests&quot;, 
+            &quot;summary&quot;: &quot;While getting started testing often provides noticeable immediate improvement for any developer, it&#39;s often not until the realization that tests are things that need *design* to provide maximal benefit that developers begin to appreciate or even *enjoy* them.\r\n\r\nWe&#39;ll investigate how building shallow, transparent layers for your tests makes for better failures, clearer tests, and quicker diagnoses.&quot;, 
+            &quot;description&quot;: &quot;* Life span of a test\r\n    * 5 minute - why does this fail?\r\n    * 5 day - what is this missing?\r\n    * 5 week - do I have coverage for this?\r\n    * 5 month - what&#39;s *not* causing this bug?\r\n\r\n* Transparent simplicity\r\n    * one or two \&quot;iceberg\&quot; layers for meaning\r\n        * Higher-order assertions - build collections of state that have meaning for the domain in the tests\r\n        * bulk of the details are in the code itself\r\n\r\n        * show an example\r\n\r\n    * grouping for organization\r\n        * Mixins\r\n\r\n        * show an example\r\n\r\n* unittest issues\r\n    * assertion/mixin clutter\r\n    * setUp/tearDown tie grouping to the class layer or to inheritance via super\r\n        * addCleanup\r\n    * weak association / lookup-ability between code and its tests\r\n        * package layout\r\n        * other conventions\r\n\r\n* Alternative approaches\r\n    * testtools&#39; matchers\r\n    * py.test `assert` magic&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;<a href="http://creativecommons.org/licenses/by/3.0/" rel="nofollow">http://creativecommons.org/licenses/by/3.0/</a>&quot;, 
+            &quot;embed&quot;: &quot;&lt;object width=\&quot;640\&quot; height=\&quot;390\&quot;&gt;&lt;param name=\&quot;movie\&quot; value=\&quot;http://youtube.com/v/xkwBjsjSERU?version=3&amp;amp;hl=en_US\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowFullScreen\&quot; value=\&quot;true\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowscriptaccess\&quot; value=\&quot;always\&quot;&gt;&lt;/param&gt;&lt;embed src=\&quot;http://youtube.com/v/xkwBjsjSERU?version=3&amp;amp;hl=en_US\&quot; type=\&quot;application/x-shockwave-flash\&quot; width=\&quot;640\&quot; height=\&quot;390\&quot; allowscriptaccess=\&quot;always\&quot; allowfullscreen=\&quot;true\&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://i.ytimg.com/vi/xkwBjsjSERU/hqdefault.jpg" rel="nofollow">http://i.ytimg.com/vi/xkwBjsjSERU/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: &quot;&quot;, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: &quot;&quot;, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: &quot;&quot;, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: &quot;&quot;, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="http://www.youtube.com/watch?v=xkwBjsjSERU" rel="nofollow">http://www.youtube.com/watch?v=xkwBjsjSERU</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2014-07-23&quot;, 
+            &quot;added&quot;: &quot;2014-07-31T00:46:30.607&quot;, 
+            &quot;updated&quot;: &quot;2014-07-31T23:20:03.573&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;EuroPython 2014&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;devops-risk-mitigation-test-driven-infrastructur&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Schlomo Schapiro&quot;
+            ], 
+            &quot;tags&quot;: [], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 3000, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;DevOps Risk Mitigation: Test Driven Infrastructure&quot;, 
+            &quot;summary&quot;: &quot;The (perceived) risk of the DevOps is that too many people get the right to \&quot;break\&quot; the platform.\r\n\r\nTest Driven Infrastructure is about adapting proven ideas from our developer colleagues to the development and operations of Infrastructure services like virtualization, OS provisioning, postfix configuration, httpd configuration, ssh tuning, SAN LUN mounting and others.\r\n\r\nThis talk shows how ImmobilienScout24 utilizes more and more test driven development in IT operations to increase quality and to mitigate the risk of opening up the infrastructure developmen to all developers.&quot;, 
+            &quot;description&quot;: &quot;Common wisdom has it that the test effort should be related to the risk of a change. However, the reality is different: Developers build elaborate automated test chains to test every single commit of their application. Admins regularly \u201ctest\u201d changes on the live platform in production. But which change carries a higher risk of taking the live platform down?\r\n\r\nWhat about the software that runs at the \u201clower levels\u201d of your platform, e.g. systems automation, provisioning, proxy configuration, mail server configuration, database systems etc. An outage of any of those systems can have a financial impact that is as severe as a bug in the \u201cmain\u201d software!\r\nOne of the biggest learnings that any Ops person can learn from a Dev person is Test Driven Development. Easy to say - difficult to apply is my personal experience with the TDD challenge.\r\n\r\nThis talk throws some light on recent developments at ImmobilienScout24 that help us to develop the core of our infrastructure services with a test driven approach:\r\n\r\n* How to do unit tests, integration tests and systems tests for infrastructure services?\r\n* How to automatically verify Proxy, DNS, Postfix configurations before deploying them on live servers?\r\n* How to test \u201cdangerous\u201d services like our PXE boot environment or the automated SAN mounting scripts?\r\n* How to add a little bit of test coverage to everything we do.\r\n* Test Driven: First write a failing test and then the code that fixes it.\r\n\r\nThe tools that we use are Bash, Python, Unit Test frameworks and Teamcity for build and test automation.\r\n\r\nSee <a href="http://blog.schlomo.schapiro.org/2013/12/test-driven-infrastructure.html" rel="nofollow">http://blog.schlomo.schapiro.org/2013/12/test-driven-infrastructure.html</a> for more about this topic.\r\n&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;<a href="http://creativecommons.org/licenses/by/3.0/" rel="nofollow">http://creativecommons.org/licenses/by/3.0/</a>&quot;, 
+            &quot;embed&quot;: &quot;&lt;object width=\&quot;640\&quot; height=\&quot;390\&quot;&gt;&lt;param name=\&quot;movie\&quot; value=\&quot;http://youtube.com/v/L6TtXrLmdKA?version=3&amp;amp;hl=en_US\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowFullScreen\&quot; value=\&quot;true\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowscriptaccess\&quot; value=\&quot;always\&quot;&gt;&lt;/param&gt;&lt;embed src=\&quot;http://youtube.com/v/L6TtXrLmdKA?version=3&amp;amp;hl=en_US\&quot; type=\&quot;application/x-shockwave-flash\&quot; width=\&quot;640\&quot; height=\&quot;390\&quot; allowscriptaccess=\&quot;always\&quot; allowfullscreen=\&quot;true\&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://i.ytimg.com/vi/L6TtXrLmdKA/hqdefault.jpg" rel="nofollow">http://i.ytimg.com/vi/L6TtXrLmdKA/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: &quot;&quot;, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: &quot;&quot;, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: &quot;&quot;, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: &quot;&quot;, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="http://www.youtube.com/watch?v=L6TtXrLmdKA" rel="nofollow">http://www.youtube.com/watch?v=L6TtXrLmdKA</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2014-07-23&quot;, 
+            &quot;added&quot;: &quot;2014-07-31T00:46:30.966&quot;, 
+            &quot;updated&quot;: &quot;2014-07-31T23:20:48.497&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;EuroPython 2014&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;dont-fear-our-new-robot-overlords&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Philip Brechler&quot;
+            ], 
+            &quot;tags&quot;: [], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 3003, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Don&#39;t fear our new robot overlords!&quot;, 
+            &quot;summary&quot;: &quot;This talk will show you GoldenEye. A setup of a robot, image recognition and Python. What could be better?\r\n\r\nGoldenEye uses computer vision to detect icons on an attached mobile device and then tells a robot to tap them. All off these tests are written in python&#39;s unittest module and the API is as easy as possible to make writing complex tests an ease.&quot;, 
+            &quot;description&quot;: &quot;GoldenEye is our solution for mobile front end tests. Testing on mobile devices can be quite devastating: On iOS you can write front test in JavaScript in Instruments but it is quite impossible to connect Instruments to you CI solution of choice. On Android the situation isn&#39;t much better.\r\nOther front end test frameworks can work with mobile devices (or simulators) but they lack the ability to see. Of course you can check if a color is set correctly, if a frame has the right x and y coordinates but in a world of different screen sizes writing these tests can be quite challenging as well.\r\nIn the end you will always need to look on your screen again and again trying to spot any issues. \r\n\r\nGoldenEye takes a different approach. It does not need to run on your development computer, you don&#39;t need a Mac for running tests on iOS devices and you can have real touches on your controls. This is archived by using openCV and it&#39;s python bindings, Pythons&#39;s unittest module and the Tapsterbot, an OpenSource delta robot made with 3D printing and an Arduino controller. To write a test you just take some screenshots on your device, cut out the icons you need to tap or inspect and write a very simple unit test using a high-level API that takes away the hard parts.\r\n\r\nWARNING: This talk features a real robot. In case of machine world-domination: RUN!&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;<a href="http://creativecommons.org/licenses/by/3.0/" rel="nofollow">http://creativecommons.org/licenses/by/3.0/</a>&quot;, 
+            &quot;embed&quot;: &quot;&lt;object width=\&quot;640\&quot; height=\&quot;390\&quot;&gt;&lt;param name=\&quot;movie\&quot; value=\&quot;http://youtube.com/v/KaPUo3G9JWk?version=3&amp;amp;hl=en_US\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowFullScreen\&quot; value=\&quot;true\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowscriptaccess\&quot; value=\&quot;always\&quot;&gt;&lt;/param&gt;&lt;embed src=\&quot;http://youtube.com/v/KaPUo3G9JWk?version=3&amp;amp;hl=en_US\&quot; type=\&quot;application/x-shockwave-flash\&quot; width=\&quot;640\&quot; height=\&quot;390\&quot; allowscriptaccess=\&quot;always\&quot; allowfullscreen=\&quot;true\&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://i.ytimg.com/vi/KaPUo3G9JWk/hqdefault.jpg" rel="nofollow">http://i.ytimg.com/vi/KaPUo3G9JWk/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: &quot;&quot;, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: &quot;&quot;, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: &quot;&quot;, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: &quot;&quot;, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="http://www.youtube.com/watch?v=KaPUo3G9JWk" rel="nofollow">http://www.youtube.com/watch?v=KaPUo3G9JWk</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2014-07-23&quot;, 
+            &quot;added&quot;: &quot;2014-07-31T00:46:31.289&quot;, 
+            &quot;updated&quot;: &quot;2014-07-31T23:23:13.261&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;EuroPython 2014&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;embedding-python-charming-the-snake-with-c&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Michael K\u00f6nig&quot;
+            ], 
+            &quot;tags&quot;: [], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 3009, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Embedding Python: Charming the Snake with C++&quot;, 
+            &quot;summary&quot;: &quot;At the example of our in-house distributed scheduling system, we discuss the challenges of embedding the Python interpreter in a C++ program. Besides the actual integration of the interpreter, efficient data exchange between both languages is discussed. In addition, this presentation demonstrates how higher-level abstractions further diminish the language barrier.&quot;, 
+            &quot;description&quot;: &quot;Python with its huge standard library and sophisticated packages developed by its thriving community has become an incredibly useful tool for data scientists. At Blue Yonder, we value Python for the ease with which we can access and combine machine learning algorithms to build accurate prediction models.\r\n\r\nTo get the most business value out of the use of Python, we strive to rid our model developers from all burdens outside their core expertise, i.e., developing statistical models. To leverage our existing infrastructure, essentially a distributed scheduling system written in C++, we decided to embed a Python interpreter in our application. The goal was to let developers use the language best suited for their problem, and to let them incorporate code created by others even if it is not written in the same language.\r\n\r\nIn this presentation, I will talk about a few obstacles which we had to overcome in integrating the (C)Python interpreter in our C++ program, e.g., clean resource management, error handling, and broken features in the interpreter&#39;s API. I will show how we employed features from the [Boost Python C++ library](http://www.boost.org/doc/libs/1_55_0/libs/python/) not only for simple data exchange, but also for more powerful concepts such as data sources. Finally, I will demonstrate how C++ objects can be used to seamlessly interact with Python, for example to use Python&#39;s logging package as usual while the actual logging is handled by our C++ application.\r\n\r\nWith this combination of both worlds, we achieved a desirable mix of virtues: safe, reliable operations; good run-time performance; fast development; and highly expressive, unit testable core domain logic.&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;<a href="http://creativecommons.org/licenses/by/3.0/" rel="nofollow">http://creativecommons.org/licenses/by/3.0/</a>&quot;, 
+            &quot;embed&quot;: &quot;&lt;object width=\&quot;640\&quot; height=\&quot;390\&quot;&gt;&lt;param name=\&quot;movie\&quot; value=\&quot;http://youtube.com/v/3329SyR215I?version=3&amp;amp;hl=en_US\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowFullScreen\&quot; value=\&quot;true\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowscriptaccess\&quot; value=\&quot;always\&quot;&gt;&lt;/param&gt;&lt;embed src=\&quot;http://youtube.com/v/3329SyR215I?version=3&amp;amp;hl=en_US\&quot; type=\&quot;application/x-shockwave-flash\&quot; width=\&quot;640\&quot; height=\&quot;390\&quot; allowscriptaccess=\&quot;always\&quot; allowfullscreen=\&quot;true\&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://i.ytimg.com/vi/3329SyR215I/hqdefault.jpg" rel="nofollow">http://i.ytimg.com/vi/3329SyR215I/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: &quot;&quot;, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: &quot;&quot;, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: &quot;&quot;, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: &quot;&quot;, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="http://www.youtube.com/watch?v=3329SyR215I" rel="nofollow">http://www.youtube.com/watch?v=3329SyR215I</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2014-07-23&quot;, 
+            &quot;added&quot;: &quot;2014-07-31T00:46:31.967&quot;, 
+            &quot;updated&quot;: &quot;2014-08-01T07:45:50.474&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;EuroPython 2014&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;for-lack-of-a-better-nameserver-dns-explained-0&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Lynn Root&quot;
+            ], 
+            &quot;tags&quot;: [], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 2985, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;For lack of a better name(server): DNS Explained&quot;, 
+            &quot;summary&quot;: &quot;You&#39;ve deployed! But your friends can&#39;t see it - what&#39;s wrong? I&#39;m betting DNS. Maybe you&#39;ve fixed a couple of entries, point some records to hostnames, waited patiently for new domains to resolve only to notice your nameservers are incorrect. But what actually goes on with DNS? Come to this talk to find out how DNS works, and how to interact and create a DNS with Python.&quot;, 
+            &quot;description&quot;: &quot;Following instructions of what entries to create where is easy enough when using a PaaS.\r\n\r\nBut DNS is hard \u2013 deployment issues always seem to come down to DNS.\r\n\r\nA solid understanding of DNS will not only help with deploying your applications, but will also give a greater understanding of how the internet works, and more generally, distributed systems.\r\n\r\nIn this talk, you will learn what DNS is, how it works and how to communicate with it, and how Python can make both interacting and spinning up your own DNS server simple (I swear!).  \r\n\r\nOutline:\r\n\r\n* Intro (1-2m)\r\n* What DNS is (5 min)\r\n    * URL -&gt; IP addr, e.g. \&quot;phonebook\&quot; lookup (obligatory pun: Call me, Maybe?)\r\n    * hierarchical system &amp; resolution sequence (local DNS cache/resolver, ISP resolver, recursive DNS search)\r\n    * popular types (primary, secondary/slave, forwarding, authoritative only, etc)\r\n    * System components: what makes a DNS?\r\n* How to communicate with DNS (3 min)\r\n    * Protocol: UDP\r\n    * Operations: CRUD\r\n    * Resource records (A, AAAA, CNAME, SOA, SRV, etc)\r\n    * tools: dig/nsupdate/nslookup\r\n* Security overview (3min) (disclaimer: NOT a DNS security expert, not planning to get into the details here)\r\n    * Server-Server, DynDNS: TSIG/GSS-TSIG\r\n    * Server-Client: DNSSEC\r\n* Python + DNS (10 min)\r\n    * plain UDP query in Python (no 3rd-party libraries/no magic)\r\n    * Interacting with a DNS w/ Python (dnspython.py)\r\n    * Sample DNS server with Twisted\r\n    * \&quot;fake\&quot; demo (either local or pre-recorded screen cast) of querying/updating/etc of the Twisted DNS\r\n* Wrap up - resources page, github links, etc (1min)\r\n* Q&amp;A - ~5 min &quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;<a href="http://creativecommons.org/licenses/by/3.0/" rel="nofollow">http://creativecommons.org/licenses/by/3.0/</a>&quot;, 
+            &quot;embed&quot;: &quot;&lt;object width=\&quot;640\&quot; height=\&quot;390\&quot;&gt;&lt;param name=\&quot;movie\&quot; value=\&quot;http://youtube.com/v/ZqKNDn56Aoo?version=3&amp;amp;hl=en_US\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowFullScreen\&quot; value=\&quot;true\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowscriptaccess\&quot; value=\&quot;always\&quot;&gt;&lt;/param&gt;&lt;embed src=\&quot;http://youtube.com/v/ZqKNDn56Aoo?version=3&amp;amp;hl=en_US\&quot; type=\&quot;application/x-shockwave-flash\&quot; width=\&quot;640\&quot; height=\&quot;390\&quot; allowscriptaccess=\&quot;always\&quot; allowfullscreen=\&quot;true\&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://i.ytimg.com/vi/ZqKNDn56Aoo/hqdefault.jpg" rel="nofollow">http://i.ytimg.com/vi/ZqKNDn56Aoo/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: &quot;&quot;, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: &quot;&quot;, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: &quot;&quot;, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: &quot;&quot;, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="http://www.youtube.com/watch?v=ZqKNDn56Aoo" rel="nofollow">http://www.youtube.com/watch?v=ZqKNDn56Aoo</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2014-07-23&quot;, 
+            &quot;added&quot;: &quot;2014-07-31T00:46:29.288&quot;, 
+            &quot;updated&quot;: &quot;2014-08-01T07:46:52.449&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;EuroPython 2014&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;gevent-asynchronous-io-made-easy&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Daniel Pope&quot;
+            ], 
+            &quot;tags&quot;: [], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 3005, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;gevent: asynchronous I/O made easy&quot;, 
+            &quot;summary&quot;: &quot;gevent provides highly scalable asynchronous I/O without becoming a nest of callbacks, or even needing code changes.\r\n\r\nDaniel will explain how to get started with gevent, discuss patterns for its use and describe the differences with Twisted, Tornado and Tulip/asyncio.&quot;, 
+            &quot;description&quot;: &quot;It has been claimed \&quot;Callbacks are the new GOTO\&quot;. Most asynchronous IO libraries use callbacks extensively.\r\n\r\ngevent (<a href="http://www.gevent.org" rel="nofollow">http://www.gevent.org</a>) uses coroutines to provide highly scalable asynchronous I/O with a synchronous programming model that doesn&#39;t need code changes and callbacks. By elegantly monkey patching the Python standard library, both your code and all pure Python libraries become asynchronous too, making a separate collection of protocol implementations (in the style of Twisted) unnecessary.\r\n\r\nCode written like this is easier to understand, particularly for more junior developers. Crucially, IO errors can be raised at the right places.\r\n\r\nI will be introducing gevent&#39;s programming model, why it&#39;s easier, walk through simple code samples, and discuss experiences and metaphors for programming with it.\r\n&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;<a href="http://creativecommons.org/licenses/by/3.0/" rel="nofollow">http://creativecommons.org/licenses/by/3.0/</a>&quot;, 
+            &quot;embed&quot;: &quot;&lt;object width=\&quot;640\&quot; height=\&quot;390\&quot;&gt;&lt;param name=\&quot;movie\&quot; value=\&quot;http://youtube.com/v/0wpYQr-_kqg?version=3&amp;amp;hl=en_US\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowFullScreen\&quot; value=\&quot;true\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowscriptaccess\&quot; value=\&quot;always\&quot;&gt;&lt;/param&gt;&lt;embed src=\&quot;http://youtube.com/v/0wpYQr-_kqg?version=3&amp;amp;hl=en_US\&quot; type=\&quot;application/x-shockwave-flash\&quot; width=\&quot;640\&quot; height=\&quot;390\&quot; allowscriptaccess=\&quot;always\&quot; allowfullscreen=\&quot;true\&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://i.ytimg.com/vi/0wpYQr-_kqg/hqdefault.jpg" rel="nofollow">http://i.ytimg.com/vi/0wpYQr-_kqg/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: &quot;&quot;, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: &quot;&quot;, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: &quot;&quot;, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: &quot;&quot;, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="http://www.youtube.com/watch?v=0wpYQr-_kqg" rel="nofollow">http://www.youtube.com/watch?v=0wpYQr-_kqg</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2014-07-23&quot;, 
+            &quot;added&quot;: &quot;2014-07-31T00:46:31.519&quot;, 
+            &quot;updated&quot;: &quot;2014-08-01T07:47:44.254&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;EuroPython 2014&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;graph-databases-a-little-connected-tour&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Francisco Fern\u00e1ndez Casta\u00f1o&quot;
+            ], 
+            &quot;tags&quot;: [], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 2991, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Graph Databases, a little connected tour&quot;, 
+            &quot;summary&quot;: &quot;There are many kinds of NoSQL databases like, document databases, key-value, column databases and graph databases.\r\nIn some scenarios is more convenient to store our data as a graph, because we want to extract and study information relative to these connections. In this scenario, graph databases are the ideal, they are designed and implemented to deal with connected information in a efficient way.&quot;, 
+            &quot;description&quot;: &quot;There are many kinds of NoSQL databases like, document databases, key-value, column databases and graph databases.\r\nIn some scenarios is more convenient to store our data as a graph, because we want to extract and study information relative to these connections. In this scenario, graph databases are the ideal, they are designed and implemented to deal with connected information in a efficient way.\r\nIn this talk I&#39;ll explain why NoSQL is necessary in some contexts as an alternative to traditional relational databases. How graph databases allow developers model their domains in a natural way without translating these domain models to an relational model with some artificial data like foreign keys and why is more efficient a graph database than a relational one or even a document database in a high connected environment. Then I&#39;ll explain specific characteristics of Neo4J as well as how to use Cypher the neo4j query language through python.&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;<a href="http://creativecommons.org/licenses/by/3.0/" rel="nofollow">http://creativecommons.org/licenses/by/3.0/</a>&quot;, 
+            &quot;embed&quot;: &quot;&lt;object width=\&quot;640\&quot; height=\&quot;390\&quot;&gt;&lt;param name=\&quot;movie\&quot; value=\&quot;http://youtube.com/v/IZVPsuWODpg?version=3&amp;amp;hl=en_US\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowFullScreen\&quot; value=\&quot;true\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowscriptaccess\&quot; value=\&quot;always\&quot;&gt;&lt;/param&gt;&lt;embed src=\&quot;http://youtube.com/v/IZVPsuWODpg?version=3&amp;amp;hl=en_US\&quot; type=\&quot;application/x-shockwave-flash\&quot; width=\&quot;640\&quot; height=\&quot;390\&quot; allowscriptaccess=\&quot;always\&quot; allowfullscreen=\&quot;true\&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://i.ytimg.com/vi/IZVPsuWODpg/hqdefault.jpg" rel="nofollow">http://i.ytimg.com/vi/IZVPsuWODpg/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: &quot;&quot;, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: &quot;&quot;, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: &quot;&quot;, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: &quot;&quot;, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="http://www.youtube.com/watch?v=IZVPsuWODpg" rel="nofollow">http://www.youtube.com/watch?v=IZVPsuWODpg</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2014-07-23&quot;, 
+            &quot;added&quot;: &quot;2014-07-31T00:46:29.923&quot;, 
+            &quot;updated&quot;: &quot;2014-08-01T07:48:24.345&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;EuroPython 2014&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;how-to-become-an-agile-company-case-study&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Maciej Dziergwa&quot;
+            ], 
+            &quot;tags&quot;: [], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 2986, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;How to become an Agile company - case study&quot;, 
+            &quot;summary&quot;: &quot;The STX Next story has the classic arc of \&quot;zero to hero.\&quot; During the last 9 years, STX Next has grown from a small business with a handful of developers, to one of the biggest Python companies in Europe, and a leading proponent of agile and scrum methodologies. We feel that now is the best moment to share our experiences in implementing effective, agile development processes in a company of nearly 100 developers. Maciej Dziergwa will be discussing how he&#39;s grown his business, what challenges there are today in python development, and how he plans to take his company to the next level. Especially we want to spread our ideas of building de-localized teams/frequently changing teams/teams with young members that learn rapidly making synergy effect. Join us during our Business Day on 23th July 2014! Remember that 2+2 can be much more than 4...&quot;, 
+            &quot;description&quot;: &quot;&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;<a href="http://creativecommons.org/licenses/by/3.0/" rel="nofollow">http://creativecommons.org/licenses/by/3.0/</a>&quot;, 
+            &quot;embed&quot;: &quot;&lt;object width=\&quot;640\&quot; height=\&quot;390\&quot;&gt;&lt;param name=\&quot;movie\&quot; value=\&quot;http://youtube.com/v/-EodmMOwB7g?version=3&amp;amp;hl=en_US\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowFullScreen\&quot; value=\&quot;true\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowscriptaccess\&quot; value=\&quot;always\&quot;&gt;&lt;/param&gt;&lt;embed src=\&quot;http://youtube.com/v/-EodmMOwB7g?version=3&amp;amp;hl=en_US\&quot; type=\&quot;application/x-shockwave-flash\&quot; width=\&quot;640\&quot; height=\&quot;390\&quot; allowscriptaccess=\&quot;always\&quot; allowfullscreen=\&quot;true\&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://i.ytimg.com/vi/-EodmMOwB7g/hqdefault.jpg" rel="nofollow">http://i.ytimg.com/vi/-EodmMOwB7g/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: &quot;&quot;, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: &quot;&quot;, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: &quot;&quot;, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: &quot;&quot;, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="http://www.youtube.com/watch?v=-EodmMOwB7g" rel="nofollow">http://www.youtube.com/watch?v=-EodmMOwB7g</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2014-07-23&quot;, 
+            &quot;added&quot;: &quot;2014-07-31T00:46:29.393&quot;, 
+            &quot;updated&quot;: &quot;2014-08-01T07:49:25.522&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;EuroPython 2014&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;how-to-setup-a-new-python-project&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Felix Wick&quot;
+            ], 
+            &quot;tags&quot;: [], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 2992, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;How to Setup a new Python Project&quot;, 
+            &quot;summary&quot;: &quot;Setting up a new Python project from scratch can be quite hard. How to structure your files and directories. Where should my packages, modules, documentation and unit tests go? How do I configure setup.py, Sphinx and so on? We provide proven answers!&quot;, 
+            &quot;description&quot;: &quot;Whenever a Python beginner starts with its own project he or she is confronted with the same technical questions. Questions about a well thought out directory structure to hold all the files. How setup.py needs to be configured and even what it is capable of like specifying entry_points and other goodies. We show from the experience of our yearslong work with Python how to structure your Python project in terms of folders, files, modules and packages. How to configure setup.py to specify your requirements, to use it with nosetests, with Sphinx and so on. We also elaborate on the usage of Git and Versioneer (<a href="https://github.com/warner/python-versioneer" rel="nofollow">https://github.com/warner/python-versioneer</a>) to help you version your package.&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;<a href="http://creativecommons.org/licenses/by/3.0/" rel="nofollow">http://creativecommons.org/licenses/by/3.0/</a>&quot;, 
+            &quot;embed&quot;: &quot;&lt;object width=\&quot;640\&quot; height=\&quot;390\&quot;&gt;&lt;param name=\&quot;movie\&quot; value=\&quot;http://youtube.com/v/GeYis4ZuluY?version=3&amp;amp;hl=en_US\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowFullScreen\&quot; value=\&quot;true\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowscriptaccess\&quot; value=\&quot;always\&quot;&gt;&lt;/param&gt;&lt;embed src=\&quot;http://youtube.com/v/GeYis4ZuluY?version=3&amp;amp;hl=en_US\&quot; type=\&quot;application/x-shockwave-flash\&quot; width=\&quot;640\&quot; height=\&quot;390\&quot; allowscriptaccess=\&quot;always\&quot; allowfullscreen=\&quot;true\&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://i.ytimg.com/vi/GeYis4ZuluY/hqdefault.jpg" rel="nofollow">http://i.ytimg.com/vi/GeYis4ZuluY/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: &quot;&quot;, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: &quot;&quot;, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: &quot;&quot;, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: &quot;&quot;, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="http://www.youtube.com/watch?v=GeYis4ZuluY" rel="nofollow">http://www.youtube.com/watch?v=GeYis4ZuluY</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2014-07-23&quot;, 
+            &quot;added&quot;: &quot;2014-07-31T00:46:30.041&quot;, 
+            &quot;updated&quot;: &quot;2014-08-01T07:50:45.937&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;EuroPython 2014&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;how-we-switched-our-800-projects-from-apache-to&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Max Tepkeev&quot;
+            ], 
+            &quot;tags&quot;: [], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 3011, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;How we switched our 800+ projects from Apache to uWSGI&quot;, 
+            &quot;summary&quot;: &quot;During the last 7 years the company I am working for developed more than 800 projects in PHP and Python. All this time we were using Apache+nginx for hosting this projects. In this talk I will explain why we decided to switch all our projects from Apache+nginx to uWSGI+nginx and how we did that.&quot;, 
+            &quot;description&quot;: &quot;The talk will start from describing the setup we had for the last 7 years, i.e. Apache with mod_wsgi for Python projects and mod_php4/5 for PHP projects + nginx. I will explain why we used this setup for so long time, what problems we faced with this setup and what solutions we tried to solve them before switching to uWSGI.\r\n\r\nThen I will tell about uWSGI, what it is, how it works and what features it has. I will show the comparison of configuration files, how simple it is to configure uWSGI compared to Apache.\r\n\r\nLastly I will explain how we managed to switch all our 800+ projects developed over the years in 2 different languages with 2 major versions changed (PHP4/5 and Python2/3), how this switch simplified our development and administration of this projects, the improvements we got in memory management and other areas.\r\n\r\nOf course I will concentrate mainly on our Python projects because it is EuroPython after all and not EuroPHP ;-)&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;<a href="http://creativecommons.org/licenses/by/3.0/" rel="nofollow">http://creativecommons.org/licenses/by/3.0/</a>&quot;, 
+            &quot;embed&quot;: &quot;&lt;object width=\&quot;640\&quot; height=\&quot;390\&quot;&gt;&lt;param name=\&quot;movie\&quot; value=\&quot;http://youtube.com/v/e8Fz3bxPFC4?version=3&amp;amp;hl=en_US\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowFullScreen\&quot; value=\&quot;true\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowscriptaccess\&quot; value=\&quot;always\&quot;&gt;&lt;/param&gt;&lt;embed src=\&quot;http://youtube.com/v/e8Fz3bxPFC4?version=3&amp;amp;hl=en_US\&quot; type=\&quot;application/x-shockwave-flash\&quot; width=\&quot;640\&quot; height=\&quot;390\&quot; allowscriptaccess=\&quot;always\&quot; allowfullscreen=\&quot;true\&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://i.ytimg.com/vi/e8Fz3bxPFC4/hqdefault.jpg" rel="nofollow">http://i.ytimg.com/vi/e8Fz3bxPFC4/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: &quot;&quot;, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: &quot;&quot;, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: &quot;&quot;, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: &quot;&quot;, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="http://www.youtube.com/watch?v=e8Fz3bxPFC4" rel="nofollow">http://www.youtube.com/watch?v=e8Fz3bxPFC4</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2014-07-23&quot;, 
+            &quot;added&quot;: &quot;2014-07-31T00:46:32.159&quot;, 
+            &quot;updated&quot;: &quot;2014-08-01T07:51:32.390&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;EuroPython 2014&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;identifying-bugs-before-runtime-with-jedi&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Dave Halter&quot;
+            ], 
+            &quot;tags&quot;: [], 
+            &quot;related_urls&quot;: [
+                {
+                    &quot;url&quot;: &quot;<a href="https://github.com/davidhalter/jedi" rel="nofollow">https://github.com/davidhalter/jedi</a>&quot;, 
+                    &quot;description&quot;: &quot;&quot;
+                }
+            ], 
+            &quot;id&quot;: 2990, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Identifying Bugs Before Runtime With Jedi&quot;, 
+            &quot;summary&quot;: &quot;Finding bugs before runtime has been an incredibly tedious task in Python. Jedi is an autocompletion library with interesting capabilities: It understands a lot of the dynamic features of Python. I will show you how we can use the force of (the) Jedi to identify bugs in your Python code. It&#39;s not just another pylint. It&#39;s way better.&quot;, 
+            &quot;description&quot;: &quot;Jedi is an autocompletion library for Python that has gained quite a following over the last year. There are a couple of plugins for the most popular editors (VIM, Sublime, Emacs, etc.) and mainstream IDEs like Spyder are switching to Jedi.\r\n\r\nJedi basically tries to redefine the boundaries of autocompletion in dynamic languages. Most people still think that there&#39;s no hope for decent autocompletion in Python. This talk will try to argue the opposite, that decent autocompletion is very close.\r\n\r\nWhile the first part will be about Jedi, the second part of this talk will discuss the future of dynamic analysis. Dynamic Analysis is what I call the parts that static analysis doesn&#39;t cover. The hope is to generate a kind of \&quot;compiler\&quot; that doesn&#39;t execute code but reports additional bugs in your code (AttributeErrors and the like). \r\n\r\nI still have to work out the details of the presentation. I also have to add that Jedi I&#39;m currently working full-time on Jedi and that there&#39;s going to be some major improvements until the conference. Autocompletion and static/dynamic analysis as well as refactoring are hugely important tools for a dynamic language IMHO, because they can improve the only big disadvantage compared to static languages: Finding bugs before running your tool.&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;<a href="http://creativecommons.org/licenses/by/3.0/" rel="nofollow">http://creativecommons.org/licenses/by/3.0/</a>&quot;, 
+            &quot;embed&quot;: &quot;&lt;object width=\&quot;640\&quot; height=\&quot;390\&quot;&gt;&lt;param name=\&quot;movie\&quot; value=\&quot;http://youtube.com/v/DfVHSw0iOsk?version=3&amp;amp;hl=en_US\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowFullScreen\&quot; value=\&quot;true\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowscriptaccess\&quot; value=\&quot;always\&quot;&gt;&lt;/param&gt;&lt;embed src=\&quot;http://youtube.com/v/DfVHSw0iOsk?version=3&amp;amp;hl=en_US\&quot; type=\&quot;application/x-shockwave-flash\&quot; width=\&quot;640\&quot; height=\&quot;390\&quot; allowscriptaccess=\&quot;always\&quot; allowfullscreen=\&quot;true\&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://i.ytimg.com/vi/DfVHSw0iOsk/hqdefault.jpg" rel="nofollow">http://i.ytimg.com/vi/DfVHSw0iOsk/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: &quot;&quot;, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: &quot;&quot;, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: &quot;&quot;, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: &quot;&quot;, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="http://www.youtube.com/watch?v=DfVHSw0iOsk" rel="nofollow">http://www.youtube.com/watch?v=DfVHSw0iOsk</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2014-07-23&quot;, 
+            &quot;added&quot;: &quot;2014-07-31T00:46:29.796&quot;, 
+            &quot;updated&quot;: &quot;2014-08-01T07:53:39.266&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;EuroPython 2014&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;introduction-to-pytest&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Andreas Pelme&quot;
+            ], 
+            &quot;tags&quot;: [], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 3010, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Introduction to pytest&quot;, 
+            &quot;summary&quot;: &quot;pytest is a full featured testing tool that makes it possible to write \&quot;pythonic\&quot; tests. This talk will introduce pytest and some of its unique and innovative features. It will help you get started with pytest for new or existing projects, by showing basic usage and configuration.&quot;, 
+            &quot;description&quot;: &quot;This talk will show introduce pytest and show some unique and innovative features. It will show how to get started using it and some of the most important features.\r\n\r\nOne of these features is the ability to write tests in a more \u201cpythonic\u201d way by using the assert statement for assertions. Another feature in pytest is fixtures \u2013 a way to handle test dependencies in a structured way. This talk will introduce the concept of fixtures and show how they can be used.\r\n\r\nNo previous knowledge of pytest is required \u2013 this talk is for people who are new to testing or has experience with other Python testing tools such as unittest or Nose.&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;<a href="http://creativecommons.org/licenses/by/3.0/" rel="nofollow">http://creativecommons.org/licenses/by/3.0/</a>&quot;, 
+            &quot;embed&quot;: &quot;&lt;object width=\&quot;640\&quot; height=\&quot;390\&quot;&gt;&lt;param name=\&quot;movie\&quot; value=\&quot;http://youtube.com/v/LdVJj65ikRY?version=3&amp;amp;hl=en_US\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowFullScreen\&quot; value=\&quot;true\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowscriptaccess\&quot; value=\&quot;always\&quot;&gt;&lt;/param&gt;&lt;embed src=\&quot;http://youtube.com/v/LdVJj65ikRY?version=3&amp;amp;hl=en_US\&quot; type=\&quot;application/x-shockwave-flash\&quot; width=\&quot;640\&quot; height=\&quot;390\&quot; allowscriptaccess=\&quot;always\&quot; allowfullscreen=\&quot;true\&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://i.ytimg.com/vi/LdVJj65ikRY/hqdefault.jpg" rel="nofollow">http://i.ytimg.com/vi/LdVJj65ikRY/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: &quot;&quot;, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: &quot;&quot;, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: &quot;&quot;, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: &quot;&quot;, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="http://www.youtube.com/watch?v=LdVJj65ikRY" rel="nofollow">http://www.youtube.com/watch?v=LdVJj65ikRY</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2014-07-23&quot;, 
+            &quot;added&quot;: &quot;2014-07-31T00:46:32.061&quot;, 
+            &quot;updated&quot;: &quot;2014-08-01T07:54:19.300&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;EuroPython 2014&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;i-want-to-help-how-to-make-your-first-contributi&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Julie Pichon&quot;
+            ], 
+            &quot;tags&quot;: [], 
+            &quot;related_urls&quot;: [
+                {
+                    &quot;url&quot;: &quot;<a href="http://www.jpichon.net/site_media/presentations/2014/ContributingOSS_EP_handout.pdf" rel="nofollow">http://www.jpichon.net/site_media/presentations/2014/ContributingOSS_EP_handout.pdf</a>&quot;, 
+                    &quot;description&quot;: &quot;handout&quot;
+                }, 
+                {
+                    &quot;url&quot;: &quot;<a href="http://www.jpichon.net/blog/2013/02/talk-transcript-first-open-source-contribution/" rel="nofollow">http://www.jpichon.net/blog/2013/02/talk-transcript-first-open-source-contribution/</a>&quot;, 
+                    &quot;description&quot;: &quot;transcript&quot;
+                }
+            ], 
+            &quot;id&quot;: 2988, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;I want to help! How to make your first contribution to open-source&quot;, 
+            &quot;summary&quot;: &quot;Do you like open-source? Would you like to give back somehow but are not sure what to do or where to start? Together we will look at the usual workflow for making any kind of contribution, using a real patch as an example.&quot;, 
+            &quot;description&quot;: &quot;&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;<a href="http://creativecommons.org/licenses/by/3.0/" rel="nofollow">http://creativecommons.org/licenses/by/3.0/</a>&quot;, 
+            &quot;embed&quot;: &quot;&lt;object width=\&quot;640\&quot; height=\&quot;390\&quot;&gt;&lt;param name=\&quot;movie\&quot; value=\&quot;http://youtube.com/v/U7HJuC84Lpw?version=3&amp;amp;hl=en_US\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowFullScreen\&quot; value=\&quot;true\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowscriptaccess\&quot; value=\&quot;always\&quot;&gt;&lt;/param&gt;&lt;embed src=\&quot;http://youtube.com/v/U7HJuC84Lpw?version=3&amp;amp;hl=en_US\&quot; type=\&quot;application/x-shockwave-flash\&quot; width=\&quot;640\&quot; height=\&quot;390\&quot; allowscriptaccess=\&quot;always\&quot; allowfullscreen=\&quot;true\&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://i.ytimg.com/vi/U7HJuC84Lpw/hqdefault.jpg" rel="nofollow">http://i.ytimg.com/vi/U7HJuC84Lpw/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: &quot;&quot;, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: &quot;&quot;, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: &quot;&quot;, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: &quot;&quot;, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="http://www.youtube.com/watch?v=U7HJuC84Lpw" rel="nofollow">http://www.youtube.com/watch?v=U7HJuC84Lpw</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2014-07-23&quot;, 
+            &quot;added&quot;: &quot;2014-07-31T00:46:29.601&quot;, 
+            &quot;updated&quot;: &quot;2014-08-01T07:58:57.341&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;EuroPython 2014&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;lightning-talks-4&quot;, 
+            &quot;speakers&quot;: [], 
+            &quot;tags&quot;: [], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 2983, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Lightning Talks&quot;, 
+            &quot;summary&quot;: &quot;A lightning talk is a short talk, typically only five minutes in duration, providing an opportunity for participants - particularly people not featured in the main programme - to deliver a presentation on a subject of their choosing.&quot;, 
+            &quot;description&quot;: &quot;&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;<a href="http://creativecommons.org/licenses/by/3.0/" rel="nofollow">http://creativecommons.org/licenses/by/3.0/</a>&quot;, 
+            &quot;embed&quot;: &quot;&lt;object width=\&quot;640\&quot; height=\&quot;390\&quot;&gt;&lt;param name=\&quot;movie\&quot; value=\&quot;http://youtube.com/v/1Pp1qAAU2i4?version=3&amp;amp;hl=en_US\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowFullScreen\&quot; value=\&quot;true\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowscriptaccess\&quot; value=\&quot;always\&quot;&gt;&lt;/param&gt;&lt;embed src=\&quot;http://youtube.com/v/1Pp1qAAU2i4?version=3&amp;amp;hl=en_US\&quot; type=\&quot;application/x-shockwave-flash\&quot; width=\&quot;640\&quot; height=\&quot;390\&quot; allowscriptaccess=\&quot;always\&quot; allowfullscreen=\&quot;true\&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://i.ytimg.com/vi/1Pp1qAAU2i4/hqdefault.jpg" rel="nofollow">http://i.ytimg.com/vi/1Pp1qAAU2i4/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: &quot;&quot;, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: &quot;&quot;, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: &quot;&quot;, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: &quot;&quot;, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="http://www.youtube.com/watch?v=1Pp1qAAU2i4" rel="nofollow">http://www.youtube.com/watch?v=1Pp1qAAU2i4</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2014-07-23&quot;, 
+            &quot;added&quot;: &quot;2014-07-31T00:46:29.064&quot;, 
+            &quot;updated&quot;: &quot;2014-08-01T07:59:57.173&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;EuroPython 2014&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;managing-the-cloud-with-a-few-lines-of-python&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Frank Becker&quot;
+            ], 
+            &quot;tags&quot;: [], 
+            &quot;related_urls&quot;: [
+                {
+                    &quot;url&quot;: &quot;<a href="https://github.com/boto/boto" rel="nofollow">https://github.com/boto/boto</a>&quot;, 
+                    &quot;description&quot;: &quot;&quot;
+                }
+            ], 
+            &quot;id&quot;: 2987, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Managing the Cloud with a Few Lines of Python&quot;, 
+            &quot;summary&quot;: &quot;One of the advantages of cloud computing is that resources can be enabled or disabled dynamically. \r\nE. g. is an distributed application short on compute power one can easily add more. But who wants to do that by hand? Python is a perfect fit to control the cloud. The talk introduces the package [Boto](https://github.com/boto/boto \&quot;Boto\&quot;) which offers an easy API to manage most of the Amazon Web Services (AWS) as well as a number of command line tools.&quot;, 
+            &quot;description&quot;: &quot;One of the advantages of cloud computing is that resources can be enabled or disabled dynamically. \r\nE. g. is an distributed application short on compute power one can easily add more. But who wants to do that by hand? Python is a perfect fit to control the cloud. \r\nThe talk introduces the package Boto which offers an easy API to manage most of the Amazon Web Services (AWS) as well as a number of command line tools. \r\nFirst some usage examples are shown to introduce the concepts behind Boto. \r\nFor that a few virtual instances with different configurations are launched, and the use of the storage service S3 is briefly introduced. \r\nBased on that a scalable continuous integration system controlled by Boto is developed to show how easy all the required services can be used from Python. \r\nMost of the examples will be demonstrated during the talk. They should be easily adoptable for similar use cases or serve as an starting point for more different ones.&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;<a href="http://creativecommons.org/licenses/by/3.0/" rel="nofollow">http://creativecommons.org/licenses/by/3.0/</a>&quot;, 
+            &quot;embed&quot;: &quot;&lt;object width=\&quot;640\&quot; height=\&quot;390\&quot;&gt;&lt;param name=\&quot;movie\&quot; value=\&quot;http://youtube.com/v/LbKvCvfWcJc?version=3&amp;amp;hl=en_US\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowFullScreen\&quot; value=\&quot;true\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowscriptaccess\&quot; value=\&quot;always\&quot;&gt;&lt;/param&gt;&lt;embed src=\&quot;http://youtube.com/v/LbKvCvfWcJc?version=3&amp;amp;hl=en_US\&quot; type=\&quot;application/x-shockwave-flash\&quot; width=\&quot;640\&quot; height=\&quot;390\&quot; allowscriptaccess=\&quot;always\&quot; allowfullscreen=\&quot;true\&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://i.ytimg.com/vi/LbKvCvfWcJc/hqdefault.jpg" rel="nofollow">http://i.ytimg.com/vi/LbKvCvfWcJc/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: &quot;&quot;, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: &quot;&quot;, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: &quot;&quot;, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: &quot;&quot;, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="http://www.youtube.com/watch?v=LbKvCvfWcJc" rel="nofollow">http://www.youtube.com/watch?v=LbKvCvfWcJc</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2014-07-23&quot;, 
+            &quot;added&quot;: &quot;2014-07-31T00:46:29.498&quot;, 
+            &quot;updated&quot;: &quot;2014-08-01T08:03:24.817&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;EuroPython 2014&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;our-decentralized-future&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Pieter Hintjens&quot;
+            ], 
+            &quot;tags&quot;: [], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 3013, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Our decentralized future&quot;, 
+            &quot;summary&quot;: &quot;Pieter will talk about the urgent push towards a decentralized future.  As founder of the ZeroMQ community, he will explain the vision, design and reality of distributed software systems. He&#39;ll explain his view on the community itself, also a highly decentralized \&quot;Living System\&quot;, as Hintjens calls it. Finally he&#39;ll talk about edgenet, a model for a decentralized Internet.&quot;, 
+            &quot;description&quot;: &quot;&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;<a href="http://creativecommons.org/licenses/by/3.0/" rel="nofollow">http://creativecommons.org/licenses/by/3.0/</a>&quot;, 
+            &quot;embed&quot;: &quot;&lt;object width=\&quot;640\&quot; height=\&quot;390\&quot;&gt;&lt;param name=\&quot;movie\&quot; value=\&quot;http://youtube.com/v/36bKE_JsHZs?version=3&amp;amp;hl=en_US\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowFullScreen\&quot; value=\&quot;true\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowscriptaccess\&quot; value=\&quot;always\&quot;&gt;&lt;/param&gt;&lt;embed src=\&quot;http://youtube.com/v/36bKE_JsHZs?version=3&amp;amp;hl=en_US\&quot; type=\&quot;application/x-shockwave-flash\&quot; width=\&quot;640\&quot; height=\&quot;390\&quot; allowscriptaccess=\&quot;always\&quot; allowfullscreen=\&quot;true\&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://i.ytimg.com/vi/36bKE_JsHZs/hqdefault.jpg" rel="nofollow">http://i.ytimg.com/vi/36bKE_JsHZs/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: &quot;&quot;, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: &quot;&quot;, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: &quot;&quot;, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: &quot;&quot;, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="http://www.youtube.com/watch?v=36bKE_JsHZs" rel="nofollow">http://www.youtube.com/watch?v=36bKE_JsHZs</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2014-07-23&quot;, 
+            &quot;added&quot;: &quot;2014-07-31T00:46:32.356&quot;, 
+            &quot;updated&quot;: &quot;2014-08-01T08:07:17.262&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;EuroPython 2014&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;performance-python-for-numerical-algorithms&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Yves Hilpisch&quot;
+            ], 
+            &quot;tags&quot;: [], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 3001, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Performance Python for Numerical Algorithms&quot;, 
+            &quot;summary&quot;: &quot;This talk is about several approaches to implement high performing numerical algorithms and applications in Python. It introduces into approaches like vectorization, multi-threading, parallelization (CPU/GPU), dynamic compiling, high throughput IO operations. The approach is a practical one in that every approach is illustrated by specific Python examples.&quot;, 
+            &quot;description&quot;: &quot;This talk is about several approaches to implement high performing numerical algorithms and applications in Python. It introduces into approaches like multi-threading, parallelization (CPU/GPU), dynamic compiling, high throughput IO operations.\r\n\r\nThe approach is a practical one in that every approach is illustrated by specific Python examples.\r\n\r\nThe talk uses, among others, the following libraries:\r\n\r\n* NumPy\r\n* numexpr\r\n* IPython.Parallel\r\n* Numba\r\n* NumbaPro\r\n* PyTables&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;<a href="http://creativecommons.org/licenses/by/3.0/" rel="nofollow">http://creativecommons.org/licenses/by/3.0/</a>&quot;, 
+            &quot;embed&quot;: &quot;&lt;object width=\&quot;640\&quot; height=\&quot;390\&quot;&gt;&lt;param name=\&quot;movie\&quot; value=\&quot;http://youtube.com/v/BkaIUvM5GXo?version=3&amp;amp;hl=en_US\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowFullScreen\&quot; value=\&quot;true\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowscriptaccess\&quot; value=\&quot;always\&quot;&gt;&lt;/param&gt;&lt;embed src=\&quot;http://youtube.com/v/BkaIUvM5GXo?version=3&amp;amp;hl=en_US\&quot; type=\&quot;application/x-shockwave-flash\&quot; width=\&quot;640\&quot; height=\&quot;390\&quot; allowscriptaccess=\&quot;always\&quot; allowfullscreen=\&quot;true\&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://i.ytimg.com/vi/BkaIUvM5GXo/hqdefault.jpg" rel="nofollow">http://i.ytimg.com/vi/BkaIUvM5GXo/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: &quot;&quot;, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: &quot;&quot;, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: &quot;&quot;, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: &quot;&quot;, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="http://www.youtube.com/watch?v=BkaIUvM5GXo" rel="nofollow">http://www.youtube.com/watch?v=BkaIUvM5GXo</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2014-07-23&quot;, 
+            &quot;added&quot;: &quot;2014-07-31T00:46:31.069&quot;, 
+            &quot;updated&quot;: &quot;2014-08-01T08:09:11.995&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;EuroPython 2014&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;python-in-system-testing&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Katarzyna Jachim&quot;
+            ], 
+            &quot;tags&quot;: [], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 2984, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Python in system testing&quot;, 
+            &quot;summary&quot;: &quot;When you think about Python+testing, you usually think about testing your code - unittests, mostly. But it is not the only case! When you have a big system, you need to test it on much higher level - if only to check if all the components are wired in the right way. You may do it manually, but it is tedious and time-consuming - so you want to automate it. And here comes Python - the language of choice in many QA departments.&quot;, 
+            &quot;description&quot;: &quot;When you think about Python+testing, you usually think about testing your code - unittests, mostly. But it is not the only case! When you have a big system, you need to test it on much higher level - if only to check if all the components are wired in the right way. You may do it manually, but it is tedious and time-consuming - so you want to automate it. And here comes Python - the language of choice in many QA departments.\r\n\r\nI will tell about differences between unittesting and system testing which result in totally different requirements on test management/running systems. I will tell how we use Python (and a little why) to automate our work. Finally, I will tell a little about my \&quot;idee fixe\&quot; - a framework for system testing written in Python.&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;<a href="http://creativecommons.org/licenses/by/3.0/" rel="nofollow">http://creativecommons.org/licenses/by/3.0/</a>&quot;, 
+            &quot;embed&quot;: &quot;&lt;object width=\&quot;640\&quot; height=\&quot;390\&quot;&gt;&lt;param name=\&quot;movie\&quot; value=\&quot;http://youtube.com/v/I-Hbi81G6Ls?version=3&amp;amp;hl=en_US\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowFullScreen\&quot; value=\&quot;true\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowscriptaccess\&quot; value=\&quot;always\&quot;&gt;&lt;/param&gt;&lt;embed src=\&quot;http://youtube.com/v/I-Hbi81G6Ls?version=3&amp;amp;hl=en_US\&quot; type=\&quot;application/x-shockwave-flash\&quot; width=\&quot;640\&quot; height=\&quot;390\&quot; allowscriptaccess=\&quot;always\&quot; allowfullscreen=\&quot;true\&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://i.ytimg.com/vi/I-Hbi81G6Ls/hqdefault.jpg" rel="nofollow">http://i.ytimg.com/vi/I-Hbi81G6Ls/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: &quot;&quot;, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: &quot;&quot;, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: &quot;&quot;, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: &quot;&quot;, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="http://www.youtube.com/watch?v=I-Hbi81G6Ls" rel="nofollow">http://www.youtube.com/watch?v=I-Hbi81G6Ls</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2014-07-23&quot;, 
+            &quot;added&quot;: &quot;2014-07-31T00:46:29.181&quot;, 
+            &quot;updated&quot;: &quot;2014-08-01T08:10:39.306&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;EuroPython 2014&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;python-refactoring-with-rope-and-traad&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Austin Bingham&quot;
+            ], 
+            &quot;tags&quot;: [], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 2989, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Python refactoring with Rope and Traad&quot;, 
+            &quot;summary&quot;: &quot;Rope is a powerful Python refactoring library. Traad (Norwegian for \&quot;thread\&quot;) is a tool which makes it simpler to integrate rope into IDEs via a simple HTTP API. In this session we&#39;ll look at how traad and rope work together and how traad integrates with at least one popular editor.&quot;, 
+            &quot;description&quot;: &quot;Python is a modern, dynamic language which is growing in popularity, but tool support for it is sometime lacking or only available in specific environments. For refactoring and other common IDE functions, however, the powerful open-source rope library provides a set of tools which are designed to be integrated into almost any programming environment. Rope supports most common refactorings, such as renaming and method extraction, but also more Python-specific refactorings, such as import organization. Rope\u2019s underlying code analysis engine also allows it to do things like locating method definitions and generating auto-completion suggestions.\r\n\r\nWhile rope is designed to be used from many environments, it\u2019s not always easy or ideal to integrate rope directly into other programs. Traad  (Norwegian for \u201cthread\u201d) is another open-source project that addresses this problem by wrapping rope into a simple client-server model so that client programs (IDEs, editors, etc.) can perform refactorings without needing to embed rope directly. This simplifies dependencies, makes clients more robust in the face of errors, eases traad client development, and even allows clients to do things like switch between Python 2 and 3 refactoring in the same session.\r\n\r\nIn this session we\u2019ll look at how rope operates, and we\u2019ll see how traad wraps it to provide an easier integration interface. The audience will get enough information to start using rope themselves, either directly or via traad, and they\u2019ll see how to use traad for integrating rope into their own environments. More generally, we\u2019ll look at why client-server refactoring tools might be preferable to the more standard approach of direct embedding. \r\n&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;<a href="http://creativecommons.org/licenses/by/3.0/" rel="nofollow">http://creativecommons.org/licenses/by/3.0/</a>&quot;, 
+            &quot;embed&quot;: &quot;&lt;object width=\&quot;640\&quot; height=\&quot;390\&quot;&gt;&lt;param name=\&quot;movie\&quot; value=\&quot;http://youtube.com/v/NvV5OrVk24c?version=3&amp;amp;hl=en_US\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowFullScreen\&quot; value=\&quot;true\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowscriptaccess\&quot; value=\&quot;always\&quot;&gt;&lt;/param&gt;&lt;embed src=\&quot;http://youtube.com/v/NvV5OrVk24c?version=3&amp;amp;hl=en_US\&quot; type=\&quot;application/x-shockwave-flash\&quot; width=\&quot;640\&quot; height=\&quot;390\&quot; allowscriptaccess=\&quot;always\&quot; allowfullscreen=\&quot;true\&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://i.ytimg.com/vi/NvV5OrVk24c/hqdefault.jpg" rel="nofollow">http://i.ytimg.com/vi/NvV5OrVk24c/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: &quot;&quot;, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: &quot;&quot;, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: &quot;&quot;, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: &quot;&quot;, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="http://www.youtube.com/watch?v=NvV5OrVk24c" rel="nofollow">http://www.youtube.com/watch?v=NvV5OrVk24c</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2014-07-23&quot;, 
+            &quot;added&quot;: &quot;2014-07-31T00:46:29.696&quot;, 
+            &quot;updated&quot;: &quot;2014-08-01T08:11:19.052&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;EuroPython 2014&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;scaling-with-ansible&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Federico Marani&quot;
+            ], 
+            &quot;tags&quot;: [], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 3004, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Scaling with Ansible&quot;, 
+            &quot;summary&quot;: &quot;Ansible is a powerful DevOps swiss-army knife tool, very easy to configure and with many extensions built-in. This talk will quickly introduce the basics of Ansible, then some real-life experience tips on how to use this tool, from setting up dev VMs to multi-server setups.&quot;, 
+            &quot;description&quot;: &quot;Infrastructure/Scaling is a topic really close to me, I&#39;d like to have the chance to talk about how we set this up in the company I work for. Our infrastructure is around 10-15 servers,  provisioned on different cloud providers, so a good size infrastructure.\r\n\r\nPresentation is going to be divided in 3 parts, first part is going to be focused on comparing sysadmin and devops, then there will be an introduction to the basic concepts of Ansible. I want to spend most on the last part, which is going to give some tips based on our experience with it.\r\n\r\nMany ideas will come from this presentation <a href="https://speakerdeck.com/fmarani/devops-with-ansible" rel="nofollow">https://speakerdeck.com/fmarani/devops-with-ansible</a> which i gave at DJUGL in London, with a longer session I will have more chances to delve into more detail, especially on how we use it, from vagrant boxes setup to AWS and DigitalOcean boxes, network configuration, software configurations, etc... \r\n\r\nI want to offer as many real-life tips as possible, without going too much offtopic as far as Ansible is concerned&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;<a href="http://creativecommons.org/licenses/by/3.0/" rel="nofollow">http://creativecommons.org/licenses/by/3.0/</a>&quot;, 
+            &quot;embed&quot;: &quot;&lt;object width=\&quot;640\&quot; height=\&quot;390\&quot;&gt;&lt;param name=\&quot;movie\&quot; value=\&quot;http://youtube.com/v/ptc9E24YAcc?version=3&amp;amp;hl=en_US\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowFullScreen\&quot; value=\&quot;true\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowscriptaccess\&quot; value=\&quot;always\&quot;&gt;&lt;/param&gt;&lt;embed src=\&quot;http://youtube.com/v/ptc9E24YAcc?version=3&amp;amp;hl=en_US\&quot; type=\&quot;application/x-shockwave-flash\&quot; width=\&quot;640\&quot; height=\&quot;390\&quot; allowscriptaccess=\&quot;always\&quot; allowfullscreen=\&quot;true\&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://i.ytimg.com/vi/ptc9E24YAcc/hqdefault.jpg" rel="nofollow">http://i.ytimg.com/vi/ptc9E24YAcc/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: &quot;&quot;, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: &quot;&quot;, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: &quot;&quot;, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: &quot;&quot;, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="http://www.youtube.com/watch?v=ptc9E24YAcc" rel="nofollow">http://www.youtube.com/watch?v=ptc9E24YAcc</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2014-07-23&quot;, 
+            &quot;added&quot;: &quot;2014-07-31T00:46:31.405&quot;, 
+            &quot;updated&quot;: &quot;2014-08-01T08:12:19.068&quot;
+        }
+    ]
+}</pre>
+            </div>
+        </div>
+
+            
+
+                
+
+                
+            
+
+        </div>
+        <!-- END content-main -->
+
+    </div>
+    <!-- END Content -->
+
+        <div id="push"></div>
+
+    </div>
+
+    </div><!-- ./wrapper -->
+
+    
+    
+
+    
+    <script src="/static/rest_framework/js/jquery-1.8.1-min.js"></script>
+    <script src="/static/rest_framework/js/bootstrap.min.js"></script>
+    <script src="/static/rest_framework/js/prettify-min.js"></script>
+    <script src="/static/rest_framework/js/default.js"></script>
+    
+  </body>
+
+<!-- Mirrored from pyvideo.org/api/v2/video/?page=69&format=api by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 07 Jan 2016 03:49:35 GMT -->
+</html>

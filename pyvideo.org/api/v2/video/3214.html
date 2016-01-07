@@ -1,0 +1,193 @@
+
+
+<!DOCTYPE html>
+<html>
+    
+<!-- Mirrored from pyvideo.org/api/v2/video/3214 by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 07 Jan 2016 03:25:04 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+    
+
+        
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+        <meta name="robots" content="NONE,NOARCHIVE" />
+        
+
+        <title>Django REST framework</title>
+
+        
+        
+            <link rel="stylesheet" type="text/css" href="/static/rest_framework/css/bootstrap.min.css"/>
+            <link rel="stylesheet" type="text/css" href="/static/rest_framework/css/bootstrap-tweaks.css"/>
+        
+        <link rel="stylesheet" type="text/css" href="/static/rest_framework/css/prettify.css"/>
+        <link rel="stylesheet" type="text/css" href="/static/rest_framework/css/default.css"/>
+        
+
+    
+    </head>
+
+  <body class=" container">
+
+    <div class="wrapper">
+
+    
+    <div class="navbar navbar-inverse">
+        <div class="navbar-inner">
+            <div class="container-fluid">
+                <span href="/">
+                    <a class='brand' rel="nofollow" href='http://www.django-rest-framework.org'>Django REST framework <span class="version">2.3.14</span></a>
+                </span>
+                <ul class="nav pull-right">
+                    
+                        
+                            <li></li>
+                        
+                    
+                </ul>
+            </div>
+        </div>
+    </div>
+    
+
+    
+    <ul class="breadcrumb">
+        
+            <li>
+                <a href="/api/v2/video/" >Video List Create Api</a> <span class="divider">&rsaquo;</span>
+            </li>
+        
+            <li>
+                <a href="/api/v2/video/3214" class="active">Video Retrieve Update Api</a> 
+            </li>
+        
+    </ul>
+    
+
+    <!-- Content -->
+    <div id="content">
+
+        
+            <form id="get-form" class="pull-right">
+                <fieldset>
+                    <div class="btn-group format-selection">
+                        <a class="btn btn-primary js-tooltip" href='/api/v2/video/3214' rel="nofollow" title="Make a GET request on the Video Retrieve Update Api resource">GET</a>
+
+                        <button class="btn btn-primary dropdown-toggle js-tooltip" data-toggle="dropdown" title="Specify a format for the GET request">
+                            <span class="caret"></span>
+                        </button>
+                        <ul class="dropdown-menu">
+                            
+                                <li>
+                                    <a class="js-tooltip format-option" href='/api/v2/video/3214?format=json' rel="nofollow" title="Make a GET request on the Video Retrieve Update Api resource with the format set to `json`">json</a>
+                                </li>
+                            
+                                <li>
+                                    <a class="js-tooltip format-option" href='/api/v2/video/3214?format=api' rel="nofollow" title="Make a GET request on the Video Retrieve Update Api resource with the format set to `api`">api</a>
+                                </li>
+                            
+                        </ul>
+                    </div>
+
+                </fieldset>
+            </form>
+        
+
+        
+            <form class="button-form" action="/api/v2/video/3214" method="POST" class="pull-right">
+                <input type='hidden' name='csrfmiddlewaretoken' value='pT8iI6zhtQdsGFmu4tryYgFrUlipl2B3' />
+                <input type="hidden" name="_method" value="OPTIONS" />
+                <button class="btn btn-primary js-tooltip" title="Make an OPTIONS request on the Video Retrieve Update Api resource">OPTIONS</button>
+            </form>
+        
+
+        
+
+        <div class="content-main">
+            <div class="page-header"><h1>Video Retrieve Update Api</h1></div>
+            
+            
+            
+            <div class="request-info" style="clear: both" >
+                <pre class="prettyprint"><b>GET</b> /api/v2/video/3214</pre>
+            </div>
+            <div class="response-info">
+                <pre class="prettyprint"><div class="meta nocode"><b>HTTP 200 OK</b>
+<b>Content-Type:</b> <span class="lit">application/json</span>
+<b>Vary:</b> <span class="lit">Accept</span>
+<b>Allow:</b> <span class="lit">GET, PUT, PATCH, HEAD, OPTIONS</span>
+
+</div>{
+    &quot;category&quot;: &quot;Kiwi PyCon 2014&quot;, 
+    &quot;language&quot;: &quot;English&quot;, 
+    &quot;slug&quot;: &quot;seize-control-of-your-network-with-ryu&quot;, 
+    &quot;speakers&quot;: [
+        &quot;Ewen McNeill&quot;
+    ], 
+    &quot;tags&quot;: [
+        &quot;talk&quot;
+    ], 
+    &quot;related_urls&quot;: [], 
+    &quot;id&quot;: 3214, 
+    &quot;state&quot;: 1, 
+    &quot;title&quot;: &quot;Seize control of your network with Ryu&quot;, 
+    &quot;summary&quot;: &quot;&quot;, 
+    &quot;description&quot;: &quot;= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = \r\nEwen McNeill:\r\nSeize control of your network with Ryu\r\n= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = \r\n@ Kiwi PyCon 2014 - Saturday, 13 Sep 2014 - Track 2 \r\nhttp://kiwi.pycon.org/\r\n\r\n**Audience level**\r\n\r\nIntermediate\r\n\r\n**Description**\r\n\r\nRyu is an OpenFlow Network Controller written in Python, which provides a framework to build your own Software Defined Network (SDN) that can run at full wire speed, using modern network switches. Come learn how to leverage Python to instruct your network to filter, switch, and route traffic precisely the way you desire.\r\n\r\n**Abstract**\r\n\r\nOpenFlow [1] is an industry standard protocol for controlling modern network hardware (and software switches -- such as Open vSwitch [2] in Linux), down to installing specific forwarding or filtering rules (\&quot;flows\&quot;) into the hardware forwarding plane. Together with a well written OpenFlow Network Controller it allows you to create an intelligent Software Defined Network (SDN).\r\n\r\nRyu [3] is a OpenFlow Network Controller framework, written in Python, that is already extremely capable and still being rapidly developed (new releases every month). It has been adopted by the OpenStack [4] project amongst many others. Ryu implements the OpenFlow wire protocols and allows you to write event driven \&quot;apps\&quot; as Python modules, each running in their own eventlet. It comes with lots of examples. Your own apps can dictate switch forwarding and filtering policy in advance, or respond to new types of packets as they arrive. This gives you fine grained programmatic control over your network.\r\n\r\nThe talk will provide a brief outline of a how a Software Defined Network using Openflow works, and an introduction to writing your own Ryu \&quot;app\&quot; in Python. Plus plenty of pointers so you can get started experimenting yourself. Become the mad genius taking total control of your network!\r\n\r\n[1] <a href="https://www.opennetworking.org/%5Cr%5Cn[2]" rel="nofollow">https://www.opennetworking.org/\r\n[2]</a> <a href="http://openvswitch.org/%5Cr%5Cn[3]" rel="nofollow">http://openvswitch.org/\r\n[3]</a> <a href="http://osrg.github.io/ryu/%5Cr%5Cn[4]" rel="nofollow">http://osrg.github.io/ryu/\r\n[4]</a> <a href="http://www.openstack.org/%5Cr%5Cn%5Cr%5Cn**Slides**%5Cr%5Cn%5Cr%5Cnhttps://speakerdeck.com/nzpug/ewen-mcneill-seize-control-of-your-network-with-ryu" rel="nofollow">http://www.openstack.org/\r\n\r\n**Slides**\r\n\r\nhttps://speakerdeck.com/nzpug/ewen-mcneill-seize-control-of-your-network-with-ryu</a>&quot;, 
+    &quot;quality_notes&quot;: &quot;&quot;, 
+    &quot;copyright_text&quot;: &quot;CC&quot;, 
+    &quot;embed&quot;: &quot;&lt;object width=\&quot;640\&quot; height=\&quot;390\&quot;&gt;&lt;param name=\&quot;movie\&quot; value=\&quot;http://youtube.com/v/JKBQ-2uiwcw?version=3&amp;amp;hl=en_US\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowFullScreen\&quot; value=\&quot;true\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowscriptaccess\&quot; value=\&quot;always\&quot;&gt;&lt;/param&gt;&lt;embed src=\&quot;http://youtube.com/v/JKBQ-2uiwcw?version=3&amp;amp;hl=en_US\&quot; type=\&quot;application/x-shockwave-flash\&quot; width=\&quot;640\&quot; height=\&quot;390\&quot; allowscriptaccess=\&quot;always\&quot; allowfullscreen=\&quot;true\&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&quot;, 
+    &quot;thumbnail_url&quot;: &quot;<a href="http://i.ytimg.com/vi/JKBQ-2uiwcw/hqdefault.jpg" rel="nofollow">http://i.ytimg.com/vi/JKBQ-2uiwcw/hqdefault.jpg</a>&quot;, 
+    &quot;duration&quot;: 1800, 
+    &quot;video_ogv_length&quot;: null, 
+    &quot;video_ogv_url&quot;: null, 
+    &quot;video_ogv_download_only&quot;: false, 
+    &quot;video_mp4_length&quot;: null, 
+    &quot;video_mp4_url&quot;: null, 
+    &quot;video_mp4_download_only&quot;: false, 
+    &quot;video_webm_length&quot;: null, 
+    &quot;video_webm_url&quot;: null, 
+    &quot;video_webm_download_only&quot;: false, 
+    &quot;video_flv_length&quot;: null, 
+    &quot;video_flv_url&quot;: null, 
+    &quot;video_flv_download_only&quot;: false, 
+    &quot;source_url&quot;: &quot;<a href="http://www.youtube.com/watch?v=JKBQ-2uiwcw" rel="nofollow">http://www.youtube.com/watch?v=JKBQ-2uiwcw</a>&quot;, 
+    &quot;whiteboard&quot;: &quot;&quot;, 
+    &quot;recorded&quot;: &quot;2014-09-13&quot;, 
+    &quot;added&quot;: &quot;2014-10-14T22:35:37.301&quot;, 
+    &quot;updated&quot;: &quot;2014-10-16T00:06:05.802&quot;
+}</pre>
+            </div>
+        </div>
+
+            
+
+                
+
+                
+            
+
+        </div>
+        <!-- END content-main -->
+
+    </div>
+    <!-- END Content -->
+
+        <div id="push"></div>
+
+    </div>
+
+    </div><!-- ./wrapper -->
+
+    
+    
+
+    
+    <script src="/static/rest_framework/js/jquery-1.8.1-min.js"></script>
+    <script src="/static/rest_framework/js/bootstrap.min.js"></script>
+    <script src="/static/rest_framework/js/prettify-min.js"></script>
+    <script src="/static/rest_framework/js/default.js"></script>
+    
+  </body>
+
+<!-- Mirrored from pyvideo.org/api/v2/video/3214 by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 07 Jan 2016 03:25:05 GMT -->
+</html>

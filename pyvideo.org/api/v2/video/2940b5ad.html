@@ -1,0 +1,191 @@
+
+
+<!DOCTYPE html>
+<html>
+    
+<!-- Mirrored from pyvideo.org/api/v2/video/2940?format=api by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 07 Jan 2016 03:46:32 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+    
+
+        
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+        <meta name="robots" content="NONE,NOARCHIVE" />
+        
+
+        <title>Django REST framework</title>
+
+        
+        
+            <link rel="stylesheet" type="text/css" href="/static/rest_framework/css/bootstrap.min.css"/>
+            <link rel="stylesheet" type="text/css" href="/static/rest_framework/css/bootstrap-tweaks.css"/>
+        
+        <link rel="stylesheet" type="text/css" href="/static/rest_framework/css/prettify.css"/>
+        <link rel="stylesheet" type="text/css" href="/static/rest_framework/css/default.css"/>
+        
+
+    
+    </head>
+
+  <body class=" container">
+
+    <div class="wrapper">
+
+    
+    <div class="navbar navbar-inverse">
+        <div class="navbar-inner">
+            <div class="container-fluid">
+                <span href="/">
+                    <a class='brand' rel="nofollow" href='http://www.django-rest-framework.org'>Django REST framework <span class="version">2.3.14</span></a>
+                </span>
+                <ul class="nav pull-right">
+                    
+                        
+                            <li></li>
+                        
+                    
+                </ul>
+            </div>
+        </div>
+    </div>
+    
+
+    
+    <ul class="breadcrumb">
+        
+            <li>
+                <a href="/api/v2/video/" >Video List Create Api</a> <span class="divider">&rsaquo;</span>
+            </li>
+        
+            <li>
+                <a href="/api/v2/video/2940" class="active">Video Retrieve Update Api</a> 
+            </li>
+        
+    </ul>
+    
+
+    <!-- Content -->
+    <div id="content">
+
+        
+            <form id="get-form" class="pull-right">
+                <fieldset>
+                    <div class="btn-group format-selection">
+                        <a class="btn btn-primary js-tooltip" href='/api/v2/video/2940?format=api' rel="nofollow" title="Make a GET request on the Video Retrieve Update Api resource">GET</a>
+
+                        <button class="btn btn-primary dropdown-toggle js-tooltip" data-toggle="dropdown" title="Specify a format for the GET request">
+                            <span class="caret"></span>
+                        </button>
+                        <ul class="dropdown-menu">
+                            
+                                <li>
+                                    <a class="js-tooltip format-option" href='/api/v2/video/2940?format=json' rel="nofollow" title="Make a GET request on the Video Retrieve Update Api resource with the format set to `json`">json</a>
+                                </li>
+                            
+                                <li>
+                                    <a class="js-tooltip format-option" href='/api/v2/video/2940?format=api' rel="nofollow" title="Make a GET request on the Video Retrieve Update Api resource with the format set to `api`">api</a>
+                                </li>
+                            
+                        </ul>
+                    </div>
+
+                </fieldset>
+            </form>
+        
+
+        
+            <form class="button-form" action="/api/v2/video/2940?format=api" method="POST" class="pull-right">
+                <input type='hidden' name='csrfmiddlewaretoken' value='pT8iI6zhtQdsGFmu4tryYgFrUlipl2B3' />
+                <input type="hidden" name="_method" value="OPTIONS" />
+                <button class="btn btn-primary js-tooltip" title="Make an OPTIONS request on the Video Retrieve Update Api resource">OPTIONS</button>
+            </form>
+        
+
+        
+
+        <div class="content-main">
+            <div class="page-header"><h1>Video Retrieve Update Api</h1></div>
+            
+            
+            
+            <div class="request-info" style="clear: both" >
+                <pre class="prettyprint"><b>GET</b> /api/v2/video/2940?format=api</pre>
+            </div>
+            <div class="response-info">
+                <pre class="prettyprint"><div class="meta nocode"><b>HTTP 200 OK</b>
+<b>Content-Type:</b> <span class="lit">application/json</span>
+<b>Vary:</b> <span class="lit">Accept</span>
+<b>Allow:</b> <span class="lit">GET, PUT, PATCH, HEAD, OPTIONS</span>
+
+</div>{
+    &quot;category&quot;: &quot;EuroPython 2014&quot;, 
+    &quot;language&quot;: &quot;English&quot;, 
+    &quot;slug&quot;: &quot;big-data-analytics-with-python-using-stratosphere&quot;, 
+    &quot;speakers&quot;: [
+        &quot;Chesnay Schepler&quot;
+    ], 
+    &quot;tags&quot;: [], 
+    &quot;related_urls&quot;: [], 
+    &quot;id&quot;: 2940, 
+    &quot;state&quot;: 1, 
+    &quot;title&quot;: &quot;Big Data Analytics with Python using Stratosphere&quot;, 
+    &quot;summary&quot;: &quot;[Stratosphere](http://stratosphere.eu/) is a distributed platform for advanced big data analytics. It features a rich set of operators, advanced, iterative data flows, an efficient runtime, and automatic program optimization. We present Stratophere&#39;s new Python programming interface. It allows Python developers to easily get their hands on Big Data.&quot;, 
+    &quot;description&quot;: &quot;[Stratosphere](http://stratosphere.eu/) is implemented in Java. In 2013 we introduced support for writing Stratosphere programs in Scala. Since Scala also runs in the Java JVM the language integration was easy for Scala.\r\n\r\nIn late 2013, we started to develop a generic language binding framework for Stratosphere to support non-JVM languages such as Python, JavaScript, Ruby but also compiled languages such as C++. The language binding framework uses [Google\u2019s Protocol Buffers](https://code.google.com/p/protobuf/) for efficient data serialization and transportation between the languages.\r\n\r\nSince many \u201cData Scientists\u201d and machine learning experts are using Python on a daily basis, we decided to use Python as the reference implementation for Stratosphere\u2019s language binding feature.\r\nOur talk at the EuroPython 2014 will present how Python developers can leverage the Stratosphere Platform to solve their big data problems.\r\n\r\nWe introduce the most important concepts of Stratosphere such as the operators, connectors to data sources, data flows, the compiler, iterative algorithms and more.\r\nStratosphere is a mature, next generation big-data analytics platform developed by a vibrant [open-source community](https://github.com/stratosphere/stratosphere). The system is available under the Apache 2.0 license. \r\n\r\nThe project started in 2009 as a joint research project of multiple universities in the Berlin area (Technische Universit\u00e4t, Humboldt Universit\u00e4t and Hasso-Plattner Institut). Nowadays it is an award winning system that has gained worldwide attention in both research and industry.\r\n\r\nA note to the program committee: As mentioned, the development of the Python language binding of Stratosphere has started a few months ago, therefore, the code is not yet in the main development branch. However, we are already able to execute the \u201cHello World\u201d of big data, the \u201cWord Count\u201d example using the Python interface. See this example in the development branch: <a href="https://github.com/filiphaase/stratosphere/blob/langbinding/stratosphere-addons/stratosphere-language-binding/src/main/python/eu/stratosphere/language/binding/wordcountexample/WordCountPlan.py%5Cr%5Cn%5Cr%5Cn%5Cr%5CnPlease" rel="nofollow">https://github.com/filiphaase/stratosphere/blob/langbinding/stratosphere-addons/stratosphere-language-binding/src/main/python/eu/stratosphere/language/binding/wordcountexample/WordCountPlan.py\r\n\r\n\r\nPlease</a> contact us if you have any questions!&quot;, 
+    &quot;quality_notes&quot;: &quot;&quot;, 
+    &quot;copyright_text&quot;: &quot;<a href="http://creativecommons.org/licenses/by/3.0/" rel="nofollow">http://creativecommons.org/licenses/by/3.0/</a>&quot;, 
+    &quot;embed&quot;: &quot;&lt;object width=\&quot;640\&quot; height=\&quot;390\&quot;&gt;&lt;param name=\&quot;movie\&quot; value=\&quot;http://youtube.com/v/J3RMB4HgcRw?version=3&amp;amp;hl=en_US\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowFullScreen\&quot; value=\&quot;true\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowscriptaccess\&quot; value=\&quot;always\&quot;&gt;&lt;/param&gt;&lt;embed src=\&quot;http://youtube.com/v/J3RMB4HgcRw?version=3&amp;amp;hl=en_US\&quot; type=\&quot;application/x-shockwave-flash\&quot; width=\&quot;640\&quot; height=\&quot;390\&quot; allowscriptaccess=\&quot;always\&quot; allowfullscreen=\&quot;true\&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&quot;, 
+    &quot;thumbnail_url&quot;: &quot;<a href="http://i.ytimg.com/vi/J3RMB4HgcRw/hqdefault.jpg" rel="nofollow">http://i.ytimg.com/vi/J3RMB4HgcRw/hqdefault.jpg</a>&quot;, 
+    &quot;duration&quot;: null, 
+    &quot;video_ogv_length&quot;: null, 
+    &quot;video_ogv_url&quot;: &quot;&quot;, 
+    &quot;video_ogv_download_only&quot;: false, 
+    &quot;video_mp4_length&quot;: null, 
+    &quot;video_mp4_url&quot;: &quot;&quot;, 
+    &quot;video_mp4_download_only&quot;: false, 
+    &quot;video_webm_length&quot;: null, 
+    &quot;video_webm_url&quot;: &quot;&quot;, 
+    &quot;video_webm_download_only&quot;: false, 
+    &quot;video_flv_length&quot;: null, 
+    &quot;video_flv_url&quot;: &quot;&quot;, 
+    &quot;video_flv_download_only&quot;: false, 
+    &quot;source_url&quot;: &quot;<a href="http://www.youtube.com/watch?v=J3RMB4HgcRw" rel="nofollow">http://www.youtube.com/watch?v=J3RMB4HgcRw</a>&quot;, 
+    &quot;whiteboard&quot;: &quot;&quot;, 
+    &quot;recorded&quot;: &quot;2014-07-25&quot;, 
+    &quot;added&quot;: &quot;2014-07-31T00:46:24.078&quot;, 
+    &quot;updated&quot;: &quot;2014-07-31T00:53:35.859&quot;
+}</pre>
+            </div>
+        </div>
+
+            
+
+                
+
+                
+            
+
+        </div>
+        <!-- END content-main -->
+
+    </div>
+    <!-- END Content -->
+
+        <div id="push"></div>
+
+    </div>
+
+    </div><!-- ./wrapper -->
+
+    
+    
+
+    
+    <script src="/static/rest_framework/js/jquery-1.8.1-min.js"></script>
+    <script src="/static/rest_framework/js/bootstrap.min.js"></script>
+    <script src="/static/rest_framework/js/prettify-min.js"></script>
+    <script src="/static/rest_framework/js/default.js"></script>
+    
+  </body>
+
+<!-- Mirrored from pyvideo.org/api/v2/video/2940?format=api by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 07 Jan 2016 03:46:32 GMT -->
+</html>

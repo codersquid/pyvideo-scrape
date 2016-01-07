@@ -1,0 +1,947 @@
+
+
+<!DOCTYPE html>
+<html>
+    
+<!-- Mirrored from pyvideo.org/api/v2/video/?page=126 by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 07 Jan 2016 03:52:28 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+    
+
+        
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+        <meta name="robots" content="NONE,NOARCHIVE" />
+        
+
+        <title>Django REST framework</title>
+
+        
+        
+            <link rel="stylesheet" type="text/css" href="/static/rest_framework/css/bootstrap.min.css"/>
+            <link rel="stylesheet" type="text/css" href="/static/rest_framework/css/bootstrap-tweaks.css"/>
+        
+        <link rel="stylesheet" type="text/css" href="/static/rest_framework/css/prettify.css"/>
+        <link rel="stylesheet" type="text/css" href="/static/rest_framework/css/default.css"/>
+        
+
+    
+    </head>
+
+  <body class=" container">
+
+    <div class="wrapper">
+
+    
+    <div class="navbar navbar-inverse">
+        <div class="navbar-inner">
+            <div class="container-fluid">
+                <span href="/">
+                    <a class='brand' rel="nofollow" href='http://www.django-rest-framework.org'>Django REST framework <span class="version">2.3.14</span></a>
+                </span>
+                <ul class="nav pull-right">
+                    
+                        
+                            <li></li>
+                        
+                    
+                </ul>
+            </div>
+        </div>
+    </div>
+    
+
+    
+    <ul class="breadcrumb">
+        
+            <li>
+                <a href="/api/v2/video/" class="active">Video List Create Api</a> 
+            </li>
+        
+    </ul>
+    
+
+    <!-- Content -->
+    <div id="content">
+
+        
+            <form id="get-form" class="pull-right">
+                <fieldset>
+                    <div class="btn-group format-selection">
+                        <a class="btn btn-primary js-tooltip" href='/api/v2/video/?page=126' rel="nofollow" title="Make a GET request on the Video List Create Api resource">GET</a>
+
+                        <button class="btn btn-primary dropdown-toggle js-tooltip" data-toggle="dropdown" title="Specify a format for the GET request">
+                            <span class="caret"></span>
+                        </button>
+                        <ul class="dropdown-menu">
+                            
+                                <li>
+                                    <a class="js-tooltip format-option" href='/api/v2/video/?page=126&format=json' rel="nofollow" title="Make a GET request on the Video List Create Api resource with the format set to `json`">json</a>
+                                </li>
+                            
+                                <li>
+                                    <a class="js-tooltip format-option" href='/api/v2/video/?page=126&format=api' rel="nofollow" title="Make a GET request on the Video List Create Api resource with the format set to `api`">api</a>
+                                </li>
+                            
+                        </ul>
+                    </div>
+
+                </fieldset>
+            </form>
+        
+
+        
+            <form class="button-form" action="/api/v2/video/?page=126" method="POST" class="pull-right">
+                <input type='hidden' name='csrfmiddlewaretoken' value='pT8iI6zhtQdsGFmu4tryYgFrUlipl2B3' />
+                <input type="hidden" name="_method" value="OPTIONS" />
+                <button class="btn btn-primary js-tooltip" title="Make an OPTIONS request on the Video List Create Api resource">OPTIONS</button>
+            </form>
+        
+
+        
+
+        <div class="content-main">
+            <div class="page-header"><h1>Video List Create Api</h1></div>
+            
+            
+            
+            <div class="request-info" style="clear: both" >
+                <pre class="prettyprint"><b>GET</b> /api/v2/video/?page=126</pre>
+            </div>
+            <div class="response-info">
+                <pre class="prettyprint"><div class="meta nocode"><b>HTTP 200 OK</b>
+<b>Content-Type:</b> <span class="lit">application/json</span>
+<b>Vary:</b> <span class="lit">Accept</span>
+<b>Allow:</b> <span class="lit">GET, POST, HEAD, OPTIONS</span>
+
+</div>{
+    &quot;count&quot;: 3439, 
+    &quot;next&quot;: &quot;<a href="http://pyvideo.org/api/v2/video/?page=127" rel="nofollow">http://pyvideo.org/api/v2/video/?page=127</a>&quot;, 
+    &quot;previous&quot;: &quot;<a href="http://pyvideo.org/api/v2/video/?page=125" rel="nofollow">http://pyvideo.org/api/v2/video/?page=125</a>&quot;, 
+    &quot;results&quot;: [
+        {
+            &quot;category&quot;: &quot;DjangoCon 2012&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;so-you-want-to-make-a-payment-comparing-and-cont&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Joe Jasinski&quot;
+            ], 
+            &quot;tags&quot;: [
+                &quot;django&quot;, 
+                &quot;payments&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 1391, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;So You Want to Make a Payment: Comparing and contrasting Django payment options&quot;, 
+            &quot;summary&quot;: &quot;So you&#39;ve developed an eCommerce site and now you want users to be able to\nmake payments. The aim of this talk will be to introduce and compare some\ncommon payment gateway options, such as Payflow, <a href="http://Authorize.net" rel="nofollow">Authorize.net</a>, Stripe, and\nBraintree, with the focus of integrating them into Django projects.\n\n&quot;, 
+            &quot;description&quot;: &quot;When developing eCommerce applications in Django, you will often be faced with\nthe choice of which payment API to use. It&#39;s not always clear which services\nare available, which will fit your needs, and how to get started with them.\nThis talk aims to evaluate these payment options from a Django programmer&#39;s\nperspective and provide you with background that may help you choose a payment\nprocessor that fits your needs.\n\nTopics will include:\n\n  * High-level overview of how payments work. \n  * Overview of popular payment options: Google Checkout, <a href="http://Authorize.net" rel="nofollow">Authorize.net</a>, Payflow Payments, Braintree, Stripe, etc. \n  * Compare and contrast these payment gateway APIs \n    * compare ease of use\n    * features \n    * price\n  * General overview of payment gateway web interfaces \n  * Example Code snippets for payment processing\n  * Useful Python/Django payment-related modules \n  * Q&amp;A \n\n&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;Creative Commons Attribution license (reuse allowed&quot;, 
+            &quot;embed&quot;: &quot;&lt;object width=\&quot;640\&quot; height=\&quot;390\&quot;&gt;&lt;param name=\&quot;movie\&quot; value=\&quot;http://youtube.com/v/vZc5mETltzM?version=3&amp;amp;hl=en_US\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowFullScreen\&quot; value=\&quot;true\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowscriptaccess\&quot; value=\&quot;always\&quot;&gt;&lt;/param&gt;&lt;embed src=\&quot;http://youtube.com/v/vZc5mETltzM?version=3&amp;amp;hl=en_US\&quot; type=\&quot;application/x-shockwave-flash\&quot; width=\&quot;640\&quot; height=\&quot;390\&quot; allowscriptaccess=\&quot;always\&quot; allowfullscreen=\&quot;true\&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://i.ytimg.com/vi/vZc5mETltzM/hqdefault.jpg" rel="nofollow">http://i.ytimg.com/vi/vZc5mETltzM/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: null, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="http://www.youtube.com/watch?v=vZc5mETltzM" rel="nofollow">http://www.youtube.com/watch?v=vZc5mETltzM</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;needs editing&quot;, 
+            &quot;recorded&quot;: &quot;2012-09-05&quot;, 
+            &quot;added&quot;: &quot;2012-10-08T17:39:49&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:26.990&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;DjangoCon 2012&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;the-dungeon-masters-guide-to-djangos-orm&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Malcolm Tredinnick&quot;
+            ], 
+            &quot;tags&quot;: [
+                &quot;django&quot;, 
+                &quot;django-orm&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 1380, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;The Dungeon Master&#39;s guide to Django&#39;s ORM&quot;, 
+            &quot;summary&quot;: &quot;If you&#39;ve ever been curious about Django&#39;s ORM implementation, you will have\nnoticed the required learning curve. Some of the code is fairly complicated.\nOther bits are worse. Here comes a 30 or 40 minute guided tour of the\nuncharted realms: how the pieces fit together, where to look for things, why\nthe current design is what it is. A portion of this is my fault; I should\nprobably explain myself.\n\n&quot;, 
+            &quot;description&quot;: &quot;Django&#39;s database layer is a necessarily complicated piece of code. It is a\nvery powerful API that works more or less seamlessly across multiple database\nstorage systems, smoothing over many of the inconsistencies and implementation\ndifferences that go with the territory. This is great for developers who use\nDjango.\n\nIt&#39;s a little less awesome for the maintainers of that code; working in that\nenvironment is fairly difficult. Still, we all like a challenge. Problem is:\nwhere to start? Coming to grips with the ORM code isn&#39;t easy. The code is well\nwritten and documented, but the entry points are particularly well highlighted\nand, really, the sheer mass of code is an obstacle to be overcome.\n\nThis talk will look at the various layers of the ORM, from the public\ngateways, to the semi-public doors into the implementation, to the deeper\ninternals and down to the interaction with databases. In effect, following the\njourney of a couple of adventurous young queries as they traverse the pathways\nto bring back some data, smelted into just the right format.\n\nThe goal is to provide some kind of mental map of the code. Some tips for\norienting yourself in the future and how to examine new nooks and corners\nwithout losing your mind. We obviously cannot cover everything, but let&#39;s go\nover the common paths and show how the other pieces hang off that backbone.\n\nAlong the way, we&#39;ll put some of the details into historical perspective.\nGetting inside the mind of previous adventurers might help understand why\nthings are the way they are.\n\n&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;Creative Commons Attribution license (reuse allowed&quot;, 
+            &quot;embed&quot;: &quot;&lt;object width=\&quot;640\&quot; height=\&quot;390\&quot;&gt;&lt;param name=\&quot;movie\&quot; value=\&quot;http://youtube.com/v/bgV39DlmZ2U?version=3&amp;amp;hl=en_US\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowFullScreen\&quot; value=\&quot;true\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowscriptaccess\&quot; value=\&quot;always\&quot;&gt;&lt;/param&gt;&lt;embed src=\&quot;http://youtube.com/v/bgV39DlmZ2U?version=3&amp;amp;hl=en_US\&quot; type=\&quot;application/x-shockwave-flash\&quot; width=\&quot;640\&quot; height=\&quot;390\&quot; allowscriptaccess=\&quot;always\&quot; allowfullscreen=\&quot;true\&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://i.ytimg.com/vi/bgV39DlmZ2U/hqdefault.jpg" rel="nofollow">http://i.ytimg.com/vi/bgV39DlmZ2U/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: null, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="http://www.youtube.com/watch?v=bgV39DlmZ2U" rel="nofollow">http://www.youtube.com/watch?v=bgV39DlmZ2U</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2012-09-05&quot;, 
+            &quot;added&quot;: &quot;2012-10-08T17:39:47&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:26.991&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;DjangoCon 2012&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;using-celery-with-social-networks&quot;, 
+            &quot;speakers&quot;: [
+                &quot;David Gouldin&quot;
+            ], 
+            &quot;tags&quot;: [
+                &quot;celery&quot;, 
+                &quot;django&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 1382, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Using Celery with Social Networks&quot;, 
+            &quot;summary&quot;: &quot;Many web applications need to interface with social networks, and celery, a\nPython distributed task queue library, is a great tool for the job. However,\nachieving speed and stability can be difficult. This talk will cover task\norganization/distribution, rate limiting, failover, and other practices to aid\nin working with social networks at scale.\n\n&quot;, 
+            &quot;description&quot;: &quot;Twitter conditionally rate limits based on IP address rather than access token\neven when one is provided for some of its API calls. Facebook has at least 10\nunique error messages to indicate a bad or expired access token (that I&#39;ve\nfound so far). LinkedIn&#39;s pagination has an occasional off-by-one bug\nresulting in an endless list of 1-user pages. Let&#39;s face it: interfacing with\nsocial networks is tricky. Celery helps, but to provide stable, reliable, and\nfast social features for your website, you&#39;ll need an arsenal of strategies\nand tools to get you the rest of the way there.\n\nBy the end of this talk, you&#39;ll understand how to set up tasks to quickly\nserve users with massive networks by employing intelligent distribution.\nYou&#39;ll be able to design robust processes to handle inconsistencies or\ninstabilities in 3rd party APIs. And you&#39;ll know how to have confidence that\nthe work you intend to do gets done, regardless of external rate limits,\npagination design, or API call dependency chains.\n\nThis talk is intended for people who have basic familiarity with celery and\nwould like to learn more about how to take advantage of it for large,\ndistributed task loads.\n\n## Outline\n\nI. Intro\n\nA. 3rd party interfaces are hard\n\n    \n      * Speed\n    \n        * Much slower than local data\n        * Users may still expect near-immediate results\n    \n      * Rate limits\n    \n        * Different rules for every service\n        * Need to handle reactive &amp; proactive as some don&#39;t publish rates\n    \n      * Instability\n    \n        * Outages (yes, Facebook does go down)\n        * Random failures\n    \n\nB. Why Celery?\n\n    \n      * Asynchronous\n      * Distributed\n      * Fault tolerant\n    \n\nII. Task Organization\n\n    \n    A. Small, atomic tasks (1 API call per task)\n    B. Minimal message state\n    \n       * Primitive types only (no model instances!)\n       * Defer as much data access to the task itself as possible\n    \n    C. Create Task subclasses for common patterns\n    D. Whenever possible, make tasks idempotent\n    \n\nIII. Task Distribution\n\n    \n     A. Managing pagination\n    \n        * For a known set size\n    \n          * Where limit/offset is supported, launch all page tasks simlutaneously\n          * Otherwise, 1 page launches the next as soon as the next cursor is obtained\n    \n        * For an unknown set size\n    \n          * Set max simultaneous pages\n          * Task is terminal if blank, otherwise launches page w/ offset + max pages\n    \n        * Setting page size is an art, not a science\n    \n          * Minimize the number of api calls when possible\n          * Avoid long-running tasks by setting a timeout ceiling\n          * Avoid the temptation to pass API data to dependent tasks\n    \n     B. Tracking task dependencies (\&quot;Done?\&quot; is difficult for distributed systems)\n    \n        * Use an external backend to store a dependency tree\n        * Subclass ResultSet to evaluate the task state of the tree\n        * Requires ignore_result=False\n    \n\nIV. Rate Limiting\n\n    \n    A. Problems\n    \n       * Celery&#39;s rate limiting doesn&#39;t do what you think it does\n       * 3rd party rate limits depend on many factors\n    \n    B. Solution\n    \n       * For services with known rate limits:\n    \n         * Use an external backend to store rate limit counters\n         * Increment counters based on rate limit factors per api call\n    \n       * For services with unknown rate limits:\n    \n         * Use an external backend to store rate limit backoff counters\n         * Ramp up / ratchet down call rate by power law as api calls fail/succeed\n    \n\nV. Failover\n\nA. Problems\n\n    \n      * Celery&#39;s countdown doesn&#39;t do what you think it does\n      * 3rd parties can fail in lots of \&quot;interesting\&quot; ways\n    \n\nB. Solution\n\n    \n      * Implement native RabbitMQ alternative to countdown\n      * Create task base classes per social network to handle error conditions\n    \n\nVI. Multiple queues\n\n    \n    A. Better control over task priority management &amp; resource distribution\n    B. Not all social accounts are created equal (handling whales &amp; spikes)\n    C. When you can&#39;t stream updates, use a trickle queue\n    \n\nVII. Celerybeat considered harmful\n\n    \n     A. Periodic task persistence gets out of sync with code\n     B. Just 1 more process to manage\n     C. Cron: it&#39;s just. not. that. hard.\n    \n\nVIII. Debugging\n\n    \n      A. Don&#39;t use \&quot;always eager\&quot;\n      B. Logging, logging, logging\n      C. Unit tests are good, but integration tests save lives\n    \n\nIV. Gotchas\n\n    \n    A. Open socket prevents Celery soft timeout\n    B. Celery soft timeout doesn&#39;t retry the task\n    C. If result state is not known, Celery reports \&quot;PENDING\&quot;\n    \n\n&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;Creative Commons Attribution license (reuse allowed&quot;, 
+            &quot;embed&quot;: &quot;&lt;object width=\&quot;640\&quot; height=\&quot;390\&quot;&gt;&lt;param name=\&quot;movie\&quot; value=\&quot;http://youtube.com/v/z751qhAzMb4?version=3&amp;amp;hl=en_US\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowFullScreen\&quot; value=\&quot;true\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowscriptaccess\&quot; value=\&quot;always\&quot;&gt;&lt;/param&gt;&lt;embed src=\&quot;http://youtube.com/v/z751qhAzMb4?version=3&amp;amp;hl=en_US\&quot; type=\&quot;application/x-shockwave-flash\&quot; width=\&quot;640\&quot; height=\&quot;390\&quot; allowscriptaccess=\&quot;always\&quot; allowfullscreen=\&quot;true\&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://i.ytimg.com/vi/z751qhAzMb4/hqdefault.jpg" rel="nofollow">http://i.ytimg.com/vi/z751qhAzMb4/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: null, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="http://www.youtube.com/watch?v=z751qhAzMb4" rel="nofollow">http://www.youtube.com/watch?v=z751qhAzMb4</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;needs editing&quot;, 
+            &quot;recorded&quot;: &quot;2012-09-05&quot;, 
+            &quot;added&quot;: &quot;2012-10-08T17:39:48&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:26.992&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;DjangoCon 2012&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;what-is-djangos-role-on-mobile&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Eric Florenzano&quot;
+            ], 
+            &quot;tags&quot;: [
+                &quot;django&quot;, 
+                &quot;mobile&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 1383, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;What is Django&#39;s Role on Mobile?&quot;, 
+            &quot;summary&quot;: &quot;Mobile grows bigger each year, but we love the web, and Django. Where does our\nknowledge and experience fit in this new ecosystem? What kind of a role can\nDjango play on fast-growing platforms like iOS and Android?\n\n&quot;, 
+            &quot;description&quot;: &quot;# Intro\n\n  * Django&#39;s version of MVC vs. iOS/Android version of MVC\n  * How the platforms differ from Django\n  * What is similar to Django\n\n# API\n\n  * Easiest way for Django to be used in conjunction with mobile today\n  * Big fat requests with lots of data preferable to many smaller requests\n  * Authentication best practices for mobile backend APIs\n\n# PhoneGap\n\n  * Can actually use Django to build your mobile app today\n  * JavaScript tricks to get around things like tap delay\n  * How much Django is really used vs. how much JavaScript\n  * Offline caching\n  * Performance issues with this approach\n\n# Future\n\n  * Quick look at RubyMotion\n  * Turns out it&#39;s possible to cross-compile Python for iOS\n  * Android has Py4A (including interpreter embedding)\n  * What can be done with this? Mobile Django.\n\n# Conclusion\n\n  * They are different worlds, need to be careful to respect both\n  * Even today Django proves useful as an API layer\n  * Django web apps in native wrapper can be a solution, albeit with its issues\n  * As hardware gets better, we may see something like an embedded Django\n\n&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;Creative Commons Attribution license (reuse allowed&quot;, 
+            &quot;embed&quot;: &quot;&lt;object width=\&quot;640\&quot; height=\&quot;390\&quot;&gt;&lt;param name=\&quot;movie\&quot; value=\&quot;http://youtube.com/v/3_R3DYwBWyY?version=3&amp;amp;hl=en_US\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowFullScreen\&quot; value=\&quot;true\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowscriptaccess\&quot; value=\&quot;always\&quot;&gt;&lt;/param&gt;&lt;embed src=\&quot;http://youtube.com/v/3_R3DYwBWyY?version=3&amp;amp;hl=en_US\&quot; type=\&quot;application/x-shockwave-flash\&quot; width=\&quot;640\&quot; height=\&quot;390\&quot; allowscriptaccess=\&quot;always\&quot; allowfullscreen=\&quot;true\&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://i.ytimg.com/vi/3_R3DYwBWyY/hqdefault.jpg" rel="nofollow">http://i.ytimg.com/vi/3_R3DYwBWyY/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: null, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="http://www.youtube.com/watch?v=3_R3DYwBWyY" rel="nofollow">http://www.youtube.com/watch?v=3_R3DYwBWyY</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;needs editing&quot;, 
+            &quot;recorded&quot;: &quot;2012-09-05&quot;, 
+            &quot;added&quot;: &quot;2012-10-08T17:39:48&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:26.994&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;DjangoCon 2012&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;why-the-django-community-sucks&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Justin Myles Holmes&quot;
+            ], 
+            &quot;tags&quot;: [
+                &quot;django&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 1385, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Why the Django Community Sucks&quot;, 
+            &quot;summary&quot;: &quot;Continuing in the tradition of self-deprecation that has made DjangoCon\nfamous, a relative newcomer will outline what the Django community can learn\nfrom the world of social activism.\n\n&quot;, 
+            &quot;description&quot;: &quot;In 2010, Eric Florenzano ignited a fever following his lightfooted and\nlighthearted placement of a mirror in front of the hardest of the hardcore in\nthe django community with his presentation, \u201cWhy Django Sucks, and How We can\nFix It.\u201d Then, a year later, at DjangCon 2011, Steve Holden grasped the self-\ncritique baton with an even steeper challenge, making a claim that he\ndescribed as \u201cthe most outrageous thing you can say\u201d - that the Django\ndocumentation sucked.\n\nThe Django documentation, already widely considered the best in its class, has\nresponded to the critique and continues to improve daily.\n\nAlso widely viewed as a top strength of Django is its community. While Django\nenjoys one of the most thoughtful, patient, and responsive communities in the\nworld of open source web frameworks, it has a special opportunity for learning\nin Washington, D.C., where many of the most successful and voracious non-\nprofit advocacy organizations call home.\n\nThis presentation will examine some of their tactics and compare them with\nthose employed by the Django community. Among the topics covered will be\nmobilization of new troops, building and listening to diverse coalitions, and\nidentifying and reaching out to under-represented populations.\n\nThe presenter comes from a decade of experience in non-profit social justice\nactivism. Having been a Django user for 3.5 years and involved in the\ncommunity for 2, will be at only his second DjangoCon.. Freshly imported, he\nhas the perspective of a passionate newcomer rather a seasoned veteran.\n\n&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;Creative Commons Attribution license (reuse allowed&quot;, 
+            &quot;embed&quot;: &quot;&lt;object width=\&quot;640\&quot; height=\&quot;390\&quot;&gt;&lt;param name=\&quot;movie\&quot; value=\&quot;http://youtube.com/v/NrkopXN9sQg?version=3&amp;amp;hl=en_US\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowFullScreen\&quot; value=\&quot;true\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowscriptaccess\&quot; value=\&quot;always\&quot;&gt;&lt;/param&gt;&lt;embed src=\&quot;http://youtube.com/v/NrkopXN9sQg?version=3&amp;amp;hl=en_US\&quot; type=\&quot;application/x-shockwave-flash\&quot; width=\&quot;640\&quot; height=\&quot;390\&quot; allowscriptaccess=\&quot;always\&quot; allowfullscreen=\&quot;true\&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://i.ytimg.com/vi/NrkopXN9sQg/hqdefault.jpg" rel="nofollow">http://i.ytimg.com/vi/NrkopXN9sQg/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: null, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="http://www.youtube.com/watch?v=NrkopXN9sQg" rel="nofollow">http://www.youtube.com/watch?v=NrkopXN9sQg</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;needs editing&quot;, 
+            &quot;recorded&quot;: &quot;2012-09-05&quot;, 
+            &quot;added&quot;: &quot;2012-10-08T17:39:48&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:26.995&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;DjangoCon 2012&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;a-gringos-guide-to-internationalization&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Jacob Burch&quot;
+            ], 
+            &quot;tags&quot;: [
+                &quot;django&quot;, 
+                &quot;internationalization&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 1379, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;A Gringo&#39;s Guide to Internationalization&quot;, 
+            &quot;summary&quot;: &quot;Coming from a speaker who escaped a notion to \&quot;why would we need to\ntranslate?\&quot; this talk aims to show what actually goes into translating a\nwebsite or app using Django&#39;s Internationalization tools. Covered will be an\noverview of batteries included, best practices and anti-patterns in using\nthem, and some third party tools to help make your life escaping the myth of a\nLingua Franca easier.\n\n&quot;, 
+            &quot;description&quot;: &quot;There&#39;s often a bubble in the English-speaking programming world that the\nentire internet runs on English. Our Top-level domains are shortened english\nwords. Our programming languages--Python in particular--try to emulate English\nwords and grammar.\n\nFirmly in place in this world for many years, my first attempt to translate a\npre-existing site came with a high sticker shock of nuanced difficulty. This\ntalk covers all the lessons I learned in taking a fully-fleshed web app with\nno translation (and a programmer with no translation experience) to being\ncompletely translated.\n\n# Talk Overview\n\n  1. Introduction to Translation\n    1. Overview of gettext\n    2. Brief history of a translation\n      1. Add gettext calls\n      2. `django-admin.py makemessages`\n      3. Ship po file to translation service\n      4. Receive file back\n      5. Compile\n      6. Fin\n    3. gettext vs gettext_lazy\n  2. Batteries Included\n    1. gettext Python calls\n    2. Middleware\n    3. template tags\n      1. trans vs. blocktrans\n    4. Anti-patterns of the battery included use.\n      1. Heavy whitespace in blocktrans\n      2. Monster-sized translations\n  3. The best laid plans of mice and men...\n    1. Problems that get in the way of A history of a translation.\n      1. Realize half the site is still untranslated\n      2. Edit out the translations you already had translated to avoid re-curring costs\n      3. Have the product adjust so two words change\n      4. Realize common text that&#39;s in the database\n      5. Fin?\n    2. Patterns and tools to help\n      1. `poxx.py` and the idea of a &#39;canonical&#39; po file.\n      2. `dbgettext`\n      3. Wholly-translated template files (translate_include, trans_render)\n  4. Advanced Translation Technique\n    1. While undocumented, translation backend is pretty darn flexible and the source code is a treasure trove to make &#39;impossible&#39; use cases not too bad.\n    2. Overview of how the translation service works behind the scenes\n      1. `_translation` thread local\n      2. Merged translations (root-&gt;app-&gt;default)\n      3. Sessions vs. Accept-Language\n      4. Middleware and Context processors\n    3. Example of advanced translation code: Multi-tenancy translation.\n      1. Translating some sites, not translating others\n      2. Translating Site A one way, Site B another\n      3. Using an English translation for duct-tape and profit.\n  5. Why Django&#39;s i18n sucks.\n    1. In the vein of the \&quot;Django Sucks\&quot; Key note. It doesn&#39;t really, but it could use some changes--from minor to major.\n    2. Why .po Files are archaic and limited.\n    3. What we can do to improve for 1.5 and beyond.\n\n&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;Creative Commons Attribution license (reuse allowed&quot;, 
+            &quot;embed&quot;: &quot;&lt;object width=\&quot;640\&quot; height=\&quot;390\&quot;&gt;&lt;param name=\&quot;movie\&quot; value=\&quot;http://youtube.com/v/j2ZHZWfx60Y?version=3&amp;amp;hl=en_US\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowFullScreen\&quot; value=\&quot;true\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowscriptaccess\&quot; value=\&quot;always\&quot;&gt;&lt;/param&gt;&lt;embed src=\&quot;http://youtube.com/v/j2ZHZWfx60Y?version=3&amp;amp;hl=en_US\&quot; type=\&quot;application/x-shockwave-flash\&quot; width=\&quot;640\&quot; height=\&quot;390\&quot; allowscriptaccess=\&quot;always\&quot; allowfullscreen=\&quot;true\&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://i.ytimg.com/vi/j2ZHZWfx60Y/hqdefault.jpg" rel="nofollow">http://i.ytimg.com/vi/j2ZHZWfx60Y/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: null, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="http://www.youtube.com/watch?v=j2ZHZWfx60Y" rel="nofollow">http://www.youtube.com/watch?v=j2ZHZWfx60Y</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2012-09-04&quot;, 
+            &quot;added&quot;: &quot;2012-10-08T17:39:46&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:26.997&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;DjangoCon 2012&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;api-design-tips&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Daniel Lindsley&quot;
+            ], 
+            &quot;tags&quot;: [
+                &quot;api&quot;, 
+                &quot;django&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 1398, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;API Design Tips&quot;, 
+            &quot;summary&quot;: &quot;The focus of this talk will be on some pragmatic tips on how to design\nprogrammatic (non-web-based) APIs for use by other developers.\n\n&quot;, 
+            &quot;description&quot;: &quot;If you&#39;re a developer of any sort (Django, Python, Javascript, etc), chances\nare that someone, at some point, will have to take the code you&#39;ve written &amp;\nuse it in a different context. This is even more amplified if you work on OSS,\nwhere people _will_ use it in ways you&#39;ve never dreamed about.\n\nThis talk is a reflection on my experience building libraries for other\npeople&#39;s consumption &amp; thoughts on how to design/make (non-HTTP) APIs in a way\nthat will make others love you (or at least not hunt you down &amp; strangle you).\n\n&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;Creative Commons Attribution license (reuse allowed&quot;, 
+            &quot;embed&quot;: &quot;&lt;object width=\&quot;640\&quot; height=\&quot;390\&quot;&gt;&lt;param name=\&quot;movie\&quot; value=\&quot;http://youtube.com/v/IKQzXu43hzY?version=3&amp;amp;hl=en_US\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowFullScreen\&quot; value=\&quot;true\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowscriptaccess\&quot; value=\&quot;always\&quot;&gt;&lt;/param&gt;&lt;embed src=\&quot;http://youtube.com/v/IKQzXu43hzY?version=3&amp;amp;hl=en_US\&quot; type=\&quot;application/x-shockwave-flash\&quot; width=\&quot;640\&quot; height=\&quot;390\&quot; allowscriptaccess=\&quot;always\&quot; allowfullscreen=\&quot;true\&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://i.ytimg.com/vi/IKQzXu43hzY/hqdefault.jpg" rel="nofollow">http://i.ytimg.com/vi/IKQzXu43hzY/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: null, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="http://www.youtube.com/watch?v=IKQzXu43hzY" rel="nofollow">http://www.youtube.com/watch?v=IKQzXu43hzY</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;needs editing&quot;, 
+            &quot;recorded&quot;: &quot;2012-09-04&quot;, 
+            &quot;added&quot;: &quot;2012-10-08T17:39:51&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:26.998&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;DjangoCon 2012&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;creating-dynamic-applications-with-django-and-bac&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Mjumbe Poe&quot;
+            ], 
+            &quot;tags&quot;: [
+                &quot;django&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 1402, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Creating Dynamic Applications with Django and Backbone.js&quot;, 
+            &quot;summary&quot;: &quot;See how well Django and Backbone.js can complement each other, and learn a few\nbest-practices for building dynamic web applications using these tools in\nconcert.\n\n&quot;, 
+            &quot;description&quot;: &quot;Django is a great tool for creating powerful database-driven web applications\nquickly. The ORM, form processing, the admin interface, and wealth of\ncommunity applications make Django the right tool for a number of situations.\n\nOne thing that Django doesn\u2019t do well is make it terribly easy to create\nhighly-interactive, dynamic interfaces. There are solutions that people are\nworking on. This talk will be about using Django with Backbone.js to help\ncreate these interfaces. Backbone.js is a Javascript framework that, in many\nways, sees the world in the same way as Django. These two tools can complement\neach other nicely.\n\nTopics:\n\n  * Similarities and differences in how the two frameworks see the world\n  * Creating REST interfaces with Django REST Framework\n  * Tools to ease the interface between Django and Backbone\n  * Templating strategies\n  * Shortcomings and implications on accessibility\n\n&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;Creative Commons Attribution license (reuse allowed&quot;, 
+            &quot;embed&quot;: &quot;&lt;object width=\&quot;640\&quot; height=\&quot;390\&quot;&gt;&lt;param name=\&quot;movie\&quot; value=\&quot;http://youtube.com/v/Is0TIzSG3eg?version=3&amp;amp;hl=en_US\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowFullScreen\&quot; value=\&quot;true\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowscriptaccess\&quot; value=\&quot;always\&quot;&gt;&lt;/param&gt;&lt;embed src=\&quot;http://youtube.com/v/Is0TIzSG3eg?version=3&amp;amp;hl=en_US\&quot; type=\&quot;application/x-shockwave-flash\&quot; width=\&quot;640\&quot; height=\&quot;390\&quot; allowscriptaccess=\&quot;always\&quot; allowfullscreen=\&quot;true\&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://i.ytimg.com/vi/Is0TIzSG3eg/hqdefault.jpg" rel="nofollow">http://i.ytimg.com/vi/Is0TIzSG3eg/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: null, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="http://www.youtube.com/watch?v=Is0TIzSG3eg" rel="nofollow">http://www.youtube.com/watch?v=Is0TIzSG3eg</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;needs editing&quot;, 
+            &quot;recorded&quot;: &quot;2012-09-04&quot;, 
+            &quot;added&quot;: &quot;2012-10-08T17:39:51&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:27.000&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;DjangoCon 2012&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;debugging-live-python-web-applications&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Amjith Ramanujam&quot;
+            ], 
+            &quot;tags&quot;: [
+                &quot;debugging&quot;, 
+                &quot;django&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 1395, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Debugging Live Python Web Applications&quot;, 
+            &quot;summary&quot;: &quot;Monitoring tools record the result of what happened to your web application\nwhen a problem arises, but for some classes of problems, monitoring systems\nare only a starting point. Sometimes it is necessary to take more intrusive\nsteps to plan for the unexpected by embedding mechanisms that will allow you\nto interact with a live deployed web application and extract even more\ndetailed information.\n\n&quot;, 
+            &quot;description&quot;: &quot;This talk will go over some of the ways in which a monitoring system such as\nNew Relic can be used to focus in on where problems are arising in a Python\nweb application using a framework such as Django. It will also describe how\nyou can then use that information to drill down even further by applying\nseparate debugging tools and techniques rather than monitoring systems.\nDebugging tools aren&#39;t generally associated with production systems however\nand even mentioning them in relation to production systems often makes DevOps\npeople rather nervous.\n\nThe main purpose of the talk therefore is to look at a range of debugging\ntools and techniques which can be applied to web applications but also\nseparate them into what might and might not be realistically used on live\nproduction web applications. It will then describe the use of an embedded\ninteractive console port as a gateway into a live web application, how one may\nsetup a set of predefined commands that could be issued against a live web\napplication, or for the brave, how it could be used to fire up an embedded\nPython interpreter prompt or pdb session.\n\nTopics to be touched on would include:\n\n  * Browser viewable error pages.\n  * Browser based debuggers.\n  * Python interactive debuggers.\n  * Post-mortem exception analysis.\n  * Methods for dumping Python stack traces\n  * Methods for dumping C stack traces.\n  * Methods for analyzing thread utilization.\n  * Interactive process introspection tools.\n  * Error reporting and logging services.\n  * Performance monitoring services.\n\n&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;Creative Commons Attribution license (reuse allowed&quot;, 
+            &quot;embed&quot;: &quot;&lt;object width=\&quot;640\&quot; height=\&quot;390\&quot;&gt;&lt;param name=\&quot;movie\&quot; value=\&quot;http://youtube.com/v/YM4F6sSAu9k?version=3&amp;amp;hl=en_US\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowFullScreen\&quot; value=\&quot;true\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowscriptaccess\&quot; value=\&quot;always\&quot;&gt;&lt;/param&gt;&lt;embed src=\&quot;http://youtube.com/v/YM4F6sSAu9k?version=3&amp;amp;hl=en_US\&quot; type=\&quot;application/x-shockwave-flash\&quot; width=\&quot;640\&quot; height=\&quot;390\&quot; allowscriptaccess=\&quot;always\&quot; allowfullscreen=\&quot;true\&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://i.ytimg.com/vi/YM4F6sSAu9k/hqdefault.jpg" rel="nofollow">http://i.ytimg.com/vi/YM4F6sSAu9k/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: null, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="http://www.youtube.com/watch?v=YM4F6sSAu9k" rel="nofollow">http://www.youtube.com/watch?v=YM4F6sSAu9k</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;needs editing&quot;, 
+            &quot;recorded&quot;: &quot;2012-09-04&quot;, 
+            &quot;added&quot;: &quot;2012-10-08T17:39:50&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:27.001&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;DjangoCon 2012&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;designing-your-open-source-project&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Bryan Veloso&quot;
+            ], 
+            &quot;tags&quot;: [
+                &quot;django&quot;, 
+                &quot;opensource&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 1392, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Designing Your Open Source Project&quot;, 
+            &quot;summary&quot;: &quot;There is an ever present rift between designers and developers and it is one\nthat has existed since our paths started crossing. We&#39;ll talk about how to be\nmindful of design in your own open source project and how to attract designers\nto help your project become even more awesome.\n\n&quot;, 
+            &quot;description&quot;: &quot;There is an ever present rift between designers and developers and it is one\nthat has existed since our paths started crossing. While it has almost become\na requirement for designers to be able to grok the code they work with on a\ndaily basis, that has unfortunately had no effect on the willingness of\ndesigners to work on open source projects.\n\nFortunately, if your project is in need of a designer, there are ways that you\ncan make your project more appealing to our \u201cspecial breed\u201d of personality. In\nthis quick talk, we\u2019ll jump into the mind of your typical designer, show you\njust how many similarities we share and then apply that knowledge to make your\nproject easy and appealing for designers to jump into.\n\n&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;Creative Commons Attribution license (reuse allowed&quot;, 
+            &quot;embed&quot;: &quot;&lt;object width=\&quot;640\&quot; height=\&quot;390\&quot;&gt;&lt;param name=\&quot;movie\&quot; value=\&quot;http://youtube.com/v/bdqLtx3K36k?version=3&amp;amp;hl=en_US\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowFullScreen\&quot; value=\&quot;true\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowscriptaccess\&quot; value=\&quot;always\&quot;&gt;&lt;/param&gt;&lt;embed src=\&quot;http://youtube.com/v/bdqLtx3K36k?version=3&amp;amp;hl=en_US\&quot; type=\&quot;application/x-shockwave-flash\&quot; width=\&quot;640\&quot; height=\&quot;390\&quot; allowscriptaccess=\&quot;always\&quot; allowfullscreen=\&quot;true\&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://i.ytimg.com/vi/bdqLtx3K36k/hqdefault.jpg" rel="nofollow">http://i.ytimg.com/vi/bdqLtx3K36k/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: null, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="http://www.youtube.com/watch?v=bdqLtx3K36k" rel="nofollow">http://www.youtube.com/watch?v=bdqLtx3K36k</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;needs editing&quot;, 
+            &quot;recorded&quot;: &quot;2012-09-04&quot;, 
+            &quot;added&quot;: &quot;2012-10-08T17:39:50&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:27.002&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;DjangoCon 2012&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;django-on-gevent&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Cody Soyland&quot;
+            ], 
+            &quot;tags&quot;: [
+                &quot;django&quot;, 
+                &quot;gevent&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 1393, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Django on Gevent&quot;, 
+            &quot;summary&quot;: &quot;This is an introduction to using the Gevent networking library to empower your\nDjango application with realtime features and resource-efficient cooperative\nconcurrency. Django&#39;s synchronous APIs make it impractical to use in a\ncallback-based networking library, but fast single-threaded concurrency is\nstill possible using the mind-blowing capabilities of coroutines.\n\n&quot;, 
+            &quot;description&quot;: &quot;Gevent is an ultra-fast networking library built on top of the greenlet\nmodule. Greenlets are the ideal solution to making Django&#39;s synchronous API\ncalls possible in a cooperative concurrency environment.\n\nI&#39;ll begin with an overview of the models of network programming, including\nthreading, callbacks, and coroutines. I&#39;ll explain how greenlets (coroutines)\nwork in harmony to provide simple blocking network APIs while not blocking\nexecution of the entire thread. I&#39;ll show how easy it is to integrate other\nnetwork services into your app.\n\nAs an exploration into using realtime features in Django, I&#39;ll demonstrate a\nsimple realtime collaboration app that uses websockets for communication. I\nwill show how to integrate ZeroMQ to allow the app to scale beyond a single\nserver. I will also show how to attach to and monitor your web app using\ngevent.backdoor.\n\n&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;Creative Commons Attribution license (reuse allowed&quot;, 
+            &quot;embed&quot;: &quot;&lt;object width=\&quot;640\&quot; height=\&quot;390\&quot;&gt;&lt;param name=\&quot;movie\&quot; value=\&quot;http://youtube.com/v/nocGRsytBkk?version=3&amp;amp;hl=en_US\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowFullScreen\&quot; value=\&quot;true\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowscriptaccess\&quot; value=\&quot;always\&quot;&gt;&lt;/param&gt;&lt;embed src=\&quot;http://youtube.com/v/nocGRsytBkk?version=3&amp;amp;hl=en_US\&quot; type=\&quot;application/x-shockwave-flash\&quot; width=\&quot;640\&quot; height=\&quot;390\&quot; allowscriptaccess=\&quot;always\&quot; allowfullscreen=\&quot;true\&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://i.ytimg.com/vi/nocGRsytBkk/hqdefault.jpg" rel="nofollow">http://i.ytimg.com/vi/nocGRsytBkk/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: null, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="http://www.youtube.com/watch?v=nocGRsytBkk" rel="nofollow">http://www.youtube.com/watch?v=nocGRsytBkk</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;needs editing&quot;, 
+            &quot;recorded&quot;: &quot;2012-09-04&quot;, 
+            &quot;added&quot;: &quot;2012-10-08T17:39:50&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:27.004&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;DjangoCon 2012&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;how-we-found-our-security-best-practices-and-wha&quot;, 
+            &quot;speakers&quot;: [
+                &quot;James Socol&quot;
+            ], 
+            &quot;tags&quot;: [
+                &quot;django&quot;, 
+                &quot;security&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 1394, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;How we found our security best practices (and what they are)&quot;, 
+            &quot;summary&quot;: &quot;Mozilla takes data security very seriously. We have AppSec, OpSec, and\nInfraSec teams, and our web developers have baked our security best practices\ninto documentation and a Django app called Funfactory. Hear how we came to\nthose best practices, what they are, and how to follow them.\n\n&quot;, 
+            &quot;description&quot;: &quot;Privacy and security are key parts of Mozilla&#39;s mission, and we build some of\nthe largest Django applications on the web, so being at the absolutely\nforefront of security is crucial to us. And having a great user experience is,\ntoo. So over the past few years, we&#39;ve developed a number of proposals, tools\n--like Bleach and django-ratelimit--and best practices, and we&#39;ve wrapped\nthese up into our application template Playdoh and an app called Funfactory.\n\nI&#39;ll share those best practices and their motivations. We&#39;ll also go over a\nnumber of tools, settings, and even some fairly new web standard proposals\n(with tools, of course) to help you build the most secure Django applications\nyou can, at whatever scale you&#39;re building.\n\n&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;Creative Commons Attribution license (reuse allowed&quot;, 
+            &quot;embed&quot;: &quot;&lt;object width=\&quot;640\&quot; height=\&quot;390\&quot;&gt;&lt;param name=\&quot;movie\&quot; value=\&quot;http://youtube.com/v/Wb83VL3k3zo?version=3&amp;amp;hl=en_US\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowFullScreen\&quot; value=\&quot;true\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowscriptaccess\&quot; value=\&quot;always\&quot;&gt;&lt;/param&gt;&lt;embed src=\&quot;http://youtube.com/v/Wb83VL3k3zo?version=3&amp;amp;hl=en_US\&quot; type=\&quot;application/x-shockwave-flash\&quot; width=\&quot;640\&quot; height=\&quot;390\&quot; allowscriptaccess=\&quot;always\&quot; allowfullscreen=\&quot;true\&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://i.ytimg.com/vi/Wb83VL3k3zo/hqdefault.jpg" rel="nofollow">http://i.ytimg.com/vi/Wb83VL3k3zo/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: null, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="http://www.youtube.com/watch?v=Wb83VL3k3zo" rel="nofollow">http://www.youtube.com/watch?v=Wb83VL3k3zo</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;needs editing&quot;, 
+            &quot;recorded&quot;: &quot;2012-09-04&quot;, 
+            &quot;added&quot;: &quot;2012-10-08T17:39:50&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:27.005&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;DjangoCon 2012&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;maintaining-your-sanity-while-maintaining-your-op&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Mark Lavin&quot;
+            ], 
+            &quot;tags&quot;: [
+                &quot;django&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 1403, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Maintaining Your Sanity While Maintaining Your Open Source App&quot;, 
+            &quot;summary&quot;: &quot;Django has a thriving community of open source pluggable applications.\nMaintaining an external application can be a rewarding experience and doesn&#39;t\nneed to take over your life. Learn what it takes to package, document and test\nyour Django app so that others can use and contribute to what you&#39;ve built.\n\n&quot;, 
+            &quot;description&quot;: &quot;## Introduction/Overview\n\nSo you want to release your Django app into the wild. Now what? I&#39;ll go over\npackaging your application to add to the Python Package Index (PyPi), creating\ndocumentation to host on Read The Docs and setup an environment to test your\napplication against different versions of Python and Django. I&#39;ll also go over\nsome things you should and shouldn&#39;t do when maintaining your app over the\nyears.\n\n## Packaging\n\n  * Creating a setup.py\n  * Registering your package\n  * Uploading your package\n  * Sane versioning with PEP386\n\n## Documentation\n\n  * Getting started with Sphinx\n  * Using Read the Docs\n\n## Testing\n\n  * Running your app tests\n  * Testing multiple Python/Django versions with tox\n  * Testing your documentation build\n\n## Things to Do\n\n  * State your goals\n  * Let others help you\n  * Include a license\n  * Prepare for the future\n\n## Things to Avoid\n\n  * Rejecting every contribution\n  * Accepting every contribution\n  * Developer burnout\n\n## Conclusion\n\nReusable applications are my favorite feature of Django. It does take work to\nmaintain an open source app but it can be quite rewarding. If you use these\ntools you can help provide your users with the best experience and empower\nthem to help you with your application.\n\n&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;Creative Commons Attribution license (reuse allowed&quot;, 
+            &quot;embed&quot;: &quot;&lt;object width=\&quot;640\&quot; height=\&quot;390\&quot;&gt;&lt;param name=\&quot;movie\&quot; value=\&quot;http://youtube.com/v/xgWFTrXn0_U?version=3&amp;amp;hl=en_US\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowFullScreen\&quot; value=\&quot;true\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowscriptaccess\&quot; value=\&quot;always\&quot;&gt;&lt;/param&gt;&lt;embed src=\&quot;http://youtube.com/v/xgWFTrXn0_U?version=3&amp;amp;hl=en_US\&quot; type=\&quot;application/x-shockwave-flash\&quot; width=\&quot;640\&quot; height=\&quot;390\&quot; allowscriptaccess=\&quot;always\&quot; allowfullscreen=\&quot;true\&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://i.ytimg.com/vi/xgWFTrXn0_U/hqdefault.jpg" rel="nofollow">http://i.ytimg.com/vi/xgWFTrXn0_U/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: null, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="http://www.youtube.com/watch?v=xgWFTrXn0_U" rel="nofollow">http://www.youtube.com/watch?v=xgWFTrXn0_U</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;needs editing&quot;, 
+            &quot;recorded&quot;: &quot;2012-09-04&quot;, 
+            &quot;added&quot;: &quot;2012-10-08T17:39:52&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:27.006&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;DjangoCon 2012&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;openblock-overview-initial-experience&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Colin Copeland&quot;, 
+                &quot;Karen Tracey&quot;
+            ], 
+            &quot;tags&quot;: [
+                &quot;django&quot;, 
+                &quot;openblock&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 1401, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;OpenBlock: Overview &amp; Initial Experience&quot;, 
+            &quot;summary&quot;: &quot;OpenBlock is an open-source project aiming to provide a framework for \&quot;hyper-\nlocal\&quot; civic data. We&#39;ve been using OpenBlock in a project focused on\nincreasing access to public records in rural North Carolina communities. In\nthis talk we provide an overview of OpenBlock and how to get started using it,\nwe describe our experience using it, and discuss some extensions we have made\nto it.\n\n&quot;, 
+            &quot;description&quot;: &quot;# Abstract\n\nWhat do you do if EveryBlock isn&#39;t available in your city? OpenBlock, released\nto the community from the Knight-funded project, <a href="http://EveryBlock.com" rel="nofollow">EveryBlock.com</a>, is a\nneighborhood news project aiming to provide a framework for \&quot;hyper-local\&quot;\ncivic data. Over the past few years, the open source project has been\nmaintained by the non-profit OpenPlans. Their goal was to simplify and\naccelerate adoption of OpenBlock by making it easier to use. Today, Caktus is\nworking with Ryan Thornburg of the UNC School of Journalism and Mass\nCommunication to bring OpenBlock to rural North Carolina newspapers. Open\nRural aims to leverage OpenBlock to increase access to public records in small\ncommunities. This talk focuses on our experience with OpenBlock as we work to\ndeploy OpenRural in North Carolina.\n\n# Outline\n\n## Introduction\n\n  * What is OpenBlock?\n  * How does it relate to/compare to EveryBock?\n  * When/why might you want to incorporate OpenBlock into a site?\n  * What have we (Caktus) be doing with OpenBlock?\n\n## Geocoding\n\n  * Geocoding is a hard problem to solve\n  * String parsing\n  * Places and locations\n  * Street/block data\n  * 3rd-party geocoder comparison\n\n## Getting Started: Choosing Source for Street/Block Data\n\n  * Pros and Cons of Census (Tiger) Data\n  * Pros and Cons of Other Data Sources\n  * Differences with county data and OpenBlocks preference for cities\n  * Our Experience with Columbus County, NC\n\n## Scrapers\n\n  * What are they?\n  * How do you write them?\n  * Our Experience with Some Scrapers for Columbus County, NC\n  * How we improve data accessibility with ScraperWiki\n\n## The Missing Piece: Data Review and Analysis\n\n  * OpenBlock handles scraping and public viewing, but is missing review and analysis\n  * How successful was the geocoder?\n  * How many news items were added this past week?\n  * Why is my scraper failing to run?\n  * Why did this address fail to geocode? How can I correct it?\n  * Data Dashboard\n\n## Adding OpenBlock to an Existing Site\n\n  * Out-of-the-box views/templates\n  * Our experience integrating with local online newspapers\n  * Our OpenRural deployment setup\n\n## Conclusion\n\n  * State of the OpenBlock community\n  * Our plans in North Carolina\n\n&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;Creative Commons Attribution license (reuse allowed&quot;, 
+            &quot;embed&quot;: &quot;&lt;object width=\&quot;640\&quot; height=\&quot;390\&quot;&gt;&lt;param name=\&quot;movie\&quot; value=\&quot;http://youtube.com/v/nwr_G6Nln3s?version=3&amp;amp;hl=en_US\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowFullScreen\&quot; value=\&quot;true\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowscriptaccess\&quot; value=\&quot;always\&quot;&gt;&lt;/param&gt;&lt;embed src=\&quot;http://youtube.com/v/nwr_G6Nln3s?version=3&amp;amp;hl=en_US\&quot; type=\&quot;application/x-shockwave-flash\&quot; width=\&quot;640\&quot; height=\&quot;390\&quot; allowscriptaccess=\&quot;always\&quot; allowfullscreen=\&quot;true\&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://i.ytimg.com/vi/nwr_G6Nln3s/hqdefault.jpg" rel="nofollow">http://i.ytimg.com/vi/nwr_G6Nln3s/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: null, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="http://www.youtube.com/watch?v=nwr_G6Nln3s" rel="nofollow">http://www.youtube.com/watch?v=nwr_G6Nln3s</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;needs editing&quot;, 
+            &quot;recorded&quot;: &quot;2012-09-04&quot;, 
+            &quot;added&quot;: &quot;2012-10-08T17:39:51&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:27.008&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;DjangoCon 2012&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;postgresql-when-its-not-your-job&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Christophe Pettus&quot;
+            ], 
+            &quot;tags&quot;: [
+                &quot;django&quot;, 
+                &quot;postgresql&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 1399, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;PostgreSQL when it&#39;s not your job&quot;, 
+            &quot;summary&quot;: &quot;In this DevOps world, Django developers are increasingly being asked to manage\nthe database as well. In 40 brisk minutes, we will talk about (nearly)\neverything you need to know to bring up, tune, and keep a PostgreSQL database\nhealth. We&#39;ll go over installation, basic tuning, backups, disaster recovery,\nand helpful tools and techniques.\n\n&quot;, 
+            &quot;description&quot;: &quot;It&#39;s a very rare startup these days that has a full-time DBA on staff; mostly,\nthe developers are pressed into service to handle the database as well. In\nthis talk, we&#39;ll present the survival skills required to manage your\nPostgreSQL database while trying to push the product out the door.\n\nWe&#39;ll cover:\n\n  * Installation.\n  * Basic tuning (it&#39;s easier than you think).\n  * Performance, including things you must not do.\n  * Backups and disaster recovery.\n  * Helpful tools, tips and tricks.\n\nDjango experience is helpful, but no PostgreSQL experience required.\n\n&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;Creative Commons Attribution license (reuse allowed&quot;, 
+            &quot;embed&quot;: &quot;&lt;object width=\&quot;640\&quot; height=\&quot;390\&quot;&gt;&lt;param name=\&quot;movie\&quot; value=\&quot;http://youtube.com/v/3yhfW1BDOSQ?version=3&amp;amp;hl=en_US\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowFullScreen\&quot; value=\&quot;true\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowscriptaccess\&quot; value=\&quot;always\&quot;&gt;&lt;/param&gt;&lt;embed src=\&quot;http://youtube.com/v/3yhfW1BDOSQ?version=3&amp;amp;hl=en_US\&quot; type=\&quot;application/x-shockwave-flash\&quot; width=\&quot;640\&quot; height=\&quot;390\&quot; allowscriptaccess=\&quot;always\&quot; allowfullscreen=\&quot;true\&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://i.ytimg.com/vi/3yhfW1BDOSQ/hqdefault.jpg" rel="nofollow">http://i.ytimg.com/vi/3yhfW1BDOSQ/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: null, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="http://www.youtube.com/watch?v=3yhfW1BDOSQ" rel="nofollow">http://www.youtube.com/watch?v=3yhfW1BDOSQ</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;needs editing&quot;, 
+            &quot;recorded&quot;: &quot;2012-09-04&quot;, 
+            &quot;added&quot;: &quot;2012-10-08T17:39:51&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:27.009&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;DjangoCon 2012&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;take-two-if-i-got-to-do-it-all-over-again&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Alex Gaynor&quot;
+            ], 
+            &quot;tags&quot;: [
+                &quot;django&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 1396, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Take Two: If I got to do it all over again&quot;, 
+            &quot;summary&quot;: &quot;Django has always had a strong commitment to backwards compatibility, and is\nused by thousands of developers every day. This means that it&#39;s very difficult\nto make large sweeping changes to Django. This talk is a look at how I&#39;d\nredesign different components of Django, if I got to do it all over again.\n\n&quot;, 
+            &quot;description&quot;: &quot;This talk has two parts.\n\nFirst, identifying the principles we&#39;re trying to adhere to, and the problems\nwe&#39;re trying to solve by re-imagining every single API.\n\nSecond, looking at specific changes to individual APIs.\n\n&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;Creative Commons Attribution license (reuse allowed&quot;, 
+            &quot;embed&quot;: &quot;&lt;object width=\&quot;640\&quot; height=\&quot;390\&quot;&gt;&lt;param name=\&quot;movie\&quot; value=\&quot;http://youtube.com/v/0FD510Oz2e4?version=3&amp;amp;hl=en_US\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowFullScreen\&quot; value=\&quot;true\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowscriptaccess\&quot; value=\&quot;always\&quot;&gt;&lt;/param&gt;&lt;embed src=\&quot;http://youtube.com/v/0FD510Oz2e4?version=3&amp;amp;hl=en_US\&quot; type=\&quot;application/x-shockwave-flash\&quot; width=\&quot;640\&quot; height=\&quot;390\&quot; allowscriptaccess=\&quot;always\&quot; allowfullscreen=\&quot;true\&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://i.ytimg.com/vi/0FD510Oz2e4/hqdefault.jpg" rel="nofollow">http://i.ytimg.com/vi/0FD510Oz2e4/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: null, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="http://www.youtube.com/watch?v=0FD510Oz2e4" rel="nofollow">http://www.youtube.com/watch?v=0FD510Oz2e4</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;needs editing&quot;, 
+            &quot;recorded&quot;: &quot;2012-09-04&quot;, 
+            &quot;added&quot;: &quot;2012-10-08T17:39:50&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:27.010&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;DjangoCon 2012&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;views-can-be-classy&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Kenneth Love&quot;
+            ], 
+            &quot;tags&quot;: [
+                &quot;class-based-views&quot;, 
+                &quot;django&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 1397, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Views can be Classy!&quot;, 
+            &quot;summary&quot;: &quot;An overview of what class-based views (CBVs) are, which ones are available,\nand how to use them in your projects. I&#39;ll also cover creating mixins, where\nfunction-based views still make sense, and how to test CBVs. As part of this,\nI&#39;ll be covering my django-braces (<a href="https://crate.io/packages/django-braces/)%5Cnpackage.%5Cn%5Cn" rel="nofollow">https://crate.io/packages/django-braces/)\npackage.\n\n</a>&quot;, 
+            &quot;description&quot;: &quot;It seems like most people in the Django community either don&#39;t have any idea\nhow class-based views work or are scared to try them out. I want to help with\na solid introduction to the technology.\n\n  * The usual \&quot;who I am\&quot; bit.\n  * Most other things in Django are classes.\n  *     * models\n  *     * forms\n  *     * even templates\n  * Views should be classes, too.\n  * What view classes are provided by Django.\n  * How to create your own mixins to clean up pain points\n  * Where function-based views are still handy.\n  * Example CBVs for common use cases\n  *     * handling form input for more than one form\n  *     * serving different content based on users\n\n&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;Creative Commons Attribution license (reuse allowed&quot;, 
+            &quot;embed&quot;: &quot;&lt;object width=\&quot;640\&quot; height=\&quot;390\&quot;&gt;&lt;param name=\&quot;movie\&quot; value=\&quot;http://youtube.com/v/yr9HOLipPXc?version=3&amp;amp;hl=en_US\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowFullScreen\&quot; value=\&quot;true\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowscriptaccess\&quot; value=\&quot;always\&quot;&gt;&lt;/param&gt;&lt;embed src=\&quot;http://youtube.com/v/yr9HOLipPXc?version=3&amp;amp;hl=en_US\&quot; type=\&quot;application/x-shockwave-flash\&quot; width=\&quot;640\&quot; height=\&quot;390\&quot; allowscriptaccess=\&quot;always\&quot; allowfullscreen=\&quot;true\&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://i.ytimg.com/vi/yr9HOLipPXc/hqdefault.jpg" rel="nofollow">http://i.ytimg.com/vi/yr9HOLipPXc/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: null, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="http://www.youtube.com/watch?v=yr9HOLipPXc" rel="nofollow">http://www.youtube.com/watch?v=yr9HOLipPXc</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;needs editing&quot;, 
+            &quot;recorded&quot;: &quot;2012-09-04&quot;, 
+            &quot;added&quot;: &quot;2012-10-08T17:39:50&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:27.012&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyCon AU 2012&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;lightning-talks-sunday-and-conference-close-0&quot;, 
+            &quot;speakers&quot;: [], 
+            &quot;tags&quot;: [
+                &quot;education&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 1619, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Lightning Talks Sunday and Conference Close&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;<a href="http://www.youtube.com/t/terms" rel="nofollow">http://www.youtube.com/t/terms</a>&quot;, 
+            &quot;embed&quot;: &quot;&lt;object width=\&quot;640\&quot; height=\&quot;390\&quot;&gt;&lt;param name=\&quot;movie\&quot; value=\&quot;http://youtube.com/v/CNobTNnJeFE?version=3&amp;amp;hl=en_US\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowFullScreen\&quot; value=\&quot;true\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowscriptaccess\&quot; value=\&quot;always\&quot;&gt;&lt;/param&gt;&lt;embed src=\&quot;http://youtube.com/v/CNobTNnJeFE?version=3&amp;amp;hl=en_US\&quot; type=\&quot;application/x-shockwave-flash\&quot; width=\&quot;640\&quot; height=\&quot;390\&quot; allowscriptaccess=\&quot;always\&quot; allowfullscreen=\&quot;true\&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://i.ytimg.com/vi/CNobTNnJeFE/hqdefault.jpg" rel="nofollow">http://i.ytimg.com/vi/CNobTNnJeFE/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: &quot;&quot;, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: &quot;&quot;, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: &quot;&quot;, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: &quot;&quot;, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="http://www.youtube.com/watch?v=CNobTNnJeFE" rel="nofollow">http://www.youtube.com/watch?v=CNobTNnJeFE</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;needs editing&quot;, 
+            &quot;recorded&quot;: &quot;2012-08-23&quot;, 
+            &quot;added&quot;: &quot;2013-01-15T14:29:46&quot;, 
+            &quot;updated&quot;: &quot;2014-07-25T10:38:19.438&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyCon AU 2012&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;big-data-with-python&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Alex Sharp&quot;
+            ], 
+            &quot;tags&quot;: [
+                &quot;bigdata&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 1621, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Big data with python&quot;, 
+            &quot;summary&quot;: &quot;Dealing with big data isn&#39;t a particularly new problem. There are all sorts of\nnew solutions, each with their own niche, their own hype. It&#39;s important to\nremember that python is not \&quot;too slow\&quot; for big data, and that with projects\nsuch as\n\n&quot;, 
+            &quot;description&quot;: &quot;Dealing with big data isn&#39;t a particularly new problem. There are all sorts of\nnew solutions, each with their own niche, their own hype. It&#39;s important to\nremember that python is not \&quot;too slow\&quot; for big data, and that with projects\nsuch as scipy, numpy, cython and rpy, python is becoming a better tool then\never for data processing. In this talk we&#39;ll be explaining some of the theory\nbehind big data problems, where python fits in and some of the more\ninteresting things you can do.\n\n&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;<a href="http://www.youtube.com/t/terms" rel="nofollow">http://www.youtube.com/t/terms</a>&quot;, 
+            &quot;embed&quot;: &quot;&lt;object width=\&quot;640\&quot; height=\&quot;390\&quot;&gt;&lt;param name=\&quot;movie\&quot; value=\&quot;http://youtube.com/v/sN3pRNh-_6Y?version=3&amp;amp;hl=en_US\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowFullScreen\&quot; value=\&quot;true\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowscriptaccess\&quot; value=\&quot;always\&quot;&gt;&lt;/param&gt;&lt;embed src=\&quot;http://youtube.com/v/sN3pRNh-_6Y?version=3&amp;amp;hl=en_US\&quot; type=\&quot;application/x-shockwave-flash\&quot; width=\&quot;640\&quot; height=\&quot;390\&quot; allowscriptaccess=\&quot;always\&quot; allowfullscreen=\&quot;true\&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://i.ytimg.com/vi/sN3pRNh-_6Y/hqdefault.jpg" rel="nofollow">http://i.ytimg.com/vi/sN3pRNh-_6Y/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: null, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="http://www.youtube.com/watch?v=sN3pRNh-_6Y" rel="nofollow">http://www.youtube.com/watch?v=sN3pRNh-_6Y</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2012-08-22&quot;, 
+            &quot;added&quot;: &quot;2013-01-15T14:29:47&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:27.014&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyCon AU 2012&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;building-a-cloud-service-with-python&quot;, 
+            &quot;speakers&quot;: [
+                &quot;John Barham&quot;
+            ], 
+            &quot;tags&quot;: [], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 1639, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Building a Cloud Service with Python&quot;, 
+            &quot;summary&quot;: &quot;Presentation will go in-depth on the architecture of a web application service\nbuilt on Amazon Web Services (AWS) cloud infrastructure, including: -\ndeveloping a responsive, high-performance web application in Django -\nimplementing\n\n&quot;, 
+            &quot;description&quot;: &quot;Presentation will go in-depth on the architecture of a web application service\nbuilt on Amazon Web Services (AWS) cloud infrastructure, including:\n\n  * developing a responsive, high-performance web application in Django\n  * implementing a REST API for automating the web application\n  * using Python&#39;s networking capabilities to monitor and aggregate log files from multiple remote servers in real time\n  * automating deployment in Python using fabric\n  * interacting with AWS using the boto library\n\nFrom a business point of view I will also talk about the opportunities that\nmodern cloud computing platforms present to developers and how to best exploit\nthem.\n\n&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;<a href="http://www.youtube.com/t/terms" rel="nofollow">http://www.youtube.com/t/terms</a>&quot;, 
+            &quot;embed&quot;: &quot;&lt;object width=\&quot;640\&quot; height=\&quot;390\&quot;&gt;&lt;param name=\&quot;movie\&quot; value=\&quot;http://youtube.com/v/R4feORh5MrU?version=3&amp;amp;hl=en_US\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowFullScreen\&quot; value=\&quot;true\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowscriptaccess\&quot; value=\&quot;always\&quot;&gt;&lt;/param&gt;&lt;embed src=\&quot;http://youtube.com/v/R4feORh5MrU?version=3&amp;amp;hl=en_US\&quot; type=\&quot;application/x-shockwave-flash\&quot; width=\&quot;640\&quot; height=\&quot;390\&quot; allowscriptaccess=\&quot;always\&quot; allowfullscreen=\&quot;true\&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://i.ytimg.com/vi/R4feORh5MrU/hqdefault.jpg" rel="nofollow">http://i.ytimg.com/vi/R4feORh5MrU/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: null, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="http://www.youtube.com/watch?v=R4feORh5MrU" rel="nofollow">http://www.youtube.com/watch?v=R4feORh5MrU</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2012-08-22&quot;, 
+            &quot;added&quot;: &quot;2013-01-15T14:29:52&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:27.015&quot;
+        }
+    ]
+}</pre>
+            </div>
+        </div>
+
+            
+
+                
+
+                
+            
+
+        </div>
+        <!-- END content-main -->
+
+    </div>
+    <!-- END Content -->
+
+        <div id="push"></div>
+
+    </div>
+
+    </div><!-- ./wrapper -->
+
+    
+    
+
+    
+    <script src="/static/rest_framework/js/jquery-1.8.1-min.js"></script>
+    <script src="/static/rest_framework/js/bootstrap.min.js"></script>
+    <script src="/static/rest_framework/js/prettify-min.js"></script>
+    <script src="/static/rest_framework/js/default.js"></script>
+    
+  </body>
+
+<!-- Mirrored from pyvideo.org/api/v2/video/?page=126 by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 07 Jan 2016 03:52:28 GMT -->
+</html>

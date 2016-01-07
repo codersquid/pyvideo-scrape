@@ -1,0 +1,1042 @@
+
+
+<!DOCTYPE html>
+<html>
+    
+<!-- Mirrored from pyvideo.org/api/v2/video/?page=163 by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 07 Jan 2016 03:54:22 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+    
+
+        
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+        <meta name="robots" content="NONE,NOARCHIVE" />
+        
+
+        <title>Django REST framework</title>
+
+        
+        
+            <link rel="stylesheet" type="text/css" href="/static/rest_framework/css/bootstrap.min.css"/>
+            <link rel="stylesheet" type="text/css" href="/static/rest_framework/css/bootstrap-tweaks.css"/>
+        
+        <link rel="stylesheet" type="text/css" href="/static/rest_framework/css/prettify.css"/>
+        <link rel="stylesheet" type="text/css" href="/static/rest_framework/css/default.css"/>
+        
+
+    
+    </head>
+
+  <body class=" container">
+
+    <div class="wrapper">
+
+    
+    <div class="navbar navbar-inverse">
+        <div class="navbar-inner">
+            <div class="container-fluid">
+                <span href="/">
+                    <a class='brand' rel="nofollow" href='http://www.django-rest-framework.org'>Django REST framework <span class="version">2.3.14</span></a>
+                </span>
+                <ul class="nav pull-right">
+                    
+                        
+                            <li></li>
+                        
+                    
+                </ul>
+            </div>
+        </div>
+    </div>
+    
+
+    
+    <ul class="breadcrumb">
+        
+            <li>
+                <a href="/api/v2/video/" class="active">Video List Create Api</a> 
+            </li>
+        
+    </ul>
+    
+
+    <!-- Content -->
+    <div id="content">
+
+        
+            <form id="get-form" class="pull-right">
+                <fieldset>
+                    <div class="btn-group format-selection">
+                        <a class="btn btn-primary js-tooltip" href='/api/v2/video/?page=163' rel="nofollow" title="Make a GET request on the Video List Create Api resource">GET</a>
+
+                        <button class="btn btn-primary dropdown-toggle js-tooltip" data-toggle="dropdown" title="Specify a format for the GET request">
+                            <span class="caret"></span>
+                        </button>
+                        <ul class="dropdown-menu">
+                            
+                                <li>
+                                    <a class="js-tooltip format-option" href='/api/v2/video/?page=163&format=json' rel="nofollow" title="Make a GET request on the Video List Create Api resource with the format set to `json`">json</a>
+                                </li>
+                            
+                                <li>
+                                    <a class="js-tooltip format-option" href='/api/v2/video/?page=163&format=api' rel="nofollow" title="Make a GET request on the Video List Create Api resource with the format set to `api`">api</a>
+                                </li>
+                            
+                        </ul>
+                    </div>
+
+                </fieldset>
+            </form>
+        
+
+        
+            <form class="button-form" action="/api/v2/video/?page=163" method="POST" class="pull-right">
+                <input type='hidden' name='csrfmiddlewaretoken' value='pT8iI6zhtQdsGFmu4tryYgFrUlipl2B3' />
+                <input type="hidden" name="_method" value="OPTIONS" />
+                <button class="btn btn-primary js-tooltip" title="Make an OPTIONS request on the Video List Create Api resource">OPTIONS</button>
+            </form>
+        
+
+        
+
+        <div class="content-main">
+            <div class="page-header"><h1>Video List Create Api</h1></div>
+            
+            
+            
+            <div class="request-info" style="clear: both" >
+                <pre class="prettyprint"><b>GET</b> /api/v2/video/?page=163</pre>
+            </div>
+            <div class="response-info">
+                <pre class="prettyprint"><div class="meta nocode"><b>HTTP 200 OK</b>
+<b>Content-Type:</b> <span class="lit">application/json</span>
+<b>Vary:</b> <span class="lit">Accept</span>
+<b>Allow:</b> <span class="lit">GET, POST, HEAD, OPTIONS</span>
+
+</div>{
+    &quot;count&quot;: 3439, 
+    &quot;next&quot;: &quot;<a href="http://pyvideo.org/api/v2/video/?page=164" rel="nofollow">http://pyvideo.org/api/v2/video/?page=164</a>&quot;, 
+    &quot;previous&quot;: &quot;<a href="http://pyvideo.org/api/v2/video/?page=162" rel="nofollow">http://pyvideo.org/api/v2/video/?page=162</a>&quot;, 
+    &quot;results&quot;: [
+        {
+            &quot;category&quot;: &quot;PyCon US 2011&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;python-3-the-next-generation-is-here-already&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Wesley J. Chun&quot;
+            ], 
+            &quot;tags&quot;: [
+                &quot;2to3&quot;, 
+                &quot;pycon&quot;, 
+                &quot;pycon2011&quot;, 
+                &quot;python2&quot;, 
+                &quot;python3&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 375, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Python 3: the next generation is here already&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;Python 3: the next generation is here already\n\nPresented by wesley chun\n\nThis talk is about the evolution of Python. We will discuss Python 2 and\nPython 3: what the compatibility issues are, what the main differences are,\nand also talk about migration, Python 2.6/2.7, and other transition tools.\n\nAbstract\n\nPython is currently at a crossroads: Python 2 has taken it from a quiet word-\nof-mouth language to primetime, with many companies around the world using it\nand an ever-increasing global marketshare of the programming world. But now\ncomes Python 3, the first version of the language that is not backwards\ncompatible with previous releases.\n\nWhat does this mean? Are all my Python programs going to break? Will I have to\nrewrite everything? How much time do I have? When is Python 2 going to be\nEOL&#39;d? Is the language undergoing a complete rewrite and will I even recognize\nit? What are the changes between Python 2 and 3 anyway? Also, the next\ngeneration is already here, as Python 3 is over two years old now. What has\nbeen ported so far, and what is its current status? Are migration plans or\ntransition tools available? If I want to start learning Python, should I do\nPython 2 or Python 3? Are all Python 2 books obsolete?\n\nWe will attempt to answer all of these questions and more. Join us!\n\nOUTLINE/TOPICS\n\n  * Python 2 vs. Python 3 \n  * Introduction to Python 3 \n  * Backwards Compatibility \n  * Generational Changes \n  * Key Differences \n  * Role of Remaining Python 2.x releases \n  * Transition &amp; Migration Plans &amp; Tools \n  * Futures \n\n&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;Creative Commons Attribution-NonCommercial-ShareAlike 3.0&quot;, 
+            &quot;embed&quot;: &quot;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://a.images.blip.tv/Pycon-PyCon2011Python3TheNextGenerationIsHereAlready624.png" rel="nofollow">http://a.images.blip.tv/Pycon-PyCon2011Python3TheNextGenerationIsHereAlready624.png</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: 189645810, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: &quot;<a href="http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2011/375_python-3-the-next-generation-is-here-already.mp4" rel="nofollow">http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2011/375_python-3-the-next-generation-is-here-already.mp4</a>&quot;, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: &quot;&quot;, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2011-03-11&quot;, 
+            &quot;added&quot;: &quot;2012-02-23T04:20:00&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:28.013&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyCon US 2011&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;pycon-2011--python-and-robots--teaching-programmi&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Vern Ceder&quot;
+            ], 
+            &quot;tags&quot;: [
+                &quot;highschool&quot;, 
+                &quot;pycon&quot;, 
+                &quot;pycon2011&quot;, 
+                &quot;robots&quot;, 
+                &quot;teaching&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 413, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Python and Robots: Teaching Programming in High School&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;Python and Robots: Teaching Programming in High School\n\nPresented by Vern Ceder\n\nCombining Python with inexpensive robots is a very effective way of teaching\nprogramming at the middle and high school levels. Since Python is easy to\nunderstand a constructivist approach is possible - students learn by creating\nand running simple programs, observing the results, and then modifying their\ncode to fix bugs and add functionality.\n\nAbstract\n\nThe approach suggested in this talk is partly based upon that developed at the\nInstitute for Personal Robots in Education\n([http://wiki.roboteducation.org](http://wiki.roboteducation.org/)) by staff\nfrom Georgia Tech and Bryn Mawr, combined with my own experiences teaching\nprogramming with Python as described in my talk \&quot;Goodbye, Hello World:\nRethinking Teaching with Python\&quot;, PyCon 2007, and my subsequent talks at NECC.\n\nBecause students are able to see what their code is doing and because Python\nis easy to understand, students can explore simple programming concepts,\nlearning features as they need them. This approach increases both student\nengagement and retention. It also seems that this approach is more appealing\nto girls than a more traditional programming class.\n\nI&#39;ll illustrate my talk with samples of code created by students and video of\nthe students/robots in action.\n\nOutline\n\nIntroduction - school background, course structure, origin of approach\n\nHardware and computer setup used\n\nInitial exercises and first projects\n\n  * Control of robot \n  * Program as sequence of commands \n  * Basic programming concepts - looping, branching, functions \n\nAdvanced projects\n\n    * obstacle detection \n    * image processing \n    * simple AI approaches \n\nPitfalls and strategies for using robots\n\nQuestions and Suggestions\n\n&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;Creative Commons Attribution-NonCommercial-ShareAlike 3.0&quot;, 
+            &quot;embed&quot;: &quot;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://a.images.blip.tv/Pycon-PyCon2011PythonAndRobotsTeachingProgrammingInHighSchool378.png" rel="nofollow">http://a.images.blip.tv/Pycon-PyCon2011PythonAndRobotsTeachingProgrammingInHighSchool378.png</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: 258289243, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: &quot;<a href="http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2011/413_python-and-robots-teaching-programming-in-high-school.mp4" rel="nofollow">http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2011/413_python-and-robots-teaching-programming-in-high-school.mp4</a>&quot;, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2011-03-11&quot;, 
+            &quot;added&quot;: &quot;2012-02-23T04:20:00&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:28.014&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyCon US 2011&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;pycon-2011--python-aware-python&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Ned Batchelder&quot;
+            ], 
+            &quot;tags&quot;: [
+                &quot;analysis&quot;, 
+                &quot;compiling&quot;, 
+                &quot;introspection&quot;, 
+                &quot;parsing&quot;, 
+                &quot;pycon&quot;, 
+                &quot;pycon2011&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 447, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Python-Aware Python&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;Python-Aware Python\n\nPresented by Ned Batchelder\n\nPython provides many features for introspecting, analyzing, parsing,\ncompiling, and otherwise grokking Python code. This talk will cover a number\nof the techniques for writing Python-Aware Python, and will hopefully inspire\nyou to build the next great Python tool.\n\nAbstract\n\nPython provides many features for introspecting, analyzing, parsing,\ncompiling, and otherwise grokking Python code. These modules and techniques\nprovide the foundation for developer&#39;s tools such as autocompletion IDE&#39;s,\ncode analysis tools, test runners, profilers, and so on.\n\nI&#39;ll delve into a number of the common techniques used to write Python-Aware\nPython. Each has its area of applicability and its strengths and weaknesses.\nI&#39;ll demonstrate small samples that show how those techniques underlie the\ntools we all know and love.\n\nThe world of Python tools is ready for new exploration. This talk will give\nyou the foundation you need to write the next great Python-aware application.\n\n&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;Creative Commons Attribution-NonCommercial-ShareAlike 3.0&quot;, 
+            &quot;embed&quot;: &quot;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://a.images.blip.tv/Pycon-PyCon2011PythonAwarePython331.png" rel="nofollow">http://a.images.blip.tv/Pycon-PyCon2011PythonAwarePython331.png</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: 222244649, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: &quot;<a href="http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2011/447_python-aware-python.mp4" rel="nofollow">http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2011/447_python-aware-python.mp4</a>&quot;, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2011-03-11&quot;, 
+            &quot;added&quot;: &quot;2012-02-23T04:20:00&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:28.016&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyCon US 2011&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;pycon-2011--python-for-high-performance-computing&quot;, 
+            &quot;speakers&quot;: [
+                &quot;William Scullin&quot;
+            ], 
+            &quot;tags&quot;: [
+                &quot;gpu&quot;, 
+                &quot;highperformancecomputing&quot;, 
+                &quot;hpc&quot;, 
+                &quot;mpi&quot;, 
+                &quot;pycon&quot;, 
+                &quot;pycon2011&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 394, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Python for High Performance Computing&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;Python for High Performance Computing\n\nPresented by William Scullin\n\nPython is becoming increasingly popular within the high performance computing\ncommunity. While it initially gained traction as a scripting language,\nPython&#39;s role has continued to expand with Python applications for science\nscaling to hundreds of thousands of cores and bindings to high performance\nlibraries becoming commonplace. This talk is meant as an overview of Python&#39;s\nrole in the HPC space.\n\nAbstract\n\nThis talk is focused on raising awareness of Python in the high performance\ncomputing space. Specific topics include:\n\n  * building the Python interpreter for speed \n  * an overview of bindings to numerical libraries \n  * using GPUs and accelerators with Python \n  * scaling codes with MPI \n  * issues when scaling on very large systems \n  * an overview of successful science codes \n  * a live demonstration of Python running on 163,840 cores \n\n&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;Creative Commons Attribution-NonCommercial-ShareAlike 3.0&quot;, 
+            &quot;embed&quot;: &quot;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://a.images.blip.tv/Pycon-PyCon2011PythonForHighPerformanceComputing720.png" rel="nofollow">http://a.images.blip.tv/Pycon-PyCon2011PythonForHighPerformanceComputing720.png</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: 168164468, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: &quot;<a href="http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2011/394_python-for-high-performance-computing.mp4" rel="nofollow">http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2011/394_python-for-high-performance-computing.mp4</a>&quot;, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2011-03-11&quot;, 
+            &quot;added&quot;: &quot;2012-02-23T04:20:00&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:28.017&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyCon US 2011&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;pycon-2011--python-ides-panel&quot;, 
+            &quot;speakers&quot;: [], 
+            &quot;tags&quot;: [
+                &quot;emacs&quot;, 
+                &quot;ide&quot;, 
+                &quot;komodo&quot;, 
+                &quot;komodoide&quot;, 
+                &quot;pycharm&quot;, 
+                &quot;pycon&quot;, 
+                &quot;pycon2011&quot;, 
+                &quot;pythontoolsforvisualstudio&quot;, 
+                &quot;visualstudio&quot;, 
+                &quot;wingware&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 362, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Python IDEs Panel&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;Python IDEs Panel\n\nModerated by Michael Foord\n\n  * Dino Viehland - Python Tools for Visual Studio \n  * Dmitry Jemerov - PyCharm \n  * Todd Whiteman - ActiveState Komodo IDE \n  * Stephan Deibel - WingWare IDE \n  * Barry Warsaw - Emacs \n\nAs Python becomes more popular, more users are wanting IDEs that provide code\ncompletion, integrated source code control, project management, and other\ndeveloper tools. This panel includes representatives from a number of Python-\nspecific or Python-supporting IDE vendors, showing the ways that IDEs can\nspeed up development on any platform.\n\nAbstract\n\nFor many developers, IDEs are an essential tool-just as essential as source\ncode control. The growth of Python in recent years has led to a number of\nprojects and vendors developing Python-specific or Python-supporting IDEs.\nThis panel will allow attendees to compare and contrast the different IDEs\navailable.\n\n&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;Creative Commons Attribution-NonCommercial-ShareAlike 3.0&quot;, 
+            &quot;embed&quot;: &quot;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://a.images.blip.tv/Pycon-PyCon2011PythonIDEsPanel405.png" rel="nofollow">http://a.images.blip.tv/Pycon-PyCon2011PythonIDEsPanel405.png</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: 236749333, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: &quot;<a href="http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2011/362_python-ides-panel.mp4" rel="nofollow">http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2011/362_python-ides-panel.mp4</a>&quot;, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2011-03-11&quot;, 
+            &quot;added&quot;: &quot;2012-02-23T04:20:00&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:28.018&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyCon US 2011&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;pycon-2011--python-mirocommunity-org---universals&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Carl Karsten&quot;, 
+                &quot;Will Kahn-Greene&quot;
+            ], 
+            &quot;tags&quot;: [
+                &quot;mirocommunity&quot;, 
+                &quot;pmc&quot;, 
+                &quot;pycon&quot;, 
+                &quot;pycon2011&quot;, 
+                &quot;subtitles&quot;, 
+                &quot;unisub&quot;, 
+                &quot;universalsubtitles&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 356, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;<a href="http://Python.MiroCommunity.org" rel="nofollow">Python.MiroCommunity.org</a> + <a href="http://UniversalSubtitles.org" rel="nofollow">UniversalSubtitles.org</a>&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;Will and Carl talk about Python Miro Community, where it&#39;s at now, the PSF\ngrant, and what they&#39;re planning for it in the future.\n\n&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;Creative Commons Attribution-NonCommercial-ShareAlike 3.0&quot;, 
+            &quot;embed&quot;: &quot;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://s3.amazonaws.com/s3.mirocommunity.org/python/localtv/video_thumbs/4324/375x295.png" rel="nofollow">http://s3.amazonaws.com/s3.mirocommunity.org/python/localtv/video_thumbs/4324/375x295.png</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: 23694273, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: &quot;<a href="http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2011/356_python-mirocommunity-org-universalsubtitles-org.mp4" rel="nofollow">http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2011/356_python-mirocommunity-org-universalsubtitles-org.mp4</a>&quot;, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2011-03-11&quot;, 
+            &quot;added&quot;: &quot;2012-02-23T04:20:00&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:28.019&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyCon US 2011&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;pycon-2011--python-software-foundation-chairman-a&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Steve Holden&quot;
+            ], 
+            &quot;tags&quot;: [
+                &quot;future&quot;, 
+                &quot;psf&quot;, 
+                &quot;pycon&quot;, 
+                &quot;pycon2011&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 453, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Python Software Foundation Chairman Address&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;Python Software Foundation Chairman Address\n\nPresented by Steve Holden\n\nSteven Holden summarizes the last year for the Python Software Foundation and\ntalks about future directions.\n\n&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;Creative Commons Attribution-NonCommercial-ShareAlike 3.0&quot;, 
+            &quot;embed&quot;: &quot;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://a.images.blip.tv/Pycon-PyCon2011PythonSoftwareFoundationChairmanAddress279.png" rel="nofollow">http://a.images.blip.tv/Pycon-PyCon2011PythonSoftwareFoundationChairmanAddress279.png</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: 72214347, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: &quot;<a href="http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2011/453_python-software-foundation-chairman-address.mp4" rel="nofollow">http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2011/453_python-software-foundation-chairman-address.mp4</a>&quot;, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2011-03-11&quot;, 
+            &quot;added&quot;: &quot;2012-02-23T04:20:00&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:28.020&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyCon US 2011&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;pycon-2011--python---the-secret-sauce-in-the-open&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Jason Huggins&quot;
+            ], 
+            &quot;tags&quot;: [
+                &quot;kvm&quot;, 
+                &quot;libvirt&quot;, 
+                &quot;openstack&quot;, 
+                &quot;pycon&quot;, 
+                &quot;pycon2011&quot;, 
+                &quot;virtualbox&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 372, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Python - The Secret Sauce in the Open Cloud&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;Python - The Secret Sauce in the Open Cloud\n\nPresented by Jason Huggins\n\nThis talk will go into detail on current cloud computing technology,\nspecifically OpenStack and libvirt and how Python is the \&quot;secret sauce\&quot; that\npowers the open cloud. We&#39;ll show how to bring up your own cloud \&quot;from\nscratch\&quot;, and explain why you would do such a thing.\n\nAbstract\n\nCovered topics:\n\n  * How to use VirtualBox \n  * How to use kvm \n  * How to use libvirt with Python \n  * How to check out, build, and deploy OpenStack \n  * How to setup and maintain your own cloud \n  * Real world examples \n\n&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;Creative Commons Attribution-NonCommercial-ShareAlike 3.0&quot;, 
+            &quot;embed&quot;: &quot;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://a.images.blip.tv/Pycon-PyCon2011PythonTheSecretSauceInTheOpenCloud789.png" rel="nofollow">http://a.images.blip.tv/Pycon-PyCon2011PythonTheSecretSauceInTheOpenCloud789.png</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: 119189573, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: &quot;<a href="http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2011/372_python-the-secret-sauce-in-the-open-cloud.mp4" rel="nofollow">http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2011/372_python-the-secret-sauce-in-the-open-cloud.mp4</a>&quot;, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2011-03-11&quot;, 
+            &quot;added&quot;: &quot;2012-02-23T04:20:00&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:28.022&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyCon US 2011&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;pycon-2011--rapid-python-used-on-big-data-to-disc&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Deniz Kural&quot;
+            ], 
+            &quot;tags&quot;: [
+                &quot;bigdata&quot;, 
+                &quot;casestudy&quot;, 
+                &quot;dna&quot;, 
+                &quot;genomes&quot;, 
+                &quot;pycon&quot;, 
+                &quot;pycon2011&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 414, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Rapid Python used on Big Data to Discover Human Genetic Variation&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;Rapid Python used on Big Data to Discover Human Genetic Variation\n\nPresented by Deniz Kural\n\nAdvances in genome sequencing has enabled large-scale projects such as the\n1000 Genomes Project to sequence genomes across diverse populations around the\nworld, resulting in very large data sets. I use Python for rapid development\nof algorithms for processing &amp; analyzing genomes and discovering thousands of\nnew variants, including \&quot;Mobile Elements\&quot; that copy&amp;paste; themselves across\nthe genome.\n\nAbstract\n\nRecent advances in high-throughput sequencing now enables accurate sequencing\nhuman genomes at a low cost &amp; high speed. This technology is now used to\ninitiate projects involving large-scale sequencing of many genomes. The 1000\nGenomes project aims to sequence 2500 genomes across 27 world populations, and\nhas initially completed its Pilot phase. The aim of the project is to discover\n&amp; characterize novel variants. These variants enable association studies that\ninvestigate the link between genomic variation &amp; phenotypes, including\ndisease.\n\nA class of variants, known as \&quot;Structural Variants\&quot; represent a heterogenous\nclass of larger variants, such as inversions, duplications, deletions, and\nvarious kinds of insertions.\n\nI use Python to for rapid development of algorithms to process, analyze, and\nannotate very large data sets. In particular, I focus on Mobile Elements,\npieces of DNA that copy&amp;paste; across the genome. These elements constitute\nroughly half of the genome, whereas protein-coding genes account for roughly\n1.5 % of the genome.\n\nI will discuss distributed computing, genomics, and big data within the\ncontext of Python.\n\n&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;Creative Commons Attribution-NonCommercial-ShareAlike 3.0&quot;, 
+            &quot;embed&quot;: &quot;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://a.images.blip.tv/Pycon-PyCon2011RapidPythonUsedOnBigDataToDiscoverHumanGenet382.png" rel="nofollow">http://a.images.blip.tv/Pycon-PyCon2011RapidPythonUsedOnBigDataToDiscoverHumanGenet382.png</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: 110103548, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: &quot;<a href="http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2011/414_rapid-python-used-on-big-data-to-discover-human-genetic-variation.mp4" rel="nofollow">http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2011/414_rapid-python-used-on-big-data-to-discover-human-genetic-variation.mp4</a>&quot;, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2011-03-11&quot;, 
+            &quot;added&quot;: &quot;2012-02-23T04:20:00&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:28.023&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyCon US 2011&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;pycon-2011--reverse-engineering-ian-bicking--39-s&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Carl Meyer&quot;
+            ], 
+            &quot;tags&quot;: [
+                &quot;pip&quot;, 
+                &quot;pycon&quot;, 
+                &quot;pycon2011&quot;, 
+                &quot;virtualenv&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 389, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Reverse-engineering Ian Bicking&#39;s brain: inside pip and virtualenv&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;Reverse-engineering Ian Bicking&#39;s brain: inside pip and virtualenv\n\nPresented by Carl Meyer\n\nPip and virtualenv: many use them; not so many understand just how they work\ntheir magic. If you&#39;re a pip/virtualenv user but haven&#39;t yet dared crack the\nlid (or you have, and found it a bit difficult to follow), come along for a\nfast-paced guided tour. Knowing these tools will help you make more effective\nuse of them, and might also turn you into a contributor.\n\nAbstract\n\nPip and virtualenv are widely used in the Python world, but for the size of\ntheir user base don&#39;t receive many code contributions, and many users have\nmisconceptions about how they actually work.\n\nThis talk will cover a bit of advanced use of pip and virtualenv, but mostly\nwe&#39;ll dive into the source code, mapping it out with a high-level view and\ndiving into the guts of particularly interesting bits. By the end of the talk,\nyou&#39;ll have a good idea exactly how pip and virtualenv do their magic, and\nwhere to go looking in the source for particular behaviors or bug fixes. We&#39;ll\nwalk through the creation of a virtualenv step-by-step, and trace a typical\n\&quot;pip install -r requirements.txt\&quot; and \&quot;pip uninstall\&quot; through the code paths\nthey follow.\n\nI&#39;ll know the talk was a success when I see the pull requests!\n\n&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;Creative Commons Attribution-NonCommercial-ShareAlike 3.0&quot;, 
+            &quot;embed&quot;: &quot;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://a.images.blip.tv/Pycon-PyCon2011ReverseengineeringIanBickingsBrainInsidePipAnd764.png" rel="nofollow">http://a.images.blip.tv/Pycon-PyCon2011ReverseengineeringIanBickingsBrainInsidePipAnd764.png</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: 151377423, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: &quot;<a href="http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2011/389_reverse-engineering-ian-bicking-s-brain-inside-pip-and-virtualenv.mp4" rel="nofollow">http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2011/389_reverse-engineering-ian-bicking-s-brain-inside-pip-and-virtualenv.mp4</a>&quot;, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2011-03-11&quot;, 
+            &quot;added&quot;: &quot;2012-02-23T04:20:00&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:28.024&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyCon US 2011&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;running-django-apps-on-google-app-engine&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Wesley J. Chun&quot;
+            ], 
+            &quot;tags&quot;: [
+                &quot;django-nonrel&quot;, 
+                &quot;gae&quot;, 
+                &quot;googleappengine&quot;, 
+                &quot;pycon&quot;, 
+                &quot;pycon2011&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 386, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Running Django Apps on Google App Engine&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;Running Django Apps on Google App Engine\n\nPresented by wesley chun\n\nIn the past, Django users couldn&#39;t run apps unmodified on Google App Engine.\nSome tools helped with integration but required you to change your data\nmodels. Django-nonrel removes this requirement letting you run native Django\napps on App Engine with only config changes if you bear in mind its\nrestrictions like no JOINs. In this talk, we&#39;ll discuss Django-nonrel &amp;\nporting App Engine apps to Django.\n\nAbstract\n\nPreviously, Django users could not get their apps to run unmodified on Google\nApp Engine, the cloud application-hosting platform. Older tools like \&quot;the\nHelper\&quot; and \&quot;the Patch\&quot; required a change to the data models as well as\nperhaps integrating additional tools into the application source tree. The\ncreators of the Patch realized how cumbersome this is and created a\nreplacement for all of these older tools.\n\nDjango-nonrel allows users to run pure Django apps on App Engine with only\nminor configuration changes. It basically enables Django&#39;s ORM to operate on\ntop of non-relational databases (in addition to preserving its ability to\nsupport standard relational DBs), one of which is Google App Engine&#39;s\nDatastore. (MongoDB is another.)\n\nWhat this means that current Django users can now use their existing knowledge\nto write apps for App Engine as long as they keep App Engine restrictions in\nmind, e.g., no JOINs. Projects written in this manner will work without any\nmodifications other than changing the configuration settings. On the other\nside, App Engine developers now have an alternative to the &#39;\&quot;webapp\&quot; framework\nthat comes with its SDK. You can now leverage the power of a full web\nframework like Django and still enjoy the flexibility and scalability of App\nEngine. In this talk, we&#39;ll discuss Django-nonrel, and how to port App Engine\napps from webapp to pure Django to run on App Engine using Django-nonrel.\n\n&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;Creative Commons Attribution-NonCommercial-ShareAlike 3.0&quot;, 
+            &quot;embed&quot;: &quot;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://a.images.blip.tv/Pycon-PyCon2011RunningDjangoAppsOnGoogleAppEngine570.png" rel="nofollow">http://a.images.blip.tv/Pycon-PyCon2011RunningDjangoAppsOnGoogleAppEngine570.png</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: 187347634, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: &quot;<a href="http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2011/386_running-django-apps-on-google-app-engine.mp4" rel="nofollow">http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2011/386_running-django-apps-on-google-app-engine.mp4</a>&quot;, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: &quot;&quot;, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2011-03-11&quot;, 
+            &quot;added&quot;: &quot;2012-02-23T04:20:00&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:28.026&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyCon US 2011&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;pycon-2011--saturday-afternoon-lightning-talks&quot;, 
+            &quot;speakers&quot;: [], 
+            &quot;tags&quot;: [
+                &quot;djangozoom&quot;, 
+                &quot;engineering&quot;, 
+                &quot;flufl.i18n&quot;, 
+                &quot;interviewing&quot;, 
+                &quot;javascript&quot;, 
+                &quot;pycon&quot;, 
+                &quot;pycon2011&quot;, 
+                &quot;pywo&quot;, 
+                &quot;readthedocs&quot;, 
+                &quot;sphinx&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 358, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Saturday Afternoon Lightning Talks&quot;, 
+            &quot;summary&quot;: &quot;Saturday afternoon lightning talks\n\n&quot;, 
+            &quot;description&quot;: &quot;Saturday Afternoon Lightning Talks\n\n  * 00:00 Eric Holscher - Read the Docs ([readthedocs.org](http://readthedocs.org/)) \n  * 05:25 Nate Aune - DjangoZoom ([DjangoZoom](http://djangozoom.com/)) \n  * 09:40 Paul Smith - Update on Japan \n  * 12:40 Phillip von Weitershausen - The English of Programming Languages (JavaScript) \n  * 18:15 Henrique Bastos - Community Bootstrap \n  * 24:00 Barry Warsaw - flufl.i18n library ([<a href="https://launchpad.net/flufl.i18n](https://launchpad.net/flufl.i18n)" rel="nofollow">https://launchpad.net/flufl.i18n](https://launchpad.net/flufl.i18n)</a>) \n  * 31:20 Aron Griffis - Window Manglement with PyWO ([<a href="http://code.google.com/p/pywo/](http://code.google.com/p/pywo/)" rel="nofollow">http://code.google.com/p/pywo/](http://code.google.com/p/pywo/)</a>) \n  * 35:00 Josiah Carlson - Over-Engineering for Dummies \n  * 40:35 Grace Law - Get the job you want \n\n&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;Creative Commons Attribution-NonCommercial-ShareAlike 3.0&quot;, 
+            &quot;embed&quot;: &quot;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://a.images.blip.tv/Pycon-PyCon2011SaturdayAfternoonLightningTalks857.png" rel="nofollow">http://a.images.blip.tv/Pycon-PyCon2011SaturdayAfternoonLightningTalks857.png</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: 238830871, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: &quot;<a href="http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2011/358_saturday-afternoon-lightning-talks.mp4" rel="nofollow">http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2011/358_saturday-afternoon-lightning-talks.mp4</a>&quot;, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2011-03-11&quot;, 
+            &quot;added&quot;: &quot;2012-02-23T04:20:00&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:28.027&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyCon US 2011&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;pycon-2011--saturday-morning-lightning-talks&quot;, 
+            &quot;speakers&quot;: [], 
+            &quot;tags&quot;: [
+                &quot;chapa.vim&quot;, 
+                &quot;cog&quot;, 
+                &quot;pycon&quot;, 
+                &quot;pycon2011&quot;, 
+                &quot;pymite&quot;, 
+                &quot;python3&quot;, 
+                &quot;pythononachip&quot;, 
+                &quot;vim&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 359, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Saturday Morning Lightning Talks&quot;, 
+            &quot;summary&quot;: &quot;Saturday morning lightning talks\n\n&quot;, 
+            &quot;description&quot;: &quot;Saturday Morning Lightning Talks\n\n  * 00:00 Alfredo Deza - Faster VIM Python Editing ([github.com/alfredodeza/chapa.vim](https://github.com/alfredodeza/chapa.vim)) \n  * 03:40 Dean Hall - Python-on-a-chip ([pythononachip.org](http://pythononachip.org/)) \n  * 07:55 Ned Batchelder - Cog will make you happy ([nedbatchelder.com/code/cog](http://nedbatchelder.com/code/cog)) \n  * 13:55 Brett Cannon - (Some of) your PSF money at work \n  * 21:10 Baiju Muthukaden - <a href="http://GetPython3.net" rel="nofollow">GetPython3.net</a> ([getpython3.net](http://getpython3.net/)) \n  * 25:20 Shai Ben-yehuda - Light-weight UI \n\n[VIDEO HAS ISSUES: slides for Alfredo&#39;s and Ned&#39;s talks are impossible to\nread.]\n\n&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;Creative Commons Attribution-NonCommercial-ShareAlike 3.0&quot;, 
+            &quot;embed&quot;: &quot;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://a.images.blip.tv/Pycon-PyCon2011SaturdayMorningLightningTalks238.png" rel="nofollow">http://a.images.blip.tv/Pycon-PyCon2011SaturdayMorningLightningTalks238.png</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: 151847487, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: &quot;<a href="http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2011/359_saturday-morning-lightning-talks.mp4" rel="nofollow">http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2011/359_saturday-morning-lightning-talks.mp4</a>&quot;, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2011-03-11&quot;, 
+            &quot;added&quot;: &quot;2012-02-23T04:20:00&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:28.028&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyCon US 2011&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;pycon-2011--scaling-python-past-100&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Mark Ramm&quot;
+            ], 
+            &quot;tags&quot;: [
+                &quot;casestudy&quot;, 
+                &quot;pycon&quot;, 
+                &quot;pycon2011&quot;, 
+                &quot;scalability&quot;, 
+                &quot;sourceforge&quot;, 
+                &quot;turbogears&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 397, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Scaling Python past 100&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;Scaling Python past 100\n\nPresented by Mark <a href="http://Ramm%5Cn%5CnSourceforge.net" rel="nofollow">Ramm\n\nSourceforge.net</a> has been in the top 100 sites on the internet, and we\ndiscovered that python was easily able to scale up to handle that traffic. In\nfact Python is now the core language for all new features, and is taking over\nall of sourceforge.net.\n\nAbstract\n\nThe path from legacy PHP to modern python tools has been long an bumpy, and\nthis is the story of how we took Python from a single prototype site, to the\ncore technology driving <a href="http://SourceForge.net" rel="nofollow">SourceForge.net</a>. I will discuss the mistakes we made\nalong the way, the benefits that sold python, and the real secret behind our\npython transformation.\n\nA few highlights include:\n\n  * How we abused libraries for fun and profit \n  * How a major mistake made us look good \n  * How the python community worked for us \n  * How we couldn&#39;t have done it without Django AND TurboGears \n\n&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;Creative Commons Attribution-NonCommercial-ShareAlike 3.0&quot;, 
+            &quot;embed&quot;: &quot;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://a.images.blip.tv/Pycon-PyCon2011ScalingPythonPast100645-312.jpg" rel="nofollow">http://a.images.blip.tv/Pycon-PyCon2011ScalingPythonPast100645-312.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: 148412657, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: &quot;<a href="http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2011/397_scaling-python-past-100.mp4" rel="nofollow">http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2011/397_scaling-python-past-100.mp4</a>&quot;, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2011-03-11&quot;, 
+            &quot;added&quot;: &quot;2012-02-23T04:20:00&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:28.029&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyCon US 2011&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;pycon-2011--serious-business--python-is-not-just-&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Zach Steindler&quot;
+            ], 
+            &quot;tags&quot;: [
+                &quot;business&quot;, 
+                &quot;kpi&quot;, 
+                &quot;pycon&quot;, 
+                &quot;pycon2011&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 444, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Serious Business: Python is not just for Engineering&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;Serious Business: Python is not just for Engineering\n\nPresented by Zach Steindler\n\nBuilding a great business is quite different from building a great product,\nbut by measuring Key Performance Indicators (things like cash flow, if users\nkeep coming back, etc.) you can make sure your business is on the right track.\nIn this talk I&#39;ll cover common KPI in the tech business and show you how we\nautomate collecting and presenting KPI at Olark.\n\nAbstract\n\nAs a hacker-turned-founder, you quickly realize there&#39;s more to building a\ngreat business than just building a great product. The easiest way to know\nyour business is on the right track is to measure Key Performance Indicators\n(KPIs): things like cash flow, what parts of the product is used the most, if\nyour users keep coming back, if users are experiencing problems... and many,\nmany others. How are you supposed to keep track of it all without getting lost\nin a sea of noise?\n\nWith Python, of course! In this talk I&#39;ll cover the most common KPIs\ntechnology businesses track and show you how we used Python at Olark to\nautomatically collect and present KPIs to the team. This has made it much\neasier to quickly answer business questions and help us know we&#39;re on the\nright track.\n\nSo if you&#39;re a Python hacker who would like to learn more about how to\nengineer a business, or if you&#39;re a business person who&#39;s just starting to\nlearn Python, come learn how Python isn&#39;t just for engineering.\n\n&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;Creative Commons Attribution-NonCommercial-ShareAlike 3.0&quot;, 
+            &quot;embed&quot;: &quot;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://a.images.blip.tv/Pycon-PyCon2011SeriousBusinessPythonIsNotJustForEngineering609.png" rel="nofollow">http://a.images.blip.tv/Pycon-PyCon2011SeriousBusinessPythonIsNotJustForEngineering609.png</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: 83735655, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: &quot;<a href="http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2011/444_serious-business-python-is-not-just-for-engineering.mp4" rel="nofollow">http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2011/444_serious-business-python-is-not-just-for-engineering.mp4</a>&quot;, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2011-03-11&quot;, 
+            &quot;added&quot;: &quot;2012-02-23T04:20:00&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:28.031&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyCon US 2011&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;pycon-2011--solvcon--a-new-python-based-software-&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Yung-Yu Chen&quot;
+            ], 
+            &quot;tags&quot;: [
+                &quot;gpgpu&quot;, 
+                &quot;numericalsimulations&quot;, 
+                &quot;parallelcomputing&quot;, 
+                &quot;pycon&quot;, 
+                &quot;pycon2011&quot;, 
+                &quot;simulations&quot;, 
+                &quot;solvcon&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 382, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;SOLVCON: A New Python-Based Software Framework for Massively Parallelized Numerical Simulations&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;SOLVCON: A New Python-Based Software Framework for Massively Parallelized\nNumerical Simulations\n\nPresented by Yung-Yu Chen\n\nSOLVCON is the first Python-based software framework for high-resolution\nsimulations of multi-physics conservation laws. More than ninety percents of\nthe codes are done in Python. Performance hot-spots are optimized by C and\nglued by ctypes library. SOLVCON is high-performance in nature and has been\nable to utilize 512 4-core nodes at Ohio Supercomputer Center.\n\nAbstract\n\nIn this decade, performance improvements of scientific computing will mainly\ncome from major changes in the computing hardware. A well-organized software\nstructure is imperative to accommodate such changes. Based on Python, SOLVCON\n([http://solvcon.net/](http://solvcon.net/)) is designed as a software\nframework to develop conservation-law solvers by segregating solving kernels\nfrom various supportive functionalities. Being the governing equations for the\nphysical world, conservation laws are applied everywhere in science and\nengineering. Although it is well known that the numerical algorithms and\nphysical models form the kernel of any conservation-law solver, few if not\nnone code can cleanly separate those core components from supportive\nfunctionalities. The lack of organization has hindered the development of\nlegacy codes. To address the issues, the supportive functionalities are\ninternalized in the framework of SOLVCON. Aided by the framework, both multi-\nphysics and hybrid parallelism can be implemented in an organized way. To\ndate, SOLVCON has utilized up to 512 4-core nodes at Ohio Supercomputer Center\nfor high-resolution simulations of computational fluid dynamics (CFD). SOLVCON\ntargets to concurrently utilize thousands of computer nodes for high-\nresolution simulations using over one billion mesh points.\n\nOne of the major purposes of SOLVCON is to resolve the complicated programming\nefforts for GPU clusters. Supercomputing is undergoing the third revolution by\nthe emerging GPU computing. To date, the fastest supercomputer in the Top 500\nlist, Tianhe-1A, is a GPU cluster. GPU computing promises numerical analysts\nto reduce the time for the high-resolution simulations from months to days. In\norder to use GPU computing to accelerate such large-scale problems, GPU nodes\nmust be networked together to form a GPU cluster. As such, shared-memory and\ndistributed-memory parallelization must be simultaneously utilized to achieve\nthe so-called hybrid parallelism. Parallel computing is difficult, and hybrid\nparallel computing is more difficult. By using Python to develop the\nfundamental software structure, GPU or multi-threaded programming for shared-\nmemory parallelization are locked in solving kernels. Complex message-passing\nis implemented in SOLVCON and isolated from solving-kernel developers. Highly\noptimized C and GPU codes are glued into SOLVCON without loss of performance\nby using the ctypes package. Othere important features of SOLVCON include:\n\n  * Pluggable multi-physics.\n  * Built-in [CESE](http://www.grc.nasa.gov/WWW/microbus/) solvers.\n  * Unstructured mesh consisting of mixed elements.\n  * Interface to Message-Passing Interface (MPI) libraries.\n  * Socket communication layer: working without MPI installed.\n  * Automatic distributed-memory parallelization by domain decomposition.\n  * Parallel I/O.\n  * In situ visualization by [VTK](http://vtk.org) library.\n  * Standalone writers to VTK legacy and XML file formats.\n  * Integration to supercomputer (cluster) batch systems.\n\nSOLVCON has been applied to computation fluid dynamics and computational\nmechanics. More physical solvers are being developed for various propagating\nwave problems, e.g., electromagnetic waves. By using Python as the foundation\nin SOLVCON, performance and extensibility are well balanced, and computational\nresearch is being done in the most productive way. In this talk, the author of\nSOLVCON will make an introduction to the software framework by including the\nfollowing topics:\n\n  1. Simulations of conservation laws and hybrid parallelism for supercomputing.\n  2. Issues in legacy codes and challenges to code for emerging supercomputer hardware.\n  3. Using SOLVCON in the simple way by pre-defined modules.\n  4. Fixed parts in SOLVCON. \n    1. Distributed computing.\n    2. Multi-thread utilities.\n  5. Customizable parts in SOLVCON. \n    1. Pluggable multi-physics and GPGPU computing.\n    2. Supercomputer batch system and bootstrapping.\n    3. In situ visualization.\n  6. Conclusion.\n\nThe talk will take 30 minutes.\n\n&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;Creative Commons Attribution-NonCommercial-ShareAlike 3.0&quot;, 
+            &quot;embed&quot;: &quot;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://a.images.blip.tv/Pycon-PyCon2011SOLVCONANewPythonBasedSoftwareFrameworkForMass564.png" rel="nofollow">http://a.images.blip.tv/Pycon-PyCon2011SOLVCONANewPythonBasedSoftwareFrameworkForMass564.png</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: 147326868, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: &quot;<a href="http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2011/382_solvcon-a-new-python-based-software-framework-for-massively-parallelized-numerical-simulations.mp4" rel="nofollow">http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2011/382_solvcon-a-new-python-based-software-framework-for-massively-parallelized-numerical-simulations.mp4</a>&quot;, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2011-03-11&quot;, 
+            &quot;added&quot;: &quot;2012-02-23T04:20:00&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:28.032&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyCon US 2011&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;pycon-2011--state-of-pylons-turbogears-2-repoze-b&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Ben Bangert&quot;, 
+                &quot;Chris McDonough&quot;, 
+                &quot;Mark Ramm&quot;
+            ], 
+            &quot;tags&quot;: [
+                &quot;pycon&quot;, 
+                &quot;pycon2011&quot;, 
+                &quot;pylons&quot;, 
+                &quot;pyramid&quot;, 
+                &quot;repoze.bfg&quot;, 
+                &quot;turbogears&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 446, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;State of Pylons/TurboGears 2/repoze.bfg&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;State of Pylons/TurboGears 2/repoze.bfg\n\nPresented by Chris McDonough, Ben Bangert, and Mark Ramm\n\nA three-for-one talk by the main developers of three popular Python web\nframeworks! We&#39;ll (very) briefly cover the state of each of our individual\nframeworks and communities, and then we&#39;ll describe the results of our efforts\nto work together and share code.\n\nAbstract\n\nPylons is a popular, lightweight Python web framework.\n\nTurboGears 2 is a full-stack framework built atop Pylons.\n\nrepoze.bfg is a moderately popular, lightweight Python web framework.\n\nThe main developers and community leaders of these frameworks have been\nworking together and sharing as much as possible over the course of roughly\nthe last year. We&#39;ll very briefly describe to the audience the states of our\nindividual efforts, then we&#39;ll discuss how we intend to move forward and share\nmore code and effort in the year to come. The talk will be more socially-\noriented than technical.\n\nIt&#39;s unusual for open source code and communities to bridge minor perceived\ndifferences in scope and style and to start sharing code and ideas openly. If\nyou&#39;re a user of any of these frameworks, you&#39;ll want to be present for this\ntalk.\n\n&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;Creative Commons Attribution-NonCommercial-ShareAlike 3.0&quot;, 
+            &quot;embed&quot;: &quot;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://a.images.blip.tv/Pycon-PyCon2011StateOfPylonsTurboGears2repozebfg818.png" rel="nofollow">http://a.images.blip.tv/Pycon-PyCon2011StateOfPylonsTurboGears2repozebfg818.png</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: 236700267, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: &quot;<a href="http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2011/446_state-of-pylons-turbogears-2-repoze-bfg.mp4" rel="nofollow">http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2011/446_state-of-pylons-turbogears-2-repoze-bfg.mp4</a>&quot;, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2011-03-11&quot;, 
+            &quot;added&quot;: &quot;2012-02-23T04:20:00&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:28.033&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyCon US 2011&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;pycon-2011--statistical-machine-learning-for-text&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Olivier Grisel&quot;
+            ], 
+            &quot;tags&quot;: [
+                &quot;googlepredictionapi&quot;, 
+                &quot;machinelearning&quot;, 
+                &quot;nltk&quot;, 
+                &quot;pycon&quot;, 
+                &quot;pycon2011&quot;, 
+                &quot;scikit-learn&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 417, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Statistical machine learning for text classification with scikit-learn&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;Statistical machine learning for text classification with scikit-learn\n\nPresented by Olivier Grisel\n\nThe goal of this talk is to give a state-of-the-art overview of machine\nlearning algorithms applied to text classification tasks ranging from language\nand topic detection in tweets and web pages to sentiment analysis in consumer\nproducts reviews.\n\nAbstract\n\nUnstructured or semi-structured text data is ubiquitous thanks to the read-\nwrite nature of the web. However human authors are often lazy and don&#39;t fill-\nin structured metadata forms in web applications. It is however possible to\nautomate some structured knowledge extraction with simple and scalable\nstatistical learning tools implemented in python. For instance:\n\n  * guessing the language and topic of tweets and web pages \n  * analyze the sentiment (positive or negative) in consumer products reviews in blogs or customer emails \n\nThis talk will introduce the main operational steps of supervised learning:\n\n  * extracting the relevant features from text documents \n  * selecting the right machine learning algorithm to train a model for the task at hand \n  * using the trained model on previously unseen documents \n  * evaluating the predictive accuracy of the trained model \n\nWe will also demonstrate the results obtained for above tasks using the\n[scikit-learn](http://scikit-learn.sourceforge.net/) package and compare it to\nother implementations such as [nltk](http://nltk.org/) and the [Google\nPrediction API](http://code.google.com/apis/predict/).\n\n&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;Creative Commons Attribution-NonCommercial-ShareAlike 3.0&quot;, 
+            &quot;embed&quot;: &quot;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://a.images.blip.tv/Pycon-PyCon2011StatisticalMachineLearningForTextClassification447.png" rel="nofollow">http://a.images.blip.tv/Pycon-PyCon2011StatisticalMachineLearningForTextClassification447.png</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: 168176911, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: &quot;<a href="http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2011/417_statistical-machine-learning-for-text-classification-with-scikit-learn.mp4" rel="nofollow">http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2011/417_statistical-machine-learning-for-text-classification-with-scikit-learn.mp4</a>&quot;, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2011-03-11&quot;, 
+            &quot;added&quot;: &quot;2012-02-23T04:20:00&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:28.035&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyCon US 2011&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;pycon-2011--status-of-unicode-in-python-3&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Victor Stinner&quot;
+            ], 
+            &quot;tags&quot;: [
+                &quot;pycon&quot;, 
+                &quot;pycon2011&quot;, 
+                &quot;python3&quot;, 
+                &quot;unicode&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 364, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Status of Unicode in Python 3&quot;, 
+            &quot;summary&quot;: &quot;Introduced in Python 2.0, unicode became the default string type in Python\n3.0. It took 8 years to switch to unicode, and since Python 3.0, a lot of bugs\nhas been fixed. The switch to unicode opened many questions. Should Python\nsupport both bytes and characters for filenames? What to do with undecodable\nbytes? etc.\n\n&quot;, 
+            &quot;description&quot;: &quot;The talk will focus on the recent issues fixed in Python 3.1 and 3.2:\n\n  * Use the PEP 383 (error handler to store undecodable bytes) everywhere \n  * Encoding of the command line arguments: utf-8 on Mac OS X, locale encoding on UNIX/BSD, unicode on Windows \n  * Environment variables: creation of os.environb \n  * Filenames: huge work to support the PEP 383 everywhere, creation of os.fsencode() and os.fsdecode() \n  * Python source code encoding: use tokenize.detect_encoding() instead of the locale encoding \n  * some library examples: email, ftp, ... \n  * etc. \n\nThe talk will present not only the changes in Python, but also in the C API.\n\n&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;Creative Commons Attribution-NonCommercial-ShareAlike 3.0&quot;, 
+            &quot;embed&quot;: &quot;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://a.images.blip.tv/Pycon-PyCon2011StatusOfUnicodeInPython3393.png" rel="nofollow">http://a.images.blip.tv/Pycon-PyCon2011StatusOfUnicodeInPython3393.png</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: 173547130, 
+            &quot;video_ogv_url&quot;: &quot;<a href="http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2011/364_status-of-unicode-in-python-3.ogv" rel="nofollow">http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2011/364_status-of-unicode-in-python-3.ogv</a>&quot;, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: &quot;<a href="http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2011/364_status-of-unicode-in-python-3.m4v" rel="nofollow">http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2011/364_status-of-unicode-in-python-3.m4v</a>&quot;, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2011-03-11&quot;, 
+            &quot;added&quot;: &quot;2012-02-23T04:20:00&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:28.036&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyCon US 2011&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;pycon-2011--sunday-afternoon-lightning-talks&quot;, 
+            &quot;speakers&quot;: [], 
+            &quot;tags&quot;: [
+                &quot;adventure&quot;, 
+                &quot;askbot&quot;, 
+                &quot;flufl.enum&quot;, 
+                &quot;foss@rit&quot;, 
+                &quot;fudge&quot;, 
+                &quot;minuteman&quot;, 
+                &quot;moe&quot;, 
+                &quot;pmc&quot;, 
+                &quot;protobuf&quot;, 
+                &quot;pycon&quot;, 
+                &quot;pycon2011&quot;, 
+                &quot;python2to3&quot;, 
+                &quot;pyweek&quot;, 
+                &quot;twiggy&quot;, 
+                &quot;universalsubtitles&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 357, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Sunday Afternoon Lightning Talks&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;Sunday Afternoon Lightning Talks\n\n  * 00:40 Paul Smith - Japan \n  * 03:10 Zed Shaw - Being Passionate \n  * 05:40 Pete Fein - Twiggy: A Pythonic Logger \n  * 11:15 Remy DeCausemaker - FOSS@RIT: \n  * 16:15 Evgeny Fadeev - Askbot ([askbot.org](http://askbot.org/)) \n  * 21:05 Carl Karsen - Video subtitles ([universalsubtitles.org](http://universalsubtitles.org/), [python.mirocommunity.org](http://python.mirocommunity.org/)) \n  * 25:45 Larry Hastings - Minuteman ([<a href="http://www.larryhastings.com/minuteman](http://www.larryhastings.com/minuteman/)" rel="nofollow">www.larryhastings.com/minuteman](http://www.larryhastings.com/minuteman/)</a>) \n  * 31:50 Mike Pirnat - Win at parenting with Python ([howoldismykid.com](http://howoldismykid.com/)) \n  * 36:15 Barry Warsaw - flufl.enum ([launchpad.net/flufl.enum](https://launchpad.net/flufl.enum)) \n  * 40:45 Jonathan Hartley - Make a game for PyWeek ([<a href="http://www.pyweek.org](http://www.pyweek.org/)" rel="nofollow">www.pyweek.org](http://www.pyweek.org/)</a>) \n  * 45:30 Gregory P. Smith - Protobufs for data storage and transport ([code.google.com/p/protobuf](http://code.google.com/p/protobuf/)) \n  * 50:45 Dan Bentley - 2to3 + MOE \n  * 56:15 Dino Viehland - Python tools for Visual Studio \n  * 1:01:00 Moshe Zadka - Bayes&#39; Theorem for Programmers \n  * 1:04:50 Brandon Rhodes - Adventure in Python \n  * 1:10:20 Whit Morriss - Sharing is caring, FOSS and Python at SurveyMonkey \n  * 1:15:25 Kumar McMillan - Fudging it with Mock Objects ([farmdev.com/projects/fudge/](http://farmdev.com/projects/fudge/)) \n\n&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;Creative Commons Attribution-NonCommercial-ShareAlike 3.0&quot;, 
+            &quot;embed&quot;: &quot;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://a.images.blip.tv/Pycon-PyCon2011SundayAfternoonLightningTalks799-486.jpg" rel="nofollow">http://a.images.blip.tv/Pycon-PyCon2011SundayAfternoonLightningTalks799-486.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: 407225047, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: &quot;<a href="http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2011/357_sunday-afternoon-lightning-talks.mp4" rel="nofollow">http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2011/357_sunday-afternoon-lightning-talks.mp4</a>&quot;, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2011-03-11&quot;, 
+            &quot;added&quot;: &quot;2012-02-23T04:20:00&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:28.037&quot;
+        }
+    ]
+}</pre>
+            </div>
+        </div>
+
+            
+
+                
+
+                
+            
+
+        </div>
+        <!-- END content-main -->
+
+    </div>
+    <!-- END Content -->
+
+        <div id="push"></div>
+
+    </div>
+
+    </div><!-- ./wrapper -->
+
+    
+    
+
+    
+    <script src="/static/rest_framework/js/jquery-1.8.1-min.js"></script>
+    <script src="/static/rest_framework/js/bootstrap.min.js"></script>
+    <script src="/static/rest_framework/js/prettify-min.js"></script>
+    <script src="/static/rest_framework/js/default.js"></script>
+    
+  </body>
+
+<!-- Mirrored from pyvideo.org/api/v2/video/?page=163 by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 07 Jan 2016 03:54:22 GMT -->
+</html>

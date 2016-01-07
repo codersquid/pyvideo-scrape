@@ -1,0 +1,895 @@
+
+
+<!DOCTYPE html>
+<html>
+    
+<!-- Mirrored from pyvideo.org/api/v2/video/?page=30&format=api by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 07 Jan 2016 03:47:49 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+    
+
+        
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+        <meta name="robots" content="NONE,NOARCHIVE" />
+        
+
+        <title>Django REST framework</title>
+
+        
+        
+            <link rel="stylesheet" type="text/css" href="/static/rest_framework/css/bootstrap.min.css"/>
+            <link rel="stylesheet" type="text/css" href="/static/rest_framework/css/bootstrap-tweaks.css"/>
+        
+        <link rel="stylesheet" type="text/css" href="/static/rest_framework/css/prettify.css"/>
+        <link rel="stylesheet" type="text/css" href="/static/rest_framework/css/default.css"/>
+        
+
+    
+    </head>
+
+  <body class=" container">
+
+    <div class="wrapper">
+
+    
+    <div class="navbar navbar-inverse">
+        <div class="navbar-inner">
+            <div class="container-fluid">
+                <span href="/">
+                    <a class='brand' rel="nofollow" href='http://www.django-rest-framework.org'>Django REST framework <span class="version">2.3.14</span></a>
+                </span>
+                <ul class="nav pull-right">
+                    
+                        
+                            <li></li>
+                        
+                    
+                </ul>
+            </div>
+        </div>
+    </div>
+    
+
+    
+    <ul class="breadcrumb">
+        
+            <li>
+                <a href="/api/v2/video/" class="active">Video List Create Api</a> 
+            </li>
+        
+    </ul>
+    
+
+    <!-- Content -->
+    <div id="content">
+
+        
+            <form id="get-form" class="pull-right">
+                <fieldset>
+                    <div class="btn-group format-selection">
+                        <a class="btn btn-primary js-tooltip" href='/api/v2/video/?page=30&amp;format=api' rel="nofollow" title="Make a GET request on the Video List Create Api resource">GET</a>
+
+                        <button class="btn btn-primary dropdown-toggle js-tooltip" data-toggle="dropdown" title="Specify a format for the GET request">
+                            <span class="caret"></span>
+                        </button>
+                        <ul class="dropdown-menu">
+                            
+                                <li>
+                                    <a class="js-tooltip format-option" href='/api/v2/video/?page=30&format=json' rel="nofollow" title="Make a GET request on the Video List Create Api resource with the format set to `json`">json</a>
+                                </li>
+                            
+                                <li>
+                                    <a class="js-tooltip format-option" href='/api/v2/video/?page=30&format=api' rel="nofollow" title="Make a GET request on the Video List Create Api resource with the format set to `api`">api</a>
+                                </li>
+                            
+                        </ul>
+                    </div>
+
+                </fieldset>
+            </form>
+        
+
+        
+            <form class="button-form" action="/api/v2/video/?page=30&amp;format=api" method="POST" class="pull-right">
+                <input type='hidden' name='csrfmiddlewaretoken' value='pT8iI6zhtQdsGFmu4tryYgFrUlipl2B3' />
+                <input type="hidden" name="_method" value="OPTIONS" />
+                <button class="btn btn-primary js-tooltip" title="Make an OPTIONS request on the Video List Create Api resource">OPTIONS</button>
+            </form>
+        
+
+        
+
+        <div class="content-main">
+            <div class="page-header"><h1>Video List Create Api</h1></div>
+            
+            
+            
+            <div class="request-info" style="clear: both" >
+                <pre class="prettyprint"><b>GET</b> /api/v2/video/?page=30&amp;format=api</pre>
+            </div>
+            <div class="response-info">
+                <pre class="prettyprint"><div class="meta nocode"><b>HTTP 200 OK</b>
+<b>Content-Type:</b> <span class="lit">application/json</span>
+<b>Vary:</b> <span class="lit">Accept</span>
+<b>Allow:</b> <span class="lit">GET, POST, HEAD, OPTIONS</span>
+
+</div>{
+    &quot;count&quot;: 3439, 
+    &quot;next&quot;: &quot;<a href="http://pyvideo.org/api/v2/video/?page=31&amp;format=api" rel="nofollow">http://pyvideo.org/api/v2/video/?page=31&amp;format=api</a>&quot;, 
+    &quot;previous&quot;: &quot;<a href="http://pyvideo.org/api/v2/video/?page=29&amp;format=api" rel="nofollow">http://pyvideo.org/api/v2/video/?page=29&amp;format=api</a>&quot;, 
+    &quot;results&quot;: [
+        {
+            &quot;category&quot;: &quot;PyCon AU 2015&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;fang-pythonic-dependency-injection&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Nathan Craike&quot;
+            ], 
+            &quot;tags&quot;: [], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 4004, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Fang: Pythonic dependency injection&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;Dependency injection (DI) is a technique most often used in \&quot;big OO\&quot; languages like Java and C#. It&#39;s usually dismissed by Python developers as only needed because of these other languages&#39; deficiencies: static typing, restrictive object systems, lack of reflection, etc.\r\n\r\nHowever, there are other dynamically-typed languages which do use forms of dependency injection. From looking at these systems, we can see there are some advantages to dependency injection _even if_ you&#39;re not using a traditional \&quot;big OO\&quot; language with static types and interfaces. Dependency-injected code can be more modular, much easier to test, easier to analyse, and easier to modify or extend to meet new requirements.\r\n\r\nDespite this, there aren&#39;t many dependency-injection systems for Python. The few that do exist aren&#39;t \&quot;Pythonic\&quot;, or implement DI in ways that compromise a lot of its benefits.\r\n\r\nFang is a library which adds dependency injection to Python in a way which provides real benefits for code clarity, ease of testing, and maintainability, while still fitting naturally into Python&#39;s idioms. Fang describes dependencies concisely but explicitly, and doesn&#39;t restrict the developer to a particular paradigm on how dependencies are validated or met.\r\n\r\nThis talk will give a brief overview of how DI is used across a few languages (both traditional OO and dynamic languages) and highlight what elements of DI can be beneficial in Python. The talk will then demo how Fang can be used to add DI to Python code, and show some of the benefits to code clarity, unit testing and code analysis.\n\n&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;creativeCommon&quot;, 
+            &quot;embed&quot;: &quot;&lt;iframe width=\&quot;640\&quot; height=\&quot;360\&quot; src=\&quot;//www.youtube.com/embed/zqRd941NXlI\&quot; frameborder=\&quot;0\&quot; allowfullscreen&gt;&lt;/iframe&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="https://i.ytimg.com/vi/zqRd941NXlI/hqdefault.jpg" rel="nofollow">https://i.ytimg.com/vi/zqRd941NXlI/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: null, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="https://www.youtube.com/watch?v=zqRd941NXlI" rel="nofollow">https://www.youtube.com/watch?v=zqRd941NXlI</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;needs editing&quot;, 
+            &quot;recorded&quot;: &quot;2015-08-04&quot;, 
+            &quot;added&quot;: &quot;2015-10-18T16:10:59.443&quot;, 
+            &quot;updated&quot;: &quot;2015-10-18T16:10:59.444&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyCon AU 2015&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;fast-beautiful-and-easy-bayesian-modelling-can&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Rhydwyn McGuire&quot;
+            ], 
+            &quot;tags&quot;: [], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 3970, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Fast, beautiful and easy Bayesian modelling: Can you have it all?&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;Bayesian models are often more useful than classical statistical models when dealing with data concerning rare events in small populations. For example, if you are looking at the number of cancer diagnoses in a local government area, Bayesian models allow you to combine the individual and population level data to produce more reliable estimates. \r\n\r\nFitting these models can be both complex and computationally expensive, so we need it to be fast. Some of the datasets we deal with are extremely big, and the need for both tweaking and regular update cycles means we need to re-run the models frequently.\r\n\r\nBut beauty is also crucial. We need the package to be easy to code and describe, so that the statisticians and scientists we work with can build, maintain and understand their own models without needing to refer to programmers. We don\u2019t want a statistical black box. \r\n\r\nFinally, we need it to be easy. Easy to fit into our systems; technology-agnostic so we can change systems; and automatable so that the regular work of updating models with new data can happen \u2018hands off\u2019.  \r\n\r\nThere are a number of Bayesian modelling packages available, but how do you know which one to use? This talk will take you through the positives and negatives of the major packages, focusing on the specifics of my work in health statistics, as well as providing a general overview of what these packages can do. \r\n\n\n&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;creativeCommon&quot;, 
+            &quot;embed&quot;: &quot;&lt;iframe width=\&quot;640\&quot; height=\&quot;360\&quot; src=\&quot;//www.youtube.com/embed/N6kVJTKT6H8\&quot; frameborder=\&quot;0\&quot; allowfullscreen&gt;&lt;/iframe&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="https://i.ytimg.com/vi/N6kVJTKT6H8/hqdefault.jpg" rel="nofollow">https://i.ytimg.com/vi/N6kVJTKT6H8/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: null, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="https://www.youtube.com/watch?v=N6kVJTKT6H8" rel="nofollow">https://www.youtube.com/watch?v=N6kVJTKT6H8</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;needs editing&quot;, 
+            &quot;recorded&quot;: &quot;2015-08-04&quot;, 
+            &quot;added&quot;: &quot;2015-10-18T16:10:54.729&quot;, 
+            &quot;updated&quot;: &quot;2015-10-18T16:10:54.729&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyCon AU 2015&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;fast-forward-to-todays-zaqar&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Flavio Percoco&quot;
+            ], 
+            &quot;tags&quot;: [], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 4052, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Fast-forward to today&#39;s Zaqar&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;Zaqar is probably one of the projects that had been debated the most in OpenStack. Nonetheless, this service capable of providing multi-tenant messaging is now becoming a more relevant part of the OpenStack infrastructure. \r\n\r\nOne feature at a time, it&#39;s achieving its goals and improving itself. From multi-tenantcy, to subscriptions and persistent transports. In this talk, I&#39;ll present the project and its goals, the current state of art, its capabilities and architecture, the tools available and the related maintenance cost.&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;creativeCommon&quot;, 
+            &quot;embed&quot;: &quot;&lt;iframe width=\&quot;640\&quot; height=\&quot;360\&quot; src=\&quot;//www.youtube.com/embed/ZS9CRzgLNCE\&quot; frameborder=\&quot;0\&quot; allowfullscreen&gt;&lt;/iframe&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="https://i.ytimg.com/vi/ZS9CRzgLNCE/hqdefault.jpg" rel="nofollow">https://i.ytimg.com/vi/ZS9CRzgLNCE/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: null, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="https://www.youtube.com/watch?v=ZS9CRzgLNCE" rel="nofollow">https://www.youtube.com/watch?v=ZS9CRzgLNCE</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;needs editing&quot;, 
+            &quot;recorded&quot;: &quot;2015-08-04&quot;, 
+            &quot;added&quot;: &quot;2015-11-23T19:30:08.200&quot;, 
+            &quot;updated&quot;: &quot;2015-11-23T19:30:08.200&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyCon AU 2015&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;four-non-cryptographic-hash-functions-enter-one&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Adam Harvey&quot;
+            ], 
+            &quot;tags&quot;: [], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 3966, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Four* non-cryptographic hash functions enter. One leaves.&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;When you say \u201chash function\u201d in a room full of Python developers, people tend to think of the classics you get in hashlib: MD5, SHA-1, SHA-224, SHA-256, SHA-384, SHA-512, SHA-OHGODPLEASESTOP, and the like \u2014 cryptographic hash functions intended for cryptographic uses.\r\n\r\nThere\u2019s another world out there, though: non-cryptographic hashes. Sometimes you just need to figure out if you\u2019ve already seen a string or structure. Sometimes you need a basic checksum. Sometimes you need a hash that\u2019s just fast and can fit into a 32 bit integer.\r\n\r\nI\u2019ll run through the state of the art in the world of non-cryptographic hashing \u2014 what your best options are, how they compare in terms of CPU and memory usage, and how they work. Who takes it? Whose mixing function reigns supreme?\r\n\r\nLet\u2019s find out.\r\n\r\n* I\u2019m saying \u201cfour\u201d, but realistically I\u2019m going to cover as many modern options as I can fit into the time available. Let\u2019s say \u201cfour plus two or minus one\u201d in reality.\n\n&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;creativeCommon&quot;, 
+            &quot;embed&quot;: &quot;&lt;iframe width=\&quot;640\&quot; height=\&quot;360\&quot; src=\&quot;//www.youtube.com/embed/IdVX4qHJXEY\&quot; frameborder=\&quot;0\&quot; allowfullscreen&gt;&lt;/iframe&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="https://i.ytimg.com/vi/IdVX4qHJXEY/hqdefault.jpg" rel="nofollow">https://i.ytimg.com/vi/IdVX4qHJXEY/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: null, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="https://www.youtube.com/watch?v=IdVX4qHJXEY" rel="nofollow">https://www.youtube.com/watch?v=IdVX4qHJXEY</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;needs editing&quot;, 
+            &quot;recorded&quot;: &quot;2015-08-04&quot;, 
+            &quot;added&quot;: &quot;2015-10-18T16:10:54.202&quot;, 
+            &quot;updated&quot;: &quot;2015-10-18T16:10:54.202&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyCon AU 2015&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;government-dashboards-and-open-data&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Paul Haesler&quot;
+            ], 
+            &quot;tags&quot;: [], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 4003, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Government dashboards and open data.&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;More and more governments around Australia and the world are starting to talk the talk on Open Data as an essential component of open government.  But to what extent do they walk the walk?  CKAN based data repositories like data.gov.au (at the Australian federal level) provide powerful APIs for searching and discovering published data-sets, but at the end of all that search and discovery, the data-sets themselves sometimes make it clear that somebody somewhere has missed the point.\r\n\r\nIn developing dashboard applications for state and federal government agencies over the past 6 months, I have seen the good, the bad and the ugly not only in terms of API design and data set presentation, but also in terms of commitment to Open Data.\n\n&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;creativeCommon&quot;, 
+            &quot;embed&quot;: &quot;&lt;iframe width=\&quot;640\&quot; height=\&quot;360\&quot; src=\&quot;//www.youtube.com/embed/zn7N_F09q6U\&quot; frameborder=\&quot;0\&quot; allowfullscreen&gt;&lt;/iframe&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="https://i.ytimg.com/vi/zn7N_F09q6U/hqdefault.jpg" rel="nofollow">https://i.ytimg.com/vi/zn7N_F09q6U/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: null, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="https://www.youtube.com/watch?v=zn7N_F09q6U" rel="nofollow">https://www.youtube.com/watch?v=zn7N_F09q6U</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;needs editing&quot;, 
+            &quot;recorded&quot;: &quot;2015-08-04&quot;, 
+            &quot;added&quot;: &quot;2015-10-18T16:10:59.300&quot;, 
+            &quot;updated&quot;: &quot;2015-10-18T16:10:59.300&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyCon AU 2015&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;guarding-the-gate-with-zuul&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Joshua Hesketh&quot;
+            ], 
+            &quot;tags&quot;: [], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 3965, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Guarding the gate with Zuul&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;Zuul is a program that is used to gate the source code repositories of a project so that changes are only merged if they pass tests.\r\n\r\nBy gating we mean a more proactive continuous integration suite whereby tests must pass in order to merge (rather than a traditional CI that just gives a nightly status of the master branch). This means every commit is tested both during review time and before it merges - in case the repositories have changed in the mean time.\r\n\r\nThe result of using a gating system like zuul is that it&#39;s much harder to break trunk and your nightly builds should nearly always work.\r\n\r\nZuul can be configured to react to events and run various jobs with success or failure results depending on the scenario. Currently Zuul is only integrated with the gerrit code review platform but there are discussions about extending it to github.\r\n\r\nOne unique and powerful feature in Zuul is its ability to run tests in a predictive manner across multiple programs. Zuul predicts what multiple repositories will look like by the time the present job is finished and arranges the tests to be performed in that order. This stops race conditions when merging code in one repository that depends on code in another repository.\r\n\r\nZuul can manage thousands of jobs across hundreds of projects as evident by being the gate keeper for OpenStack.\r\n\r\nIn this talk we will look at what Zuul is, how to configure it and the internals of how it works.\n\n&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;creativeCommon&quot;, 
+            &quot;embed&quot;: &quot;&lt;iframe width=\&quot;640\&quot; height=\&quot;360\&quot; src=\&quot;//www.youtube.com/embed/HlpJhqgGL34\&quot; frameborder=\&quot;0\&quot; allowfullscreen&gt;&lt;/iframe&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="https://i.ytimg.com/vi/HlpJhqgGL34/hqdefault.jpg" rel="nofollow">https://i.ytimg.com/vi/HlpJhqgGL34/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: null, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="https://www.youtube.com/watch?v=HlpJhqgGL34" rel="nofollow">https://www.youtube.com/watch?v=HlpJhqgGL34</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;needs editing&quot;, 
+            &quot;recorded&quot;: &quot;2015-08-04&quot;, 
+            &quot;added&quot;: &quot;2015-10-18T16:10:54.065&quot;, 
+            &quot;updated&quot;: &quot;2015-10-18T16:10:54.065&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyCon AU 2015&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;how-your-python-program-behaves-a-story-on-how-t&quot;, 
+            &quot;speakers&quot;: [
+                &quot;R\u00f3man Joost&quot;
+            ], 
+            &quot;tags&quot;: [], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 3975, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;How your Python program behaves: a story on how to build a program slicer&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;Understanding the control flows in programs can be simple but increasingly difficult once the program becomes more complex. Debugging these programs can become problematic even worse with a meager amount of test coverage. So what to do? Increasing test coverage can cost you quite a lot of time and may not necessarily yield better results.\r\n\r\nUsing slicing as a technique for debugging programs aids to understand control flow better. A slice is a subset of the program which affects the values of the point of interest, also known as a slicing criterion. Using program slicing, reasoning about your code will become much quicker and easier as you can safely ignore any not relevant parts of the program.\r\n\r\nThis talk is about building a slicing tool for Python and the journey to this solution.\n\n&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;creativeCommon&quot;, 
+            &quot;embed&quot;: &quot;&lt;iframe width=\&quot;640\&quot; height=\&quot;360\&quot; src=\&quot;//www.youtube.com/embed/S1Nx3zSkd40\&quot; frameborder=\&quot;0\&quot; allowfullscreen&gt;&lt;/iframe&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="https://i.ytimg.com/vi/S1Nx3zSkd40/hqdefault.jpg" rel="nofollow">https://i.ytimg.com/vi/S1Nx3zSkd40/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: null, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="https://www.youtube.com/watch?v=S1Nx3zSkd40" rel="nofollow">https://www.youtube.com/watch?v=S1Nx3zSkd40</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;needs editing&quot;, 
+            &quot;recorded&quot;: &quot;2015-08-04&quot;, 
+            &quot;added&quot;: &quot;2015-10-18T16:10:55.410&quot;, 
+            &quot;updated&quot;: &quot;2015-10-18T16:10:55.410&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyCon AU 2015&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;integrating-django-with-identity-management-syste&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Fraser Tweedale&quot;
+            ], 
+            &quot;tags&quot;: [], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 4042, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Integrating Django with Identity Management Systems&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;Most Django developers are familiar with authentication and\r\nauthorisation on the open web, but the requirements and technologies\r\nused inside companies and large organisations are different:\r\n\r\n- Identities and groups are probably stored in an external identity\r\n  management system&#39;s directory rather than in an application&#39;s\r\n  database tables.\r\n\r\n- Authorisation decisions will be based on group membership and\r\n  policies that are defined outside the application.\r\n\r\n- Users may be expected or required to use a *single sign-on*\r\n  technology such as Kerberos or SAML to authenticate to applications.\r\n\r\nThis talk will familiarise the audience with these technologies\r\nand demonstrate how Django applications can be integrated\r\nwith an identity management system to meet business\r\nrequirements while providing a positive user experience.  Particular\r\ntechnologies covered will include:\r\n\r\n- FreeIPA: an open-source identity management solution, for defining\r\n  users, groups and authorisation policies\r\n\r\n- mod_auth_gssapi / mod_auth_kerb: Apache modules for Kerberos\r\n  authentication\r\n\r\n- mod_lookup_identity: Apache module to retrieve user information\r\n  from a directory\r\n\r\nThe talk will conclude with discussion about upcoming Kerberos\r\nfeatures, techniques for dealing with multiple authentication\r\nmethods, and progress in making identity management integration\r\neasier for Django developers.\r\n\r\nPeople developing or deploying Django applications in business\r\nenvironments or for large open source projects with centralised\r\nidentity management will get the most out of this talk.&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;creativeCommon&quot;, 
+            &quot;embed&quot;: &quot;&lt;iframe width=\&quot;640\&quot; height=\&quot;360\&quot; src=\&quot;//www.youtube.com/embed/HhcotmeioT8\&quot; frameborder=\&quot;0\&quot; allowfullscreen&gt;&lt;/iframe&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="https://i.ytimg.com/vi/HhcotmeioT8/hqdefault.jpg" rel="nofollow">https://i.ytimg.com/vi/HhcotmeioT8/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: null, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="https://www.youtube.com/watch?v=HhcotmeioT8" rel="nofollow">https://www.youtube.com/watch?v=HhcotmeioT8</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;needs editing&quot;, 
+            &quot;recorded&quot;: &quot;2015-08-04&quot;, 
+            &quot;added&quot;: &quot;2015-11-23T19:30:05.756&quot;, 
+            &quot;updated&quot;: &quot;2015-11-23T19:30:05.756&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyCon AU 2015&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;interactive-visualization-for-the-curious&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Edward Schofield&quot;
+            ], 
+            &quot;tags&quot;: [], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 3995, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Interactive visualization for the curious&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;The workhorse plotting tool in Python for most of this century has been Matplotlib. It is stable, powerful, and comprehensive. But the plots it produces are (mostly) lifeless.\r\n\r\nThe web is now emerging as a superior visualization platform to traditional GUI backends, thanks to SVG, HTML5 Canvas, and WebGL, the speed and quality of modern browsers, and an explosion of high-quality visualization libraries in JavaScript. But what is the Python developer to do? Can we drive these browser-based capabilities from Python?\r\n\r\nThankfully, several recent Python projects are making progress toward this goal -- including MPLd3, Bokeh, and VisPy. These each have different goals and make different design decisions, but all three offer obvious advantages: being able to publish visualizations that users can interact with to extract more meaning from data.\r\n\r\nThis talk will give shiny demos and review these newer projects thoroughly vis-a-vis other libraries to help you decide whether, or when, to adopt one of them as your go-to visualization library. We will answer these questions: How does the performance compare? Would you need to rewrite all your plotting code? What would it take to integrate Bokeh or VisPy well with the current ecosystem of Python plotting libraries and data analysis tools? What is on the horizon for the different projects? Where do the Jupyter project&#39;s interactive widgets fit into this picture?\r\n\r\nCome to hear a critical review about the past, present, and future of interactive visualization in Python.\n\n&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;creativeCommon&quot;, 
+            &quot;embed&quot;: &quot;&lt;iframe width=\&quot;640\&quot; height=\&quot;360\&quot; src=\&quot;//www.youtube.com/embed/kr85Jytwy0s\&quot; frameborder=\&quot;0\&quot; allowfullscreen&gt;&lt;/iframe&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="https://i.ytimg.com/vi/kr85Jytwy0s/hqdefault.jpg" rel="nofollow">https://i.ytimg.com/vi/kr85Jytwy0s/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: null, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="https://www.youtube.com/watch?v=kr85Jytwy0s" rel="nofollow">https://www.youtube.com/watch?v=kr85Jytwy0s</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;needs editing&quot;, 
+            &quot;recorded&quot;: &quot;2015-08-04&quot;, 
+            &quot;added&quot;: &quot;2015-10-18T16:10:58.240&quot;, 
+            &quot;updated&quot;: &quot;2015-10-18T16:10:58.240&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyCon AU 2015&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;inviting-code&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Capel Brunker&quot;
+            ], 
+            &quot;tags&quot;: [], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 3998, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Inviting Code&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;Projects tend to grow, expand and reshape as they progress, this can lead to; high code maintenance, legacy code and feature addition fatigue. Implementing a well-documented and malleable software architecture is a major step in addressing these associated time sinks. This talk will discuss viable software architecture approaches \u2013 while demonstrating core python modules, concepts and design patterns from a big data perspective.\r\n\r\nMany projects welcome code addition from third party developers, however a well thought out software architecture should not be modified without; review, testing, possible cascading code and documentation changes. To remove the additional complexity of reviewing and handling third party code, designing and offering secure plugin infrastructure can allow for outside additions without the overhead. \r\n\r\nA big data visualisation python project utilised by Oxford and Cambridge universities will be used in code demonstrations to show the direct use of a project built with architecture design in mind, and a multi-level dynamic plugin infrastructure. Attendees will be provided with a clear understanding of how function documentation techniques (PEP-3107 &amp; PEP-0484) can be utilised for class clarity and how to (re)design a code base to allow for integration of third party code, while providing a concise framework for code inclusion. \r\n\r\nAreas covered in this talk include\r\n\r\n\u2022 Python 3.4 focused\r\n\u2022 Project architecture design\r\n\u2022 Abstract classes\r\n\u2022 Plugin frameworks\r\n\u2022 Documentation frameworks\r\n\u2022 Type hinting &amp; Function annotations  \r\n\u2022 Class method decorators\r\n\u2022 Code validation\r\n\u2022 Image manipulation\r\n\n\n&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;creativeCommon&quot;, 
+            &quot;embed&quot;: &quot;&lt;iframe width=\&quot;640\&quot; height=\&quot;360\&quot; src=\&quot;//www.youtube.com/embed/mByG_51ZWiQ\&quot; frameborder=\&quot;0\&quot; allowfullscreen&gt;&lt;/iframe&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="https://i.ytimg.com/vi/mByG_51ZWiQ/hqdefault.jpg" rel="nofollow">https://i.ytimg.com/vi/mByG_51ZWiQ/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: null, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="https://www.youtube.com/watch?v=mByG_51ZWiQ" rel="nofollow">https://www.youtube.com/watch?v=mByG_51ZWiQ</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;needs editing&quot;, 
+            &quot;recorded&quot;: &quot;2015-08-04&quot;, 
+            &quot;added&quot;: &quot;2015-10-18T16:10:58.619&quot;, 
+            &quot;updated&quot;: &quot;2015-10-18T16:10:58.619&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyCon AU 2015&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;is-python-ready-for-the-enterprise&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Ryan Stuart&quot;
+            ], 
+            &quot;tags&quot;: [], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 3945, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Is Python ready for the Enterprise?&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;There seems to be an opinion among some developers that Python isn&#39;t suitable for Enterprise. To put it another way, Python is great for small tasks where a scripting language works well, but not so suitable for more complicated software stacks. This talk tries to address some of these concerns. Specifically, we will look at:\n\n* Python Typing System for large code bases.\n* Is the GIL a problem?\n* The speed of Python execution.\n* The speed of Python development.\n* A case study: Caterpillar.&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;creativeCommon&quot;, 
+            &quot;embed&quot;: &quot;&lt;iframe width=\&quot;640\&quot; height=\&quot;360\&quot; src=\&quot;//www.youtube.com/embed/-Fqz_wanF1Y\&quot; frameborder=\&quot;0\&quot; allowfullscreen&gt;&lt;/iframe&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="https://i.ytimg.com/vi/-Fqz_wanF1Y/hqdefault.jpg" rel="nofollow">https://i.ytimg.com/vi/-Fqz_wanF1Y/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: null, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="https://www.youtube.com/watch?v=-Fqz_wanF1Y" rel="nofollow">https://www.youtube.com/watch?v=-Fqz_wanF1Y</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;needs editing&quot;, 
+            &quot;recorded&quot;: &quot;2015-08-04&quot;, 
+            &quot;added&quot;: &quot;2015-10-18T16:10:51.137&quot;, 
+            &quot;updated&quot;: &quot;2015-10-18T16:10:51.137&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyCon AU 2015&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;journey-to-becoming-a-developer-an-administrator&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Victor Palma&quot;
+            ], 
+            &quot;tags&quot;: [], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 3950, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Journey to becoming a Developer: an Administrators story&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;As a system operator we sometimes have to create scripts to maintain our infrastructure.  However because of DevOps some of us have taken a path to move more towards a developer role.  That journey can be a bit tough specially if you don\u2019t have the proper support in place.  Fortunately for me I had some help along the way and they gave me some direction that has improved my development.  Here is a list of small things to help you on that journey:\r\n\u2022 Changing the way we think (mindset of a developer)\r\n\u2022 Idiomatic python\r\n\u2022 Zen of Python by example\r\n\u2022 Testing\r\n\r\n\r\n&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;creativeCommon&quot;, 
+            &quot;embed&quot;: &quot;&lt;iframe width=\&quot;640\&quot; height=\&quot;360\&quot; src=\&quot;//www.youtube.com/embed/3pphvUMy4Fs\&quot; frameborder=\&quot;0\&quot; allowfullscreen&gt;&lt;/iframe&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="https://i.ytimg.com/vi/3pphvUMy4Fs/hqdefault.jpg" rel="nofollow">https://i.ytimg.com/vi/3pphvUMy4Fs/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: &quot;&quot;, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: &quot;&quot;, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: &quot;&quot;, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: &quot;&quot;, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="https://www.youtube.com/watch?v=3pphvUMy4Fs" rel="nofollow">https://www.youtube.com/watch?v=3pphvUMy4Fs</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;needs editing&quot;, 
+            &quot;recorded&quot;: &quot;2015-08-04&quot;, 
+            &quot;added&quot;: &quot;2015-10-18T16:10:51.981&quot;, 
+            &quot;updated&quot;: &quot;2015-10-18T16:26:51.782&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyCon AU 2015&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;json-standards-for-the-web&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Jamie Lennox&quot;
+            ], 
+            &quot;tags&quot;: [], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 3957, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;JSON Standards for the Web&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;RESTful APIs reign supreme! No longer do developers have to put up with SOAP\nand XML-RPC and those bulky, schema laden exchanges. JSON maps almost directly\nto python and we&#39;re flying again!\n\nOver time the chaos of free form JSON representations has subsided and a number\nof best practices have appeared such that we now expect certain patterns when\nencountering a new JSON REST API. The next step is to standardize these\npractices and start offering the predictability and code reuse we lost years\nago.\n\nThe talk will provide an overview of current attempts at standardizing JSON\nexchanges such as jsonapi, jsonhome and jsonschema.\n\n&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;creativeCommon&quot;, 
+            &quot;embed&quot;: &quot;&lt;iframe width=\&quot;640\&quot; height=\&quot;360\&quot; src=\&quot;//www.youtube.com/embed/BplV6BwAdsI\&quot; frameborder=\&quot;0\&quot; allowfullscreen&gt;&lt;/iframe&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="https://i.ytimg.com/vi/BplV6BwAdsI/hqdefault.jpg" rel="nofollow">https://i.ytimg.com/vi/BplV6BwAdsI/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: null, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="https://www.youtube.com/watch?v=BplV6BwAdsI" rel="nofollow">https://www.youtube.com/watch?v=BplV6BwAdsI</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;needs editing&quot;, 
+            &quot;recorded&quot;: &quot;2015-08-04&quot;, 
+            &quot;added&quot;: &quot;2015-10-18T16:10:53.030&quot;, 
+            &quot;updated&quot;: &quot;2015-10-18T16:10:53.030&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyCon AU 2015&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;just-use-postgres&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Rhys Elsmore&quot;
+            ], 
+            &quot;tags&quot;: [], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 3977, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Just Use Postgres.&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;Making use of the latest database for your data is considered trendy and edgy, with vendors promising unrealistic expectations when it comes to capabilities of these systems. Furthermore, communities such as Hacker News enforce the idea that you must use the latest and coolest technology in order to be a \u2018rockstar\u2019 engineer.\r\n\r\nMarketing buzzwords like \u2018real-time\u2019, \u2018distributed\u2019, \u2018high-availability\u2019, and \u2018schemaless\u2019 impact our design decisions, and the expectation for applications to be \u2018scalable\u2019 often forces developers to prematurely introduce complexity and anti-patterns into their applications by making use of these untested and immature data stores.\r\n\r\nForget about adding the latest trendy data store into your stack; just use Postgres.\r\n\r\nThis talk will explore the capabilities of Postgres 9.4, and various use-cases where you can involve it as your primary datastore. I will cover some of the projects at Heroku where we have used Postgres, such as:\r\n\r\n- Quickly querying over 300M records to get a list of all users on a particular server at a particular point in time.\r\n- Providing almost real-time aggregations of all Heroku customer\u2019s usage.\r\n- Joining 3 different tables on 3 different database servers without any external code.\r\n- Creating a \u2018social graph\u2019 of all of Heroku\u2019s users based on commonly used IP addresses.\r\n- Ensuring that coupon codes are used only once, preventing attackers from exploiting \u2018race condition\u2019 bugs.\r\n\r\n In particular, I will focus on topics such as:\r\n\r\n- Storing, indexing, and querying schemaless data.\r\n- Materialized Views.\r\n- NOTIFY/LISTEN.\r\n- Storing and querying time-series data.\r\n- Updatable views.\r\n- Foreign tables.\r\n- Recursive views.\r\n- Stored functions.\r\n- Range Types\r\n- Partitioning and Sharding data.\r\n\r\nEach topic will include links to sample schemas and iPython notebooks so you can take these examples home with you.\n\n&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;creativeCommon&quot;, 
+            &quot;embed&quot;: &quot;&lt;iframe width=\&quot;640\&quot; height=\&quot;360\&quot; src=\&quot;//www.youtube.com/embed/UgcC_bY4rPg\&quot; frameborder=\&quot;0\&quot; allowfullscreen&gt;&lt;/iframe&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="https://i.ytimg.com/vi/UgcC_bY4rPg/hqdefault.jpg" rel="nofollow">https://i.ytimg.com/vi/UgcC_bY4rPg/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: null, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="https://www.youtube.com/watch?v=UgcC_bY4rPg" rel="nofollow">https://www.youtube.com/watch?v=UgcC_bY4rPg</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;needs editing&quot;, 
+            &quot;recorded&quot;: &quot;2015-08-04&quot;, 
+            &quot;added&quot;: &quot;2015-10-18T16:10:55.651&quot;, 
+            &quot;updated&quot;: &quot;2015-10-18T16:10:55.651&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyCon AU 2015&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;karaage-gardening&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Brian May&quot;
+            ], 
+            &quot;tags&quot;: [], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 4040, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Karaage Gardening&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;Karaage is an open source Python/Django application for managing users and projects on HPC clusters. It is being used in production in a number of sites across Australia. This talk will discuss turning a messy legacy software base into a modern software platform that is much a cleaner mess (\&quot;gardening\&quot;). I will also talk about some of the lessons learnt along the way, including things that went well, and things that could have been handled better.&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;creativeCommon&quot;, 
+            &quot;embed&quot;: &quot;&lt;iframe width=\&quot;640\&quot; height=\&quot;360\&quot; src=\&quot;//www.youtube.com/embed/9yiiwcntx5M\&quot; frameborder=\&quot;0\&quot; allowfullscreen&gt;&lt;/iframe&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="https://i.ytimg.com/vi/9yiiwcntx5M/hqdefault.jpg" rel="nofollow">https://i.ytimg.com/vi/9yiiwcntx5M/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: null, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="https://www.youtube.com/watch?v=9yiiwcntx5M" rel="nofollow">https://www.youtube.com/watch?v=9yiiwcntx5M</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;needs editing&quot;, 
+            &quot;recorded&quot;: &quot;2015-08-04&quot;, 
+            &quot;added&quot;: &quot;2015-11-23T19:30:05.189&quot;, 
+            &quot;updated&quot;: &quot;2015-11-23T19:30:05.189&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyCon AU 2015&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;learn-you-a-flask&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Lachlan Blackhall&quot;
+            ], 
+            &quot;tags&quot;: [], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 3951, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Learn You a Flask&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;Flask is a Python web framework that is both lightweight and powerful. With an active community, and a diverse and versatile choice of plugins, Flask allows you to scale from simple single-URL websites through to highly complex website architectures. \r\n\r\nIn this talk we will begin by setting up a simple Flask powered website and get it running on the Heroku PaaS. We will then demonstrate how to integrate Flask and SQLAlchemy (a powerful ORM) to allow database access and get this uploaded and working on Heroku as well.\r\n\r\nFinally we will discuss some more advanced concepts and review a number of the Flask plugins to get you started on the path to building great web-based projects.\r\n\n\n&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;creativeCommon&quot;, 
+            &quot;embed&quot;: &quot;&lt;iframe width=\&quot;640\&quot; height=\&quot;360\&quot; src=\&quot;//www.youtube.com/embed/4_m-sm_DfMs\&quot; frameborder=\&quot;0\&quot; allowfullscreen&gt;&lt;/iframe&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="https://i.ytimg.com/vi/4_m-sm_DfMs/hqdefault.jpg" rel="nofollow">https://i.ytimg.com/vi/4_m-sm_DfMs/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: null, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="https://www.youtube.com/watch?v=4_m-sm_DfMs" rel="nofollow">https://www.youtube.com/watch?v=4_m-sm_DfMs</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;needs editing&quot;, 
+            &quot;recorded&quot;: &quot;2015-08-04&quot;, 
+            &quot;added&quot;: &quot;2015-10-18T16:10:52.128&quot;, 
+            &quot;updated&quot;: &quot;2015-10-18T16:10:52.128&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyCon AU 2015&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;lightning-talks-19&quot;, 
+            &quot;speakers&quot;: [], 
+            &quot;tags&quot;: [], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 3969, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Lightning talks&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;00:00 Introduction\n01:10 Marcus Holterman - Django Logging Canary\n02:54 Tim Ansell - Tim (still) has too many projects\n08:24 Russell Keith-Maggee - I am a doctor\n12:51 Steven Joeseph - Async IO TLDR edition\n20:20 Chris Beevan - Bit ID Authentication\n25:21 Xuanyi Chew - More stuff you probably didn&#39;t know about\n27:18 Aimee Marie Forsstrom - Cyber Terrorism or Terrible Code\n31:42 Rhys Elsmore - What Postgres can teach us about JavaScript\n34:38 Roman Juce - zc.buildout for repeatible builds\n38:10 Quentin Lovett - Building Robots\n41:06 Amber &#39;Hawkie&#39; Brown - Just use PyPy\n\n&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;creativeCommon&quot;, 
+            &quot;embed&quot;: &quot;&lt;iframe width=\&quot;640\&quot; height=\&quot;360\&quot; src=\&quot;//www.youtube.com/embed/MIRTtmjAKEw\&quot; frameborder=\&quot;0\&quot; allowfullscreen&gt;&lt;/iframe&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="https://i.ytimg.com/vi/MIRTtmjAKEw/hqdefault.jpg" rel="nofollow">https://i.ytimg.com/vi/MIRTtmjAKEw/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: null, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="https://www.youtube.com/watch?v=MIRTtmjAKEw" rel="nofollow">https://www.youtube.com/watch?v=MIRTtmjAKEw</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;needs editing&quot;, 
+            &quot;recorded&quot;: &quot;2015-08-04&quot;, 
+            &quot;added&quot;: &quot;2015-10-18T16:10:54.590&quot;, 
+            &quot;updated&quot;: &quot;2015-10-18T16:10:54.590&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyCon AU 2015&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;lrparsing-when-regular-expressions-arent-enough&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Clinton Roy&quot;
+            ], 
+            &quot;tags&quot;: [], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 3955, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Lrparsing, when regular expressions aren&#39;t enough&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;Lrparsing is a fast, well documented and tested parsing infrastructure for Python. Parsing infrastructures are used when the input to be parsed is too complex to be done by regular expressions alone. Parsing infrastructures are ideally suited to parsing programming languages and configuration files. Lrparsing is roughly equivalent to the combination of Flex and Bison, except completely implemented in Python, and is thus very Pythonic.\n\nThe rest of the abstract uses the following Python snippet as an example:\n\n1 if option else 2\n\nlrparsing provides both a lexer (which breaks the input down into tokens, e.g.:\n\n [&#39;1&#39;, &#39;if&#39; , &#39;option&#39;,  &#39;else&#39;, &#39;2&#39;]\n\nand a parser generator, which produces a concrete parse tree:\n\n(\u00abternary\u00bb, (\u00abbool\u00bb, &#39;option&#39;), (\u00abexpr\u00bb, &#39;1&#39;)), (\u00abexpr\u00bb, &#39;2&#39;)))\n\n Lrparsing provides Pythonic syntax support to easily construct parsers for programming languages, Domain Specific Languages and configuration file formats.\n\nLrparsing is very well suited to constructing Concrete Parse Trees but has little support for creating Abstract Syntax Trees (AST), which are much easier to use: My work has added Abstract Syntax Tree support to lrparsing, yielding exactly the same AST nodes that the Python AST module supports:\n\nIfExp(condition, 1, 2)\n\nThis talk will give an overview of the major features of Lrparsing, then look at my work to add AST support. \n\n&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;creativeCommon&quot;, 
+            &quot;embed&quot;: &quot;&lt;iframe width=\&quot;640\&quot; height=\&quot;360\&quot; src=\&quot;//www.youtube.com/embed/9PQsCmOeYwU\&quot; frameborder=\&quot;0\&quot; allowfullscreen&gt;&lt;/iframe&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="https://i.ytimg.com/vi/9PQsCmOeYwU/hqdefault.jpg" rel="nofollow">https://i.ytimg.com/vi/9PQsCmOeYwU/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: null, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="https://www.youtube.com/watch?v=9PQsCmOeYwU" rel="nofollow">https://www.youtube.com/watch?v=9PQsCmOeYwU</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;needs editing&quot;, 
+            &quot;recorded&quot;: &quot;2015-08-04&quot;, 
+            &quot;added&quot;: &quot;2015-10-18T16:10:52.730&quot;, 
+            &quot;updated&quot;: &quot;2015-10-18T16:10:52.730&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyCon AU 2015&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;many-to-many-minus-the-middleman&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Alex Hill&quot;
+            ], 
+            &quot;tags&quot;: [], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 3996, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Many-to-many, minus the middleman&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;This talk is about an alternative Django ManyToManyField implementation that uses (abuses?) PostgreSQL&#39;s full-text search engine instead of an intermediary table to store its relationships. As well as showing off some handy things you can do with this field, we&#39;ll talk along the way about full-text search in Postgres, inverted indexes, and how Django&#39;s ManyToManyField is implemented.\r\n\r\nBehind the scenes, ManyToManyField uses an intermediary table to record its relationships \u2013\u00a0a classic relational database technique you most likely mastered in Databases 101. But to believe some present-day commentators, classic relational databases with their fixed schemas and their ACID habit belong back in the 70s where they came from.\r\n\r\nEnter Postgres, the hip, switched-on parent who works as a public defender and gets on uncomfortably well with your friends. Postgres builds on a wealth of relational history while embracing modern non-relational ideas in a thoughtful, sane way.\r\n\r\nIn this talk, we&#39;ll press full-text search, one of Postgres&#39; repertoire of many useful features, into a service it performs remarkably well despite being designed for quite a different purpose. Code and benchmarks provided!\n\n&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;creativeCommon&quot;, 
+            &quot;embed&quot;: &quot;&lt;iframe width=\&quot;640\&quot; height=\&quot;360\&quot; src=\&quot;//www.youtube.com/embed/lNh-tS8i-J4\&quot; frameborder=\&quot;0\&quot; allowfullscreen&gt;&lt;/iframe&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="https://i.ytimg.com/vi/lNh-tS8i-J4/hqdefault.jpg" rel="nofollow">https://i.ytimg.com/vi/lNh-tS8i-J4/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: null, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="https://www.youtube.com/watch?v=lNh-tS8i-J4" rel="nofollow">https://www.youtube.com/watch?v=lNh-tS8i-J4</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;needs editing&quot;, 
+            &quot;recorded&quot;: &quot;2015-08-04&quot;, 
+            &quot;added&quot;: &quot;2015-10-18T16:10:58.366&quot;, 
+            &quot;updated&quot;: &quot;2015-10-18T16:10:58.366&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyCon AU 2015&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;midonet-networking-made-easy&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Pino de Candia&quot;
+            ], 
+            &quot;tags&quot;: [], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 3982, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;MidoNet: networking made easy&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;MidoNet is a Software Defined Networking solution that&#39;s currently integrated with OpenStack, Eucalyptus and Docker. We open sourced in November last year and we\u2019re working hard to build a strong community around it.\r\n\r\nThis presentation will cover MidoNet&#39;s core concepts, what distinguishes it from other SDN solutions, its core design and why you would choose it for your project/business. Or not. I&#39;ll also discuss some of the cool features that we&#39;re currently working on, especially around Multi-site Federation.\r\n\r\nYou\u2019ll be introduced to concepts like Topology Aware Switches and JIT Datapath flow computation as well as our distributed agent model. You\u2019ll learn why we strongly believe in having intelligent switches and how this impacts the overlay topology definition as well as the Network Function Virtualization implementation.\r\n\r\nMost importantly, we hope you&#39;ll head over to <a href="http://midonet.org" rel="nofollow">midonet.org</a> and take it for a spin.\n\n&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;creativeCommon&quot;, 
+            &quot;embed&quot;: &quot;&lt;iframe width=\&quot;640\&quot; height=\&quot;360\&quot; src=\&quot;//www.youtube.com/embed/YienqSky-c0\&quot; frameborder=\&quot;0\&quot; allowfullscreen&gt;&lt;/iframe&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="https://i.ytimg.com/vi/YienqSky-c0/hqdefault.jpg" rel="nofollow">https://i.ytimg.com/vi/YienqSky-c0/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: null, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="https://www.youtube.com/watch?v=YienqSky-c0" rel="nofollow">https://www.youtube.com/watch?v=YienqSky-c0</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;needs editing&quot;, 
+            &quot;recorded&quot;: &quot;2015-08-04&quot;, 
+            &quot;added&quot;: &quot;2015-10-18T16:10:56.250&quot;, 
+            &quot;updated&quot;: &quot;2015-10-18T16:10:56.250&quot;
+        }
+    ]
+}</pre>
+            </div>
+        </div>
+
+            
+
+                
+
+                
+            
+
+        </div>
+        <!-- END content-main -->
+
+    </div>
+    <!-- END Content -->
+
+        <div id="push"></div>
+
+    </div>
+
+    </div><!-- ./wrapper -->
+
+    
+    
+
+    
+    <script src="/static/rest_framework/js/jquery-1.8.1-min.js"></script>
+    <script src="/static/rest_framework/js/bootstrap.min.js"></script>
+    <script src="/static/rest_framework/js/prettify-min.js"></script>
+    <script src="/static/rest_framework/js/default.js"></script>
+    
+  </body>
+
+<!-- Mirrored from pyvideo.org/api/v2/video/?page=30&format=api by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 07 Jan 2016 03:47:49 GMT -->
+</html>

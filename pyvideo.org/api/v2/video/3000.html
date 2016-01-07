@@ -1,0 +1,191 @@
+
+
+<!DOCTYPE html>
+<html>
+    
+<!-- Mirrored from pyvideo.org/api/v2/video/3000 by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 07 Jan 2016 03:23:37 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+    
+
+        
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+        <meta name="robots" content="NONE,NOARCHIVE" />
+        
+
+        <title>Django REST framework</title>
+
+        
+        
+            <link rel="stylesheet" type="text/css" href="/static/rest_framework/css/bootstrap.min.css"/>
+            <link rel="stylesheet" type="text/css" href="/static/rest_framework/css/bootstrap-tweaks.css"/>
+        
+        <link rel="stylesheet" type="text/css" href="/static/rest_framework/css/prettify.css"/>
+        <link rel="stylesheet" type="text/css" href="/static/rest_framework/css/default.css"/>
+        
+
+    
+    </head>
+
+  <body class=" container">
+
+    <div class="wrapper">
+
+    
+    <div class="navbar navbar-inverse">
+        <div class="navbar-inner">
+            <div class="container-fluid">
+                <span href="/">
+                    <a class='brand' rel="nofollow" href='http://www.django-rest-framework.org'>Django REST framework <span class="version">2.3.14</span></a>
+                </span>
+                <ul class="nav pull-right">
+                    
+                        
+                            <li></li>
+                        
+                    
+                </ul>
+            </div>
+        </div>
+    </div>
+    
+
+    
+    <ul class="breadcrumb">
+        
+            <li>
+                <a href="/api/v2/video/" >Video List Create Api</a> <span class="divider">&rsaquo;</span>
+            </li>
+        
+            <li>
+                <a href="/api/v2/video/3000" class="active">Video Retrieve Update Api</a> 
+            </li>
+        
+    </ul>
+    
+
+    <!-- Content -->
+    <div id="content">
+
+        
+            <form id="get-form" class="pull-right">
+                <fieldset>
+                    <div class="btn-group format-selection">
+                        <a class="btn btn-primary js-tooltip" href='/api/v2/video/3000' rel="nofollow" title="Make a GET request on the Video Retrieve Update Api resource">GET</a>
+
+                        <button class="btn btn-primary dropdown-toggle js-tooltip" data-toggle="dropdown" title="Specify a format for the GET request">
+                            <span class="caret"></span>
+                        </button>
+                        <ul class="dropdown-menu">
+                            
+                                <li>
+                                    <a class="js-tooltip format-option" href='/api/v2/video/3000?format=json' rel="nofollow" title="Make a GET request on the Video Retrieve Update Api resource with the format set to `json`">json</a>
+                                </li>
+                            
+                                <li>
+                                    <a class="js-tooltip format-option" href='/api/v2/video/3000?format=api' rel="nofollow" title="Make a GET request on the Video Retrieve Update Api resource with the format set to `api`">api</a>
+                                </li>
+                            
+                        </ul>
+                    </div>
+
+                </fieldset>
+            </form>
+        
+
+        
+            <form class="button-form" action="/api/v2/video/3000" method="POST" class="pull-right">
+                <input type='hidden' name='csrfmiddlewaretoken' value='pT8iI6zhtQdsGFmu4tryYgFrUlipl2B3' />
+                <input type="hidden" name="_method" value="OPTIONS" />
+                <button class="btn btn-primary js-tooltip" title="Make an OPTIONS request on the Video Retrieve Update Api resource">OPTIONS</button>
+            </form>
+        
+
+        
+
+        <div class="content-main">
+            <div class="page-header"><h1>Video Retrieve Update Api</h1></div>
+            
+            
+            
+            <div class="request-info" style="clear: both" >
+                <pre class="prettyprint"><b>GET</b> /api/v2/video/3000</pre>
+            </div>
+            <div class="response-info">
+                <pre class="prettyprint"><div class="meta nocode"><b>HTTP 200 OK</b>
+<b>Content-Type:</b> <span class="lit">application/json</span>
+<b>Vary:</b> <span class="lit">Accept</span>
+<b>Allow:</b> <span class="lit">GET, PUT, PATCH, HEAD, OPTIONS</span>
+
+</div>{
+    &quot;category&quot;: &quot;EuroPython 2014&quot;, 
+    &quot;language&quot;: &quot;English&quot;, 
+    &quot;slug&quot;: &quot;devops-risk-mitigation-test-driven-infrastructur&quot;, 
+    &quot;speakers&quot;: [
+        &quot;Schlomo Schapiro&quot;
+    ], 
+    &quot;tags&quot;: [], 
+    &quot;related_urls&quot;: [], 
+    &quot;id&quot;: 3000, 
+    &quot;state&quot;: 1, 
+    &quot;title&quot;: &quot;DevOps Risk Mitigation: Test Driven Infrastructure&quot;, 
+    &quot;summary&quot;: &quot;The (perceived) risk of the DevOps is that too many people get the right to \&quot;break\&quot; the platform.\r\n\r\nTest Driven Infrastructure is about adapting proven ideas from our developer colleagues to the development and operations of Infrastructure services like virtualization, OS provisioning, postfix configuration, httpd configuration, ssh tuning, SAN LUN mounting and others.\r\n\r\nThis talk shows how ImmobilienScout24 utilizes more and more test driven development in IT operations to increase quality and to mitigate the risk of opening up the infrastructure developmen to all developers.&quot;, 
+    &quot;description&quot;: &quot;Common wisdom has it that the test effort should be related to the risk of a change. However, the reality is different: Developers build elaborate automated test chains to test every single commit of their application. Admins regularly \u201ctest\u201d changes on the live platform in production. But which change carries a higher risk of taking the live platform down?\r\n\r\nWhat about the software that runs at the \u201clower levels\u201d of your platform, e.g. systems automation, provisioning, proxy configuration, mail server configuration, database systems etc. An outage of any of those systems can have a financial impact that is as severe as a bug in the \u201cmain\u201d software!\r\nOne of the biggest learnings that any Ops person can learn from a Dev person is Test Driven Development. Easy to say - difficult to apply is my personal experience with the TDD challenge.\r\n\r\nThis talk throws some light on recent developments at ImmobilienScout24 that help us to develop the core of our infrastructure services with a test driven approach:\r\n\r\n* How to do unit tests, integration tests and systems tests for infrastructure services?\r\n* How to automatically verify Proxy, DNS, Postfix configurations before deploying them on live servers?\r\n* How to test \u201cdangerous\u201d services like our PXE boot environment or the automated SAN mounting scripts?\r\n* How to add a little bit of test coverage to everything we do.\r\n* Test Driven: First write a failing test and then the code that fixes it.\r\n\r\nThe tools that we use are Bash, Python, Unit Test frameworks and Teamcity for build and test automation.\r\n\r\nSee <a href="http://blog.schlomo.schapiro.org/2013/12/test-driven-infrastructure.html" rel="nofollow">http://blog.schlomo.schapiro.org/2013/12/test-driven-infrastructure.html</a> for more about this topic.\r\n&quot;, 
+    &quot;quality_notes&quot;: &quot;&quot;, 
+    &quot;copyright_text&quot;: &quot;<a href="http://creativecommons.org/licenses/by/3.0/" rel="nofollow">http://creativecommons.org/licenses/by/3.0/</a>&quot;, 
+    &quot;embed&quot;: &quot;&lt;object width=\&quot;640\&quot; height=\&quot;390\&quot;&gt;&lt;param name=\&quot;movie\&quot; value=\&quot;http://youtube.com/v/L6TtXrLmdKA?version=3&amp;amp;hl=en_US\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowFullScreen\&quot; value=\&quot;true\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowscriptaccess\&quot; value=\&quot;always\&quot;&gt;&lt;/param&gt;&lt;embed src=\&quot;http://youtube.com/v/L6TtXrLmdKA?version=3&amp;amp;hl=en_US\&quot; type=\&quot;application/x-shockwave-flash\&quot; width=\&quot;640\&quot; height=\&quot;390\&quot; allowscriptaccess=\&quot;always\&quot; allowfullscreen=\&quot;true\&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&quot;, 
+    &quot;thumbnail_url&quot;: &quot;<a href="http://i.ytimg.com/vi/L6TtXrLmdKA/hqdefault.jpg" rel="nofollow">http://i.ytimg.com/vi/L6TtXrLmdKA/hqdefault.jpg</a>&quot;, 
+    &quot;duration&quot;: null, 
+    &quot;video_ogv_length&quot;: null, 
+    &quot;video_ogv_url&quot;: &quot;&quot;, 
+    &quot;video_ogv_download_only&quot;: false, 
+    &quot;video_mp4_length&quot;: null, 
+    &quot;video_mp4_url&quot;: &quot;&quot;, 
+    &quot;video_mp4_download_only&quot;: false, 
+    &quot;video_webm_length&quot;: null, 
+    &quot;video_webm_url&quot;: &quot;&quot;, 
+    &quot;video_webm_download_only&quot;: false, 
+    &quot;video_flv_length&quot;: null, 
+    &quot;video_flv_url&quot;: &quot;&quot;, 
+    &quot;video_flv_download_only&quot;: false, 
+    &quot;source_url&quot;: &quot;<a href="http://www.youtube.com/watch?v=L6TtXrLmdKA" rel="nofollow">http://www.youtube.com/watch?v=L6TtXrLmdKA</a>&quot;, 
+    &quot;whiteboard&quot;: &quot;&quot;, 
+    &quot;recorded&quot;: &quot;2014-07-23&quot;, 
+    &quot;added&quot;: &quot;2014-07-31T00:46:30.966&quot;, 
+    &quot;updated&quot;: &quot;2014-07-31T23:20:48.497&quot;
+}</pre>
+            </div>
+        </div>
+
+            
+
+                
+
+                
+            
+
+        </div>
+        <!-- END content-main -->
+
+    </div>
+    <!-- END Content -->
+
+        <div id="push"></div>
+
+    </div>
+
+    </div><!-- ./wrapper -->
+
+    
+    
+
+    
+    <script src="/static/rest_framework/js/jquery-1.8.1-min.js"></script>
+    <script src="/static/rest_framework/js/bootstrap.min.js"></script>
+    <script src="/static/rest_framework/js/prettify-min.js"></script>
+    <script src="/static/rest_framework/js/default.js"></script>
+    
+  </body>
+
+<!-- Mirrored from pyvideo.org/api/v2/video/3000 by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 07 Jan 2016 03:23:37 GMT -->
+</html>

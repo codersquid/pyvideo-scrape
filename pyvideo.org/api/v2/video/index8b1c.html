@@ -1,0 +1,919 @@
+
+
+<!DOCTYPE html>
+<html>
+    
+<!-- Mirrored from pyvideo.org/api/v2/video/?page=33&format=api by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 07 Jan 2016 03:47:58 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+    
+
+        
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+        <meta name="robots" content="NONE,NOARCHIVE" />
+        
+
+        <title>Django REST framework</title>
+
+        
+        
+            <link rel="stylesheet" type="text/css" href="/static/rest_framework/css/bootstrap.min.css"/>
+            <link rel="stylesheet" type="text/css" href="/static/rest_framework/css/bootstrap-tweaks.css"/>
+        
+        <link rel="stylesheet" type="text/css" href="/static/rest_framework/css/prettify.css"/>
+        <link rel="stylesheet" type="text/css" href="/static/rest_framework/css/default.css"/>
+        
+
+    
+    </head>
+
+  <body class=" container">
+
+    <div class="wrapper">
+
+    
+    <div class="navbar navbar-inverse">
+        <div class="navbar-inner">
+            <div class="container-fluid">
+                <span href="/">
+                    <a class='brand' rel="nofollow" href='http://www.django-rest-framework.org'>Django REST framework <span class="version">2.3.14</span></a>
+                </span>
+                <ul class="nav pull-right">
+                    
+                        
+                            <li></li>
+                        
+                    
+                </ul>
+            </div>
+        </div>
+    </div>
+    
+
+    
+    <ul class="breadcrumb">
+        
+            <li>
+                <a href="/api/v2/video/" class="active">Video List Create Api</a> 
+            </li>
+        
+    </ul>
+    
+
+    <!-- Content -->
+    <div id="content">
+
+        
+            <form id="get-form" class="pull-right">
+                <fieldset>
+                    <div class="btn-group format-selection">
+                        <a class="btn btn-primary js-tooltip" href='/api/v2/video/?page=33&amp;format=api' rel="nofollow" title="Make a GET request on the Video List Create Api resource">GET</a>
+
+                        <button class="btn btn-primary dropdown-toggle js-tooltip" data-toggle="dropdown" title="Specify a format for the GET request">
+                            <span class="caret"></span>
+                        </button>
+                        <ul class="dropdown-menu">
+                            
+                                <li>
+                                    <a class="js-tooltip format-option" href='/api/v2/video/?page=33&format=json' rel="nofollow" title="Make a GET request on the Video List Create Api resource with the format set to `json`">json</a>
+                                </li>
+                            
+                                <li>
+                                    <a class="js-tooltip format-option" href='/api/v2/video/?page=33&format=api' rel="nofollow" title="Make a GET request on the Video List Create Api resource with the format set to `api`">api</a>
+                                </li>
+                            
+                        </ul>
+                    </div>
+
+                </fieldset>
+            </form>
+        
+
+        
+            <form class="button-form" action="/api/v2/video/?page=33&amp;format=api" method="POST" class="pull-right">
+                <input type='hidden' name='csrfmiddlewaretoken' value='pT8iI6zhtQdsGFmu4tryYgFrUlipl2B3' />
+                <input type="hidden" name="_method" value="OPTIONS" />
+                <button class="btn btn-primary js-tooltip" title="Make an OPTIONS request on the Video List Create Api resource">OPTIONS</button>
+            </form>
+        
+
+        
+
+        <div class="content-main">
+            <div class="page-header"><h1>Video List Create Api</h1></div>
+            
+            
+            
+            <div class="request-info" style="clear: both" >
+                <pre class="prettyprint"><b>GET</b> /api/v2/video/?page=33&amp;format=api</pre>
+            </div>
+            <div class="response-info">
+                <pre class="prettyprint"><div class="meta nocode"><b>HTTP 200 OK</b>
+<b>Content-Type:</b> <span class="lit">application/json</span>
+<b>Vary:</b> <span class="lit">Accept</span>
+<b>Allow:</b> <span class="lit">GET, POST, HEAD, OPTIONS</span>
+
+</div>{
+    &quot;count&quot;: 3439, 
+    &quot;next&quot;: &quot;<a href="http://pyvideo.org/api/v2/video/?page=34&amp;format=api" rel="nofollow">http://pyvideo.org/api/v2/video/?page=34&amp;format=api</a>&quot;, 
+    &quot;previous&quot;: &quot;<a href="http://pyvideo.org/api/v2/video/?page=32&amp;format=api" rel="nofollow">http://pyvideo.org/api/v2/video/?page=32&amp;format=api</a>&quot;, 
+    &quot;results&quot;: [
+        {
+            &quot;category&quot;: &quot;PyCon AU 2015&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;orchestration-and-cicd-with-ansible-and-openstac&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Simone Soldateschi&quot;
+            ], 
+            &quot;tags&quot;: [], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 4048, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Orchestration and CI/CD with Ansible and OpenStack&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;This project will demonstrate how to leverage CI/CD pipelines, to deploy and rollback applications in the Openstack Cloud. Best-practices allow to automate tasks and achieve high-degree of repeatability and robustness.\r\n\r\nJenkins will be used to implement continuous integration and continuous delivery jobs and pipelines. Packer will create images of disposable systems, being containers and Cloud servers.\r\nAnsible will be used to both create images with Packer, and eventually orchestrate provisioning of systems in staging and production environments in a blue-green fashion.\r\n\r\nDeep knowledge of deployment and workflow allows to continuously refine the process, adapt it to custom requirements, and make it smoother.\r\n\r\nThe following technologies will be presented:\r\n\r\n- Ansible\r\n- Docker on CoreOS cluster\r\n- Git repository\r\n- Jenkins\r\n- Openstack\r\n- Packer\r\n- Vagrant&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;creativeCommon&quot;, 
+            &quot;embed&quot;: &quot;&lt;iframe width=\&quot;640\&quot; height=\&quot;360\&quot; src=\&quot;//www.youtube.com/embed/QFPtArm4Wc0\&quot; frameborder=\&quot;0\&quot; allowfullscreen&gt;&lt;/iframe&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="https://i.ytimg.com/vi/QFPtArm4Wc0/hqdefault.jpg" rel="nofollow">https://i.ytimg.com/vi/QFPtArm4Wc0/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: null, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="https://www.youtube.com/watch?v=QFPtArm4Wc0" rel="nofollow">https://www.youtube.com/watch?v=QFPtArm4Wc0</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;needs editing&quot;, 
+            &quot;recorded&quot;: &quot;2015-08-03&quot;, 
+            &quot;added&quot;: &quot;2015-11-23T19:30:07.220&quot;, 
+            &quot;updated&quot;: &quot;2015-11-23T19:30:07.220&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyCon AU 2015&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;tales-from-managing-an-open-source-python-game&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Josh Bartlett&quot;
+            ], 
+            &quot;tags&quot;: [], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 3974, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Tales from Managing an Open Source Python Game&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;Ten years ago, a rag-tag bunch of computer camp leaders decided to create a game that would teach kids teamwork and strategy, and which the kids could feel a part of. In those days, the presenter was a young dreamer with time on his hands, and he chose to spearhead the project. Was this folly? You be the judge. The game was Trosnoth. It is developed in Python, using Pygame and Twisted.\r\nIn this presentation, Josh will tell the story of Trosnoth, and share some of the many lessons, both social and technical, which he learnt while managing the project. Maybe you\u2019ve considered writing a game in Python. Maybe you\u2019re not sure how Open Source projects really work. Maybe you\u2019re an experienced project manager who wants to laugh at some of the mistakes Josh made. Or maybe you just enjoy hearing Josh tell stories. Whoever you are, there\u2019s bound to be something in this presentation for you.\n\n&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;creativeCommon&quot;, 
+            &quot;embed&quot;: &quot;&lt;iframe width=\&quot;640\&quot; height=\&quot;360\&quot; src=\&quot;//www.youtube.com/embed/RgaDT3E5Esk\&quot; frameborder=\&quot;0\&quot; allowfullscreen&gt;&lt;/iframe&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="https://i.ytimg.com/vi/RgaDT3E5Esk/hqdefault.jpg" rel="nofollow">https://i.ytimg.com/vi/RgaDT3E5Esk/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: null, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="https://www.youtube.com/watch?v=RgaDT3E5Esk" rel="nofollow">https://www.youtube.com/watch?v=RgaDT3E5Esk</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;needs editing&quot;, 
+            &quot;recorded&quot;: &quot;2015-08-03&quot;, 
+            &quot;added&quot;: &quot;2015-10-18T16:10:55.288&quot;, 
+            &quot;updated&quot;: &quot;2015-10-18T16:10:55.288&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyCon AU 2015&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;teaching-programming-for-the-fun-of-it&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Peter Whitehouse&quot;
+            ], 
+            &quot;tags&quot;: [], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 4056, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Teaching Programming for the fun of IT&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;The teaching of programming concepts has come a long way in terms of tools and pedagogies but the underlying concepts appear timeless. In this session we will look at the place of programming in schools in the junior school through National Curriculum imperatives like Digital Technologies and the Information Processing and Technology perspectives and how Python can have a place here.&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;creativeCommon&quot;, 
+            &quot;embed&quot;: &quot;&lt;iframe width=\&quot;640\&quot; height=\&quot;360\&quot; src=\&quot;//www.youtube.com/embed/cnX5MGmWpXg\&quot; frameborder=\&quot;0\&quot; allowfullscreen&gt;&lt;/iframe&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="https://i.ytimg.com/vi/cnX5MGmWpXg/hqdefault.jpg" rel="nofollow">https://i.ytimg.com/vi/cnX5MGmWpXg/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: null, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="https://www.youtube.com/watch?v=cnX5MGmWpXg" rel="nofollow">https://www.youtube.com/watch?v=cnX5MGmWpXg</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;needs editing&quot;, 
+            &quot;recorded&quot;: &quot;2015-08-03&quot;, 
+            &quot;added&quot;: &quot;2015-11-23T19:30:09.232&quot;, 
+            &quot;updated&quot;: &quot;2015-11-23T19:30:09.232&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyCon AU 2015&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;the-necessity-of-configuration-and-system-managem&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Markus Holtermann&quot;
+            ], 
+            &quot;tags&quot;: [], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 3947, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;The Necessity of Configuration and System Management Tools&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;In practically every moment of our life we rely on the possibly largest communication medium humanity ever had. The Internet. Being able to at least partially understand how this *thing* works, we know that it takes a lot of work to keep it running smoothly.\r\n                                                                              \r\nTo do that IT administrators use configuration and system management tools to deploy changes to thousands of servers and keep them in sync. But how can one roll back a change done in the past that turned out to introduce a bug?\r\n                                                                              \r\nThis talk I will introduce you to configuration management and explain the problems that arise over time and make changing something back complicated or even impossible.\n\n&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;creativeCommon&quot;, 
+            &quot;embed&quot;: &quot;&lt;iframe width=\&quot;640\&quot; height=\&quot;360\&quot; src=\&quot;//www.youtube.com/embed/1NowxI9WATs\&quot; frameborder=\&quot;0\&quot; allowfullscreen&gt;&lt;/iframe&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="https://i.ytimg.com/vi/1NowxI9WATs/hqdefault.jpg" rel="nofollow">https://i.ytimg.com/vi/1NowxI9WATs/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: null, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="https://www.youtube.com/watch?v=1NowxI9WATs" rel="nofollow">https://www.youtube.com/watch?v=1NowxI9WATs</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;needs editing&quot;, 
+            &quot;recorded&quot;: &quot;2015-08-03&quot;, 
+            &quot;added&quot;: &quot;2015-10-18T16:10:51.509&quot;, 
+            &quot;updated&quot;: &quot;2015-10-18T16:10:51.509&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyCon AU 2015&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;to-ast-and-beyond&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Curtis Maloney&quot;
+            ], 
+            &quot;tags&quot;: [], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 4046, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;To AST and Beyond&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;Follow my journey of building a super fast templating engine which turns your markup into Python code through AST.\r\n\r\nUncover the power available in Python&#39;s Abstract Syntax Tree module for building and manipulating code ... in your code!&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;creativeCommon&quot;, 
+            &quot;embed&quot;: &quot;&lt;iframe width=\&quot;640\&quot; height=\&quot;360\&quot; src=\&quot;//www.youtube.com/embed/N_Q3i3oaZ6w\&quot; frameborder=\&quot;0\&quot; allowfullscreen&gt;&lt;/iframe&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="https://i.ytimg.com/vi/N_Q3i3oaZ6w/hqdefault.jpg" rel="nofollow">https://i.ytimg.com/vi/N_Q3i3oaZ6w/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: null, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="https://www.youtube.com/watch?v=N_Q3i3oaZ6w" rel="nofollow">https://www.youtube.com/watch?v=N_Q3i3oaZ6w</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;needs editing&quot;, 
+            &quot;recorded&quot;: &quot;2015-08-03&quot;, 
+            &quot;added&quot;: &quot;2015-11-23T19:30:06.831&quot;, 
+            &quot;updated&quot;: &quot;2015-11-23T19:30:06.831&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyCon AU 2015&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;using-benchmarks-to-understand-how-wsgi-servers-w&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Graham Dumpleton&quot;
+            ], 
+            &quot;tags&quot;: [], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 4049, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Using benchmarks to understand how WSGI servers work&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;During the development of a Python web application the inbuilt development web server provided by the web framework is often what is used. When moving to a production environment, one has to choose a more capable production grade WSGI deployment mechanism. Which of the various WSGI servers available is going to be the most suitable is going to depend on a range of criteria related to your specific web applications requirements.\r\n\r\nUnfortunately, rather than look at the bigger picture and what would be the most suitable across such criteria, many people will simply rush to trying to run an overly simplistic benchmark on the various WSGI servers and make the decision based purely on perceptions of whether one WSGI server is faster than the alternatives. Worse, they don&#39;t even attempt to do the benchmarks themselves and instead rely on benchmarks published on some public blog site.\r\n\r\nSuch public benchmarks as are available are often flawed, or cover such a narrow use case as to in no way be relevant to that users own specific situation.\r\n\r\nA further problem with such benchmarks is that they try and evaluate the performance of a WSGI server as if they are a black box. As such, there is no attempt to try and work out what is actually going on within the WSGI server and why it is exhibiting the behaviour it is.\r\n\r\nThe purpose of this talk is to explore a number of different micro benchmarks, using them to work out what is actually going on within a WSGI server when they are run. The analysis will delve down into, and look at the different ways that WSGI servers are implemented and deployed. The behaviour under the different benchmarks will be determined using fine grained metrics captured from hooking instrumentation into the WSGI servers themselves.\r\n\r\nAs there are many factors which could be investigated, the talk cannot be entirely comprehensive, but selected benchmarks drawing from a sub set of the following areas will be presented:\r\n\r\n* multithreading\r\n* CPU intensive tasks\r\n* long running requests\r\n* combination of short and long running requests\r\n* large request content uploads\r\n* large amounts of response content\r\n* blocking on back end services\r\n* slow HTTP clients\r\n\r\nThe tests will look not just at response times, but also server capacity utilisation, CPU and memory utilisation.\r\n\r\nAlthough the discussion will primarily revolve around WSGI servers, a comparison will also be made for some tests were one instead to use an ASYNC web application framework alone, or in conjunction with a WSGI adapter.\r\n\r\nTo conclude, an attempt will be made to summarise what you should be looking at in a WSGI server to determine if it is the right choice for your use case.&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;creativeCommon&quot;, 
+            &quot;embed&quot;: &quot;&lt;iframe width=\&quot;640\&quot; height=\&quot;360\&quot; src=\&quot;//www.youtube.com/embed/SGleKfigMsk\&quot; frameborder=\&quot;0\&quot; allowfullscreen&gt;&lt;/iframe&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="https://i.ytimg.com/vi/SGleKfigMsk/hqdefault.jpg" rel="nofollow">https://i.ytimg.com/vi/SGleKfigMsk/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: null, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="https://www.youtube.com/watch?v=SGleKfigMsk" rel="nofollow">https://www.youtube.com/watch?v=SGleKfigMsk</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;needs editing&quot;, 
+            &quot;recorded&quot;: &quot;2015-08-03&quot;, 
+            &quot;added&quot;: &quot;2015-11-23T19:30:07.412&quot;, 
+            &quot;updated&quot;: &quot;2015-11-23T19:30:07.412&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyCon AU 2015&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;using-pycharm-educational-edition&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Thea Koutsoukis&quot;
+            ], 
+            &quot;tags&quot;: [], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 4062, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Using PyCharm Educational Edition&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;Late last year, JetBrains released a new version of their PyCharm IDE - the Educational Edition. This version has an integrated Python console, Debugger and Version Control System, along with educational features like the ability to create and deliver \&quot;fill in the missing code\&quot; exercises.\r\nThis talk highlights my experiences using PyCharm Lessons to teach beginners Python. \r\nAs a fairly new piece of software, there are a number of bugs that can cause a lot of pain when first starting out. This talk will demonstrate the steps to creating lessons and tests, publishing them and sharing them with students, while avoiding problems with the system. \r\nI will also share thoughts on using an IDE with beginners, how students have reacted and what kind of lessons have been successful.&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;creativeCommon&quot;, 
+            &quot;embed&quot;: &quot;&lt;iframe width=\&quot;640\&quot; height=\&quot;360\&quot; src=\&quot;//www.youtube.com/embed/kGJVDOaBkKU\&quot; frameborder=\&quot;0\&quot; allowfullscreen&gt;&lt;/iframe&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="https://i.ytimg.com/vi/kGJVDOaBkKU/hqdefault.jpg" rel="nofollow">https://i.ytimg.com/vi/kGJVDOaBkKU/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: null, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="https://www.youtube.com/watch?v=kGJVDOaBkKU" rel="nofollow">https://www.youtube.com/watch?v=kGJVDOaBkKU</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;needs editing&quot;, 
+            &quot;recorded&quot;: &quot;2015-08-03&quot;, 
+            &quot;added&quot;: &quot;2015-11-23T19:30:11.311&quot;, 
+            &quot;updated&quot;: &quot;2015-11-23T19:30:11.311&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyCon AU 2015&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;why-salt&quot;, 
+            &quot;speakers&quot;: [
+                &quot;aurynn shaw&quot;
+            ], 
+            &quot;tags&quot;: [], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 4065, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Why Salt?&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;DevOps is a growing movement in the tech community, and configuration management is a huge necessity for doing DevOps well.\r\nIn this talk, we&#39;ll be talking about why you should use the SaltStack configuration management platform in your environment, versus the other major platforms of Puppet and Chef.&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;creativeCommon&quot;, 
+            &quot;embed&quot;: &quot;&lt;iframe width=\&quot;640\&quot; height=\&quot;360\&quot; src=\&quot;//www.youtube.com/embed/q86LUTxCDPg\&quot; frameborder=\&quot;0\&quot; allowfullscreen&gt;&lt;/iframe&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="https://i.ytimg.com/vi/q86LUTxCDPg/hqdefault.jpg" rel="nofollow">https://i.ytimg.com/vi/q86LUTxCDPg/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: null, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="https://www.youtube.com/watch?v=q86LUTxCDPg" rel="nofollow">https://www.youtube.com/watch?v=q86LUTxCDPg</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;needs editing&quot;, 
+            &quot;recorded&quot;: &quot;2015-08-03&quot;, 
+            &quot;added&quot;: &quot;2015-11-23T19:30:12.891&quot;, 
+            &quot;updated&quot;: &quot;2015-11-23T19:30:12.891&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyOhio 2015&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;a-trip-to-the-spa&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Mike Griffith&quot;
+            ], 
+            &quot;tags&quot;: [
+                &quot;talk&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 3711, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;A Trip to the SPA&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;Modern web application experiences demand Single-Page-Application architectures. Join us on a journey building a simple kanban board with Flask and AngularJS.  We&#39;ll hack together a simple server API with Flask-SQLAlchemy and Flask-Marshmallow, then link it into a Bootstrap frontend with ngResource.&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;CC BY&quot;, 
+            &quot;embed&quot;: &quot;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="https://i.ytimg.com/vi/l4TqiHtjuKc/hqdefault.jpg" rel="nofollow">https://i.ytimg.com/vi/l4TqiHtjuKc/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: 1759, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: &quot;<a href="http://64966d3674e0a64d8f4a-47c94b14ef8e1f83d5390cdb0629c6ed.r53.cf2.rackcdn.com/pyohio-2015/3711_A_Trip_to_the_SPA.mp4" rel="nofollow">http://64966d3674e0a64d8f4a-47c94b14ef8e1f83d5390cdb0629c6ed.r53.cf2.rackcdn.com/pyohio-2015/3711_A_Trip_to_the_SPA.mp4</a>&quot;, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="http://youtu.be/l4TqiHtjuKc" rel="nofollow">http://youtu.be/l4TqiHtjuKc</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2015-08-02&quot;, 
+            &quot;added&quot;: &quot;2015-07-22T20:49:50.962&quot;, 
+            &quot;updated&quot;: &quot;2015-08-03T12:13:22.829&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyOhio 2015&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;catching-the-bus-on-time-using-python-a-pebbl&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Robert Heinen&quot;
+            ], 
+            &quot;tags&quot;: [
+                &quot;talk&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 3710, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Catching the bus on time -- Using Python, a Pebble Watch and (kind of) Open Data&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;Taking the bus used to be hard. You&#39;d have to find a timetable, map out your route, and then cross your fingers that the bus actually showed up on time! Modern transit systems have equipped their fleet with GPS devices which provide near real-time location information. Using open data systems, a Python webapp, and a Pebble watch, let&#39;s build a bus time tracker that would make Dick Tracy envious!&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;CC BY&quot;, 
+            &quot;embed&quot;: &quot;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="https://i.ytimg.com/vi/dZQYeoH0Ni0/hqdefault.jpg" rel="nofollow">https://i.ytimg.com/vi/dZQYeoH0Ni0/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: 2541, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: &quot;<a href="http://64966d3674e0a64d8f4a-47c94b14ef8e1f83d5390cdb0629c6ed.r53.cf2.rackcdn.com/pyohio-2015/3710_Catching_the_bus_on_time_Using_Python_a_Pebble_Wat.mp4" rel="nofollow">http://64966d3674e0a64d8f4a-47c94b14ef8e1f83d5390cdb0629c6ed.r53.cf2.rackcdn.com/pyohio-2015/3710_Catching_the_bus_on_time_Using_Python_a_Pebble_Wat.mp4</a>&quot;, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="http://youtu.be/dZQYeoH0Ni0" rel="nofollow">http://youtu.be/dZQYeoH0Ni0</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2015-08-02&quot;, 
+            &quot;added&quot;: &quot;2015-07-22T20:49:49.811&quot;, 
+            &quot;updated&quot;: &quot;2015-08-03T12:13:20.489&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyOhio 2015&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;developing-a-restful-python-service-on-windows&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Joel B. Mohler&quot;
+            ], 
+            &quot;tags&quot;: [
+                &quot;talk&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 3697, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Developing a RESTful Python service on Windows&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;This talk will walk you through the development and design experience of the speaker creating a Python web service on Windows.  It will give an overview of integrating a WSGI server with Microsoft IIS or other alternatives.  In addition to the operational server infrastructure, this talk includes some discussion of RESTful practices and client side code.&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;CC BY&quot;, 
+            &quot;embed&quot;: &quot;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="https://i.ytimg.com/vi/3tJjv88Bwio/hqdefault.jpg" rel="nofollow">https://i.ytimg.com/vi/3tJjv88Bwio/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: 3000, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: &quot;<a href="http://64966d3674e0a64d8f4a-47c94b14ef8e1f83d5390cdb0629c6ed.r53.cf2.rackcdn.com/pyohio-2015/3697_Developing_a_RESTful_Python_service_on_Windows.mp4" rel="nofollow">http://64966d3674e0a64d8f4a-47c94b14ef8e1f83d5390cdb0629c6ed.r53.cf2.rackcdn.com/pyohio-2015/3697_Developing_a_RESTful_Python_service_on_Windows.mp4</a>&quot;, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="http://youtu.be/3tJjv88Bwio" rel="nofollow">http://youtu.be/3tJjv88Bwio</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2015-08-02&quot;, 
+            &quot;added&quot;: &quot;2015-07-22T20:49:35.206&quot;, 
+            &quot;updated&quot;: &quot;2015-09-16T22:41:58.718&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyOhio 2015&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;fumbling-forward-docker-donts&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Jason M. Green&quot;
+            ], 
+            &quot;tags&quot;: [
+                &quot;talk&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 3691, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Fumbling Forward - Docker Don&#39;ts&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;Questing for the continuous-deployment grail, I&#39;ve had plenty of pit and prat falls. Perhaps others can learn from my mistakes and do as I didn&#39;t.  This talk will demonstrate how [not] to stitch together Docker, Compose, Machine, Boot2Docker, YAML, CircleCI, EC2, Route53, and likely a few other tools into a simple yet automated code -&gt; commit -&gt; review -&gt; deploy process. \r\n\r\n\r\n&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;CC BY&quot;, 
+            &quot;embed&quot;: &quot;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="https://i.ytimg.com/vi/ZLv2ROatlik/hqdefault.jpg" rel="nofollow">https://i.ytimg.com/vi/ZLv2ROatlik/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: 2715, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: &quot;&quot;, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: &quot;<a href="http://64966d3674e0a64d8f4a-47c94b14ef8e1f83d5390cdb0629c6ed.r53.cf2.rackcdn.com/pyohio-2015/3691_Fumbling_Forward_Docker_Donts.mp4" rel="nofollow">http://64966d3674e0a64d8f4a-47c94b14ef8e1f83d5390cdb0629c6ed.r53.cf2.rackcdn.com/pyohio-2015/3691_Fumbling_Forward_Docker_Donts.mp4</a>&quot;, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: &quot;&quot;, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: &quot;&quot;, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="http://youtu.be/ZLv2ROatlik" rel="nofollow">http://youtu.be/ZLv2ROatlik</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2015-08-02&quot;, 
+            &quot;added&quot;: &quot;2015-07-22T20:49:28.519&quot;, 
+            &quot;updated&quot;: &quot;2015-08-11T01:24:28.267&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyOhio 2015&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;growler-using-asyncio-to-build-a-web-framework&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Andrew Kubera&quot;
+            ], 
+            &quot;tags&quot;: [
+                &quot;talk&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 3686, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Growler - Using asyncio to Build a Web Framework&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;The asyncio library introduced a native way for python programs to handle multiple network connections with one thread, asynchronously. Inspired by the Express framework for nodejs, I set out to write my own web server using the new library. This is what I&#39;ve learned.\r\n&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;CC BY&quot;, 
+            &quot;embed&quot;: &quot;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="https://i.ytimg.com/vi/vs7XOn1TXVQ/hqdefault.jpg" rel="nofollow">https://i.ytimg.com/vi/vs7XOn1TXVQ/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: 2476, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: &quot;<a href="http://64966d3674e0a64d8f4a-47c94b14ef8e1f83d5390cdb0629c6ed.r53.cf2.rackcdn.com/pyohio-2015/3686_Growler_Using_asyncio_to_Build_a_Web_Framework.mp4" rel="nofollow">http://64966d3674e0a64d8f4a-47c94b14ef8e1f83d5390cdb0629c6ed.r53.cf2.rackcdn.com/pyohio-2015/3686_Growler_Using_asyncio_to_Build_a_Web_Framework.mp4</a>&quot;, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="http://youtu.be/vs7XOn1TXVQ" rel="nofollow">http://youtu.be/vs7XOn1TXVQ</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2015-08-02&quot;, 
+            &quot;added&quot;: &quot;2015-07-22T20:49:22.757&quot;, 
+            &quot;updated&quot;: &quot;2015-09-16T22:41:53.952&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyOhio 2015&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;introduction-to-pyschoolnet&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Billy Earney&quot;
+            ], 
+            &quot;tags&quot;: [
+                &quot;talk&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 3715, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Introduction to <a href="http://PySchool.net" rel="nofollow">PySchool.net</a>&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;<a href="http://PySchool.net" rel="nofollow">PySchool.net</a> is a Python programming environment where students can create, edit, load, save and execute Python scripts directly in a browser.  The main directives of <a href="http://PySchool.net" rel="nofollow">PySchool.net</a> is to be free for educators and students, and to reduce the technological burdens of hosting programming classes.  <a href="http://PySchool.net" rel="nofollow">PySchool.net</a>  is powered by Brython, and is 100% open source and is hosted on github.\r\n\r\n&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;CC BY&quot;, 
+            &quot;embed&quot;: &quot;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="https://i.ytimg.com/vi/SBJR1WCBC0c/hqdefault.jpg" rel="nofollow">https://i.ytimg.com/vi/SBJR1WCBC0c/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: 1425, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: &quot;<a href="http://64966d3674e0a64d8f4a-47c94b14ef8e1f83d5390cdb0629c6ed.r53.cf2.rackcdn.com/pyohio-2015/3715_Introduction_to_PySchoolnet.mp4" rel="nofollow">http://64966d3674e0a64d8f4a-47c94b14ef8e1f83d5390cdb0629c6ed.r53.cf2.rackcdn.com/pyohio-2015/3715_Introduction_to_PySchoolnet.mp4</a>&quot;, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="http://youtu.be/SBJR1WCBC0c" rel="nofollow">http://youtu.be/SBJR1WCBC0c</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2015-08-02&quot;, 
+            &quot;added&quot;: &quot;2015-07-22T20:49:55.714&quot;, 
+            &quot;updated&quot;: &quot;2015-08-05T09:46:11.814&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyOhio 2015&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;making-sense-of-cors-using-webpy&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Zach Wick&quot;
+            ], 
+            &quot;tags&quot;: [
+                &quot;talk&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 3704, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Making sense of CORS using web.py&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;Cross-Origin Resource Sharing is the bane of Javascript API clients existence. It is possible to easily implement CORS support in your Python server code with just a few simple request headers. Once your API is talking CORS, you are free from the tyranny of browsers&#39; same-origin security policies. This talk will explain what CORS is, why should care, and work through an example using web.py.&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;CC BY&quot;, 
+            &quot;embed&quot;: &quot;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="https://i.ytimg.com/vi/gZelOtYjYv8/hqdefault.jpg" rel="nofollow">https://i.ytimg.com/vi/gZelOtYjYv8/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: 2746, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: &quot;<a href="http://64966d3674e0a64d8f4a-47c94b14ef8e1f83d5390cdb0629c6ed.r53.cf2.rackcdn.com/pyohio-2015/3704_Making_sense_of_CORS_using_webpy.mp4" rel="nofollow">http://64966d3674e0a64d8f4a-47c94b14ef8e1f83d5390cdb0629c6ed.r53.cf2.rackcdn.com/pyohio-2015/3704_Making_sense_of_CORS_using_webpy.mp4</a>&quot;, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="http://youtu.be/gZelOtYjYv8" rel="nofollow">http://youtu.be/gZelOtYjYv8</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2015-08-02&quot;, 
+            &quot;added&quot;: &quot;2015-07-22T20:49:43.071&quot;, 
+            &quot;updated&quot;: &quot;2015-09-16T22:42:03.299&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyOhio 2015&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;more-lightning-talks&quot;, 
+            &quot;speakers&quot;: [], 
+            &quot;tags&quot;: [
+                &quot;lightning&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 3717, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;**More lightning talks!**&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;* [(0:00:00)](http://youtu.be/mKK2GKxFMSE?t=0h0m0s) 2015 was great, 2016 needs you. Eric and Brian\r\n* [(0:03:06)](http://youtu.be/mKK2GKxFMSE?t=0h3m6s) Issue trackers for your town. - Chad Whitacre\r\n* [(0:07:48)](http://youtu.be/mKK2GKxFMSE?t=0h7m48s) How much can I share with five minutes? -Ron DuPlain\r\n* [(0:12:55)](http://youtu.be/mKK2GKxFMSE?t=0h12m55s) Computer colors importance. -Scott Sievert\r\n* [(0:17:02)](http://youtu.be/mKK2GKxFMSE?t=0h17m2s) Piecing together a story with Google Maps. Lars\r\n* [(0:22:06)](http://youtu.be/mKK2GKxFMSE?t=0h22m6s) Back to the Cheese Shop. -Cameron\r\n* [(0:22:52)](http://youtu.be/mKK2GKxFMSE?t=0h22m52s) Logging Framework and Postgres -Matthew Wilson\r\n* [(0:25:40)](http://youtu.be/mKK2GKxFMSE?t=0h25m40s) Conda and Virtualenv -Brain Costlow\r\n* [(0:30:30)](http://youtu.be/mKK2GKxFMSE?t=0h30m30s) PyOhio 2017 -Brain Costlow\r\n* [(0:33:15)](http://youtu.be/mKK2GKxFMSE?t=0h33m15s) All good things come to an end -Lars&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;CC BY&quot;, 
+            &quot;embed&quot;: &quot;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="https://i.ytimg.com/vi/mKK2GKxFMSE/hqdefault.jpg" rel="nofollow">https://i.ytimg.com/vi/mKK2GKxFMSE/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: 2240, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: &quot;&quot;, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: &quot;<a href="http://64966d3674e0a64d8f4a-47c94b14ef8e1f83d5390cdb0629c6ed.r53.cf2.rackcdn.com/pyohio-2015/3717_More_lightning_talks.mp4" rel="nofollow">http://64966d3674e0a64d8f4a-47c94b14ef8e1f83d5390cdb0629c6ed.r53.cf2.rackcdn.com/pyohio-2015/3717_More_lightning_talks.mp4</a>&quot;, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: &quot;&quot;, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: &quot;&quot;, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="http://youtu.be/mKK2GKxFMSE" rel="nofollow">http://youtu.be/mKK2GKxFMSE</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2015-08-02&quot;, 
+            &quot;added&quot;: &quot;2015-07-22T20:49:57.954&quot;, 
+            &quot;updated&quot;: &quot;2015-09-18T13:28:09.542&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyOhio 2015&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;production-django-building-a-highly-scalable-se&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Joseph Mosby&quot;
+            ], 
+            &quot;tags&quot;: [
+                &quot;talk&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 3712, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Production Django: Building a Highly Scalable, Secure Django Site&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;When your Django application is ready for primetime, how do you ensure that it won&#39;t crash the second real users begin interacting with it? In this talk, we&#39;ll discuss building secure, scalable Django applications and the infrastructure they need to stand up to the test of production.&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;CC BY&quot;, 
+            &quot;embed&quot;: &quot;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="https://i.ytimg.com/vi/VSMyzNgMxro/hqdefault.jpg" rel="nofollow">https://i.ytimg.com/vi/VSMyzNgMxro/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: 2460, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: &quot;<a href="http://64966d3674e0a64d8f4a-47c94b14ef8e1f83d5390cdb0629c6ed.r53.cf2.rackcdn.com/pyohio-2015/3712_Production_Django_Building_a_Highly_Scalable_Secur.mp4" rel="nofollow">http://64966d3674e0a64d8f4a-47c94b14ef8e1f83d5390cdb0629c6ed.r53.cf2.rackcdn.com/pyohio-2015/3712_Production_Django_Building_a_Highly_Scalable_Secur.mp4</a>&quot;, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="http://youtu.be/VSMyzNgMxro" rel="nofollow">http://youtu.be/VSMyzNgMxro</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2015-08-02&quot;, 
+            &quot;added&quot;: &quot;2015-07-22T20:49:52.209&quot;, 
+            &quot;updated&quot;: &quot;2015-08-03T09:10:55.971&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyOhio 2015&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;python-for-economists-an-overview-of-python-tool&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Gary Hlusko&quot;
+            ], 
+            &quot;tags&quot;: [
+                &quot;talk&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 3702, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Python for Economists: An overview of Python tools for Economists&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;Python has developed applications in GIS, text analysis, networks, statistics, csv manipulation, data analysis, data mining and simulations. Despite this, there are few references for using python as an economist. This talk provides an introduction to economic tools using python. I conclude with python in data analysis and future projects for economists using python.&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;CC BY&quot;, 
+            &quot;embed&quot;: &quot;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="https://i.ytimg.com/vi/fi6aKSaHkjY/hqdefault.jpg" rel="nofollow">https://i.ytimg.com/vi/fi6aKSaHkjY/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: 2636, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: &quot;<a href="http://64966d3674e0a64d8f4a-47c94b14ef8e1f83d5390cdb0629c6ed.r53.cf2.rackcdn.com/pyohio-2015/3702_Python_for_Economists_An_overview_of_Python_tools_.mp4" rel="nofollow">http://64966d3674e0a64d8f4a-47c94b14ef8e1f83d5390cdb0629c6ed.r53.cf2.rackcdn.com/pyohio-2015/3702_Python_for_Economists_An_overview_of_Python_tools_.mp4</a>&quot;, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="http://youtu.be/fi6aKSaHkjY" rel="nofollow">http://youtu.be/fi6aKSaHkjY</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2015-08-02&quot;, 
+            &quot;added&quot;: &quot;2015-07-22T20:49:40.837&quot;, 
+            &quot;updated&quot;: &quot;2015-09-16T22:42:01.660&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyOhio 2015&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;python-packaging-from-init-to-deploy&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Dave Forgac&quot;
+            ], 
+            &quot;tags&quot;: [
+                &quot;talk&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 3685, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Python Packaging from Init to Deploy&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;Python packaging really isn&#39;t that bad (anymore.) In this talk you&#39;ll learn how you can take your beautiful new Python code and share it with the world in a way that everyone benefits. I will cover tools and techniques you can use to get the boring stuff out of the way so you can focus on your code and deploy quickly, frequently, and consistently.&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;CC BY&quot;, 
+            &quot;embed&quot;: &quot;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="https://i.ytimg.com/vi/4fzAMdLKC5k/hqdefault.jpg" rel="nofollow">https://i.ytimg.com/vi/4fzAMdLKC5k/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: 2167, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: &quot;<a href="http://64966d3674e0a64d8f4a-47c94b14ef8e1f83d5390cdb0629c6ed.r53.cf2.rackcdn.com/pyohio-2015/3685_Python_Packaging_from_Init_to_Deploy.mp4" rel="nofollow">http://64966d3674e0a64d8f4a-47c94b14ef8e1f83d5390cdb0629c6ed.r53.cf2.rackcdn.com/pyohio-2015/3685_Python_Packaging_from_Init_to_Deploy.mp4</a>&quot;, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="http://youtu.be/4fzAMdLKC5k" rel="nofollow">http://youtu.be/4fzAMdLKC5k</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2015-08-02&quot;, 
+            &quot;added&quot;: &quot;2015-07-22T20:49:21.629&quot;, 
+            &quot;updated&quot;: &quot;2015-08-08T12:54:58.101&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyOhio 2015&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;repl-driven-development&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Thomas Ballinger&quot;
+            ], 
+            &quot;tags&quot;: [
+                &quot;talk&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 3705, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;REPL-driven development&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;You know the Read-Evaluate-Print-Loop you get when you type python, ipython or bpython? You should spend more time in it!\r\nThis talk describes development workflows using a REPL and their associated pitfalls. IPython and bpython features useful for writing, testing, debugging and using code will\r\nbe sprinkled throughout.&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;CC BY&quot;, 
+            &quot;embed&quot;: &quot;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="https://i.ytimg.com/vi/EwI-e3WlTew/hqdefault.jpg" rel="nofollow">https://i.ytimg.com/vi/EwI-e3WlTew/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: 2797, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: &quot;<a href="http://64966d3674e0a64d8f4a-47c94b14ef8e1f83d5390cdb0629c6ed.r53.cf2.rackcdn.com/pyohio-2015/3705_REPLdriven_development.mp4" rel="nofollow">http://64966d3674e0a64d8f4a-47c94b14ef8e1f83d5390cdb0629c6ed.r53.cf2.rackcdn.com/pyohio-2015/3705_REPLdriven_development.mp4</a>&quot;, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="http://youtu.be/EwI-e3WlTew" rel="nofollow">http://youtu.be/EwI-e3WlTew</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2015-08-02&quot;, 
+            &quot;added&quot;: &quot;2015-07-22T20:49:44.172&quot;, 
+            &quot;updated&quot;: &quot;2015-08-05T09:46:10.125&quot;
+        }
+    ]
+}</pre>
+            </div>
+        </div>
+
+            
+
+                
+
+                
+            
+
+        </div>
+        <!-- END content-main -->
+
+    </div>
+    <!-- END Content -->
+
+        <div id="push"></div>
+
+    </div>
+
+    </div><!-- ./wrapper -->
+
+    
+    
+
+    
+    <script src="/static/rest_framework/js/jquery-1.8.1-min.js"></script>
+    <script src="/static/rest_framework/js/bootstrap.min.js"></script>
+    <script src="/static/rest_framework/js/prettify-min.js"></script>
+    <script src="/static/rest_framework/js/default.js"></script>
+    
+  </body>
+
+<!-- Mirrored from pyvideo.org/api/v2/video/?page=33&format=api by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 07 Jan 2016 03:47:58 GMT -->
+</html>

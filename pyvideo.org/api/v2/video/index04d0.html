@@ -1,0 +1,907 @@
+
+
+<!DOCTYPE html>
+<html>
+    
+<!-- Mirrored from pyvideo.org/api/v2/video/?page=101&format=api by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 07 Jan 2016 03:51:12 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+    
+
+        
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+        <meta name="robots" content="NONE,NOARCHIVE" />
+        
+
+        <title>Django REST framework</title>
+
+        
+        
+            <link rel="stylesheet" type="text/css" href="/static/rest_framework/css/bootstrap.min.css"/>
+            <link rel="stylesheet" type="text/css" href="/static/rest_framework/css/bootstrap-tweaks.css"/>
+        
+        <link rel="stylesheet" type="text/css" href="/static/rest_framework/css/prettify.css"/>
+        <link rel="stylesheet" type="text/css" href="/static/rest_framework/css/default.css"/>
+        
+
+    
+    </head>
+
+  <body class=" container">
+
+    <div class="wrapper">
+
+    
+    <div class="navbar navbar-inverse">
+        <div class="navbar-inner">
+            <div class="container-fluid">
+                <span href="/">
+                    <a class='brand' rel="nofollow" href='http://www.django-rest-framework.org'>Django REST framework <span class="version">2.3.14</span></a>
+                </span>
+                <ul class="nav pull-right">
+                    
+                        
+                            <li></li>
+                        
+                    
+                </ul>
+            </div>
+        </div>
+    </div>
+    
+
+    
+    <ul class="breadcrumb">
+        
+            <li>
+                <a href="/api/v2/video/" class="active">Video List Create Api</a> 
+            </li>
+        
+    </ul>
+    
+
+    <!-- Content -->
+    <div id="content">
+
+        
+            <form id="get-form" class="pull-right">
+                <fieldset>
+                    <div class="btn-group format-selection">
+                        <a class="btn btn-primary js-tooltip" href='/api/v2/video/?page=101&amp;format=api' rel="nofollow" title="Make a GET request on the Video List Create Api resource">GET</a>
+
+                        <button class="btn btn-primary dropdown-toggle js-tooltip" data-toggle="dropdown" title="Specify a format for the GET request">
+                            <span class="caret"></span>
+                        </button>
+                        <ul class="dropdown-menu">
+                            
+                                <li>
+                                    <a class="js-tooltip format-option" href='/api/v2/video/?page=101&format=json' rel="nofollow" title="Make a GET request on the Video List Create Api resource with the format set to `json`">json</a>
+                                </li>
+                            
+                                <li>
+                                    <a class="js-tooltip format-option" href='/api/v2/video/?page=101&format=api' rel="nofollow" title="Make a GET request on the Video List Create Api resource with the format set to `api`">api</a>
+                                </li>
+                            
+                        </ul>
+                    </div>
+
+                </fieldset>
+            </form>
+        
+
+        
+            <form class="button-form" action="/api/v2/video/?page=101&amp;format=api" method="POST" class="pull-right">
+                <input type='hidden' name='csrfmiddlewaretoken' value='pT8iI6zhtQdsGFmu4tryYgFrUlipl2B3' />
+                <input type="hidden" name="_method" value="OPTIONS" />
+                <button class="btn btn-primary js-tooltip" title="Make an OPTIONS request on the Video List Create Api resource">OPTIONS</button>
+            </form>
+        
+
+        
+
+        <div class="content-main">
+            <div class="page-header"><h1>Video List Create Api</h1></div>
+            
+            
+            
+            <div class="request-info" style="clear: both" >
+                <pre class="prettyprint"><b>GET</b> /api/v2/video/?page=101&amp;format=api</pre>
+            </div>
+            <div class="response-info">
+                <pre class="prettyprint"><div class="meta nocode"><b>HTTP 200 OK</b>
+<b>Content-Type:</b> <span class="lit">application/json</span>
+<b>Vary:</b> <span class="lit">Accept</span>
+<b>Allow:</b> <span class="lit">GET, POST, HEAD, OPTIONS</span>
+
+</div>{
+    &quot;count&quot;: 3439, 
+    &quot;next&quot;: &quot;<a href="http://pyvideo.org/api/v2/video/?page=102&amp;format=api" rel="nofollow">http://pyvideo.org/api/v2/video/?page=102&amp;format=api</a>&quot;, 
+    &quot;previous&quot;: &quot;<a href="http://pyvideo.org/api/v2/video/?page=100&amp;format=api" rel="nofollow">http://pyvideo.org/api/v2/video/?page=100&amp;format=api</a>&quot;, 
+    &quot;results&quot;: [
+        {
+            &quot;category&quot;: &quot;DjangoCon AU 2013&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;keynote-the-myth-of-goldilocks-and-the-three-fra&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Dylan Jay&quot;
+            ], 
+            &quot;tags&quot;: [], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 2249, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Keynote: The myth of goldilocks and the three frameworks, Pyramid, Django and Plone&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;CC-BY-SA&quot;, 
+            &quot;embed&quot;: &quot;&lt;object width=\&quot;640\&quot; height=\&quot;390\&quot;&gt;&lt;param name=\&quot;movie\&quot; value=\&quot;http://youtube.com/v/vW1ZhO-_ZQk?version=3&amp;amp;hl=en_US\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowFullScreen\&quot; value=\&quot;true\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowscriptaccess\&quot; value=\&quot;always\&quot;&gt;&lt;/param&gt;&lt;embed src=\&quot;http://youtube.com/v/vW1ZhO-_ZQk?version=3&amp;amp;hl=en_US\&quot; type=\&quot;application/x-shockwave-flash\&quot; width=\&quot;640\&quot; height=\&quot;390\&quot; allowscriptaccess=\&quot;always\&quot; allowfullscreen=\&quot;true\&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://i1.ytimg.com/vi/vW1ZhO-_ZQk/hqdefault.jpg" rel="nofollow">http://i1.ytimg.com/vi/vW1ZhO-_ZQk/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: 50, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: &quot;&quot;, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: &quot;<a href="http://s3.us.archive.org/ndvpyconau2013/Keynote_The_myth_of_goldilocks.mp4" rel="nofollow">http://s3.us.archive.org/ndvpyconau2013/Keynote_The_myth_of_goldilocks.mp4</a>&quot;, 
+            &quot;video_mp4_download_only&quot;: true, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="https://www.youtube.com/watch?v=vW1ZhO-_ZQk" rel="nofollow">https://www.youtube.com/watch?v=vW1ZhO-_ZQk</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2013-07-05&quot;, 
+            &quot;added&quot;: &quot;2013-07-13T01:07:24&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:26.311&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;OpenStack Pycon AU 2013&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;nova-v3-api&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Christopher Yeoh&quot;
+            ], 
+            &quot;tags&quot;: [], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 2253, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Nova v3 API&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;CC-BY-SA&quot;, 
+            &quot;embed&quot;: &quot;&lt;object width=\&quot;640\&quot; height=\&quot;390\&quot;&gt;&lt;param name=\&quot;movie\&quot; value=\&quot;http://youtube.com/v/cXQ6abwqjg0?version=3&amp;amp;hl=en_US\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowFullScreen\&quot; value=\&quot;true\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowscriptaccess\&quot; value=\&quot;always\&quot;&gt;&lt;/param&gt;&lt;embed src=\&quot;http://youtube.com/v/cXQ6abwqjg0?version=3&amp;amp;hl=en_US\&quot; type=\&quot;application/x-shockwave-flash\&quot; width=\&quot;640\&quot; height=\&quot;390\&quot; allowscriptaccess=\&quot;always\&quot; allowfullscreen=\&quot;true\&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://i1.ytimg.com/vi/cXQ6abwqjg0/hqdefault.jpg" rel="nofollow">http://i1.ytimg.com/vi/cXQ6abwqjg0/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: 60, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: &quot;&quot;, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: &quot;<a href="http://s3.us.archive.org/ndvpyconau2013/Nova_v3_API_by_Christopher_Yeo.mp4" rel="nofollow">http://s3.us.archive.org/ndvpyconau2013/Nova_v3_API_by_Christopher_Yeo.mp4</a>&quot;, 
+            &quot;video_mp4_download_only&quot;: true, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="https://www.youtube.com/watch?v=cXQ6abwqjg0" rel="nofollow">https://www.youtube.com/watch?v=cXQ6abwqjg0</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2013-07-05&quot;, 
+            &quot;added&quot;: &quot;2013-07-13T23:43:11&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:26.312&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;DjangoCon AU 2013&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;porting-django-apps-to-python-3-0&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Jacob Kaplan-Moss&quot;
+            ], 
+            &quot;tags&quot;: [], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 2242, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Porting Django apps to Python 3&quot;, 
+            &quot;summary&quot;: &quot;Django 1.5 now supports Python 3, so now&#39;s the time to start thinking about porting your apps and sites. Come see how! I&#39;ll talk about the porting techniques that work, and present two case studies: porting a site, and porting a reusable app.&quot;, 
+            &quot;description&quot;: &quot;&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;CC-BY-SA&quot;, 
+            &quot;embed&quot;: &quot;&lt;object width=\&quot;640\&quot; height=\&quot;390\&quot;&gt;&lt;param name=\&quot;movie\&quot; value=\&quot;http://youtube.com/v/xNZ4OVO2Z_E?version=3&amp;amp;hl=en_US\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowFullScreen\&quot; value=\&quot;true\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowscriptaccess\&quot; value=\&quot;always\&quot;&gt;&lt;/param&gt;&lt;embed src=\&quot;http://youtube.com/v/xNZ4OVO2Z_E?version=3&amp;amp;hl=en_US\&quot; type=\&quot;application/x-shockwave-flash\&quot; width=\&quot;640\&quot; height=\&quot;390\&quot; allowscriptaccess=\&quot;always\&quot; allowfullscreen=\&quot;true\&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://i1.ytimg.com/vi/xNZ4OVO2Z_E/hqdefault.jpg" rel="nofollow">http://i1.ytimg.com/vi/xNZ4OVO2Z_E/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: 30, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: &quot;&quot;, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: &quot;<a href="http://s3.us.archive.org/ndvpyconau2013/Porting_Django_apps_to_Python_.mp4" rel="nofollow">http://s3.us.archive.org/ndvpyconau2013/Porting_Django_apps_to_Python_.mp4</a>&quot;, 
+            &quot;video_mp4_download_only&quot;: true, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="https://www.youtube.com/watch?v=xNZ4OVO2Z_E" rel="nofollow">https://www.youtube.com/watch?v=xNZ4OVO2Z_E</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2013-07-05&quot;, 
+            &quot;added&quot;: &quot;2013-07-13T01:07:06&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:26.313&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;DjangoCon AU 2013&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;secrets-of-the-testing-masters&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Russell Keith-Magee&quot;
+            ], 
+            &quot;tags&quot;: [], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 2244, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Secrets of the testing masters&quot;, 
+            &quot;summary&quot;: &quot;Django ship with a wide range of tools to help you test your web application, but some of the best tools for testing Django don&#39;t come in the box.\r\n\r\nIn this talk, you&#39;ll get a brief introduction to two of those tools - Mock and Factory Boy - showing when they should be used, and some practical examples of their usage in a Django test suite.\r\n&quot;, 
+            &quot;description&quot;: &quot;&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;CC-BY-SA&quot;, 
+            &quot;embed&quot;: &quot;&lt;object width=\&quot;640\&quot; height=\&quot;390\&quot;&gt;&lt;param name=\&quot;movie\&quot; value=\&quot;http://youtube.com/v/a713rcagoYU?version=3&amp;amp;hl=en_US\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowFullScreen\&quot; value=\&quot;true\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowscriptaccess\&quot; value=\&quot;always\&quot;&gt;&lt;/param&gt;&lt;embed src=\&quot;http://youtube.com/v/a713rcagoYU?version=3&amp;amp;hl=en_US\&quot; type=\&quot;application/x-shockwave-flash\&quot; width=\&quot;640\&quot; height=\&quot;390\&quot; allowscriptaccess=\&quot;always\&quot; allowfullscreen=\&quot;true\&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://i1.ytimg.com/vi/a713rcagoYU/hqdefault.jpg" rel="nofollow">http://i1.ytimg.com/vi/a713rcagoYU/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: 30, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: &quot;&quot;, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: &quot;<a href="http://s3.us.archive.org/ndvpyconau2013/Secrets_of_the_testing_masters.mp4" rel="nofollow">http://s3.us.archive.org/ndvpyconau2013/Secrets_of_the_testing_masters.mp4</a>&quot;, 
+            &quot;video_mp4_download_only&quot;: true, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="https://www.youtube.com/watch?v=a713rcagoYU" rel="nofollow">https://www.youtube.com/watch?v=a713rcagoYU</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2013-07-05&quot;, 
+            &quot;added&quot;: &quot;2013-07-13T01:07:11&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:26.315&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;OpenStack Pycon AU 2013&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;testtools-and-test-repository-the-python-test-f&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Robert Collins&quot;
+            ], 
+            &quot;tags&quot;: [], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 2254, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Testtools and Test Repository - the Python test frameworks OpenStack uses&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;CC-BY-SA&quot;, 
+            &quot;embed&quot;: &quot;&lt;object width=\&quot;640\&quot; height=\&quot;390\&quot;&gt;&lt;param name=\&quot;movie\&quot; value=\&quot;http://youtube.com/v/Oe_HhBBbqbw?version=3&amp;amp;hl=en_US\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowFullScreen\&quot; value=\&quot;true\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowscriptaccess\&quot; value=\&quot;always\&quot;&gt;&lt;/param&gt;&lt;embed src=\&quot;http://youtube.com/v/Oe_HhBBbqbw?version=3&amp;amp;hl=en_US\&quot; type=\&quot;application/x-shockwave-flash\&quot; width=\&quot;640\&quot; height=\&quot;390\&quot; allowscriptaccess=\&quot;always\&quot; allowfullscreen=\&quot;true\&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://i1.ytimg.com/vi/Oe_HhBBbqbw/hqdefault.jpg" rel="nofollow">http://i1.ytimg.com/vi/Oe_HhBBbqbw/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: 30, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: &quot;&quot;, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: &quot;<a href="http://s3.us.archive.org/ndvpyconau2013/Testtools_and_Test_Repository_.mp4" rel="nofollow">http://s3.us.archive.org/ndvpyconau2013/Testtools_and_Test_Repository_.mp4</a>&quot;, 
+            &quot;video_mp4_download_only&quot;: true, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="https://www.youtube.com/watch?v=Oe_HhBBbqbw" rel="nofollow">https://www.youtube.com/watch?v=Oe_HhBBbqbw</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2013-07-05&quot;, 
+            &quot;added&quot;: &quot;2013-07-13T23:43:19&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:26.316&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;DjangoCon AU 2013&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;the-server-side-the-coolest-parts-of-backend-dev&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Tom Eastman&quot;
+            ], 
+            &quot;tags&quot;: [], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 2246, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;The Server Side: The coolest parts of backend development with Django&quot;, 
+            &quot;summary&quot;: &quot;There are few feelings more sweet than being a web-app backend developer, and knowing that the vaguaries and frustrations of front-end design, Javascript inconsistencies, and web-browser quirks are \&quot;Someone Else&#39;s Problem\&quot;. \r\n\r\nThe backend developer, instead, has just three goals: Make the system lightning fast and infinitely scalable; ensure its absolute security and impregnability; and guarantee its absolute correctness, stability, and general perfection in the face of all input at all times.\r\n\r\nI&#39;ll take that over having to debug CSS rendering quirks any day of the week.\r\n\r\nIn this talk I&#39;ll cover these three goals and how Django helps make each one achievable, including a tour of some of the lesser known features of the framework, such as:\r\n\r\n - Magic tricks you can do with Django&#39;s caching framework beyond the naive \&quot;cache this page\&quot;, and its ability to take advantage of the browser&#39;s own cache in marvellous ways.\r\n - Taking Django&#39;s testing framework to its logical (and illogical) extremes. Including clever uses of selenium and webdriver to run unit tests, integration tests and even Javascript tests.\r\n - Considerations of Django use and web security. Including the sorts of things Django does a great job of protecting you from, and the things where your own due dilligence will always be required.&quot;, 
+            &quot;description&quot;: &quot;&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;CC-BY-SA&quot;, 
+            &quot;embed&quot;: &quot;&lt;object width=\&quot;640\&quot; height=\&quot;390\&quot;&gt;&lt;param name=\&quot;movie\&quot; value=\&quot;http://youtube.com/v/nTMupredqR0?version=3&amp;amp;hl=en_US\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowFullScreen\&quot; value=\&quot;true\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowscriptaccess\&quot; value=\&quot;always\&quot;&gt;&lt;/param&gt;&lt;embed src=\&quot;http://youtube.com/v/nTMupredqR0?version=3&amp;amp;hl=en_US\&quot; type=\&quot;application/x-shockwave-flash\&quot; width=\&quot;640\&quot; height=\&quot;390\&quot; allowscriptaccess=\&quot;always\&quot; allowfullscreen=\&quot;true\&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://i1.ytimg.com/vi/nTMupredqR0/hqdefault.jpg" rel="nofollow">http://i1.ytimg.com/vi/nTMupredqR0/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: 45, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: &quot;&quot;, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: &quot;<a href="http://s3.us.archive.org/ndvpyconau2013/The_Server_Side_The_coolest_pa.mp4" rel="nofollow">http://s3.us.archive.org/ndvpyconau2013/The_Server_Side_The_coolest_pa.mp4</a>&quot;, 
+            &quot;video_mp4_download_only&quot;: true, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="https://www.youtube.com/watch?v=nTMupredqR0" rel="nofollow">https://www.youtube.com/watch?v=nTMupredqR0</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2013-07-05&quot;, 
+            &quot;added&quot;: &quot;2013-07-13T01:07:16&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:26.317&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;DjangoCon AU 2013&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;unleash-the-ponies-using-feincms-to-add-content&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Greg Turner&quot;
+            ], 
+            &quot;tags&quot;: [], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 2243, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Unleash the ponies! Using FeinCMS to add content tools that users love to any Django model&quot;, 
+            &quot;summary&quot;: &quot;Site editors often struggle with editing rich content and managing variations in layout in Django admin. By rich content we mean text, images, video, tables, and so on. Trying to squeeze all this content into a single rich-text editor is like trying to jam a magical pony into a dog kennel. A better approach is to use a rich content framework like FeinCMS. FeinCMS is a sensible, flexible framework which allows rich content of any shape to be manipulated within any Django model in your project.\r\n\r\nThis talk describes what FeinCMS does and how it works, and most importantly whether it should be pronounced to rhyme with \&quot;Vein\&quot; or \&quot;Vine\&quot;. The talk is supported with working example code that shows the progression of a FeinCMS project through several levels of functionality, plus some real-world demonstrations of fully-developed functionality.\r\n\r\nA FeinCMS Document model is just like any Django model, except it has one or more &#39;templates&#39;. Each &#39;template&#39; has one or more regions, and each region is a place where an unlimited amount of rich content types can be added, removed or rearranged to form the content in that region. This is all wrapped up in a nifty lightweight Javascript interface for Django&#39;s admin, and a surprisingly simple implementation at the database level.\r\n\r\nThe types of content available in a given region is defined by a collection of abstract Django models (e.g. one model to represent a passage of text, another model to represent an image, and so on). Developers are free to define their own FeinCMS content types, using all the usual features of Django models.\r\n\r\nAt the HTML template level, each FeinCMS content item renders a standard template, and can optionally render different templates in different circumstances.\r\n\r\nThis flexibility allows Django developers to quickly design and build CMSes that match the content and layout perfectly, meaning happier content editors, fewer maintenance headaches and greater magical pony freedom.&quot;, 
+            &quot;description&quot;: &quot;&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;CC-BY-SA&quot;, 
+            &quot;embed&quot;: &quot;&lt;object width=\&quot;640\&quot; height=\&quot;390\&quot;&gt;&lt;param name=\&quot;movie\&quot; value=\&quot;http://youtube.com/v/RnMsobX3soE?version=3&amp;amp;hl=en_US\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowFullScreen\&quot; value=\&quot;true\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowscriptaccess\&quot; value=\&quot;always\&quot;&gt;&lt;/param&gt;&lt;embed src=\&quot;http://youtube.com/v/RnMsobX3soE?version=3&amp;amp;hl=en_US\&quot; type=\&quot;application/x-shockwave-flash\&quot; width=\&quot;640\&quot; height=\&quot;390\&quot; allowscriptaccess=\&quot;always\&quot; allowfullscreen=\&quot;true\&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://i1.ytimg.com/vi/RnMsobX3soE/hqdefault.jpg" rel="nofollow">http://i1.ytimg.com/vi/RnMsobX3soE/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: 45, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: &quot;&quot;, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: &quot;<a href="http://s3.us.archive.org/ndvpyconau2013/Unleash_the_ponies_Using_FeinC.mp4" rel="nofollow">http://s3.us.archive.org/ndvpyconau2013/Unleash_the_ponies_Using_FeinC.mp4</a>&quot;, 
+            &quot;video_mp4_download_only&quot;: true, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="https://www.youtube.com/watch?v=RnMsobX3soE" rel="nofollow">https://www.youtube.com/watch?v=RnMsobX3soE</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2013-07-05&quot;, 
+            &quot;added&quot;: &quot;2013-07-13T01:07:09&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:26.319&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;OpenStack Pycon AU 2013&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;wtf-is-openstack&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Tim Serong&quot;
+            ], 
+            &quot;tags&quot;: [], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 2256, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;WTF is OpenStack&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;CC-BY-SA&quot;, 
+            &quot;embed&quot;: &quot;&lt;object width=\&quot;640\&quot; height=\&quot;390\&quot;&gt;&lt;param name=\&quot;movie\&quot; value=\&quot;http://youtube.com/v/r7wNfw-MvLA?version=3&amp;amp;hl=en_US\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowFullScreen\&quot; value=\&quot;true\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowscriptaccess\&quot; value=\&quot;always\&quot;&gt;&lt;/param&gt;&lt;embed src=\&quot;http://youtube.com/v/r7wNfw-MvLA?version=3&amp;amp;hl=en_US\&quot; type=\&quot;application/x-shockwave-flash\&quot; width=\&quot;640\&quot; height=\&quot;390\&quot; allowscriptaccess=\&quot;always\&quot; allowfullscreen=\&quot;true\&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://i1.ytimg.com/vi/r7wNfw-MvLA/hqdefault.jpg" rel="nofollow">http://i1.ytimg.com/vi/r7wNfw-MvLA/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: 30, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: &quot;&quot;, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: &quot;<a href="http://s3.us.archive.org/ndvpyconau2013/WTF_is_OpenStack_by_Tim_Serong.mp4" rel="nofollow">http://s3.us.archive.org/ndvpyconau2013/WTF_is_OpenStack_by_Tim_Serong.mp4</a>&quot;, 
+            &quot;video_mp4_download_only&quot;: true, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="https://www.youtube.com/watch?v=r7wNfw-MvLA" rel="nofollow">https://www.youtube.com/watch?v=r7wNfw-MvLA</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2013-07-05&quot;, 
+            &quot;added&quot;: &quot;2013-07-13T23:47:31&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:26.320&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;SciPy 2013&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;accessing-the-virtual-observatory-from-python-sc&quot;, 
+            &quot;speakers&quot;: [], 
+            &quot;tags&quot;: [
+                &quot;Tech&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 1962, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Accessing the Virtual Observatory from Python; SciPy 2013 Presentation&quot;, 
+            &quot;summary&quot;: &quot;Authors: Plante, Raymond, NCSA/UofIL; Fitzpatrick, Mike, NOAO; Graham, Matthew, Caltech; Tody, Doug, NRAO\n\nTrack: Astronomy and Astrophysics\n\nOne of the goals of the Virtual Astronomical Observatory (VAO) project is to enable developers to integrate access to astronomical archives and services into applications through standardized interfaces. As part of this effort, we have developed two packages for accessing the Virtual Observatory through Python. The first tool, VAOpy, is a package built on AstroPy which provides enables discovery of data archive services through the VAO registry service as well as the searching of the archives for individual datasets such as images, spectra, and source catalogs. The purpose of this module is to provide the developer an easy to use interface that reflects knowledge of the standards upon which services are based. The second tool, VOClient, supports the same low-level API provided by VAOpy but adds additional higher-level capabilities and \&quot;book-keeping\&quot; that make it easier to develop sophisticated applications. This includes support for searching multiple archives, finding data for a list of sources, and collaborating with other desktop tools. Long running tasks are supported through asynchronous access to the underlying services and data caching. VOClient can send retrieved data records and datasets to other applications on the desktop through VO standard protocol known as SAMP.&quot;, 
+            &quot;description&quot;: &quot;&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;<a href="http://www.youtube.com/t/terms" rel="nofollow">http://www.youtube.com/t/terms</a>&quot;, 
+            &quot;embed&quot;: &quot;&lt;object width=\&quot;640\&quot; height=\&quot;390\&quot;&gt;&lt;param name=\&quot;movie\&quot; value=\&quot;http://youtube.com/v/gm7p5ztkOZs?version=3&amp;amp;hl=en_US\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowFullScreen\&quot; value=\&quot;true\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowscriptaccess\&quot; value=\&quot;always\&quot;&gt;&lt;/param&gt;&lt;embed src=\&quot;http://youtube.com/v/gm7p5ztkOZs?version=3&amp;amp;hl=en_US\&quot; type=\&quot;application/x-shockwave-flash\&quot; width=\&quot;640\&quot; height=\&quot;390\&quot; allowscriptaccess=\&quot;always\&quot; allowfullscreen=\&quot;true\&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://i1.ytimg.com/vi/gm7p5ztkOZs/hqdefault.jpg" rel="nofollow">http://i1.ytimg.com/vi/gm7p5ztkOZs/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: null, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="http://www.youtube.com/watch?v=gm7p5ztkOZs" rel="nofollow">http://www.youtube.com/watch?v=gm7p5ztkOZs</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;needs editing&quot;, 
+            &quot;recorded&quot;: &quot;2013-07-02&quot;, 
+            &quot;added&quot;: &quot;2013-07-04T10:08:30&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:26.321&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;SciPy 2013&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;a-comprehensive-look-at-representing-physical-qua&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Trevor Bekolay&quot;
+            ], 
+            &quot;tags&quot;: [
+                &quot;scipy&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 2012, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;A comprehensive look at representing physical quantities in Python&quot;, 
+            &quot;summary&quot;: &quot;Why tracking physical quantities is an essential function for any programming language heavily used in science and a possible unification of the existing packages that enable the majority of use cases.&quot;, 
+            &quot;description&quot;: &quot;Authors: Bekolay, Trevor, University of Waterloo\r\n\r\nTrack: General\r\n\r\nCode that properly tracks the units associated with physical quantities is self-documenting and far more robust to unit conversion errors. Unit conversion errors are common in any program that deal with physical quantities, and have been responsible for several expensive and dangerous software errors, like the Mars Climate Orbiter crash. Support for tracking units is lacking in commonly used packages like NumPy and SciPy. As a result, a whole host of packages have been created to fill this gap, with varying implementations. Some build on top of the commonly used scientific packages, adding to their data structures the ability to track units. Others packages track units separately, and store a mapping between units and the data structures containing magnitudes.\r\n\r\nI will discuss why tracking physical quantities is an essential function for any programming language heavily used in science. I will then compare and contrast all of the packages that currently exist for tracking quantities in terms of their functionality, syntax, underlying implementation, and performance. Finally, I will present a possible unification of the existing packages that enables the majority of use cases, and I will discuss where that unified implementation fits into the current scientific Python environment.&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;<a href="http://www.youtube.com/t/terms" rel="nofollow">http://www.youtube.com/t/terms</a>&quot;, 
+            &quot;embed&quot;: &quot;&lt;object width=\&quot;640\&quot; height=\&quot;390\&quot;&gt;&lt;param name=\&quot;movie\&quot; value=\&quot;http://youtube.com/v/N-edLdxiM40?version=3&amp;amp;hl=en_US\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowFullScreen\&quot; value=\&quot;true\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowscriptaccess\&quot; value=\&quot;always\&quot;&gt;&lt;/param&gt;&lt;embed src=\&quot;http://youtube.com/v/N-edLdxiM40?version=3&amp;amp;hl=en_US\&quot; type=\&quot;application/x-shockwave-flash\&quot; width=\&quot;640\&quot; height=\&quot;390\&quot; allowscriptaccess=\&quot;always\&quot; allowfullscreen=\&quot;true\&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://i1.ytimg.com/vi/N-edLdxiM40/hqdefault.jpg" rel="nofollow">http://i1.ytimg.com/vi/N-edLdxiM40/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: &quot;&quot;, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: &quot;&quot;, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: &quot;&quot;, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: &quot;&quot;, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="http://www.youtube.com/watch?v=N-edLdxiM40" rel="nofollow">http://www.youtube.com/watch?v=N-edLdxiM40</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2013-07-02&quot;, 
+            &quot;added&quot;: &quot;2013-07-04T10:08:38&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:26.323&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;SciPy 2013&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;advances-in-delivery-and-access-tools-for-coastal&quot;, 
+            &quot;speakers&quot;: [], 
+            &quot;tags&quot;: [
+                &quot;Tech&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 1988, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Advances in delivery and access tools for coastal ocean model data; SciPy 2013 Presentation&quot;, 
+            &quot;summary&quot;: &quot;Authors: Signell, Richard, US Geological Survey\n\nTrack: Meteorology, Climatology, Atmospheric and Oceanic Science\n\nCoastal ocean modelers are producers and consumers of vast and varied data, and spend significant effort on tasks that could be eliminated by better tools. In the last several years, standardization led by the US Integrated Ocean Observing System Program to use OPeNDAP for delivery of gridded data (e.g. model fields, remote sensing) and OGC Sensor Observation Services (SOS) for delivery of in situ data (e.g. time series sensors, profilers, ADCPs, drifters, gliders) has resulted in significant advancements, making it easier to deliver, find, access and analyze data. For distributing model results, the Unidata THREDDS Data Server and PyDAP deliver aggregated data via OPeNDAP and other web services with low impact on providers. For accessing data, NetCDF4-Python and PyDAP both allow efficient access to OPeNDAP data sources, but do not take advantage of common data models for structured and unstructured grids enabled by community-developed CF and UGRID conventions. This is starting to change with CF-data model based projects like the UK Met Office Iris project. Examples of accessing and visualizing both curvilinear and unstructured grid model output in Python will be presented, including both the IPython Notebook and ArcGIS 10.1.&quot;, 
+            &quot;description&quot;: &quot;&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;<a href="http://www.youtube.com/t/terms" rel="nofollow">http://www.youtube.com/t/terms</a>&quot;, 
+            &quot;embed&quot;: &quot;&lt;object width=\&quot;640\&quot; height=\&quot;390\&quot;&gt;&lt;param name=\&quot;movie\&quot; value=\&quot;http://youtube.com/v/EA8v770EcxE?version=3&amp;amp;hl=en_US\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowFullScreen\&quot; value=\&quot;true\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowscriptaccess\&quot; value=\&quot;always\&quot;&gt;&lt;/param&gt;&lt;embed src=\&quot;http://youtube.com/v/EA8v770EcxE?version=3&amp;amp;hl=en_US\&quot; type=\&quot;application/x-shockwave-flash\&quot; width=\&quot;640\&quot; height=\&quot;390\&quot; allowscriptaccess=\&quot;always\&quot; allowfullscreen=\&quot;true\&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://i1.ytimg.com/vi/EA8v770EcxE/hqdefault.jpg" rel="nofollow">http://i1.ytimg.com/vi/EA8v770EcxE/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: null, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="http://www.youtube.com/watch?v=EA8v770EcxE" rel="nofollow">http://www.youtube.com/watch?v=EA8v770EcxE</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;needs editing&quot;, 
+            &quot;recorded&quot;: &quot;2013-07-02&quot;, 
+            &quot;added&quot;: &quot;2013-07-04T10:08:35&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:26.324&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;SciPy 2013&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;analyzing-ibm-watson-experiments-with-ipython-not&quot;, 
+            &quot;speakers&quot;: [], 
+            &quot;tags&quot;: [
+                &quot;Tech&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 2004, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Analyzing IBM Watson experiments with IPython Notebook; SciPy 2013 Presentation&quot;, 
+            &quot;summary&quot;: &quot;Authors: Bittner, Torsten, IBM\n\nTrack: General\n\nIBM&#39;s Emerging Technologies team was tasked with migrating the IBM Watson system that won the Jeopardy!-like game to a domain-independent codebase. This task started as a software engineering exercise and later became an information engineering exercise as we worked to optimize the system&#39;s question-answering ability for new domains. In this new paradigm the team would observe and measure a system behavior, such as its accuracy in generating candidate answers to a particular type of question, and then hypothesize what (software) change to the system would improve the behavior and how it would impact the original measurement. The team would then implement the change, re-run the system against a test dataset, analyze the gigabyte-sized test results to evaluate the difference in system behavior. By conducting many series of these experimental iterations, the team was able to significantly improve IBM Watson&#39;s question-answering performance.\n\nOur initial attempts at information engineering used Java and the D3 JavaScript library to extract, analyze and visualize metrics of the system&#39;s behavior. Wiki pages were used to document the many experiments and their configurations. However, this arrangement proved overly cumbersome for handling the large numbers of experiments we ran, and our need to share experimental details, visualizations and results with other teams. Furthermore, we also needed to enable a broader skill set of people -- beyond expert Java programmers -- to conduct analyses, create visualizations, and share findings.\n\nThis talk describes how we used the IPython notebook environment and the rich set of Python data science libraries (e.g. Pandas, NumPy/SciPy) to perform reproducible science, which resulted in improvements to IBM Watson&#39;s accuracy.&quot;, 
+            &quot;description&quot;: &quot;&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;<a href="http://www.youtube.com/t/terms" rel="nofollow">http://www.youtube.com/t/terms</a>&quot;, 
+            &quot;embed&quot;: &quot;&lt;object width=\&quot;640\&quot; height=\&quot;390\&quot;&gt;&lt;param name=\&quot;movie\&quot; value=\&quot;http://youtube.com/v/tlontoyWX70?version=3&amp;amp;hl=en_US\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowFullScreen\&quot; value=\&quot;true\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowscriptaccess\&quot; value=\&quot;always\&quot;&gt;&lt;/param&gt;&lt;embed src=\&quot;http://youtube.com/v/tlontoyWX70?version=3&amp;amp;hl=en_US\&quot; type=\&quot;application/x-shockwave-flash\&quot; width=\&quot;640\&quot; height=\&quot;390\&quot; allowscriptaccess=\&quot;always\&quot; allowfullscreen=\&quot;true\&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://i1.ytimg.com/vi/tlontoyWX70/hqdefault.jpg" rel="nofollow">http://i1.ytimg.com/vi/tlontoyWX70/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: null, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="http://www.youtube.com/watch?v=tlontoyWX70" rel="nofollow">http://www.youtube.com/watch?v=tlontoyWX70</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;needs editing&quot;, 
+            &quot;recorded&quot;: &quot;2013-07-02&quot;, 
+            &quot;added&quot;: &quot;2013-07-04T10:08:37&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:26.325&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;SciPy 2013&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;an-open-source-system-for-de-identification-and-u&quot;, 
+            &quot;speakers&quot;: [], 
+            &quot;tags&quot;: [
+                &quot;Tech&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 1972, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;An Open Source System for De-identification and Use of Medical Images; SciPy 2013 Presentation&quot;, 
+            &quot;summary&quot;: &quot;An Open Source System for De-identification and Use of Medical Images for Research\n\nAuthors: Miller, Jeffrey, Center for Biomedical Informatics, The Children&#39;s Hospital of Philadelphia\n\nTrack: Medical Imaging\n\nMedical images captured from X-ray, MRI, CT, and ultrasound modalities represent a wealth of data for clinical researchers. Direct access to imaging studies establishes a greater opportunity for research purposes than a text-only system. However, imaging data can be difficult to work with outside of clinical systems and can contain Protected Health Information (PHI) in diverse and unexpected locations, presenting a barrier for multi-institutional, collaborative research. While there are existing integration solutions, such as the Clinical Trials Processor, they do not provide for manual curation of images to screen for relevancy and PHI, a crucial step for using images within a research application. To address these issues, we developed a system for the end-to-end provisioning of de-identified image studies. This includes a Django app for users to review and record metadata for each study, a pipeline for anonymizing and provisioning images to a production image archive, and finally an application for viewing images in the browser as part of a research application. We take advantage of the Python Ruffus pipeline framework and the PyDICOM library to orchestrate the work of moving, anonymizing, and annotating millions of files in a repeatable and auditable manner. This workflow has been used to integrate images into AudGenDB (<a href="http://audgendb.chop.edu" rel="nofollow">http://audgendb.chop.edu</a>), a publicly available hearing impairment research database. The results of the AudGenDB image integration enables researchers to visualize and assess images in direct context with clinical and genetic variables for research subjects. The source code is available under a BSD license at <a href="http://github.com/cbmi/dicom-pipeline." rel="nofollow">http://github.com/cbmi/dicom-pipeline.</a>&quot;, 
+            &quot;description&quot;: &quot;&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;<a href="http://www.youtube.com/t/terms" rel="nofollow">http://www.youtube.com/t/terms</a>&quot;, 
+            &quot;embed&quot;: &quot;&lt;object width=\&quot;640\&quot; height=\&quot;390\&quot;&gt;&lt;param name=\&quot;movie\&quot; value=\&quot;http://youtube.com/v/BK6nfEAj40k?version=3&amp;amp;hl=en_US\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowFullScreen\&quot; value=\&quot;true\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowscriptaccess\&quot; value=\&quot;always\&quot;&gt;&lt;/param&gt;&lt;embed src=\&quot;http://youtube.com/v/BK6nfEAj40k?version=3&amp;amp;hl=en_US\&quot; type=\&quot;application/x-shockwave-flash\&quot; width=\&quot;640\&quot; height=\&quot;390\&quot; allowscriptaccess=\&quot;always\&quot; allowfullscreen=\&quot;true\&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://i1.ytimg.com/vi/BK6nfEAj40k/hqdefault.jpg" rel="nofollow">http://i1.ytimg.com/vi/BK6nfEAj40k/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: null, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="http://www.youtube.com/watch?v=BK6nfEAj40k" rel="nofollow">http://www.youtube.com/watch?v=BK6nfEAj40k</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;needs editing&quot;, 
+            &quot;recorded&quot;: &quot;2013-07-02&quot;, 
+            &quot;added&quot;: &quot;2013-07-04T10:08:32&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:26.327&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;SciPy 2013&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;a-portrait-of-one-scientist-as-a-graduate-student&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Paul Ivanov&quot;
+            ], 
+            &quot;tags&quot;: [
+                &quot;git&quot;, 
+                &quot;reproducibility&quot;
+            ], 
+            &quot;related_urls&quot;: [
+                {
+                    &quot;url&quot;: &quot;<a href="http://nbviewer.ipython.org/5122140/Portrait.ipynb" rel="nofollow">http://nbviewer.ipython.org/5122140/Portrait.ipynb</a>&quot;, 
+                    &quot;description&quot;: &quot;ipynb slides&quot;
+                }
+            ], 
+            &quot;id&quot;: 1994, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;A Portrait of One Scientist as a Graduate Student&quot;, 
+            &quot;summary&quot;: &quot;a focus on specific tools and techniques invaluable in doing research in a reproducible manner.&quot;, 
+            &quot;description&quot;: &quot;Authors: Ivanov, Paul, UC Berkeley\r\n\r\nTrack: General\r\n\r\nIn this talk, I will focus on the how of reproducible research. I will focus on specific tools and techniques I have found invaluable in doing research in a reproducible manner. In particular, I will cover the following general topics (with specific examples in parentheses): version control and code provenance (git), code verification (test driven development, nosetests), data integrity (sha1, md5, git-annex), seed saving ( random seed retention ) distribution of datasets (mirroring, git-annex, metalinks), light-weight analysis capture ( ttyrec, ipython notebook)&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;<a href="http://www.youtube.com/t/terms" rel="nofollow">http://www.youtube.com/t/terms</a>&quot;, 
+            &quot;embed&quot;: &quot;&lt;object width=\&quot;640\&quot; height=\&quot;390\&quot;&gt;&lt;param name=\&quot;movie\&quot; value=\&quot;http://youtube.com/v/Nj_8lwMKD_g?version=3&amp;amp;hl=en_US\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowFullScreen\&quot; value=\&quot;true\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowscriptaccess\&quot; value=\&quot;always\&quot;&gt;&lt;/param&gt;&lt;embed src=\&quot;http://youtube.com/v/Nj_8lwMKD_g?version=3&amp;amp;hl=en_US\&quot; type=\&quot;application/x-shockwave-flash\&quot; width=\&quot;640\&quot; height=\&quot;390\&quot; allowscriptaccess=\&quot;always\&quot; allowfullscreen=\&quot;true\&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://i1.ytimg.com/vi/Nj_8lwMKD_g/hqdefault.jpg" rel="nofollow">http://i1.ytimg.com/vi/Nj_8lwMKD_g/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: &quot;&quot;, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: &quot;&quot;, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: &quot;&quot;, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: &quot;&quot;, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="http://www.youtube.com/watch?v=Nj_8lwMKD_g" rel="nofollow">http://www.youtube.com/watch?v=Nj_8lwMKD_g</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;needs editing&quot;, 
+            &quot;recorded&quot;: &quot;2013-07-02&quot;, 
+            &quot;added&quot;: &quot;2013-07-04T10:08:36&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:26.328&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;SciPy 2013&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;a-rapidly-adaptable-imaging-measurement-platfor&quot;, 
+            &quot;speakers&quot;: [], 
+            &quot;tags&quot;: [
+                &quot;Tech&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 1966, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;A Rapidly-Adaptable Imaging &amp; Measurement Platform for Cancer Research; SciPy 2013 Presentation&quot;, 
+            &quot;summary&quot;: &quot;A Rapidly-Adaptable Analytical Imaging &amp; Measurement Standardization Platform for Cancer Diagnostics Research\n\nAuthors: Garsha, Karl, Ventana Medical Systems Inc.; Ventura, Franklin, Ventana Medical Systems Inc.;\n\nTrack: Medical Imaging\n\nThe focus of personalized medicine is to develop rationally-designed therapeutics targeting specific molecular mechanisms of diseases such as cancer. For targeted therapeutics to be of value in complex disease states, such as cancer, patient-specific mechanism(s) of disease must be identified by physicians such that the appropriate targeted therapeutic(s) may be identified and administered. The ability to evaluate phenotype and genotype for multiplexed biomarkers at the cellular level, in the context of preserved tissue, provides important information for advancing the science of personalized medicine.\n\nClassical cancer diagnostic methods are based on direct inspection of prepared slides. In the classical approach, measurement and measurement standardization are limited by the constraints of human perception, established tradition and training. Our research seeks to empower physicians with new tools that diminish these existing limitations. Through Python, we bring together sophisticated nano-reporter technology, advanced microscopies, computational analysis and databasing technologies to establish feasibility of analytical tissue assay technology. Advancement of this technology is hoped eventually to enable powerful new opportunities for treatment of cancer.\n\nOur work is greatly accelerated through the collective efforts of the Python community. The ability to leverage and combine rich scientific Open Source projects including SciPy, VTK, ITK, PIL, wxPython, Matplotlib, \u00c2\u00b5Manager, and OMERO are central to enabling this ambitious effort. Python allows us the synergy of sophisticated high-level language interfaced with rich natively-compiled libraries. This capability allows us to maintain a remarkable level of plasticity necessary to adapt to fast-moving and diverse research problems, and scalability to visualize large and complex n-dimensional datasets. Rich GUI capabilities allow us to rapidly put powerful tools in the hands of medical researchers.\n\nChallenges include mechanisms to pass high-level data structures between native-compiled libraries, combining widgets from different GUI toolkits, memory limits, and the complexity of building self-contained installers/uninstallers for deployment to collaborator sites.&quot;, 
+            &quot;description&quot;: &quot;&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;<a href="http://www.youtube.com/t/terms" rel="nofollow">http://www.youtube.com/t/terms</a>&quot;, 
+            &quot;embed&quot;: &quot;&lt;object width=\&quot;640\&quot; height=\&quot;390\&quot;&gt;&lt;param name=\&quot;movie\&quot; value=\&quot;http://youtube.com/v/DDIW2rKxrbI?version=3&amp;amp;hl=en_US\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowFullScreen\&quot; value=\&quot;true\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowscriptaccess\&quot; value=\&quot;always\&quot;&gt;&lt;/param&gt;&lt;embed src=\&quot;http://youtube.com/v/DDIW2rKxrbI?version=3&amp;amp;hl=en_US\&quot; type=\&quot;application/x-shockwave-flash\&quot; width=\&quot;640\&quot; height=\&quot;390\&quot; allowscriptaccess=\&quot;always\&quot; allowfullscreen=\&quot;true\&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://i1.ytimg.com/vi/DDIW2rKxrbI/hqdefault.jpg" rel="nofollow">http://i1.ytimg.com/vi/DDIW2rKxrbI/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: null, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="http://www.youtube.com/watch?v=DDIW2rKxrbI" rel="nofollow">http://www.youtube.com/watch?v=DDIW2rKxrbI</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;needs editing&quot;, 
+            &quot;recorded&quot;: &quot;2013-07-02&quot;, 
+            &quot;added&quot;: &quot;2013-07-04T10:08:32&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:26.330&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;SciPy 2013&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;automating-quantitative-confocal-microscopy-analy&quot;, 
+            &quot;speakers&quot;: [], 
+            &quot;tags&quot;: [
+                &quot;Tech&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 1970, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Automating Quantitative Confocal Microscopy Analysis; SciPy 2013 Presentation&quot;, 
+            &quot;summary&quot;: &quot;Authors: Fenner, Mark; Fenner, Barbara, King&#39;s College, Wilkes-Barre, PA\n\nTrack: Medical Imaging\n\nConfocal microscopy is a qualitative analytical tool used to visualize the associations between cellular processes and anatomical structures. Quantitative analysis of confocal images uses domain expertise, in the form of background correction, and statistical calculations to give semi-quantitative comparisons among experimental conditions. Extended automation of quantitative confocal methods will (1) reduce the time consuming effort of manual background correction and (2) give a fully quantitative method to associate cellular process with structure.\n\nThe purpose of this project is: (1) to develop automated methods to quantitatively assess colocalization of multiple fluorescent labels within confocal images and (2) to apply these methods to assess colocalization of trkB.t1 and BDNF to three types of organelles: endosomes, lysosomes, and transport organelles. Computing quantitative colocalization values requires image correction for background noise. We perform background correction in three ways: (1) manual, (2) automated heuristic analysis of the label intensity histograms, and (3) application of a regression model developed from a subset of manually corrected images. Using the corrected images, we compute a set of domain specific correlations: Pearson&#39;s and Mander&#39;s coefficients, the &#39;colocalization coefficients&#39; (M1, M2, m1, and m2), and the &#39;overlap coefficients&#39; (k1 and k2).\n\nThe project is implemented, end-to-end, in Python. Pure Python is used for managing file access, input parameters, and initial processing of the repository of 933 images. NumPy is used to apply manual background correction, compute the automated background corrections (reducing false positive results and manual labor), and to calculate the domain specific coefficients. We visualize the raw intensity values and computed coefficient values with Tufte-style panel plots created in matplotlib. A longer term goal of this work is to explore plausible extensions of dual-label coefficients to triple-label coefficients.&quot;, 
+            &quot;description&quot;: &quot;&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;<a href="http://www.youtube.com/t/terms" rel="nofollow">http://www.youtube.com/t/terms</a>&quot;, 
+            &quot;embed&quot;: &quot;&lt;object width=\&quot;640\&quot; height=\&quot;390\&quot;&gt;&lt;param name=\&quot;movie\&quot; value=\&quot;http://youtube.com/v/ar5YtgiXfNI?version=3&amp;amp;hl=en_US\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowFullScreen\&quot; value=\&quot;true\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowscriptaccess\&quot; value=\&quot;always\&quot;&gt;&lt;/param&gt;&lt;embed src=\&quot;http://youtube.com/v/ar5YtgiXfNI?version=3&amp;amp;hl=en_US\&quot; type=\&quot;application/x-shockwave-flash\&quot; width=\&quot;640\&quot; height=\&quot;390\&quot; allowscriptaccess=\&quot;always\&quot; allowfullscreen=\&quot;true\&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://i1.ytimg.com/vi/ar5YtgiXfNI/hqdefault.jpg" rel="nofollow">http://i1.ytimg.com/vi/ar5YtgiXfNI/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: null, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="http://www.youtube.com/watch?v=ar5YtgiXfNI" rel="nofollow">http://www.youtube.com/watch?v=ar5YtgiXfNI</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;needs editing&quot;, 
+            &quot;recorded&quot;: &quot;2013-07-02&quot;, 
+            &quot;added&quot;: &quot;2013-07-04T10:08:32&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:26.331&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;SciPy 2013&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;breaking-the-diffraction-limit-with-python-and-sc&quot;, 
+            &quot;speakers&quot;: [], 
+            &quot;tags&quot;: [
+                &quot;Tech&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 2016, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Breaking the diffraction limit with python and scipy; SciPy 2013 Presentation&quot;, 
+            &quot;summary&quot;: &quot;Authors: Baddeley, David, Nanobiology Institute, Yale University\n\nTrack: General\n\nTextbook physics tells us that the resolution of a microsope is limited to half the wavelength of the radiation used. This means that structures smaller than ~250 nm cannot be resolved in an optical microscope, and that electron microscopy was required to study cellular nanostructures. Recent advances based on imaging stochastically switching fluorescent probes have allowed the diffraction limit to be circumvented and optical imaging to be performed with a resolution of 10-20 nm. These new methods, known as PALM (Photo-Activated Localisation Microscopy), STORM (STochastic Optical Reconstruction Microscopy), and a number of related acronyms are computationally intensive and involve detailed control of the microscope hardware.\n\nI will present a comprehensive package for PALM/STORM microscope control and image analysis written in python and scipy. The package is modular, and comes complete with a facility for distributed data analysis. In addition to the specialised localisation microscopy components, there are many aspects of the project which are likely to be interesting to the broader microscopy and image processing community. These include a generic microscope control package, an extensible 3D image viewer supporting many basic image processing tasks, a 3D deconvolution software (Richardson-Lucy and ICTM), as well as PSF simulation and pupil phase extraction code.\n\nMy knowledge of python has grown alongside the project, and In addition to giving an overview of the package, I will discuss some of the design choices and mistakes I&#39;ve made along the way.&quot;, 
+            &quot;description&quot;: &quot;&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;<a href="http://www.youtube.com/t/terms" rel="nofollow">http://www.youtube.com/t/terms</a>&quot;, 
+            &quot;embed&quot;: &quot;&lt;object width=\&quot;640\&quot; height=\&quot;390\&quot;&gt;&lt;param name=\&quot;movie\&quot; value=\&quot;http://youtube.com/v/KiVwsCBkFYk?version=3&amp;amp;hl=en_US\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowFullScreen\&quot; value=\&quot;true\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowscriptaccess\&quot; value=\&quot;always\&quot;&gt;&lt;/param&gt;&lt;embed src=\&quot;http://youtube.com/v/KiVwsCBkFYk?version=3&amp;amp;hl=en_US\&quot; type=\&quot;application/x-shockwave-flash\&quot; width=\&quot;640\&quot; height=\&quot;390\&quot; allowscriptaccess=\&quot;always\&quot; allowfullscreen=\&quot;true\&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://i1.ytimg.com/vi/KiVwsCBkFYk/hqdefault.jpg" rel="nofollow">http://i1.ytimg.com/vi/KiVwsCBkFYk/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: null, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="http://www.youtube.com/watch?v=KiVwsCBkFYk" rel="nofollow">http://www.youtube.com/watch?v=KiVwsCBkFYk</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;needs editing&quot;, 
+            &quot;recorded&quot;: &quot;2013-07-02&quot;, 
+            &quot;added&quot;: &quot;2013-07-04T10:08:39&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:26.332&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;SciPy 2013&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;bringing-astronomical-tools-down-to-earth-scipy&quot;, 
+            &quot;speakers&quot;: [], 
+            &quot;tags&quot;: [
+                &quot;Tech&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 2022, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Bringing astronomical tools down to earth; SciPy 2013 Presentation&quot;, 
+            &quot;summary&quot;: &quot;Authors: Droettboom, Michael, STScI; Dencheva, Nadia, STScI; Aldcroft, Tom, Harvard-Smithsonian Center for As\n\nTrack: General\n\nIn the process of developing the core tools in astropy, some modules have been developed that have wider applicability than just for astronomy. This talk will describe these tools and the approach taken by astropy towards these. These include general tools for handling units, and quantities with units, with capabilities not found in other unit packages, such as equivalency mappings. We have also developed a generic system for defining models and interfacing models with generic fitting algorithms in an easily extensible way. This system underlies our approach for mapping array coordinates to general world coordinate systems. Finally, a powerful table interface has been developed that handles many different data formats (currently focused mostly on astronomical varieties, but extensible to other fields as well).&quot;, 
+            &quot;description&quot;: &quot;&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;<a href="http://www.youtube.com/t/terms" rel="nofollow">http://www.youtube.com/t/terms</a>&quot;, 
+            &quot;embed&quot;: &quot;&lt;object width=\&quot;640\&quot; height=\&quot;390\&quot;&gt;&lt;param name=\&quot;movie\&quot; value=\&quot;http://youtube.com/v/AsOzSBgGU0I?version=3&amp;amp;hl=en_US\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowFullScreen\&quot; value=\&quot;true\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowscriptaccess\&quot; value=\&quot;always\&quot;&gt;&lt;/param&gt;&lt;embed src=\&quot;http://youtube.com/v/AsOzSBgGU0I?version=3&amp;amp;hl=en_US\&quot; type=\&quot;application/x-shockwave-flash\&quot; width=\&quot;640\&quot; height=\&quot;390\&quot; allowscriptaccess=\&quot;always\&quot; allowfullscreen=\&quot;true\&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://i1.ytimg.com/vi/AsOzSBgGU0I/hqdefault.jpg" rel="nofollow">http://i1.ytimg.com/vi/AsOzSBgGU0I/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: null, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="http://www.youtube.com/watch?v=AsOzSBgGU0I" rel="nofollow">http://www.youtube.com/watch?v=AsOzSBgGU0I</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;needs editing&quot;, 
+            &quot;recorded&quot;: &quot;2013-07-02&quot;, 
+            &quot;added&quot;: &quot;2013-07-04T10:08:39&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:26.334&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;SciPy 2013&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;climate-observations-from-acis-in-pandas-scipy-2&quot;, 
+            &quot;speakers&quot;: [], 
+            &quot;tags&quot;: [
+                &quot;Tech&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 1982, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Climate Observations from ACIS in pandas; SciPy 2013 Presentation&quot;, 
+            &quot;summary&quot;: &quot;Authors: Noon, William: Northeast Regional Climate Center\n\nTrack: Meteorology, Climatology, Atmospheric and Oceanic Science\n\nThe Applied Climate Information System (ACIS) has been developed by the Regional Climate Centers (RCCs) and has been providing relevant climate data and products for over a decade. Last year (2012) we release version 2 of our data access protocol and made the system open to general use. <a href="http://data.rcc-acis.org%5Cn%5CnACIS" rel="nofollow">http://data.rcc-acis.org\n\nACIS</a> aggregates weather observations reported at over 20,000 stations in North America over the last 100 years. These observations are collected from a number of sources and updated multiple times a day. At any point in time, the system will select the best available data and merge them into a coherent record. The daily/hourly observations are available as well as climate products summarized over various time intervals. <a href="http://www.rcc-acis.org%5Cn%5CnThe" rel="nofollow">http://www.rcc-acis.org\n\nThe</a> ACIS Web Services use standard web requests and formats to defined the requested data product and return the results. This data can be further refined by the user in their prefered analysis environment.\n\nThis talk introduces a pandas data loader for the ACIS Web Services.&quot;, 
+            &quot;description&quot;: &quot;&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;<a href="http://www.youtube.com/t/terms" rel="nofollow">http://www.youtube.com/t/terms</a>&quot;, 
+            &quot;embed&quot;: &quot;&lt;object width=\&quot;640\&quot; height=\&quot;390\&quot;&gt;&lt;param name=\&quot;movie\&quot; value=\&quot;http://youtube.com/v/HQe1qdINL-A?version=3&amp;amp;hl=en_US\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowFullScreen\&quot; value=\&quot;true\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowscriptaccess\&quot; value=\&quot;always\&quot;&gt;&lt;/param&gt;&lt;embed src=\&quot;http://youtube.com/v/HQe1qdINL-A?version=3&amp;amp;hl=en_US\&quot; type=\&quot;application/x-shockwave-flash\&quot; width=\&quot;640\&quot; height=\&quot;390\&quot; allowscriptaccess=\&quot;always\&quot; allowfullscreen=\&quot;true\&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://i1.ytimg.com/vi/HQe1qdINL-A/hqdefault.jpg" rel="nofollow">http://i1.ytimg.com/vi/HQe1qdINL-A/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: null, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="http://www.youtube.com/watch?v=HQe1qdINL-A" rel="nofollow">http://www.youtube.com/watch?v=HQe1qdINL-A</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;needs editing&quot;, 
+            &quot;recorded&quot;: &quot;2013-07-02&quot;, 
+            &quot;added&quot;: &quot;2013-07-04T10:08:34&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:26.335&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;SciPy 2013&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;data-agnosticism-feature-engineering-without-dom&quot;, 
+            &quot;speakers&quot;: [], 
+            &quot;tags&quot;: [
+                &quot;Tech&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 2030, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Data Agnosticism: Feature Engineering Without Domain Expertise; SciPy 2013 Presentation&quot;, 
+            &quot;summary&quot;: &quot;Authors: Kridler, Nicholas, Accretive Health\n\nTrack: General\n\nBits are bits. Whether you are searching for whales in audio clips or trying to predicit hospitalization rates based on insurance claims, the pro- cess is the same: clean the data, generate features, build a model, and iter- ate. Better features lead to a better model, but without domain expertise it is often difficult to extract those features. Numpy/Scipy, Matplotlib, Pandas, and Sci-kit Learn provide an excellent framework for data anal- ysis and feature discovery. This is evidenced by high performing models in the Heritage Health Prize and the Marinexplore Right Whale Detec- tion challenge. In both competitions, the largest performance gains came from identifying better features. This required being able to repeatedly visualize and characterize model successes and failures. Python provides this capability as well as the ability to rapidly implement and test new features. This talk will discuss how Python was used to develop competi- tive predictive models based on derived features discovered through data analysis.&quot;, 
+            &quot;description&quot;: &quot;&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;<a href="http://www.youtube.com/t/terms" rel="nofollow">http://www.youtube.com/t/terms</a>&quot;, 
+            &quot;embed&quot;: &quot;&lt;object width=\&quot;640\&quot; height=\&quot;390\&quot;&gt;&lt;param name=\&quot;movie\&quot; value=\&quot;http://youtube.com/v/bL4b1sGnILU?version=3&amp;amp;hl=en_US\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowFullScreen\&quot; value=\&quot;true\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowscriptaccess\&quot; value=\&quot;always\&quot;&gt;&lt;/param&gt;&lt;embed src=\&quot;http://youtube.com/v/bL4b1sGnILU?version=3&amp;amp;hl=en_US\&quot; type=\&quot;application/x-shockwave-flash\&quot; width=\&quot;640\&quot; height=\&quot;390\&quot; allowscriptaccess=\&quot;always\&quot; allowfullscreen=\&quot;true\&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://i1.ytimg.com/vi/bL4b1sGnILU/hqdefault.jpg" rel="nofollow">http://i1.ytimg.com/vi/bL4b1sGnILU/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: null, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="http://www.youtube.com/watch?v=bL4b1sGnILU" rel="nofollow">http://www.youtube.com/watch?v=bL4b1sGnILU</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;needs editing&quot;, 
+            &quot;recorded&quot;: &quot;2013-07-02&quot;, 
+            &quot;added&quot;: &quot;2013-07-04T10:08:40&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:26.336&quot;
+        }
+    ]
+}</pre>
+            </div>
+        </div>
+
+            
+
+                
+
+                
+            
+
+        </div>
+        <!-- END content-main -->
+
+    </div>
+    <!-- END Content -->
+
+        <div id="push"></div>
+
+    </div>
+
+    </div><!-- ./wrapper -->
+
+    
+    
+
+    
+    <script src="/static/rest_framework/js/jquery-1.8.1-min.js"></script>
+    <script src="/static/rest_framework/js/bootstrap.min.js"></script>
+    <script src="/static/rest_framework/js/prettify-min.js"></script>
+    <script src="/static/rest_framework/js/default.js"></script>
+    
+  </body>
+
+<!-- Mirrored from pyvideo.org/api/v2/video/?page=101&format=api by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 07 Jan 2016 03:51:12 GMT -->
+</html>

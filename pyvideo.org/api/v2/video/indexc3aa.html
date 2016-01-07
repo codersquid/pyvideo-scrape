@@ -1,0 +1,955 @@
+
+
+<!DOCTYPE html>
+<html>
+    
+<!-- Mirrored from pyvideo.org/api/v2/video/?page=122 by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 07 Jan 2016 03:52:15 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+    
+
+        
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+        <meta name="robots" content="NONE,NOARCHIVE" />
+        
+
+        <title>Django REST framework</title>
+
+        
+        
+            <link rel="stylesheet" type="text/css" href="/static/rest_framework/css/bootstrap.min.css"/>
+            <link rel="stylesheet" type="text/css" href="/static/rest_framework/css/bootstrap-tweaks.css"/>
+        
+        <link rel="stylesheet" type="text/css" href="/static/rest_framework/css/prettify.css"/>
+        <link rel="stylesheet" type="text/css" href="/static/rest_framework/css/default.css"/>
+        
+
+    
+    </head>
+
+  <body class=" container">
+
+    <div class="wrapper">
+
+    
+    <div class="navbar navbar-inverse">
+        <div class="navbar-inner">
+            <div class="container-fluid">
+                <span href="/">
+                    <a class='brand' rel="nofollow" href='http://www.django-rest-framework.org'>Django REST framework <span class="version">2.3.14</span></a>
+                </span>
+                <ul class="nav pull-right">
+                    
+                        
+                            <li></li>
+                        
+                    
+                </ul>
+            </div>
+        </div>
+    </div>
+    
+
+    
+    <ul class="breadcrumb">
+        
+            <li>
+                <a href="/api/v2/video/" class="active">Video List Create Api</a> 
+            </li>
+        
+    </ul>
+    
+
+    <!-- Content -->
+    <div id="content">
+
+        
+            <form id="get-form" class="pull-right">
+                <fieldset>
+                    <div class="btn-group format-selection">
+                        <a class="btn btn-primary js-tooltip" href='/api/v2/video/?page=122' rel="nofollow" title="Make a GET request on the Video List Create Api resource">GET</a>
+
+                        <button class="btn btn-primary dropdown-toggle js-tooltip" data-toggle="dropdown" title="Specify a format for the GET request">
+                            <span class="caret"></span>
+                        </button>
+                        <ul class="dropdown-menu">
+                            
+                                <li>
+                                    <a class="js-tooltip format-option" href='/api/v2/video/?page=122&format=json' rel="nofollow" title="Make a GET request on the Video List Create Api resource with the format set to `json`">json</a>
+                                </li>
+                            
+                                <li>
+                                    <a class="js-tooltip format-option" href='/api/v2/video/?page=122&format=api' rel="nofollow" title="Make a GET request on the Video List Create Api resource with the format set to `api`">api</a>
+                                </li>
+                            
+                        </ul>
+                    </div>
+
+                </fieldset>
+            </form>
+        
+
+        
+            <form class="button-form" action="/api/v2/video/?page=122" method="POST" class="pull-right">
+                <input type='hidden' name='csrfmiddlewaretoken' value='pT8iI6zhtQdsGFmu4tryYgFrUlipl2B3' />
+                <input type="hidden" name="_method" value="OPTIONS" />
+                <button class="btn btn-primary js-tooltip" title="Make an OPTIONS request on the Video List Create Api resource">OPTIONS</button>
+            </form>
+        
+
+        
+
+        <div class="content-main">
+            <div class="page-header"><h1>Video List Create Api</h1></div>
+            
+            
+            
+            <div class="request-info" style="clear: both" >
+                <pre class="prettyprint"><b>GET</b> /api/v2/video/?page=122</pre>
+            </div>
+            <div class="response-info">
+                <pre class="prettyprint"><div class="meta nocode"><b>HTTP 200 OK</b>
+<b>Content-Type:</b> <span class="lit">application/json</span>
+<b>Vary:</b> <span class="lit">Accept</span>
+<b>Allow:</b> <span class="lit">GET, POST, HEAD, OPTIONS</span>
+
+</div>{
+    &quot;count&quot;: 3439, 
+    &quot;next&quot;: &quot;<a href="http://pyvideo.org/api/v2/video/?page=123" rel="nofollow">http://pyvideo.org/api/v2/video/?page=123</a>&quot;, 
+    &quot;previous&quot;: &quot;<a href="http://pyvideo.org/api/v2/video/?page=121" rel="nofollow">http://pyvideo.org/api/v2/video/?page=121</a>&quot;, 
+    &quot;results&quot;: [
+        {
+            &quot;category&quot;: &quot;PyCon DE 2012&quot;, 
+            &quot;language&quot;: &quot;German&quot;, 
+            &quot;slug&quot;: &quot;gr-einuniverselles-framework-f-r-visualisierung&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Josef Heinen&quot;
+            ], 
+            &quot;tags&quot;: [
+                &quot;frameworks&quot;, 
+                &quot; opengl&quot;, 
+                &quot; visualisierung&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 1449, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;GR - ein universelles Framework f\u00fcr Visualisierungsanwendungen&quot;, 
+            &quot;summary&quot;: &quot;Zur Erstellung von Visualisierungsprogrammen existiert eine Vielzahl freier\nund kommerzieller Tools und Bibliotheken. In einem heterogenen Rechnerumfeld\nzeigt sich aber, dass es keine durchg\u00e4ngig einsetzbare L\u00f6sung gibt, welche die\nspeziellen Anforderungen in einem wissenschaftlichen Umfeld abdeckt.\n\nGR ist ein universell einsetzbares Framework f\u00fcr plattform\u00fcbergreifende\nVisualisierungsanwendungen. Es bietet Entwicklern eine kompakte, portable und\neinheitliche Grafik-Bibliothek f\u00fcr ihre Anwendungen. Das Anwendungsspektrum\nreicht von der Erzeugung publikationsreifer 2D-Diagramme bis hin zur\nDarstellung komplexer 3D-Szenen.\n\nDer Vortrag beschreibt zun\u00e4chst die Funktionalit\u00e4t des GR-Frameworks, welches\nim wesentlichen auf einer Implementierung des graphischen Kernsystems (GKS)\nsowie der Programmierschnittstelle OpenGL basiert. Es wird aufgezeigt, wie GR\nals geschlossenes System schnell und einfach in vorhandene Anwendungen \u2013 z.B.\nmit dem ctypes-Mechanismus in Python - integriert werden kann. Neben dem\nEinsatz in imperativ programmierten Systemen ist auch eine Integration in\nmoderne objektorientierte Systeme, die auf GUI Toolkits aufbauen, vorgesehen.\nDar\u00fcber hinaus werden die St\u00e4rken des GR-Frameworks in Bezug auf die\nInteroperabilit\u00e4t mit aktuellen Web-Technologien und mobilen Ger\u00e4ten\nherausgestellt.\n\n&quot;, 
+            &quot;description&quot;: &quot;&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;&quot;, 
+            &quot;embed&quot;: &quot;&lt;object width=\&quot;640\&quot; height=\&quot;390\&quot;&gt;&lt;param name=\&quot;movie\&quot; value=\&quot;http://youtube.com/v/EhLPAEUI4l0?version=3&amp;amp;hl=en_US\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowFullScreen\&quot; value=\&quot;true\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowscriptaccess\&quot; value=\&quot;always\&quot;&gt;&lt;/param&gt;&lt;embed src=\&quot;http://youtube.com/v/EhLPAEUI4l0?version=3&amp;amp;hl=en_US\&quot; type=\&quot;application/x-shockwave-flash\&quot; width=\&quot;640\&quot; height=\&quot;390\&quot; allowscriptaccess=\&quot;always\&quot; allowfullscreen=\&quot;true\&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://i2.ytimg.com/vi/EhLPAEUI4l0/hqdefault.jpg" rel="nofollow">http://i2.ytimg.com/vi/EhLPAEUI4l0/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: &quot;&quot;, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: &quot;<a href="http://s3.us.archive.org/nextdayvideo/pyconde/pyconde2012/GR_ein_universelles_Framework_.mp4?Signature=F/TVlB6yIBeHaxr3Dr7b+2O19/c=&amp;Expires=1351856085&amp;AWSAccessKeyId=FEWGReWX3QbNk0h3" rel="nofollow">http://s3.us.archive.org/nextdayvideo/pyconde/pyconde2012/GR_ein_universelles_Framework_.mp4?Signature=F%2FTVlB6yIBeHaxr3Dr7b%2B2O19%2Fc%3D&amp;Expires=1351856085&amp;AWSAccessKeyId=FEWGReWX3QbNk0h3</a>&quot;, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: &quot;&quot;, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: &quot;&quot;, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="https://www.youtube.com/watch?v=EhLPAEUI4l0" rel="nofollow">https://www.youtube.com/watch?v=EhLPAEUI4l0</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2012-10-31&quot;, 
+            &quot;added&quot;: &quot;2012-11-02T06:37:49&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:26.905&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyCon DE 2012&quot;, 
+            &quot;language&quot;: &quot;German&quot;, 
+            &quot;slug&quot;: &quot;hunting-down-the-universe-was-alte-bugs-mit-neu&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Benedikt Hegner&quot;
+            ], 
+            &quot;tags&quot;: [
+                &quot;keynote&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 1490, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Hunting down the Universe - was alte Bugs mit neuer Physik zu tun haben&quot;, 
+            &quot;summary&quot;: &quot;Zur Zeit findet am CERN in Genf wohl eins der gr\u00f6\u00dften wissenschaftlichen\nExperimente der Menschheit statt - der LHC. Aber was wird an diesem\nTeilchenbeschleuniger eigentlich gemacht? Warum fasziniert die Suche nach dem\nHiggs eine ganze Physikergeneration? Wieso ist der LHC nicht nur\neinphysikalisches, sondern auch ein soziologisches Experiment? Und was hat\nschlussendlich die Suche nach neuen Teilchen mit Python und der Suche nach\nBugs zu tun? Diese Keynote wird versuchen, diese und andere Fragen zu\nbeleuchten.\n\n&quot;, 
+            &quot;description&quot;: &quot;&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;&quot;, 
+            &quot;embed&quot;: &quot;&lt;object width=\&quot;640\&quot; height=\&quot;390\&quot;&gt;&lt;param name=\&quot;movie\&quot; value=\&quot;http://youtube.com/v/jZaF61V6_ms?version=3&amp;amp;hl=en_US\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowFullScreen\&quot; value=\&quot;true\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowscriptaccess\&quot; value=\&quot;always\&quot;&gt;&lt;/param&gt;&lt;embed src=\&quot;http://youtube.com/v/jZaF61V6_ms?version=3&amp;amp;hl=en_US\&quot; type=\&quot;application/x-shockwave-flash\&quot; width=\&quot;640\&quot; height=\&quot;390\&quot; allowscriptaccess=\&quot;always\&quot; allowfullscreen=\&quot;true\&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://i3.ytimg.com/vi/jZaF61V6_ms/hqdefault.jpg" rel="nofollow">http://i3.ytimg.com/vi/jZaF61V6_ms/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: &quot;<a href="http://s3.us.archive.org/nextdayvideo/pyconde/pyconde2012/Keynote_Hunting_down_the_Unive.mp4?Signature=19elyDzU4KE4X0kT9Hj7gI1NjSg=&amp;Expires=1352197809&amp;AWSAccessKeyId=FEWGReWX3QbNk0h3" rel="nofollow">http://s3.us.archive.org/nextdayvideo/pyconde/pyconde2012/Keynote_Hunting_down_the_Unive.mp4?Signature=19elyDzU4KE4X0kT9Hj7gI1NjSg%3D&amp;Expires=1352197809&amp;AWSAccessKeyId=FEWGReWX3QbNk0h3</a>&quot;, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: &quot;&quot;, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: &quot;&quot;, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="https://www.youtube.com/watch?v=jZaF61V6_ms" rel="nofollow">https://www.youtube.com/watch?v=jZaF61V6_ms</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2012-10-31&quot;, 
+            &quot;added&quot;: &quot;2012-11-06T19:54:21&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:26.907&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyCon DE 2012&quot;, 
+            &quot;language&quot;: &quot;German&quot;, 
+            &quot;slug&quot;: &quot;konferenz-organisation-mit-plone&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Andreas Mantke&quot;
+            ], 
+            &quot;tags&quot;: [
+                &quot; add-on&quot;, 
+                &quot; dexterity&quot;, 
+                &quot; konferenz-organisation&quot;, 
+                &quot;plone&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 1487, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Konferenz-Organisation mit Plone&quot;, 
+            &quot;summary&quot;: &quot;Der Vortrag zeigt die Entwicklung eines Konferenz-Organisations-Add-ons f\u00fcr\nPlone mit dem Dexterity Framework. Dieses moderne Content-Type-Framework\nerm\u00f6glicht es, einfacher neue Artikel-/Contenttypen zu erstellen (sowohl\nselbst im Web als auch auf Dateisystemebene). Das Add-on ist in der\nEntwicklung f\u00fcr die diesj\u00e4hrige LibreOffice-Konferenz, die im Oktober in\nBerlin stattfinden wird. Es soll auch auf k\u00fcnftigen LibreOffice-Konferenzen\neingesetzt werden und kann auch f\u00fcr andere Konferenzen verwendet werden. Das\nAdd-on wird unter einer Open Source Lizenz entwickelt.\n\nDas Add-On wird zun\u00e4chst dazu verwendet, Vortragsvorschl\u00e4ge einzureichen, zu\nreviewen und aus den akzeptierten Vorschl\u00e4gen Tracks in einem Programm\nzusammenzustellen. Es verwaltet dabei auch Speaker und Konferenzr\u00e4ume. In\neiner weiteren Ausbaustufe ist vorgesehen, Teilnehmer einer Konferenz zu\nverwalten, einschlie\u00dflich der Abwicklung des Ticketentgelts bzw. von\nTeilnehmerentgelten.\n\n&quot;, 
+            &quot;description&quot;: &quot;&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;&quot;, 
+            &quot;embed&quot;: &quot;&lt;object width=\&quot;640\&quot; height=\&quot;390\&quot;&gt;&lt;param name=\&quot;movie\&quot; value=\&quot;http://youtube.com/v/68WDcWMom7Q?version=3&amp;amp;hl=en_US\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowFullScreen\&quot; value=\&quot;true\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowscriptaccess\&quot; value=\&quot;always\&quot;&gt;&lt;/param&gt;&lt;embed src=\&quot;http://youtube.com/v/68WDcWMom7Q?version=3&amp;amp;hl=en_US\&quot; type=\&quot;application/x-shockwave-flash\&quot; width=\&quot;640\&quot; height=\&quot;390\&quot; allowscriptaccess=\&quot;always\&quot; allowfullscreen=\&quot;true\&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://i3.ytimg.com/vi/68WDcWMom7Q/hqdefault.jpg" rel="nofollow">http://i3.ytimg.com/vi/68WDcWMom7Q/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: &quot;<a href="http://s3.us.archive.org/nextdayvideo/pyconde/pyconde2012/Vortrag_KonferenzOrganisation_.mp4?Signature=oOx4ac/855HrwYZ2YPnk6AjJNtg=&amp;Expires=1352129293&amp;AWSAccessKeyId=FEWGReWX3QbNk0h3" rel="nofollow">http://s3.us.archive.org/nextdayvideo/pyconde/pyconde2012/Vortrag_KonferenzOrganisation_.mp4?Signature=oOx4ac%2F855HrwYZ2YPnk6AjJNtg%3D&amp;Expires=1352129293&amp;AWSAccessKeyId=FEWGReWX3QbNk0h3</a>&quot;, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: &quot;&quot;, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: &quot;&quot;, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="https://www.youtube.com/watch?v=68WDcWMom7Q" rel="nofollow">https://www.youtube.com/watch?v=68WDcWMom7Q</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2012-10-31&quot;, 
+            &quot;added&quot;: &quot;2012-11-06T19:54:13&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:26.908&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyCon DE 2012&quot;, 
+            &quot;language&quot;: &quot;German&quot;, 
+            &quot;slug&quot;: &quot;lfs-ein-online-shop-basierend-auf-django&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Kai Diefenbach&quot;
+            ], 
+            &quot;tags&quot;: [
+                &quot;django&quot;, 
+                &quot; e-commerce&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 1466, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;LFS - Ein Online-Shop basierend auf Django&quot;, 
+            &quot;summary&quot;: &quot;LFS ist ein Online-Shop basieren auf Python, Django und jQuery. Er erfreut\nsich zunehmender Aufmerksamkeit, sowohl bei Entwicklern als auch bei\nAnwendern. Laut [djangopackages.com](http://djangopackages.com) ist LFS der am\nh\u00e4ufigsten heruntergeladene Shop f\u00fcr Django. \u00c4nderungen am Source Code\nverfolgen \u00fcber 200 Entwickler und die Google-Gruppe hat zur Zeit \u00fcber 170\nMitglieder.\n\nLFS ist praxiserprobt. Beispiele f\u00fcr gro\u00dfe und erfolgreiche Shops sind:\n\n* [demmelhuber.net](http://demmelhuber.net)  \n* [holzimgarten.com](http://holzimgarten.com)  \n* [anwaltakademie.de](http://anwaltakademie.de)\n\nKai Diefenbach, Gr\u00fcnder und einer der Kern-Entwickler, gibt in diesem Vortrag\nein \u00dcberblick zu folgenden Themen:\n\n* Live-Shops. Vorstellung von einigen Live-Shops: Zahlen und Fakten.\n\n* Features. Vorstellung der wichtigsten Features, beispielsweise: Produktarten, Katalog, Zahlmethoden, Liefermethoden, Mehrwertsteuer, Checkout, etc.\n\n* Entwicklung. Alles rund um die Entwicklung: Wie geht diese vor sich? Wie kann ich teilnehmen? Wie k\u00f6nnen Erweiterungen entwickelt werden?\n\n* Ausblick. Die Zukunft von LFS: Releases, neue Features, etc.\n\n&quot;, 
+            &quot;description&quot;: &quot;&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;&quot;, 
+            &quot;embed&quot;: &quot;&lt;object width=\&quot;640\&quot; height=\&quot;390\&quot;&gt;&lt;param name=\&quot;movie\&quot; value=\&quot;http://youtube.com/v/-GptuADVU00?version=3&amp;amp;hl=en_US\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowFullScreen\&quot; value=\&quot;true\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowscriptaccess\&quot; value=\&quot;always\&quot;&gt;&lt;/param&gt;&lt;embed src=\&quot;http://youtube.com/v/-GptuADVU00?version=3&amp;amp;hl=en_US\&quot; type=\&quot;application/x-shockwave-flash\&quot; width=\&quot;640\&quot; height=\&quot;390\&quot; allowscriptaccess=\&quot;always\&quot; allowfullscreen=\&quot;true\&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://i2.ytimg.com/vi/-GptuADVU00/hqdefault.jpg" rel="nofollow">http://i2.ytimg.com/vi/-GptuADVU00/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: &quot;&quot;, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: &quot;<a href="http://s3.us.archive.org/nextdayvideo/pyconde/pyconde2012/Vortrag_LFS_Ein_OnlineShop_bas.mp4?Signature=eZufn5aAG7FYN8ib4zd22fHUUl4=&amp;Expires=1351867420&amp;AWSAccessKeyId=FEWGReWX3QbNk0h3" rel="nofollow">http://s3.us.archive.org/nextdayvideo/pyconde/pyconde2012/Vortrag_LFS_Ein_OnlineShop_bas.mp4?Signature=eZufn5aAG7FYN8ib4zd22fHUUl4%3D&amp;Expires=1351867420&amp;AWSAccessKeyId=FEWGReWX3QbNk0h3</a>&quot;, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: &quot;&quot;, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: &quot;&quot;, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="https://www.youtube.com/watch?v=-GptuADVU00" rel="nofollow">https://www.youtube.com/watch?v=-GptuADVU00</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2012-10-31&quot;, 
+            &quot;added&quot;: &quot;2012-11-02T09:47:10&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:26.909&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyCon DE 2012&quot;, 
+            &quot;language&quot;: &quot;German&quot;, 
+            &quot;slug&quot;: &quot;lightning-talks-mittwoch&quot;, 
+            &quot;speakers&quot;: [], 
+            &quot;tags&quot;: [], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 1481, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Lightning Talks (Mittwoch)&quot;, 
+            &quot;summary&quot;: &quot;\n\n&quot;, 
+            &quot;description&quot;: &quot;&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;&quot;, 
+            &quot;embed&quot;: &quot;&lt;object width=\&quot;640\&quot; height=\&quot;390\&quot;&gt;&lt;param name=\&quot;movie\&quot; value=\&quot;http://youtube.com/v/HppU0x5V1Dg?version=3&amp;amp;hl=en_US\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowFullScreen\&quot; value=\&quot;true\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowscriptaccess\&quot; value=\&quot;always\&quot;&gt;&lt;/param&gt;&lt;embed src=\&quot;http://youtube.com/v/HppU0x5V1Dg?version=3&amp;amp;hl=en_US\&quot; type=\&quot;application/x-shockwave-flash\&quot; width=\&quot;640\&quot; height=\&quot;390\&quot; allowscriptaccess=\&quot;always\&quot; allowfullscreen=\&quot;true\&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://i1.ytimg.com/vi/HppU0x5V1Dg/hqdefault.jpg" rel="nofollow">http://i1.ytimg.com/vi/HppU0x5V1Dg/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: &quot;&quot;, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: &quot;<a href="http://s3.us.archive.org/nextdayvideo/pyconde/pyconde2012/Lightning_Talks_Mittwoch.mp4?Signature=DVd75EjSAHjxH1Vz30wJaiwi4vU=&amp;Expires=1352209247&amp;AWSAccessKeyId=FEWGReWX3QbNk0h3" rel="nofollow">http://s3.us.archive.org/nextdayvideo/pyconde/pyconde2012/Lightning_Talks_Mittwoch.mp4?Signature=DVd75EjSAHjxH1Vz30wJaiwi4vU%3D&amp;Expires=1352209247&amp;AWSAccessKeyId=FEWGReWX3QbNk0h3</a>&quot;, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: &quot;&quot;, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: &quot;&quot;, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="https://www.youtube.com/watch?v=HppU0x5V1Dg" rel="nofollow">https://www.youtube.com/watch?v=HppU0x5V1Dg</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2012-10-31&quot;, 
+            &quot;added&quot;: &quot;2012-11-06T19:36:10&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:26.911&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyCon DE 2012&quot;, 
+            &quot;language&quot;: &quot;German&quot;, 
+            &quot;slug&quot;: &quot;metro-programmierung-mit-python&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Martin v. L\u00f6wis&quot;
+            ], 
+            &quot;tags&quot;: [
+                &quot; app&quot;, 
+                &quot;metro&quot;, 
+                &quot; winrt&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 1444, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Metro-Programmierung mit Python&quot;, 
+            &quot;summary&quot;: &quot;Metro ist die Nutzerschnittstelle f\u00fcr Apps in Windows 8. Microsoft unterst\u00fctzt\nApp-Programmierung in C, C++, C#, VB und JavaScript. Im Vortrag wird das API\nWinRT vorgestellt und gezeigt, wie mit Python Apps entwickelt werden k\u00f6nnen.\n\nThemen sind:\n\n- Windows 8  \n- Metro-UI  \n- WinRT und COM  \n- Python als App  \n- Python-WinRT-API\n\n&quot;, 
+            &quot;description&quot;: &quot;&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;&quot;, 
+            &quot;embed&quot;: &quot;&lt;object width=\&quot;640\&quot; height=\&quot;390\&quot;&gt;&lt;param name=\&quot;movie\&quot; value=\&quot;http://youtube.com/v/RJ18uynXWto?version=3&amp;amp;hl=en_US\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowFullScreen\&quot; value=\&quot;true\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowscriptaccess\&quot; value=\&quot;always\&quot;&gt;&lt;/param&gt;&lt;embed src=\&quot;http://youtube.com/v/RJ18uynXWto?version=3&amp;amp;hl=en_US\&quot; type=\&quot;application/x-shockwave-flash\&quot; width=\&quot;640\&quot; height=\&quot;390\&quot; allowscriptaccess=\&quot;always\&quot; allowfullscreen=\&quot;true\&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://i3.ytimg.com/vi/RJ18uynXWto/hqdefault.jpg" rel="nofollow">http://i3.ytimg.com/vi/RJ18uynXWto/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: &quot;<a href="http://s3.us.archive.org/nextdayvideo/pyconde/pyconde2012/Vortrag_MetroProgrammierung_mi.mp4?Signature=MlPoT25AkdPwDqrDnDeB5jGffDk=&amp;Expires=1351854093&amp;AWSAccessKeyId=FEWGReWX3QbNk0h3" rel="nofollow">http://s3.us.archive.org/nextdayvideo/pyconde/pyconde2012/Vortrag_MetroProgrammierung_mi.mp4?Signature=MlPoT25AkdPwDqrDnDeB5jGffDk%3D&amp;Expires=1351854093&amp;AWSAccessKeyId=FEWGReWX3QbNk0h3</a>&quot;, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: &quot;&quot;, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: &quot;&quot;, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="https://www.youtube.com/watch?v=RJ18uynXWto" rel="nofollow">https://www.youtube.com/watch?v=RJ18uynXWto</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2012-10-31&quot;, 
+            &quot;added&quot;: &quot;2012-11-02T06:05:36&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:26.912&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyCon DE 2012&quot;, 
+            &quot;language&quot;: &quot;German&quot;, 
+            &quot;slug&quot;: &quot;nagiosplugin-eine-python-bibliothek-fur-monitor&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Christian Kauhaus&quot;
+            ], 
+            &quot;tags&quot;: [
+                &quot;icinga&quot;, 
+                &quot; monitoring&quot;, 
+                &quot; nagios&quot;, 
+                &quot; plugin&quot;
+            ], 
+            &quot;related_urls&quot;: [
+                {
+                    &quot;url&quot;: &quot;<a href="http://de.slideshare.net/ckauhaus/nagiosplugin-pycondeckauhaus" rel="nofollow">http://de.slideshare.net/ckauhaus/nagiosplugin-pycondeckauhaus</a>&quot;, 
+                    &quot;description&quot;: &quot;&quot;
+                }
+            ], 
+            &quot;id&quot;: 1460, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;nagiosplugin - eine Python-Bibliothek f\u00fcr Monitoring-Plugins&quot;, 
+            &quot;summary&quot;: &quot;Auch wenn in der letzten Zeit sehr viel Bewegung in die Monitoring-Szene\ngekommen ist (#monitoringsucks etc.), werden die Platzhirsche Nagios/Icinga\nund ihre Standards auf absehbare Zeit nicht verschwinden. Das Nagios-Plugin-\nAPI stellt eine sehr weit verbreitete Schnittstelle zur Anbindung einzelner\nChecks an Monitoring-Systeme dar. Obwohl das API in den Grundz\u00fcgen sehr\neinfach ist, ist der Programmieraufwand f\u00fcr vollst\u00e4ndig konforme Plugins\nerstaunlich hoch.\n\nDie [_nagiosplugin_-Bibliothek](http://pypi.python.org/pypi/nagiosplugin/)\nnimmt dem Entwickler viele Details ab, so dass er sich auf den Inhalt seiner\nChecks konzentrieren kann. Der Vortrag f\u00fchrt in das Schreiben von Nagios-\nkompatiblen Plugins ein, zeigt den typischen Aufbau von Nagios-Plugins und das\nGrundprinzip eigener Plugins. Die Konfiguration und der Betrieb von\nMonitoring-Systemen im Gro\u00dfen sollen nicht thematisiert werden.\n\nEine Einf\u00fchrung stellt die notwendigen Elemente wie Klassenger\u00fcst,\nMesswerterhebung, Ranges, Statusausgabe und Performancedaten sukzessive in\naufeinander aufbauenden Beispielen vor, so dass am Ende ein einfacher, aber\npraktisch einsetzbarer Check entsteht.\n\nDer Teil \u00fcber fortgeschrittene Aspekte und Stolperfallen rei\u00dft Einzelbeispiele\nzu Themen wie mehrere Datenquellen, Timeouts, Auswertung wachsender Logfiles\nund Checks mit \&quot;Ged\u00e4chtnis\&quot; an und zeigt typischen Fehlerquellen auf.\n\nDen Abschluss bildet ein kurzer Ausblick auf die weitere Entwicklung der\n_nagiosplugin_-Bibliothek.\n\n&quot;, 
+            &quot;description&quot;: &quot;&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;&quot;, 
+            &quot;embed&quot;: &quot;&lt;object width=\&quot;640\&quot; height=\&quot;390\&quot;&gt;&lt;param name=\&quot;movie\&quot; value=\&quot;http://youtube.com/v/i6ah40KmwV8?version=3&amp;amp;hl=en_US\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowFullScreen\&quot; value=\&quot;true\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowscriptaccess\&quot; value=\&quot;always\&quot;&gt;&lt;/param&gt;&lt;embed src=\&quot;http://youtube.com/v/i6ah40KmwV8?version=3&amp;amp;hl=en_US\&quot; type=\&quot;application/x-shockwave-flash\&quot; width=\&quot;640\&quot; height=\&quot;390\&quot; allowscriptaccess=\&quot;always\&quot; allowfullscreen=\&quot;true\&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://i2.ytimg.com/vi/i6ah40KmwV8/hqdefault.jpg" rel="nofollow">http://i2.ytimg.com/vi/i6ah40KmwV8/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: &quot;&quot;, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: &quot;<a href="http://s3.us.archive.org/nextdayvideo/pyconde/pyconde2012/nagiosplugin_eine_PythonBiblio.mp4?Signature=47EyOQa7uZ51++cPEVK2llY/rtI=&amp;Expires=1352037760&amp;AWSAccessKeyId=FEWGReWX3QbNk0h3" rel="nofollow">http://s3.us.archive.org/nextdayvideo/pyconde/pyconde2012/nagiosplugin_eine_PythonBiblio.mp4?Signature=47EyOQa7uZ51%2B%2BcPEVK2llY%2FrtI%3D&amp;Expires=1352037760&amp;AWSAccessKeyId=FEWGReWX3QbNk0h3</a>&quot;, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: &quot;&quot;, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: &quot;&quot;, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="https://www.youtube.com/watch?v=i6ah40KmwV8" rel="nofollow">https://www.youtube.com/watch?v=i6ah40KmwV8</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2012-10-31&quot;, 
+            &quot;added&quot;: &quot;2012-11-02T08:14:49&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:26.913&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyCon DE 2012&quot;, 
+            &quot;language&quot;: &quot;German&quot;, 
+            &quot;slug&quot;: &quot;openoffice-dokumente-selbst-modifizieren&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Reinhard Wobst&quot;
+            ], 
+            &quot;tags&quot;: [], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 1450, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;OpenOffice-Dokumente selbst modifizieren&quot;, 
+            &quot;summary&quot;: &quot;Der Vortrag stellt eine Python-Klasse vor, die das fast beliebige Modifizieren\nvon Open/LibreOffice-Dokumenten bequem erm\u00f6glicht. Es geht mehr um die\nVorstellung einer Methode als um ein fertiges Werkzeug. So manche Aufgabe\nl\u00e4sst sich damit erheblich einfacher bewerkstelligen als mit Makros oder \u00fcber\ndie pyUNO-Schnittstelle.\n\nHat man eine gr\u00f6\u00dfere Zahl von ODF-Files (also im Open Document Format) oder\nein gro\u00dfes ODF-Dokument an vielen Stellen in gleicher Weise zu bearbeiten, ist\ndas erm\u00fcdend, zeitaufw\u00e4ndig und fehleranf\u00e4llig. Wozu gibt es Computer?\nOpen/LibreOffice erlaubt zwar Makros, doch deren Leistung ist beschr\u00e4nkt, und\ndie pyUNO-Schnittstelle ist kompliziert, schlecht dokumentiert und noch nicht\nausgetestet.\n\nEs geht auch anders: ODF-Files sind Zip-Archive von XML-Files, und diese\nlassen sich mit Pythonskripten einfach bearbeiten. Das ODF-Format ist relativ\nleicht zu verstehen (der Standard ist gut lesbar), der Phantasie des Anwenders\nsind keine Grenzen gesetzt - sei es, um manuelle Formatierungen zu markieren,\nin bestimmte Tabellen Spalten einzuf\u00fcgen oder diese um Zeilen zu erg\u00e4nzen,\nderen Berechnung partout nicht ins Konzept der Calc-Formeln passen will.\n\nDabei sind allerdings einige kleine Stolpersteine zu beachten, auf die der\nVortrag hinweist. Die hier vorgestellte Klasse ist eine m\u00f6gliche Methode, um\nsich auf die \&quot;wesentlichen Dinge\&quot; konzentrieren zu k\u00f6nnen.\n\n&quot;, 
+            &quot;description&quot;: &quot;&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;&quot;, 
+            &quot;embed&quot;: &quot;&lt;object width=\&quot;640\&quot; height=\&quot;390\&quot;&gt;&lt;param name=\&quot;movie\&quot; value=\&quot;http://youtube.com/v/u44L-l3RPy0?version=3&amp;amp;hl=en_US\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowFullScreen\&quot; value=\&quot;true\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowscriptaccess\&quot; value=\&quot;always\&quot;&gt;&lt;/param&gt;&lt;embed src=\&quot;http://youtube.com/v/u44L-l3RPy0?version=3&amp;amp;hl=en_US\&quot; type=\&quot;application/x-shockwave-flash\&quot; width=\&quot;640\&quot; height=\&quot;390\&quot; allowscriptaccess=\&quot;always\&quot; allowfullscreen=\&quot;true\&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://i2.ytimg.com/vi/u44L-l3RPy0/hqdefault.jpg" rel="nofollow">http://i2.ytimg.com/vi/u44L-l3RPy0/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: &quot;<a href="http://s3.us.archive.org/nextdayvideo/pyconde/pyconde2012/Vortrag_OpenOfficeDokumente_se.mp4?Signature=4SSedVti6KVV9qsA3khVQvrmfYk=&amp;Expires=1352028522&amp;AWSAccessKeyId=FEWGReWX3QbNk0h3" rel="nofollow">http://s3.us.archive.org/nextdayvideo/pyconde/pyconde2012/Vortrag_OpenOfficeDokumente_se.mp4?Signature=4SSedVti6KVV9qsA3khVQvrmfYk%3D&amp;Expires=1352028522&amp;AWSAccessKeyId=FEWGReWX3QbNk0h3</a>&quot;, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: &quot;&quot;, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: &quot;&quot;, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="https://www.youtube.com/watch?v=u44L-l3RPy0" rel="nofollow">https://www.youtube.com/watch?v=u44L-l3RPy0</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2012-10-31&quot;, 
+            &quot;added&quot;: &quot;2012-11-02T06:41:17&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:26.915&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyCon DE 2012&quot;, 
+            &quot;language&quot;: &quot;German&quot;, 
+            &quot;slug&quot;: &quot;plone-theming-flexibel-schnell-und-einfach&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Maik Derstappen&quot;
+            ], 
+            &quot;tags&quot;: [
+                &quot; cms&quot;, 
+                &quot; diazo&quot;, 
+                &quot;plone&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 1454, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Plone Theming, flexibel, schnell und einfach!&quot;, 
+            &quot;summary&quot;: &quot;Das Theming von komplexen Content Management Systemen ist h\u00e4ufige eine sehr\narbeitsintensive Angelegenheit - Plone ist dabei keine Ausnahme. Dank Diazo\nist kein Plone-Experten-Wissen mehr notwendig, um beliebige Designs in Plone\numzusetzen. Der Vortrag stellt an einem Beispiel aus der Praxis den Einsatz\nvon Diazo vor.\n\nDank Diazo und plone.app.theming kann ein Designtemplate (aus html und css\nkomplett unabh\u00e4ngig vom CMS gehalten werden. Ein einfaches Regelwerk verkn\u00fcpft\ndas Designtemplate mit dem CMS. Ein Theme kann als Zip-Datei verpackt, direkt\nin Plone importiert und aktiviert werden ohne das System neu starten zu\nm\u00fcssen. Der Vortrag weist an Beispielen den Weg vom statischen Template zum\ndynamischem Plone-Theme. Schwerpunkt ist hierbei die Erzeugung der Regeln mit\ndenen die Elemente des statischen Templates mit den Inhalten aus dem CMS\nverbunden werden.\n\n&quot;, 
+            &quot;description&quot;: &quot;&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;&quot;, 
+            &quot;embed&quot;: &quot;&lt;object width=\&quot;640\&quot; height=\&quot;390\&quot;&gt;&lt;param name=\&quot;movie\&quot; value=\&quot;http://youtube.com/v/e1KKo11AB8c?version=3&amp;amp;hl=en_US\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowFullScreen\&quot; value=\&quot;true\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowscriptaccess\&quot; value=\&quot;always\&quot;&gt;&lt;/param&gt;&lt;embed src=\&quot;http://youtube.com/v/e1KKo11AB8c?version=3&amp;amp;hl=en_US\&quot; type=\&quot;application/x-shockwave-flash\&quot; width=\&quot;640\&quot; height=\&quot;390\&quot; allowscriptaccess=\&quot;always\&quot; allowfullscreen=\&quot;true\&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://i2.ytimg.com/vi/e1KKo11AB8c/hqdefault.jpg" rel="nofollow">http://i2.ytimg.com/vi/e1KKo11AB8c/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: &quot;<a href="http://s3.us.archive.org/nextdayvideo/pyconde/pyconde2012/Vortrag_Plone_Theming_flexibel.mp4?Signature=kseVohSbodVVrBuNeabAxCheZPw=&amp;Expires=1351856851&amp;AWSAccessKeyId=FEWGReWX3QbNk0h3" rel="nofollow">http://s3.us.archive.org/nextdayvideo/pyconde/pyconde2012/Vortrag_Plone_Theming_flexibel.mp4?Signature=kseVohSbodVVrBuNeabAxCheZPw%3D&amp;Expires=1351856851&amp;AWSAccessKeyId=FEWGReWX3QbNk0h3</a>&quot;, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: &quot;&quot;, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: &quot;&quot;, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="https://www.youtube.com/watch?v=e1KKo11AB8c" rel="nofollow">https://www.youtube.com/watch?v=e1KKo11AB8c</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2012-10-31&quot;, 
+            &quot;added&quot;: &quot;2012-11-02T06:51:04&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:26.916&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyCon DE 2012&quot;, 
+            &quot;language&quot;: &quot;German&quot;, 
+            &quot;slug&quot;: &quot;practical-devops&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Schlomo Schapiro&quot;
+            ], 
+            &quot;tags&quot;: [
+                &quot; agile&quot;, 
+                &quot; devops&quot;, 
+                &quot; kanban&quot;, 
+                &quot;open source&quot;, 
+                &quot; python&quot;, 
+                &quot; scrum&quot;, 
+                &quot; web&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 1473, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Practical DevOps&quot;, 
+            &quot;summary&quot;: &quot;DevOps ist eine aktuelle Bewegung in der IT, die sich zur Aufgabe macht, ein\nUmdenken in den klassischen Lagern Entwicklung und Betrieb einzuleiten. Der\nVortrag wirft einen Blick auf die noch junge Bewegung und zeigt mit\nGeschichten aus dem wahren Leben, wie sich die agile Denkweise fortschreiben\nl\u00e4sst, die mit SCRUM ins allgemeine Bewusstsein getreten ist.\n\nSchlomo gibt einen \u00dcberblick \u00fcber das Thema und berichtet \u00fcber die DevOps\nErfolge bei der [ImmobilienScout24](http://www.immobilienscout24.de). Nach 2\nJahren agilem Umdenken in der Entwicklung zeigte sich, dass die klassische\nGewaltenteilung Plan - Build - Run einfach nicht mehr gut funktioniert weil\nsich die Anforderungen und Erwartungen sowohl in der Entwicklung als auch im\nBetrieb \u00e4ndern und daher auch eine neue Form der Zusammenarbeit nahe legen.\n\nDie Ideen aus der DevOps Bewegung lassen sich fast \u00fcberall einsetzen, wo\nbisher ein \&quot;\u00fcber den Zaun werfen\&quot; gespielt wird und haben das prim\u00e4re Ziel,\nalle Beteiligten gemeinsam an einem Strang ziehen zu lassen. Mit den Ideen und\nErfahrungen aus dem Vortrag lassen sich sicher die ersten Schritte in die\nrichtige Richtung einleiten.\n\n&quot;, 
+            &quot;description&quot;: &quot;&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;&quot;, 
+            &quot;embed&quot;: &quot;&lt;object width=\&quot;640\&quot; height=\&quot;390\&quot;&gt;&lt;param name=\&quot;movie\&quot; value=\&quot;http://youtube.com/v/yOB8711AhiU?version=3&amp;amp;hl=en_US\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowFullScreen\&quot; value=\&quot;true\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowscriptaccess\&quot; value=\&quot;always\&quot;&gt;&lt;/param&gt;&lt;embed src=\&quot;http://youtube.com/v/yOB8711AhiU?version=3&amp;amp;hl=en_US\&quot; type=\&quot;application/x-shockwave-flash\&quot; width=\&quot;640\&quot; height=\&quot;390\&quot; allowscriptaccess=\&quot;always\&quot; allowfullscreen=\&quot;true\&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://i2.ytimg.com/vi/yOB8711AhiU/hqdefault.jpg" rel="nofollow">http://i2.ytimg.com/vi/yOB8711AhiU/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: &quot;&quot;, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: &quot;<a href="http://s3.us.archive.org/nextdayvideo/pyconde/pyconde2012/Vortrag_Practical_DevOps.mp4?Signature=G1VhH2e4w1E5zROJSkC/bYgwGq8=&amp;Expires=1352048713&amp;AWSAccessKeyId=FEWGReWX3QbNk0h3" rel="nofollow">http://s3.us.archive.org/nextdayvideo/pyconde/pyconde2012/Vortrag_Practical_DevOps.mp4?Signature=G1VhH2e4w1E5zROJSkC%2FbYgwGq8%3D&amp;Expires=1352048713&amp;AWSAccessKeyId=FEWGReWX3QbNk0h3</a>&quot;, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: &quot;&quot;, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: &quot;&quot;, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="https://www.youtube.com/watch?v=yOB8711AhiU" rel="nofollow">https://www.youtube.com/watch?v=yOB8711AhiU</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2012-10-31&quot;, 
+            &quot;added&quot;: &quot;2012-11-04T11:08:57&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:26.917&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyCon DE 2012&quot;, 
+            &quot;language&quot;: &quot;German&quot;, 
+            &quot;slug&quot;: &quot;putting-technical-debt-under-control&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Waleri Enns&quot;
+            ], 
+            &quot;tags&quot;: [
+                &quot; code&quot;, 
+                &quot;qualit\u00e4t&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 1433, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Putting Technical Debt under Control&quot;, 
+            &quot;summary&quot;: &quot;\&quot;You don&#39;t control what you cannot measure\&quot;\n\nTom Peters paraphrasing Lord Kelvin\n\nDie aus den Fugen geratende Qualit\u00e4t des Source Codes und das\n\nexcessive Akkumulieren des sogenannten Technical Debt ist eine h\u00e4ufige\n\nUrsache f\u00fcr das vorzeitige Ableben von Software Projekten. Das\n\nKontrollieren dieser Aspekte ist essentiell f\u00fcr eine langfristige\n\nGesundheit der Software. Die Kontrolle setzt jedoch Messung voraus;\n\nerst die Definition und systematische Erhebung einer Qualit\u00e4tsmetrik\n\nversetzt den Entwickler (und seinen Manager) in die Lage, die Qualit\u00e4t\n\ndieser Software zu \u00fcberwachen und ggf. kontinuierlich zu verbessern.\n\nDas Gespann \&quot;Sonar + Python AddOn\&quot; gibt eine State-Of-The-Art-Antwort\n\nauf die Frage \&quot;Was ist qualitativ hochwertiger Python Code?\&quot;. Dieser\n\nVortrag f\u00fchrt aus, wie die Qualit\u00e4t bzw. Technical Debt einer Python\n\nCode-Basis gemessen, zu einer Kennzahl &#39;verdichtet&#39; und kontrolliert\n\nwerden kann.\n\nDieser auf Softwaremetriken basierende Ansatz wird auch Continuous\n\nInspection genannt. Es ist abzusehen, dass diese Technologie einen\n\n\u00e4hnlich starken Einfluss auf die Entwicklung von Software haben wird\n\nwie die Continuous Integration / Continuous Deployment in der letzten\n\nDekade.\n\nMit Sonar und dem (noch jungen) Python Plugin steht die wesentliche\n\nInfrastruktur um Continuous Inspection in der Praxis f\u00fcr Python\n\nProjekte umzusetzen. Das Ziel dieses Vortrags ist es, die Python\n\nCommunity f\u00fcr diese Technologie zu begeistern.\n\n&quot;, 
+            &quot;description&quot;: &quot;&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;&quot;, 
+            &quot;embed&quot;: &quot;&lt;object width=\&quot;640\&quot; height=\&quot;390\&quot;&gt;&lt;param name=\&quot;movie\&quot; value=\&quot;http://youtube.com/v/I15RkhqH6l0?version=3&amp;amp;hl=en_US\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowFullScreen\&quot; value=\&quot;true\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowscriptaccess\&quot; value=\&quot;always\&quot;&gt;&lt;/param&gt;&lt;embed src=\&quot;http://youtube.com/v/I15RkhqH6l0?version=3&amp;amp;hl=en_US\&quot; type=\&quot;application/x-shockwave-flash\&quot; width=\&quot;640\&quot; height=\&quot;390\&quot; allowscriptaccess=\&quot;always\&quot; allowfullscreen=\&quot;true\&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://i2.ytimg.com/vi/I15RkhqH6l0/hqdefault.jpg" rel="nofollow">http://i2.ytimg.com/vi/I15RkhqH6l0/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: &quot;<a href="http://s3.us.archive.org/nextdayvideo/pyconde/pyconde2012/Vortrag_Putting_Technical_Debt.mp4?Signature=+HhVyclIozKxTPkqcuk4zGbdI/U=&amp;Expires=1351795796&amp;AWSAccessKeyId=FEWGReWX3QbNk0h3" rel="nofollow">http://s3.us.archive.org/nextdayvideo/pyconde/pyconde2012/Vortrag_Putting_Technical_Debt.mp4?Signature=%2BHhVyclIozKxTPkqcuk4zGbdI%2FU%3D&amp;Expires=1351795796&amp;AWSAccessKeyId=FEWGReWX3QbNk0h3</a>&quot;, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: &quot;&quot;, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: &quot;&quot;, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="https://www.youtube.com/watch?v=I15RkhqH6l0" rel="nofollow">https://www.youtube.com/watch?v=I15RkhqH6l0</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2012-10-31&quot;, 
+            &quot;added&quot;: &quot;2012-11-01T13:53:08&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:26.919&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyCon DE 2012&quot;, 
+            &quot;language&quot;: &quot;German&quot;, 
+            &quot;slug&quot;: &quot;pytest-rapid-and-simple-testing-with-pytest&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Holger Krekel&quot;
+            ], 
+            &quot;tags&quot;: [
+                &quot;python&quot;, 
+                &quot; testen&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 1432, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;pytest - rapid and simple testing with pytest&quot;, 
+            &quot;summary&quot;: &quot;Das Werkzeug py.test erlaubt es schnell und einfach Test f\u00fcr Python-Programme\nzu schreiben. Dieser Vortrag stellt die grundlegende Nutzung von py.test und\nwichtige Terminologie dazu vor. Zus\u00e4tzlich zeigt die Pr\u00e4sentation wie py.test\nUnit- und funktionale Test mit besonderen Mechanismen wie \&quot;perfected\nassertions\&quot; und \&quot;dependency injection\&quot; unterst\u00fctzt.\n\nDer Vortrag f\u00fchrt in die Prinzipien der Unit- und funktionalen Tests kurz ein\nund geht auf die Vorteile von py.test gegen\u00fcber dem in der Standardbibliothek\nenthalten Paket unittest ein. So kann py.test Tests, die \u00fcber verschiedene\nPython-Versionen und- Implementierungen hinweggehen, ausf\u00fchren. Der\nSchreibsstil der Tests ist \&quot;pythonic\&quot; und die Plugins lassen sich f\u00fcr\nverschiedene Projekte nutzen.\n\nNach einem einfachen Test-Beispiel, das die Grundprinzipen umfasst, folgen\nBeispiel zu \&quot;dependency injection\&quot;. Die Nutzung von py.test im Mozilla Projekt\nwebqa und die M\u00f6glichkeiten des \&quot;mocking\&quot; und \&quot;monkeypatching\&quot; schlie\u00dfen den\nVortrag ab.\n\n&quot;, 
+            &quot;description&quot;: &quot;&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;&quot;, 
+            &quot;embed&quot;: &quot;&lt;object width=\&quot;640\&quot; height=\&quot;390\&quot;&gt;&lt;param name=\&quot;movie\&quot; value=\&quot;http://youtube.com/v/85Ybi0CncIg?version=3&amp;amp;hl=en_US\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowFullScreen\&quot; value=\&quot;true\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowscriptaccess\&quot; value=\&quot;always\&quot;&gt;&lt;/param&gt;&lt;embed src=\&quot;http://youtube.com/v/85Ybi0CncIg?version=3&amp;amp;hl=en_US\&quot; type=\&quot;application/x-shockwave-flash\&quot; width=\&quot;640\&quot; height=\&quot;390\&quot; allowscriptaccess=\&quot;always\&quot; allowfullscreen=\&quot;true\&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://i1.ytimg.com/vi/85Ybi0CncIg/hqdefault.jpg" rel="nofollow">http://i1.ytimg.com/vi/85Ybi0CncIg/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: &quot;<a href="http://s3.us.archive.org/nextdayvideo/pyconde/pyconde2012/Vortrag_pytest_rapid_and_simpl.mp4?Signature=G5OFyKuCGc9cGkGkkeP5UebAivc=&amp;Expires=1351795620&amp;AWSAccessKeyId=FEWGReWX3QbNk0h3" rel="nofollow">http://s3.us.archive.org/nextdayvideo/pyconde/pyconde2012/Vortrag_pytest_rapid_and_simpl.mp4?Signature=G5OFyKuCGc9cGkGkkeP5UebAivc%3D&amp;Expires=1351795620&amp;AWSAccessKeyId=FEWGReWX3QbNk0h3</a>&quot;, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: &quot;&quot;, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: &quot;&quot;, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="https://www.youtube.com/watch?v=85Ybi0CncIg" rel="nofollow">https://www.youtube.com/watch?v=85Ybi0CncIg</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2012-10-31&quot;, 
+            &quot;added&quot;: &quot;2012-11-01T13:50:15&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:26.920&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyCon DE 2012&quot;, 
+            &quot;language&quot;: &quot;German&quot;, 
+            &quot;slug&quot;: &quot;python-3-3&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Martin v. L\u00f6wis&quot;
+            ], 
+            &quot;tags&quot;: [
+                &quot; python&quot;, 
+                &quot;python3&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 1442, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Python 3.3&quot;, 
+            &quot;summary&quot;: &quot;Am 29.9.2012 wurde nach 19-monatiger Entwicklungszeit Python 3.3\n\nfertiggestellt. Es ist die gr\u00f6\u00dfte Erweiterung von Python seit Version\n\n3.0; \u00c4nderungen gab es in allen Bereichen der Implementierung (Syntax,\n\nStandardbibliothek, Paketierung, interne Strukturen). In dem Vortrag\n\nwerden die wesentlichen \u00c4nderungen umrissen, sowohl aus Anwendersicht\n\nwie auch aus Sicht eines core committers.\n\n&quot;, 
+            &quot;description&quot;: &quot;&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;&quot;, 
+            &quot;embed&quot;: &quot;&lt;object width=\&quot;640\&quot; height=\&quot;390\&quot;&gt;&lt;param name=\&quot;movie\&quot; value=\&quot;http://youtube.com/v/bXFLZqpWAPk?version=3&amp;amp;hl=en_US\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowFullScreen\&quot; value=\&quot;true\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowscriptaccess\&quot; value=\&quot;always\&quot;&gt;&lt;/param&gt;&lt;embed src=\&quot;http://youtube.com/v/bXFLZqpWAPk?version=3&amp;amp;hl=en_US\&quot; type=\&quot;application/x-shockwave-flash\&quot; width=\&quot;640\&quot; height=\&quot;390\&quot; allowscriptaccess=\&quot;always\&quot; allowfullscreen=\&quot;true\&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://i3.ytimg.com/vi/bXFLZqpWAPk/hqdefault.jpg" rel="nofollow">http://i3.ytimg.com/vi/bXFLZqpWAPk/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: &quot;<a href="http://s3.us.archive.org/nextdayvideo/pyconde/pyconde2012/Vortrag_Python_33.mp4?Signature=mB0ByskHs/FpDSTazZa33EDhXFM=&amp;Expires=1351853871&amp;AWSAccessKeyId=FEWGReWX3QbNk0h3" rel="nofollow">http://s3.us.archive.org/nextdayvideo/pyconde/pyconde2012/Vortrag_Python_33.mp4?Signature=mB0ByskHs%2FFpDSTazZa33EDhXFM%3D&amp;Expires=1351853871&amp;AWSAccessKeyId=FEWGReWX3QbNk0h3</a>&quot;, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: &quot;&quot;, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: &quot;&quot;, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="https://www.youtube.com/watch?v=bXFLZqpWAPk" rel="nofollow">https://www.youtube.com/watch?v=bXFLZqpWAPk</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2012-10-31&quot;, 
+            &quot;added&quot;: &quot;2012-11-02T06:01:14&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:26.921&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyCon DE 2012&quot;, 
+            &quot;language&quot;: &quot;German&quot;, 
+            &quot;slug&quot;: &quot;python-und-opencv&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Andreas Bunkahle&quot;
+            ], 
+            &quot;tags&quot;: [], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 1428, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Python und OpenCV&quot;, 
+            &quot;summary&quot;: &quot;Python hat zu Unrecht den Ruf einer einfachen Skriptsprache, die f\u00fcr\nGrafikanwendungen ungeeignet sei. Gerade in Verbindung mit den starken Python-\nBibliotheken und Modulen, die in C++ geschrieben sind, wird die Brillianz und\nEinfachheit von Python als vollwertige Programmiersprache auch f\u00fcr\nGrafikanwendungen sehr deutlich. Hier wird exemplarisch das Zusammenspiel der\nm\u00e4chtigen Grafikbibliothek OpenCV mit Python demonstriert.\n\n&quot;, 
+            &quot;description&quot;: &quot;&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;&quot;, 
+            &quot;embed&quot;: &quot;&lt;object width=\&quot;640\&quot; height=\&quot;390\&quot;&gt;&lt;param name=\&quot;movie\&quot; value=\&quot;http://youtube.com/v/LtPJTTa8Ryc?version=3&amp;amp;hl=en_US\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowFullScreen\&quot; value=\&quot;true\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowscriptaccess\&quot; value=\&quot;always\&quot;&gt;&lt;/param&gt;&lt;embed src=\&quot;http://youtube.com/v/LtPJTTa8Ryc?version=3&amp;amp;hl=en_US\&quot; type=\&quot;application/x-shockwave-flash\&quot; width=\&quot;640\&quot; height=\&quot;390\&quot; allowscriptaccess=\&quot;always\&quot; allowfullscreen=\&quot;true\&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://i1.ytimg.com/vi/LtPJTTa8Ryc/hqdefault.jpg" rel="nofollow">http://i1.ytimg.com/vi/LtPJTTa8Ryc/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: &quot;<a href="http://s3.us.archive.org/nextdayvideo/pyconde/pyconde2012/Vortrag_Python_und_OpenCV.mp4?Signature=cF7Ro2sb0YiOtl+HqApCkbMiFWA=&amp;Expires=1351792629&amp;AWSAccessKeyId=FEWGReWX3QbNk0h3" rel="nofollow">http://s3.us.archive.org/nextdayvideo/pyconde/pyconde2012/Vortrag_Python_und_OpenCV.mp4?Signature=cF7Ro2sb0YiOtl%2BHqApCkbMiFWA%3D&amp;Expires=1351792629&amp;AWSAccessKeyId=FEWGReWX3QbNk0h3</a>&quot;, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: &quot;&quot;, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: &quot;&quot;, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="https://www.youtube.com/watch?v=LtPJTTa8Ryc" rel="nofollow">https://www.youtube.com/watch?v=LtPJTTa8Ryc</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2012-10-31&quot;, 
+            &quot;added&quot;: &quot;2012-11-01T13:07:32&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:26.923&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyCon DE 2012&quot;, 
+            &quot;language&quot;: &quot;German&quot;, 
+            &quot;slug&quot;: &quot;schnelle-schleifen-mit-cython&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Stefan Behnel&quot;
+            ], 
+            &quot;tags&quot;: [], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 1424, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Schnelle Schleifen mit Cython&quot;, 
+            &quot;summary&quot;: &quot;Keine PyCon(-DE) ohne Cython, die de-facto Standarderweiterungssprache f\u00fcr\nPython. Diesmal geht es um ein paar neuere Spracherweiterungen zur Python-\nSyntax, die den Cython-Compiler besonders attraktiv f\u00fcr High-Performance-\nComputing machen: Parallele Schleifen mit OpenMP, effizientes Slicing mit\nMemory-Views und generische <a href="http://Funktionen.%5Cn%5Cn[Cython](http://cython.org" rel="nofollow">Funktionen.\n\n[Cython](http://cython.org</a> \&quot;Web-Seite des Cython-Projekts\&quot;) ist eine\nProgrammiersprache, die die Sprache Python um zus\u00e4tzliche Features erg\u00e4nzt.\nSie macht das Schreiben von schnellen Erweiterungsmodulen f\u00fcr CPython und das\nAnbinden von externen nativen Bibliotheken (C/C++/Fortran/...) so einfach wie\nPython selbst.\n\nDieser Vortrag gibt einen kurzen Einblick in Cython und speziell in die\nOptimierung von schleifenbasierten Algorithmen \u00fcber NumPy Arrays, mit denen\ngro\u00dfe Datenmengen effizient verarbeitet werden k\u00f6nnen. Dazu werden Memory-\nViews verwendet, die mit Version 0.16 in Cython Einzug gehalten haben. Hinzu\ngesellen sich parallele Schleifen, sowie generische Funktionen, die es dem\nCompiler erlauben, einmal geschriebenen Code f\u00fcr verschiedene native\nDatentypen zu optimieren.\n\nEine ausf\u00fchrliche Version dieses Vortrags mit entsprechenden \u00dcbungen wird\nzus\u00e4tzlich als Tutorial angeboten.\n\n&quot;, 
+            &quot;description&quot;: &quot;&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;&quot;, 
+            &quot;embed&quot;: &quot;&lt;object width=\&quot;640\&quot; height=\&quot;390\&quot;&gt;&lt;param name=\&quot;movie\&quot; value=\&quot;http://youtube.com/v/ytgWM-WcJzs?version=3&amp;amp;hl=en_US\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowFullScreen\&quot; value=\&quot;true\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowscriptaccess\&quot; value=\&quot;always\&quot;&gt;&lt;/param&gt;&lt;embed src=\&quot;http://youtube.com/v/ytgWM-WcJzs?version=3&amp;amp;hl=en_US\&quot; type=\&quot;application/x-shockwave-flash\&quot; width=\&quot;640\&quot; height=\&quot;390\&quot; allowscriptaccess=\&quot;always\&quot; allowfullscreen=\&quot;true\&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://i2.ytimg.com/vi/ytgWM-WcJzs/hqdefault.jpg" rel="nofollow">http://i2.ytimg.com/vi/ytgWM-WcJzs/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: &quot;<a href="http://s3.us.archive.org/nextdayvideo/pyconde/pyconde2012/Vortrag_Schnelle_Schleifen_mit_Cython.mp4?Signature=4KBss0tjqi1rJ45bnrKNK+mxZ68=&amp;Expires=1351779886&amp;AWSAccessKeyId=FEWGReWX3QbNk0h3" rel="nofollow">http://s3.us.archive.org/nextdayvideo/pyconde/pyconde2012/Vortrag_Schnelle_Schleifen_mit_Cython.mp4?Signature=4KBss0tjqi1rJ45bnrKNK%2BmxZ68%3D&amp;Expires=1351779886&amp;AWSAccessKeyId=FEWGReWX3QbNk0h3</a>&quot;, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: &quot;&quot;, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: &quot;&quot;, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="https://www.youtube.com/watch?v=ytgWM-WcJzs" rel="nofollow">https://www.youtube.com/watch?v=ytgWM-WcJzs</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2012-10-31&quot;, 
+            &quot;added&quot;: &quot;2012-11-01T11:49:41&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:26.924&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyCon DE 2012&quot;, 
+            &quot;language&quot;: &quot;German&quot;, 
+            &quot;slug&quot;: &quot;virtuelle-entwicklungsumgebungen-mit-vagrant&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Markus Zapke-Gr\u00fcndemann&quot;
+            ], 
+            &quot;tags&quot;: [
+                &quot; vagrant&quot;, 
+                &quot;virtual box&quot;, 
+                &quot; virtuelle maschinen&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 1446, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Virtuelle Entwicklungsumgebungen mit Vagrant&quot;, 
+            &quot;summary&quot;: &quot;Oft ben\u00f6tigt man f\u00fcr verschiedene Projekte ganz unterschiedliche Bibliotheken,\nDienste und Werkzeuge. Alle Abh\u00e4ngigkeiten auf einer Maschine zu installieren\nkann schnell anstrengend bis unm\u00f6glich werden. Hier kommt Vagrant ins Spiel:\nMit Hilfe von Vagrant kann man einfach und schnell Virtuelle Maschinen als\nEntwicklungsumgebungen erstellen, konfigurieren und benutzen.\n\nDurch die Nutzung von (vorhandenen) Provisioning Tools wie Chef oder Puppet\nkann man vorhandene Konfigurationen von Produktiv-System zum Setup der\nVirtuellen Maschinen nutzen. Au\u00dferdem lassen sich mit Vagrant auch komplexe\nCluster-Setups auf dem eigenen Rechner aufbauen.\n\n&quot;, 
+            &quot;description&quot;: &quot;&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;&quot;, 
+            &quot;embed&quot;: &quot;&lt;object width=\&quot;640\&quot; height=\&quot;390\&quot;&gt;&lt;param name=\&quot;movie\&quot; value=\&quot;http://youtube.com/v/uvhoW5M4fK8?version=3&amp;amp;hl=en_US\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowFullScreen\&quot; value=\&quot;true\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowscriptaccess\&quot; value=\&quot;always\&quot;&gt;&lt;/param&gt;&lt;embed src=\&quot;http://youtube.com/v/uvhoW5M4fK8?version=3&amp;amp;hl=en_US\&quot; type=\&quot;application/x-shockwave-flash\&quot; width=\&quot;640\&quot; height=\&quot;390\&quot; allowscriptaccess=\&quot;always\&quot; allowfullscreen=\&quot;true\&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://i2.ytimg.com/vi/uvhoW5M4fK8/hqdefault.jpg" rel="nofollow">http://i2.ytimg.com/vi/uvhoW5M4fK8/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: &quot;<a href="http://s3.us.archive.org/nextdayvideo/pyconde/pyconde2012/Vortrag_Virtuelle_Entwicklungs.mp4?Signature=FWi08bDPAMbAjNRfLnk7LOVVG+Y=&amp;Expires=1352070837&amp;AWSAccessKeyId=FEWGReWX3QbNk0h3" rel="nofollow">http://s3.us.archive.org/nextdayvideo/pyconde/pyconde2012/Vortrag_Virtuelle_Entwicklungs.mp4?Signature=FWi08bDPAMbAjNRfLnk7LOVVG%2BY%3D&amp;Expires=1352070837&amp;AWSAccessKeyId=FEWGReWX3QbNk0h3</a>&quot;, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: &quot;&quot;, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: &quot;&quot;, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="https://www.youtube.com/watch?v=uvhoW5M4fK8" rel="nofollow">https://www.youtube.com/watch?v=uvhoW5M4fK8</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2012-10-31&quot;, 
+            &quot;added&quot;: &quot;2012-11-02T06:16:05&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:26.926&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyCon DE 2012&quot;, 
+            &quot;language&quot;: &quot;German&quot;, 
+            &quot;slug&quot;: &quot;white-box-debugging-debugger-f-r-unittests-nut&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Reinhard Wobst&quot;
+            ], 
+            &quot;tags&quot;: [], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 1437, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;\&quot;White Box Debugging\&quot; - Debugger f\u00fcr Unittests nutzen&quot;, 
+            &quot;summary&quot;: &quot;\&quot;White Box Testing\&quot; ist das Testen von internen Zust\u00e4nden zur Laufzeit,\nw\u00e4hrend ubliche Unittests in der Regel nur Funktionen rufen. Man kann aber\nmittels eines Debuggers White Box Testing durchf\u00fchren - ein Pythonskript\nerlaubt dies fur Python mit pdb wie auch f\u00fcr C/C++ - Programme mit gdb.\n\nUnittests sind ohne Frage unerl\u00e4sslich, aber oft aufw\u00e4ndig zu programmieren\nund beschr\u00e4nkt aussagef\u00e4hig, da in der Regel nur einzelne Funktionen oder\nModule als Black Box getestet werden k\u00f6nnen. Nicht selten ist sogar\ngesonderter Code notwendig, um sinnvolle Tests zu erm\u00f6glichen.\n\nAussagekr\u00e4ftiger und naheliegender w\u00e4ren Tests auf Werte mitten im Code, doch\nsolch eine Funktionalit\u00e4t bietet bisher nur die assert-Anweisung, die bei\nFehlern mit einem wenig aussagekr\u00e4ftigen Abbruch endet.\n\nDie Idee des Python-Skripts \&quot;wbd\&quot; (\&quot;white box debugging\&quot;) ist, aus Kommentaren\nim Quelltext Konfigurationsfiles f\u00fcr Debugger zu erzeugen, so dass an\nbedingten Breakpoints Tests stattfinden. Beim Fehler landet man gleich im\nDebugger und kann die Umgebung analysieren.\n\nDas funktioniert derzeit f\u00fcr Pythonskripte und C/C++-Programme und ist auch\ngut als Hilfsmittel beim Debuggen selbst einzusetzen.\n\n&quot;, 
+            &quot;description&quot;: &quot;&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;&quot;, 
+            &quot;embed&quot;: &quot;&lt;object width=\&quot;640\&quot; height=\&quot;390\&quot;&gt;&lt;param name=\&quot;movie\&quot; value=\&quot;http://youtube.com/v/26tmYQk2vI8?version=3&amp;amp;hl=en_US\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowFullScreen\&quot; value=\&quot;true\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowscriptaccess\&quot; value=\&quot;always\&quot;&gt;&lt;/param&gt;&lt;embed src=\&quot;http://youtube.com/v/26tmYQk2vI8?version=3&amp;amp;hl=en_US\&quot; type=\&quot;application/x-shockwave-flash\&quot; width=\&quot;640\&quot; height=\&quot;390\&quot; allowscriptaccess=\&quot;always\&quot; allowfullscreen=\&quot;true\&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://i3.ytimg.com/vi/26tmYQk2vI8/hqdefault.jpg" rel="nofollow">http://i3.ytimg.com/vi/26tmYQk2vI8/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: &quot;<a href="http://s3.us.archive.org/nextdayvideo/pyconde/pyconde2012/Vortrag_White_Box_Debugging_De.mp4?Signature=LgR/s9/5Hgh37jNYY7RjN1YCORE=&amp;Expires=1351851790&amp;AWSAccessKeyId=FEWGReWX3QbNk0h3" rel="nofollow">http://s3.us.archive.org/nextdayvideo/pyconde/pyconde2012/Vortrag_White_Box_Debugging_De.mp4?Signature=LgR%2Fs9%2F5Hgh37jNYY7RjN1YCORE%3D&amp;Expires=1351851790&amp;AWSAccessKeyId=FEWGReWX3QbNk0h3</a>&quot;, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: &quot;&quot;, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: &quot;&quot;, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="https://www.youtube.com/watch?v=26tmYQk2vI8" rel="nofollow">https://www.youtube.com/watch?v=26tmYQk2vI8</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2012-10-31&quot;, 
+            &quot;added&quot;: &quot;2012-11-02T05:26:35&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:26.927&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyCon DE 2012&quot;, 
+            &quot;language&quot;: &quot;German&quot;, 
+            &quot;slug&quot;: &quot;10-jahre-python-forum&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Marek Kubica&quot;
+            ], 
+            &quot;tags&quot;: [], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 1491, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;10 Jahre Python-Forum&quot;, 
+            &quot;summary&quot;: &quot;2012 wurde das deutsche Python-Forum nun 10 Jahre alt. Zeit das Forum den\nLeuten vorzustellen, die das Forum noch nicht kennen oder eine Abneigung zu\nWebforen haben. 10 Jahre, das ist genug Zeit um in dessen Geschichte\nzur\u00fcckzublicken wie es zum Forum kam und wie es sich entwickelt hat, was es so\nf\u00fcr Phasen gab und wie sich die Python-Community in dieser Zeit ge\u00e4ndert hat.\n\nEbenfalls kann man die Entwicklung anhand einiger Statistiken verdeutlichen\nund vielleicht daraus Trends f\u00fcr die Verbreitung von Python in Deutschland\nableiten.\n\nEin wichtiger Punkt ist nat\u00fcrlich die Community, welche Regeln im Forum gelten\nund warum wir finden dass sie funktionieren. Dabei muss man verstehen wie die\nCommunity \&quot;tickt\&quot; und wie der Job eines Moderators ausschaut. Die ein oder\nandere lustige Geschichte findet sich im Vortrag sicher auch, von den Foren-\nMemes, \u00fcber Flamewars bishin zum gemeinschaflichen Codegolfen. Und wer\nInteresse hat, kann einfach so im Forum auf [python-forum.de](http://www\n.python-forum.de/) mitlesen oder sich anmelden und mitposten.\n\nDer Vortragende ist nun seit einigen Jahren Mitglied im Foren-Team und sowohl\nim Forum als auch auf der Newsgroup/Mailingliste und hat schon eine ganze\nReihe Trends gesehen und Threads gelesen.\n\n&quot;, 
+            &quot;description&quot;: &quot;&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;&quot;, 
+            &quot;embed&quot;: &quot;&lt;object width=\&quot;640\&quot; height=\&quot;390\&quot;&gt;&lt;param name=\&quot;movie\&quot; value=\&quot;http://youtube.com/v/cB7yPf8Iw9w?version=3&amp;amp;hl=en_US\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowFullScreen\&quot; value=\&quot;true\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowscriptaccess\&quot; value=\&quot;always\&quot;&gt;&lt;/param&gt;&lt;embed src=\&quot;http://youtube.com/v/cB7yPf8Iw9w?version=3&amp;amp;hl=en_US\&quot; type=\&quot;application/x-shockwave-flash\&quot; width=\&quot;640\&quot; height=\&quot;390\&quot; allowscriptaccess=\&quot;always\&quot; allowfullscreen=\&quot;true\&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://i4.ytimg.com/vi/cB7yPf8Iw9w/hqdefault.jpg" rel="nofollow">http://i4.ytimg.com/vi/cB7yPf8Iw9w/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: &quot;<a href="http://s3.us.archive.org/nextdayvideo/pyconde/pyconde2012/Vortrag_10_Jahre_PythonForum.mp4?Signature=wZH0Xg8Qgp/GPRm5Gwof4ylmkms=&amp;Expires=1352218394&amp;AWSAccessKeyId=FEWGReWX3QbNk0h3" rel="nofollow">http://s3.us.archive.org/nextdayvideo/pyconde/pyconde2012/Vortrag_10_Jahre_PythonForum.mp4?Signature=wZH0Xg8Qgp%2FGPRm5Gwof4ylmkms%3D&amp;Expires=1352218394&amp;AWSAccessKeyId=FEWGReWX3QbNk0h3</a>&quot;, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: &quot;&quot;, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: &quot;&quot;, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="https://www.youtube.com/watch?v=cB7yPf8Iw9w" rel="nofollow">https://www.youtube.com/watch?v=cB7yPf8Iw9w</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2012-10-30&quot;, 
+            &quot;added&quot;: &quot;2012-11-06T19:54:58&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:26.928&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyCon DE 2012&quot;, 
+            &quot;language&quot;: &quot;German&quot;, 
+            &quot;slug&quot;: &quot;cython-mit-pypy-das-beste-aus-drei-welten&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Stefan Behnel&quot;
+            ], 
+            &quot;tags&quot;: [], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 1431, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Cython mit PyPy - das Beste aus drei Welten&quot;, 
+            &quot;summary&quot;: &quot;Die Programmiersprache Cython ([<a href="http://cython.org](http://cython.org)" rel="nofollow">http://cython.org](http://cython.org)</a> \&quot;Web-\nSeite des Cython-Projekts\&quot;) ist das de-facto Standard-Tool um CPython um\nnativen Code zu erweitern. Die Python-\u00e4hnliche Sprache macht schon seit\neinigen Jahren das Schreiben von schnellen Erweiterungsmodulen f\u00fcr CPython und\ndas Anbinden von externen nativen Bibliotheken (C/C++/Fortran/...) so einfach\nwie Python selbst und gleichzeitig so effizient wie C. Davon profitiert\nbesonders das weite Feld des High-Performance-Computing in Python\n(NumPy/SciPy/Sage/...), aber auch zahllose andere Bereiche, die eine\neffiziente Verarbeitung gro\u00dfer Datenmengen und die Anbindung von nativen\nBibliotheken an die Programmiersprache Python ben\u00f6tigen.\n\nDie neueste Version des Cython-Compilers bietet erstmals auch Unterst\u00fctzung\nf\u00fcr PyPy an, eine alternative Python-Implementierung, die vor allem durch\nihren schnellen JIT-Compiler von sich reden macht. Dadurch kann einmal mit\nCython geschriebener und in C \u00fcbersetzter Code sowohl in CPython als auch in\nPyPy verwendet werden. So wird es beispielsweise m\u00f6glich, in einer einzigen\nCode-Basis effiziente Anbindungen externer Bibliotheken f\u00fcr beide\nLaufzeitumgebungen zu entwickeln.\n\nDieser Vortrag von einem der Cython Core-Entwickler erkl\u00e4rt, welche\nFallstricke dabei noch auf Benutzerseite zu erwarten sind und gibt\nHilfestellungen beim Schreiben von Cython-Code, der sowohl in CPython als auch\nin PyPy funktioniert.\n\n&quot;, 
+            &quot;description&quot;: &quot;&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;&quot;, 
+            &quot;embed&quot;: &quot;&lt;object width=\&quot;640\&quot; height=\&quot;390\&quot;&gt;&lt;param name=\&quot;movie\&quot; value=\&quot;http://youtube.com/v/IETT76NN6Z8?version=3&amp;amp;hl=en_US\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowFullScreen\&quot; value=\&quot;true\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowscriptaccess\&quot; value=\&quot;always\&quot;&gt;&lt;/param&gt;&lt;embed src=\&quot;http://youtube.com/v/IETT76NN6Z8?version=3&amp;amp;hl=en_US\&quot; type=\&quot;application/x-shockwave-flash\&quot; width=\&quot;640\&quot; height=\&quot;390\&quot; allowscriptaccess=\&quot;always\&quot; allowfullscreen=\&quot;true\&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://i2.ytimg.com/vi/IETT76NN6Z8/hqdefault.jpg" rel="nofollow">http://i2.ytimg.com/vi/IETT76NN6Z8/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: &quot;<a href="http://s3.us.archive.org/nextdayvideo/pyconde/pyconde2012/Vortrag_Cython_mit_PyPy_das_Be.mp4?Signature=JeqVDywROU3i4DxAbmNJDPZ/vVM=&amp;Expires=1351795204&amp;AWSAccessKeyId=FEWGReWX3QbNk0h3" rel="nofollow">http://s3.us.archive.org/nextdayvideo/pyconde/pyconde2012/Vortrag_Cython_mit_PyPy_das_Be.mp4?Signature=JeqVDywROU3i4DxAbmNJDPZ%2FvVM%3D&amp;Expires=1351795204&amp;AWSAccessKeyId=FEWGReWX3QbNk0h3</a>&quot;, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: &quot;&quot;, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: &quot;&quot;, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="https://www.youtube.com/watch?v=IETT76NN6Z8" rel="nofollow">https://www.youtube.com/watch?v=IETT76NN6Z8</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2012-10-30&quot;, 
+            &quot;added&quot;: &quot;2012-11-01T13:43:58&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:26.930&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyCon DE 2012&quot;, 
+            &quot;language&quot;: &quot;German&quot;, 
+            &quot;slug&quot;: &quot;dexision-moderne-finanztheorie-und-praxis-mit&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Dr. Yves Hilpisch&quot;
+            ], 
+            &quot;tags&quot;: [
+                &quot; bewertung von derivaten&quot;, 
+                &quot;dexision&quot;, 
+                &quot; finanzen&quot;, 
+                &quot; on demand&quot;, 
+                &quot; scientific python&quot;, 
+                &quot; simulation&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 1420, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;DEXISION -- Moderne Finanztheorie und -praxis mit Python&quot;, 
+            &quot;summary&quot;: &quot;DEXISION ist eine kommerzielle Bewertungsl\u00f6sung f\u00fcr Finanzderivate. Sie wurde\ndurch die Visixion GmbH im Wesentlichen auf Basis von Python entwickelt. Der\nVortrag zeigt, wie moderne, Web-basierte Finanzl\u00f6sungen mittels Python zu\nimplementieren sind. Aspekte wie Effizienz in der Entwicklung, Performance,\nErweiterbarkeit, Wartbarkeit und Sicherheit sind dabei von besonderer\nBedeutung.\n\nDie Architektur von DEXISION fu\u00dft auf einem LAMP-Stack und es kommen dabei nur\nOpen Source-Komponenten zum Einsatz. Unseres Wissens nach ist DEXISION nach\nwie vor die einzige kommerzielle Finanzl\u00f6sung dieser Art, die in allen\nBereichn -- auch bei rechenintensiven Simulationsaufgaben -- voll auf Python\nsetzt.\n\n&quot;, 
+            &quot;description&quot;: &quot;&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;&quot;, 
+            &quot;embed&quot;: &quot;&lt;object width=\&quot;640\&quot; height=\&quot;390\&quot;&gt;&lt;param name=\&quot;movie\&quot; value=\&quot;http://youtube.com/v/gsxAmno6noo?version=3&amp;amp;hl=en_US\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowFullScreen\&quot; value=\&quot;true\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowscriptaccess\&quot; value=\&quot;always\&quot;&gt;&lt;/param&gt;&lt;embed src=\&quot;http://youtube.com/v/gsxAmno6noo?version=3&amp;amp;hl=en_US\&quot; type=\&quot;application/x-shockwave-flash\&quot; width=\&quot;640\&quot; height=\&quot;390\&quot; allowscriptaccess=\&quot;always\&quot; allowfullscreen=\&quot;true\&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://i4.ytimg.com/vi/gsxAmno6noo/hqdefault.jpg" rel="nofollow">http://i4.ytimg.com/vi/gsxAmno6noo/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: &quot;<a href="http://s3.us.archive.org/nextdayvideo/pyconde/pyconde2012/Vortrag_DEXISION_Moderne_Finanztheorie_und_praxis_mit_Python.mp4?Signature=1XtL7WHSvOrn/eCrrwDl1HYoqa4=&amp;Expires=1351778243&amp;AWSAccessKeyId=FEWGReWX3QbNk0h3" rel="nofollow">http://s3.us.archive.org/nextdayvideo/pyconde/pyconde2012/Vortrag_DEXISION_Moderne_Finanztheorie_und_praxis_mit_Python.mp4?Signature=1XtL7WHSvOrn%2FeCrrwDl1HYoqa4%3D&amp;Expires=1351778243&amp;AWSAccessKeyId=FEWGReWX3QbNk0h3</a>&quot;, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: &quot;&quot;, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: &quot;&quot;, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="https://www.youtube.com/watch?v=gsxAmno6noo" rel="nofollow">https://www.youtube.com/watch?v=gsxAmno6noo</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2012-10-30&quot;, 
+            &quot;added&quot;: &quot;2012-11-01T05:09:43&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:26.931&quot;
+        }
+    ]
+}</pre>
+            </div>
+        </div>
+
+            
+
+                
+
+                
+            
+
+        </div>
+        <!-- END content-main -->
+
+    </div>
+    <!-- END Content -->
+
+        <div id="push"></div>
+
+    </div>
+
+    </div><!-- ./wrapper -->
+
+    
+    
+
+    
+    <script src="/static/rest_framework/js/jquery-1.8.1-min.js"></script>
+    <script src="/static/rest_framework/js/bootstrap.min.js"></script>
+    <script src="/static/rest_framework/js/prettify-min.js"></script>
+    <script src="/static/rest_framework/js/default.js"></script>
+    
+  </body>
+
+<!-- Mirrored from pyvideo.org/api/v2/video/?page=122 by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 07 Jan 2016 03:52:15 GMT -->
+</html>

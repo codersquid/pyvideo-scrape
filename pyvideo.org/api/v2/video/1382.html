@@ -1,0 +1,194 @@
+
+
+<!DOCTYPE html>
+<html>
+    
+<!-- Mirrored from pyvideo.org/api/v2/video/1382 by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 07 Jan 2016 03:19:56 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+    
+
+        
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+        <meta name="robots" content="NONE,NOARCHIVE" />
+        
+
+        <title>Django REST framework</title>
+
+        
+        
+            <link rel="stylesheet" type="text/css" href="/static/rest_framework/css/bootstrap.min.css"/>
+            <link rel="stylesheet" type="text/css" href="/static/rest_framework/css/bootstrap-tweaks.css"/>
+        
+        <link rel="stylesheet" type="text/css" href="/static/rest_framework/css/prettify.css"/>
+        <link rel="stylesheet" type="text/css" href="/static/rest_framework/css/default.css"/>
+        
+
+    
+    </head>
+
+  <body class=" container">
+
+    <div class="wrapper">
+
+    
+    <div class="navbar navbar-inverse">
+        <div class="navbar-inner">
+            <div class="container-fluid">
+                <span href="/">
+                    <a class='brand' rel="nofollow" href='http://www.django-rest-framework.org'>Django REST framework <span class="version">2.3.14</span></a>
+                </span>
+                <ul class="nav pull-right">
+                    
+                        
+                            <li></li>
+                        
+                    
+                </ul>
+            </div>
+        </div>
+    </div>
+    
+
+    
+    <ul class="breadcrumb">
+        
+            <li>
+                <a href="/api/v2/video/" >Video List Create Api</a> <span class="divider">&rsaquo;</span>
+            </li>
+        
+            <li>
+                <a href="/api/v2/video/1382" class="active">Video Retrieve Update Api</a> 
+            </li>
+        
+    </ul>
+    
+
+    <!-- Content -->
+    <div id="content">
+
+        
+            <form id="get-form" class="pull-right">
+                <fieldset>
+                    <div class="btn-group format-selection">
+                        <a class="btn btn-primary js-tooltip" href='/api/v2/video/1382' rel="nofollow" title="Make a GET request on the Video Retrieve Update Api resource">GET</a>
+
+                        <button class="btn btn-primary dropdown-toggle js-tooltip" data-toggle="dropdown" title="Specify a format for the GET request">
+                            <span class="caret"></span>
+                        </button>
+                        <ul class="dropdown-menu">
+                            
+                                <li>
+                                    <a class="js-tooltip format-option" href='/api/v2/video/1382?format=json' rel="nofollow" title="Make a GET request on the Video Retrieve Update Api resource with the format set to `json`">json</a>
+                                </li>
+                            
+                                <li>
+                                    <a class="js-tooltip format-option" href='/api/v2/video/1382?format=api' rel="nofollow" title="Make a GET request on the Video Retrieve Update Api resource with the format set to `api`">api</a>
+                                </li>
+                            
+                        </ul>
+                    </div>
+
+                </fieldset>
+            </form>
+        
+
+        
+            <form class="button-form" action="/api/v2/video/1382" method="POST" class="pull-right">
+                <input type='hidden' name='csrfmiddlewaretoken' value='pT8iI6zhtQdsGFmu4tryYgFrUlipl2B3' />
+                <input type="hidden" name="_method" value="OPTIONS" />
+                <button class="btn btn-primary js-tooltip" title="Make an OPTIONS request on the Video Retrieve Update Api resource">OPTIONS</button>
+            </form>
+        
+
+        
+
+        <div class="content-main">
+            <div class="page-header"><h1>Video Retrieve Update Api</h1></div>
+            
+            
+            
+            <div class="request-info" style="clear: both" >
+                <pre class="prettyprint"><b>GET</b> /api/v2/video/1382</pre>
+            </div>
+            <div class="response-info">
+                <pre class="prettyprint"><div class="meta nocode"><b>HTTP 200 OK</b>
+<b>Content-Type:</b> <span class="lit">application/json</span>
+<b>Vary:</b> <span class="lit">Accept</span>
+<b>Allow:</b> <span class="lit">GET, PUT, PATCH, HEAD, OPTIONS</span>
+
+</div>{
+    &quot;category&quot;: &quot;DjangoCon 2012&quot;, 
+    &quot;language&quot;: &quot;English&quot;, 
+    &quot;slug&quot;: &quot;using-celery-with-social-networks&quot;, 
+    &quot;speakers&quot;: [
+        &quot;David Gouldin&quot;
+    ], 
+    &quot;tags&quot;: [
+        &quot;celery&quot;, 
+        &quot;django&quot;
+    ], 
+    &quot;related_urls&quot;: [], 
+    &quot;id&quot;: 1382, 
+    &quot;state&quot;: 1, 
+    &quot;title&quot;: &quot;Using Celery with Social Networks&quot;, 
+    &quot;summary&quot;: &quot;Many web applications need to interface with social networks, and celery, a\nPython distributed task queue library, is a great tool for the job. However,\nachieving speed and stability can be difficult. This talk will cover task\norganization/distribution, rate limiting, failover, and other practices to aid\nin working with social networks at scale.\n\n&quot;, 
+    &quot;description&quot;: &quot;Twitter conditionally rate limits based on IP address rather than access token\neven when one is provided for some of its API calls. Facebook has at least 10\nunique error messages to indicate a bad or expired access token (that I&#39;ve\nfound so far). LinkedIn&#39;s pagination has an occasional off-by-one bug\nresulting in an endless list of 1-user pages. Let&#39;s face it: interfacing with\nsocial networks is tricky. Celery helps, but to provide stable, reliable, and\nfast social features for your website, you&#39;ll need an arsenal of strategies\nand tools to get you the rest of the way there.\n\nBy the end of this talk, you&#39;ll understand how to set up tasks to quickly\nserve users with massive networks by employing intelligent distribution.\nYou&#39;ll be able to design robust processes to handle inconsistencies or\ninstabilities in 3rd party APIs. And you&#39;ll know how to have confidence that\nthe work you intend to do gets done, regardless of external rate limits,\npagination design, or API call dependency chains.\n\nThis talk is intended for people who have basic familiarity with celery and\nwould like to learn more about how to take advantage of it for large,\ndistributed task loads.\n\n## Outline\n\nI. Intro\n\nA. 3rd party interfaces are hard\n\n    \n      * Speed\n    \n        * Much slower than local data\n        * Users may still expect near-immediate results\n    \n      * Rate limits\n    \n        * Different rules for every service\n        * Need to handle reactive &amp; proactive as some don&#39;t publish rates\n    \n      * Instability\n    \n        * Outages (yes, Facebook does go down)\n        * Random failures\n    \n\nB. Why Celery?\n\n    \n      * Asynchronous\n      * Distributed\n      * Fault tolerant\n    \n\nII. Task Organization\n\n    \n    A. Small, atomic tasks (1 API call per task)\n    B. Minimal message state\n    \n       * Primitive types only (no model instances!)\n       * Defer as much data access to the task itself as possible\n    \n    C. Create Task subclasses for common patterns\n    D. Whenever possible, make tasks idempotent\n    \n\nIII. Task Distribution\n\n    \n     A. Managing pagination\n    \n        * For a known set size\n    \n          * Where limit/offset is supported, launch all page tasks simlutaneously\n          * Otherwise, 1 page launches the next as soon as the next cursor is obtained\n    \n        * For an unknown set size\n    \n          * Set max simultaneous pages\n          * Task is terminal if blank, otherwise launches page w/ offset + max pages\n    \n        * Setting page size is an art, not a science\n    \n          * Minimize the number of api calls when possible\n          * Avoid long-running tasks by setting a timeout ceiling\n          * Avoid the temptation to pass API data to dependent tasks\n    \n     B. Tracking task dependencies (\&quot;Done?\&quot; is difficult for distributed systems)\n    \n        * Use an external backend to store a dependency tree\n        * Subclass ResultSet to evaluate the task state of the tree\n        * Requires ignore_result=False\n    \n\nIV. Rate Limiting\n\n    \n    A. Problems\n    \n       * Celery&#39;s rate limiting doesn&#39;t do what you think it does\n       * 3rd party rate limits depend on many factors\n    \n    B. Solution\n    \n       * For services with known rate limits:\n    \n         * Use an external backend to store rate limit counters\n         * Increment counters based on rate limit factors per api call\n    \n       * For services with unknown rate limits:\n    \n         * Use an external backend to store rate limit backoff counters\n         * Ramp up / ratchet down call rate by power law as api calls fail/succeed\n    \n\nV. Failover\n\nA. Problems\n\n    \n      * Celery&#39;s countdown doesn&#39;t do what you think it does\n      * 3rd parties can fail in lots of \&quot;interesting\&quot; ways\n    \n\nB. Solution\n\n    \n      * Implement native RabbitMQ alternative to countdown\n      * Create task base classes per social network to handle error conditions\n    \n\nVI. Multiple queues\n\n    \n    A. Better control over task priority management &amp; resource distribution\n    B. Not all social accounts are created equal (handling whales &amp; spikes)\n    C. When you can&#39;t stream updates, use a trickle queue\n    \n\nVII. Celerybeat considered harmful\n\n    \n     A. Periodic task persistence gets out of sync with code\n     B. Just 1 more process to manage\n     C. Cron: it&#39;s just. not. that. hard.\n    \n\nVIII. Debugging\n\n    \n      A. Don&#39;t use \&quot;always eager\&quot;\n      B. Logging, logging, logging\n      C. Unit tests are good, but integration tests save lives\n    \n\nIV. Gotchas\n\n    \n    A. Open socket prevents Celery soft timeout\n    B. Celery soft timeout doesn&#39;t retry the task\n    C. If result state is not known, Celery reports \&quot;PENDING\&quot;\n    \n\n&quot;, 
+    &quot;quality_notes&quot;: &quot;&quot;, 
+    &quot;copyright_text&quot;: &quot;Creative Commons Attribution license (reuse allowed&quot;, 
+    &quot;embed&quot;: &quot;&lt;object width=\&quot;640\&quot; height=\&quot;390\&quot;&gt;&lt;param name=\&quot;movie\&quot; value=\&quot;http://youtube.com/v/z751qhAzMb4?version=3&amp;amp;hl=en_US\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowFullScreen\&quot; value=\&quot;true\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowscriptaccess\&quot; value=\&quot;always\&quot;&gt;&lt;/param&gt;&lt;embed src=\&quot;http://youtube.com/v/z751qhAzMb4?version=3&amp;amp;hl=en_US\&quot; type=\&quot;application/x-shockwave-flash\&quot; width=\&quot;640\&quot; height=\&quot;390\&quot; allowscriptaccess=\&quot;always\&quot; allowfullscreen=\&quot;true\&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&quot;, 
+    &quot;thumbnail_url&quot;: &quot;<a href="http://i.ytimg.com/vi/z751qhAzMb4/hqdefault.jpg" rel="nofollow">http://i.ytimg.com/vi/z751qhAzMb4/hqdefault.jpg</a>&quot;, 
+    &quot;duration&quot;: null, 
+    &quot;video_ogv_length&quot;: null, 
+    &quot;video_ogv_url&quot;: null, 
+    &quot;video_ogv_download_only&quot;: false, 
+    &quot;video_mp4_length&quot;: null, 
+    &quot;video_mp4_url&quot;: null, 
+    &quot;video_mp4_download_only&quot;: false, 
+    &quot;video_webm_length&quot;: null, 
+    &quot;video_webm_url&quot;: null, 
+    &quot;video_webm_download_only&quot;: false, 
+    &quot;video_flv_length&quot;: null, 
+    &quot;video_flv_url&quot;: null, 
+    &quot;video_flv_download_only&quot;: false, 
+    &quot;source_url&quot;: &quot;<a href="http://www.youtube.com/watch?v=z751qhAzMb4" rel="nofollow">http://www.youtube.com/watch?v=z751qhAzMb4</a>&quot;, 
+    &quot;whiteboard&quot;: &quot;needs editing&quot;, 
+    &quot;recorded&quot;: &quot;2012-09-05&quot;, 
+    &quot;added&quot;: &quot;2012-10-08T17:39:48&quot;, 
+    &quot;updated&quot;: &quot;2014-04-08T20:28:26.992&quot;
+}</pre>
+            </div>
+        </div>
+
+            
+
+                
+
+                
+            
+
+        </div>
+        <!-- END content-main -->
+
+    </div>
+    <!-- END Content -->
+
+        <div id="push"></div>
+
+    </div>
+
+    </div><!-- ./wrapper -->
+
+    
+    
+
+    
+    <script src="/static/rest_framework/js/jquery-1.8.1-min.js"></script>
+    <script src="/static/rest_framework/js/bootstrap.min.js"></script>
+    <script src="/static/rest_framework/js/prettify-min.js"></script>
+    <script src="/static/rest_framework/js/default.js"></script>
+    
+  </body>
+
+<!-- Mirrored from pyvideo.org/api/v2/video/1382 by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 07 Jan 2016 03:19:56 GMT -->
+</html>

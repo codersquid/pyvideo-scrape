@@ -1,0 +1,191 @@
+
+
+<!DOCTYPE html>
+<html>
+    
+<!-- Mirrored from pyvideo.org/api/v2/video/3575 by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 07 Jan 2016 03:30:09 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+    
+
+        
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+        <meta name="robots" content="NONE,NOARCHIVE" />
+        
+
+        <title>Django REST framework</title>
+
+        
+        
+            <link rel="stylesheet" type="text/css" href="/static/rest_framework/css/bootstrap.min.css"/>
+            <link rel="stylesheet" type="text/css" href="/static/rest_framework/css/bootstrap-tweaks.css"/>
+        
+        <link rel="stylesheet" type="text/css" href="/static/rest_framework/css/prettify.css"/>
+        <link rel="stylesheet" type="text/css" href="/static/rest_framework/css/default.css"/>
+        
+
+    
+    </head>
+
+  <body class=" container">
+
+    <div class="wrapper">
+
+    
+    <div class="navbar navbar-inverse">
+        <div class="navbar-inner">
+            <div class="container-fluid">
+                <span href="/">
+                    <a class='brand' rel="nofollow" href='http://www.django-rest-framework.org'>Django REST framework <span class="version">2.3.14</span></a>
+                </span>
+                <ul class="nav pull-right">
+                    
+                        
+                            <li></li>
+                        
+                    
+                </ul>
+            </div>
+        </div>
+    </div>
+    
+
+    
+    <ul class="breadcrumb">
+        
+            <li>
+                <a href="/api/v2/video/" >Video List Create Api</a> <span class="divider">&rsaquo;</span>
+            </li>
+        
+            <li>
+                <a href="/api/v2/video/3575" class="active">Video Retrieve Update Api</a> 
+            </li>
+        
+    </ul>
+    
+
+    <!-- Content -->
+    <div id="content">
+
+        
+            <form id="get-form" class="pull-right">
+                <fieldset>
+                    <div class="btn-group format-selection">
+                        <a class="btn btn-primary js-tooltip" href='/api/v2/video/3575' rel="nofollow" title="Make a GET request on the Video Retrieve Update Api resource">GET</a>
+
+                        <button class="btn btn-primary dropdown-toggle js-tooltip" data-toggle="dropdown" title="Specify a format for the GET request">
+                            <span class="caret"></span>
+                        </button>
+                        <ul class="dropdown-menu">
+                            
+                                <li>
+                                    <a class="js-tooltip format-option" href='/api/v2/video/3575?format=json' rel="nofollow" title="Make a GET request on the Video Retrieve Update Api resource with the format set to `json`">json</a>
+                                </li>
+                            
+                                <li>
+                                    <a class="js-tooltip format-option" href='/api/v2/video/3575?format=api' rel="nofollow" title="Make a GET request on the Video Retrieve Update Api resource with the format set to `api`">api</a>
+                                </li>
+                            
+                        </ul>
+                    </div>
+
+                </fieldset>
+            </form>
+        
+
+        
+            <form class="button-form" action="/api/v2/video/3575" method="POST" class="pull-right">
+                <input type='hidden' name='csrfmiddlewaretoken' value='pT8iI6zhtQdsGFmu4tryYgFrUlipl2B3' />
+                <input type="hidden" name="_method" value="OPTIONS" />
+                <button class="btn btn-primary js-tooltip" title="Make an OPTIONS request on the Video Retrieve Update Api resource">OPTIONS</button>
+            </form>
+        
+
+        
+
+        <div class="content-main">
+            <div class="page-header"><h1>Video Retrieve Update Api</h1></div>
+            
+            
+            
+            <div class="request-info" style="clear: both" >
+                <pre class="prettyprint"><b>GET</b> /api/v2/video/3575</pre>
+            </div>
+            <div class="response-info">
+                <pre class="prettyprint"><div class="meta nocode"><b>HTTP 200 OK</b>
+<b>Content-Type:</b> <span class="lit">application/json</span>
+<b>Vary:</b> <span class="lit">Accept</span>
+<b>Allow:</b> <span class="lit">GET, PUT, PATCH, HEAD, OPTIONS</span>
+
+</div>{
+    &quot;category&quot;: &quot;PyCon Italia 2015&quot;, 
+    &quot;language&quot;: &quot;English&quot;, 
+    &quot;slug&quot;: &quot;bulding-a-social-network-analysis&quot;, 
+    &quot;speakers&quot;: [
+        &quot;Luca Mearelli&quot;
+    ], 
+    &quot;tags&quot;: [], 
+    &quot;related_urls&quot;: [], 
+    &quot;id&quot;: 3575, 
+    &quot;state&quot;: 1, 
+    &quot;title&quot;: &quot;Bulding a social network analysis&quot;, 
+    &quot;summary&quot;: &quot;&quot;, 
+    &quot;description&quot;: &quot;Every conversation has a structure. The network formed by the persons who interact in the conversations inside an online community can thus be analysed with the tools of the network science to understand their characteristics. Enriching online conversations with social network analysis we hope to be able to give community moderators tools that could help them to build better communities and guide the collective intelligence processes inside them. The great vision in this is to be able to contribute to building the engines that could help us to build effective platforms for participatory democracy ( a better overview on these theme is explained by my colleague Alberto Cottica in this TEDx talk: <a href="https://www.youtube.com/watch?v=KKrM2c-ww_k" rel="nofollow">https://www.youtube.com/watch?v=KKrM2c-ww_k</a>  )\r\n\r\nEdgesense is our attempt at making tools for social network analysis accessible to all those that could gain the most from them but maybe did not yet know their potential. Edgesense is built around a set of scripts that process the community data and extract the most relevant network metrics and the network structure and a dashboard that is able to present them giving a clear view of them. Through the dashboard community managers can for the first time see in a glimpse who is talking to who, which users are central to the community and those who are on the periphery. They can see which sub-communities are developing inside the larger online conversation and who is acting as a bridge between them.This is very useful to guide the conversation or to determine which users have the most authority (through measures of centrality or \u201cpagerank\&quot;)\r\n\r\nPython has been central to the development of Edgesense it has made possible to create a processing pipeline that takes the  data from various sources (Drupal community sites, twitter conversations, mailing lists data) and builds the network of interactions among the users. Python has also enabled us to choose from a very rich library of social network analysis algorithms to calculate the metrics that we are presenting in the dashboard to help understand the social interactions.\r\n\r\nDuring this talk we\u2019ll look at which choices we were required when building a data processing application that takes real-life data, extracts useful informations and prepares t for visualisation. We\u2019ll see a primer on the network science required to interpret the structure of the users community and how the algorithms and the metrics were chosen. We\u2019ll also present the challenges that we are facing to extend Edgesense to ever larger communities.\r\n\r\nThe presentation will be useful to both developers interested in using python to do social network analysis and to those already skilled in it which could find inspiration in the problems we are trying to solve with Edgesense. \r\n\r\nEdgesense has been developed by Wikitalia within the CATALYST EC project on collective intelligence and it is available as open source software: <a href="https://github.com/Wikitalia/edgesense" rel="nofollow">https://github.com/Wikitalia/edgesense</a> (an example of a live dashboard is available here: <a href="http://matera2019.edgesense.spazidigitali.com/" rel="nofollow">http://matera2019.edgesense.spazidigitali.com/</a> )\r\n&quot;, 
+    &quot;quality_notes&quot;: &quot;&quot;, 
+    &quot;copyright_text&quot;: &quot;&quot;, 
+    &quot;embed&quot;: &quot;&quot;, 
+    &quot;thumbnail_url&quot;: &quot;<a href="https://i.ytimg.com/vi/FQfFJ19g20I/maxresdefault.jpg" rel="nofollow">https://i.ytimg.com/vi/FQfFJ19g20I/maxresdefault.jpg</a>&quot;, 
+    &quot;duration&quot;: 2536, 
+    &quot;video_ogv_length&quot;: null, 
+    &quot;video_ogv_url&quot;: &quot;&quot;, 
+    &quot;video_ogv_download_only&quot;: false, 
+    &quot;video_mp4_length&quot;: null, 
+    &quot;video_mp4_url&quot;: &quot;&quot;, 
+    &quot;video_mp4_download_only&quot;: false, 
+    &quot;video_webm_length&quot;: null, 
+    &quot;video_webm_url&quot;: &quot;&quot;, 
+    &quot;video_webm_download_only&quot;: false, 
+    &quot;video_flv_length&quot;: null, 
+    &quot;video_flv_url&quot;: &quot;&quot;, 
+    &quot;video_flv_download_only&quot;: false, 
+    &quot;source_url&quot;: &quot;<a href="https://www.youtube.com/watch?v=FQfFJ19g20I" rel="nofollow">https://www.youtube.com/watch?v=FQfFJ19g20I</a>&quot;, 
+    &quot;whiteboard&quot;: &quot;&quot;, 
+    &quot;recorded&quot;: &quot;2015-05-30&quot;, 
+    &quot;added&quot;: &quot;2015-06-14T17:02:21.657&quot;, 
+    &quot;updated&quot;: &quot;2015-06-14T17:33:26.293&quot;
+}</pre>
+            </div>
+        </div>
+
+            
+
+                
+
+                
+            
+
+        </div>
+        <!-- END content-main -->
+
+    </div>
+    <!-- END Content -->
+
+        <div id="push"></div>
+
+    </div>
+
+    </div><!-- ./wrapper -->
+
+    
+    
+
+    
+    <script src="/static/rest_framework/js/jquery-1.8.1-min.js"></script>
+    <script src="/static/rest_framework/js/bootstrap.min.js"></script>
+    <script src="/static/rest_framework/js/prettify-min.js"></script>
+    <script src="/static/rest_framework/js/default.js"></script>
+    
+  </body>
+
+<!-- Mirrored from pyvideo.org/api/v2/video/3575 by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 07 Jan 2016 03:30:10 GMT -->
+</html>

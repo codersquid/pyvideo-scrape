@@ -1,0 +1,193 @@
+
+
+<!DOCTYPE html>
+<html>
+    
+<!-- Mirrored from pyvideo.org/api/v2/video/3226 by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 07 Jan 2016 03:25:04 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+    
+
+        
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+        <meta name="robots" content="NONE,NOARCHIVE" />
+        
+
+        <title>Django REST framework</title>
+
+        
+        
+            <link rel="stylesheet" type="text/css" href="/static/rest_framework/css/bootstrap.min.css"/>
+            <link rel="stylesheet" type="text/css" href="/static/rest_framework/css/bootstrap-tweaks.css"/>
+        
+        <link rel="stylesheet" type="text/css" href="/static/rest_framework/css/prettify.css"/>
+        <link rel="stylesheet" type="text/css" href="/static/rest_framework/css/default.css"/>
+        
+
+    
+    </head>
+
+  <body class=" container">
+
+    <div class="wrapper">
+
+    
+    <div class="navbar navbar-inverse">
+        <div class="navbar-inner">
+            <div class="container-fluid">
+                <span href="/">
+                    <a class='brand' rel="nofollow" href='http://www.django-rest-framework.org'>Django REST framework <span class="version">2.3.14</span></a>
+                </span>
+                <ul class="nav pull-right">
+                    
+                        
+                            <li></li>
+                        
+                    
+                </ul>
+            </div>
+        </div>
+    </div>
+    
+
+    
+    <ul class="breadcrumb">
+        
+            <li>
+                <a href="/api/v2/video/" >Video List Create Api</a> <span class="divider">&rsaquo;</span>
+            </li>
+        
+            <li>
+                <a href="/api/v2/video/3226" class="active">Video Retrieve Update Api</a> 
+            </li>
+        
+    </ul>
+    
+
+    <!-- Content -->
+    <div id="content">
+
+        
+            <form id="get-form" class="pull-right">
+                <fieldset>
+                    <div class="btn-group format-selection">
+                        <a class="btn btn-primary js-tooltip" href='/api/v2/video/3226' rel="nofollow" title="Make a GET request on the Video Retrieve Update Api resource">GET</a>
+
+                        <button class="btn btn-primary dropdown-toggle js-tooltip" data-toggle="dropdown" title="Specify a format for the GET request">
+                            <span class="caret"></span>
+                        </button>
+                        <ul class="dropdown-menu">
+                            
+                                <li>
+                                    <a class="js-tooltip format-option" href='/api/v2/video/3226?format=json' rel="nofollow" title="Make a GET request on the Video Retrieve Update Api resource with the format set to `json`">json</a>
+                                </li>
+                            
+                                <li>
+                                    <a class="js-tooltip format-option" href='/api/v2/video/3226?format=api' rel="nofollow" title="Make a GET request on the Video Retrieve Update Api resource with the format set to `api`">api</a>
+                                </li>
+                            
+                        </ul>
+                    </div>
+
+                </fieldset>
+            </form>
+        
+
+        
+            <form class="button-form" action="/api/v2/video/3226" method="POST" class="pull-right">
+                <input type='hidden' name='csrfmiddlewaretoken' value='pT8iI6zhtQdsGFmu4tryYgFrUlipl2B3' />
+                <input type="hidden" name="_method" value="OPTIONS" />
+                <button class="btn btn-primary js-tooltip" title="Make an OPTIONS request on the Video Retrieve Update Api resource">OPTIONS</button>
+            </form>
+        
+
+        
+
+        <div class="content-main">
+            <div class="page-header"><h1>Video Retrieve Update Api</h1></div>
+            
+            
+            
+            <div class="request-info" style="clear: both" >
+                <pre class="prettyprint"><b>GET</b> /api/v2/video/3226</pre>
+            </div>
+            <div class="response-info">
+                <pre class="prettyprint"><div class="meta nocode"><b>HTTP 200 OK</b>
+<b>Content-Type:</b> <span class="lit">application/json</span>
+<b>Vary:</b> <span class="lit">Accept</span>
+<b>Allow:</b> <span class="lit">GET, PUT, PATCH, HEAD, OPTIONS</span>
+
+</div>{
+    &quot;category&quot;: &quot;Kiwi PyCon 2014&quot;, 
+    &quot;language&quot;: &quot;English&quot;, 
+    &quot;slug&quot;: &quot;python-is-slow-make-it-faster-with-c&quot;, 
+    &quot;speakers&quot;: [
+        &quot;Ben Shaw&quot;
+    ], 
+    &quot;tags&quot;: [
+        &quot;talk&quot;
+    ], 
+    &quot;related_urls&quot;: [], 
+    &quot;id&quot;: 3226, 
+    &quot;state&quot;: 1, 
+    &quot;title&quot;: &quot;Python is slow, make it faster with C&quot;, 
+    &quot;summary&quot;: &quot;&quot;, 
+    &quot;description&quot;: &quot;= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = \r\nBen Shaw:\r\nPython is slow, make it faster with C\r\n= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = \r\n@ Kiwi PyCon 2014 - Saturday, 13 Sep 2014 - Track 2 \r\nhttp://kiwi.pycon.org/\r\n\r\n**Audience level**\r\n\r\nIntermediate\r\n\r\n**Description**\r\n\r\nMost people have heard that it&#39;s possible to integrate Python with C to give performance boosts to computationally heavy code, but because it seems daunting they&#39;ve never given it a try. It&#39;s actually not as hard as you think. This talk covers some of the different methods of speeding up your code with C, and compares the results to those you can get from other methods, like using PyPy.\r\n\r\n**Abstract**\r\n\r\nIntroduction\r\n\r\nAs developers, we like to work with Python because it&#39;s forgiving, quick to develop for and allows our code to be very dynamic. Unfortunately the trade-off for this magic is lower performance than compiled languages. Python can be sped up by offloading heavy algorithms to compiled C, using specially built C modules utilising the C Python API, or by integrating existing C libraries with using the python ctypes module. It is also possible to speed up Python using alternative interpreters, like PyPy, which uses a JIT compiler.\r\n\r\nPure Python Implementation\r\n\r\nFirst we will take a look at a CPU bound algorithm written purely in Python, and see how it performs. The program reads data and prints results. The time it takes to run this will be considered the worst case scenario.\r\n\r\nPure C Implementation\r\n\r\nThe same program will be re-written in C, including the input and output logic, and we will compare the time it takes to run against the Python implementation. The results of the C implementation will be considered the best case scenario.\r\n\r\nCustom Python Module with C Implementation\r\n\r\nPython provides an API, C development headers and special C types, to allow the creation of a specially built bridges between Python and C code. In this example, the algorithm will be written in C, and bridged to Python with a custom Python/C module. Input and output takes place within Python, with C only performing the computation. With this method we can achieve near best-case speeds, at the cost of some additional (and sometimes complicated) C coding.\r\n\r\nBridging To C with ctypes\r\n\r\nIntroduced in Python 2.5, ctypes allows Python to integrate with pre-built C libraries without custom C code. This approach has the advantage over the custom Python/C Module of not needing to write a lot of boilerplate and bridging code in C. As with the Py/C implementation, C is used only to execute the algorithm, and Python takes care of input and output. Again, performance is close to best-case speeds, but the work to integrate with C is much less.\r\n\r\nAlternative Python Implementations\r\n\r\nPyPy uses a JIT compiler to offer impressive performance gains. The original Python code will be run through PyPy, and although the results might not be as quite as good as using compiled C, they come close, and the effort-to-gain ratio certainly makes it attractive option.\r\n\r\nConclusion\r\n\r\nEach performance boosting option has its pros and cons, and when it&#39;s so easy to just use PyPy and get good results, why would you still use C? We&#39;ll look at some example use cases for each of the methods presented and why you would choose one over the others.\r\n\r\n**Slides**\r\n\r\nhttps://speakerdeck.com/nzpug/ben-shaw-python-is-slow-make-it-faster-with-c&quot;, 
+    &quot;quality_notes&quot;: &quot;&quot;, 
+    &quot;copyright_text&quot;: &quot;CC&quot;, 
+    &quot;embed&quot;: &quot;&lt;object width=\&quot;640\&quot; height=\&quot;390\&quot;&gt;&lt;param name=\&quot;movie\&quot; value=\&quot;http://youtube.com/v/tGLSKXfx0m0?version=3&amp;amp;hl=en_US\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowFullScreen\&quot; value=\&quot;true\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowscriptaccess\&quot; value=\&quot;always\&quot;&gt;&lt;/param&gt;&lt;embed src=\&quot;http://youtube.com/v/tGLSKXfx0m0?version=3&amp;amp;hl=en_US\&quot; type=\&quot;application/x-shockwave-flash\&quot; width=\&quot;640\&quot; height=\&quot;390\&quot; allowscriptaccess=\&quot;always\&quot; allowfullscreen=\&quot;true\&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&quot;, 
+    &quot;thumbnail_url&quot;: &quot;<a href="http://i.ytimg.com/vi/tGLSKXfx0m0/hqdefault.jpg" rel="nofollow">http://i.ytimg.com/vi/tGLSKXfx0m0/hqdefault.jpg</a>&quot;, 
+    &quot;duration&quot;: 1800, 
+    &quot;video_ogv_length&quot;: null, 
+    &quot;video_ogv_url&quot;: null, 
+    &quot;video_ogv_download_only&quot;: false, 
+    &quot;video_mp4_length&quot;: null, 
+    &quot;video_mp4_url&quot;: null, 
+    &quot;video_mp4_download_only&quot;: false, 
+    &quot;video_webm_length&quot;: null, 
+    &quot;video_webm_url&quot;: null, 
+    &quot;video_webm_download_only&quot;: false, 
+    &quot;video_flv_length&quot;: null, 
+    &quot;video_flv_url&quot;: null, 
+    &quot;video_flv_download_only&quot;: false, 
+    &quot;source_url&quot;: &quot;<a href="http://youtu.be/tGLSKXfx0m0" rel="nofollow">http://youtu.be/tGLSKXfx0m0</a>&quot;, 
+    &quot;whiteboard&quot;: &quot;&quot;, 
+    &quot;recorded&quot;: &quot;2014-09-13&quot;, 
+    &quot;added&quot;: &quot;2014-10-14T22:37:30.231&quot;, 
+    &quot;updated&quot;: &quot;2014-10-16T00:06:25.638&quot;
+}</pre>
+            </div>
+        </div>
+
+            
+
+                
+
+                
+            
+
+        </div>
+        <!-- END content-main -->
+
+    </div>
+    <!-- END Content -->
+
+        <div id="push"></div>
+
+    </div>
+
+    </div><!-- ./wrapper -->
+
+    
+    
+
+    
+    <script src="/static/rest_framework/js/jquery-1.8.1-min.js"></script>
+    <script src="/static/rest_framework/js/bootstrap.min.js"></script>
+    <script src="/static/rest_framework/js/prettify-min.js"></script>
+    <script src="/static/rest_framework/js/default.js"></script>
+    
+  </body>
+
+<!-- Mirrored from pyvideo.org/api/v2/video/3226 by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 07 Jan 2016 03:25:04 GMT -->
+</html>

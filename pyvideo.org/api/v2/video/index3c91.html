@@ -1,0 +1,935 @@
+
+
+<!DOCTYPE html>
+<html>
+    
+<!-- Mirrored from pyvideo.org/api/v2/video/?page=58&format=api by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 07 Jan 2016 03:48:57 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+    
+
+        
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+        <meta name="robots" content="NONE,NOARCHIVE" />
+        
+
+        <title>Django REST framework</title>
+
+        
+        
+            <link rel="stylesheet" type="text/css" href="/static/rest_framework/css/bootstrap.min.css"/>
+            <link rel="stylesheet" type="text/css" href="/static/rest_framework/css/bootstrap-tweaks.css"/>
+        
+        <link rel="stylesheet" type="text/css" href="/static/rest_framework/css/prettify.css"/>
+        <link rel="stylesheet" type="text/css" href="/static/rest_framework/css/default.css"/>
+        
+
+    
+    </head>
+
+  <body class=" container">
+
+    <div class="wrapper">
+
+    
+    <div class="navbar navbar-inverse">
+        <div class="navbar-inner">
+            <div class="container-fluid">
+                <span href="/">
+                    <a class='brand' rel="nofollow" href='http://www.django-rest-framework.org'>Django REST framework <span class="version">2.3.14</span></a>
+                </span>
+                <ul class="nav pull-right">
+                    
+                        
+                            <li></li>
+                        
+                    
+                </ul>
+            </div>
+        </div>
+    </div>
+    
+
+    
+    <ul class="breadcrumb">
+        
+            <li>
+                <a href="/api/v2/video/" class="active">Video List Create Api</a> 
+            </li>
+        
+    </ul>
+    
+
+    <!-- Content -->
+    <div id="content">
+
+        
+            <form id="get-form" class="pull-right">
+                <fieldset>
+                    <div class="btn-group format-selection">
+                        <a class="btn btn-primary js-tooltip" href='/api/v2/video/?page=58&amp;format=api' rel="nofollow" title="Make a GET request on the Video List Create Api resource">GET</a>
+
+                        <button class="btn btn-primary dropdown-toggle js-tooltip" data-toggle="dropdown" title="Specify a format for the GET request">
+                            <span class="caret"></span>
+                        </button>
+                        <ul class="dropdown-menu">
+                            
+                                <li>
+                                    <a class="js-tooltip format-option" href='/api/v2/video/?page=58&format=json' rel="nofollow" title="Make a GET request on the Video List Create Api resource with the format set to `json`">json</a>
+                                </li>
+                            
+                                <li>
+                                    <a class="js-tooltip format-option" href='/api/v2/video/?page=58&format=api' rel="nofollow" title="Make a GET request on the Video List Create Api resource with the format set to `api`">api</a>
+                                </li>
+                            
+                        </ul>
+                    </div>
+
+                </fieldset>
+            </form>
+        
+
+        
+            <form class="button-form" action="/api/v2/video/?page=58&amp;format=api" method="POST" class="pull-right">
+                <input type='hidden' name='csrfmiddlewaretoken' value='pT8iI6zhtQdsGFmu4tryYgFrUlipl2B3' />
+                <input type="hidden" name="_method" value="OPTIONS" />
+                <button class="btn btn-primary js-tooltip" title="Make an OPTIONS request on the Video List Create Api resource">OPTIONS</button>
+            </form>
+        
+
+        
+
+        <div class="content-main">
+            <div class="page-header"><h1>Video List Create Api</h1></div>
+            
+            
+            
+            <div class="request-info" style="clear: both" >
+                <pre class="prettyprint"><b>GET</b> /api/v2/video/?page=58&amp;format=api</pre>
+            </div>
+            <div class="response-info">
+                <pre class="prettyprint"><div class="meta nocode"><b>HTTP 200 OK</b>
+<b>Content-Type:</b> <span class="lit">application/json</span>
+<b>Vary:</b> <span class="lit">Accept</span>
+<b>Allow:</b> <span class="lit">GET, POST, HEAD, OPTIONS</span>
+
+</div>{
+    &quot;count&quot;: 3439, 
+    &quot;next&quot;: &quot;<a href="http://pyvideo.org/api/v2/video/?page=59&amp;format=api" rel="nofollow">http://pyvideo.org/api/v2/video/?page=59&amp;format=api</a>&quot;, 
+    &quot;previous&quot;: &quot;<a href="http://pyvideo.org/api/v2/video/?page=57&amp;format=api" rel="nofollow">http://pyvideo.org/api/v2/video/?page=57&amp;format=api</a>&quot;, 
+    &quot;results&quot;: [
+        {
+            &quot;category&quot;: &quot;Kiwi PyCon 2014&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;making-a-scalable-course-search-engine-with-pytho&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Robert King&quot;
+            ], 
+            &quot;tags&quot;: [
+                &quot;talk&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 3234, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Making a scalable course search engine with python&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = \r\nRobert King:\r\nMaking a scalable course search engine with Python\r\n= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = \r\n@ Kiwi PyCon 2014 - Sunday, 14 Sep 2014 - Track 2\r\nhttp://kiwi.pycon.org/\r\n\r\n**Audience level**\r\n\r\nExperienced\r\n\r\n**Description**\r\n\r\nCreating a custom search engine with python on google app engine. Serve large spikes in search request traffic. Allow students to find course reviews across multiple universities and countries.\r\n\r\n**Abstract**\r\n\r\n - introduction to the real world problem - Students need to be able to find university courses across multiple countries and universities.\r\n - first - explore how to solve the problem - collect course data &amp; decide on a rough solution\r\n - second - create minimum viable product &amp; see how people use it. Iteratively make it better.\r\n - second continued: Organise a big website launch event before you&#39;ve created the website - then proceed to write 10K lines of code in the week before launch.\r\n - third - analyse the 50K most recent search terms &amp; make a simple tree data structure to help improve search performance.\r\n - four - caching &amp; cache invalidation\r\n - five - Maybe I&#39;ll do an online marketing campaign halfway through the talk and show graphs of the app responding in real time.\r\n\r\n - Covers Data analysis with python (csv, matplotlib, networkx, collections.Counter, logfile parsing)\r\n\r\n - Covers \&quot;Futures\&quot; - doing RPC calls in parallel.\r\n - Unit testing &amp; simulating all things. - Being able to see how adjusting search functionality effects query times &amp; quality of results.\r\n\r\n - Some tasteful jokes to keep things entertaining ;)\r\n\r\n**Slides**\r\n\r\nhttps://speakerdeck.com/nzpug/robert-king-making-a-scalable-course-search-engine-with-python&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;CC&quot;, 
+            &quot;embed&quot;: &quot;&lt;object width=\&quot;640\&quot; height=\&quot;390\&quot;&gt;&lt;param name=\&quot;movie\&quot; value=\&quot;http://youtube.com/v/568mFzqsjqk?version=3&amp;amp;hl=en_US\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowFullScreen\&quot; value=\&quot;true\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowscriptaccess\&quot; value=\&quot;always\&quot;&gt;&lt;/param&gt;&lt;embed src=\&quot;http://youtube.com/v/568mFzqsjqk?version=3&amp;amp;hl=en_US\&quot; type=\&quot;application/x-shockwave-flash\&quot; width=\&quot;640\&quot; height=\&quot;390\&quot; allowscriptaccess=\&quot;always\&quot; allowfullscreen=\&quot;true\&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://i.ytimg.com/vi/568mFzqsjqk/hqdefault.jpg" rel="nofollow">http://i.ytimg.com/vi/568mFzqsjqk/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: 5400, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: null, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="http://youtu.be/568mFzqsjqk" rel="nofollow">http://youtu.be/568mFzqsjqk</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2014-09-14&quot;, 
+            &quot;added&quot;: &quot;2014-10-14T22:37:49.902&quot;, 
+            &quot;updated&quot;: &quot;2014-10-16T00:06:40.433&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;Kiwi PyCon 2014&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;multimedia-programming-using-gstreamer-and-of-c&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Douglas Bagnall&quot;
+            ], 
+            &quot;tags&quot;: [
+                &quot;talk&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 3228, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Multimedia programming using Gstreamer (and, of course, Python)&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = \r\nDouglas Bagnall:\r\nMultimedia programming using Gstreamer (and, of course, Python)\r\n= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = \r\n@ Kiwi PyCon 2014 - Sunday, 14 Sep 2014 - Track 1\r\nhttp://kiwi.pycon.org/\r\n\r\n**Audience level**\r\n\r\nIntermediate\r\n\r\n**Description**\r\n\r\nGstreamer is a multimedia framework consisting of hundreds of interchangeable elements that can be plugged together like toy train tracks to create efficient processing pipelines. This talk will show how easy it is to put together reasonably complex Gstreamer pipelines with Python, and indicate why you might want to. It covers Gstreamer 1.x and both versions of CPython.\r\n\r\n**Abstract**\r\n\r\nGstreamer [1] is a mature framework for developing applications that decode, encode, play, analyse, broadcast, or otherwise manipulate audio and video streams. It is used on phones and embedded devices, all over the linux desktop [2], and in giant multimedia displays.\r\n\r\nIt is easy to create simple Gstreamer pipelines using shell one-liners, but with Python it is possible to go beyond that, dealing with multiple parallel streams and reconfiguring pipelines on the fly. Examples drawn from real life problems include interleaving several hundred audio streams into one multi-channel stream and splitting a video stream into 4 parts and sending each to a different projector for perfect syncronisation.\r\n\r\nIt is also possible to write a Gstreamer plugin in Python, which will be briefly touched on.\r\n\r\n[1] <a href="http://gstreamer.freedesktop.org/%5Cr%5Cn[2]" rel="nofollow">http://gstreamer.freedesktop.org/\r\n[2]</a> <a href="http://gstreamer.freedesktop.org/apps/%5Cr%5Cn%5Cr%5Cn**Slides**%5Cr%5Cn%5Cr%5Cnhttps://speakerdeck.com/nzpug/douglas-bagnall-multimedia-programming-using-gstreamer-and-of-course-python" rel="nofollow">http://gstreamer.freedesktop.org/apps/\r\n\r\n**Slides**\r\n\r\nhttps://speakerdeck.com/nzpug/douglas-bagnall-multimedia-programming-using-gstreamer-and-of-course-python</a>&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;CC&quot;, 
+            &quot;embed&quot;: &quot;&lt;object width=\&quot;640\&quot; height=\&quot;390\&quot;&gt;&lt;param name=\&quot;movie\&quot; value=\&quot;http://youtube.com/v/YcSRqAJ06KM?version=3&amp;amp;hl=en_US\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowFullScreen\&quot; value=\&quot;true\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowscriptaccess\&quot; value=\&quot;always\&quot;&gt;&lt;/param&gt;&lt;embed src=\&quot;http://youtube.com/v/YcSRqAJ06KM?version=3&amp;amp;hl=en_US\&quot; type=\&quot;application/x-shockwave-flash\&quot; width=\&quot;640\&quot; height=\&quot;390\&quot; allowscriptaccess=\&quot;always\&quot; allowfullscreen=\&quot;true\&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://i.ytimg.com/vi/YcSRqAJ06KM/hqdefault.jpg" rel="nofollow">http://i.ytimg.com/vi/YcSRqAJ06KM/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: 1800, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: null, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="http://youtu.be/YcSRqAJ06KM" rel="nofollow">http://youtu.be/YcSRqAJ06KM</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2014-09-14&quot;, 
+            &quot;added&quot;: &quot;2014-10-14T22:37:35.041&quot;, 
+            &quot;updated&quot;: &quot;2014-10-16T00:06:28.743&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;Kiwi PyCon 2014&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;pypyjs-what-how-why&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Ryan Kelly&quot;
+            ], 
+            &quot;tags&quot;: [
+                &quot;talk&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 3218, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;PyPy.js: What? How? Why?&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = \r\nRyan Kelly:\r\nPyPy.js: What? How? Why?\r\n= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = \r\n@ Kiwi PyCon 2014 - Sunday, 14 Sep 2014 - Track 1\r\nhttp://kiwi.pycon.org/\r\n\r\n**Audience level**\r\n\r\nIntermediate\r\n\r\n**Description**\r\n\r\nPyPy.js is an experiment in building a fast and compliant in-browser python interpreter, by compiling PyPy into javascript and retargeting its JIT to emit asmjs code at runtime. This talk will demonstrate the combination of technologies that make such a thing possible, the results achieved so far, and the challenges that still remain when taking python onto javascript&#39;s home turf.\r\n\r\n**Abstract**\r\n\r\nPyPy.js is an experiment in building a fast, compliant, in-browser python interpreter. By compiling the PyPy interpreter into javascript, and retargeting its JIT compiler to emit asmjs code at runtime, it is possible to run python code in the browser at speeds competitive with a native python environment. This talk will demonstrate the combination of technologies that make such a thing possible, the results that have been achieved so far, and the challenges that still remain when trying to take python onto javascript&#39;s home turf.\r\n\r\nWe&#39;ll cover: an overview of PyPy and why it&#39;s a good fit for this type of project; an introduction to asmjs and the rise of javascript as a compile target; what it looks like when you smoosh these two technologies together; a comparison with other approaches such as brython; and some concrete suggestions for how the result might be useful in practice.\r\n\r\n**Slides**\r\n\r\nhttps://speakerdeck.com/nzpug/ryan-kelly-pypy-dot-js-what-how-why&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;CC&quot;, 
+            &quot;embed&quot;: &quot;&lt;object width=\&quot;640\&quot; height=\&quot;390\&quot;&gt;&lt;param name=\&quot;movie\&quot; value=\&quot;http://youtube.com/v/pt-e-X_q-dk?version=3&amp;amp;hl=en_US\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowFullScreen\&quot; value=\&quot;true\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowscriptaccess\&quot; value=\&quot;always\&quot;&gt;&lt;/param&gt;&lt;embed src=\&quot;http://youtube.com/v/pt-e-X_q-dk?version=3&amp;amp;hl=en_US\&quot; type=\&quot;application/x-shockwave-flash\&quot; width=\&quot;640\&quot; height=\&quot;390\&quot; allowscriptaccess=\&quot;always\&quot; allowfullscreen=\&quot;true\&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://i.ytimg.com/vi/pt-e-X_q-dk/hqdefault.jpg" rel="nofollow">http://i.ytimg.com/vi/pt-e-X_q-dk/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: 1800, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: null, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="http://youtu.be/pt-e-X_q-dk" rel="nofollow">http://youtu.be/pt-e-X_q-dk</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2014-09-14&quot;, 
+            &quot;added&quot;: &quot;2014-10-14T22:35:46.602&quot;, 
+            &quot;updated&quot;: &quot;2014-10-16T00:06:13.020&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;Kiwi PyCon 2014&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;surprise-features-you-didnt-ask-for&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Mike Haworth&quot;
+            ], 
+            &quot;tags&quot;: [
+                &quot;talk&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 3238, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Surprise features you didn&#39;t ask for&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = \r\nMike Haworth:\r\nSurprise features you didn&#39;t ask for\r\n= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = \r\n@ Kiwi PyCon 2014 - Sunday, 14 Sep 2014 - Track 1\r\nhttp://kiwi.pycon.org/\r\n\r\n**Audience level**\r\n\r\nIntermediate\r\n\r\n**Description**\r\n\r\nSome pitfalls of popular frameworks\r\n\r\n**Abstract**\r\n\r\nFrameworks enable developers to be enormously productive, but occasionally they include surprisingly unhelpful features. This talk will examine some recent bugs affecting Django as well as other popular frameworks and libraries. We will look at functionality, such as parsing of XML, that just doesn&#39;t behave as any reasonable person might expect, how this can be misused and what can be done to avoid the pitfalls.\r\n\r\n**Slides**\r\n\r\nhttps://speakerdeck.com/nzpug/mike-haworth-surprise-features-you-didnt-ask-for&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;CC&quot;, 
+            &quot;embed&quot;: &quot;&lt;object width=\&quot;640\&quot; height=\&quot;390\&quot;&gt;&lt;param name=\&quot;movie\&quot; value=\&quot;http://youtube.com/v/1x0XS7jkwzs?version=3&amp;amp;hl=en_US\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowFullScreen\&quot; value=\&quot;true\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowscriptaccess\&quot; value=\&quot;always\&quot;&gt;&lt;/param&gt;&lt;embed src=\&quot;http://youtube.com/v/1x0XS7jkwzs?version=3&amp;amp;hl=en_US\&quot; type=\&quot;application/x-shockwave-flash\&quot; width=\&quot;640\&quot; height=\&quot;390\&quot; allowscriptaccess=\&quot;always\&quot; allowfullscreen=\&quot;true\&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://i.ytimg.com/vi/1x0XS7jkwzs/hqdefault.jpg" rel="nofollow">http://i.ytimg.com/vi/1x0XS7jkwzs/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: 1800, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: null, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="http://youtu.be/1x0XS7jkwzs" rel="nofollow">http://youtu.be/1x0XS7jkwzs</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2014-09-14&quot;, 
+            &quot;added&quot;: &quot;2014-10-14T22:37:59.425&quot;, 
+            &quot;updated&quot;: &quot;2014-10-16T00:06:46.511&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;Kiwi PyCon 2014&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;understanding-human-language-with-python&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Alyona Medelyan&quot;
+            ], 
+            &quot;tags&quot;: [
+                &quot;talk&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 3224, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Understanding human language with Python&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = \r\nAlyona Medelyan:\r\nUnderstanding human language with Python\r\n= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = \r\n@ Kiwi PyCon 2014 - Sunday, 14 Sep 2014 - Track 1\r\nhttp://kiwi.pycon.org/\r\n\r\n**Audience level**\r\n\r\nNovice\r\n\r\n**Description**\r\n\r\nNatural Language Processing (NLP) is an area of Computer Science that studies how computers can understand human language. This talk will explain the main principles behind NLP and introduce some key Python libraries.\r\n\r\n**Abstract**\r\n\r\nNatural Language Processing (NLP) is an area of Computer Science that studies how computers can understand human language. Thanks to NLP, one day you might have your own intelligent assistant who can understand any dialect, who can answer your questions by finding the right answers on the web, and who can help you communicate in any language through instant and accurate translation.\r\n\r\nThere are many challenges that still need to be overcome for this to happen, but in the meantime researchers have been finessing the building blocks required for NLP analysis. Some of the algorithms out there are quite powerful already. Many exist in Python and are readily available for any Pythonista to use.\r\n\r\nThis talk will explain the main principles behind NLP and introduce some key Python libraries. If you are interested in finding out more, please also attend the in-depth tutorial on Friday.\r\n\r\n**Slides**\r\n\r\nhttps://speakerdeck.com/nzpug/alyona-medelyan-understanding-human-language-with-python&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;CC&quot;, 
+            &quot;embed&quot;: &quot;&lt;object width=\&quot;640\&quot; height=\&quot;390\&quot;&gt;&lt;param name=\&quot;movie\&quot; value=\&quot;http://youtube.com/v/vZsW-xCXfRI?version=3&amp;amp;hl=en_US\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowFullScreen\&quot; value=\&quot;true\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowscriptaccess\&quot; value=\&quot;always\&quot;&gt;&lt;/param&gt;&lt;embed src=\&quot;http://youtube.com/v/vZsW-xCXfRI?version=3&amp;amp;hl=en_US\&quot; type=\&quot;application/x-shockwave-flash\&quot; width=\&quot;640\&quot; height=\&quot;390\&quot; allowscriptaccess=\&quot;always\&quot; allowfullscreen=\&quot;true\&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://i.ytimg.com/vi/vZsW-xCXfRI/hqdefault.jpg" rel="nofollow">http://i.ytimg.com/vi/vZsW-xCXfRI/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: 1800, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: null, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="http://youtu.be/vZsW-xCXfRI" rel="nofollow">http://youtu.be/vZsW-xCXfRI</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2014-09-14&quot;, 
+            &quot;added&quot;: &quot;2014-10-14T22:37:25.152&quot;, 
+            &quot;updated&quot;: &quot;2014-10-16T00:06:22.114&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;Kiwi PyCon 2014&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;a-testing-talk&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Thomi Richards&quot;
+            ], 
+            &quot;tags&quot;: [
+                &quot;talk&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 3217, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;A Testing Talk&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = \r\nThomi Richards:\r\nA Testing Talk\r\n= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = \r\n@ Kiwi PyCon 2014 - Saturday, 13 Sep 2014 - Track 2\r\nhttp://kiwi.pycon.org/\r\n\r\n**Audience level**\r\n\r\nIntermediate\r\n\r\n**Description**\r\n\r\nThis talk will contain my opinionated views on several topics, including, but not limited to:\r\n\r\n - Which areas of testing are well catered for, and which are not?\r\n - What sources of bugs are frequent, and very hard to test?\r\n - Should we perhaps start talking about unit tests less, and start talking about other forms of testing more?\r\n\r\n**Abstract**\r\n\r\nIn my day job I spend a lot of time looking at projects that are part of Ubuntu, and trying to find out why they\u2019re being released with bugs. This in turn leads to a lot of dissection of test suites, and a lot of discussion with my colleagues around tests, names of tests, why some tests are better than others, where the common gaps in test coverage are, how applications should be tested, where, when, and why certain test suites should be run, and other subjects too boring to mention.\r\n\r\nHaving done this for several years, I&#39;ve started to form a few troubling thoughts about the state of automated testing in software development, and in python specifically. When taken together, these can start to form a rough and ready &#39;testing philosophy&#39; - a way of looking at code and, by analysing it&#39;s structure and visibility, start to find gaps in it&#39;s test coverage.\r\n\r\nThis talk contains no silver bullets - no magical solutions, but does (hopefully) contain some interesting questions.\r\n\r\n**Slides**\r\n\r\nhttps://speakerdeck.com/nzpug/thomi-richards-a-testing-talk&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;CC&quot;, 
+            &quot;embed&quot;: &quot;&lt;object width=\&quot;640\&quot; height=\&quot;390\&quot;&gt;&lt;param name=\&quot;movie\&quot; value=\&quot;http://youtube.com/v/Mydv_EOuezs?version=3&amp;amp;hl=en_US\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowFullScreen\&quot; value=\&quot;true\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowscriptaccess\&quot; value=\&quot;always\&quot;&gt;&lt;/param&gt;&lt;embed src=\&quot;http://youtube.com/v/Mydv_EOuezs?version=3&amp;amp;hl=en_US\&quot; type=\&quot;application/x-shockwave-flash\&quot; width=\&quot;640\&quot; height=\&quot;390\&quot; allowscriptaccess=\&quot;always\&quot; allowfullscreen=\&quot;true\&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://i.ytimg.com/vi/Mydv_EOuezs/hqdefault.jpg" rel="nofollow">http://i.ytimg.com/vi/Mydv_EOuezs/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: 1800, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: null, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="http://youtu.be/Mydv_EOuezs" rel="nofollow">http://youtu.be/Mydv_EOuezs</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2014-09-13&quot;, 
+            &quot;added&quot;: &quot;2014-10-14T22:35:44.245&quot;, 
+            &quot;updated&quot;: &quot;2014-10-16T00:06:11.517&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;Kiwi PyCon 2014&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;control-all-your-programs-with-midi-controllers&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Tobi Wulff&quot;
+            ], 
+            &quot;tags&quot;: [
+                &quot;talk&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 3231, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Control All Your Programs with MIDI Controllers&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = \r\nTobi Wulff:\r\nControl All Your Programs with MIDI Controllers\r\n= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = \r\n@ Kiwi PyCon 2014 - Saturday, 13 Sep 2014 - Track 1\r\nhttp://kiwi.pycon.org/\r\n\r\n**Audience level**\r\n\r\nIntermediate\r\n\r\n**Description**\r\n\r\nMIDI devices are commonly used to provide input to audio applications, e.g. to play a synthesizer via a keyboard or to control a mixer in an audio workstation. This talk will show you tools for receiving input and processing messages, and how to control all of your programs with minimal configuration effort, the advantage being that not every single program has to be made natively MIDI aware.\r\n\r\n**Abstract**\r\n\r\nThis talk will give a quick overview of the MIDI protocol and controllers which are commonly used to provide input to audio applications. These controllers can have the form of a musical keyboard, a mixer with knobs, sliders and buttons, or a combination of those. Some other variants use touch-sensitive trackpads or look like a drum kit. Then, the talk will go over the following tools: Python (duh), mididings (to receive and manipulate MIDI messages), xte (send keystrokes and mouse events to the Linux Xorg server) and some other necessary programs such as jackd to virtually connected MIDI inputs and outputs. I&#39;ll describe the steps needed to bring all those tools together and make it extensible to (hopefully, eventually) work on other OS as well.\r\n\r\nmididings provides a Domain Specific Language (DSL) for MIDI processing which will be introduced as part of this talk. If you are doing anything with MIDI devices (and other external devices apart from keyboards) and feel like they pose some limitations on you (for example not supporting different customisable button assignments on the device), this will be of interest to you. xte will be used in a very basic way but if you haven&#39;t heard of it and want to send events to your X server, this is a great program. The possibilities are endless and we haven&#39;t even combined all the tools yet. This is about to change in the next step of the talk. A live demo/video will demonstrate how it all comes together into one beautiful piece of ingenuity and software engineering.\r\n\r\nFinally, I&#39;ll discuss pros and cons of this solution versus other possible methods including native MIDI device support for various programs.\r\n\r\n**Slides**\r\n\r\nhttps://speakerdeck.com/nzpug/tobi-wulff-control-all-your-programs-with-midi-controllers&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;CC&quot;, 
+            &quot;embed&quot;: &quot;&lt;object width=\&quot;640\&quot; height=\&quot;390\&quot;&gt;&lt;param name=\&quot;movie\&quot; value=\&quot;http://youtube.com/v/p2CsRZoatc8?version=3&amp;amp;hl=en_US\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowFullScreen\&quot; value=\&quot;true\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowscriptaccess\&quot; value=\&quot;always\&quot;&gt;&lt;/param&gt;&lt;embed src=\&quot;http://youtube.com/v/p2CsRZoatc8?version=3&amp;amp;hl=en_US\&quot; type=\&quot;application/x-shockwave-flash\&quot; width=\&quot;640\&quot; height=\&quot;390\&quot; allowscriptaccess=\&quot;always\&quot; allowfullscreen=\&quot;true\&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://i.ytimg.com/vi/p2CsRZoatc8/hqdefault.jpg" rel="nofollow">http://i.ytimg.com/vi/p2CsRZoatc8/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: 1800, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: null, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="http://youtu.be/p2CsRZoatc8" rel="nofollow">http://youtu.be/p2CsRZoatc8</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2014-09-13&quot;, 
+            &quot;added&quot;: &quot;2014-10-14T22:37:42.524&quot;, 
+            &quot;updated&quot;: &quot;2014-10-16T00:06:35.855&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;Kiwi PyCon 2014&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;exploring-the-philosophy-of-programming&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Xuanyi Chew&quot;
+            ], 
+            &quot;tags&quot;: [
+                &quot;talk&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 3225, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Exploring The Philosophy of Programming&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = \r\nXuanyi Chew:\r\nExploring The Philosophy of Programming\r\n= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = \r\n@ Kiwi PyCon 2014 - Saturday, 13 Sep 2014 - Track 1\r\nhttp://kiwi.pycon.org/\r\n\r\n**Audience level**\r\n\r\nIntermediate\r\n\r\n**Description**\r\n\r\nOne man&#39;s journey to internalizing the phrase \&quot;computer programs are just bits\&quot;. It&#39;s merely a phrase, but one that can be deeply appreciated if time is taken to appreciate it. Talk will roughly be about bytes, types, computation theory, language design, and some life stories.\r\n\r\n**Abstract**\r\n\r\nIt all started with a bunch of Python 3 code written in another language. What followed were explorations as to what it really means to be programming. Why are some languages easier to learn (Python)? Why is it easier to make mistakes in some languages (JavaScript)? And why are some languages totally alien (APL and its family)?\r\n\r\nWhat role does familiarity play in being productive in a language? Why are there different paradigms in programming? What about the correctness of programs? Is one paradigm more correct than others? This talk explores the history of computer science, programming and the potential for the human race.\r\n\r\nUltimately, this talk tries to answer the question: is programming for humans or for machines? And what role Python plays in it. The question on the future is left to the audience to decide.\r\n\r\n**Slides**\r\n\r\nhttps://speakerdeck.com/nzpug/xuanyi-chew-exploring-the-philosophy-of-programming&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;CC&quot;, 
+            &quot;embed&quot;: &quot;&lt;object width=\&quot;640\&quot; height=\&quot;390\&quot;&gt;&lt;param name=\&quot;movie\&quot; value=\&quot;http://youtube.com/v/hUP27HAtSOc?version=3&amp;amp;hl=en_US\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowFullScreen\&quot; value=\&quot;true\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowscriptaccess\&quot; value=\&quot;always\&quot;&gt;&lt;/param&gt;&lt;embed src=\&quot;http://youtube.com/v/hUP27HAtSOc?version=3&amp;amp;hl=en_US\&quot; type=\&quot;application/x-shockwave-flash\&quot; width=\&quot;640\&quot; height=\&quot;390\&quot; allowscriptaccess=\&quot;always\&quot; allowfullscreen=\&quot;true\&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://i.ytimg.com/vi/hUP27HAtSOc/hqdefault.jpg" rel="nofollow">http://i.ytimg.com/vi/hUP27HAtSOc/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: 1800, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: null, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="http://youtu.be/hUP27HAtSOc" rel="nofollow">http://youtu.be/hUP27HAtSOc</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2014-09-13&quot;, 
+            &quot;added&quot;: &quot;2014-10-14T22:37:27.774&quot;, 
+            &quot;updated&quot;: &quot;2014-10-16T00:06:24.132&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;Kiwi PyCon 2014&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;external-dependencies-in-web-apps-system-libs-ar&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Francois Marier&quot;
+            ], 
+            &quot;tags&quot;: [
+                &quot;talk&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 3222, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;External dependencies in web apps: system libs are not that scary&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = \r\nFrancois Marier:\r\nExternal dependencies in web apps: system libs are not that scary\r\n= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = \r\n@ Kiwi PyCon 2014 - Saturday, 13 Sep 2014 - Track 2 \r\nhttp://kiwi.pycon.org/\r\n\r\n**Audience level**\r\n\r\nIntermediate\r\n\r\n**Description**\r\n\r\nGoing to production is very different from setting up a development environment. We have great tools like pip and virtualenv for the latter but they lead to maintenance anti-patterns when they are used for production deployments. We don&#39;t \&quot;pip install apache\&quot; and instead leverage the QA and integration work of distro developers, so why not rely on distros for more than just the base system?\r\n\r\n**Abstract**\r\n\r\nToday&#39;s web applications often have a lot of external dependencies. Start off with a basic framework, sprinkle a couple of handy plugins or python modules and finish with a generous serving of JavaScript front-end libraries.\r\n\r\nWhat you end up is a gigantic mess of code from different sources which follow very different release schedules and policies. Language-specific package managers can automate much of the dependency resolution and package installation, but you&#39;re on your own in terms of integration and quality assurance. Also, the minute you start distributing someone else&#39;s code with your project, you become responsible for the security of that external code.\r\n\r\nYou could of course decide to avoid the problem by writing it all yourself from scratch. Realistically though, you&#39;re not likely to go past the stage of a toy WSGI app using that approach because it&#39;s a lot of work.\r\n\r\nThis talk will examine the decision that the Libravatar [1] project made to outsource much of its maintenance burden to the distro by using system packages for almost everything.\r\n\r\n[1] <a href="https://www.libravatar.org/%5Cr%5Cn%5Cr%5Cn**Slides**%5Cr%5Cn%5Cr%5Cnhttps://speakerdeck.com/nzpug/francois-marier-external-dependencies-in-web-apps-system-libs-are-not-that-scary" rel="nofollow">https://www.libravatar.org/\r\n\r\n**Slides**\r\n\r\nhttps://speakerdeck.com/nzpug/francois-marier-external-dependencies-in-web-apps-system-libs-are-not-that-scary</a>&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;CC&quot;, 
+            &quot;embed&quot;: &quot;&lt;object width=\&quot;640\&quot; height=\&quot;390\&quot;&gt;&lt;param name=\&quot;movie\&quot; value=\&quot;http://youtube.com/v/wfDhGAMPS1g?version=3&amp;amp;hl=en_US\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowFullScreen\&quot; value=\&quot;true\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowscriptaccess\&quot; value=\&quot;always\&quot;&gt;&lt;/param&gt;&lt;embed src=\&quot;http://youtube.com/v/wfDhGAMPS1g?version=3&amp;amp;hl=en_US\&quot; type=\&quot;application/x-shockwave-flash\&quot; width=\&quot;640\&quot; height=\&quot;390\&quot; allowscriptaccess=\&quot;always\&quot; allowfullscreen=\&quot;true\&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://i.ytimg.com/vi/wfDhGAMPS1g/hqdefault.jpg" rel="nofollow">http://i.ytimg.com/vi/wfDhGAMPS1g/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: 1800, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: null, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="http://youtu.be/wfDhGAMPS1g" rel="nofollow">http://youtu.be/wfDhGAMPS1g</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2014-09-13&quot;, 
+            &quot;added&quot;: &quot;2014-10-14T22:37:20.412&quot;, 
+            &quot;updated&quot;: &quot;2014-10-16T00:06:19.123&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;Kiwi PyCon 2014&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;find-all-the-books&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Greig Roulston&quot;
+            ], 
+            &quot;tags&quot;: [
+                &quot;talk&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 3221, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Find All the Books&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = \r\nGreig Roulston:\r\nFind All the Books\r\n= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = \r\n@ Kiwi PyCon 2014 - Saturday, 13 Sep 2014 - Track 1\r\nhttp://kiwi.pycon.org/\r\n\r\n**Audience level**\r\n\r\nNovice\r\n\r\n**Description**\r\n\r\nThis is the story of how I stumbled into using Python, took on a project that is harder then I first thought and learned more then I ever wanted to know about bibliographic records, py(MARC), and how MongoDB blew my mind.\r\n\r\n**Abstract**\r\n\r\nThe Digitisation team at National Library of New Zealan are looking at NZ books, lots of books. What needs to be digitised, what is already digitised and how do we get access to these books. This has been a journey of learning the archaic arts of MARC, learning and loving Python and working out how to handle large amounts of Library Data. This is still a work in progress, 2 years later and what started as checking data sets against each other in excel, has grown into me falling in love with Dictionary\u2019s (JSON), making Flask web interfaces to explore data, Map Reducing data sets, making sweet graphs with MatPlotLib, using Python when ever I get a chance and even teaching some of what I have learned to other colleagues.\r\n\r\n**Slides**\r\n\r\nhttps://speakerdeck.com/nzpug/greig-roulston-find-all-the-books&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;CC&quot;, 
+            &quot;embed&quot;: &quot;&lt;object width=\&quot;640\&quot; height=\&quot;390\&quot;&gt;&lt;param name=\&quot;movie\&quot; value=\&quot;http://youtube.com/v/VOEbhYxWimU?version=3&amp;amp;hl=en_US\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowFullScreen\&quot; value=\&quot;true\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowscriptaccess\&quot; value=\&quot;always\&quot;&gt;&lt;/param&gt;&lt;embed src=\&quot;http://youtube.com/v/VOEbhYxWimU?version=3&amp;amp;hl=en_US\&quot; type=\&quot;application/x-shockwave-flash\&quot; width=\&quot;640\&quot; height=\&quot;390\&quot; allowscriptaccess=\&quot;always\&quot; allowfullscreen=\&quot;true\&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://i.ytimg.com/vi/VOEbhYxWimU/hqdefault.jpg" rel="nofollow">http://i.ytimg.com/vi/VOEbhYxWimU/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: 1800, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: null, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="http://youtu.be/VOEbhYxWimU" rel="nofollow">http://youtu.be/VOEbhYxWimU</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2014-09-13&quot;, 
+            &quot;added&quot;: &quot;2014-10-14T22:37:18.030&quot;, 
+            &quot;updated&quot;: &quot;2014-10-16T00:06:17.583&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;Kiwi PyCon 2014&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;fixing-python&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Teijo Holzer&quot;
+            ], 
+            &quot;tags&quot;: [
+                &quot;talk&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 3236, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Fixing Python&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = \r\nTeijo Holzer:\r\nFixing Python\r\n= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = \r\n@ Kiwi PyCon 2014 - Saturday, 13 Sep 2014 - Track 2\r\nhttp://kiwi.pycon.org/\r\n\r\n**Audience level**\r\n\r\nIntermediate\r\n\r\n**Description**\r\n\r\nDiscover a bug in a standard Python library, provide a reproducible test case, log a bug report with the Python maintainers, prepare &amp; submit a patch. Get patch accepted into 2.x &amp; 3.x master.\r\n\r\n**Abstract**\r\n\r\nThis talk will provide a real-world walk-through of how to discover a bug in Python, prepare a reproducible test case and log a bug report. It will then continue to show on how to provide a patch and get it accepted and deployed into Python 2.7.7 and 3.4.1\r\n\r\n**Slides**\r\n\r\nhttps://speakerdeck.com/nzpug/teijo-holzer-fixing-python&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;CC&quot;, 
+            &quot;embed&quot;: &quot;&lt;object width=\&quot;640\&quot; height=\&quot;390\&quot;&gt;&lt;param name=\&quot;movie\&quot; value=\&quot;http://youtube.com/v/i7EZAfhIvCs?version=3&amp;amp;hl=en_US\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowFullScreen\&quot; value=\&quot;true\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowscriptaccess\&quot; value=\&quot;always\&quot;&gt;&lt;/param&gt;&lt;embed src=\&quot;http://youtube.com/v/i7EZAfhIvCs?version=3&amp;amp;hl=en_US\&quot; type=\&quot;application/x-shockwave-flash\&quot; width=\&quot;640\&quot; height=\&quot;390\&quot; allowscriptaccess=\&quot;always\&quot; allowfullscreen=\&quot;true\&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://i.ytimg.com/vi/i7EZAfhIvCs/hqdefault.jpg" rel="nofollow">http://i.ytimg.com/vi/i7EZAfhIvCs/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: 1800, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: null, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="http://youtu.be/i7EZAfhIvCs" rel="nofollow">http://youtu.be/i7EZAfhIvCs</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2014-09-13&quot;, 
+            &quot;added&quot;: &quot;2014-10-14T22:37:54.507&quot;, 
+            &quot;updated&quot;: &quot;2014-10-16T00:06:43.477&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;Kiwi PyCon 2014&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;intro-to-flask-security&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Beau Butler&quot;
+            ], 
+            &quot;tags&quot;: [
+                &quot;talk&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 3232, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Intro to flask-security&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = \r\nBeau Butler:\r\nIntro to flask-security\r\n= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = \r\n@ Kiwi PyCon 2014 - Saturday, 13 Sep 2014 - Track 2\r\nhttp://kiwi.pycon.org/\r\n\r\n**Audience level**\r\n\r\nIntermediate\r\n\r\n**Description**\r\n\r\nTurning your web app into a webapp-with-users looks like an onerous yak-shaving mission, full of DNS and email configuration, password databases, and so on. We will use the great flask-security metamodule, and a little bit of glue, to show just how easy this formerly-annoying process can be, from go to whoa.\r\n\r\n**Abstract**\r\n\r\nSay you\u2019re using Flask, and your happy little app now suddenly needs an endpoint user-secured, Because Reasons\u2026 what do you do?\r\n\r\nEither you hardcode a password in, hook up basic-auth, and go home,\r\n\r\nOR, you face the fun of users, roles, the users need to sign up, now they\u2019ve forgotten their passwords again, and so on. There\u2019s really no middle ground.\r\n\r\nGoing from \&quot;open season\&quot; to \&quot;i want this function protected with a role permission\&quot; is a big old yak-shaving mission, full of DNS configuration, the dismaying realisation that now your app has to send email, and so on.\r\n\r\nIn the spirit of self-sufficiency and \u2018DevOps\u2019, this talk takes you from a bare &#39;hello world&#39; flask app, through to a bare &#39;hello world&#39; app with role protection for endpoints. We\u2019ll start with a domain name and a VPS, and end with an app that people can sign up to.\r\n\r\nWe&#39;ll be using the great flask-security metamodule, and a little bit of glue, to show just how easy this formerly-annoying process can be, from go to whoa.\r\n\r\n**Slides**\r\n\r\nhttps://speakerdeck.com/nzpug/beau-butler-intro-to-flask-security&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;CC&quot;, 
+            &quot;embed&quot;: &quot;&lt;object width=\&quot;640\&quot; height=\&quot;390\&quot;&gt;&lt;param name=\&quot;movie\&quot; value=\&quot;http://youtube.com/v/g0bZA9K2A84?version=3&amp;amp;hl=en_US\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowFullScreen\&quot; value=\&quot;true\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowscriptaccess\&quot; value=\&quot;always\&quot;&gt;&lt;/param&gt;&lt;embed src=\&quot;http://youtube.com/v/g0bZA9K2A84?version=3&amp;amp;hl=en_US\&quot; type=\&quot;application/x-shockwave-flash\&quot; width=\&quot;640\&quot; height=\&quot;390\&quot; allowscriptaccess=\&quot;always\&quot; allowfullscreen=\&quot;true\&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://i.ytimg.com/vi/g0bZA9K2A84/hqdefault.jpg" rel="nofollow">http://i.ytimg.com/vi/g0bZA9K2A84/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: 1800, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: null, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="http://youtu.be/g0bZA9K2A84" rel="nofollow">http://youtu.be/g0bZA9K2A84</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2014-09-13&quot;, 
+            &quot;added&quot;: &quot;2014-10-14T22:37:45.010&quot;, 
+            &quot;updated&quot;: &quot;2014-10-16T00:06:37.400&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;Kiwi PyCon 2014&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;java-for-python-developers&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Christopher Neugebauer&quot;
+            ], 
+            &quot;tags&quot;: [
+                &quot;talk&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 3240, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Java for Python Developers&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = \r\nChristopher Neugebauer:\r\nJava for Python Developers\r\n= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = \r\n@ Kiwi PyCon 2014 - Saturday, 13 Sep 2014 - Track 1 \r\nhttp://kiwi.pycon.org/\r\n\r\n**Audience level**\r\n\r\nIntermediate\r\n\r\n**Description**\r\n\r\nStop looking at me like that.\r\n\r\nNo really. Stop it. I&#39;m serious.\r\n\r\nCalling Java APIs from CPython is one of the more interesting challenges facing developers who want to get Python working as a first-class language for developing apps for Android.\r\n\r\nThis talk looks at solutions, past and present, for making the world of Java accessible from Python.\r\n\r\n**Abstract**\r\n\r\nStop looking at me like that.\r\n\r\nNo really. Stop it. I&#39;m serious. Why are you looking so confused?\r\n\r\nYes. I&#39;m talking about Java at a Python conference. What of it?\r\n\r\nOK, well, I&#39;m actually talking about avoiding having to code in Java, when circumstances almost certainly require you to code in Java\u2026 or at least require your applications to run in a Java environment.\r\n\r\nOne of the more interesting challenges for Python developers targetting Android is being able to call Java APIs from CPython. Environments like Android require developers to use Java to get access to Android&#39;s user interface libraries. Perhaps more importantly, Android has APIs for accessing hardware features like accelerometers and geolocation, and software features like notifications, but all of these have a Java interface.\r\n\r\nThis talk looks at how these problems have been solved, and where they haven&#39;t, approaches to solutions that might exist.\r\n\r\n**Slides**\r\n\r\nhttps://speakerdeck.com/nzpug/christopher-neugebauer-java-for-python-developers&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;CC&quot;, 
+            &quot;embed&quot;: &quot;&lt;object width=\&quot;640\&quot; height=\&quot;390\&quot;&gt;&lt;param name=\&quot;movie\&quot; value=\&quot;http://youtube.com/v/RfGldwLoiUk?version=3&amp;amp;hl=en_US\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowFullScreen\&quot; value=\&quot;true\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowscriptaccess\&quot; value=\&quot;always\&quot;&gt;&lt;/param&gt;&lt;embed src=\&quot;http://youtube.com/v/RfGldwLoiUk?version=3&amp;amp;hl=en_US\&quot; type=\&quot;application/x-shockwave-flash\&quot; width=\&quot;640\&quot; height=\&quot;390\&quot; allowscriptaccess=\&quot;always\&quot; allowfullscreen=\&quot;true\&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://i.ytimg.com/vi/RfGldwLoiUk/hqdefault.jpg" rel="nofollow">http://i.ytimg.com/vi/RfGldwLoiUk/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: 1800, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: null, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="http://youtu.be/RfGldwLoiUk" rel="nofollow">http://youtu.be/RfGldwLoiUk</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2014-09-13&quot;, 
+            &quot;added&quot;: &quot;2014-10-14T22:38:04.368&quot;, 
+            &quot;updated&quot;: &quot;2014-10-16T00:06:49.534&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;Kiwi PyCon 2014&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;nick-coghlan-python-beyond-cpython-keynote&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Nick Coghlan&quot;
+            ], 
+            &quot;tags&quot;: [], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 3211, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Nick Coghlan: Python Beyond (C)Python (Keynote) &quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =\r\nNick Coghlan:\r\nPython Beyond (C)Python: Adventures in Software Distribution\r\n= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =\r\n@ Kiwi PyCon 2014 - Saturday, 13 Sep 2014 - Keynote\r\nhttp://kiwi.pycon.org/\r\n\r\n**Slides**\r\n\r\nhttps://speakerdeck.com/nzpug/nick-coghlan-python-beyond-c-python-adventures-in-software-distribution&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;CC BY-SA&quot;, 
+            &quot;embed&quot;: &quot;&lt;object width=\&quot;640\&quot; height=\&quot;390\&quot;&gt;&lt;param name=\&quot;movie\&quot; value=\&quot;http://youtube.com/v/H2ybMrFNku0?version=3&amp;amp;hl=en_US\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowFullScreen\&quot; value=\&quot;true\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowscriptaccess\&quot; value=\&quot;always\&quot;&gt;&lt;/param&gt;&lt;embed src=\&quot;http://youtube.com/v/H2ybMrFNku0?version=3&amp;amp;hl=en_US\&quot; type=\&quot;application/x-shockwave-flash\&quot; width=\&quot;640\&quot; height=\&quot;390\&quot; allowscriptaccess=\&quot;always\&quot; allowfullscreen=\&quot;true\&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://i.ytimg.com/vi/H2ybMrFNku0/hqdefault.jpg" rel="nofollow">http://i.ytimg.com/vi/H2ybMrFNku0/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: 2700, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: null, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="http://youtu.be/H2ybMrFNku0" rel="nofollow">http://youtu.be/H2ybMrFNku0</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2014-09-13&quot;, 
+            &quot;added&quot;: &quot;2014-10-14T22:35:31.544&quot;, 
+            &quot;updated&quot;: &quot;2014-10-16T00:05:58.468&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;Kiwi PyCon 2014&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;packaging-a-python-desktop-application-using-pyin&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Glenn Ramsey&quot;
+            ], 
+            &quot;tags&quot;: [
+                &quot;talk&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 3230, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Packaging a Python desktop application using PyInstaller&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = \r\nGlenn Ramsey:\r\nPackaging a Python desktop application using PyInstaller\r\n= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = \r\n@ Kiwi PyCon 2014 - Saturday, 13 Sep 2014 - Track 2\r\nhttp://kiwi.pycon.org/\r\n\r\n**Audience level**\r\n\r\nIntermediate\r\n\r\n**Description**\r\n\r\nWhat PyInstaller does. How it works. How to use it. What to do when it doesn&#39;t work.\r\n\r\n**Abstract**\r\n\r\nThis talk will be an introduction to using PyInstaller for packaging a desktop application on Windows and OSX. It will briefly outline how PyInstaller works and describe how to use it, with some simple examples. Finally some techniques to use for debugging a built package will be discussed.\r\n\r\n**Slides**\r\n\r\nhttps://speakerdeck.com/nzpug/glenn-ramsey-packaging-a-python-desktop-application-using-pyinstaller&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;CC&quot;, 
+            &quot;embed&quot;: &quot;&lt;object width=\&quot;640\&quot; height=\&quot;390\&quot;&gt;&lt;param name=\&quot;movie\&quot; value=\&quot;http://youtube.com/v/tOTLqUQC-k0?version=3&amp;amp;hl=en_US\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowFullScreen\&quot; value=\&quot;true\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowscriptaccess\&quot; value=\&quot;always\&quot;&gt;&lt;/param&gt;&lt;embed src=\&quot;http://youtube.com/v/tOTLqUQC-k0?version=3&amp;amp;hl=en_US\&quot; type=\&quot;application/x-shockwave-flash\&quot; width=\&quot;640\&quot; height=\&quot;390\&quot; allowscriptaccess=\&quot;always\&quot; allowfullscreen=\&quot;true\&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://i.ytimg.com/vi/tOTLqUQC-k0/hqdefault.jpg" rel="nofollow">http://i.ytimg.com/vi/tOTLqUQC-k0/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: 1800, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: null, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="http://youtu.be/tOTLqUQC-k0" rel="nofollow">http://youtu.be/tOTLqUQC-k0</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2014-09-13&quot;, 
+            &quot;added&quot;: &quot;2014-10-14T22:37:40.045&quot;, 
+            &quot;updated&quot;: &quot;2014-10-16T00:06:34.250&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;Kiwi PyCon 2014&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;python-is-slow-make-it-faster-with-c&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Ben Shaw&quot;
+            ], 
+            &quot;tags&quot;: [
+                &quot;talk&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 3226, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Python is slow, make it faster with C&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = \r\nBen Shaw:\r\nPython is slow, make it faster with C\r\n= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = \r\n@ Kiwi PyCon 2014 - Saturday, 13 Sep 2014 - Track 2 \r\nhttp://kiwi.pycon.org/\r\n\r\n**Audience level**\r\n\r\nIntermediate\r\n\r\n**Description**\r\n\r\nMost people have heard that it&#39;s possible to integrate Python with C to give performance boosts to computationally heavy code, but because it seems daunting they&#39;ve never given it a try. It&#39;s actually not as hard as you think. This talk covers some of the different methods of speeding up your code with C, and compares the results to those you can get from other methods, like using PyPy.\r\n\r\n**Abstract**\r\n\r\nIntroduction\r\n\r\nAs developers, we like to work with Python because it&#39;s forgiving, quick to develop for and allows our code to be very dynamic. Unfortunately the trade-off for this magic is lower performance than compiled languages. Python can be sped up by offloading heavy algorithms to compiled C, using specially built C modules utilising the C Python API, or by integrating existing C libraries with using the python ctypes module. It is also possible to speed up Python using alternative interpreters, like PyPy, which uses a JIT compiler.\r\n\r\nPure Python Implementation\r\n\r\nFirst we will take a look at a CPU bound algorithm written purely in Python, and see how it performs. The program reads data and prints results. The time it takes to run this will be considered the worst case scenario.\r\n\r\nPure C Implementation\r\n\r\nThe same program will be re-written in C, including the input and output logic, and we will compare the time it takes to run against the Python implementation. The results of the C implementation will be considered the best case scenario.\r\n\r\nCustom Python Module with C Implementation\r\n\r\nPython provides an API, C development headers and special C types, to allow the creation of a specially built bridges between Python and C code. In this example, the algorithm will be written in C, and bridged to Python with a custom Python/C module. Input and output takes place within Python, with C only performing the computation. With this method we can achieve near best-case speeds, at the cost of some additional (and sometimes complicated) C coding.\r\n\r\nBridging To C with ctypes\r\n\r\nIntroduced in Python 2.5, ctypes allows Python to integrate with pre-built C libraries without custom C code. This approach has the advantage over the custom Python/C Module of not needing to write a lot of boilerplate and bridging code in C. As with the Py/C implementation, C is used only to execute the algorithm, and Python takes care of input and output. Again, performance is close to best-case speeds, but the work to integrate with C is much less.\r\n\r\nAlternative Python Implementations\r\n\r\nPyPy uses a JIT compiler to offer impressive performance gains. The original Python code will be run through PyPy, and although the results might not be as quite as good as using compiled C, they come close, and the effort-to-gain ratio certainly makes it attractive option.\r\n\r\nConclusion\r\n\r\nEach performance boosting option has its pros and cons, and when it&#39;s so easy to just use PyPy and get good results, why would you still use C? We&#39;ll look at some example use cases for each of the methods presented and why you would choose one over the others.\r\n\r\n**Slides**\r\n\r\nhttps://speakerdeck.com/nzpug/ben-shaw-python-is-slow-make-it-faster-with-c&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;CC&quot;, 
+            &quot;embed&quot;: &quot;&lt;object width=\&quot;640\&quot; height=\&quot;390\&quot;&gt;&lt;param name=\&quot;movie\&quot; value=\&quot;http://youtube.com/v/tGLSKXfx0m0?version=3&amp;amp;hl=en_US\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowFullScreen\&quot; value=\&quot;true\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowscriptaccess\&quot; value=\&quot;always\&quot;&gt;&lt;/param&gt;&lt;embed src=\&quot;http://youtube.com/v/tGLSKXfx0m0?version=3&amp;amp;hl=en_US\&quot; type=\&quot;application/x-shockwave-flash\&quot; width=\&quot;640\&quot; height=\&quot;390\&quot; allowscriptaccess=\&quot;always\&quot; allowfullscreen=\&quot;true\&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://i.ytimg.com/vi/tGLSKXfx0m0/hqdefault.jpg" rel="nofollow">http://i.ytimg.com/vi/tGLSKXfx0m0/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: 1800, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: null, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="http://youtu.be/tGLSKXfx0m0" rel="nofollow">http://youtu.be/tGLSKXfx0m0</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2014-09-13&quot;, 
+            &quot;added&quot;: &quot;2014-10-14T22:37:30.231&quot;, 
+            &quot;updated&quot;: &quot;2014-10-16T00:06:25.638&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;Kiwi PyCon 2014&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;seize-control-of-your-network-with-ryu&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Ewen McNeill&quot;
+            ], 
+            &quot;tags&quot;: [
+                &quot;talk&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 3214, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Seize control of your network with Ryu&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = \r\nEwen McNeill:\r\nSeize control of your network with Ryu\r\n= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = \r\n@ Kiwi PyCon 2014 - Saturday, 13 Sep 2014 - Track 2 \r\nhttp://kiwi.pycon.org/\r\n\r\n**Audience level**\r\n\r\nIntermediate\r\n\r\n**Description**\r\n\r\nRyu is an OpenFlow Network Controller written in Python, which provides a framework to build your own Software Defined Network (SDN) that can run at full wire speed, using modern network switches. Come learn how to leverage Python to instruct your network to filter, switch, and route traffic precisely the way you desire.\r\n\r\n**Abstract**\r\n\r\nOpenFlow [1] is an industry standard protocol for controlling modern network hardware (and software switches -- such as Open vSwitch [2] in Linux), down to installing specific forwarding or filtering rules (\&quot;flows\&quot;) into the hardware forwarding plane. Together with a well written OpenFlow Network Controller it allows you to create an intelligent Software Defined Network (SDN).\r\n\r\nRyu [3] is a OpenFlow Network Controller framework, written in Python, that is already extremely capable and still being rapidly developed (new releases every month). It has been adopted by the OpenStack [4] project amongst many others. Ryu implements the OpenFlow wire protocols and allows you to write event driven \&quot;apps\&quot; as Python modules, each running in their own eventlet. It comes with lots of examples. Your own apps can dictate switch forwarding and filtering policy in advance, or respond to new types of packets as they arrive. This gives you fine grained programmatic control over your network.\r\n\r\nThe talk will provide a brief outline of a how a Software Defined Network using Openflow works, and an introduction to writing your own Ryu \&quot;app\&quot; in Python. Plus plenty of pointers so you can get started experimenting yourself. Become the mad genius taking total control of your network!\r\n\r\n[1] <a href="https://www.opennetworking.org/%5Cr%5Cn[2]" rel="nofollow">https://www.opennetworking.org/\r\n[2]</a> <a href="http://openvswitch.org/%5Cr%5Cn[3]" rel="nofollow">http://openvswitch.org/\r\n[3]</a> <a href="http://osrg.github.io/ryu/%5Cr%5Cn[4]" rel="nofollow">http://osrg.github.io/ryu/\r\n[4]</a> <a href="http://www.openstack.org/%5Cr%5Cn%5Cr%5Cn**Slides**%5Cr%5Cn%5Cr%5Cnhttps://speakerdeck.com/nzpug/ewen-mcneill-seize-control-of-your-network-with-ryu" rel="nofollow">http://www.openstack.org/\r\n\r\n**Slides**\r\n\r\nhttps://speakerdeck.com/nzpug/ewen-mcneill-seize-control-of-your-network-with-ryu</a>&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;CC&quot;, 
+            &quot;embed&quot;: &quot;&lt;object width=\&quot;640\&quot; height=\&quot;390\&quot;&gt;&lt;param name=\&quot;movie\&quot; value=\&quot;http://youtube.com/v/JKBQ-2uiwcw?version=3&amp;amp;hl=en_US\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowFullScreen\&quot; value=\&quot;true\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowscriptaccess\&quot; value=\&quot;always\&quot;&gt;&lt;/param&gt;&lt;embed src=\&quot;http://youtube.com/v/JKBQ-2uiwcw?version=3&amp;amp;hl=en_US\&quot; type=\&quot;application/x-shockwave-flash\&quot; width=\&quot;640\&quot; height=\&quot;390\&quot; allowscriptaccess=\&quot;always\&quot; allowfullscreen=\&quot;true\&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://i.ytimg.com/vi/JKBQ-2uiwcw/hqdefault.jpg" rel="nofollow">http://i.ytimg.com/vi/JKBQ-2uiwcw/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: 1800, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: null, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="http://www.youtube.com/watch?v=JKBQ-2uiwcw" rel="nofollow">http://www.youtube.com/watch?v=JKBQ-2uiwcw</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2014-09-13&quot;, 
+            &quot;added&quot;: &quot;2014-10-14T22:35:37.301&quot;, 
+            &quot;updated&quot;: &quot;2014-10-16T00:06:05.802&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;Kiwi PyCon 2014&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;semver-and-python-with-pbr&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Robert Collins&quot;
+            ], 
+            &quot;tags&quot;: [
+                &quot;talk&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 3235, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Semver and Python with PBR&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = \r\nRobert Collins:\r\nSemver and Python with PBR\r\n= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = \r\n@ Kiwi PyCon 2014 - Saturday, 13 Sep 2014 - Track 1\r\nhttp://kiwi.pycon.org/\r\n\r\n**Audience level**\r\n\r\nNovice\r\n\r\n**Description**\r\n\r\nPBR is a setuptools plugin which OpenStack developed to provide simple and consistent minimal-boilerplate build definitions for its projects. Semantic versioning provides simple and robust rules for deciding on version numbers, and PBR will soon be able to manage the entire process of version number assignment in a project... and more.\r\n\r\n**Abstract**\r\n\r\nPBR is a setuptools plugin which OpenStack developed to provide simple and consistent minimal-boilerplate build definitions for its projects. Now used by all the OpenStack projects, PBR provides integration glue for core features:\r\n\r\n - testing\r\n - binary package creation for Linux distributors\r\n - inclusion of files in tarballs\r\n - changelog and authors file creation\r\n - pypi summary creation\r\n - version number creation\r\n - sphinx doc stub creation and manpage enablement\r\n - unified requirements management\r\n - for both easy-install and pip with single-file control\r\n\r\nThe most interesting part is the version number creation, since coming up with the right version number can be a contentious discussion in some projects. Semver provides simple and robust rules for deciding on version numbers, and I&#39;m in the middle of implementing automation for these in PBR itself, with integration glue to export them in PEP-440, dpkg and rpm format. The only dependencies PBR has are git + a recent pip, so this should be useful for many attendees - and while PBR is an OpenStack invention we&#39;re very interested in making sure its useful and reliable for anyone that wants to use it.\r\n\r\n**Slides**\r\n\r\nhttps://speakerdeck.com/nzpug/robert-collins-semver-and-python-with-pbr&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;CC&quot;, 
+            &quot;embed&quot;: &quot;&lt;object width=\&quot;640\&quot; height=\&quot;390\&quot;&gt;&lt;param name=\&quot;movie\&quot; value=\&quot;http://youtube.com/v/6hjg-Uia5AU?version=3&amp;amp;hl=en_US\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowFullScreen\&quot; value=\&quot;true\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowscriptaccess\&quot; value=\&quot;always\&quot;&gt;&lt;/param&gt;&lt;embed src=\&quot;http://youtube.com/v/6hjg-Uia5AU?version=3&amp;amp;hl=en_US\&quot; type=\&quot;application/x-shockwave-flash\&quot; width=\&quot;640\&quot; height=\&quot;390\&quot; allowscriptaccess=\&quot;always\&quot; allowfullscreen=\&quot;true\&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://i.ytimg.com/vi/6hjg-Uia5AU/hqdefault.jpg" rel="nofollow">http://i.ytimg.com/vi/6hjg-Uia5AU/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: 1800, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: null, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="http://youtu.be/6hjg-Uia5AU" rel="nofollow">http://youtu.be/6hjg-Uia5AU</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2014-09-13&quot;, 
+            &quot;added&quot;: &quot;2014-10-14T22:37:52.238&quot;, 
+            &quot;updated&quot;: &quot;2014-10-16T00:06:41.946&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;Kiwi PyCon 2014&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;tardis-an-interpreter-for-command-line-parallel&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Alan McCulloch&quot;
+            ], 
+            &quot;tags&quot;: [
+                &quot;talk&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 3239, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;tardis - an interpreter for command-line parallel execution &quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = \r\nAlan McCulloch:\r\ntardis - an interpreter for command-line parallel execution\r\n= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = \r\n@ Kiwi PyCon 2014 - Saturday, 13 Sep 2014 - Track 2\r\nhttp://kiwi.pycon.org/\r\n\r\n**Audience level**\r\n\r\nIntermediate\r\n\r\n**Description**\r\n\r\nThis talk is about simplifying the command line interface to local or cluster based parallel computing.\r\n\r\n**Abstract**\r\n\r\nIdeally the user of a command shell would be unaware whether their commands were executed as a single process on the local machine, or as many concurrent processes on either their local machine or a remote cluster, apart from the reduced time taken to complete the command if executed as concurrent processes. We have developed an approach which we call \u201ccommand conditioning\u201d in which the user marks up a command with hints to the interpreter which are used to transform the marked-up command into \u201c(re)conditioned\u201d native shell commands which the interpreter then launches concurrently and monitors, collects and collates output and termination status. We have implemented an initial python based command-conditioning interpreter called tardis. We describe tardis, give examples of the class of compute tasks for which it is suited, and briefly outline key compute-cluster design characteristics which support this approach. We also touch on future work such as potential integration with Galaxy, a popular python based workflow system.\r\n\r\n**Slides**\r\n\r\nhttps://speakerdeck.com/nzpug/alan-mcculloch-tardis-an-interpreter-for-command-line-parallel-execution&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;CC&quot;, 
+            &quot;embed&quot;: &quot;&lt;object width=\&quot;640\&quot; height=\&quot;390\&quot;&gt;&lt;param name=\&quot;movie\&quot; value=\&quot;http://youtube.com/v/Kf8Dy8Dt6YM?version=3&amp;amp;hl=en_US\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowFullScreen\&quot; value=\&quot;true\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowscriptaccess\&quot; value=\&quot;always\&quot;&gt;&lt;/param&gt;&lt;embed src=\&quot;http://youtube.com/v/Kf8Dy8Dt6YM?version=3&amp;amp;hl=en_US\&quot; type=\&quot;application/x-shockwave-flash\&quot; width=\&quot;640\&quot; height=\&quot;390\&quot; allowscriptaccess=\&quot;always\&quot; allowfullscreen=\&quot;true\&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://i.ytimg.com/vi/Kf8Dy8Dt6YM/hqdefault.jpg" rel="nofollow">http://i.ytimg.com/vi/Kf8Dy8Dt6YM/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: 1800, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: null, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="http://youtu.be/Kf8Dy8Dt6YM" rel="nofollow">http://youtu.be/Kf8Dy8Dt6YM</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2014-09-13&quot;, 
+            &quot;added&quot;: &quot;2014-10-14T22:38:01.810&quot;, 
+            &quot;updated&quot;: &quot;2014-10-16T00:06:48.015&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;Kiwi PyCon 2014&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;the-full-monty-ci-on-openstack&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Danny Adair&quot;
+            ], 
+            &quot;tags&quot;: [
+                &quot;talk&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 3229, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;The Full Monty - CI on OpenStack&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = \r\nDanny Adair:\r\nThe Full Monty - CI on OpenStack\r\n= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = \r\n@ Kiwi PyCon 2014 - Saturday, 13 Sep 2014 - Track 1 \r\nhttp://kiwi.pycon.org/\r\n\r\n**Audience level**\r\n\r\nIntermediate\r\n\r\n**Description**\r\n\r\nAre you continuously \&quot;integrating\&quot;, or just running some unit tests inside a virtualenv?\r\n\r\nLet&#39;s go the Full Monty with OpenStack!\r\n\r\nProtagonists, in order of appearance: Gerrit, Jenkins, OpenStack, Puppet, Odoo (formerly OpenERP). Enjoy the ride!\r\n\r\n**Abstract**\r\n\r\nI&#39;ll show how we configured our CI tools to automatically build and destroy entire servers on OpenStack. We&#39;ll have Gerrit for code review, Jenkins for coordinating and monitoring the build process, OpenStack and its tools to build servers on their own subnet, Puppet for configuring said servers. The example project is an installation of Odoo (formely OpenERP) with a web server and PostgreSQL database.\r\n\r\nAt Catalyst, my team works with Odoo (formerly known as OpenERP), a modular Open Source suite of business applications. It has a very large and complex codebase and \&quot;Regression\&quot; is its middle name. It is under very active development on github, and customisations are generally brought in via plugins that override or extend default functionality. Basically, reasonable work on this requires continuous integration, it&#39;s not a luxury.\r\n\r\nWe could have a fat build server with multiple virtualenvs and multiple databases on the same PostgreSQL server, and just run some Python tests and be done with it. We could improve that with something like LXC, Vagrant etc. all happening on said build server. But why stop there - why not go all the way and create a more realistic setup? After all, another team is able to provide us with OpenStack. Let&#39;s go the Full Monty!\r\n\r\nLet&#39;s go hog wild and create and destroy entire servers just for the purpose of testing. Let&#39;s have separate application and database servers, just like in production.\r\n\r\nLet&#39;s also keep some servers alive for other purposes, e.g., user acceptance testing. Just sit in an IRC channel and after changes are committed for review, wait for a bot to post the URL of the newly built web server to click on. A nicely readable URL on a separate subdomain that is, of course!\r\n\r\nAs a bonus, I&#39;ll show how active upstream development on github fits into all this, and how your Ubuntu \&quot;Precise Pangolin\&quot; server can easily rehearse an upgrade to \&quot;Trusty Tahr\&quot;.\r\n\r\n**Slides**\r\n\r\nhttps://speakerdeck.com/nzpug/danny-adair-the-full-monty-ci-on-openstack&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;CC&quot;, 
+            &quot;embed&quot;: &quot;&lt;object width=\&quot;640\&quot; height=\&quot;390\&quot;&gt;&lt;param name=\&quot;movie\&quot; value=\&quot;http://youtube.com/v/265Sqo7cgbM?version=3&amp;amp;hl=en_US\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowFullScreen\&quot; value=\&quot;true\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowscriptaccess\&quot; value=\&quot;always\&quot;&gt;&lt;/param&gt;&lt;embed src=\&quot;http://youtube.com/v/265Sqo7cgbM?version=3&amp;amp;hl=en_US\&quot; type=\&quot;application/x-shockwave-flash\&quot; width=\&quot;640\&quot; height=\&quot;390\&quot; allowscriptaccess=\&quot;always\&quot; allowfullscreen=\&quot;true\&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://i.ytimg.com/vi/265Sqo7cgbM/hqdefault.jpg" rel="nofollow">http://i.ytimg.com/vi/265Sqo7cgbM/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: 1800, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: null, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="http://youtu.be/265Sqo7cgbM" rel="nofollow">http://youtu.be/265Sqo7cgbM</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2014-09-13&quot;, 
+            &quot;added&quot;: &quot;2014-10-14T22:37:37.690&quot;, 
+            &quot;updated&quot;: &quot;2014-10-16T00:06:32.646&quot;
+        }
+    ]
+}</pre>
+            </div>
+        </div>
+
+            
+
+                
+
+                
+            
+
+        </div>
+        <!-- END content-main -->
+
+    </div>
+    <!-- END Content -->
+
+        <div id="push"></div>
+
+    </div>
+
+    </div><!-- ./wrapper -->
+
+    
+    
+
+    
+    <script src="/static/rest_framework/js/jquery-1.8.1-min.js"></script>
+    <script src="/static/rest_framework/js/bootstrap.min.js"></script>
+    <script src="/static/rest_framework/js/prettify-min.js"></script>
+    <script src="/static/rest_framework/js/default.js"></script>
+    
+  </body>
+
+<!-- Mirrored from pyvideo.org/api/v2/video/?page=58&format=api by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 07 Jan 2016 03:48:57 GMT -->
+</html>

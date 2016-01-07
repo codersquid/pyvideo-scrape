@@ -1,0 +1,194 @@
+
+
+<!DOCTYPE html>
+<html>
+    
+<!-- Mirrored from pyvideo.org/api/v2/video/1205?format=api by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 07 Jan 2016 03:46:36 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+    
+
+        
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+        <meta name="robots" content="NONE,NOARCHIVE" />
+        
+
+        <title>Django REST framework</title>
+
+        
+        
+            <link rel="stylesheet" type="text/css" href="/static/rest_framework/css/bootstrap.min.css"/>
+            <link rel="stylesheet" type="text/css" href="/static/rest_framework/css/bootstrap-tweaks.css"/>
+        
+        <link rel="stylesheet" type="text/css" href="/static/rest_framework/css/prettify.css"/>
+        <link rel="stylesheet" type="text/css" href="/static/rest_framework/css/default.css"/>
+        
+
+    
+    </head>
+
+  <body class=" container">
+
+    <div class="wrapper">
+
+    
+    <div class="navbar navbar-inverse">
+        <div class="navbar-inner">
+            <div class="container-fluid">
+                <span href="/">
+                    <a class='brand' rel="nofollow" href='http://www.django-rest-framework.org'>Django REST framework <span class="version">2.3.14</span></a>
+                </span>
+                <ul class="nav pull-right">
+                    
+                        
+                            <li></li>
+                        
+                    
+                </ul>
+            </div>
+        </div>
+    </div>
+    
+
+    
+    <ul class="breadcrumb">
+        
+            <li>
+                <a href="/api/v2/video/" >Video List Create Api</a> <span class="divider">&rsaquo;</span>
+            </li>
+        
+            <li>
+                <a href="/api/v2/video/1205" class="active">Video Retrieve Update Api</a> 
+            </li>
+        
+    </ul>
+    
+
+    <!-- Content -->
+    <div id="content">
+
+        
+            <form id="get-form" class="pull-right">
+                <fieldset>
+                    <div class="btn-group format-selection">
+                        <a class="btn btn-primary js-tooltip" href='/api/v2/video/1205?format=api' rel="nofollow" title="Make a GET request on the Video Retrieve Update Api resource">GET</a>
+
+                        <button class="btn btn-primary dropdown-toggle js-tooltip" data-toggle="dropdown" title="Specify a format for the GET request">
+                            <span class="caret"></span>
+                        </button>
+                        <ul class="dropdown-menu">
+                            
+                                <li>
+                                    <a class="js-tooltip format-option" href='/api/v2/video/1205?format=json' rel="nofollow" title="Make a GET request on the Video Retrieve Update Api resource with the format set to `json`">json</a>
+                                </li>
+                            
+                                <li>
+                                    <a class="js-tooltip format-option" href='/api/v2/video/1205?format=api' rel="nofollow" title="Make a GET request on the Video Retrieve Update Api resource with the format set to `api`">api</a>
+                                </li>
+                            
+                        </ul>
+                    </div>
+
+                </fieldset>
+            </form>
+        
+
+        
+            <form class="button-form" action="/api/v2/video/1205?format=api" method="POST" class="pull-right">
+                <input type='hidden' name='csrfmiddlewaretoken' value='pT8iI6zhtQdsGFmu4tryYgFrUlipl2B3' />
+                <input type="hidden" name="_method" value="OPTIONS" />
+                <button class="btn btn-primary js-tooltip" title="Make an OPTIONS request on the Video Retrieve Update Api resource">OPTIONS</button>
+            </form>
+        
+
+        
+
+        <div class="content-main">
+            <div class="page-header"><h1>Video Retrieve Update Api</h1></div>
+            
+            
+            
+            <div class="request-info" style="clear: both" >
+                <pre class="prettyprint"><b>GET</b> /api/v2/video/1205?format=api</pre>
+            </div>
+            <div class="response-info">
+                <pre class="prettyprint"><div class="meta nocode"><b>HTTP 200 OK</b>
+<b>Content-Type:</b> <span class="lit">application/json</span>
+<b>Vary:</b> <span class="lit">Accept</span>
+<b>Allow:</b> <span class="lit">GET, PUT, PATCH, HEAD, OPTIONS</span>
+
+</div>{
+    &quot;category&quot;: &quot;SciPy 2012&quot;, 
+    &quot;language&quot;: &quot;English&quot;, 
+    &quot;slug&quot;: &quot;openmg-a-new-multigrid-implementation-in-python&quot;, 
+    &quot;speakers&quot;: [
+        &quot;Akand W. Islam&quot;, 
+        &quot;Tom Bertalan&quot;
+    ], 
+    &quot;tags&quot;: [
+        &quot;hpc&quot;
+    ], 
+    &quot;related_urls&quot;: [], 
+    &quot;id&quot;: 1205, 
+    &quot;state&quot;: 1, 
+    &quot;title&quot;: &quot;OpenMG: A New Multigrid Implementation in Python&quot;, 
+    &quot;summary&quot;: &quot;&quot;, 
+    &quot;description&quot;: &quot;Here, include a talk summary of no longer than 500 words. Aspects such as\nrelevance to Python in science, applicability, and novelty will be considered\nby the program committee.\n\nIn most large-scale computations, systems of equations arise in the form Au=b,\nwhere A is a linear operation to be performed on the unknown data u, producing\nthe known right-hand-side, b, which represents some constraint of known or\nassumed behavior of the system being modeled. Since u can have a many millions\nto billions elements, direct solution is too slow. A multigrid solver solves\npartially at full resolution, and then solves directly only at low resolution.\nThis creates a correction vector, which is then interpolated to full\nresolution, where it corrects the partial solution.\n\nThis project aims to create an open-source multigrid solver library, written\nonly in Python. The existing PyAMG multigrid implementation\u2013a highly\nversatile, highly configurable, black-box solver\u2013is fully sequential, and is\ndifficult to read and modify due to its C core. OpenMG is a pure Python\nexperimentation environment for developing multigrid optimizations, not a new\nproduction solver library. By making the code simple and modular, we make the\nalogrithmic details clear. We thereby create an opportunity for education and\nexperimental optimization of the partial solver (Jacobi, Gauss Seidel, SOR,\netc.), the restriction mechanism, the prolongation mechanism, and the direct\nsolver, using GPGPU, multiple CPUs, MPI, or grid computing. The resulting\nsolver is tested on an implicit pressure reservoir simulation problem with\nsatisfactory results.\n\n&quot;, 
+    &quot;quality_notes&quot;: &quot;&quot;, 
+    &quot;copyright_text&quot;: &quot;CC BY-SA&quot;, 
+    &quot;embed&quot;: &quot;&lt;object width=\&quot;640\&quot; height=\&quot;390\&quot;&gt;&lt;param name=\&quot;movie\&quot; value=\&quot;http://youtube.com/v/R-FO_PX7a_I?version=3&amp;amp;hl=en_US\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowFullScreen\&quot; value=\&quot;true\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowscriptaccess\&quot; value=\&quot;always\&quot;&gt;&lt;/param&gt;&lt;embed src=\&quot;http://youtube.com/v/R-FO_PX7a_I?version=3&amp;amp;hl=en_US\&quot; type=\&quot;application/x-shockwave-flash\&quot; width=\&quot;640\&quot; height=\&quot;390\&quot; allowscriptaccess=\&quot;always\&quot; allowfullscreen=\&quot;true\&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&quot;, 
+    &quot;thumbnail_url&quot;: &quot;<a href="http://i3.ytimg.com/vi/R-FO_PX7a_I/hqdefault.jpg" rel="nofollow">http://i3.ytimg.com/vi/R-FO_PX7a_I/hqdefault.jpg</a>&quot;, 
+    &quot;duration&quot;: null, 
+    &quot;video_ogv_length&quot;: null, 
+    &quot;video_ogv_url&quot;: null, 
+    &quot;video_ogv_download_only&quot;: false, 
+    &quot;video_mp4_length&quot;: null, 
+    &quot;video_mp4_url&quot;: &quot;<a href="http://s3.us.archive.org/nextdayvideo/enthought/scipy_2012/OpenMG_A_New_Multigrid_Implementation_in_Python.mp4?Signature=kNN3vhu1YxcbCBNjVmWtEKMogcg=&amp;Expires=1346381424&amp;AWSAccessKeyId=FEWGReWX3QbNk0h3" rel="nofollow">http://s3.us.archive.org/nextdayvideo/enthought/scipy_2012/OpenMG_A_New_Multigrid_Implementation_in_Python.mp4?Signature=kNN3vhu1YxcbCBNjVmWtEKMogcg%3D&amp;Expires=1346381424&amp;AWSAccessKeyId=FEWGReWX3QbNk0h3</a>&quot;, 
+    &quot;video_mp4_download_only&quot;: false, 
+    &quot;video_webm_length&quot;: null, 
+    &quot;video_webm_url&quot;: &quot;&quot;, 
+    &quot;video_webm_download_only&quot;: false, 
+    &quot;video_flv_length&quot;: null, 
+    &quot;video_flv_url&quot;: &quot;&quot;, 
+    &quot;video_flv_download_only&quot;: false, 
+    &quot;source_url&quot;: &quot;<a href="http://youtube.com/watch?v=R-FO_PX7a_I" rel="nofollow">http://youtube.com/watch?v=R-FO_PX7a_I</a>&quot;, 
+    &quot;whiteboard&quot;: &quot;&quot;, 
+    &quot;recorded&quot;: &quot;2012-07-18&quot;, 
+    &quot;added&quot;: &quot;2012-08-31T16:34:53&quot;, 
+    &quot;updated&quot;: &quot;2014-04-08T20:28:27.150&quot;
+}</pre>
+            </div>
+        </div>
+
+            
+
+                
+
+                
+            
+
+        </div>
+        <!-- END content-main -->
+
+    </div>
+    <!-- END Content -->
+
+        <div id="push"></div>
+
+    </div>
+
+    </div><!-- ./wrapper -->
+
+    
+    
+
+    
+    <script src="/static/rest_framework/js/jquery-1.8.1-min.js"></script>
+    <script src="/static/rest_framework/js/bootstrap.min.js"></script>
+    <script src="/static/rest_framework/js/prettify-min.js"></script>
+    <script src="/static/rest_framework/js/default.js"></script>
+    
+  </body>
+
+<!-- Mirrored from pyvideo.org/api/v2/video/1205?format=api by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 07 Jan 2016 03:46:36 GMT -->
+</html>

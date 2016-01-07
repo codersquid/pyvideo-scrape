@@ -1,0 +1,196 @@
+
+
+<!DOCTYPE html>
+<html>
+    
+<!-- Mirrored from pyvideo.org/api/v2/video/3280 by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 07 Jan 2016 03:25:22 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+    
+
+        
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+        <meta name="robots" content="NONE,NOARCHIVE" />
+        
+
+        <title>Django REST framework</title>
+
+        
+        
+            <link rel="stylesheet" type="text/css" href="/static/rest_framework/css/bootstrap.min.css"/>
+            <link rel="stylesheet" type="text/css" href="/static/rest_framework/css/bootstrap-tweaks.css"/>
+        
+        <link rel="stylesheet" type="text/css" href="/static/rest_framework/css/prettify.css"/>
+        <link rel="stylesheet" type="text/css" href="/static/rest_framework/css/default.css"/>
+        
+
+    
+    </head>
+
+  <body class=" container">
+
+    <div class="wrapper">
+
+    
+    <div class="navbar navbar-inverse">
+        <div class="navbar-inner">
+            <div class="container-fluid">
+                <span href="/">
+                    <a class='brand' rel="nofollow" href='http://www.django-rest-framework.org'>Django REST framework <span class="version">2.3.14</span></a>
+                </span>
+                <ul class="nav pull-right">
+                    
+                        
+                            <li></li>
+                        
+                    
+                </ul>
+            </div>
+        </div>
+    </div>
+    
+
+    
+    <ul class="breadcrumb">
+        
+            <li>
+                <a href="/api/v2/video/" >Video List Create Api</a> <span class="divider">&rsaquo;</span>
+            </li>
+        
+            <li>
+                <a href="/api/v2/video/3280" class="active">Video Retrieve Update Api</a> 
+            </li>
+        
+    </ul>
+    
+
+    <!-- Content -->
+    <div id="content">
+
+        
+            <form id="get-form" class="pull-right">
+                <fieldset>
+                    <div class="btn-group format-selection">
+                        <a class="btn btn-primary js-tooltip" href='/api/v2/video/3280' rel="nofollow" title="Make a GET request on the Video Retrieve Update Api resource">GET</a>
+
+                        <button class="btn btn-primary dropdown-toggle js-tooltip" data-toggle="dropdown" title="Specify a format for the GET request">
+                            <span class="caret"></span>
+                        </button>
+                        <ul class="dropdown-menu">
+                            
+                                <li>
+                                    <a class="js-tooltip format-option" href='/api/v2/video/3280?format=json' rel="nofollow" title="Make a GET request on the Video Retrieve Update Api resource with the format set to `json`">json</a>
+                                </li>
+                            
+                                <li>
+                                    <a class="js-tooltip format-option" href='/api/v2/video/3280?format=api' rel="nofollow" title="Make a GET request on the Video Retrieve Update Api resource with the format set to `api`">api</a>
+                                </li>
+                            
+                        </ul>
+                    </div>
+
+                </fieldset>
+            </form>
+        
+
+        
+            <form class="button-form" action="/api/v2/video/3280" method="POST" class="pull-right">
+                <input type='hidden' name='csrfmiddlewaretoken' value='pT8iI6zhtQdsGFmu4tryYgFrUlipl2B3' />
+                <input type="hidden" name="_method" value="OPTIONS" />
+                <button class="btn btn-primary js-tooltip" title="Make an OPTIONS request on the Video Retrieve Update Api resource">OPTIONS</button>
+            </form>
+        
+
+        
+
+        <div class="content-main">
+            <div class="page-header"><h1>Video Retrieve Update Api</h1></div>
+            
+            
+            
+            <div class="request-info" style="clear: both" >
+                <pre class="prettyprint"><b>GET</b> /api/v2/video/3280</pre>
+            </div>
+            <div class="response-info">
+                <pre class="prettyprint"><div class="meta nocode"><b>HTTP 200 OK</b>
+<b>Content-Type:</b> <span class="lit">application/json</span>
+<b>Vary:</b> <span class="lit">Accept</span>
+<b>Allow:</b> <span class="lit">GET, PUT, PATCH, HEAD, OPTIONS</span>
+
+</div>{
+    &quot;category&quot;: &quot;PyCon APAC 2014&quot;, 
+    &quot;language&quot;: &quot;English&quot;, 
+    &quot;slug&quot;: &quot;designing-a-python-integrated-query-language-for&quot;, 
+    &quot;speakers&quot;: [
+        &quot;Jiwon Seo&quot;
+    ], 
+    &quot;tags&quot;: [], 
+    &quot;related_urls&quot;: [
+        {
+            &quot;url&quot;: &quot;<a href="http://socialite-lang.github.io/" rel="nofollow">http://socialite-lang.github.io/</a>&quot;, 
+            &quot;description&quot;: &quot;SociaLite project page&quot;
+        }
+    ], 
+    &quot;id&quot;: 3280, 
+    &quot;state&quot;: 1, 
+    &quot;title&quot;: &quot;Designing a Python-integrated query language for distributed computing&quot;, 
+    &quot;summary&quot;: &quot;&quot;, 
+    &quot;description&quot;: &quot;Python becomes increasingly popular in the domain of big data analysis. Many big data frameworks such as Hadoop now support Python to some extent. PySociaLite is a new big data framework developed at Stanford. It is designed from beginning to be fully integrated into Python. In PySociaLite, SQL-like queries (called SociaLite) are directly embedded within Python code; the queries can access Python variables and functions, so there is full inter-operation between SociaLite and Python.\r\n\r\nIn this talk, I will give a brief overview of SociaLite, then mainly present the techniques for the integration of SociaLite into Python. SociaLite builds on top of well-known programming concepts -- tables and relational operations -- and it allows users to declare distributed tables to perform, for example, distributed join operations. For the integration of SociaLite into Python, we basically extend Jython interpreter to process embedded SociaLite queries. More specificaly, we use PyParsing to recognize SociaLite queries and re-write the queries into Java function calls. We also use lesser-known Python features, such as import hooks to process SociaLite queries within imported modules. To access Python functions within SociaLite, Jython interpreter instance (from which SociaLite queries are executed) is passed to SociaLite runtime system, and used to lookup and access Python functions. For the distributed execution, Python functions are serialized (as well as its PyCode object) and copied to cluster machines. \r\n\r\nTime permitting, I will give a demo of PySociaLite; SociaLite queries will be executed interactively within (extended) Jython shell and demonstrate the inter-operation between SociaLite and Python.\r\n\r\n\r\nAbout the speaker\r\n\r\nJiwon Seo is a PhD student in Stanford university, studying parallel query language for data analysis. He contributed to Python in various ways; for example, he implemented PEP 289 (Generator Expressions) and PEP 3102 (Keyword-Only Arguments).\r\n\r\nHe designed and implemented a parallel and distributed query language, called SociaLite. The SociaLite compiler generates efficient parallel/distributed code from user queries. SociaLite queries can be embedded in Python programs, allowing users to enjoy flexibility of Python and efficiency of SociaLite. More information is in &lt;<a href="http://socialite-lang.github.io/" rel="nofollow">http://socialite-lang.github.io/</a>&gt;&quot;, 
+    &quot;quality_notes&quot;: &quot;&quot;, 
+    &quot;copyright_text&quot;: &quot;youtube&quot;, 
+    &quot;embed&quot;: &quot;&lt;iframe type=&#39;text/html&#39; src=&#39;http://www.youtube.com/embed/wxlq0HkE3zw&#39; width=&#39;640&#39; height=&#39;360&#39; frameborder=&#39;0&#39; allowfullscreen=&#39;true&#39;/&gt;&quot;, 
+    &quot;thumbnail_url&quot;: &quot;<a href="https://i.ytimg.com/vi/wxlq0HkE3zw/hqdefault.jpg" rel="nofollow">https://i.ytimg.com/vi/wxlq0HkE3zw/hqdefault.jpg</a>&quot;, 
+    &quot;duration&quot;: null, 
+    &quot;video_ogv_length&quot;: null, 
+    &quot;video_ogv_url&quot;: &quot;&quot;, 
+    &quot;video_ogv_download_only&quot;: false, 
+    &quot;video_mp4_length&quot;: null, 
+    &quot;video_mp4_url&quot;: &quot;&quot;, 
+    &quot;video_mp4_download_only&quot;: false, 
+    &quot;video_webm_length&quot;: null, 
+    &quot;video_webm_url&quot;: &quot;&quot;, 
+    &quot;video_webm_download_only&quot;: false, 
+    &quot;video_flv_length&quot;: null, 
+    &quot;video_flv_url&quot;: &quot;&quot;, 
+    &quot;video_flv_download_only&quot;: false, 
+    &quot;source_url&quot;: &quot;<a href="https://www.youtube.com/watch?v=wxlq0HkE3zw" rel="nofollow">https://www.youtube.com/watch?v=wxlq0HkE3zw</a>&quot;, 
+    &quot;whiteboard&quot;: &quot;&quot;, 
+    &quot;recorded&quot;: &quot;2014-06-27&quot;, 
+    &quot;added&quot;: &quot;2014-10-26T00:13:27.008&quot;, 
+    &quot;updated&quot;: &quot;2014-10-26T17:05:19.086&quot;
+}</pre>
+            </div>
+        </div>
+
+            
+
+                
+
+                
+            
+
+        </div>
+        <!-- END content-main -->
+
+    </div>
+    <!-- END Content -->
+
+        <div id="push"></div>
+
+    </div>
+
+    </div><!-- ./wrapper -->
+
+    
+    
+
+    
+    <script src="/static/rest_framework/js/jquery-1.8.1-min.js"></script>
+    <script src="/static/rest_framework/js/bootstrap.min.js"></script>
+    <script src="/static/rest_framework/js/prettify-min.js"></script>
+    <script src="/static/rest_framework/js/default.js"></script>
+    
+  </body>
+
+<!-- Mirrored from pyvideo.org/api/v2/video/3280 by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 07 Jan 2016 03:25:22 GMT -->
+</html>

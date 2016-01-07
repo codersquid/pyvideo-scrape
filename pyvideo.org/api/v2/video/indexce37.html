@@ -1,0 +1,957 @@
+
+
+<!DOCTYPE html>
+<html>
+    
+<!-- Mirrored from pyvideo.org/api/v2/video/?page=12 by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 07 Jan 2016 03:47:05 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+    
+
+        
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+        <meta name="robots" content="NONE,NOARCHIVE" />
+        
+
+        <title>Django REST framework</title>
+
+        
+        
+            <link rel="stylesheet" type="text/css" href="/static/rest_framework/css/bootstrap.min.css"/>
+            <link rel="stylesheet" type="text/css" href="/static/rest_framework/css/bootstrap-tweaks.css"/>
+        
+        <link rel="stylesheet" type="text/css" href="/static/rest_framework/css/prettify.css"/>
+        <link rel="stylesheet" type="text/css" href="/static/rest_framework/css/default.css"/>
+        
+
+    
+    </head>
+
+  <body class=" container">
+
+    <div class="wrapper">
+
+    
+    <div class="navbar navbar-inverse">
+        <div class="navbar-inner">
+            <div class="container-fluid">
+                <span href="/">
+                    <a class='brand' rel="nofollow" href='http://www.django-rest-framework.org'>Django REST framework <span class="version">2.3.14</span></a>
+                </span>
+                <ul class="nav pull-right">
+                    
+                        
+                            <li></li>
+                        
+                    
+                </ul>
+            </div>
+        </div>
+    </div>
+    
+
+    
+    <ul class="breadcrumb">
+        
+            <li>
+                <a href="/api/v2/video/" class="active">Video List Create Api</a> 
+            </li>
+        
+    </ul>
+    
+
+    <!-- Content -->
+    <div id="content">
+
+        
+            <form id="get-form" class="pull-right">
+                <fieldset>
+                    <div class="btn-group format-selection">
+                        <a class="btn btn-primary js-tooltip" href='/api/v2/video/?page=12' rel="nofollow" title="Make a GET request on the Video List Create Api resource">GET</a>
+
+                        <button class="btn btn-primary dropdown-toggle js-tooltip" data-toggle="dropdown" title="Specify a format for the GET request">
+                            <span class="caret"></span>
+                        </button>
+                        <ul class="dropdown-menu">
+                            
+                                <li>
+                                    <a class="js-tooltip format-option" href='/api/v2/video/?page=12&format=json' rel="nofollow" title="Make a GET request on the Video List Create Api resource with the format set to `json`">json</a>
+                                </li>
+                            
+                                <li>
+                                    <a class="js-tooltip format-option" href='/api/v2/video/?page=12&format=api' rel="nofollow" title="Make a GET request on the Video List Create Api resource with the format set to `api`">api</a>
+                                </li>
+                            
+                        </ul>
+                    </div>
+
+                </fieldset>
+            </form>
+        
+
+        
+            <form class="button-form" action="/api/v2/video/?page=12" method="POST" class="pull-right">
+                <input type='hidden' name='csrfmiddlewaretoken' value='pT8iI6zhtQdsGFmu4tryYgFrUlipl2B3' />
+                <input type="hidden" name="_method" value="OPTIONS" />
+                <button class="btn btn-primary js-tooltip" title="Make an OPTIONS request on the Video List Create Api resource">OPTIONS</button>
+            </form>
+        
+
+        
+
+        <div class="content-main">
+            <div class="page-header"><h1>Video List Create Api</h1></div>
+            
+            
+            
+            <div class="request-info" style="clear: both" >
+                <pre class="prettyprint"><b>GET</b> /api/v2/video/?page=12</pre>
+            </div>
+            <div class="response-info">
+                <pre class="prettyprint"><div class="meta nocode"><b>HTTP 200 OK</b>
+<b>Content-Type:</b> <span class="lit">application/json</span>
+<b>Vary:</b> <span class="lit">Accept</span>
+<b>Allow:</b> <span class="lit">GET, POST, HEAD, OPTIONS</span>
+
+</div>{
+    &quot;count&quot;: 3439, 
+    &quot;next&quot;: &quot;<a href="http://pyvideo.org/api/v2/video/?page=13" rel="nofollow">http://pyvideo.org/api/v2/video/?page=13</a>&quot;, 
+    &quot;previous&quot;: &quot;<a href="http://pyvideo.org/api/v2/video/?page=11" rel="nofollow">http://pyvideo.org/api/v2/video/?page=11</a>&quot;, 
+    &quot;results&quot;: [
+        {
+            &quot;category&quot;: &quot;PyCon US 2009&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;pycon-2009--django-in-the-real-world--part-3-of-3&quot;, 
+            &quot;speakers&quot;: [], 
+            &quot;tags&quot;: [
+                &quot;pycon&quot;, 
+                &quot;pycon2009&quot;, 
+                &quot;tutorial&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 138, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;PyCon 2009: Django in the Real World (Part 3 of 3)&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;There&#39;s plenty of material (documentation, blogs, books) out there that&#39;ll\nhelp you write a site using Django... but then what? You&#39;ve still got to test,\ndeploy, monitor, and tune the site; failure at deployment time means all your\nbeautiful code is for naught. This tutorial examines how best to cope when the\nReal World intrudes on your carefully designed website.\n\n  \n[VIDEO HAS ISSUES: blurry vga]\n\n&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;Creative Commons Attribution-NonCommercial-ShareAlike 3.0&quot;, 
+            &quot;embed&quot;: &quot;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://a.images.blip.tv/Pycon-DjangoInTheRealWorldPart003327-984.jpg" rel="nofollow">http://a.images.blip.tv/Pycon-DjangoInTheRealWorldPart003327-984.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: 277898087, 
+            &quot;video_mp4_url&quot;: &quot;<a href="http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2009/138_pycon-2009-django-in-the-real-world-part-3-of-3.mp4" rel="nofollow">http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2009/138_pycon-2009-django-in-the-real-world-part-3-of-3.mp4</a>&quot;, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: null, 
+            &quot;added&quot;: &quot;2012-02-23T04:20:00&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:25.644&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyCon US 2009&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;pycon-2009--django-on-jython---101&quot;, 
+            &quot;speakers&quot;: [], 
+            &quot;tags&quot;: [
+                &quot;jython&quot;, 
+                &quot;pycon&quot;, 
+                &quot;pycon2009&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 143, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;PyCon 2009: Django on Jython (#101)&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;  \n[VIDEO HAS ISSUES: house audio] Django is the most popular Python web\nframework, and the final release of Jython 2.5 should be available a couple of\nmonths before PyCon. This means we can now use a modern Python web framework\non top of Java infrastructure by running Django on Jython. In this talk, we\nwill show examples of how to use this combination, engage a discussion about\nwhat can take the Python (and Django) community from the Java world,\nespecially the necessary infrastructure bits, and how a Django/Jython stack\ncompares with other JVM web stacks like JRuby on Rails.\n\n&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;Creative Commons Attribution-NonCommercial-ShareAlike 3.0&quot;, 
+            &quot;embed&quot;: &quot;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://a.images.blip.tv/Pycon-DjangoOnJython963-962.jpg" rel="nofollow">http://a.images.blip.tv/Pycon-DjangoOnJython963-962.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: 133505783, 
+            &quot;video_mp4_url&quot;: &quot;<a href="http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2009/143_pycon-2009-django-on-jython-101.mp4" rel="nofollow">http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2009/143_pycon-2009-django-on-jython-101.mp4</a>&quot;, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: null, 
+            &quot;added&quot;: &quot;2012-02-23T04:20:00&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:25.646&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyCon US 2009&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;pycon-2009--easy-concurrency-with-kamaelia--part0&quot;, 
+            &quot;speakers&quot;: [], 
+            &quot;tags&quot;: [
+                &quot;concurrency&quot;, 
+                &quot;kamaelia&quot;, 
+                &quot;pycon&quot;, 
+                &quot;pycon2009&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 161, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;PyCon 2009: Easy Concurrency with Kamaelia (Part 1 of 2)&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;  \n[VIDEO HAS ISSUES: ] Writing concurrent applications in Python is now becoming\nnot only easier, but quite elegant and simple, thanks to Kamaelia. Kamaelia is\nan interesting component based framework originating from BBC research. It\naccomplishes concurrent processing of data from and to many protocols.\nComponents easily connect and pass data from and to each other. We are going\nto explore Kamaelia&#39;s strengths and possibilities, by running simple examples,\nthen trying nested protocol support, and maybe some other fun examples if time\npermits.\n\n&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;Creative Commons Attribution-NonCommercial-ShareAlike 3.0&quot;, 
+            &quot;embed&quot;: &quot;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://a.images.blip.tv/Pycon-EasyConcurrencyWithKamaeliaPart001786-408.jpg" rel="nofollow">http://a.images.blip.tv/Pycon-EasyConcurrencyWithKamaeliaPart001786-408.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: 1039893237, 
+            &quot;video_mp4_url&quot;: &quot;<a href="http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2009/161_pycon-2009-easy-concurrency-with-kamaelia-part-1-of-2.mp4" rel="nofollow">http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2009/161_pycon-2009-easy-concurrency-with-kamaelia-part-1-of-2.mp4</a>&quot;, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: null, 
+            &quot;added&quot;: &quot;2012-02-23T04:20:00&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:25.647&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyCon US 2009&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;pycon-2009--easy-concurrency-with-kamaelia--part-&quot;, 
+            &quot;speakers&quot;: [], 
+            &quot;tags&quot;: [
+                &quot;concurrency&quot;, 
+                &quot;kamaelia&quot;, 
+                &quot;pycon&quot;, 
+                &quot;pycon2009&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 160, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;PyCon 2009: Easy Concurrency with Kamaelia (Part 2 of 2)&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;  \n[VIDEO HAS ISSUES: ] Writing concurrent applications in Python is now becoming\nnot only easier, but quite elegant and simple, thanks to Kamaelia. Kamaelia is\nan interesting component based framework originating from BBC research. It\naccomplishes concurrent processing of data from and to many protocols.\nComponents easily connect and pass data from and to each other. We are going\nto explore Kamaelia&#39;s strengths and possibilities, by running simple examples,\nthen trying nested protocol support, and maybe some other fun examples if time\npermits.\n\n&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;Creative Commons Attribution-NonCommercial-ShareAlike 3.0&quot;, 
+            &quot;embed&quot;: &quot;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://a.images.blip.tv/Pycon-EasyConcurrencyWithKamaeliaPart002761-912.jpg" rel="nofollow">http://a.images.blip.tv/Pycon-EasyConcurrencyWithKamaeliaPart002761-912.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: 258938777, 
+            &quot;video_mp4_url&quot;: &quot;<a href="http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2009/160_pycon-2009-easy-concurrency-with-kamaelia-part-2-of-2.mp4" rel="nofollow">http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2009/160_pycon-2009-easy-concurrency-with-kamaelia-part-2-of-2.mp4</a>&quot;, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: null, 
+            &quot;added&quot;: &quot;2012-02-23T04:20:00&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:25.648&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyCon US 2009&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;pycon-2009--eggs-and-buildout-deployment-in-pyth1&quot;, 
+            &quot;speakers&quot;: [], 
+            &quot;tags&quot;: [
+                &quot;cheeseshop&quot;, 
+                &quot;eggs&quot;, 
+                &quot;pycon&quot;, 
+                &quot;pycon2009&quot;, 
+                &quot;virtualenv&quot;, 
+                &quot;zc.buildout&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 151, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;PyCon 2009: Eggs and Buildout Deployment in Python (Part 1 of 3)&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;  \nPuzzled about Python eggs and packages? Wondering how to repeatably pull\ntogether collections of packages into standalone development, testing and\ndeployment environments, all while managing inter-dependencies? In this\nparticipatory tutorial, we&#39;ll start with distutils, walk through using eggs in\nthe cheeseshop and creating your own eggs, touch a bit on using virtualenv to\nset up a development environment, and then dig into using zc.buildout to\nrigorously control assembly specifications, with build recipes, versioning and\ndependency management. We&#39;ll close by showing how to create your own recipes.\nAttendees are strongly encouraged to bring a laptop or partner with someone\nwho does.\n\n&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;Creative Commons Attribution-NonCommercial-ShareAlike 3.0&quot;, 
+            &quot;embed&quot;: &quot;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://a.images.blip.tv/Pycon-EggsAndBuildoutDeploymentInPythonPart001587-862.jpg" rel="nofollow">http://a.images.blip.tv/Pycon-EggsAndBuildoutDeploymentInPythonPart001587-862.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: 1041103294, 
+            &quot;video_mp4_url&quot;: &quot;<a href="http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2009/151_pycon-2009-eggs-and-buildout-deployment-in-python-part-1-of-3.mp4" rel="nofollow">http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2009/151_pycon-2009-eggs-and-buildout-deployment-in-python-part-1-of-3.mp4</a>&quot;, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: null, 
+            &quot;added&quot;: &quot;2012-02-23T04:20:00&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:25.649&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyCon US 2009&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;pycon-2009--eggs-and-buildout-deployment-in-pyth0&quot;, 
+            &quot;speakers&quot;: [], 
+            &quot;tags&quot;: [
+                &quot;cheeseshop&quot;, 
+                &quot;eggs&quot;, 
+                &quot;pycon&quot;, 
+                &quot;pycon2009&quot;, 
+                &quot;virtualenv&quot;, 
+                &quot;zc.buildout&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 150, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;PyCon 2009: Eggs and Buildout Deployment in Python (Part 2 of 3)&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;  \nPuzzled about Python eggs and packages? Wondering how to repeatably pull\ntogether collections of packages into standalone development, testing and\ndeployment environments, all while managing inter-dependencies? In this\nparticipatory tutorial, we&#39;ll start with distutils, walk through using eggs in\nthe cheeseshop and creating your own eggs, touch a bit on using virtualenv to\nset up a development environment, and then dig into using zc.buildout to\nrigorously control assembly specifications, with build recipes, versioning and\ndependency management. We&#39;ll close by showing how to create your own recipes.\nAttendees are strongly encouraged to bring a laptop or partner with someone\nwho does.\n\n&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;Creative Commons Attribution-NonCommercial-ShareAlike 3.0&quot;, 
+            &quot;embed&quot;: &quot;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://a.images.blip.tv/Pycon-EggsAndBuildoutDeploymentInPythonPart002487-443.jpg" rel="nofollow">http://a.images.blip.tv/Pycon-EggsAndBuildoutDeploymentInPythonPart002487-443.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: 1043465996, 
+            &quot;video_mp4_url&quot;: &quot;<a href="http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2009/150_pycon-2009-eggs-and-buildout-deployment-in-python-part-2-of-3.mp4" rel="nofollow">http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2009/150_pycon-2009-eggs-and-buildout-deployment-in-python-part-2-of-3.mp4</a>&quot;, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: null, 
+            &quot;added&quot;: &quot;2012-02-23T04:20:00&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:25.651&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyCon US 2009&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;pycon-2009--eggs-and-buildout-deployment-in-pytho&quot;, 
+            &quot;speakers&quot;: [], 
+            &quot;tags&quot;: [
+                &quot;cheeseshop&quot;, 
+                &quot;eggs&quot;, 
+                &quot;pycon&quot;, 
+                &quot;pycon2009&quot;, 
+                &quot;virtualenv&quot;, 
+                &quot;zc.buildout&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 149, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;PyCon 2009: Eggs and Buildout Deployment in Python (Part 3 of 3)&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;  \nPuzzled about Python eggs and packages? Wondering how to repeatably pull\ntogether collections of packages into standalone development, testing and\ndeployment environments, all while managing inter-dependencies? In this\nparticipatory tutorial, we&#39;ll start with distutils, walk through using eggs in\nthe cheeseshop and creating your own eggs, touch a bit on using virtualenv to\nset up a development environment, and then dig into using zc.buildout to\nrigorously control assembly specifications, with build recipes, versioning and\ndependency management. We&#39;ll close by showing how to create your own recipes.\nAttendees are strongly encouraged to bring a laptop or partner with someone\nwho does.\n\n&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;Creative Commons Attribution-NonCommercial-ShareAlike 3.0&quot;, 
+            &quot;embed&quot;: &quot;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://a.images.blip.tv/Pycon-EggsAndBuildoutDeploymentInPythonPart003314-551.jpg" rel="nofollow">http://a.images.blip.tv/Pycon-EggsAndBuildoutDeploymentInPythonPart003314-551.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: 278651748, 
+            &quot;video_mp4_url&quot;: &quot;<a href="http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2009/149_pycon-2009-eggs-and-buildout-deployment-in-python-part-3-of-3.mp4" rel="nofollow">http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2009/149_pycon-2009-eggs-and-buildout-deployment-in-python-part-3-of-3.mp4</a>&quot;, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: null, 
+            &quot;added&quot;: &quot;2012-02-23T04:20:00&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:25.652&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyCon US 2009&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;pycon-2009--faster-python-programs-through-optim0&quot;, 
+            &quot;speakers&quot;: [], 
+            &quot;tags&quot;: [
+                &quot;optimization&quot;, 
+                &quot;pycon&quot;, 
+                &quot;pycon2009&quot;, 
+                &quot;python-advanced&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 217, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;PyCon 2009: Faster Python Programs through Optimization (Part 1 of 3)&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;  \n[VIDEO HAS ISSUES: vga blurry] Although Python programs may be slow for\ncertain types of tasks, there are many different ways to improve performance.\nThis tutorial will introduce optimization strategies and demonstrate\ntechniques to implement them. Another of the objectives of this course is to\ngive participants the ability to decide what might be the optimal solution for\na certain performance problem. Participants are strongly recommended to bring\nlaptops because all techniques are introduced with examples and exercises.\n\n&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;Creative Commons Attribution-NonCommercial-ShareAlike 3.0&quot;, 
+            &quot;embed&quot;: &quot;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://a.images.blip.tv/Pycon-FasterPythonProgramsThroughOptimizationPart001361-789.jpg" rel="nofollow">http://a.images.blip.tv/Pycon-FasterPythonProgramsThroughOptimizationPart001361-789.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: 1039227431, 
+            &quot;video_mp4_url&quot;: &quot;<a href="http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2009/217_pycon-2009-faster-python-programs-through-optimization-part-1-of-3.mp4" rel="nofollow">http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2009/217_pycon-2009-faster-python-programs-through-optimization-part-1-of-3.mp4</a>&quot;, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: null, 
+            &quot;added&quot;: &quot;2012-02-23T04:20:00&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:25.653&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyCon US 2009&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;pycon-2009--faster-python-programs-through-optimi&quot;, 
+            &quot;speakers&quot;: [], 
+            &quot;tags&quot;: [
+                &quot;optimization&quot;, 
+                &quot;pycon&quot;, 
+                &quot;pycon2009&quot;, 
+                &quot;python-advanced&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 216, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;PyCon 2009: Faster Python Programs through Optimization (Part 2 of 3)&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;  \n[VIDEO HAS ISSUES: vga blurry] Although Python programs may be slow for\ncertain types of tasks, there are many different ways to improve performance.\nThis tutorial will introduce optimization strategies and demonstrate\ntechniques to implement them. Another of the objectives of this course is to\ngive participants the ability to decide what might be the optimal solution for\na certain performance problem. Participants are strongly recommended to bring\nlaptops because all techniques are introduced with examples and exercises.\n\n&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;Creative Commons Attribution-NonCommercial-ShareAlike 3.0&quot;, 
+            &quot;embed&quot;: &quot;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://a.images.blip.tv/Pycon-FasterPythonProgramsThroughOptimizationPart002899-905.jpg" rel="nofollow">http://a.images.blip.tv/Pycon-FasterPythonProgramsThroughOptimizationPart002899-905.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: 1044637114, 
+            &quot;video_mp4_url&quot;: &quot;<a href="http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2009/216_pycon-2009-faster-python-programs-through-optimization-part-2-of-3.mp4" rel="nofollow">http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2009/216_pycon-2009-faster-python-programs-through-optimization-part-2-of-3.mp4</a>&quot;, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: null, 
+            &quot;added&quot;: &quot;2012-02-23T04:20:00&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:25.654&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyCon US 2009&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;pycon-2009--faster-python-programs-through-optim1&quot;, 
+            &quot;speakers&quot;: [], 
+            &quot;tags&quot;: [
+                &quot;optimization&quot;, 
+                &quot;pycon&quot;, 
+                &quot;pycon2009&quot;, 
+                &quot;python-advanced&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 218, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;PyCon 2009: Faster Python Programs through Optimization (Part 3 of 3)&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;  \n[VIDEO HAS ISSUES: vga blurry] Although Python programs may be slow for\ncertain types of tasks, there are many different ways to improve performance.\nThis tutorial will introduce optimization strategies and demonstrate\ntechniques to implement them. Another of the objectives of this course is to\ngive participants the ability to decide what might be the optimal solution for\na certain performance problem. Participants are strongly recommended to bring\nlaptops because all techniques are introduced with examples and exercises.\n\n&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;Creative Commons Attribution-NonCommercial-ShareAlike 3.0&quot;, 
+            &quot;embed&quot;: &quot;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://a.images.blip.tv/Pycon-FasterPythonProgramsThroughOptimizationPart003785-715.jpg" rel="nofollow">http://a.images.blip.tv/Pycon-FasterPythonProgramsThroughOptimizationPart003785-715.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: 207948319, 
+            &quot;video_mp4_url&quot;: &quot;<a href="http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2009/218_pycon-2009-faster-python-programs-through-optimization-part-3-of-3.mp4" rel="nofollow">http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2009/218_pycon-2009-faster-python-programs-through-optimization-part-3-of-3.mp4</a>&quot;, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: null, 
+            &quot;added&quot;: &quot;2012-02-23T04:20:00&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:25.656&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyCon US 2009&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;pycon-2009--functional-testing-of-desktop-applica&quot;, 
+            &quot;speakers&quot;: [], 
+            &quot;tags&quot;: [
+                &quot;functionaltesting&quot;, 
+                &quot;pycon&quot;, 
+                &quot;pycon2009&quot;, 
+                &quot;testing&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 229, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;PyCon 2009: Functional Testing of Desktop Applications (#1)&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;  \nMany advocates of unit testing believe that testing desktop (GUI) applications\nis so difficult as to not be worth it. Not only is it possible, but\n&#39;functional testing&#39; (testing an application from the point of view of the\nuser) is an important part of an agile development process.\n\n&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;Creative Commons Attribution-NonCommercial-ShareAlike 3.0&quot;, 
+            &quot;embed&quot;: &quot;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://a.images.blip.tv/Pycon-FunctionalTestingOfDesktopApplications136-206.jpg" rel="nofollow">http://a.images.blip.tv/Pycon-FunctionalTestingOfDesktopApplications136-206.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: 228468258, 
+            &quot;video_mp4_url&quot;: &quot;<a href="http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2009/229_pycon-2009-functional-testing-of-desktop-applications-1.mp4" rel="nofollow">http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2009/229_pycon-2009-functional-testing-of-desktop-applications-1.mp4</a>&quot;, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: null, 
+            &quot;added&quot;: &quot;2012-02-23T04:20:00&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:25.657&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyCon US 2009&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;pycon-2009--giving-back-and-helping-expand-the-py&quot;, 
+            &quot;speakers&quot;: [], 
+            &quot;tags&quot;: [
+                &quot;pycon&quot;, 
+                &quot;pycon2009&quot;, 
+                &quot;pythoncommunity&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 137, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;PyCon 2009: Giving back and helping expand the Python community. A roadmap for South America and Africa (#87)&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;  \nFor many of us, Python has dramatically changed our professional life: Open\nSource, technologies that get the job done, and let you learn and improve\nevery day, a friendly and mature community, etc. Python is important! For\nlearning, for science, for business, and for progress in general.\n\n&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;Creative Commons Attribution-NonCommercial-ShareAlike 3.0&quot;, 
+            &quot;embed&quot;: &quot;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://a.images.blip.tv/Pycon-GivingBackAndHelpingExpandThePythonCommunityARoadmapFo605-542.jpg" rel="nofollow">http://a.images.blip.tv/Pycon-GivingBackAndHelpingExpandThePythonCommunityARoadmapFo605-542.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: 109064829, 
+            &quot;video_mp4_url&quot;: &quot;<a href="http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2009/137_pycon-2009-giving-back-and-helping-expand-the-python-community-a-roadmap-for-south-america-and-africa-87.mp4" rel="nofollow">http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2009/137_pycon-2009-giving-back-and-helping-expand-the-python-community-a-roadmap-for-south-america-and-africa-87.mp4</a>&quot;, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: null, 
+            &quot;added&quot;: &quot;2012-02-23T04:20:00&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:25.658&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyCon US 2009&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;pycon-2009--hands-on-with-trac-plugins--part-1-of&quot;, 
+            &quot;speakers&quot;: [], 
+            &quot;tags&quot;: [
+                &quot;plugins&quot;, 
+                &quot;pycon&quot;, 
+                &quot;pycon2009&quot;, 
+                &quot;trac&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 188, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;PyCon 2009: Hands on with Trac plugins (Part 1 of 2)&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;  \nTrac, an open-source project management tool, has been gaining in popularity,\nhowever few people tap its true potential. To fully mold Trac to your team and\nproject, you must venture into the realm of custom plugins. These short (or\nnot so short) bits of code allow you to customize almost every aspect of Trac\nto your liking. Come learn how to get 110% out of your Trac system, or just\nsee what Trac can do for you. Attendees should bring a laptop for the hands-on\nportion or the tutorial.\n\n&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;Creative Commons Attribution-NonCommercial-ShareAlike 3.0&quot;, 
+            &quot;embed&quot;: &quot;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://a.images.blip.tv/Pycon-HandsOnWithTracPluginsPart001304-597.jpg" rel="nofollow">http://a.images.blip.tv/Pycon-HandsOnWithTracPluginsPart001304-597.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: 1038929559, 
+            &quot;video_mp4_url&quot;: &quot;<a href="http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2009/188_pycon-2009-hands-on-with-trac-plugins-part-1-of-2.mp4" rel="nofollow">http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2009/188_pycon-2009-hands-on-with-trac-plugins-part-1-of-2.mp4</a>&quot;, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: null, 
+            &quot;added&quot;: &quot;2012-02-23T04:20:00&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:25.659&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyCon US 2009&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;pycon-2009--hands-on-with-trac-plugins--part-2-of&quot;, 
+            &quot;speakers&quot;: [], 
+            &quot;tags&quot;: [
+                &quot;plugins&quot;, 
+                &quot;pycon&quot;, 
+                &quot;pycon2009&quot;, 
+                &quot;trac&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 187, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;PyCon 2009: Hands on with Trac plugins (Part 2 of 2)&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;  \nTrac, an open-source project management tool, has been gaining in popularity,\nhowever few people tap its true potential. To fully mold Trac to your team and\nproject, you must venture into the realm of custom plugins. These short (or\nnot so short) bits of code allow you to customize almost every aspect of Trac\nto your liking. Come learn how to get 110% out of your Trac system, or just\nsee what Trac can do for you. Attendees should bring a laptop for the hands-on\nportion or the tutorial.\n\n&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;Creative Commons Attribution-NonCommercial-ShareAlike 3.0&quot;, 
+            &quot;embed&quot;: &quot;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://a.images.blip.tv/Pycon-HandsOnWithTracPluginsPart002424-933.jpg" rel="nofollow">http://a.images.blip.tv/Pycon-HandsOnWithTracPluginsPart002424-933.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: 234575078, 
+            &quot;video_mp4_url&quot;: &quot;<a href="http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2009/187_pycon-2009-hands-on-with-trac-plugins-part-2-of-2.mp4" rel="nofollow">http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2009/187_pycon-2009-hands-on-with-trac-plugins-part-2-of-2.mp4</a>&quot;, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: null, 
+            &quot;added&quot;: &quot;2012-02-23T04:20:00&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:25.661&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyCon US 2009&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;pycon-2009--how-alterway-releases-web-application&quot;, 
+            &quot;speakers&quot;: [], 
+            &quot;tags&quot;: [
+                &quot;pycon&quot;, 
+                &quot;pycon2009&quot;, 
+                &quot;zc.buildout&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 224, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;PyCon 2009: How AlterWay releases web applications using zc.buildout (#22)&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;  \nThis talk will describe how zc.buildout is used in our company every day to\ndevelop, package and distribute Pylons, Django or Plone applications. It will\nfocus on the best practices we have built around the tool and the tools we\nhave built on the top of it to speed up our work.\n\n&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;Creative Commons Attribution-NonCommercial-ShareAlike 3.0&quot;, 
+            &quot;embed&quot;: &quot;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://a.images.blip.tv/Pycon-HowAlterWayReleasesWebApplicationsUsingZcbuildout747-905.jpg" rel="nofollow">http://a.images.blip.tv/Pycon-HowAlterWayReleasesWebApplicationsUsingZcbuildout747-905.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: 110995087, 
+            &quot;video_mp4_url&quot;: &quot;<a href="http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2009/224_pycon-2009-how-alterway-releases-web-applications-using-zc-buildout-22.mp4" rel="nofollow">http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2009/224_pycon-2009-how-alterway-releases-web-applications-using-zc-buildout-22.mp4</a>&quot;, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: null, 
+            &quot;added&quot;: &quot;2012-02-23T04:20:00&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:25.662&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyCon US 2009&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;pycon-2009--how-i-distribute-python-applications-&quot;, 
+            &quot;speakers&quot;: [], 
+            &quot;tags&quot;: [
+                &quot;innosetup&quot;, 
+                &quot;py2exe&quot;, 
+                &quot;pycon&quot;, 
+                &quot;pycon2009&quot;, 
+                &quot;windows&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 147, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;PyCon 2009: How I Distribute Python applications on Windows - py2exe and InnoSetup (#108)&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;  \nThere are many deployment options for Python code. I&#39;ll share what has worked\nwell for me on Windows, packaging command line tools and services using py2exe\nand InnoSetup. I&#39;ll demonstrate a simple build script which creates windows\nbinaries and an InnoSetup installer in one step. In addition, I&#39;ll go over\ncommon errors which come up when using py2exe and hints on troubleshooting\nthem. This is a short talk, so there will be a follow-up Open Space session to\nshare experience and help each other solve distribution problems.\n\n&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;Creative Commons Attribution-NonCommercial-ShareAlike 3.0&quot;, 
+            &quot;embed&quot;: &quot;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://a.images.blip.tv/Pycon-HowIDistributePythonApplicationsOnWindowsPy2exeInnoSet226-152.jpg" rel="nofollow">http://a.images.blip.tv/Pycon-HowIDistributePythonApplicationsOnWindowsPy2exeInnoSet226-152.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: 108923319, 
+            &quot;video_mp4_url&quot;: &quot;<a href="http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2009/147_pycon-2009-how-i-distribute-python-applications-on-windows-py2exe-and-innosetup-108.mp4" rel="nofollow">http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2009/147_pycon-2009-how-i-distribute-python-applications-on-windows-py2exe-and-innosetup-108.mp4</a>&quot;, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: null, 
+            &quot;added&quot;: &quot;2012-02-23T04:20:00&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:25.663&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyCon US 2009&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;pycon-2009--how-to-build-applications-linux-distr&quot;, 
+            &quot;speakers&quot;: [], 
+            &quot;tags&quot;: [
+                &quot;linux&quot;, 
+                &quot;packaging&quot;, 
+                &quot;pycon&quot;, 
+                &quot;pycon2009&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 148, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;PyCon 2009: How to Build Applications Linux Distributions will Package (#78)&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;  \n[VIDEO HAS ISSUES: no audio first 1.5m] If you&#39;ve ever created a nifty\napplication that makes people&#39;s lives easier you know the truly hard part is\nconvincing others to use it. One way to increase the number of people\ninstalling your software is to convince Linux distributions to package your\nsoftware so that their end users can install by using the system tools they&#39;re\nused to. One way of convincing them is by making your application easy to\npackage.\n\n&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;Creative Commons Attribution-NonCommercial-ShareAlike 3.0&quot;, 
+            &quot;embed&quot;: &quot;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://a.images.blip.tv/Pycon-HowToBuildApplicationsLinuxDistributionsWillPackage235-266.jpg" rel="nofollow">http://a.images.blip.tv/Pycon-HowToBuildApplicationsLinuxDistributionsWillPackage235-266.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: 126822207, 
+            &quot;video_mp4_url&quot;: &quot;<a href="http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2009/148_pycon-2009-how-to-build-applications-linux-distributions-will-package-78.mp4" rel="nofollow">http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2009/148_pycon-2009-how-to-build-applications-linux-distributions-will-package-78.mp4</a>&quot;, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: null, 
+            &quot;added&quot;: &quot;2012-02-23T04:20:00&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:25.664&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyCon US 2009&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;pycon-2009--intermediate-turbogears--part-1-of-3&quot;, 
+            &quot;speakers&quot;: [], 
+            &quot;tags&quot;: [
+                &quot;pycon&quot;, 
+                &quot;pycon2009&quot;, 
+                &quot;turbogears&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 209, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;PyCon 2009: Intermediate Turbogears (Part 1 of 3)&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;  \nHave you conquered the basics of Pylons/TurboGears2 (or just taken the morning\nclass)? Do you want to understand more about how everything works, and how you\ncan go beyond the basics to understand how to customize things? This class\nwill take you from a basic understanding of how to use the framework, to a\nclear picture of how the framework pieces are put together. I will also cover\nhow to create REST+JSON based web services, we&#39;ll focus particularly on how\nall this works with rich javascript based user interfaces, but the techniques\nshould easily apply to Flex, or other \&quot;Rich Internet Application\&quot; tools.\n\n&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;Creative Commons Attribution-NonCommercial-ShareAlike 3.0&quot;, 
+            &quot;embed&quot;: &quot;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://a.images.blip.tv/Pycon-IntermediateTurbogearsPart001443-124.jpg" rel="nofollow">http://a.images.blip.tv/Pycon-IntermediateTurbogearsPart001443-124.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: 1039354383, 
+            &quot;video_mp4_url&quot;: &quot;<a href="http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2009/209_pycon-2009-intermediate-turbogears-part-1-of-3.mp4" rel="nofollow">http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2009/209_pycon-2009-intermediate-turbogears-part-1-of-3.mp4</a>&quot;, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: null, 
+            &quot;added&quot;: &quot;2012-02-23T04:20:00&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:25.666&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyCon US 2009&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;pycon-2009--intermediate-turbogears--part-2-of-3&quot;, 
+            &quot;speakers&quot;: [], 
+            &quot;tags&quot;: [
+                &quot;pycon&quot;, 
+                &quot;pycon2009&quot;, 
+                &quot;turbogears&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 207, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;PyCon 2009: Intermediate Turbogears (Part 2 of 3)&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;  \nHave you conquered the basics of Pylons/TurboGears2 (or just taken the morning\nclass)? Do you want to understand more about how everything works, and how you\ncan go beyond the basics to understand how to customize things? This class\nwill take you from a basic understanding of how to use the framework, to a\nclear picture of how the framework pieces are put together. I will also cover\nhow to create REST+JSON based web services, we&#39;ll focus particularly on how\nall this works with rich javascript based user interfaces, but the techniques\nshould easily apply to Flex, or other \&quot;Rich Internet Application\&quot; tools.\n\n&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;Creative Commons Attribution-NonCommercial-ShareAlike 3.0&quot;, 
+            &quot;embed&quot;: &quot;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://a.images.blip.tv/Pycon-IntermediateTurbogearsPart002106-521.jpg" rel="nofollow">http://a.images.blip.tv/Pycon-IntermediateTurbogearsPart002106-521.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: 1044355367, 
+            &quot;video_mp4_url&quot;: &quot;<a href="http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2009/207_pycon-2009-intermediate-turbogears-part-2-of-3.mp4" rel="nofollow">http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2009/207_pycon-2009-intermediate-turbogears-part-2-of-3.mp4</a>&quot;, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: null, 
+            &quot;added&quot;: &quot;2012-02-23T04:20:00&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:25.667&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyCon US 2009&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;pycon-2009--intermediate-turbogears--part-3-of-3&quot;, 
+            &quot;speakers&quot;: [], 
+            &quot;tags&quot;: [
+                &quot;pycon&quot;, 
+                &quot;pycon2009&quot;, 
+                &quot;turbogears&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 206, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;PyCon 2009: Intermediate Turbogears (Part 3 of 3)&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;  \nHave you conquered the basics of Pylons/TurboGears2 (or just taken the morning\nclass)? Do you want to understand more about how everything works, and how you\ncan go beyond the basics to understand how to customize things? This class\nwill take you from a basic understanding of how to use the framework, to a\nclear picture of how the framework pieces are put together. I will also cover\nhow to create REST+JSON based web services, we&#39;ll focus particularly on how\nall this works with rich javascript based user interfaces, but the techniques\nshould easily apply to Flex, or other \&quot;Rich Internet Application\&quot; tools.\n\n&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;Creative Commons Attribution-NonCommercial-ShareAlike 3.0&quot;, 
+            &quot;embed&quot;: &quot;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://a.images.blip.tv/Pycon-IntermediateTurbogearsPart003567-791.jpg" rel="nofollow">http://a.images.blip.tv/Pycon-IntermediateTurbogearsPart003567-791.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: 356412781, 
+            &quot;video_mp4_url&quot;: &quot;<a href="http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2009/206_pycon-2009-intermediate-turbogears-part-3-of-3.mp4" rel="nofollow">http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2009/206_pycon-2009-intermediate-turbogears-part-3-of-3.mp4</a>&quot;, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: null, 
+            &quot;added&quot;: &quot;2012-02-23T04:20:00&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:25.668&quot;
+        }
+    ]
+}</pre>
+            </div>
+        </div>
+
+            
+
+                
+
+                
+            
+
+        </div>
+        <!-- END content-main -->
+
+    </div>
+    <!-- END Content -->
+
+        <div id="push"></div>
+
+    </div>
+
+    </div><!-- ./wrapper -->
+
+    
+    
+
+    
+    <script src="/static/rest_framework/js/jquery-1.8.1-min.js"></script>
+    <script src="/static/rest_framework/js/bootstrap.min.js"></script>
+    <script src="/static/rest_framework/js/prettify-min.js"></script>
+    <script src="/static/rest_framework/js/default.js"></script>
+    
+  </body>
+
+<!-- Mirrored from pyvideo.org/api/v2/video/?page=12 by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 07 Jan 2016 03:47:05 GMT -->
+</html>

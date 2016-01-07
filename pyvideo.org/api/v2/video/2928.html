@@ -1,0 +1,191 @@
+
+
+<!DOCTYPE html>
+<html>
+    
+<!-- Mirrored from pyvideo.org/api/v2/video/2928 by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 07 Jan 2016 03:28:28 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+    
+
+        
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+        <meta name="robots" content="NONE,NOARCHIVE" />
+        
+
+        <title>Django REST framework</title>
+
+        
+        
+            <link rel="stylesheet" type="text/css" href="/static/rest_framework/css/bootstrap.min.css"/>
+            <link rel="stylesheet" type="text/css" href="/static/rest_framework/css/bootstrap-tweaks.css"/>
+        
+        <link rel="stylesheet" type="text/css" href="/static/rest_framework/css/prettify.css"/>
+        <link rel="stylesheet" type="text/css" href="/static/rest_framework/css/default.css"/>
+        
+
+    
+    </head>
+
+  <body class=" container">
+
+    <div class="wrapper">
+
+    
+    <div class="navbar navbar-inverse">
+        <div class="navbar-inner">
+            <div class="container-fluid">
+                <span href="/">
+                    <a class='brand' rel="nofollow" href='http://www.django-rest-framework.org'>Django REST framework <span class="version">2.3.14</span></a>
+                </span>
+                <ul class="nav pull-right">
+                    
+                        
+                            <li></li>
+                        
+                    
+                </ul>
+            </div>
+        </div>
+    </div>
+    
+
+    
+    <ul class="breadcrumb">
+        
+            <li>
+                <a href="/api/v2/video/" >Video List Create Api</a> <span class="divider">&rsaquo;</span>
+            </li>
+        
+            <li>
+                <a href="/api/v2/video/2928" class="active">Video Retrieve Update Api</a> 
+            </li>
+        
+    </ul>
+    
+
+    <!-- Content -->
+    <div id="content">
+
+        
+            <form id="get-form" class="pull-right">
+                <fieldset>
+                    <div class="btn-group format-selection">
+                        <a class="btn btn-primary js-tooltip" href='/api/v2/video/2928' rel="nofollow" title="Make a GET request on the Video Retrieve Update Api resource">GET</a>
+
+                        <button class="btn btn-primary dropdown-toggle js-tooltip" data-toggle="dropdown" title="Specify a format for the GET request">
+                            <span class="caret"></span>
+                        </button>
+                        <ul class="dropdown-menu">
+                            
+                                <li>
+                                    <a class="js-tooltip format-option" href='/api/v2/video/2928?format=json' rel="nofollow" title="Make a GET request on the Video Retrieve Update Api resource with the format set to `json`">json</a>
+                                </li>
+                            
+                                <li>
+                                    <a class="js-tooltip format-option" href='/api/v2/video/2928?format=api' rel="nofollow" title="Make a GET request on the Video Retrieve Update Api resource with the format set to `api`">api</a>
+                                </li>
+                            
+                        </ul>
+                    </div>
+
+                </fieldset>
+            </form>
+        
+
+        
+            <form class="button-form" action="/api/v2/video/2928" method="POST" class="pull-right">
+                <input type='hidden' name='csrfmiddlewaretoken' value='pT8iI6zhtQdsGFmu4tryYgFrUlipl2B3' />
+                <input type="hidden" name="_method" value="OPTIONS" />
+                <button class="btn btn-primary js-tooltip" title="Make an OPTIONS request on the Video Retrieve Update Api resource">OPTIONS</button>
+            </form>
+        
+
+        
+
+        <div class="content-main">
+            <div class="page-header"><h1>Video Retrieve Update Api</h1></div>
+            
+            
+            
+            <div class="request-info" style="clear: both" >
+                <pre class="prettyprint"><b>GET</b> /api/v2/video/2928</pre>
+            </div>
+            <div class="response-info">
+                <pre class="prettyprint"><div class="meta nocode"><b>HTTP 200 OK</b>
+<b>Content-Type:</b> <span class="lit">application/json</span>
+<b>Vary:</b> <span class="lit">Accept</span>
+<b>Allow:</b> <span class="lit">GET, PUT, PATCH, HEAD, OPTIONS</span>
+
+</div>{
+    &quot;category&quot;: &quot;PyCon DE 2011&quot;, 
+    &quot;language&quot;: &quot;German&quot;, 
+    &quot;slug&quot;: &quot;atdd-und-robot-framework-in-ambitionierten-heter&quot;, 
+    &quot;speakers&quot;: [
+        &quot;Filip Noetzel&quot;
+    ], 
+    &quot;tags&quot;: [], 
+    &quot;related_urls&quot;: [], 
+    &quot;id&quot;: 2928, 
+    &quot;state&quot;: 1, 
+    &quot;title&quot;: &quot;ATDD und Robot Framework in ambitionierten, heterogenen Umgebungen&quot;, 
+    &quot;summary&quot;: &quot;Robot Framework ist ein generisches Testautomatisierungs-Framework und eignet sich besonders gut f\u00fcr heterogene Umgebungen in denen viel unterschiedlichste Software zusammenspielen muss.  Der Vortrag kl\u00e4rt kurz, was Acceptance Test Driven Development ist, warum es eine gute Idee ist und wie man das mit Robot Framework in den eigenen Softwareprozess integriert.&quot;, 
+    &quot;description&quot;: &quot;Beim Acceptance Test Driven Development erarbeiten die Entwickler zusammen mit den anderen am Softwareentwicklungsprozess beteiligten Interessensvertretern gemeinsam (zum Beispiel w\u00e4hrend der Sprint-Planung) ausf\u00fchrbare Tests auf Akzeptanz-Level, also solche die in fast nat\u00fcrlichsprachlicher und f\u00fcr alle Beteiligten verst\u00e4ndlichen Weise dokumentieren wann der zu entwickelnde Teil Software fertig ist. So erh\u00e4lt man ein stetig wachsendes und ausf\u00fchrbares Anforderungsdokument.\r\n\r\nRobot Framework (<a href="http://code.google.com/p/robotframework/" rel="nofollow">http://code.google.com/p/robotframework/</a>) ist ein in Python geschriebenes Testautomatisierungsframework das zun\u00e4chst intern bei Nokia Siemens Networks entwickelt wurde, aber vor gut zwei Jahren unter Apache-2.0-Lizenz ver\u00f6ffentlicht wurde. RF liest einfache tabellarische Test-Skripte (die z.B. aus Excel exportiert werden, falls das die Kollaborations-Schnittstelle zum \&quot;Produktmenschenen\&quot; sein sollte) ein und f\u00fchrt diese dann aus. Dabei lassen sich wiederholende Anweisungen in \u00fcbergeordnete Keywords abstrahieren und so wiederverwenden, insbesondere aber l\u00e4sst sich damit Komplexit\u00e4t verstecken.\r\n\r\nDie vielen Plugins, Ein- und Ausgabem\u00f6glichkeiten, Erweiterungs- und Integrationsm\u00f6glichkeiten mit anderer Software, etc. machen Robot Framework zu einem herausragenden Werkzeug. Gr\u00f6\u00dftes Problem der Software ist wohl die weitgehende Unbekanntheit, aber das kann man ja \u00e4ndern.\r\n\r\nDer Vortrag soll die Vorgehensweise ATDD unter Verwendung vieler Code-Beispiele und Workflow-Vorschl\u00e4ge vorstellen und den ein oder anderen f\u00fcr ATDD begeistern.&quot;, 
+    &quot;quality_notes&quot;: &quot;&quot;, 
+    &quot;copyright_text&quot;: &quot;<a href="http://www.youtube.com/t/terms" rel="nofollow">http://www.youtube.com/t/terms</a>&quot;, 
+    &quot;embed&quot;: &quot;&lt;object width=\&quot;640\&quot; height=\&quot;390\&quot;&gt;&lt;param name=\&quot;movie\&quot; value=\&quot;http://youtube.com/v/vfRysNuPSq4?version=3&amp;amp;hl=en_US\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowFullScreen\&quot; value=\&quot;true\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowscriptaccess\&quot; value=\&quot;always\&quot;&gt;&lt;/param&gt;&lt;embed src=\&quot;http://youtube.com/v/vfRysNuPSq4?version=3&amp;amp;hl=en_US\&quot; type=\&quot;application/x-shockwave-flash\&quot; width=\&quot;640\&quot; height=\&quot;390\&quot; allowscriptaccess=\&quot;always\&quot; allowfullscreen=\&quot;true\&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&quot;, 
+    &quot;thumbnail_url&quot;: &quot;<a href="http://i1.ytimg.com/vi/vfRysNuPSq4/hqdefault.jpg" rel="nofollow">http://i1.ytimg.com/vi/vfRysNuPSq4/hqdefault.jpg</a>&quot;, 
+    &quot;duration&quot;: null, 
+    &quot;video_ogv_length&quot;: null, 
+    &quot;video_ogv_url&quot;: &quot;&quot;, 
+    &quot;video_ogv_download_only&quot;: false, 
+    &quot;video_mp4_length&quot;: null, 
+    &quot;video_mp4_url&quot;: &quot;&quot;, 
+    &quot;video_mp4_download_only&quot;: false, 
+    &quot;video_webm_length&quot;: null, 
+    &quot;video_webm_url&quot;: &quot;&quot;, 
+    &quot;video_webm_download_only&quot;: false, 
+    &quot;video_flv_length&quot;: null, 
+    &quot;video_flv_url&quot;: &quot;&quot;, 
+    &quot;video_flv_download_only&quot;: false, 
+    &quot;source_url&quot;: &quot;<a href="http://www.youtube.com/watch?v=vfRysNuPSq4" rel="nofollow">http://www.youtube.com/watch?v=vfRysNuPSq4</a>&quot;, 
+    &quot;whiteboard&quot;: &quot;&quot;, 
+    &quot;recorded&quot;: &quot;2011-10-05&quot;, 
+    &quot;added&quot;: &quot;2014-07-25T10:30:16.168&quot;, 
+    &quot;updated&quot;: &quot;2014-07-25T10:30:16.168&quot;
+}</pre>
+            </div>
+        </div>
+
+            
+
+                
+
+                
+            
+
+        </div>
+        <!-- END content-main -->
+
+    </div>
+    <!-- END Content -->
+
+        <div id="push"></div>
+
+    </div>
+
+    </div><!-- ./wrapper -->
+
+    
+    
+
+    
+    <script src="/static/rest_framework/js/jquery-1.8.1-min.js"></script>
+    <script src="/static/rest_framework/js/bootstrap.min.js"></script>
+    <script src="/static/rest_framework/js/prettify-min.js"></script>
+    <script src="/static/rest_framework/js/default.js"></script>
+    
+  </body>
+
+<!-- Mirrored from pyvideo.org/api/v2/video/2928 by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 07 Jan 2016 03:28:29 GMT -->
+</html>

@@ -1,0 +1,198 @@
+
+
+<!DOCTYPE html>
+<html>
+    
+<!-- Mirrored from pyvideo.org/api/v2/video/2724 by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 07 Jan 2016 03:46:14 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+    
+
+        
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+        <meta name="robots" content="NONE,NOARCHIVE" />
+        
+
+        <title>Django REST framework</title>
+
+        
+        
+            <link rel="stylesheet" type="text/css" href="/static/rest_framework/css/bootstrap.min.css"/>
+            <link rel="stylesheet" type="text/css" href="/static/rest_framework/css/bootstrap-tweaks.css"/>
+        
+        <link rel="stylesheet" type="text/css" href="/static/rest_framework/css/prettify.css"/>
+        <link rel="stylesheet" type="text/css" href="/static/rest_framework/css/default.css"/>
+        
+
+    
+    </head>
+
+  <body class=" container">
+
+    <div class="wrapper">
+
+    
+    <div class="navbar navbar-inverse">
+        <div class="navbar-inner">
+            <div class="container-fluid">
+                <span href="/">
+                    <a class='brand' rel="nofollow" href='http://www.django-rest-framework.org'>Django REST framework <span class="version">2.3.14</span></a>
+                </span>
+                <ul class="nav pull-right">
+                    
+                        
+                            <li></li>
+                        
+                    
+                </ul>
+            </div>
+        </div>
+    </div>
+    
+
+    
+    <ul class="breadcrumb">
+        
+            <li>
+                <a href="/api/v2/video/" >Video List Create Api</a> <span class="divider">&rsaquo;</span>
+            </li>
+        
+            <li>
+                <a href="/api/v2/video/2724" class="active">Video Retrieve Update Api</a> 
+            </li>
+        
+    </ul>
+    
+
+    <!-- Content -->
+    <div id="content">
+
+        
+            <form id="get-form" class="pull-right">
+                <fieldset>
+                    <div class="btn-group format-selection">
+                        <a class="btn btn-primary js-tooltip" href='/api/v2/video/2724' rel="nofollow" title="Make a GET request on the Video Retrieve Update Api resource">GET</a>
+
+                        <button class="btn btn-primary dropdown-toggle js-tooltip" data-toggle="dropdown" title="Specify a format for the GET request">
+                            <span class="caret"></span>
+                        </button>
+                        <ul class="dropdown-menu">
+                            
+                                <li>
+                                    <a class="js-tooltip format-option" href='/api/v2/video/2724?format=json' rel="nofollow" title="Make a GET request on the Video Retrieve Update Api resource with the format set to `json`">json</a>
+                                </li>
+                            
+                                <li>
+                                    <a class="js-tooltip format-option" href='/api/v2/video/2724?format=api' rel="nofollow" title="Make a GET request on the Video Retrieve Update Api resource with the format set to `api`">api</a>
+                                </li>
+                            
+                        </ul>
+                    </div>
+
+                </fieldset>
+            </form>
+        
+
+        
+            <form class="button-form" action="/api/v2/video/2724" method="POST" class="pull-right">
+                <input type='hidden' name='csrfmiddlewaretoken' value='pT8iI6zhtQdsGFmu4tryYgFrUlipl2B3' />
+                <input type="hidden" name="_method" value="OPTIONS" />
+                <button class="btn btn-primary js-tooltip" title="Make an OPTIONS request on the Video Retrieve Update Api resource">OPTIONS</button>
+            </form>
+        
+
+        
+
+        <div class="content-main">
+            <div class="page-header"><h1>Video Retrieve Update Api</h1></div>
+            
+            
+            
+            <div class="request-info" style="clear: both" >
+                <pre class="prettyprint"><b>GET</b> /api/v2/video/2724</pre>
+            </div>
+            <div class="response-info">
+                <pre class="prettyprint"><div class="meta nocode"><b>HTTP 200 OK</b>
+<b>Content-Type:</b> <span class="lit">application/json</span>
+<b>Vary:</b> <span class="lit">Accept</span>
+<b>Allow:</b> <span class="lit">GET, PUT, PATCH, HEAD, OPTIONS</span>
+
+</div>{
+    &quot;category&quot;: &quot;SciPy 2014&quot;, 
+    &quot;language&quot;: &quot;English&quot;, 
+    &quot;slug&quot;: &quot;reproducible-relocatable-customizable-builds-an&quot;, 
+    &quot;speakers&quot;: [
+        &quot;Andy Terrel&quot;, 
+        &quot;Aron Ahmadia&quot;, 
+        &quot;Chris Kees&quot;, 
+        &quot;Dag Sverre Seljebotn&quot;, 
+        &quot;Ondrej Certik&quot;
+    ], 
+    &quot;tags&quot;: [
+        &quot;packaging&quot;, 
+        &quot;reproducible research&quot;
+    ], 
+    &quot;related_urls&quot;: [], 
+    &quot;id&quot;: 2724, 
+    &quot;state&quot;: 1, 
+    &quot;title&quot;: &quot;Reproducible, Relocatable, Customizable Builds and Packaging with HashDist Part1&quot;, 
+    &quot;summary&quot;: &quot;This talk introduces HashDist, a critical component of the scientific software development workflow.  HashDist enables highly customizable, source-driven, and reproducible builds for scientific software stacks.  HashDist builds can be made relocatable, allowing the easy redistribution of binaries on all three major operating systems as well as cloud and supercomputing platforms. &quot;, 
+    &quot;description&quot;: &quot;Developing scientific software is a continuous balance between not reinventing the wheel and getting fragile codes to interoperate with one another.  Binary software distributions such as Anaconda provide a robust starting point for many scientific software packages, but this solution alone is insufficient for many scientific software developers.  HashDist provides a critical component of the development workflow, enabling highly customizable, source-driven, and reproducible builds for scientific software stacks, available from both the IPython Notebook and the command line.\r\n\r\nTo address these issues, the Coastal and Hydraulics Laboratory at the US Army Engineer Research and Development Center has funded the development of HashDist in collaboration with Simula Research Laboratories and the University of Texas at Austin.  HashDist is motivated by a functional approach to package build management, and features intelligent caching of sources and builds, parametrized build specifications, and the ability to interoperate with system compilers and packages. HashDist enables the easy specification of \&quot;software stacks\&quot;, which allow both the novice user to install a default environment and the advanced user to configure every aspect of their build in a modular fashion.  As an advanced feature, HashDist builds can be made relocatable, allowing the easy redistribution of binaries on all three major operating systems as well as cloud, and supercomputing platforms.  As a final benefit, all HashDist builds are reproducible, with a build hash specifying exactly how each component of the software stack was installed.\r\n\r\nThis talk will feature an introduction to the problem of packaging Python-based scientific software, a discussion of the basic tools available to scientific Python developers, and a detailed discussion and demonstration of the HashDist package build manager.\r\n\r\nThe HashDist documentation is available from: <a href="http://hashdist.readthedocs.org/en/latest/%5Cr%5CnHashDist" rel="nofollow">http://hashdist.readthedocs.org/en/latest/\r\nHashDist</a> is currently hosted at: <a href="https://github.com/hashdist/hashdist" rel="nofollow">https://github.com/hashdist/hashdist</a>&quot;, 
+    &quot;quality_notes&quot;: &quot;&quot;, 
+    &quot;copyright_text&quot;: &quot;<a href="http://www.youtube.com/t/terms" rel="nofollow">http://www.youtube.com/t/terms</a>&quot;, 
+    &quot;embed&quot;: &quot;&lt;object width=\&quot;640\&quot; height=\&quot;390\&quot;&gt;&lt;param name=\&quot;movie\&quot; value=\&quot;http://youtube.com/v/wviHkzk0AkY?version=3&amp;amp;hl=en_US\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowFullScreen\&quot; value=\&quot;true\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowscriptaccess\&quot; value=\&quot;always\&quot;&gt;&lt;/param&gt;&lt;embed src=\&quot;http://youtube.com/v/wviHkzk0AkY?version=3&amp;amp;hl=en_US\&quot; type=\&quot;application/x-shockwave-flash\&quot; width=\&quot;640\&quot; height=\&quot;390\&quot; allowscriptaccess=\&quot;always\&quot; allowfullscreen=\&quot;true\&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&quot;, 
+    &quot;thumbnail_url&quot;: &quot;<a href="http://i1.ytimg.com/vi/wviHkzk0AkY/hqdefault.jpg" rel="nofollow">http://i1.ytimg.com/vi/wviHkzk0AkY/hqdefault.jpg</a>&quot;, 
+    &quot;duration&quot;: null, 
+    &quot;video_ogv_length&quot;: null, 
+    &quot;video_ogv_url&quot;: null, 
+    &quot;video_ogv_download_only&quot;: false, 
+    &quot;video_mp4_length&quot;: null, 
+    &quot;video_mp4_url&quot;: null, 
+    &quot;video_mp4_download_only&quot;: false, 
+    &quot;video_webm_length&quot;: null, 
+    &quot;video_webm_url&quot;: null, 
+    &quot;video_webm_download_only&quot;: false, 
+    &quot;video_flv_length&quot;: null, 
+    &quot;video_flv_url&quot;: null, 
+    &quot;video_flv_download_only&quot;: false, 
+    &quot;source_url&quot;: &quot;<a href="http://www.youtube.com/watch?v=wviHkzk0AkY" rel="nofollow">http://www.youtube.com/watch?v=wviHkzk0AkY</a>&quot;, 
+    &quot;whiteboard&quot;: &quot;&quot;, 
+    &quot;recorded&quot;: &quot;2014-07-09&quot;, 
+    &quot;added&quot;: &quot;2014-07-09T19:24:53.236&quot;, 
+    &quot;updated&quot;: &quot;2014-07-09T19:24:53.236&quot;
+}</pre>
+            </div>
+        </div>
+
+            
+
+                
+
+                
+            
+
+        </div>
+        <!-- END content-main -->
+
+    </div>
+    <!-- END Content -->
+
+        <div id="push"></div>
+
+    </div>
+
+    </div><!-- ./wrapper -->
+
+    
+    
+
+    
+    <script src="/static/rest_framework/js/jquery-1.8.1-min.js"></script>
+    <script src="/static/rest_framework/js/bootstrap.min.js"></script>
+    <script src="/static/rest_framework/js/prettify-min.js"></script>
+    <script src="/static/rest_framework/js/default.js"></script>
+    
+  </body>
+
+<!-- Mirrored from pyvideo.org/api/v2/video/2724 by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 07 Jan 2016 03:46:15 GMT -->
+</html>

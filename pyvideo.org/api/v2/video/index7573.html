@@ -1,0 +1,904 @@
+
+
+<!DOCTYPE html>
+<html>
+    
+<!-- Mirrored from pyvideo.org/api/v2/video/?page=37&format=api by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 07 Jan 2016 03:48:07 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+    
+
+        
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+        <meta name="robots" content="NONE,NOARCHIVE" />
+        
+
+        <title>Django REST framework</title>
+
+        
+        
+            <link rel="stylesheet" type="text/css" href="/static/rest_framework/css/bootstrap.min.css"/>
+            <link rel="stylesheet" type="text/css" href="/static/rest_framework/css/bootstrap-tweaks.css"/>
+        
+        <link rel="stylesheet" type="text/css" href="/static/rest_framework/css/prettify.css"/>
+        <link rel="stylesheet" type="text/css" href="/static/rest_framework/css/default.css"/>
+        
+
+    
+    </head>
+
+  <body class=" container">
+
+    <div class="wrapper">
+
+    
+    <div class="navbar navbar-inverse">
+        <div class="navbar-inner">
+            <div class="container-fluid">
+                <span href="/">
+                    <a class='brand' rel="nofollow" href='http://www.django-rest-framework.org'>Django REST framework <span class="version">2.3.14</span></a>
+                </span>
+                <ul class="nav pull-right">
+                    
+                        
+                            <li></li>
+                        
+                    
+                </ul>
+            </div>
+        </div>
+    </div>
+    
+
+    
+    <ul class="breadcrumb">
+        
+            <li>
+                <a href="/api/v2/video/" class="active">Video List Create Api</a> 
+            </li>
+        
+    </ul>
+    
+
+    <!-- Content -->
+    <div id="content">
+
+        
+            <form id="get-form" class="pull-right">
+                <fieldset>
+                    <div class="btn-group format-selection">
+                        <a class="btn btn-primary js-tooltip" href='/api/v2/video/?page=37&amp;format=api' rel="nofollow" title="Make a GET request on the Video List Create Api resource">GET</a>
+
+                        <button class="btn btn-primary dropdown-toggle js-tooltip" data-toggle="dropdown" title="Specify a format for the GET request">
+                            <span class="caret"></span>
+                        </button>
+                        <ul class="dropdown-menu">
+                            
+                                <li>
+                                    <a class="js-tooltip format-option" href='/api/v2/video/?page=37&format=json' rel="nofollow" title="Make a GET request on the Video List Create Api resource with the format set to `json`">json</a>
+                                </li>
+                            
+                                <li>
+                                    <a class="js-tooltip format-option" href='/api/v2/video/?page=37&format=api' rel="nofollow" title="Make a GET request on the Video List Create Api resource with the format set to `api`">api</a>
+                                </li>
+                            
+                        </ul>
+                    </div>
+
+                </fieldset>
+            </form>
+        
+
+        
+            <form class="button-form" action="/api/v2/video/?page=37&amp;format=api" method="POST" class="pull-right">
+                <input type='hidden' name='csrfmiddlewaretoken' value='pT8iI6zhtQdsGFmu4tryYgFrUlipl2B3' />
+                <input type="hidden" name="_method" value="OPTIONS" />
+                <button class="btn btn-primary js-tooltip" title="Make an OPTIONS request on the Video List Create Api resource">OPTIONS</button>
+            </form>
+        
+
+        
+
+        <div class="content-main">
+            <div class="page-header"><h1>Video List Create Api</h1></div>
+            
+            
+            
+            <div class="request-info" style="clear: both" >
+                <pre class="prettyprint"><b>GET</b> /api/v2/video/?page=37&amp;format=api</pre>
+            </div>
+            <div class="response-info">
+                <pre class="prettyprint"><div class="meta nocode"><b>HTTP 200 OK</b>
+<b>Content-Type:</b> <span class="lit">application/json</span>
+<b>Vary:</b> <span class="lit">Accept</span>
+<b>Allow:</b> <span class="lit">GET, POST, HEAD, OPTIONS</span>
+
+</div>{
+    &quot;count&quot;: 3439, 
+    &quot;next&quot;: &quot;<a href="http://pyvideo.org/api/v2/video/?page=38&amp;format=api" rel="nofollow">http://pyvideo.org/api/v2/video/?page=38&amp;format=api</a>&quot;, 
+    &quot;previous&quot;: &quot;<a href="http://pyvideo.org/api/v2/video/?page=36&amp;format=api" rel="nofollow">http://pyvideo.org/api/v2/video/?page=36&amp;format=api</a>&quot;, 
+    &quot;results&quot;: [
+        {
+            &quot;category&quot;: &quot;PyCon Italia 2015&quot;, 
+            &quot;language&quot;: &quot;Italian&quot;, 
+            &quot;slug&quot;: &quot;automatizzare-i-deploy-di-applicazioni-django-con&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Maurizio Branca&quot;
+            ], 
+            &quot;tags&quot;: [], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 3588, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Automatizzare i deploy di applicazioni Django con Ansible&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;Il talk descrive come con Ansible sia possibile effettuare deploy frequenti ed affidabili di applicazioni web basate su Django.\nIl deploy di un applicazione web richiede di effettuare una serie di operazioni nella corretta sequenza. Effettuando le operazioni in modo manuale la probabilit\u00e0 di commettere errori aumenta all\u2019aumentare di progetti portati avanti in parallelo o al verificarsi di situazioni di pressione e stanchezza.\nAnche in assenza di errori ci si pu\u00f2 trovare a spendere il proprio tempo poco efficacemente ed in modo tedioso, ripetetendo pi\u00f9 e pi\u00f9 volte sempre delle semplici operazioni manuali.\nViene descritto cosa sia Ansible, quali sono i suoi elementi/componenti costitutivi (Playbook, Play, Inventory, Task, Module). Viene sottolineata la necessit\u00e0 di uno standard di progetto e di un workflow uniforme per operarvi in modo efficace. Per rendere accessibili le operazioni di deploy anche ai membri non specializzati del team viene proposto l\u2019utilizzo di un chat bot.\nL\u2019uso di Ansible permette di automatizzare operazioni altrimenti manuali, ripetitive ed error prone. In particolare il processo di deploy rimane ben descritto e sempre aggionato come Play di Ansible e non affidato alla mente di operatori o documentazione a rischio obsolescenza.\n&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;&quot;, 
+            &quot;embed&quot;: &quot;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="https://i.ytimg.com/vi/yRaL3IkBwNs/maxresdefault.jpg" rel="nofollow">https://i.ytimg.com/vi/yRaL3IkBwNs/maxresdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: 3400, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: null, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="https://www.youtube.com/watch?v=yRaL3IkBwNs" rel="nofollow">https://www.youtube.com/watch?v=yRaL3IkBwNs</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2015-05-30&quot;, 
+            &quot;added&quot;: &quot;2015-06-14T17:02:23.019&quot;, 
+            &quot;updated&quot;: &quot;2015-06-14T17:02:23.019&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyCon Italia 2015&quot;, 
+            &quot;language&quot;: &quot;Italian&quot;, 
+            &quot;slug&quot;: &quot;baking-beaker-perche-sessioni-e-caching-possono&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Alessandro Molina&quot;
+            ], 
+            &quot;tags&quot;: [], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 3579, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Baking Beaker perche\u0300 sessioni e caching possono ancora convivere&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;Beaker \u00e8 probabilmente la pi\u00f9 diffusa soluzione cross-framework per la gestione delle sessioni e della cache nell\u2019ambito web.\nNato nel 2005 dagli autori di SQLAlchemy e Pylons \u00e8 stato sempre mantenuto al fianco del framework Pylons. Dopo la fine di Pylons a favore di Pyramid il suo futuro \u00e8 diventato incerto e, per quanto sia ancora oggi molto usato al fianco di Bottle, Flask, TurboGears e spesso anche Pyramid, alcuni dei limiti dovuti all\u2019incompatibilit\u00e0 con Python3 ed alcune scelte architetturali hanno portato gli utenti ad avvicinarsi a soluzioni alternative.\nNel 2015 la manutenzione di Beaker \u00e8 stata passata da Ben Bangert al team di TurboGears che ha riscritto tutta la compatibilit\u00e0 con Python3 rendendo Beaker un progetto nativo Python3 e risolto alcuni dei bugs di pi\u00f9 lunga data.\nIl talk mira a mostrare l\u2019esperienza e le problematiche venute alla luce nei quasi 10 anni di vita del framework ed illustrare come si intende ridare forza al progetto risolvendo alcuni dei limiti architetturali pricinpali e quali sono state le scelte \u201csbagliate\u201d.\nLo scopo \u00e8 diffondere quali possono essere le problematiche e le false supposizioni che esistono nell\u2019ambito del caching e della gestione delle sessioni facendo tesoro delle esperienze fatte dal progetto Beaker nel corso della sua vita.\n&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;&quot;, 
+            &quot;embed&quot;: &quot;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="https://i.ytimg.com/vi/xi2y-4Uxwek/maxresdefault.jpg" rel="nofollow">https://i.ytimg.com/vi/xi2y-4Uxwek/maxresdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: 2131, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: null, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="https://www.youtube.com/watch?v=xi2y-4Uxwek" rel="nofollow">https://www.youtube.com/watch?v=xi2y-4Uxwek</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2015-05-30&quot;, 
+            &quot;added&quot;: &quot;2015-06-14T17:02:22.144&quot;, 
+            &quot;updated&quot;: &quot;2015-06-14T17:02:22.144&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyCon Italia 2015&quot;, 
+            &quot;language&quot;: &quot;Italian&quot;, 
+            &quot;slug&quot;: &quot;bokeh-e-qui-visualizzazioni-interattive-per-pyth&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Fabio Pliger&quot;
+            ], 
+            &quot;tags&quot;: [], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 3576, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Bokeh \u00e8 qui! Visualizzazioni interattive per Python (e amici)&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;Bokeh e\u2019 un [nuovo] framework grafico per la visualizzazione  di grandi dataset [Python (e non solo!)]  con supporto nativo per le pi\u00fa recenti tecnologie web.  Lo scopo di questo ampio ed ambizioso progetto e\u2019 di fornire uno strumento elegante e sintetico per la costruzione di infografiche, charts e interfacce interattive HTML nello stile di Protovis/D3 e allo tempo fornendo iterattivita\u2019 di altissime prestazioni su enormi quantit\u00e0 di dati. Il progetto, arrivando alla versione 0.8, ha raggiunto livelli di funzionalit\u00e0 e stabilit\u00e0 tali da destare enorme interesse e l\u2019utilizzo non solo nella communit\u00e0 scientifica, tanto da essere scelto da Facebook come backend per la creazione di plot e immagini su iTorch.\nIl talk presenter\u00e0 la particolare architettura di Bokeh, sulle varie feature e API, concludendo, infine, con una serie di esempi pratici di applicazioni e piccoli script cercando di esporre il pi\u00f9 possibile le sue particolarit\u00e0 e potenzialit\u00e0.\n&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;&quot;, 
+            &quot;embed&quot;: &quot;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="https://i.ytimg.com/vi/z1DWou61a-M/maxresdefault.jpg" rel="nofollow">https://i.ytimg.com/vi/z1DWou61a-M/maxresdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: 3463, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: null, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="https://www.youtube.com/watch?v=z1DWou61a-M" rel="nofollow">https://www.youtube.com/watch?v=z1DWou61a-M</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2015-05-30&quot;, 
+            &quot;added&quot;: &quot;2015-06-14T17:02:21.742&quot;, 
+            &quot;updated&quot;: &quot;2015-06-14T17:02:21.742&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;DePy 2015&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;bringing-research-to-real-life&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Safia Abdalla&quot;
+            ], 
+            &quot;tags&quot;: [], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 3552, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Bringing Research to Real Life&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;Machine learning is a fascinating field with numerous applications in data science. New research is always emerging in the field of machine learning but it can take years for this research to be converted into usable software libraries. In this talk, I&#39;ll be providing a technique for reading (actually reading) research papers and using the powerful syntax and data-focused libraries of Python to write up quick and dirty implementations of techniques written out in research papers. This talk is relevant to any practical professional who occasionally strays into the field of academics to discover new techniques that are applicable to the data problems that they are attempting to solve.&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;&quot;, 
+            &quot;embed&quot;: &quot;&lt;object width=\&quot;640\&quot; height=\&quot;390\&quot;&gt;&lt;param name=\&quot;movie\&quot; value=\&quot;http://youtube.com/v/UKY3scPIMd8?version=3&amp;amp;hl=en_US\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowFullScreen\&quot; value=\&quot;true\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowscriptaccess\&quot; value=\&quot;always\&quot;&gt;&lt;/param&gt;&lt;embed src=\&quot;http://youtube.com/v/UKY3scPIMd8?version=3&amp;amp;hl=en_US\&quot; type=\&quot;application/x-shockwave-flash\&quot; width=\&quot;640\&quot; height=\&quot;390\&quot; allowscriptaccess=\&quot;always\&quot; allowfullscreen=\&quot;true\&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://i.ytimg.com/vi/UKY3scPIMd8/hqdefault.jpg" rel="nofollow">http://i.ytimg.com/vi/UKY3scPIMd8/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: 775, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: &quot;<a href="http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/depy-2015/3552_Bringing_Research_to_Real_Life.mp4" rel="nofollow">http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/depy-2015/3552_Bringing_Research_to_Real_Life.mp4</a>&quot;, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="http://youtu.be/UfH4H-BFcL8" rel="nofollow">http://youtu.be/UfH4H-BFcL8</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2015-05-30&quot;, 
+            &quot;added&quot;: &quot;2015-05-27T13:53:31.671&quot;, 
+            &quot;updated&quot;: &quot;2015-05-31T13:00:11.882&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyCon Italia 2015&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;bulding-a-social-network-analysis&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Luca Mearelli&quot;
+            ], 
+            &quot;tags&quot;: [], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 3575, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Bulding a social network analysis&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;Every conversation has a structure. The network formed by the persons who interact in the conversations inside an online community can thus be analysed with the tools of the network science to understand their characteristics. Enriching online conversations with social network analysis we hope to be able to give community moderators tools that could help them to build better communities and guide the collective intelligence processes inside them. The great vision in this is to be able to contribute to building the engines that could help us to build effective platforms for participatory democracy ( a better overview on these theme is explained by my colleague Alberto Cottica in this TEDx talk: <a href="https://www.youtube.com/watch?v=KKrM2c-ww_k" rel="nofollow">https://www.youtube.com/watch?v=KKrM2c-ww_k</a>  )\r\n\r\nEdgesense is our attempt at making tools for social network analysis accessible to all those that could gain the most from them but maybe did not yet know their potential. Edgesense is built around a set of scripts that process the community data and extract the most relevant network metrics and the network structure and a dashboard that is able to present them giving a clear view of them. Through the dashboard community managers can for the first time see in a glimpse who is talking to who, which users are central to the community and those who are on the periphery. They can see which sub-communities are developing inside the larger online conversation and who is acting as a bridge between them.This is very useful to guide the conversation or to determine which users have the most authority (through measures of centrality or \u201cpagerank\&quot;)\r\n\r\nPython has been central to the development of Edgesense it has made possible to create a processing pipeline that takes the  data from various sources (Drupal community sites, twitter conversations, mailing lists data) and builds the network of interactions among the users. Python has also enabled us to choose from a very rich library of social network analysis algorithms to calculate the metrics that we are presenting in the dashboard to help understand the social interactions.\r\n\r\nDuring this talk we\u2019ll look at which choices we were required when building a data processing application that takes real-life data, extracts useful informations and prepares t for visualisation. We\u2019ll see a primer on the network science required to interpret the structure of the users community and how the algorithms and the metrics were chosen. We\u2019ll also present the challenges that we are facing to extend Edgesense to ever larger communities.\r\n\r\nThe presentation will be useful to both developers interested in using python to do social network analysis and to those already skilled in it which could find inspiration in the problems we are trying to solve with Edgesense. \r\n\r\nEdgesense has been developed by Wikitalia within the CATALYST EC project on collective intelligence and it is available as open source software: <a href="https://github.com/Wikitalia/edgesense" rel="nofollow">https://github.com/Wikitalia/edgesense</a> (an example of a live dashboard is available here: <a href="http://matera2019.edgesense.spazidigitali.com/" rel="nofollow">http://matera2019.edgesense.spazidigitali.com/</a> )\r\n&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;&quot;, 
+            &quot;embed&quot;: &quot;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="https://i.ytimg.com/vi/FQfFJ19g20I/maxresdefault.jpg" rel="nofollow">https://i.ytimg.com/vi/FQfFJ19g20I/maxresdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: 2536, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: &quot;&quot;, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: &quot;&quot;, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: &quot;&quot;, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: &quot;&quot;, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="https://www.youtube.com/watch?v=FQfFJ19g20I" rel="nofollow">https://www.youtube.com/watch?v=FQfFJ19g20I</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2015-05-30&quot;, 
+            &quot;added&quot;: &quot;2015-06-14T17:02:21.657&quot;, 
+            &quot;updated&quot;: &quot;2015-06-14T17:33:26.293&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;DePy 2015&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;classification-using-pandas-and-scikit-learn&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Skipper Seabold&quot;
+            ], 
+            &quot;tags&quot;: [], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 3548, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Classification using Pandas and Scikit-Learn&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;This will be a tutorial-style talk demonstrating how to use pandas and scikit-learn to do classification tasks. We will do some data munging and visualization using pandas and matplotlib. Then we will introduce some of the different classifiers in scikit-learn and show how to include them into a classification pipeline to produce the best predictive model. Interactive IPython/Jupyter notebooks will be provided.&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;&quot;, 
+            &quot;embed&quot;: &quot;&lt;object width=\&quot;640\&quot; height=\&quot;390\&quot;&gt;&lt;param name=\&quot;movie\&quot; value=\&quot;http://youtube.com/v/UKY3scPIMd8?version=3&amp;amp;hl=en_US\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowFullScreen\&quot; value=\&quot;true\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowscriptaccess\&quot; value=\&quot;always\&quot;&gt;&lt;/param&gt;&lt;embed src=\&quot;http://youtube.com/v/UKY3scPIMd8?version=3&amp;amp;hl=en_US\&quot; type=\&quot;application/x-shockwave-flash\&quot; width=\&quot;640\&quot; height=\&quot;390\&quot; allowscriptaccess=\&quot;always\&quot; allowfullscreen=\&quot;true\&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://i.ytimg.com/vi/UKY3scPIMd8/hqdefault.jpg" rel="nofollow">http://i.ytimg.com/vi/UKY3scPIMd8/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: 2701, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: &quot;<a href="http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/depy-2015/3548_Classification_using_Pandas_and_ScikitLearn.mp4" rel="nofollow">http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/depy-2015/3548_Classification_using_Pandas_and_ScikitLearn.mp4</a>&quot;, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="http://youtu.be/7gAZoK6kGhM" rel="nofollow">http://youtu.be/7gAZoK6kGhM</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2015-05-30&quot;, 
+            &quot;added&quot;: &quot;2015-05-27T13:53:27.045&quot;, 
+            &quot;updated&quot;: &quot;2015-06-01T00:48:50.340&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;DePy 2015&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;document-classification-with-machine-learning&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Jordan \&quot;Vladimir&#39;&#39; Myers&quot;
+            ], 
+            &quot;tags&quot;: [], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 3555, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Document Classification with Machine Learning&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;The presentation will discuss how Python was used to implement a machine-learning algorithm that accepts a training set of documents and then classifies documents based on word vector similarity. This project inspired by faculty at DePaul is now a fully-fledged start-up.&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;&quot;, 
+            &quot;embed&quot;: &quot;&lt;object width=\&quot;640\&quot; height=\&quot;390\&quot;&gt;&lt;param name=\&quot;movie\&quot; value=\&quot;http://youtube.com/v/UKY3scPIMd8?version=3&amp;amp;hl=en_US\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowFullScreen\&quot; value=\&quot;true\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowscriptaccess\&quot; value=\&quot;always\&quot;&gt;&lt;/param&gt;&lt;embed src=\&quot;http://youtube.com/v/UKY3scPIMd8?version=3&amp;amp;hl=en_US\&quot; type=\&quot;application/x-shockwave-flash\&quot; width=\&quot;640\&quot; height=\&quot;390\&quot; allowscriptaccess=\&quot;always\&quot; allowfullscreen=\&quot;true\&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://i.ytimg.com/vi/UKY3scPIMd8/hqdefault.jpg" rel="nofollow">http://i.ytimg.com/vi/UKY3scPIMd8/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: 602, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: &quot;<a href="http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/depy-2015/3555_Document_Classification_with_Machine_Learning.mp4" rel="nofollow">http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/depy-2015/3555_Document_Classification_with_Machine_Learning.mp4</a>&quot;, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="http://youtu.be/cKWI18qNxTc" rel="nofollow">http://youtu.be/cKWI18qNxTc</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2015-05-30&quot;, 
+            &quot;added&quot;: &quot;2015-05-27T13:53:35.092&quot;, 
+            &quot;updated&quot;: &quot;2015-06-02T08:38:51.937&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyCon Italia 2015&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;dont-let-your-passion-kill-your-motivation&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Flavio Percoco&quot;
+            ], 
+            &quot;tags&quot;: [], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 3584, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Don&#39;t let your passion kill your motivation&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;If I would ask you to sit down and do some work right now (assuming you\u2019re not doing it), how would you feel about it? Would you be motivated enough to take off your laptop and start coding? Or would you rather do something else?\nProgramming is more about other things than just coding. Great books - like The Passionate Programmer by Chad Fowler - have eloquently explained the different perspectives there are about what programming is and how you can take the most out of your skills. Nonetheless, programming is even more than that. Programming is more than just producing results and it\u2019s definitely more than just being \u201csmart\u201d. In fact, programming is probably more about how to keep programming than actually doing it. Likely, one of the things we, developers, struggle the most with is motivation.\nTherefore, join me in this talk while I share some of my motivational ups and downs and walk you through some of the things that have worked for me along the way.\n&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;&quot;, 
+            &quot;embed&quot;: &quot;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="https://i.ytimg.com/vi/8K6WiIsRk20/hqdefault.jpg" rel="nofollow">https://i.ytimg.com/vi/8K6WiIsRk20/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: 2482, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: null, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="https://www.youtube.com/watch?v=8K6WiIsRk20" rel="nofollow">https://www.youtube.com/watch?v=8K6WiIsRk20</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2015-05-30&quot;, 
+            &quot;added&quot;: &quot;2015-06-14T17:02:22.618&quot;, 
+            &quot;updated&quot;: &quot;2015-06-14T17:02:22.618&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;DePy 2015&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;eight-years-of-web2py&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Massimo Di Pierro&quot;
+            ], 
+            &quot;tags&quot;: [], 
+            &quot;related_urls&quot;: [
+                {
+                    &quot;url&quot;: &quot;<a href="https://github.com/mdipierro/depy2015-cats" rel="nofollow">https://github.com/mdipierro/depy2015-cats</a>&quot;, 
+                    &quot;description&quot;: &quot;&quot;
+                }
+            ], 
+            &quot;id&quot;: 3547, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Eight years of web2py&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;This is a compressed tutorial about web2py taking an historical prospective, going from its older features to some of the most recent ones. No previous experience required.&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;&quot;, 
+            &quot;embed&quot;: &quot;&lt;object width=\&quot;640\&quot; height=\&quot;390\&quot;&gt;&lt;param name=\&quot;movie\&quot; value=\&quot;http://youtube.com/v/UKY3scPIMd8?version=3&amp;amp;hl=en_US\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowFullScreen\&quot; value=\&quot;true\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowscriptaccess\&quot; value=\&quot;always\&quot;&gt;&lt;/param&gt;&lt;embed src=\&quot;http://youtube.com/v/UKY3scPIMd8?version=3&amp;amp;hl=en_US\&quot; type=\&quot;application/x-shockwave-flash\&quot; width=\&quot;640\&quot; height=\&quot;390\&quot; allowscriptaccess=\&quot;always\&quot; allowfullscreen=\&quot;true\&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://i.ytimg.com/vi/UKY3scPIMd8/hqdefault.jpg" rel="nofollow">http://i.ytimg.com/vi/UKY3scPIMd8/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: 2886, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: &quot;&quot;, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: &quot;<a href="http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/depy-2015/3547_Eight_years_of_web2py.mp4" rel="nofollow">http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/depy-2015/3547_Eight_years_of_web2py.mp4</a>&quot;, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: &quot;&quot;, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: &quot;&quot;, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="http://youtu.be/FaaltEB_v0s" rel="nofollow">http://youtu.be/FaaltEB_v0s</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2015-05-30&quot;, 
+            &quot;added&quot;: &quot;2015-05-27T13:53:25.938&quot;, 
+            &quot;updated&quot;: &quot;2015-06-01T13:25:05.756&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyCon Italia 2015&quot;, 
+            &quot;language&quot;: &quot;Italian&quot;, 
+            &quot;slug&quot;: &quot;es6-the-python-parts&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Stefano Bossi&quot;
+            ], 
+            &quot;tags&quot;: [], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 3581, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;ES6 the Python parts&quot;, 
+            &quot;summary&quot;: &quot;Javascript sta cambiando molto negli ultimi anni e non \u00e8 pi\u00f9 il linguanggio realizzato in 2 settimane da  Brendan Eich. Tra list comprehension, iterators e generators sembra somigliare sempre di pi\u00f9 al nostro amato Python.&quot;, 
+            &quot;description&quot;: &quot;&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;&quot;, 
+            &quot;embed&quot;: &quot;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="https://i.ytimg.com/vi/Xr8XNcS3pU4/hqdefault.jpg" rel="nofollow">https://i.ytimg.com/vi/Xr8XNcS3pU4/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: 1479, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: null, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="https://www.youtube.com/watch?v=Xr8XNcS3pU4" rel="nofollow">https://www.youtube.com/watch?v=Xr8XNcS3pU4</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2015-05-30&quot;, 
+            &quot;added&quot;: &quot;2015-06-14T17:02:22.338&quot;, 
+            &quot;updated&quot;: &quot;2015-06-14T17:02:22.338&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;DePy 2015&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;extending-versatility-of-python-to-nonprogrammers&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Armand Ruiz&quot;, 
+                &quot;Mikhail Lakirovich&quot;
+            ], 
+            &quot;tags&quot;: [], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 3554, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Extending versatility of Python to nonprogrammers&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;The explosive availability of data is creating unprecedented opportunities in the analytics space. However, not everyone performing analytics is a data scientist and has the appropriate technical expertise for creating, debugging and running code.  This so-called business analyst brings a broad understanding of data analysis and the business problem at hand and does best with user-friendly tools.  What happens, however, if the business user needs to run a non-standard or unique analysis that is not available natively in their analytics software?  Join our session to learn how python code can be integrated with IBM SPSS and how business users can employ the versatility and power of python without the need to run code.&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;&quot;, 
+            &quot;embed&quot;: &quot;&lt;object width=\&quot;640\&quot; height=\&quot;390\&quot;&gt;&lt;param name=\&quot;movie\&quot; value=\&quot;http://youtube.com/v/UKY3scPIMd8?version=3&amp;amp;hl=en_US\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowFullScreen\&quot; value=\&quot;true\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowscriptaccess\&quot; value=\&quot;always\&quot;&gt;&lt;/param&gt;&lt;embed src=\&quot;http://youtube.com/v/UKY3scPIMd8?version=3&amp;amp;hl=en_US\&quot; type=\&quot;application/x-shockwave-flash\&quot; width=\&quot;640\&quot; height=\&quot;390\&quot; allowscriptaccess=\&quot;always\&quot; allowfullscreen=\&quot;true\&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://i.ytimg.com/vi/UKY3scPIMd8/hqdefault.jpg" rel="nofollow">http://i.ytimg.com/vi/UKY3scPIMd8/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: 1282, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: &quot;<a href="http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/depy-2015/3554_Extending_versatility_of_Python_to_nonprogrammers.mp4" rel="nofollow">http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/depy-2015/3554_Extending_versatility_of_Python_to_nonprogrammers.mp4</a>&quot;, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="http://youtu.be/Fuk2Lx5Bjq0" rel="nofollow">http://youtu.be/Fuk2Lx5Bjq0</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2015-05-30&quot;, 
+            &quot;added&quot;: &quot;2015-05-27T13:53:33.944&quot;, 
+            &quot;updated&quot;: &quot;2015-06-11T02:57:13.178&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;DePy 2015&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;getting-started-with-cassandra-and-python&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Amber Doctor&quot;, 
+                &quot;Philip Doctor&quot;
+            ], 
+            &quot;tags&quot;: [], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 3549, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Getting Started with Cassandra and Python&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;This talk will covers why to use Cassandra, basic Cassandra architecture, setting up Cassandra, and basic crud operations with a python web framework.  The Apache Cassandra database is the right choice when you need scalability and high availability without compromising performance. Linear scalability and proven fault-tolerance on commodity hardware or cloud infrastructure make it the perfect platform for mission-critical data. Cassandra&#39;s support for replicating across multiple datacenters is best-in-class, providing lower latency for your users and the peace of mind of knowing that you can survive regional outages.  Cassandra&#39;s data model offers the convenience of column indexes with the performance of log-structured updates, strong support for denormalization and materialized views, and powerful built-in caching.&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;&quot;, 
+            &quot;embed&quot;: &quot;&lt;object width=\&quot;640\&quot; height=\&quot;390\&quot;&gt;&lt;param name=\&quot;movie\&quot; value=\&quot;http://youtube.com/v/UKY3scPIMd8?version=3&amp;amp;hl=en_US\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowFullScreen\&quot; value=\&quot;true\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowscriptaccess\&quot; value=\&quot;always\&quot;&gt;&lt;/param&gt;&lt;embed src=\&quot;http://youtube.com/v/UKY3scPIMd8?version=3&amp;amp;hl=en_US\&quot; type=\&quot;application/x-shockwave-flash\&quot; width=\&quot;640\&quot; height=\&quot;390\&quot; allowscriptaccess=\&quot;always\&quot; allowfullscreen=\&quot;true\&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://i.ytimg.com/vi/UKY3scPIMd8/hqdefault.jpg" rel="nofollow">http://i.ytimg.com/vi/UKY3scPIMd8/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: 2913, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: &quot;<a href="http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/depy-2015/3549_getting-started-cassandra-and-python.mp4" rel="nofollow">http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/depy-2015/3549_getting-started-cassandra-and-python.mp4</a>&quot;, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="http://youtu.be/-kzbMbFzQZw" rel="nofollow">http://youtu.be/-kzbMbFzQZw</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2015-05-30&quot;, 
+            &quot;added&quot;: &quot;2015-05-27T13:53:28.199&quot;, 
+            &quot;updated&quot;: &quot;2015-06-02T10:31:47.562&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyCon Italia 2015&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;healing-a-shell-shocked-infrastructure-in-a-coup&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Michele Finelli&quot;
+            ], 
+            &quot;tags&quot;: [], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 3577, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Healing a shell-shocked infrastructure, in a couple of hours, from your bed.&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;In September 2014 a very severe vulnerabilty in bash was discovered, affecting any Linux system on Earth. For Internet-facing services it was necessary to patch the servers as soon as possible: the time was running low and our hero (me) was lying in a bad, due to a painful back-ache \u2026 a disaster was looming \u2026\nThis is an account of how everything ended well, due to an appropriate management of the server infrastructure. A lot of procedures had already been automated with Fabric, and it was at the end very easy - even if quite stressful - to update everything in a couple of hours (~150 hosts in various configurations / locations).  The talk is a real case, and its objective is to help people understanding the importance of proper server automation and management. Basic Python knowledge will be enough to understand the presentation, all the relevant information about Fabric will be explained during the talk.\n&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;&quot;, 
+            &quot;embed&quot;: &quot;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="https://i.ytimg.com/vi/GV8_qL-akOI/maxresdefault.jpg" rel="nofollow">https://i.ytimg.com/vi/GV8_qL-akOI/maxresdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: 1800, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: null, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="https://www.youtube.com/watch?v=GV8_qL-akOI" rel="nofollow">https://www.youtube.com/watch?v=GV8_qL-akOI</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2015-05-30&quot;, 
+            &quot;added&quot;: &quot;2015-06-14T17:02:21.934&quot;, 
+            &quot;updated&quot;: &quot;2015-06-14T17:02:21.934&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyCon Italia 2015&quot;, 
+            &quot;language&quot;: &quot;Italian&quot;, 
+            &quot;slug&quot;: &quot;hstore-json-e-jsonb-dati-non-strutturati-ad-alter&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Marco Nenciarini&quot;
+            ], 
+            &quot;tags&quot;: [], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 3580, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;HSTORE JSON e JSONB dati non strutturati ad alter performance&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;Nelle ultime release di PostgreSQL \u00e8 stato fatto un enorme lavoro sui\ndati non strutturati, culminato con l\u2019aggiunta del tipo JSONB. Insieme a\nJSON, HSTORE e array fornisce una potenza mai vista per le proprie\napplicazione web e non solo. In questo talk si passeranno in rassegna\nalcuni dei possibili casi d\u2019uso e si illustreranno i vantaggi delle\nvarie possibilit\u00e0.\n&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;&quot;, 
+            &quot;embed&quot;: &quot;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="https://i.ytimg.com/vi/FkNzGqLodWU/maxresdefault.jpg" rel="nofollow">https://i.ytimg.com/vi/FkNzGqLodWU/maxresdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: 2512, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: null, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="https://www.youtube.com/watch?v=FkNzGqLodWU" rel="nofollow">https://www.youtube.com/watch?v=FkNzGqLodWU</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2015-05-30&quot;, 
+            &quot;added&quot;: &quot;2015-06-14T17:02:22.241&quot;, 
+            &quot;updated&quot;: &quot;2015-06-14T17:02:22.241&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyCon Italia 2015&quot;, 
+            &quot;language&quot;: &quot;Italian&quot;, 
+            &quot;slug&quot;: &quot;importazione-dati-in-django&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Gianluca Esposito&quot;
+            ], 
+            &quot;tags&quot;: [], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 3587, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Importazione dati in Django&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;L\u2019importazione dati da una fonte esterna, in un Database gi\u00e0 esistente, \u00e8 un task che nasconde numerose insidie.\nGeneralmente, i dati da importare risiedono in un file csv, o comunque possono essere ricondotti a questo formato.\nEsistono numerose app django che si occupano di importazione dati da csv, ma purtroppo non esiste ancora un prodotto che sia in grado di trattare la grande variet\u00e0 di scenari possibili.\nil talk presenter\u00e0 scenari comuni di importazione dati, concentrandosi sui casi che si presentano pi\u00f9 di frequente e mostrer\u00e0 come possano essere risolti e schedulati, in maniera sufficientemente economica, utilizzando una app Django creata dall\u2019autore. \nVerranno anche parzialmente discussi casi di reingegnerizzazione di applicazioni esistenti con l\u2019importazione di dump di DB con uno Schema differente .\n&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;&quot;, 
+            &quot;embed&quot;: &quot;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="https://i.ytimg.com/vi/gj3un9L8cO8/maxresdefault.jpg" rel="nofollow">https://i.ytimg.com/vi/gj3un9L8cO8/maxresdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: 2350, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: null, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="https://www.youtube.com/watch?v=gj3un9L8cO8" rel="nofollow">https://www.youtube.com/watch?v=gj3un9L8cO8</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2015-05-30&quot;, 
+            &quot;added&quot;: &quot;2015-06-14T17:02:22.933&quot;, 
+            &quot;updated&quot;: &quot;2015-06-14T17:02:22.933&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;DePy 2015&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;jupyter-project&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Myles Gartland&quot;
+            ], 
+            &quot;tags&quot;: [], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 3542, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Jupyter Project: Interacting between Python and R Libraries for Data Mining&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;This talk will cover using ipython (Jupyter Project) for python and non-python projects, and how to interact Python and R through rmagic (rpy2) package. &quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;&quot;, 
+            &quot;embed&quot;: &quot;&lt;object width=\&quot;640\&quot; height=\&quot;390\&quot;&gt;&lt;param name=\&quot;movie\&quot; value=\&quot;http://youtube.com/v/UKY3scPIMd8?version=3&amp;amp;hl=en_US\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowFullScreen\&quot; value=\&quot;true\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowscriptaccess\&quot; value=\&quot;always\&quot;&gt;&lt;/param&gt;&lt;embed src=\&quot;http://youtube.com/v/UKY3scPIMd8?version=3&amp;amp;hl=en_US\&quot; type=\&quot;application/x-shockwave-flash\&quot; width=\&quot;640\&quot; height=\&quot;390\&quot; allowscriptaccess=\&quot;always\&quot; allowfullscreen=\&quot;true\&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://i.ytimg.com/vi/UKY3scPIMd8/hqdefault.jpg" rel="nofollow">http://i.ytimg.com/vi/UKY3scPIMd8/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: 1159, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: &quot;<a href="http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/depy-2015/3542_Jupyter_Project.mp4" rel="nofollow">http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/depy-2015/3542_Jupyter_Project.mp4</a>&quot;, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="http://youtu.be/StX_F_kq_C0" rel="nofollow">http://youtu.be/StX_F_kq_C0</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2015-05-30&quot;, 
+            &quot;added&quot;: &quot;2015-05-27T13:53:20.032&quot;, 
+            &quot;updated&quot;: &quot;2015-06-11T03:01:31.936&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;DePy 2015&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;learning-by-doing-predicting-west-nile-virus-in&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Jonathan Gemmell&quot;
+            ], 
+            &quot;tags&quot;: [], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 3553, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Learning by doing: Predicting West Nile Virus in Chicago.&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;Challenging students with interesting projects is an effective way to motivate them.  In this talk we will first discuss Kaggle, a platform for predictive modelling and analytics competitions on which companies and researchers post their data and statisticians and data miners from all over the world compete to produce the best models.  In particular, we will discuss the West Nile Virus Prediction challenge and how it is being used in the classroom.  Finally, this talk will get interested competitors started with some sample code.&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;&quot;, 
+            &quot;embed&quot;: &quot;&lt;object width=\&quot;640\&quot; height=\&quot;390\&quot;&gt;&lt;param name=\&quot;movie\&quot; value=\&quot;http://youtube.com/v/UKY3scPIMd8?version=3&amp;amp;hl=en_US\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowFullScreen\&quot; value=\&quot;true\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowscriptaccess\&quot; value=\&quot;always\&quot;&gt;&lt;/param&gt;&lt;embed src=\&quot;http://youtube.com/v/UKY3scPIMd8?version=3&amp;amp;hl=en_US\&quot; type=\&quot;application/x-shockwave-flash\&quot; width=\&quot;640\&quot; height=\&quot;390\&quot; allowscriptaccess=\&quot;always\&quot; allowfullscreen=\&quot;true\&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://i.ytimg.com/vi/UKY3scPIMd8/hqdefault.jpg" rel="nofollow">http://i.ytimg.com/vi/UKY3scPIMd8/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: 1879, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: &quot;<a href="http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/depy-2015/3553_Learning_by_doing_Predicting_West_Nile_Virus_in_Ch.mp4" rel="nofollow">http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/depy-2015/3553_Learning_by_doing_Predicting_West_Nile_Virus_in_Ch.mp4</a>&quot;, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="http://youtu.be/io5FEwNrwi0" rel="nofollow">http://youtu.be/io5FEwNrwi0</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2015-05-30&quot;, 
+            &quot;added&quot;: &quot;2015-05-27T13:53:32.749&quot;, 
+            &quot;updated&quot;: &quot;2015-06-11T02:57:11.004&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyCon Italia 2015&quot;, 
+            &quot;language&quot;: &quot;Italian&quot;, 
+            &quot;slug&quot;: &quot;lessons-learned-about-testing-and-tdd&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Marco Buttu&quot;
+            ], 
+            &quot;tags&quot;: [], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 3582, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Lessons learned about testing and TDD&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;Prima o poi, sperabilmente, il nostro software andr\u00e0 in produzione. Questo \u00e8 il momento in cui gli errori di giovent\u00f9 si pagano cari, senza alcuno sconto. Se non abbiamo scritto regression test, siamo veramente nei guai, guai seri! Se li abbiamo scritti, ma senza adottare il TDD, probabilmente aumenter\u00e0 il tempo necessario per il bug fix e la manutenzione, sia perch\u00e9 non abbiamo massimizzato la copertura del codice, sia perch\u00e9 i test risulteranno complessi e con duplicazioni.\nIn questo talk l\u2019autore parler\u00e0 dei suoi errori di giovent\u00f9, del perch\u00e9 ha adottato il TDD come disciplina per lo sviluppo e di quelle che considera le best practice. Verranno mostrati degli esempi di test di accettazione, funzionali, di integrazione e unitari. Esempi reali, ma semplici ed eloquenti, volti ad evidenziare non solo l\u2019utilit\u00e0 dei test, ma anche quella di scriverli prima del codice. Il contesto \u00e8 quello del Sardinia Radio Telescope.\nSlides: <a href="http://marco-buttu.github.io/pycon_testing/%5Cn" rel="nofollow">http://marco-buttu.github.io/pycon_testing/\n</a>&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;&quot;, 
+            &quot;embed&quot;: &quot;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="https://i.ytimg.com/vi/Ptu_d9-wDlU/maxresdefault.jpg" rel="nofollow">https://i.ytimg.com/vi/Ptu_d9-wDlU/maxresdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: 2441, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: null, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="https://www.youtube.com/watch?v=Ptu_d9-wDlU" rel="nofollow">https://www.youtube.com/watch?v=Ptu_d9-wDlU</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2015-05-30&quot;, 
+            &quot;added&quot;: &quot;2015-06-14T17:02:22.430&quot;, 
+            &quot;updated&quot;: &quot;2015-06-14T17:02:22.430&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyCon Italia 2015&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;machine-learning-recipes-for-large-scale-problems&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Valerio Maggio&quot;
+            ], 
+            &quot;tags&quot;: [], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 3573, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Machine Learning Recipes for Large Scale problems&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;Machine Learning focuses on constructing algorithms for making predictions from data. These algorithms usually require huge amount of data to analyse, thus demanding for high computational costs and requiring easily scalable solutions to be effectively applied. These factors favoured a more and more increasing interest in scaling up machine learning applications.\r\n\r\nScikit-learn is one of the most popular machine learning library in Python, providing implementations for several machine learning methods, along with datasets and (performance) evaluation algorithms.\r\n\r\nIn this talk some recipes to scale up machine learning algorithms with scikit-learn will be presented. The talk will go over several examples and case studies that will be presented in a problem-to-solution way in order to likely engage discussions during and after the talk.\r\n\r\nThe talk is intended for an intermediate level of audience. It requires (very) basic math skills and a good knowledge of the Python language. Good knowledge of the numpy and scipy packages is also a plus.\r\n&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;&quot;, 
+            &quot;embed&quot;: &quot;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="https://i.ytimg.com/vi/cWmgjXOesEc/maxresdefault.jpg" rel="nofollow">https://i.ytimg.com/vi/cWmgjXOesEc/maxresdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: 2185, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: &quot;&quot;, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: &quot;&quot;, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: &quot;&quot;, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: &quot;&quot;, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="https://www.youtube.com/watch?v=cWmgjXOesEc" rel="nofollow">https://www.youtube.com/watch?v=cWmgjXOesEc</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2015-05-30&quot;, 
+            &quot;added&quot;: &quot;2015-06-14T17:02:21.466&quot;, 
+            &quot;updated&quot;: &quot;2015-06-14T17:32:52.041&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyCon Italia 2015&quot;, 
+            &quot;language&quot;: &quot;Italian&quot;, 
+            &quot;slug&quot;: &quot;messing-up-with-pymongo-for-fun-and-profit&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Alessandro Molina&quot;
+            ], 
+            &quot;tags&quot;: [], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 3583, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Messing up with PyMongo for fun and profit&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;BSON (Binary JSON) \u00e8 il formato di rappresentazione dei dati usato internamente da MongoDB per la trasmissione e rappresentazione dei documenti salvati nel database.\nOgni volta che si implementano delle API HTTP basate su MongoDB il driver (pymongo) riceve i dati in formato BSON e li deve convertire in un formato comprensibile da Python. Successivamente questi dati dovranno essere re-encodati nel formato usato dalle nostre API, solitamente JSON.\nPer qualcosa come una API REST che solitamente \u00e8 solo un proxy ai dati effettivi, l\u2019encoding/decoding dance pu\u00f2 arrivare a pesare pesantemente sulle performance riducendo il throughput del nostro API Server.\nLa presentazione mira a mostrare come studiando il funzionamento interno di PyMONGO ed alterandone alcuni flussi si pu\u00f2 evitare in molti casi questo balletto e guadagnare sensibilmente in numero di richieste al secondo servite dal nostro ambiente.\n&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;&quot;, 
+            &quot;embed&quot;: &quot;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="https://i.ytimg.com/vi/CQfPq6wXyJI/maxresdefault.jpg" rel="nofollow">https://i.ytimg.com/vi/CQfPq6wXyJI/maxresdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: 1230, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: null, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="https://www.youtube.com/watch?v=CQfPq6wXyJI" rel="nofollow">https://www.youtube.com/watch?v=CQfPq6wXyJI</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2015-05-30&quot;, 
+            &quot;added&quot;: &quot;2015-06-14T17:02:22.525&quot;, 
+            &quot;updated&quot;: &quot;2015-06-14T17:02:22.525&quot;
+        }
+    ]
+}</pre>
+            </div>
+        </div>
+
+            
+
+                
+
+                
+            
+
+        </div>
+        <!-- END content-main -->
+
+    </div>
+    <!-- END Content -->
+
+        <div id="push"></div>
+
+    </div>
+
+    </div><!-- ./wrapper -->
+
+    
+    
+
+    
+    <script src="/static/rest_framework/js/jquery-1.8.1-min.js"></script>
+    <script src="/static/rest_framework/js/bootstrap.min.js"></script>
+    <script src="/static/rest_framework/js/prettify-min.js"></script>
+    <script src="/static/rest_framework/js/default.js"></script>
+    
+  </body>
+
+<!-- Mirrored from pyvideo.org/api/v2/video/?page=37&format=api by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 07 Jan 2016 03:48:07 GMT -->
+</html>

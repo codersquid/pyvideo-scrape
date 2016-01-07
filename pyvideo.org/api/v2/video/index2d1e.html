@@ -1,0 +1,928 @@
+
+
+<!DOCTYPE html>
+<html>
+    
+<!-- Mirrored from pyvideo.org/api/v2/video/?page=108 by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 07 Jan 2016 03:51:39 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+    
+
+        
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+        <meta name="robots" content="NONE,NOARCHIVE" />
+        
+
+        <title>Django REST framework</title>
+
+        
+        
+            <link rel="stylesheet" type="text/css" href="/static/rest_framework/css/bootstrap.min.css"/>
+            <link rel="stylesheet" type="text/css" href="/static/rest_framework/css/bootstrap-tweaks.css"/>
+        
+        <link rel="stylesheet" type="text/css" href="/static/rest_framework/css/prettify.css"/>
+        <link rel="stylesheet" type="text/css" href="/static/rest_framework/css/default.css"/>
+        
+
+    
+    </head>
+
+  <body class=" container">
+
+    <div class="wrapper">
+
+    
+    <div class="navbar navbar-inverse">
+        <div class="navbar-inner">
+            <div class="container-fluid">
+                <span href="/">
+                    <a class='brand' rel="nofollow" href='http://www.django-rest-framework.org'>Django REST framework <span class="version">2.3.14</span></a>
+                </span>
+                <ul class="nav pull-right">
+                    
+                        
+                            <li></li>
+                        
+                    
+                </ul>
+            </div>
+        </div>
+    </div>
+    
+
+    
+    <ul class="breadcrumb">
+        
+            <li>
+                <a href="/api/v2/video/" class="active">Video List Create Api</a> 
+            </li>
+        
+    </ul>
+    
+
+    <!-- Content -->
+    <div id="content">
+
+        
+            <form id="get-form" class="pull-right">
+                <fieldset>
+                    <div class="btn-group format-selection">
+                        <a class="btn btn-primary js-tooltip" href='/api/v2/video/?page=108' rel="nofollow" title="Make a GET request on the Video List Create Api resource">GET</a>
+
+                        <button class="btn btn-primary dropdown-toggle js-tooltip" data-toggle="dropdown" title="Specify a format for the GET request">
+                            <span class="caret"></span>
+                        </button>
+                        <ul class="dropdown-menu">
+                            
+                                <li>
+                                    <a class="js-tooltip format-option" href='/api/v2/video/?page=108&format=json' rel="nofollow" title="Make a GET request on the Video List Create Api resource with the format set to `json`">json</a>
+                                </li>
+                            
+                                <li>
+                                    <a class="js-tooltip format-option" href='/api/v2/video/?page=108&format=api' rel="nofollow" title="Make a GET request on the Video List Create Api resource with the format set to `api`">api</a>
+                                </li>
+                            
+                        </ul>
+                    </div>
+
+                </fieldset>
+            </form>
+        
+
+        
+            <form class="button-form" action="/api/v2/video/?page=108" method="POST" class="pull-right">
+                <input type='hidden' name='csrfmiddlewaretoken' value='pT8iI6zhtQdsGFmu4tryYgFrUlipl2B3' />
+                <input type="hidden" name="_method" value="OPTIONS" />
+                <button class="btn btn-primary js-tooltip" title="Make an OPTIONS request on the Video List Create Api resource">OPTIONS</button>
+            </form>
+        
+
+        
+
+        <div class="content-main">
+            <div class="page-header"><h1>Video List Create Api</h1></div>
+            
+            
+            
+            <div class="request-info" style="clear: both" >
+                <pre class="prettyprint"><b>GET</b> /api/v2/video/?page=108</pre>
+            </div>
+            <div class="response-info">
+                <pre class="prettyprint"><div class="meta nocode"><b>HTTP 200 OK</b>
+<b>Content-Type:</b> <span class="lit">application/json</span>
+<b>Vary:</b> <span class="lit">Accept</span>
+<b>Allow:</b> <span class="lit">GET, POST, HEAD, OPTIONS</span>
+
+</div>{
+    &quot;count&quot;: 3439, 
+    &quot;next&quot;: &quot;<a href="http://pyvideo.org/api/v2/video/?page=109" rel="nofollow">http://pyvideo.org/api/v2/video/?page=109</a>&quot;, 
+    &quot;previous&quot;: &quot;<a href="http://pyvideo.org/api/v2/video/?page=107" rel="nofollow">http://pyvideo.org/api/v2/video/?page=107</a>&quot;, 
+    &quot;results&quot;: [
+        {
+            &quot;category&quot;: &quot;SciPy 2013&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;using-geospatial-data-with-python-scipy2013-tuto-7&quot;, 
+            &quot;speakers&quot;: [], 
+            &quot;tags&quot;: [
+                &quot;Tech&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 2073, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Using Geospatial Data with Python, SciPy2013 Tutorial, Part 4 of 6&quot;, 
+            &quot;summary&quot;: &quot;Presenter: Kelsey Jordahl\n\nDescription\n\nGeographically referenced data is important in many scientific fields, and working with spatial data has become widespread in other domains as well (e.g. Google Maps, geolocated tweets, 4square checkins). Python has become an increasingly important language for working with geospatial data. In this tutorial, students will get experience in working with common geospatial formats in open source python libraries.\n\nPython bindings are available for (nearly) all the standard libraries for working with geospatial data (proprietary and open source). Some of these libraries (including PROJ.4 and GDAL) will be discussed and used in this tutorial, along with more \&quot;pythonic\&quot; packages for accessing them, such as Shapely. Using spatially-aware databases will be discussed, with examples and an exercise using PostGIS, an extension to PostgreSQL. Python scripting extensions to Geographic Information Systems (GIS) packages such as QGIS and ArcView will be briefly discussed.\n\nThis tutorial should be accessible to anyone who has a basic understanding of NumPy and matplotlib. Prior familiarity with SQL database queries and the python DB API will be helpful for the PostGIS section.\n\nOutline\n\n1 map projections ~~~~~~~~~~~~~~~~~~ /10 min/\n\n1.1 pyproj\n/10 min + 15 min exercise/\n\n1.2 baseplot\n/10 min + 10 min exercise/\n\n\n1.3 cartopy\n/5 min/\n\n2 geographical data ~~~~~~~~~~~~~~~~~~~~\n\n2.1 data formats\n/20 min intro/\n\n\n2.2 GDAL/OGR\n/10 min + 10 min exercise/\n\n2.3 Shapely\n/15 min + 30 min exercise/\n\n2.4 PostGIS\n\n/30 min + 30 min exercise/\n\n2.4.1 Connecting to a PostGIS database with psycopg2\n\n2.4.2 Converting latitude and longitude fields to geographical points\n\n2.4.3 Setting and converting coordinate systems\n\n2.4.4 Aggregation and geographic calculations with queries\n\n2.4.5 GEOMETRY and GEOGRAPHY data types\n\n3 plugins for GIS software ~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\n3.1 QGIS /15 min/\n\n3.2 ArcGIS /10 min/\n\n4 Conclusion ~~~~~~~~~~~~~ /10 min/\n\n\nRequired Packages\n\nrequired packages pyproj, gdal, shapely, psycopg2\noptional packages PostGIS, QGIS, cartopy&quot;, 
+            &quot;description&quot;: &quot;&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;<a href="http://www.youtube.com/t/terms" rel="nofollow">http://www.youtube.com/t/terms</a>&quot;, 
+            &quot;embed&quot;: &quot;&lt;object width=\&quot;640\&quot; height=\&quot;390\&quot;&gt;&lt;param name=\&quot;movie\&quot; value=\&quot;http://youtube.com/v/UQrHpylmkVk?version=3&amp;amp;hl=en_US\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowFullScreen\&quot; value=\&quot;true\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowscriptaccess\&quot; value=\&quot;always\&quot;&gt;&lt;/param&gt;&lt;embed src=\&quot;http://youtube.com/v/UQrHpylmkVk?version=3&amp;amp;hl=en_US\&quot; type=\&quot;application/x-shockwave-flash\&quot; width=\&quot;640\&quot; height=\&quot;390\&quot; allowscriptaccess=\&quot;always\&quot; allowfullscreen=\&quot;true\&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://i1.ytimg.com/vi/UQrHpylmkVk/hqdefault.jpg" rel="nofollow">http://i1.ytimg.com/vi/UQrHpylmkVk/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: null, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="http://www.youtube.com/watch?v=UQrHpylmkVk" rel="nofollow">http://www.youtube.com/watch?v=UQrHpylmkVk</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;needs editing&quot;, 
+            &quot;recorded&quot;: &quot;2013-06-27&quot;, 
+            &quot;added&quot;: &quot;2013-07-04T10:08:48&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:26.508&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;SciPy 2013&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;using-geospatial-data-with-python-scipy2013-tuto-6&quot;, 
+            &quot;speakers&quot;: [], 
+            &quot;tags&quot;: [
+                &quot;Tech&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 2071, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Using Geospatial Data with Python, SciPy2013 Tutorial, Part 5 of 6&quot;, 
+            &quot;summary&quot;: &quot;Presenter: Kelsey Jordahl\n\nDescription\n\nGeographically referenced data is important in many scientific fields, and working with spatial data has become widespread in other domains as well (e.g. Google Maps, geolocated tweets, 4square checkins). Python has become an increasingly important language for working with geospatial data. In this tutorial, students will get experience in working with common geospatial formats in open source python libraries.\n\nPython bindings are available for (nearly) all the standard libraries for working with geospatial data (proprietary and open source). Some of these libraries (including PROJ.4 and GDAL) will be discussed and used in this tutorial, along with more \&quot;pythonic\&quot; packages for accessing them, such as Shapely. Using spatially-aware databases will be discussed, with examples and an exercise using PostGIS, an extension to PostgreSQL. Python scripting extensions to Geographic Information Systems (GIS) packages such as QGIS and ArcView will be briefly discussed.\n\nThis tutorial should be accessible to anyone who has a basic understanding of NumPy and matplotlib. Prior familiarity with SQL database queries and the python DB API will be helpful for the PostGIS section.\n\nOutline\n\n1 map projections ~~~~~~~~~~~~~~~~~~ /10 min/\n\n1.1 pyproj\n/10 min + 15 min exercise/\n\n1.2 baseplot\n/10 min + 10 min exercise/\n\n\n1.3 cartopy\n/5 min/\n\n2 geographical data ~~~~~~~~~~~~~~~~~~~~\n\n2.1 data formats\n/20 min intro/\n\n\n2.2 GDAL/OGR\n/10 min + 10 min exercise/\n\n2.3 Shapely\n/15 min + 30 min exercise/\n\n2.4 PostGIS\n\n/30 min + 30 min exercise/\n\n2.4.1 Connecting to a PostGIS database with psycopg2\n\n2.4.2 Converting latitude and longitude fields to geographical points\n\n2.4.3 Setting and converting coordinate systems\n\n2.4.4 Aggregation and geographic calculations with queries\n\n2.4.5 GEOMETRY and GEOGRAPHY data types\n\n3 plugins for GIS software ~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\n3.1 QGIS /15 min/\n\n3.2 ArcGIS /10 min/\n\n4 Conclusion ~~~~~~~~~~~~~ /10 min/\n\n\nRequired Packages\n\nrequired packages pyproj, gdal, shapely, psycopg2\noptional packages PostGIS, QGIS, cartopy&quot;, 
+            &quot;description&quot;: &quot;&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;<a href="http://www.youtube.com/t/terms" rel="nofollow">http://www.youtube.com/t/terms</a>&quot;, 
+            &quot;embed&quot;: &quot;&lt;object width=\&quot;640\&quot; height=\&quot;390\&quot;&gt;&lt;param name=\&quot;movie\&quot; value=\&quot;http://youtube.com/v/HJO8OzmFIYU?version=3&amp;amp;hl=en_US\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowFullScreen\&quot; value=\&quot;true\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowscriptaccess\&quot; value=\&quot;always\&quot;&gt;&lt;/param&gt;&lt;embed src=\&quot;http://youtube.com/v/HJO8OzmFIYU?version=3&amp;amp;hl=en_US\&quot; type=\&quot;application/x-shockwave-flash\&quot; width=\&quot;640\&quot; height=\&quot;390\&quot; allowscriptaccess=\&quot;always\&quot; allowfullscreen=\&quot;true\&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://i1.ytimg.com/vi/HJO8OzmFIYU/hqdefault.jpg" rel="nofollow">http://i1.ytimg.com/vi/HJO8OzmFIYU/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: null, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="http://www.youtube.com/watch?v=HJO8OzmFIYU" rel="nofollow">http://www.youtube.com/watch?v=HJO8OzmFIYU</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;needs editing&quot;, 
+            &quot;recorded&quot;: &quot;2013-06-27&quot;, 
+            &quot;added&quot;: &quot;2013-07-04T10:08:48&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:26.509&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;SciPy 2013&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;using-geospatial-data-with-python-scipy2013-tuto-5&quot;, 
+            &quot;speakers&quot;: [], 
+            &quot;tags&quot;: [
+                &quot;Tech&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 2069, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Using Geospatial Data with Python, SciPy2013 Tutorial, Part 6 of 6&quot;, 
+            &quot;summary&quot;: &quot;Presenter: Kelsey Jordahl\n\nDescription\n\nGeographically referenced data is important in many scientific fields, and working with spatial data has become widespread in other domains as well (e.g. Google Maps, geolocated tweets, 4square checkins). Python has become an increasingly important language for working with geospatial data. In this tutorial, students will get experience in working with common geospatial formats in open source python libraries.\n\nPython bindings are available for (nearly) all the standard libraries for working with geospatial data (proprietary and open source). Some of these libraries (including PROJ.4 and GDAL) will be discussed and used in this tutorial, along with more \&quot;pythonic\&quot; packages for accessing them, such as Shapely. Using spatially-aware databases will be discussed, with examples and an exercise using PostGIS, an extension to PostgreSQL. Python scripting extensions to Geographic Information Systems (GIS) packages such as QGIS and ArcView will be briefly discussed.\n\nThis tutorial should be accessible to anyone who has a basic understanding of NumPy and matplotlib. Prior familiarity with SQL database queries and the python DB API will be helpful for the PostGIS section.\n\nOutline\n\n1 map projections ~~~~~~~~~~~~~~~~~~ /10 min/\n\n1.1 pyproj\n/10 min + 15 min exercise/\n\n1.2 baseplot\n/10 min + 10 min exercise/\n\n\n1.3 cartopy\n/5 min/\n\n2 geographical data ~~~~~~~~~~~~~~~~~~~~\n\n2.1 data formats\n/20 min intro/\n\n\n2.2 GDAL/OGR\n/10 min + 10 min exercise/\n\n2.3 Shapely\n/15 min + 30 min exercise/\n\n2.4 PostGIS\n\n/30 min + 30 min exercise/\n\n2.4.1 Connecting to a PostGIS database with psycopg2\n\n2.4.2 Converting latitude and longitude fields to geographical points\n\n2.4.3 Setting and converting coordinate systems\n\n2.4.4 Aggregation and geographic calculations with queries\n\n2.4.5 GEOMETRY and GEOGRAPHY data types\n\n3 plugins for GIS software ~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\n3.1 QGIS /15 min/\n\n3.2 ArcGIS /10 min/\n\n4 Conclusion ~~~~~~~~~~~~~ /10 min/\n\n\nRequired Packages\n\nrequired packages pyproj, gdal, shapely, psycopg2\noptional packages PostGIS, QGIS, cartopy&quot;, 
+            &quot;description&quot;: &quot;&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;<a href="http://www.youtube.com/t/terms" rel="nofollow">http://www.youtube.com/t/terms</a>&quot;, 
+            &quot;embed&quot;: &quot;&lt;object width=\&quot;640\&quot; height=\&quot;390\&quot;&gt;&lt;param name=\&quot;movie\&quot; value=\&quot;http://youtube.com/v/LDwqkV8gdpM?version=3&amp;amp;hl=en_US\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowFullScreen\&quot; value=\&quot;true\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowscriptaccess\&quot; value=\&quot;always\&quot;&gt;&lt;/param&gt;&lt;embed src=\&quot;http://youtube.com/v/LDwqkV8gdpM?version=3&amp;amp;hl=en_US\&quot; type=\&quot;application/x-shockwave-flash\&quot; width=\&quot;640\&quot; height=\&quot;390\&quot; allowscriptaccess=\&quot;always\&quot; allowfullscreen=\&quot;true\&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://i1.ytimg.com/vi/LDwqkV8gdpM/hqdefault.jpg" rel="nofollow">http://i1.ytimg.com/vi/LDwqkV8gdpM/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: null, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="http://www.youtube.com/watch?v=LDwqkV8gdpM" rel="nofollow">http://www.youtube.com/watch?v=LDwqkV8gdpM</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;needs editing&quot;, 
+            &quot;recorded&quot;: &quot;2013-06-27&quot;, 
+            &quot;added&quot;: &quot;2013-07-04T10:08:47&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:26.510&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;SciPy 2013&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;version-control-and-unit-testing-for-scientific-s-&quot;, 
+            &quot;speakers&quot;: [], 
+            &quot;tags&quot;: [
+                &quot;Tech&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 1933, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Version Control and Unit Testing for Scientific Software, SciPy2013 Tutorial, Part 2 of 3&quot;, 
+            &quot;summary&quot;: &quot;Presenters: Matt Davis, Katy Huff\n\nDescription\n\nWriting software can be a frustrating process but developers have come up with ways to make it less stressful and error prone. Version control saves the history of your project and makes it easier for multiple people to participate in development. Unit testing and testing frameworks help ensure the correctness of your code and help you find errors by quickly executing and testing your entire code base. These tools can save you time and stress and are valuable to anyone writing software of any description.\n\nThis collaborative, hands-on tutorial will cover version control with Git plus writing and running unit tests in Python (and IPython!) using the nose testing framework. Attendees should be comfortable with the basics of Python and the command line but no experience with scientific Python is necessary.\n\nOutline\n\nThe tutorial will be split into two two-hour lessons. The first lesson will cover git/GitHub and the second lesson will cover unit testing. Throughout the entirety of the tutorial students will be working in pairs. Our teaching style is to have frequent, short exercises for students. Ideally instructors aren&#39;t talking for more than a few minutes before they stop and students do something on their own machines. Instructors then give an explanation and example, then move on to the next item.\n\nLesson 1: git/GitHub\n\nStudents will work in pairs and in each pair one student will make a GitHub repo, then give the other student commit access on that repo. Students will take turns making modifications to learn various bits of git functionality.\n\nLesson 2: Unit Testing\n\nContinuing to work in pairs, students will use test driven development to construct a small scientific program in the IPython Notebook and then take their work to .py files to see how nose works from the command line.\n\nRequired Packages\n\nIn addition to standard Python this tutorial will require the nose testing framework, the IPython Notebook, and the command line interface to Git. Installing Git varies by platform. Windows users should install Git Bash (aka msysgit), Mac users should install the Mac OS X Command Line Tools, and Linux users should use the packaging system for their particular Linux distribution. The Anaconda CE Python installer includes nose and the IPython Notebook.\n\nDocumentation\n\nMaterial will be adapted from existing Software Carpentry lessons, especially: <a href="https://github.com/swcarpentry/boot-camps/tree/master/version-control/git/git-and-github" rel="nofollow">https://github.com/swcarpentry/boot-camps/tree/master/version-control/git/git-and-github</a> <a href="https://github.com/swcarpentry/boot-camps/tree/master/python/sw_engineering%5Cn%5CnOther" rel="nofollow">https://github.com/swcarpentry/boot-camps/tree/master/python/sw_engineering\n\nOther</a> links: <a href="http://software-carpentry.org/" rel="nofollow">http://software-carpentry.org/</a> - The software carpentry organization with links to many lessons and past boot camps. <a href="https://github.com/swcarpentry/boot-camps" rel="nofollow">https://github.com/swcarpentry/boot-camps</a> - Standard Software Carpentry boot camp curriculum. <a href="https://github.com/thehackerwithin/PyTrieste/wiki" rel="nofollow">https://github.com/thehackerwithin/PyTrieste/wiki</a> - Early Software Carpentry curriculum from a two week boot camp at the International Center for Theoretical Physics. <a href="https://code.google.com/p/hacker-within/w/list" rel="nofollow">https://code.google.com/p/hacker-within/w/list</a> - Lesson notes for a three hour lightning lesson at the American Nuclear Society Conference 2011. <a href="http://software-carpentry.org/blog/2012/02/trieste-italy-workshop-week-1.html" rel="nofollow">http://software-carpentry.org/blog/2012/02/trieste-italy-workshop-week-1.html</a> - A blog post about the first week of the two week ICTP boot camp. <a href="http://software-carpentry.org/blog/2012/04/lessons-learned-at-the-university-of-chicago.html" rel="nofollow">http://software-carpentry.org/blog/2012/04/lessons-learned-at-the-university-of-chicago.html</a> - A blog post about a two day boot camp at the University of Chicago. <a href="http://software-carpentry.org/blog/2011/11/knowledge-of-the-second-kind.html" rel="nofollow">http://software-carpentry.org/blog/2011/11/knowledge-of-the-second-kind.html</a> - A blog post about what the hacker within did before it was absorbed into Software Carpentry (it&#39;s no longer really its own entity).&quot;, 
+            &quot;description&quot;: &quot;&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;<a href="http://www.youtube.com/t/terms" rel="nofollow">http://www.youtube.com/t/terms</a>&quot;, 
+            &quot;embed&quot;: &quot;&lt;object width=\&quot;640\&quot; height=\&quot;390\&quot;&gt;&lt;param name=\&quot;movie\&quot; value=\&quot;http://youtube.com/v/-shepsIjEZs?version=3&amp;amp;hl=en_US\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowFullScreen\&quot; value=\&quot;true\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowscriptaccess\&quot; value=\&quot;always\&quot;&gt;&lt;/param&gt;&lt;embed src=\&quot;http://youtube.com/v/-shepsIjEZs?version=3&amp;amp;hl=en_US\&quot; type=\&quot;application/x-shockwave-flash\&quot; width=\&quot;640\&quot; height=\&quot;390\&quot; allowscriptaccess=\&quot;always\&quot; allowfullscreen=\&quot;true\&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://i1.ytimg.com/vi/-shepsIjEZs/hqdefault.jpg" rel="nofollow">http://i1.ytimg.com/vi/-shepsIjEZs/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: null, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="http://www.youtube.com/watch?v=-shepsIjEZs" rel="nofollow">http://www.youtube.com/watch?v=-shepsIjEZs</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;needs editing&quot;, 
+            &quot;recorded&quot;: &quot;2013-06-27&quot;, 
+            &quot;added&quot;: &quot;2013-07-01T19:52:11&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:26.512&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;SciPy 2013&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;version-control-and-unit-testing-for-scientific-s&quot;, 
+            &quot;speakers&quot;: [], 
+            &quot;tags&quot;: [
+                &quot;Tech&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 1932, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Version Control and Unit Testing for Scientific Software, SciPy2013 Tutorial, Part 3 of 3&quot;, 
+            &quot;summary&quot;: &quot;Presenters: Matt Davis, Katy Huff\n\nDescription\n\nWriting software can be a frustrating process but developers have come up with ways to make it less stressful and error prone. Version control saves the history of your project and makes it easier for multiple people to participate in development. Unit testing and testing frameworks help ensure the correctness of your code and help you find errors by quickly executing and testing your entire code base. These tools can save you time and stress and are valuable to anyone writing software of any description.\n\nThis collaborative, hands-on tutorial will cover version control with Git plus writing and running unit tests in Python (and IPython!) using the nose testing framework. Attendees should be comfortable with the basics of Python and the command line but no experience with scientific Python is necessary.\n\nOutline\n\nThe tutorial will be split into two two-hour lessons. The first lesson will cover git/GitHub and the second lesson will cover unit testing. Throughout the entirety of the tutorial students will be working in pairs. Our teaching style is to have frequent, short exercises for students. Ideally instructors aren&#39;t talking for more than a few minutes before they stop and students do something on their own machines. Instructors then give an explanation and example, then move on to the next item.\n\nLesson 1: git/GitHub\n\nStudents will work in pairs and in each pair one student will make a GitHub repo, then give the other student commit access on that repo. Students will take turns making modifications to learn various bits of git functionality.\n\nLesson 2: Unit Testing\n\nContinuing to work in pairs, students will use test driven development to construct a small scientific program in the IPython Notebook and then take their work to .py files to see how nose works from the command line.\n\nRequired Packages\n\nIn addition to standard Python this tutorial will require the nose testing framework, the IPython Notebook, and the command line interface to Git. Installing Git varies by platform. Windows users should install Git Bash (aka msysgit), Mac users should install the Mac OS X Command Line Tools, and Linux users should use the packaging system for their particular Linux distribution. The Anaconda CE Python installer includes nose and the IPython Notebook.\n\nDocumentation\n\nMaterial will be adapted from existing Software Carpentry lessons, especially: <a href="https://github.com/swcarpentry/boot-camps/tree/master/version-control/git/git-and-github" rel="nofollow">https://github.com/swcarpentry/boot-camps/tree/master/version-control/git/git-and-github</a> <a href="https://github.com/swcarpentry/boot-camps/tree/master/python/sw_engineering%5Cn%5CnOther" rel="nofollow">https://github.com/swcarpentry/boot-camps/tree/master/python/sw_engineering\n\nOther</a> links: <a href="http://software-carpentry.org/" rel="nofollow">http://software-carpentry.org/</a> - The software carpentry organization with links to many lessons and past boot camps. <a href="https://github.com/swcarpentry/boot-camps" rel="nofollow">https://github.com/swcarpentry/boot-camps</a> - Standard Software Carpentry boot camp curriculum. <a href="https://github.com/thehackerwithin/PyTrieste/wiki" rel="nofollow">https://github.com/thehackerwithin/PyTrieste/wiki</a> - Early Software Carpentry curriculum from a two week boot camp at the International Center for Theoretical Physics. <a href="https://code.google.com/p/hacker-within/w/list" rel="nofollow">https://code.google.com/p/hacker-within/w/list</a> - Lesson notes for a three hour lightning lesson at the American Nuclear Society Conference 2011. <a href="http://software-carpentry.org/blog/2012/02/trieste-italy-workshop-week-1.html" rel="nofollow">http://software-carpentry.org/blog/2012/02/trieste-italy-workshop-week-1.html</a> - A blog post about the first week of the two week ICTP boot camp. <a href="http://software-carpentry.org/blog/2012/04/lessons-learned-at-the-university-of-chicago.html" rel="nofollow">http://software-carpentry.org/blog/2012/04/lessons-learned-at-the-university-of-chicago.html</a> - A blog post about a two day boot camp at the University of Chicago. <a href="http://software-carpentry.org/blog/2011/11/knowledge-of-the-second-kind.html" rel="nofollow">http://software-carpentry.org/blog/2011/11/knowledge-of-the-second-kind.html</a> - A blog post about what the hacker within did before it was absorbed into Software Carpentry (it&#39;s no longer really its own entity).&quot;, 
+            &quot;description&quot;: &quot;&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;<a href="http://www.youtube.com/t/terms" rel="nofollow">http://www.youtube.com/t/terms</a>&quot;, 
+            &quot;embed&quot;: &quot;&lt;object width=\&quot;640\&quot; height=\&quot;390\&quot;&gt;&lt;param name=\&quot;movie\&quot; value=\&quot;http://youtube.com/v/j36U6DTKVDY?version=3&amp;amp;hl=en_US\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowFullScreen\&quot; value=\&quot;true\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowscriptaccess\&quot; value=\&quot;always\&quot;&gt;&lt;/param&gt;&lt;embed src=\&quot;http://youtube.com/v/j36U6DTKVDY?version=3&amp;amp;hl=en_US\&quot; type=\&quot;application/x-shockwave-flash\&quot; width=\&quot;640\&quot; height=\&quot;390\&quot; allowscriptaccess=\&quot;always\&quot; allowfullscreen=\&quot;true\&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://i1.ytimg.com/vi/j36U6DTKVDY/hqdefault.jpg" rel="nofollow">http://i1.ytimg.com/vi/j36U6DTKVDY/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: null, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="http://www.youtube.com/watch?v=j36U6DTKVDY" rel="nofollow">http://www.youtube.com/watch?v=j36U6DTKVDY</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;needs editing&quot;, 
+            &quot;recorded&quot;: &quot;2013-06-27&quot;, 
+            &quot;added&quot;: &quot;2013-07-01T19:52:11&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:26.513&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;SciPy 2013&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;symbolic-computing-with-sympy-scipy2013-tutorial-8&quot;, 
+            &quot;speakers&quot;: [], 
+            &quot;tags&quot;: [
+                &quot;Tech&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 2140, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Symbolic Computing with SymPy, SciPy2013 Tutorial, Part 2 of 6&quot;, 
+            &quot;summary&quot;: &quot;Ondrej Certik, Mateusz Paprocki, Aaron Meurer\n\nDescription\n\nSymPy is a pure Python library for symbolic mathematics. It aims to become a full-featured computer algebra system (CAS) while keeping the code as simple as possible in order to be comprehensible and easily extensible. SymPy is written entirely in Python and does not require any external libraries.\n\nIn this tutorial we will introduce attendees to SymPy. We will start by showing how to install and configure this Python module. Then we will proceed to the basics of constructing and manipulating mathematical expressions in SymPy. We will also discuss the most common issues and differences from other computer algebra systems, and how to deal with them. In the last part of this tutorial we will show how to solve simple, yet illustrative, mathematical problems with SymPy.\n\nThis knowledge should be enough for attendees to start using SymPy for solving mathematical problems and hacking SymPy&#39;s internals (though hacking core modules may require additional expertise).\n\nWe expect attendees of this tutorial to have basic knowledge of Python and mathematics. However, any more advanced topics will be explained during presentation.\n\nOutline\n\ninstalling, configuring and running SymPy\nbasics of expressions in SymPy\ntraversal and manipulation of expressions\ncommon issues and differences from other CAS\nsetting up and using printers\nquerying expression properties\nnot only symbolics: numerical computing (mpmath)\nMathematical problem solving with SymPy\nRequired Packages\n\nPython 2.x or 3.x, SymPy (most recent version) Optional packages: IPython, matplotlib, NetworkX, GMPY, numpy, scipy\n\nDocumentation\n\nhttp://mattpap.github.com/scipy-2011-tutorial/html/index.html&quot;, 
+            &quot;description&quot;: &quot;&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;<a href="http://www.youtube.com/t/terms" rel="nofollow">http://www.youtube.com/t/terms</a>&quot;, 
+            &quot;embed&quot;: &quot;&lt;object width=\&quot;640\&quot; height=\&quot;390\&quot;&gt;&lt;param name=\&quot;movie\&quot; value=\&quot;http://youtube.com/v/trhmGmyTNuo?version=3&amp;amp;hl=en_US\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowFullScreen\&quot; value=\&quot;true\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowscriptaccess\&quot; value=\&quot;always\&quot;&gt;&lt;/param&gt;&lt;embed src=\&quot;http://youtube.com/v/trhmGmyTNuo?version=3&amp;amp;hl=en_US\&quot; type=\&quot;application/x-shockwave-flash\&quot; width=\&quot;640\&quot; height=\&quot;390\&quot; allowscriptaccess=\&quot;always\&quot; allowfullscreen=\&quot;true\&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://i1.ytimg.com/vi/trhmGmyTNuo/hqdefault.jpg" rel="nofollow">http://i1.ytimg.com/vi/trhmGmyTNuo/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: null, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="http://www.youtube.com/watch?v=trhmGmyTNuo" rel="nofollow">http://www.youtube.com/watch?v=trhmGmyTNuo</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;needs editing&quot;, 
+            &quot;recorded&quot;: &quot;2013-06-24&quot;, 
+            &quot;added&quot;: &quot;2013-07-04T10:09:00&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:26.515&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;ChiPy&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;ultimate-language-shootout-iv-c-is-slightly-bet&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Philip Doctor&quot;
+            ], 
+            &quot;tags&quot;: [], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 1863, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Ultimate Language Shootout IV: C# is slightly better than you might imagine&quot;, 
+            &quot;summary&quot;: &quot;If you find yourself accidentally writing c#, you can still have some fun.&quot;, 
+            &quot;description&quot;: &quot;&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;CC BY&quot;, 
+            &quot;embed&quot;: &quot;&lt;object width=\&quot;640\&quot; height=\&quot;390\&quot;&gt;&lt;param name=\&quot;movie\&quot; value=\&quot;http://youtube.com/v/fByR4ghTOS8?version=3&amp;amp;hl=en_US\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowFullScreen\&quot; value=\&quot;true\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowscriptaccess\&quot; value=\&quot;always\&quot;&gt;&lt;/param&gt;&lt;embed src=\&quot;http://youtube.com/v/fByR4ghTOS8?version=3&amp;amp;hl=en_US\&quot; type=\&quot;application/x-shockwave-flash\&quot; width=\&quot;640\&quot; height=\&quot;390\&quot; allowscriptaccess=\&quot;always\&quot; allowfullscreen=\&quot;true\&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://i3.ytimg.com/vi/fByR4ghTOS8/hqdefault.jpg" rel="nofollow">http://i3.ytimg.com/vi/fByR4ghTOS8/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: 7, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: &quot;&quot;, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: &quot;<a href="http://s3.us.archive.org/ndvchipy/Ultimate_Language_Shootout_IV_.mp4" rel="nofollow">http://s3.us.archive.org/ndvchipy/Ultimate_Language_Shootout_IV_.mp4</a>&quot;, 
+            &quot;video_mp4_download_only&quot;: true, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="https://www.youtube.com/watch?v=fByR4ghTOS8" rel="nofollow">https://www.youtube.com/watch?v=fByR4ghTOS8</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2013-06-13&quot;, 
+            &quot;added&quot;: &quot;2013-06-13T16:51:16&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:26.516&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;ChiPy&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;ultimate-language-shootout-iv-coffeescript&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Feihong Hsu&quot;
+            ], 
+            &quot;tags&quot;: [], 
+            &quot;related_urls&quot;: [
+                {
+                    &quot;url&quot;: &quot;<a href="http://www.slideshare.net/megafeihong/coffee-script-22952760" rel="nofollow">http://www.slideshare.net/megafeihong/coffee-script-22952760</a>&quot;, 
+                    &quot;description&quot;: &quot;Slides&quot;
+                }, 
+                {
+                    &quot;url&quot;: &quot;<a href="https://github.com/feihong/coffeescript-talk" rel="nofollow">https://github.com/feihong/coffeescript-talk</a>&quot;, 
+                    &quot;description&quot;: &quot;Code&quot;
+                }
+            ], 
+            &quot;id&quot;: 1864, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Ultimate Language Shootout IV: CoffeeScript&quot;, 
+            &quot;summary&quot;: &quot;A brief introduction to CoffeeScript, given at ChiPy&#39;s Ultimate Language Shootout IV.&quot;, 
+            &quot;description&quot;: &quot;&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;CC BY&quot;, 
+            &quot;embed&quot;: &quot;&lt;object width=\&quot;640\&quot; height=\&quot;390\&quot;&gt;&lt;param name=\&quot;movie\&quot; value=\&quot;http://youtube.com/v/oH_cEl2SMr8?version=3&amp;amp;hl=en_US\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowFullScreen\&quot; value=\&quot;true\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowscriptaccess\&quot; value=\&quot;always\&quot;&gt;&lt;/param&gt;&lt;embed src=\&quot;http://youtube.com/v/oH_cEl2SMr8?version=3&amp;amp;hl=en_US\&quot; type=\&quot;application/x-shockwave-flash\&quot; width=\&quot;640\&quot; height=\&quot;390\&quot; allowscriptaccess=\&quot;always\&quot; allowfullscreen=\&quot;true\&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://i4.ytimg.com/vi/oH_cEl2SMr8/hqdefault.jpg" rel="nofollow">http://i4.ytimg.com/vi/oH_cEl2SMr8/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: 7, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: &quot;&quot;, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: &quot;<a href="http://s3.us.archive.org/ndvchipy/Ultimate_Language_Shootout_IV_.mp4" rel="nofollow">http://s3.us.archive.org/ndvchipy/Ultimate_Language_Shootout_IV_.mp4</a>&quot;, 
+            &quot;video_mp4_download_only&quot;: true, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: &quot;&quot;, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: &quot;&quot;, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="https://www.youtube.com/watch?v=oH_cEl2SMr8" rel="nofollow">https://www.youtube.com/watch?v=oH_cEl2SMr8</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2013-06-13&quot;, 
+            &quot;added&quot;: &quot;2013-06-13T16:51:19&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:26.517&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;ChiPy&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;ultimate-language-shootout-iv-go-come-drink-the&quot;, 
+            &quot;speakers&quot;: [
+                &quot;David Sutton&quot;
+            ], 
+            &quot;tags&quot;: [], 
+            &quot;related_urls&quot;: [
+                {
+                    &quot;url&quot;: &quot;<a href="http://slid.es/cashscam/go-lang" rel="nofollow">http://slid.es/cashscam/go-lang</a>&quot;, 
+                    &quot;description&quot;: &quot;slides&quot;
+                }, 
+                {
+                    &quot;url&quot;: &quot;<a href="https://bitbucket.org/_blankspace/go-bikeshed" rel="nofollow">https://bitbucket.org/_blankspace/go-bikeshed</a>&quot;, 
+                    &quot;description&quot;: &quot;code example&quot;
+                }, 
+                {
+                    &quot;url&quot;: &quot;<a href="http://tour.golang.org/" rel="nofollow">http://tour.golang.org/</a>&quot;, 
+                    &quot;description&quot;: &quot;&quot;
+                }
+            ], 
+            &quot;id&quot;: 1865, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Ultimate Language Shootout IV: Go: come drink the delicious kool-aid&quot;, 
+            &quot;summary&quot;: &quot;From the makers of the wildly successful Plan 9 operating system and B programming language. Go is Google&#39;s stab at systems programming.&quot;, 
+            &quot;description&quot;: &quot;&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;CC BY&quot;, 
+            &quot;embed&quot;: &quot;&lt;object width=\&quot;640\&quot; height=\&quot;390\&quot;&gt;&lt;param name=\&quot;movie\&quot; value=\&quot;http://youtube.com/v/Aec6HTVv5EM?version=3&amp;amp;hl=en_US\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowFullScreen\&quot; value=\&quot;true\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowscriptaccess\&quot; value=\&quot;always\&quot;&gt;&lt;/param&gt;&lt;embed src=\&quot;http://youtube.com/v/Aec6HTVv5EM?version=3&amp;amp;hl=en_US\&quot; type=\&quot;application/x-shockwave-flash\&quot; width=\&quot;640\&quot; height=\&quot;390\&quot; allowscriptaccess=\&quot;always\&quot; allowfullscreen=\&quot;true\&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://i2.ytimg.com/vi/Aec6HTVv5EM/hqdefault.jpg" rel="nofollow">http://i2.ytimg.com/vi/Aec6HTVv5EM/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: 7, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: &quot;&quot;, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: &quot;<a href="http://s3.us.archive.org/ndvchipy/Ultimate_Language_Shootout_IV_.mp4" rel="nofollow">http://s3.us.archive.org/ndvchipy/Ultimate_Language_Shootout_IV_.mp4</a>&quot;, 
+            &quot;video_mp4_download_only&quot;: true, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: &quot;&quot;, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: &quot;&quot;, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="https://www.youtube.com/watch?v=Aec6HTVv5EM" rel="nofollow">https://www.youtube.com/watch?v=Aec6HTVv5EM</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2013-06-13&quot;, 
+            &quot;added&quot;: &quot;2013-06-13T16:51:21&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:26.519&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;ChiPy&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;ultimate-language-shootout-iv-haskell-or-how-a&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Greg Kettler&quot;
+            ], 
+            &quot;tags&quot;: [], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 1866, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Ultimate Language Shootout IV: Haskell or: How a List Comprehension Is Like a Burrito&quot;, 
+            &quot;summary&quot;: &quot;It&#39;s a compiled, statically typed, lazy, purely functional programming language. About as far as possible from Python? Not quite. The languages have a lot in common and Python has already borrowed a few tricks from Haskell.&quot;, 
+            &quot;description&quot;: &quot;&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;CC BY-SA&quot;, 
+            &quot;embed&quot;: &quot;&lt;object width=\&quot;640\&quot; height=\&quot;390\&quot;&gt;&lt;param name=\&quot;movie\&quot; value=\&quot;http://youtube.com/v/c5MPg88mdgc?version=3&amp;amp;hl=en_US\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowFullScreen\&quot; value=\&quot;true\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowscriptaccess\&quot; value=\&quot;always\&quot;&gt;&lt;/param&gt;&lt;embed src=\&quot;http://youtube.com/v/c5MPg88mdgc?version=3&amp;amp;hl=en_US\&quot; type=\&quot;application/x-shockwave-flash\&quot; width=\&quot;640\&quot; height=\&quot;390\&quot; allowscriptaccess=\&quot;always\&quot; allowfullscreen=\&quot;true\&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://i4.ytimg.com/vi/c5MPg88mdgc/hqdefault.jpg" rel="nofollow">http://i4.ytimg.com/vi/c5MPg88mdgc/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: 7, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: &quot;&quot;, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: &quot;<a href="http://s3.us.archive.org/ndvchipy/Ultimate_Language_Shootout_IV_.mp4" rel="nofollow">http://s3.us.archive.org/ndvchipy/Ultimate_Language_Shootout_IV_.mp4</a>&quot;, 
+            &quot;video_mp4_download_only&quot;: true, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="https://www.youtube.com/watch?v=c5MPg88mdgc" rel="nofollow">https://www.youtube.com/watch?v=c5MPg88mdgc</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2013-06-13&quot;, 
+            &quot;added&quot;: &quot;2013-06-13T16:51:23&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:26.520&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;ChiPy&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;ultimate-language-shootout-iv-quasi&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Randy Baxley&quot;
+            ], 
+            &quot;tags&quot;: [], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 1867, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Ultimate Language Shootout IV: QUASI&quot;, 
+            &quot;summary&quot;: &quot;1977 -  A language, the description of which was handed to me on about one hundred and fifty mimeographed eight and one half by eleven sheets.  Robert Sibley handed it to the class to use as our compiler project.  &quot;, 
+            &quot;description&quot;: &quot;&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;CC BY&quot;, 
+            &quot;embed&quot;: &quot;&lt;object width=\&quot;640\&quot; height=\&quot;390\&quot;&gt;&lt;param name=\&quot;movie\&quot; value=\&quot;http://youtube.com/v/Peww9AUH6yM?version=3&amp;amp;hl=en_US\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowFullScreen\&quot; value=\&quot;true\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowscriptaccess\&quot; value=\&quot;always\&quot;&gt;&lt;/param&gt;&lt;embed src=\&quot;http://youtube.com/v/Peww9AUH6yM?version=3&amp;amp;hl=en_US\&quot; type=\&quot;application/x-shockwave-flash\&quot; width=\&quot;640\&quot; height=\&quot;390\&quot; allowscriptaccess=\&quot;always\&quot; allowfullscreen=\&quot;true\&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://i1.ytimg.com/vi/Peww9AUH6yM/hqdefault.jpg" rel="nofollow">http://i1.ytimg.com/vi/Peww9AUH6yM/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: 7, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: &quot;&quot;, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: &quot;<a href="http://s3.us.archive.org/ndvchipy/Ultimate_Language_Shootout_IV_.mp4" rel="nofollow">http://s3.us.archive.org/ndvchipy/Ultimate_Language_Shootout_IV_.mp4</a>&quot;, 
+            &quot;video_mp4_download_only&quot;: true, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="https://www.youtube.com/watch?v=Peww9AUH6yM" rel="nofollow">https://www.youtube.com/watch?v=Peww9AUH6yM</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2013-06-13&quot;, 
+            &quot;added&quot;: &quot;2013-06-13T16:51:26&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:26.521&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;ChiPy&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;ultimate-language-shootout-iv-ruby&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Ross Heflin&quot;
+            ], 
+            &quot;tags&quot;: [], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 1868, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Ultimate Language Shootout IV: Ruby&quot;, 
+            &quot;summary&quot;: &quot;Ruby, what you need to know&quot;, 
+            &quot;description&quot;: &quot;&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;CC BY&quot;, 
+            &quot;embed&quot;: &quot;&lt;object width=\&quot;640\&quot; height=\&quot;390\&quot;&gt;&lt;param name=\&quot;movie\&quot; value=\&quot;http://youtube.com/v/NP0-Df2tISA?version=3&amp;amp;hl=en_US\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowFullScreen\&quot; value=\&quot;true\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowscriptaccess\&quot; value=\&quot;always\&quot;&gt;&lt;/param&gt;&lt;embed src=\&quot;http://youtube.com/v/NP0-Df2tISA?version=3&amp;amp;hl=en_US\&quot; type=\&quot;application/x-shockwave-flash\&quot; width=\&quot;640\&quot; height=\&quot;390\&quot; allowscriptaccess=\&quot;always\&quot; allowfullscreen=\&quot;true\&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://i3.ytimg.com/vi/NP0-Df2tISA/hqdefault.jpg" rel="nofollow">http://i3.ytimg.com/vi/NP0-Df2tISA/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: 7, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: &quot;&quot;, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: &quot;<a href="http://s3.us.archive.org/ndvchipy/Ultimate_Language_Shootout_IV_.mp4" rel="nofollow">http://s3.us.archive.org/ndvchipy/Ultimate_Language_Shootout_IV_.mp4</a>&quot;, 
+            &quot;video_mp4_download_only&quot;: true, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="https://www.youtube.com/watch?v=NP0-Df2tISA" rel="nofollow">https://www.youtube.com/watch?v=NP0-Df2tISA</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2013-06-13&quot;, 
+            &quot;added&quot;: &quot;2013-06-13T16:51:28&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:26.522&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;DjangoCon 2009&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;djangocon-2009--introduction-to-geodjango&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Adam Fast&quot;
+            ], 
+            &quot;tags&quot;: [], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 18, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Introduction to GeoDjango&quot;, 
+            &quot;summary&quot;: &quot;Gives an introduction to GeoDjango.&quot;, 
+            &quot;description&quot;: &quot;\r\n&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;Creative Commons Attribution-NonCommercial-ShareAlike 3.0&quot;, 
+            &quot;embed&quot;: &quot;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://a.images.blip.tv/Robertlofthouse-IntroductionToGeoDjango145.png" rel="nofollow">http://a.images.blip.tv/Robertlofthouse-IntroductionToGeoDjango145.png</a>&quot;, 
+            &quot;duration&quot;: 15, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: &quot;<a href="http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/djangocon-2009/18_introduction-to-geodjango.ogv" rel="nofollow">http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/djangocon-2009/18_introduction-to-geodjango.ogv</a>&quot;, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: &quot;&quot;, 
+            &quot;video_mp4_download_only&quot;: true, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: &quot;&quot;, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: &quot;&quot;, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2013-05-17&quot;, 
+            &quot;added&quot;: &quot;2012-02-23T04:20:00&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:26.524&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;ChiPy&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;hy-a-lisp-that-transforms-itself-into-the-python&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Christopher Webber&quot;
+            ], 
+            &quot;tags&quot;: [], 
+            &quot;related_urls&quot;: [
+                {
+                    &quot;url&quot;: &quot;<a href="http://hy.readthedocs.org/en/latest/" rel="nofollow">http://hy.readthedocs.org/en/latest/</a>&quot;, 
+                    &quot;description&quot;: &quot;hy documentation&quot;
+                }
+            ], 
+            &quot;id&quot;: 1869, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Hy: A Lisp that transforms itself into the Python AST. &quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;CC BY&quot;, 
+            &quot;embed&quot;: &quot;&lt;object width=\&quot;640\&quot; height=\&quot;390\&quot;&gt;&lt;param name=\&quot;movie\&quot; value=\&quot;http://youtube.com/v/SB9TWabor1k?version=3&amp;amp;hl=en_US\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowFullScreen\&quot; value=\&quot;true\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowscriptaccess\&quot; value=\&quot;always\&quot;&gt;&lt;/param&gt;&lt;embed src=\&quot;http://youtube.com/v/SB9TWabor1k?version=3&amp;amp;hl=en_US\&quot; type=\&quot;application/x-shockwave-flash\&quot; width=\&quot;640\&quot; height=\&quot;390\&quot; allowscriptaccess=\&quot;always\&quot; allowfullscreen=\&quot;true\&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://i1.ytimg.com/vi/SB9TWabor1k/hqdefault.jpg" rel="nofollow">http://i1.ytimg.com/vi/SB9TWabor1k/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: 90, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: &quot;&quot;, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: &quot;<a href="http://s3.us.archive.org/ndvchipy/Hy_a_lisp_that_transforms_itse.mp4" rel="nofollow">http://s3.us.archive.org/ndvchipy/Hy_a_lisp_that_transforms_itse.mp4</a>&quot;, 
+            &quot;video_mp4_download_only&quot;: true, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: &quot;&quot;, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: &quot;&quot;, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="https://www.youtube.com/watch?v=SB9TWabor1k" rel="nofollow">https://www.youtube.com/watch?v=SB9TWabor1k</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2013-05-09&quot;, 
+            &quot;added&quot;: &quot;2013-06-26T21:37:22&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:26.525&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;ChiPy&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;in-project-virtualenvs&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Christopher Webber&quot;
+            ], 
+            &quot;tags&quot;: [], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 1870, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot; In-project virtualenvs &quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;CC BY&quot;, 
+            &quot;embed&quot;: &quot;&lt;object width=\&quot;640\&quot; height=\&quot;390\&quot;&gt;&lt;param name=\&quot;movie\&quot; value=\&quot;http://youtube.com/v/kXoSASlq7zU?version=3&amp;amp;hl=en_US\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowFullScreen\&quot; value=\&quot;true\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowscriptaccess\&quot; value=\&quot;always\&quot;&gt;&lt;/param&gt;&lt;embed src=\&quot;http://youtube.com/v/kXoSASlq7zU?version=3&amp;amp;hl=en_US\&quot; type=\&quot;application/x-shockwave-flash\&quot; width=\&quot;640\&quot; height=\&quot;390\&quot; allowscriptaccess=\&quot;always\&quot; allowfullscreen=\&quot;true\&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://i1.ytimg.com/vi/kXoSASlq7zU/hqdefault.jpg" rel="nofollow">http://i1.ytimg.com/vi/kXoSASlq7zU/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: 10, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: &quot;&quot;, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: &quot;<a href="http://s3.us.archive.org/ndvchipy/Inproject_virtualenvs.mp4" rel="nofollow">http://s3.us.archive.org/ndvchipy/Inproject_virtualenvs.mp4</a>&quot;, 
+            &quot;video_mp4_download_only&quot;: true, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="https://www.youtube.com/watch?v=kXoSASlq7zU" rel="nofollow">https://www.youtube.com/watch?v=kXoSASlq7zU</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2013-05-09&quot;, 
+            &quot;added&quot;: &quot;2013-06-26T21:37:24&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:26.526&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;ChiPy&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;who-saved-the-onion-from-being-hacked-by-syrian&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Sean Bloomfield&quot;
+            ], 
+            &quot;tags&quot;: [], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 1871, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Who saved The Onion, from being hacked by \&quot;Syrian Electronic Army\&quot;&quot;, 
+            &quot;summary&quot;: &quot;Well, this isn&#39;t at all Python related (or even all that technical), but at The Onion, we recently had a little run-in with the \&quot;hackers\&quot; from the \&quot;Syrian Electronic Army\&quot;, and could talk about some lessons learned from that, if there&#39;s any interest.\r\n&quot;, 
+            &quot;description&quot;: &quot;&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;CC BY&quot;, 
+            &quot;embed&quot;: &quot;&lt;object width=\&quot;640\&quot; height=\&quot;390\&quot;&gt;&lt;param name=\&quot;movie\&quot; value=\&quot;http://youtube.com/v/dXTtcs6DrzY?version=3&amp;amp;hl=en_US\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowFullScreen\&quot; value=\&quot;true\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowscriptaccess\&quot; value=\&quot;always\&quot;&gt;&lt;/param&gt;&lt;embed src=\&quot;http://youtube.com/v/dXTtcs6DrzY?version=3&amp;amp;hl=en_US\&quot; type=\&quot;application/x-shockwave-flash\&quot; width=\&quot;640\&quot; height=\&quot;390\&quot; allowscriptaccess=\&quot;always\&quot; allowfullscreen=\&quot;true\&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://i1.ytimg.com/vi/dXTtcs6DrzY/hqdefault.jpg" rel="nofollow">http://i1.ytimg.com/vi/dXTtcs6DrzY/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: 5, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: &quot;&quot;, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: &quot;<a href="http://s3.us.archive.org/ndvchipy/Who_saved_The_Onion_from_being.mp4" rel="nofollow">http://s3.us.archive.org/ndvchipy/Who_saved_The_Onion_from_being.mp4</a>&quot;, 
+            &quot;video_mp4_download_only&quot;: true, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="https://www.youtube.com/watch?v=dXTtcs6DrzY" rel="nofollow">https://www.youtube.com/watch?v=dXTtcs6DrzY</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2013-05-09&quot;, 
+            &quot;added&quot;: &quot;2013-06-26T21:37:27&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:26.527&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;Chicago Djangonauts&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;django-rest-framework-and-angularjs&quot;, 
+            &quot;speakers&quot;: [
+                &quot;George Kappel&quot;
+            ], 
+            &quot;tags&quot;: [], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 1861, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;django-rest-framework and angularjs&quot;, 
+            &quot;summary&quot;: &quot;django-rest-framework and angularjs lightning talk&quot;, 
+            &quot;description&quot;: &quot;&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;CC BY-SA&quot;, 
+            &quot;embed&quot;: &quot;&lt;object width=\&quot;640\&quot; height=\&quot;390\&quot;&gt;&lt;param name=\&quot;movie\&quot; value=\&quot;http://youtube.com/v/Q8FRBGTJ020?version=3&amp;amp;hl=en_US\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowFullScreen\&quot; value=\&quot;true\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowscriptaccess\&quot; value=\&quot;always\&quot;&gt;&lt;/param&gt;&lt;embed src=\&quot;http://youtube.com/v/Q8FRBGTJ020?version=3&amp;amp;hl=en_US\&quot; type=\&quot;application/x-shockwave-flash\&quot; width=\&quot;640\&quot; height=\&quot;390\&quot; allowscriptaccess=\&quot;always\&quot; allowfullscreen=\&quot;true\&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://i.ytimg.com/vi/Q8FRBGTJ020/hqdefault.jpg" rel="nofollow">http://i.ytimg.com/vi/Q8FRBGTJ020/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: &quot;&quot;, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: &quot;<a href="http://s3.us.archive.org/nextdayvideo/chicago_djangonauts/may_2013/django_rest_framework_and_angu.mp4?Signature=t/VlhoJEUzff/R2PPN5Tc59lrBQ=&amp;Expires=1367619688&amp;AWSAccessKeyId=FEWGReWX3QbNk0h3" rel="nofollow">http://s3.us.archive.org/nextdayvideo/chicago_djangonauts/may_2013/django_rest_framework_and_angu.mp4?Signature=t%2FVlhoJEUzff%2FR2PPN5Tc59lrBQ%3D&amp;Expires=1367619688&amp;AWSAccessKeyId=FEWGReWX3QbNk0h3</a>&quot;, 
+            &quot;video_mp4_download_only&quot;: true, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: &quot;&quot;, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: &quot;&quot;, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="https://www.youtube.com/watch?v=Q8FRBGTJ020" rel="nofollow">https://www.youtube.com/watch?v=Q8FRBGTJ020</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2013-05-02&quot;, 
+            &quot;added&quot;: &quot;2013-05-03T17:21:40&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:26.528&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;Chicago Djangonauts&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;upgrading-django&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Joe Jasinski&quot;
+            ], 
+            &quot;tags&quot;: [], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 1860, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;upgrading Django&quot;, 
+            &quot;summary&quot;: &quot;Joe Jasinski: upgrading Django\r\n\r\n\r\n(Please expand - 1 or 2 lines is fine.  see <a href="http://pyvideo.org/category/17/pycon-us-2012" rel="nofollow">http://pyvideo.org/category/17/pycon-us-2012</a> for how it will be used)&quot;, 
+            &quot;description&quot;: &quot;&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;CC BY-SA&quot;, 
+            &quot;embed&quot;: &quot;&lt;object width=\&quot;640\&quot; height=\&quot;390\&quot;&gt;&lt;param name=\&quot;movie\&quot; value=\&quot;http://youtube.com/v/DvDX94_x1bk?version=3&amp;amp;hl=en_US\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowFullScreen\&quot; value=\&quot;true\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowscriptaccess\&quot; value=\&quot;always\&quot;&gt;&lt;/param&gt;&lt;embed src=\&quot;http://youtube.com/v/DvDX94_x1bk?version=3&amp;amp;hl=en_US\&quot; type=\&quot;application/x-shockwave-flash\&quot; width=\&quot;640\&quot; height=\&quot;390\&quot; allowscriptaccess=\&quot;always\&quot; allowfullscreen=\&quot;true\&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://i.ytimg.com/vi/DvDX94_x1bk/hqdefault.jpg" rel="nofollow">http://i.ytimg.com/vi/DvDX94_x1bk/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: &quot;<a href="http://s3.us.archive.org/nextdayvideo/chicago_djangonauts/may_2013/upgrading_django.mp4?Signature=2Pgmlh5AzhTSMnoIKc6qSUAEF34=&amp;Expires=1367618829&amp;AWSAccessKeyId=FEWGReWX3QbNk0h3" rel="nofollow">http://s3.us.archive.org/nextdayvideo/chicago_djangonauts/may_2013/upgrading_django.mp4?Signature=2Pgmlh5AzhTSMnoIKc6qSUAEF34%3D&amp;Expires=1367618829&amp;AWSAccessKeyId=FEWGReWX3QbNk0h3</a>&quot;, 
+            &quot;video_mp4_download_only&quot;: true, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="https://www.youtube.com/watch?v=DvDX94_x1bk" rel="nofollow">https://www.youtube.com/watch?v=DvDX94_x1bk</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2013-05-02&quot;, 
+            &quot;added&quot;: &quot;2013-05-03T16:25:41&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:26.530&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyCon US 2013&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;applepy-an-apple-emulator-in-python&quot;, 
+            &quot;speakers&quot;: [
+                &quot;James Tauber&quot;
+            ], 
+            &quot;tags&quot;: [
+                &quot;talk&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 1710, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;ApplePy: An Apple ][ emulator in Python&quot;, 
+            &quot;summary&quot;: &quot;ApplePy is an Apple ][ emulator written in Python. It combines emulation of the 6502 microprocessor with emulation of the keyboard, display (including graphics mode), speaker, cassette and disk drive. This talk will provide a background to Apple ][ internals then dive into the Python code and the challenges of emulating hardware.&quot;, 
+            &quot;description&quot;: &quot;&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;CC&quot;, 
+            &quot;embed&quot;: &quot;&lt;object width=\&quot;640\&quot; height=\&quot;390\&quot;&gt;&lt;param name=\&quot;movie\&quot; value=\&quot;http://youtube.com/v/EhK5JNx0irA?version=3&amp;amp;hl=en_US\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowFullScreen\&quot; value=\&quot;true\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowscriptaccess\&quot; value=\&quot;always\&quot;&gt;&lt;/param&gt;&lt;embed src=\&quot;http://youtube.com/v/EhK5JNx0irA?version=3&amp;amp;hl=en_US\&quot; type=\&quot;application/x-shockwave-flash\&quot; width=\&quot;640\&quot; height=\&quot;390\&quot; allowscriptaccess=\&quot;always\&quot; allowfullscreen=\&quot;true\&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://i2.ytimg.com/vi/EhK5JNx0irA/hqdefault.jpg" rel="nofollow">http://i2.ytimg.com/vi/EhK5JNx0irA/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: &quot;&quot;, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: &quot;<a href="http://s3.us.archive.org/nextdayvideo/psf/pycon2013/ApplePy_An_Apple_emulator_in_P.mp4?Signature=3nW+LF/BZ2eFzz3cKw9UfPeI+4k=&amp;Expires=1363824802&amp;AWSAccessKeyId=FEWGReWX3QbNk0h3" rel="nofollow">http://s3.us.archive.org/nextdayvideo/psf/pycon2013/ApplePy_An_Apple_emulator_in_P.mp4?Signature=3nW%2BLF%2FBZ2eFzz3cKw9UfPeI%2B4k%3D&amp;Expires=1363824802&amp;AWSAccessKeyId=FEWGReWX3QbNk0h3</a>&quot;, 
+            &quot;video_mp4_download_only&quot;: true, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: &quot;&quot;, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: &quot;&quot;, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="https://www.youtube.com/watch?v=EhK5JNx0irA" rel="nofollow">https://www.youtube.com/watch?v=EhK5JNx0irA</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2013-03-17&quot;, 
+            &quot;added&quot;: &quot;2013-03-13T18:54:39&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:26.533&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyCon US 2013&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;become-a-logging-expert-in-30-minutes&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Gavin M. Roy&quot;
+            ], 
+            &quot;tags&quot;: [
+                &quot;talk&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 1737, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Become a logging expert in 30 minutes&quot;, 
+            &quot;summary&quot;: &quot;The logging module is one of the more complex areas of the Python standard library. In this talk you will learn how to leverage loggers, formatters, handlers and filters. In addition you will learn how to use dictConfig and other formats to manage logging settings for your applications.&quot;, 
+            &quot;description&quot;: &quot;&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;CC&quot;, 
+            &quot;embed&quot;: &quot;&lt;object width=\&quot;640\&quot; height=\&quot;390\&quot;&gt;&lt;param name=\&quot;movie\&quot; value=\&quot;http://youtube.com/v/24_4WWkSmNo?version=3&amp;amp;hl=en_US\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowFullScreen\&quot; value=\&quot;true\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowscriptaccess\&quot; value=\&quot;always\&quot;&gt;&lt;/param&gt;&lt;embed src=\&quot;http://youtube.com/v/24_4WWkSmNo?version=3&amp;amp;hl=en_US\&quot; type=\&quot;application/x-shockwave-flash\&quot; width=\&quot;640\&quot; height=\&quot;390\&quot; allowscriptaccess=\&quot;always\&quot; allowfullscreen=\&quot;true\&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://i3.ytimg.com/vi/24_4WWkSmNo/hqdefault.jpg" rel="nofollow">http://i3.ytimg.com/vi/24_4WWkSmNo/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: &quot;&quot;, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: &quot;<a href="http://s3.us.archive.org/nextdayvideo/psf/pycon2013/Become_a_logging_expert_in_30_.mp4?Signature=VBSOdbPpmCCK+fZcvC3XWhqdXc4=&amp;Expires=1363826980&amp;AWSAccessKeyId=FEWGReWX3QbNk0h3" rel="nofollow">http://s3.us.archive.org/nextdayvideo/psf/pycon2013/Become_a_logging_expert_in_30_.mp4?Signature=VBSOdbPpmCCK%2BfZcvC3XWhqdXc4%3D&amp;Expires=1363826980&amp;AWSAccessKeyId=FEWGReWX3QbNk0h3</a>&quot;, 
+            &quot;video_mp4_download_only&quot;: true, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: &quot;&quot;, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: &quot;&quot;, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="https://www.youtube.com/watch?v=24_4WWkSmNo" rel="nofollow">https://www.youtube.com/watch?v=24_4WWkSmNo</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2013-03-17&quot;, 
+            &quot;added&quot;: &quot;2013-03-13T18:55:21&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:26.535&quot;
+        }
+    ]
+}</pre>
+            </div>
+        </div>
+
+            
+
+                
+
+                
+            
+
+        </div>
+        <!-- END content-main -->
+
+    </div>
+    <!-- END Content -->
+
+        <div id="push"></div>
+
+    </div>
+
+    </div><!-- ./wrapper -->
+
+    
+    
+
+    
+    <script src="/static/rest_framework/js/jquery-1.8.1-min.js"></script>
+    <script src="/static/rest_framework/js/bootstrap.min.js"></script>
+    <script src="/static/rest_framework/js/prettify-min.js"></script>
+    <script src="/static/rest_framework/js/default.js"></script>
+    
+  </body>
+
+<!-- Mirrored from pyvideo.org/api/v2/video/?page=108 by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 07 Jan 2016 03:51:39 GMT -->
+</html>

@@ -1,0 +1,934 @@
+
+
+<!DOCTYPE html>
+<html>
+    
+<!-- Mirrored from pyvideo.org/api/v2/video/?page=55&format=api by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 07 Jan 2016 03:48:49 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+    
+
+        
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+        <meta name="robots" content="NONE,NOARCHIVE" />
+        
+
+        <title>Django REST framework</title>
+
+        
+        
+            <link rel="stylesheet" type="text/css" href="/static/rest_framework/css/bootstrap.min.css"/>
+            <link rel="stylesheet" type="text/css" href="/static/rest_framework/css/bootstrap-tweaks.css"/>
+        
+        <link rel="stylesheet" type="text/css" href="/static/rest_framework/css/prettify.css"/>
+        <link rel="stylesheet" type="text/css" href="/static/rest_framework/css/default.css"/>
+        
+
+    
+    </head>
+
+  <body class=" container">
+
+    <div class="wrapper">
+
+    
+    <div class="navbar navbar-inverse">
+        <div class="navbar-inner">
+            <div class="container-fluid">
+                <span href="/">
+                    <a class='brand' rel="nofollow" href='http://www.django-rest-framework.org'>Django REST framework <span class="version">2.3.14</span></a>
+                </span>
+                <ul class="nav pull-right">
+                    
+                        
+                            <li></li>
+                        
+                    
+                </ul>
+            </div>
+        </div>
+    </div>
+    
+
+    
+    <ul class="breadcrumb">
+        
+            <li>
+                <a href="/api/v2/video/" class="active">Video List Create Api</a> 
+            </li>
+        
+    </ul>
+    
+
+    <!-- Content -->
+    <div id="content">
+
+        
+            <form id="get-form" class="pull-right">
+                <fieldset>
+                    <div class="btn-group format-selection">
+                        <a class="btn btn-primary js-tooltip" href='/api/v2/video/?page=55&amp;format=api' rel="nofollow" title="Make a GET request on the Video List Create Api resource">GET</a>
+
+                        <button class="btn btn-primary dropdown-toggle js-tooltip" data-toggle="dropdown" title="Specify a format for the GET request">
+                            <span class="caret"></span>
+                        </button>
+                        <ul class="dropdown-menu">
+                            
+                                <li>
+                                    <a class="js-tooltip format-option" href='/api/v2/video/?page=55&format=json' rel="nofollow" title="Make a GET request on the Video List Create Api resource with the format set to `json`">json</a>
+                                </li>
+                            
+                                <li>
+                                    <a class="js-tooltip format-option" href='/api/v2/video/?page=55&format=api' rel="nofollow" title="Make a GET request on the Video List Create Api resource with the format set to `api`">api</a>
+                                </li>
+                            
+                        </ul>
+                    </div>
+
+                </fieldset>
+            </form>
+        
+
+        
+            <form class="button-form" action="/api/v2/video/?page=55&amp;format=api" method="POST" class="pull-right">
+                <input type='hidden' name='csrfmiddlewaretoken' value='pT8iI6zhtQdsGFmu4tryYgFrUlipl2B3' />
+                <input type="hidden" name="_method" value="OPTIONS" />
+                <button class="btn btn-primary js-tooltip" title="Make an OPTIONS request on the Video List Create Api resource">OPTIONS</button>
+            </form>
+        
+
+        
+
+        <div class="content-main">
+            <div class="page-header"><h1>Video List Create Api</h1></div>
+            
+            
+            
+            <div class="request-info" style="clear: both" >
+                <pre class="prettyprint"><b>GET</b> /api/v2/video/?page=55&amp;format=api</pre>
+            </div>
+            <div class="response-info">
+                <pre class="prettyprint"><div class="meta nocode"><b>HTTP 200 OK</b>
+<b>Content-Type:</b> <span class="lit">application/json</span>
+<b>Vary:</b> <span class="lit">Accept</span>
+<b>Allow:</b> <span class="lit">GET, POST, HEAD, OPTIONS</span>
+
+</div>{
+    &quot;count&quot;: 3439, 
+    &quot;next&quot;: &quot;<a href="http://pyvideo.org/api/v2/video/?page=56&amp;format=api" rel="nofollow">http://pyvideo.org/api/v2/video/?page=56&amp;format=api</a>&quot;, 
+    &quot;previous&quot;: &quot;<a href="http://pyvideo.org/api/v2/video/?page=54&amp;format=api" rel="nofollow">http://pyvideo.org/api/v2/video/?page=54&amp;format=api</a>&quot;, 
+    &quot;results&quot;: [
+        {
+            &quot;category&quot;: &quot;PyCon ZA 2014&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;reaching-beyond-the-web&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Vinod Kurup&quot;
+            ], 
+            &quot;tags&quot;: [
+                &quot;pyconza&quot;, 
+                &quot;pyconza2014&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 3845, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Reaching Beyond the Web&quot;, 
+            &quot;summary&quot;: &quot;The government of Libya recently implemented a voter registration system and chose to use SMS as the implementation technology, In this talk, I will explain how we used RapidSMS, a Django-based SMS framework, to build this groundbreaking voter registration system.&quot;, 
+            &quot;description&quot;: &quot;Using RapidSMS to power democracy in Libya.\nAs web developers, we often think of the web as being a ubiquitous resource, available to everyone. The truth is that there are still large groups of people who have either limited or no web access. In addition, there are people who have excellent web access, yet still prefer to use simpler tools to connect to others. How can we reach these groups of people? While not perfectly ubiquitous, SMS technology is much more widespread, especially in areas that don&#39;t have great internet connectivity. It&#39;s also ubiquitous in the sense that people who have excellent internet access still use SMS frequently.\nThe government of Libya recently implemented a voter registration system and chose to use SMS as the implementation technology, largely because of these reasons. In this talk, I will explain how we used RapidSMS, a Django-based SMS framework, to build this groundbreaking voter registration system. We will discuss the basics of the RapidSMS framework, and show concrete examples from our Libyan project. I will mostly describe concepts at a high level, though familiarity with Python code may help you understand the details.\nIf you truly want your tools to reach everyone, adding SMS connectivity will spread the power of your web apps.&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;<a href="http://creativecommons.org/licenses/by/3.0/" rel="nofollow">http://creativecommons.org/licenses/by/3.0/</a>&quot;, 
+            &quot;embed&quot;: &quot;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://archive.org/download/pyconza2014-reaching-beyond-the-web/pyconza2014-reaching-beyond-the-web.thumbs/14%20A%20Reaching%20Beyond%20the%20Web-_000450.jpg" rel="nofollow">http://archive.org/download/pyconza2014-reaching-beyond-the-web/pyconza2014-reaching-beyond-the-web.thumbs/14%20A%20Reaching%20Beyond%20the%20Web-_000450.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: &quot;<a href="http://archive.org/download/pyconza2014-reaching-beyond-the-web/14%20A%20Reaching%20Beyond%20the%20Web-.ogv" rel="nofollow">http://archive.org/download/pyconza2014-reaching-beyond-the-web/14%20A%20Reaching%20Beyond%20the%20Web-.ogv</a>&quot;, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: &quot;<a href="http://archive.org/download/pyconza2014-reaching-beyond-the-web/14%20A%20Reaching%20Beyond%20the%20Web-.mp4" rel="nofollow">http://archive.org/download/pyconza2014-reaching-beyond-the-web/14%20A%20Reaching%20Beyond%20the%20Web-.mp4</a>&quot;, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: &quot;&quot;, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: &quot;&quot;, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="http://archive.org/details/pyconza2014-reaching-beyond-the-web" rel="nofollow">http://archive.org/details/pyconza2014-reaching-beyond-the-web</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;ia scrape&quot;, 
+            &quot;recorded&quot;: &quot;2014-10-03&quot;, 
+            &quot;added&quot;: &quot;2015-08-22T21:43:30.143&quot;, 
+            &quot;updated&quot;: &quot;2015-08-22T21:43:30.143&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyCon ZA 2014&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;what-i-learned-about-python-and-about-guidos-t&quot;, 
+            &quot;speakers&quot;: [
+                &quot;David Mertz&quot;
+            ], 
+            &quot;tags&quot;: [
+                &quot;pyconza&quot;, 
+                &quot;pyconza2014&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 3840, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;What I learned about Python \u2013 and about Guido&#39;s time machine \u2013 by reading the python-ideas mailing list&quot;, 
+            &quot;summary&quot;: &quot;One of the ways that changes enter the Python language is via their prior discussion on the python-ideas mailing list. Many core contributors read and contribute to this list, some do not, and a large number of other interested Python programmers also participate in the discussion. A recurring element of these fascinating discussions is that ideas which seem compelling at first blush, upon deeper discussion reveal the greater wisdom of doing things just the way Python already does. Not always, of course, but often.\nA wonderful case study of this process is the innocuous seeming built-in &#39;sum()&#39;. This function has an intricate history, with a great deal of dispute over just what its semantics and performance characteristics can or should be. A particular thread on python-ideas, rich with discussions of use cases and subtle semantics, led both to the creation of the &#39;statistics&#39; module in Python 3.4 (which contains a \&quot;private\&quot; version of the function, &#39;statistics._sum()&#39;) and to a rejection of performance \&quot;optimizations\&quot; when operating over collections of collections (which may or may not seem obvious to \&quot;sum\&quot; in the first place).&quot;, 
+            &quot;description&quot;: &quot;&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;<a href="http://creativecommons.org/licenses/by/3.0/" rel="nofollow">http://creativecommons.org/licenses/by/3.0/</a>&quot;, 
+            &quot;embed&quot;: &quot;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://archive.org/download/pyconza2014-python-ideas/pyconza2014-python-ideas.thumbs/8%20What%20I%20learned%20about%20Python-_000690.jpg" rel="nofollow">http://archive.org/download/pyconza2014-python-ideas/pyconza2014-python-ideas.thumbs/8%20What%20I%20learned%20about%20Python-_000690.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: &quot;<a href="http://archive.org/download/pyconza2014-python-ideas/8%20What%20I%20learned%20about%20Python-.ogv" rel="nofollow">http://archive.org/download/pyconza2014-python-ideas/8%20What%20I%20learned%20about%20Python-.ogv</a>&quot;, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: &quot;<a href="http://archive.org/download/pyconza2014-python-ideas/8%20What%20I%20learned%20about%20Python-.mp4" rel="nofollow">http://archive.org/download/pyconza2014-python-ideas/8%20What%20I%20learned%20about%20Python-.mp4</a>&quot;, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: &quot;&quot;, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: &quot;&quot;, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="http://archive.org/details/pyconza2014-python-ideas" rel="nofollow">http://archive.org/details/pyconza2014-python-ideas</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;ia scrape&quot;, 
+            &quot;recorded&quot;: &quot;2014-10-03&quot;, 
+            &quot;added&quot;: &quot;2015-08-22T21:43:28.466&quot;, 
+            &quot;updated&quot;: &quot;2015-08-22T21:43:28.466&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyCon ZA 2014&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;building-the-internet-of-things-with-raspberry-pi&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Neil Broers&quot;
+            ], 
+            &quot;tags&quot;: [
+                &quot;pyconza&quot;, 
+                &quot;pyconza2014&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 3844, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Building the Internet of Things with Raspberry Pi&quot;, 
+            &quot;summary&quot;: &quot;With the advent of the low cost Raspberry Pi computer, anyone with a soldering iron and some basic Python skills can take everyday objects and transform them into fully networked, smart devices.\nIn this talk, I will show you how I hacked a Raspberry Pi into my home alarm system, turning my network of IP cameras into motion triggered sensors. I will show you how to build basic input and output circuits and introduce you to the RPi.GPIO Python module. We\u2019ll talk about how you can build a RESTful server on your Raspberry Pi to enable remote access. And finally, more ideas for hacking everyday objects around the home!\nNo prior electronics knowledge required.&quot;, 
+            &quot;description&quot;: &quot;&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;<a href="http://creativecommons.org/licenses/by/3.0/" rel="nofollow">http://creativecommons.org/licenses/by/3.0/</a>&quot;, 
+            &quot;embed&quot;: &quot;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://archive.org/download/pyconza2014-raspberry-pi-internet-of-things/pyconza2014-raspberry-pi-internet-of-things.thumbs/4%20A%20Building%20the%20Internet%20of%20Things%20with%20Raspberry%20Pi-_001350.jpg" rel="nofollow">http://archive.org/download/pyconza2014-raspberry-pi-internet-of-things/pyconza2014-raspberry-pi-internet-of-things.thumbs/4%20A%20Building%20the%20Internet%20of%20Things%20with%20Raspberry%20Pi-_001350.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: &quot;<a href="http://archive.org/download/pyconza2014-raspberry-pi-internet-of-things/4%20A%20Building%20the%20Internet%20of%20Things%20with%20Raspberry%20Pi-.ogv" rel="nofollow">http://archive.org/download/pyconza2014-raspberry-pi-internet-of-things/4%20A%20Building%20the%20Internet%20of%20Things%20with%20Raspberry%20Pi-.ogv</a>&quot;, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: &quot;<a href="http://archive.org/download/pyconza2014-raspberry-pi-internet-of-things/4%20A%20Building%20the%20Internet%20of%20Things%20with%20Raspberry%20Pi-.mp4" rel="nofollow">http://archive.org/download/pyconza2014-raspberry-pi-internet-of-things/4%20A%20Building%20the%20Internet%20of%20Things%20with%20Raspberry%20Pi-.mp4</a>&quot;, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: &quot;&quot;, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: &quot;&quot;, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="http://archive.org/details/pyconza2014-raspberry-pi-internet-of-things" rel="nofollow">http://archive.org/details/pyconza2014-raspberry-pi-internet-of-things</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;ia scrape&quot;, 
+            &quot;recorded&quot;: &quot;2014-10-02&quot;, 
+            &quot;added&quot;: &quot;2015-08-22T21:43:29.820&quot;, 
+            &quot;updated&quot;: &quot;2015-08-22T21:43:29.820&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyCon ZA 2014&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;enabling-science-with-the-southern-african-large&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Steve Crawford&quot;
+            ], 
+            &quot;tags&quot;: [
+                &quot;pyconza&quot;, 
+                &quot;pyconza2014&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 3828, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Enabling Science with the Southern African Large Telescope with Python&quot;, 
+            &quot;summary&quot;: &quot;The Southern African Large Telescope is the premier optical astronomical facility in South Africa. Since the start of science operations in September 2011, it has produced a wide range of scientific results from studies of near-Earth asteroids to galaxies at the edge of the Universe. Once observations are obtained at the telescope, they are passed through our science pipeline, which is built on Python. The pipeline rapidly distributes the data, provides science quality reductions, and monitors the performance of the telescope. In addition, developments made for SALT have also contributed to astropy, a python library for astronomy.\nIn this talk, we highlight how these developments are helping to contribute to our understanding of the Universe. We describe how we are using python to provide rapid reductions of the observations, for teaching new students, and for solving new problems.&quot;, 
+            &quot;description&quot;: &quot;&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;<a href="http://creativecommons.org/licenses/by/3.0/" rel="nofollow">http://creativecommons.org/licenses/by/3.0/</a>&quot;, 
+            &quot;embed&quot;: &quot;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://archive.org/download/pyconza2014-enabling-science-with-salt/pyconza2014-enabling-science-with-salt.thumbs/4%20B%20Enabling%20Science%20with%20the%20Southern%20African%20Large%20Telesco_002430.jpg" rel="nofollow">http://archive.org/download/pyconza2014-enabling-science-with-salt/pyconza2014-enabling-science-with-salt.thumbs/4%20B%20Enabling%20Science%20with%20the%20Southern%20African%20Large%20Telesco_002430.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: &quot;<a href="http://archive.org/download/pyconza2014-enabling-science-with-salt/4%20B%20Enabling%20Science%20with%20the%20Southern%20African%20Large%20Telesco.ogv" rel="nofollow">http://archive.org/download/pyconza2014-enabling-science-with-salt/4%20B%20Enabling%20Science%20with%20the%20Southern%20African%20Large%20Telesco.ogv</a>&quot;, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: &quot;<a href="http://archive.org/download/pyconza2014-enabling-science-with-salt/4%20B%20Enabling%20Science%20with%20the%20Southern%20African%20Large%20Telesco.mp4" rel="nofollow">http://archive.org/download/pyconza2014-enabling-science-with-salt/4%20B%20Enabling%20Science%20with%20the%20Southern%20African%20Large%20Telesco.mp4</a>&quot;, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: &quot;&quot;, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: &quot;&quot;, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="http://archive.org/details/pyconza2014-enabling-science-with-salt" rel="nofollow">http://archive.org/details/pyconza2014-enabling-science-with-salt</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;ia scrape&quot;, 
+            &quot;recorded&quot;: &quot;2014-10-02&quot;, 
+            &quot;added&quot;: &quot;2015-08-22T21:43:24.719&quot;, 
+            &quot;updated&quot;: &quot;2015-08-22T21:43:24.719&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyCon ZA 2014&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;hand-me-the-salt-while-i-read-my-news&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Johann du Toit&quot;
+            ], 
+            &quot;tags&quot;: [
+                &quot;pyconza&quot;, 
+                &quot;pyconza2014&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 3847, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Hand me the salt while I read my news&quot;, 
+            &quot;summary&quot;: &quot;Millions of people read news monthly, and news tend to happen in bursts. The ideal infrastructure is able to scale up or down as soon as needed and provide a way to let you proactively manage your servers rather than reactively, which in the media game is a deal breaker. It gets even worse when you&#39;re running most of the local publication sites, including some big name players.&quot;, 
+            &quot;description&quot;: &quot;Focusing on the infrastructure we built, using Salt for management; give insight into the news game and provide examples of challenges our team are facing on a daily basis while servicing users. Expanding also on the workflow put together using various solutions such for logging, notifications with Python acting as the coordinator to keep all these systems in line. Delving into various parts of the system from network monitoring to deploying code.\nThis talk is meant for anyone interested in getting a glimpse of the systems and workflow put in place that allow us to manage the required load and continue developing with the agility to make the needed quick decisions daily.&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;<a href="http://creativecommons.org/licenses/by/3.0/" rel="nofollow">http://creativecommons.org/licenses/by/3.0/</a>&quot;, 
+            &quot;embed&quot;: &quot;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://archive.org/download/pyconza2014-salt-while-read-news/pyconza2014-salt-while-read-news.thumbs/3%20A%20Hand%20me%20the%20salt%20while%20I%20read%20my%20news-_000210.jpg" rel="nofollow">http://archive.org/download/pyconza2014-salt-while-read-news/pyconza2014-salt-while-read-news.thumbs/3%20A%20Hand%20me%20the%20salt%20while%20I%20read%20my%20news-_000210.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: &quot;<a href="http://archive.org/download/pyconza2014-salt-while-read-news/3%20A%20Hand%20me%20the%20salt%20while%20I%20read%20my%20news-.ogv" rel="nofollow">http://archive.org/download/pyconza2014-salt-while-read-news/3%20A%20Hand%20me%20the%20salt%20while%20I%20read%20my%20news-.ogv</a>&quot;, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: &quot;<a href="http://archive.org/download/pyconza2014-salt-while-read-news/3%20A%20Hand%20me%20the%20salt%20while%20I%20read%20my%20news-.mp4" rel="nofollow">http://archive.org/download/pyconza2014-salt-while-read-news/3%20A%20Hand%20me%20the%20salt%20while%20I%20read%20my%20news-.mp4</a>&quot;, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: &quot;&quot;, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: &quot;&quot;, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="http://archive.org/details/pyconza2014-salt-while-read-news" rel="nofollow">http://archive.org/details/pyconza2014-salt-while-read-news</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;ia scrape&quot;, 
+            &quot;recorded&quot;: &quot;2014-10-02&quot;, 
+            &quot;added&quot;: &quot;2015-08-22T21:43:30.805&quot;, 
+            &quot;updated&quot;: &quot;2015-08-22T21:43:30.805&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyCon ZA 2014&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;ipython-as-a-tool-for-teaching-and-learning&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Laura Richter&quot;
+            ], 
+            &quot;tags&quot;: [
+                &quot;pyconza&quot;, 
+                &quot;pyconza2014&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 3830, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;IPython as a tool for teaching and learning&quot;, 
+            &quot;summary&quot;: &quot;The ipython environment lends itself to teaching and learning: immediate feedback, flexible visualisation, easy access to docstrings and ability to explore modules.\nWith development of the ipython notebook, this is taken a step further, by providing browser-based access to an ipython environment with the ability to share notebooks with others, embed output products and annotate code.\nI will present some experience of using ipython as a teaching tool in a tertiary teaching environment in Radio Astronomy courses in Windhoek, Nairobi and Cape Town.&quot;, 
+            &quot;description&quot;: &quot;&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;<a href="http://creativecommons.org/licenses/by/3.0/" rel="nofollow">http://creativecommons.org/licenses/by/3.0/</a>&quot;, 
+            &quot;embed&quot;: &quot;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://archive.org/download/pyconza2014-ipython-for-teaching-and-learning/pyconza2014-ipython-for-teaching-and-learning.thumbs/3%20B%20Ipython%20as%20a%20tool%20for%20teaching%20and%20learning-_000090.jpg" rel="nofollow">http://archive.org/download/pyconza2014-ipython-for-teaching-and-learning/pyconza2014-ipython-for-teaching-and-learning.thumbs/3%20B%20Ipython%20as%20a%20tool%20for%20teaching%20and%20learning-_000090.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: &quot;<a href="http://archive.org/download/pyconza2014-ipython-for-teaching-and-learning/3%20B%20Ipython%20as%20a%20tool%20for%20teaching%20and%20learning-.ogv" rel="nofollow">http://archive.org/download/pyconza2014-ipython-for-teaching-and-learning/3%20B%20Ipython%20as%20a%20tool%20for%20teaching%20and%20learning-.ogv</a>&quot;, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: &quot;<a href="http://archive.org/download/pyconza2014-ipython-for-teaching-and-learning/3%20B%20Ipython%20as%20a%20tool%20for%20teaching%20and%20learning-.mp4" rel="nofollow">http://archive.org/download/pyconza2014-ipython-for-teaching-and-learning/3%20B%20Ipython%20as%20a%20tool%20for%20teaching%20and%20learning-.mp4</a>&quot;, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: &quot;&quot;, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: &quot;&quot;, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="http://archive.org/details/pyconza2014-ipython-for-teaching-and-learning" rel="nofollow">http://archive.org/details/pyconza2014-ipython-for-teaching-and-learning</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;ia scrape&quot;, 
+            &quot;recorded&quot;: &quot;2014-10-02&quot;, 
+            &quot;added&quot;: &quot;2015-08-22T21:43:25.311&quot;, 
+            &quot;updated&quot;: &quot;2015-08-22T21:43:25.311&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyCon ZA 2014&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;ipython-notebook&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Tobie Nortje&quot;
+            ], 
+            &quot;tags&quot;: [
+                &quot;pyconza&quot;, 
+                &quot;pyconza2014&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 3831, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;IPython Notebook&quot;, 
+            &quot;summary&quot;: &quot;The IPython Notebook is a browser-based interactive computational environment in which you can combine code execution, text, mathematics, plots and rich media into a single document. Notebooks are text files that can be shared with colleagues, converted to other formats such as HTML, PDF, etc.&quot;, 
+            &quot;description&quot;: &quot;&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;<a href="http://creativecommons.org/licenses/by/3.0/" rel="nofollow">http://creativecommons.org/licenses/by/3.0/</a>&quot;, 
+            &quot;embed&quot;: &quot;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://archive.org/download/pyconza2014-ipython-notebook/pyconza2014-ipython-notebook.thumbs/2%20B%20IPython%20Notebook-_000210.jpg" rel="nofollow">http://archive.org/download/pyconza2014-ipython-notebook/pyconza2014-ipython-notebook.thumbs/2%20B%20IPython%20Notebook-_000210.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: &quot;<a href="http://archive.org/download/pyconza2014-ipython-notebook/2%20B%20IPython%20Notebook-.ogv" rel="nofollow">http://archive.org/download/pyconza2014-ipython-notebook/2%20B%20IPython%20Notebook-.ogv</a>&quot;, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: &quot;<a href="http://archive.org/download/pyconza2014-ipython-notebook/2%20B%20IPython%20Notebook-.mp4" rel="nofollow">http://archive.org/download/pyconza2014-ipython-notebook/2%20B%20IPython%20Notebook-.mp4</a>&quot;, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: &quot;&quot;, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: &quot;&quot;, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="http://archive.org/details/pyconza2014-ipython-notebook" rel="nofollow">http://archive.org/details/pyconza2014-ipython-notebook</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;ia scrape&quot;, 
+            &quot;recorded&quot;: &quot;2014-10-02&quot;, 
+            &quot;added&quot;: &quot;2015-08-22T21:43:25.606&quot;, 
+            &quot;updated&quot;: &quot;2015-08-22T21:43:25.606&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyCon ZA 2014&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;large-scale-data-processing-with-python-and-apach&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Nick Pentreath&quot;
+            ], 
+            &quot;tags&quot;: [
+                &quot;pyconza&quot;, 
+                &quot;pyconza2014&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 3833, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Large Scale Data Processing with Python and Apache Spark&quot;, 
+            &quot;summary&quot;: &quot;Apache Spark is a fast and general engine for large-scale, distributed data processing. It offers high-level APIs in Java, Scala and Python as well as a rich set of libraries including stream processing, machine learning, and graph analytics. Spark is currently one of the most exciting and fastest-growing Apache open source projects.\nThis talk will give an overview of the Apache Spark project and introduce the basics of PySpark, the Python API for Spark. It will then dive a little deeper into PySpark internals, and finally show some examples and a live demo covering PySpark, Spark&#39;s SQL engine, and machine learning with Spark&#39;s built-in libraries as well as other Python libraries.&quot;, 
+            &quot;description&quot;: &quot;&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;<a href="http://creativecommons.org/licenses/by/3.0/" rel="nofollow">http://creativecommons.org/licenses/by/3.0/</a>&quot;, 
+            &quot;embed&quot;: &quot;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://archive.org/download/pyconza2014-large-scale-data-processing/pyconza2014-large-scale-data-processing.thumbs/5%20B%20Large%20Scale%20Data%20Processing%20-_000570.jpg" rel="nofollow">http://archive.org/download/pyconza2014-large-scale-data-processing/pyconza2014-large-scale-data-processing.thumbs/5%20B%20Large%20Scale%20Data%20Processing%20-_000570.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: &quot;<a href="http://archive.org/download/pyconza2014-large-scale-data-processing/5%20B%20Large%20Scale%20Data%20Processing%20-.ogv" rel="nofollow">http://archive.org/download/pyconza2014-large-scale-data-processing/5%20B%20Large%20Scale%20Data%20Processing%20-.ogv</a>&quot;, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: &quot;<a href="http://archive.org/download/pyconza2014-large-scale-data-processing/5%20B%20Large%20Scale%20Data%20Processing%20-.mp4" rel="nofollow">http://archive.org/download/pyconza2014-large-scale-data-processing/5%20B%20Large%20Scale%20Data%20Processing%20-.mp4</a>&quot;, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: &quot;&quot;, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: &quot;&quot;, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="http://archive.org/details/pyconza2014-large-scale-data-processing" rel="nofollow">http://archive.org/details/pyconza2014-large-scale-data-processing</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;ia scrape&quot;, 
+            &quot;recorded&quot;: &quot;2014-10-02&quot;, 
+            &quot;added&quot;: &quot;2015-08-22T21:43:26.235&quot;, 
+            &quot;updated&quot;: &quot;2015-08-22T21:43:26.235&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyCon ZA 2014&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;lightning-talks-17&quot;, 
+            &quot;speakers&quot;: [], 
+            &quot;tags&quot;: [
+                &quot;pyconza&quot;, 
+                &quot;pyconza2014&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 3834, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Lightning Talks&quot;, 
+            &quot;summary&quot;: &quot;Lightning Talks are fun, short, five-minute (or less) talks. Ideally each talk should make a single point, often in a fun, quirky or over-the-top way.&quot;, 
+            &quot;description&quot;: &quot;1. Launch to Borderline Zombie in a Year by Mike Jones \n\n2. Why you&#39;re dumb if you are doing a Python GUI in anything other than Kivy by Richard Larkin \n\n3. PyPy by Adam Jorgensen (slides)\n\n 4. Sonic Pi by Simon de Haan\n\n 5. The challenge of mathematical formula markup for African feature phones by Jonathan Endersby&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;<a href="http://creativecommons.org/licenses/by/3.0/" rel="nofollow">http://creativecommons.org/licenses/by/3.0/</a>&quot;, 
+            &quot;embed&quot;: &quot;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://archive.org/download/pyconza2014-lightning-talks/pyconza2014-lightning-talks.thumbs/6%20A%20Lightning%20Talks_000870.jpg" rel="nofollow">http://archive.org/download/pyconza2014-lightning-talks/pyconza2014-lightning-talks.thumbs/6%20A%20Lightning%20Talks_000870.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: &quot;<a href="http://archive.org/download/pyconza2014-lightning-talks/6%20A%20Lightning%20Talks.ogv" rel="nofollow">http://archive.org/download/pyconza2014-lightning-talks/6%20A%20Lightning%20Talks.ogv</a>&quot;, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: &quot;<a href="http://archive.org/download/pyconza2014-lightning-talks/6%20A%20Lightning%20Talks.mp4" rel="nofollow">http://archive.org/download/pyconza2014-lightning-talks/6%20A%20Lightning%20Talks.mp4</a>&quot;, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: &quot;&quot;, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: &quot;&quot;, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="http://archive.org/details/pyconza2014-lightning-talks" rel="nofollow">http://archive.org/details/pyconza2014-lightning-talks</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;ia scrape&quot;, 
+            &quot;recorded&quot;: &quot;2014-10-02&quot;, 
+            &quot;added&quot;: &quot;2015-08-22T21:43:26.584&quot;, 
+            &quot;updated&quot;: &quot;2015-08-22T21:43:26.584&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyCon ZA 2014&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;the-earth-is-not-flat-and-other-heresies&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Allison Randal&quot;
+            ], 
+            &quot;tags&quot;: [
+                &quot;pyconza&quot;, 
+                &quot;pyconza2014&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 3826, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;The Earth is not Flat (and other Heresies)&quot;, 
+            &quot;summary&quot;: &quot;Any decent textbook on astrophysics starts with a historical prologue running something like this: \&quot;Once upon a time, we believed the earth was flat. We were wrong. Once upon a time, we believed the sun rotated around the earth. We were wrong.\&quot; It&#39;s a shame that computer science textbooks don&#39;t start the same way: \&quot;Once upon a time, we believed that all computer languages would be statically compiled. We were wrong. Once upon a time, we believed that execution would always be single-threaded, on a single processor, on a single machine. We were wrong.\&quot; The world of technology is marching on toward ever more concurrent architectures, also called \&quot;Cloud\&quot;, and various other buzzwords. The transition is at once so mundane as to go unnoticed, and so fundamental as to shake the very foundations of computer science. This talk explores the past, present, and future of the \&quot;Cloud\&quot;, and the implications for Python and other open source projects.&quot;, 
+            &quot;description&quot;: &quot;&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;<a href="http://creativecommons.org/licenses/by/3.0/" rel="nofollow">http://creativecommons.org/licenses/by/3.0/</a>&quot;, 
+            &quot;embed&quot;: &quot;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://archive.org/download/pyconza2014-earth-is-not-flat/pyconza2014-earth-is-not-flat.thumbs/7%20A%20The%20Earth%20is%20not%20Flat%20(and%20other%20Heresies)-_003030.jpg" rel="nofollow">http://archive.org/download/pyconza2014-earth-is-not-flat/pyconza2014-earth-is-not-flat.thumbs/7%20A%20The%20Earth%20is%20not%20Flat%20%28and%20other%20Heresies%29-_003030.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: &quot;<a href="http://archive.org/download/pyconza2014-earth-is-not-flat/7%20A%20The%20Earth%20is%20not%20Flat%20(and%20other%20Heresies)-.ogv" rel="nofollow">http://archive.org/download/pyconza2014-earth-is-not-flat/7%20A%20The%20Earth%20is%20not%20Flat%20%28and%20other%20Heresies%29-.ogv</a>&quot;, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: &quot;<a href="http://archive.org/download/pyconza2014-earth-is-not-flat/7%20A%20The%20Earth%20is%20not%20Flat%20(and%20other%20Heresies)-.mp4" rel="nofollow">http://archive.org/download/pyconza2014-earth-is-not-flat/7%20A%20The%20Earth%20is%20not%20Flat%20%28and%20other%20Heresies%29-.mp4</a>&quot;, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: &quot;&quot;, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: &quot;&quot;, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="http://archive.org/details/pyconza2014-earth-is-not-flat" rel="nofollow">http://archive.org/details/pyconza2014-earth-is-not-flat</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;ia scrape&quot;, 
+            &quot;recorded&quot;: &quot;2014-10-02&quot;, 
+            &quot;added&quot;: &quot;2015-08-22T21:43:24.093&quot;, 
+            &quot;updated&quot;: &quot;2015-08-22T21:43:24.093&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyCon ZA 2014&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;the-elephant-in-the-web-application&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Iwan Vosloo&quot;
+            ], 
+            &quot;tags&quot;: [
+                &quot;pyconza&quot;, 
+                &quot;pyconza2014&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 3827, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;The elephant in the web application&quot;, 
+            &quot;summary&quot;: &quot;Developing a web application today is an unnecessarily cumbersome and error prone task. It is time for web frameworks to evolve and become more like graphical user interface (GUI) frameworks&quot;, 
+            &quot;description&quot;: &quot;In this talk, I&#39;d like to convince you that developing a web application today is an unnecessarily cumbersome and error prone task. It is time for web frameworks to evolve and become more like graphical user interface (GUI) frameworks: these provide abstractions called \&quot;windows\&quot; or \&quot;widgets\&quot; that let a programmer write an application using terms that describe what is being built, with less (if any) focus on the underlying technologies needed to accomplish drawing these items on a screen.\nA web application programmer (in contrast to a GUI programmer) needs to know quite a few different technologies and a fair bit of effort is required to orchestrate these tools into achieving an end result: a template language, HTML, HTTP, CSS, JavaScript, etc. Reusing something substantial is especially difficult, which means in a sizeable web application the same dragons need to be fought several times over. If a programmer has to constantly deal with all this subject matter, it takes focus away from what actually needs to be built: the application itself.\nWhy are we putting up with having to know HTML and similar low-level technologies? Is it an elephant in the room? Something we pretend not to see, yet we accept the burden of having to work around it?\nI will show you what it takes to build a web application; what repetitive tasks there are and what a programmer needs to be aware of. I hope to convince you that there&#39;s a better way, and that what was perhaps an idealistic dream a decade ago can now be done - not only by our own fully-featured Python web framework (Reahl), but also by a small number of others beyond the realm of Python.&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;<a href="http://creativecommons.org/licenses/by/3.0/" rel="nofollow">http://creativecommons.org/licenses/by/3.0/</a>&quot;, 
+            &quot;embed&quot;: &quot;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://archive.org/download/pyconza2014-elephant-in-the-web-app/pyconza2014-elephant-in-the-web-app.thumbs/2%20A%20The%20elephant%20in%20the%20web%20application-_001410.jpg" rel="nofollow">http://archive.org/download/pyconza2014-elephant-in-the-web-app/pyconza2014-elephant-in-the-web-app.thumbs/2%20A%20The%20elephant%20in%20the%20web%20application-_001410.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: &quot;<a href="http://archive.org/download/pyconza2014-elephant-in-the-web-app/2%20A%20The%20elephant%20in%20the%20web%20application-.ogv" rel="nofollow">http://archive.org/download/pyconza2014-elephant-in-the-web-app/2%20A%20The%20elephant%20in%20the%20web%20application-.ogv</a>&quot;, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: &quot;<a href="http://archive.org/download/pyconza2014-elephant-in-the-web-app/2%20A%20The%20elephant%20in%20the%20web%20application-.mp4" rel="nofollow">http://archive.org/download/pyconza2014-elephant-in-the-web-app/2%20A%20The%20elephant%20in%20the%20web%20application-.mp4</a>&quot;, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: &quot;&quot;, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: &quot;&quot;, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="http://archive.org/details/pyconza2014-elephant-in-the-web-app" rel="nofollow">http://archive.org/details/pyconza2014-elephant-in-the-web-app</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;ia scrape&quot;, 
+            &quot;recorded&quot;: &quot;2014-10-02&quot;, 
+            &quot;added&quot;: &quot;2015-08-22T21:43:24.393&quot;, 
+            &quot;updated&quot;: &quot;2015-08-22T21:43:24.393&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyCon ZA 2014&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;using-python-in-blender&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Albert Nel&quot;
+            ], 
+            &quot;tags&quot;: [
+                &quot;pyconza&quot;, 
+                &quot;pyconza2014&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 3842, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Using Python in Blender&quot;, 
+            &quot;summary&quot;: &quot;Python is such a beautiful language, and is used as a scripting language in many open source graphical applications. By using the power of Python within Blender, we can easily automate so many things, and make long tedious tasks seem like child&#39;s play.&quot;, 
+            &quot;description&quot;: &quot;Python is such a beautiful language, and is used as a scripting language in many open source graphical applications. By using the power of Python within Blender, we can easily automate so many things, and make long tedious tasks seem like child&#39;s play.\nIn this talk I wanted to share a few real world examples where I used Python to do something that would otherwise be impossible (Or just take too long!)\nAt first, we will take a quick look at the API, and how to get started. Here we will look at where you can find what you are looking for, and how it all comes together. This wont be too in-depth, but just enough to give you a taste. We will play with the console a bit and see how to wield the mighty sword that is Python.\nAnd then, we will look at some scripts. These are a few of the scripts that I wrote while I was working on some random things. This will cover some things such as: Adding new mesh objects, updating object coordinates, changing special properties (such as modifers), and setting keyframes all from the console.\nThis talk is for anyone interested in seeing just how to leverage the power of Python in Blender. You need not have any experience with Blender since this will be mostly focussed on the Python side of things, so I wont be covering parts of Blender such as rendering, modeling etc.&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;<a href="http://creativecommons.org/licenses/by/3.0/" rel="nofollow">http://creativecommons.org/licenses/by/3.0/</a>&quot;, 
+            &quot;embed&quot;: &quot;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://archive.org/download/pyconza2014-python-in-blender/pyconza2014-python-in-blender.thumbs/5%20a%20Using%20Python%20in%20Blender-_000450.jpg" rel="nofollow">http://archive.org/download/pyconza2014-python-in-blender/pyconza2014-python-in-blender.thumbs/5%20a%20Using%20Python%20in%20Blender-_000450.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: &quot;<a href="http://archive.org/download/pyconza2014-python-in-blender/5%20a%20Using%20Python%20in%20Blender-.ogv" rel="nofollow">http://archive.org/download/pyconza2014-python-in-blender/5%20a%20Using%20Python%20in%20Blender-.ogv</a>&quot;, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: &quot;<a href="http://archive.org/download/pyconza2014-python-in-blender/5%20a%20Using%20Python%20in%20Blender-.mp4" rel="nofollow">http://archive.org/download/pyconza2014-python-in-blender/5%20a%20Using%20Python%20in%20Blender-.mp4</a>&quot;, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: &quot;&quot;, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: &quot;&quot;, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="http://archive.org/details/pyconza2014-python-in-blender" rel="nofollow">http://archive.org/details/pyconza2014-python-in-blender</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;ia scrape&quot;, 
+            &quot;recorded&quot;: &quot;2014-10-02&quot;, 
+            &quot;added&quot;: &quot;2015-08-22T21:43:29.153&quot;, 
+            &quot;updated&quot;: &quot;2015-08-22T21:43:29.153&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyCon ZA 2014&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;writing-python-code-to-decide-an-election&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Peter Lubell-Doughtie&quot;
+            ], 
+            &quot;tags&quot;: [
+                &quot;pyconza&quot;, 
+                &quot;pyconza2014&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 3824, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Writing Python Code to Decide an Election&quot;, 
+            &quot;summary&quot;: &quot;Earlier this year Ona was given three weeks to write the software that will tally votes in the Libyan elections and decide who wins and who loses. This is not something we could get wrong.&quot;, 
+            &quot;description&quot;: &quot;This is not something we could get wrong. We combined agile development with best practices in testing and QA to build an open source tally system that was well tested, accurate, and easy to use. We will describe a success story of iterative behavior/test-driven-development under extreme conditions. Did the structure of the data change the day before the election? Yes. Did we have the tests to ensure that our implementation changes would not compromise the system&#39;s integrity? Yes, and they didn&#39;t.\nThis talk provides a narrative to both Software Engineers and Tech/Product Managers describing why best practices are essential for any organization and any project of any size. We will provide the audience with:\n1. Real world examples they can implement in their own workflow and organizations, 2. Insight into what succeeded (quick iteration with prioritization) and what was challenging (nothing being static), 3. Anecdotes and coherent arguments they can take back to their organization to advocate for best practices.&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;<a href="http://creativecommons.org/licenses/by/3.0/" rel="nofollow">http://creativecommons.org/licenses/by/3.0/</a>&quot;, 
+            &quot;embed&quot;: &quot;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://archive.org/download/pyconza2014-code-to-decide-election/pyconza2014-code-to-decide-election.thumbs/1%20Writing%20Python%20Code%20to%20Decide%20an%20Election-_002250.jpg" rel="nofollow">http://archive.org/download/pyconza2014-code-to-decide-election/pyconza2014-code-to-decide-election.thumbs/1%20Writing%20Python%20Code%20to%20Decide%20an%20Election-_002250.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: &quot;<a href="http://archive.org/download/pyconza2014-code-to-decide-election/1%20Writing%20Python%20Code%20to%20Decide%20an%20Election-.ogv" rel="nofollow">http://archive.org/download/pyconza2014-code-to-decide-election/1%20Writing%20Python%20Code%20to%20Decide%20an%20Election-.ogv</a>&quot;, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: &quot;<a href="http://archive.org/download/pyconza2014-code-to-decide-election/1%20Writing%20Python%20Code%20to%20Decide%20an%20Election-.mp4" rel="nofollow">http://archive.org/download/pyconza2014-code-to-decide-election/1%20Writing%20Python%20Code%20to%20Decide%20an%20Election-.mp4</a>&quot;, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: &quot;&quot;, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: &quot;&quot;, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="http://archive.org/details/pyconza2014-code-to-decide-election" rel="nofollow">http://archive.org/details/pyconza2014-code-to-decide-election</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;ia scrape&quot;, 
+            &quot;recorded&quot;: &quot;2014-10-02&quot;, 
+            &quot;added&quot;: &quot;2015-08-22T21:43:23.515&quot;, 
+            &quot;updated&quot;: &quot;2015-08-22T21:43:23.515&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyGotham 2014&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;architectural-evolution-in-startups&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Martin Melin&quot;
+            ], 
+            &quot;tags&quot;: [], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 3311, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Architectural evolution in startups&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;Software architecture can be an intimidating topic, and a cause of pre-launch angst for anyone who has tried building something from scratch.\r\n\r\nWe\u2019ll go through the last three years of technical evolution at Tictail as an example of where and when to introduce more complexity, along with some lessons learnt from bad calls over the years.&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;youtube&quot;, 
+            &quot;embed&quot;: &quot;&lt;iframe type=&#39;text/html&#39; src=&#39;http://www.youtube.com/embed/d5jKQxZ9cuE&#39; width=&#39;640&#39; height=&#39;360&#39; frameborder=&#39;0&#39; allowfullscreen=&#39;true&#39;/&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="https://i.ytimg.com/vi/d5jKQxZ9cuE/hqdefault.jpg" rel="nofollow">https://i.ytimg.com/vi/d5jKQxZ9cuE/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: &quot;&quot;, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: &quot;&quot;, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: &quot;&quot;, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: &quot;&quot;, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="https://www.youtube.com/watch?v=d5jKQxZ9cuE" rel="nofollow">https://www.youtube.com/watch?v=d5jKQxZ9cuE</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2014-09-17&quot;, 
+            &quot;added&quot;: &quot;2014-10-26T18:22:38.722&quot;, 
+            &quot;updated&quot;: &quot;2014-10-26T18:22:38.722&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyGotham 2014&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;args-kwargs&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Brian Faherty&quot;
+            ], 
+            &quot;tags&quot;: [], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 3310, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;*args, **kwargs&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;*args and **kwargs are all over my code, but what do they really mean?&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;youtube&quot;, 
+            &quot;embed&quot;: &quot;&lt;iframe type=&#39;text/html&#39; src=&#39;http://www.youtube.com/embed/bm-ZwhNzZkw&#39; width=&#39;640&#39; height=&#39;360&#39; frameborder=&#39;0&#39; allowfullscreen=&#39;true&#39;/&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="https://i.ytimg.com/vi/bm-ZwhNzZkw/hqdefault.jpg" rel="nofollow">https://i.ytimg.com/vi/bm-ZwhNzZkw/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: &quot;&quot;, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: &quot;&quot;, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: &quot;&quot;, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: &quot;&quot;, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="https://www.youtube.com/watch?v=bm-ZwhNzZkw" rel="nofollow">https://www.youtube.com/watch?v=bm-ZwhNzZkw</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2014-09-17&quot;, 
+            &quot;added&quot;: &quot;2014-10-26T18:22:38.530&quot;, 
+            &quot;updated&quot;: &quot;2014-10-26T18:22:38.530&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyGotham 2014&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;customizable-and-saasy-rest-apis&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Juan Gutierrez&quot;
+            ], 
+            &quot;tags&quot;: [], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 3296, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Customizable and SaaSy REST APIs&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;A solution to keep your code base clean in a SaaS environment that is predominantly driven by API web services, which has occasion for minor customization of core web services, based on the needs of your clients.&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;youtube&quot;, 
+            &quot;embed&quot;: &quot;&lt;iframe type=&#39;text/html&#39; src=&#39;http://www.youtube.com/embed/Ga5v5cPhhfs&#39; width=&#39;640&#39; height=&#39;360&#39; frameborder=&#39;0&#39; allowfullscreen=&#39;true&#39;/&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="https://i.ytimg.com/vi/Ga5v5cPhhfs/hqdefault.jpg" rel="nofollow">https://i.ytimg.com/vi/Ga5v5cPhhfs/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: &quot;&quot;, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: &quot;&quot;, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: &quot;&quot;, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: &quot;&quot;, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="https://www.youtube.com/watch?v=Ga5v5cPhhfs" rel="nofollow">https://www.youtube.com/watch?v=Ga5v5cPhhfs</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2014-09-17&quot;, 
+            &quot;added&quot;: &quot;2014-10-26T18:22:35.785&quot;, 
+            &quot;updated&quot;: &quot;2014-10-26T18:22:35.786&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyGotham 2014&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;finding-your-teaching-stack-tools-for-teaching&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Elliott Hauser&quot;
+            ], 
+            &quot;tags&quot;: [], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 3303, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Finding your \&quot;Teaching Stack\&quot;: tools for teaching Python from beginners to experts&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;Tools are often a big influence on success or failure teaching Python in person. The dreaded install and compatibility problems can leave many students convinced that Python isn&#39;t for them. I\u2019ll describe my zero-install teaching stack: Python&#39;s turtle module for beginners, IPython notebooks for academics, and cloud-based IDE Nitrous for intermediate and advanced Web development.&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;youtube&quot;, 
+            &quot;embed&quot;: &quot;&lt;iframe type=&#39;text/html&#39; src=&#39;http://www.youtube.com/embed/SMWx294hT2s&#39; width=&#39;640&#39; height=&#39;360&#39; frameborder=&#39;0&#39; allowfullscreen=&#39;true&#39;/&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="https://i.ytimg.com/vi/SMWx294hT2s/hqdefault.jpg" rel="nofollow">https://i.ytimg.com/vi/SMWx294hT2s/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: &quot;&quot;, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: &quot;&quot;, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: &quot;&quot;, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: &quot;&quot;, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="https://www.youtube.com/watch?v=SMWx294hT2s" rel="nofollow">https://www.youtube.com/watch?v=SMWx294hT2s</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2014-09-17&quot;, 
+            &quot;added&quot;: &quot;2014-10-26T18:22:37.166&quot;, 
+            &quot;updated&quot;: &quot;2014-10-26T18:22:37.166&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyGotham 2014&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;games-with-pygame&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Patrick Thunstrom&quot;
+            ], 
+            &quot;tags&quot;: [], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 3282, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Games with Pygame&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;Follow through three example game projects to learn the most helpful elements of the PyGame library.&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;youtube&quot;, 
+            &quot;embed&quot;: &quot;&lt;iframe type=&#39;text/html&#39; src=&#39;http://www.youtube.com/embed/23hNhKjCYUs&#39; width=&#39;640&#39; height=&#39;360&#39; frameborder=&#39;0&#39; allowfullscreen=&#39;true&#39;/&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="https://i.ytimg.com/vi/23hNhKjCYUs/hqdefault.jpg" rel="nofollow">https://i.ytimg.com/vi/23hNhKjCYUs/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: &quot;&quot;, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: &quot;&quot;, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: &quot;&quot;, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: &quot;&quot;, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="https://www.youtube.com/watch?v=23hNhKjCYUs" rel="nofollow">https://www.youtube.com/watch?v=23hNhKjCYUs</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2014-09-17&quot;, 
+            &quot;added&quot;: &quot;2014-10-26T18:22:32.992&quot;, 
+            &quot;updated&quot;: &quot;2014-10-26T18:22:32.992&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyGotham 2014&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;getting-rich-with-comparison-methods&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Matt Story&quot;
+            ], 
+            &quot;tags&quot;: [], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 3302, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Getting Rich with Comparison Methods&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;Matt&#39;s obsession with Python&#39;s rich comparison methods started about 6 years ago with a gnarly bug and some bad assumptions. A few long nights and a lot of reading later, the docs corrected my assumption:\r\n\r\nThere are no implied relationships among the comparison operators. The truth of x==y does not imply that x!=y is false.\r\nMind == blown and mind != blown. In Getting Rich with Comparison Methods we&#39;ll start by learning how to avoid common and costly bugs in your rich comparison methods, learn a bit about which methods are executed in comparisons and why, and then go beyond symmetrical comparisons exploring some of the ways we can take full advantage of asymmetrical comparison methods.&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;youtube&quot;, 
+            &quot;embed&quot;: &quot;&lt;iframe type=&#39;text/html&#39; src=&#39;http://www.youtube.com/embed/RcVQveUjq8U&#39; width=&#39;640&#39; height=&#39;360&#39; frameborder=&#39;0&#39; allowfullscreen=&#39;true&#39;/&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="https://i.ytimg.com/vi/RcVQveUjq8U/hqdefault.jpg" rel="nofollow">https://i.ytimg.com/vi/RcVQveUjq8U/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: &quot;&quot;, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: &quot;&quot;, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: &quot;&quot;, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: &quot;&quot;, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="https://www.youtube.com/watch?v=RcVQveUjq8U" rel="nofollow">https://www.youtube.com/watch?v=RcVQveUjq8U</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2014-09-17&quot;, 
+            &quot;added&quot;: &quot;2014-10-26T18:22:36.967&quot;, 
+            &quot;updated&quot;: &quot;2014-10-26T18:22:36.967&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyGotham 2014&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;how-i-taught-a-10-year-old-to-love-python-and-pro&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Eric Matzner&quot;
+            ], 
+            &quot;tags&quot;: [], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 3298, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;How I Taught a 10-year-old to Love Python and Programming&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;After many trails and tribulations, a few months ago I finally got my 10-year-old brother hooked on programming with Python. I posted a brief snippet on reddit&#39;s /r/learnpython about it and the post went over very well, with many people asking me for more in-depth instructions of and a sort of curriculum they could use. I have created that material and would like to expand upon it with this talk.&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;youtube&quot;, 
+            &quot;embed&quot;: &quot;&lt;iframe type=&#39;text/html&#39; src=&#39;http://www.youtube.com/embed/MqlYgDHNM-o&#39; width=&#39;640&#39; height=&#39;360&#39; frameborder=&#39;0&#39; allowfullscreen=&#39;true&#39;/&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="https://i.ytimg.com/vi/MqlYgDHNM-o/hqdefault.jpg" rel="nofollow">https://i.ytimg.com/vi/MqlYgDHNM-o/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: &quot;&quot;, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: &quot;&quot;, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: &quot;&quot;, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: &quot;&quot;, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="https://www.youtube.com/watch?v=MqlYgDHNM-o" rel="nofollow">https://www.youtube.com/watch?v=MqlYgDHNM-o</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2014-09-17&quot;, 
+            &quot;added&quot;: &quot;2014-10-26T18:22:36.179&quot;, 
+            &quot;updated&quot;: &quot;2014-10-26T18:22:36.179&quot;
+        }
+    ]
+}</pre>
+            </div>
+        </div>
+
+            
+
+                
+
+                
+            
+
+        </div>
+        <!-- END content-main -->
+
+    </div>
+    <!-- END Content -->
+
+        <div id="push"></div>
+
+    </div>
+
+    </div><!-- ./wrapper -->
+
+    
+    
+
+    
+    <script src="/static/rest_framework/js/jquery-1.8.1-min.js"></script>
+    <script src="/static/rest_framework/js/bootstrap.min.js"></script>
+    <script src="/static/rest_framework/js/prettify-min.js"></script>
+    <script src="/static/rest_framework/js/default.js"></script>
+    
+  </body>
+
+<!-- Mirrored from pyvideo.org/api/v2/video/?page=55&format=api by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 07 Jan 2016 03:48:49 GMT -->
+</html>

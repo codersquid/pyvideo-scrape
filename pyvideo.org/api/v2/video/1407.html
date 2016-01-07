@@ -1,0 +1,193 @@
+
+
+<!DOCTYPE html>
+<html>
+    
+<!-- Mirrored from pyvideo.org/api/v2/video/1407 by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 07 Jan 2016 03:19:47 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+    
+
+        
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+        <meta name="robots" content="NONE,NOARCHIVE" />
+        
+
+        <title>Django REST framework</title>
+
+        
+        
+            <link rel="stylesheet" type="text/css" href="/static/rest_framework/css/bootstrap.min.css"/>
+            <link rel="stylesheet" type="text/css" href="/static/rest_framework/css/bootstrap-tweaks.css"/>
+        
+        <link rel="stylesheet" type="text/css" href="/static/rest_framework/css/prettify.css"/>
+        <link rel="stylesheet" type="text/css" href="/static/rest_framework/css/default.css"/>
+        
+
+    
+    </head>
+
+  <body class=" container">
+
+    <div class="wrapper">
+
+    
+    <div class="navbar navbar-inverse">
+        <div class="navbar-inner">
+            <div class="container-fluid">
+                <span href="/">
+                    <a class='brand' rel="nofollow" href='http://www.django-rest-framework.org'>Django REST framework <span class="version">2.3.14</span></a>
+                </span>
+                <ul class="nav pull-right">
+                    
+                        
+                            <li></li>
+                        
+                    
+                </ul>
+            </div>
+        </div>
+    </div>
+    
+
+    
+    <ul class="breadcrumb">
+        
+            <li>
+                <a href="/api/v2/video/" >Video List Create Api</a> <span class="divider">&rsaquo;</span>
+            </li>
+        
+            <li>
+                <a href="/api/v2/video/1407" class="active">Video Retrieve Update Api</a> 
+            </li>
+        
+    </ul>
+    
+
+    <!-- Content -->
+    <div id="content">
+
+        
+            <form id="get-form" class="pull-right">
+                <fieldset>
+                    <div class="btn-group format-selection">
+                        <a class="btn btn-primary js-tooltip" href='/api/v2/video/1407' rel="nofollow" title="Make a GET request on the Video Retrieve Update Api resource">GET</a>
+
+                        <button class="btn btn-primary dropdown-toggle js-tooltip" data-toggle="dropdown" title="Specify a format for the GET request">
+                            <span class="caret"></span>
+                        </button>
+                        <ul class="dropdown-menu">
+                            
+                                <li>
+                                    <a class="js-tooltip format-option" href='/api/v2/video/1407?format=json' rel="nofollow" title="Make a GET request on the Video Retrieve Update Api resource with the format set to `json`">json</a>
+                                </li>
+                            
+                                <li>
+                                    <a class="js-tooltip format-option" href='/api/v2/video/1407?format=api' rel="nofollow" title="Make a GET request on the Video Retrieve Update Api resource with the format set to `api`">api</a>
+                                </li>
+                            
+                        </ul>
+                    </div>
+
+                </fieldset>
+            </form>
+        
+
+        
+            <form class="button-form" action="/api/v2/video/1407" method="POST" class="pull-right">
+                <input type='hidden' name='csrfmiddlewaretoken' value='pT8iI6zhtQdsGFmu4tryYgFrUlipl2B3' />
+                <input type="hidden" name="_method" value="OPTIONS" />
+                <button class="btn btn-primary js-tooltip" title="Make an OPTIONS request on the Video Retrieve Update Api resource">OPTIONS</button>
+            </form>
+        
+
+        
+
+        <div class="content-main">
+            <div class="page-header"><h1>Video Retrieve Update Api</h1></div>
+            
+            
+            
+            <div class="request-info" style="clear: both" >
+                <pre class="prettyprint"><b>GET</b> /api/v2/video/1407</pre>
+            </div>
+            <div class="response-info">
+                <pre class="prettyprint"><div class="meta nocode"><b>HTTP 200 OK</b>
+<b>Content-Type:</b> <span class="lit">application/json</span>
+<b>Vary:</b> <span class="lit">Accept</span>
+<b>Allow:</b> <span class="lit">GET, PUT, PATCH, HEAD, OPTIONS</span>
+
+</div>{
+    &quot;category&quot;: &quot;DjangoCon 2012&quot;, 
+    &quot;language&quot;: &quot;English&quot;, 
+    &quot;slug&quot;: &quot;about-django-from-the-pyramid-guy&quot;, 
+    &quot;speakers&quot;: [
+        &quot;Chris McDonough&quot;
+    ], 
+    &quot;tags&quot;: [
+        &quot;django&quot;
+    ], 
+    &quot;related_urls&quot;: [], 
+    &quot;id&quot;: 1407, 
+    &quot;state&quot;: 1, 
+    &quot;title&quot;: &quot;About Django from the Pyramid Guy&quot;, 
+    &quot;summary&quot;: &quot;An opinionated recounting of the features Django shares with the Pyramid web\nframework, and how the two frameworks differ, as well as a prescription for\ncollaboration between the Django and Pyramid communities.\n\n&quot;, 
+    &quot;description&quot;: &quot;# About Django from the Pyramid Guy\n\n## Who Am I\n\n  * BBS nerd in the 80s.\n\n  * Bad Perl hacker until Python. Came to Python via Zope in 1999. Worked at Digital Creations (aka Zope Corporation) until 2003.\n\n  * Primary author of: Pyramid web framework, Supervisor UNIX process control system, Deform form system, Repoze collection of middleware, and other unmentionables. Contributor to Zope, WebOb, and lots of other OSS projects.\n\n  * Quoting Glyph: \&quot;I&#39;ve been doing IRC support for 10 years, so I&#39;m pretty much dead inside.\&quot;\n\n## What is a Web Framework\n\n  * A web framework receives a request, calls user code in order to return a response. Everything else is a bonus.\n\n  * Arguments about how a web framework implements \&quot;MVC\&quot; are usually distractions. Django gets this right.\n\n## Django Docs Do It Right\n\n  * Django docs broke the Python documentation curve.\n\n  * Great resources for multiple audiences.\n\n## Django Views Do It Right\n\n  * No magical globals (request or response).\n\n  * Django view lookup and execution is very fast.\n\n## Django Forms Do It Right\n\n  * Decoupling of models from forms.\n\n  * Optional recoupling via modelforms.\n\n## Django Convenience vs. Explicitness\n\n  * No thread locals.\n\n## Django Extensibility Does It Right\n\n  * Replaceable backends for authentication.\n\n  * Replaceable backends for storage.\n\n  * Encourages an environment of plugins at different levels.\n\n## Django Defaults Do It Right\n\n  * Django provides people with unambiguous ways to solve 80% of their web development problems.\n\n  * Doesn&#39;t prevent specialization or use of external libraries.\n\n## Django Reality Does It Right\n\n  * Can&#39;t argue with success.\n\n  * Scores of very successful sites built using Django.\n\n## What is Pyramid\n\n  * Pyramid handles view lookup and execution and provides related convenience APIs. It also allows extensive configuration of these things.\n\n  * Pyramid is a corner of a corner of Django, magnified.\n\n  * James Bennett&#39;s PyCon 2012 \&quot;Django In Depth\&quot; tutorial: ~20 minutes out of 3 hours devoted to things that Pyramid actually does: low-level template API, view lookup and execution, HTTP responses, middleware.\n\n  * Pyramid is independent of any particular peristence system. It has no built-in form generation system. It does not prefer any particular templating system. It does not ship with an admininstrative application.\n\n  * Something like Pyramid could be used to build something like Django.\n\n## Pylons Project\n\n  * Project lead consolidation decision.\n\n  * Attempt to get Pylons, TurboGears and `repoze.bfg` communities rowing in the same direction.\n\n  * Pylons 1.x web framework shifted into \u201clegacy\u201d status. Maintained indefinitely.\n\n  * New development: Pyramid and related.\n\n  * Turbogears: wildcard.\n\n## Is Pyramid a Microframework?\n\n  * Pyramid is sort of microframework-like. You can write a Pyramid application in a single file.\n\n  * Self-identifying microframeworks tend to suggest application development patterns to its users which promote convenience over explicitness. Pyramid (for better or worse) does not do this, because it needs to be useful in larger systems where these patterns can lead to extensibility problems.\n\n  * In reality, the term \&quot;microframework\&quot; is a marketing term, not a technological term, so whether the answer is yes or no doesn&#39;t really matter too much unless you have a stake in the project.\n\n## Small Pyramid Program\n\n    \n    from wsgiref.simple_server import make_server\n    from pyramid.config import Configurator\n    from pyramid.response import Response\n    \n    def hello_world(request):\n       return Response(&#39;Hello %(name)s!&#39; % request.matchdict)\n    \n    if __name__ == &#39;__main__&#39;:\n       config = Configurator()\n       config.add_route(&#39;hello&#39;, &#39;/hello/{name}&#39;)\n       config.add_view(hello_world, route_name=&#39;hello&#39;)\n       app = config.make_wsgi_app()\n       server = make_server(&#39;0.0.0.0&#39;, 8080, app)\n       server.serve_forever()\n    \n\n## Pyramid and Python 3\n\n  * Pyramid&#39;s current release (1.3) supports Python 3.2+ (as well as Python 2.6 and 2.7).\n\n  * Most existing add-ons already ported. When feasible, we port add-on dependencies (`beaker`, `WebOb`, `zope.*` packages).\n\n  * We have a committment to Python 3. It involves lots of whining and bitching.\n\n## I&#39;m No Genius\n\n  * Pyramid does things wrong. Many parts of Pyramid make me cringe. <a href="https://github.com/Pylons/pyramid/wiki/Mistakes%5Cn%5Cn" rel="nofollow">https://github.com/Pylons/pyramid/wiki/Mistakes\n\n</a>  * The grass is always greener.\n\n## Pyramid Docs\n\n  * Culture of documentation (if it&#39;s not documented, it&#39;s broken).\n\n  * Pyramid itself has ~800 printed pages of narrative and API documentation, plus a few hundred pages of \&quot;cookbook\&quot; material.\n\n  * Comprehensive but pretty dry.\n\n## Docs Pain\n\n  * Many pain points are related to plain old bad docs: our fault. Docs are at least 10X harder to write well than the associated code and take much longer. Most coders hate writing docs. I write lots of documentation but it&#39;s often not very good.\n\n  * But other pain points people experience when trying to learn Pyramid from its docs is due to poorly documented dependencies (setuptools). We need to redocument subsystems \&quot;in context\&quot;, for better or worse. (HELP!)\n\n  * And some pain points are due to an audience mismatch; narrative documentation assumes people know \&quot;Python\&quot; _and_ \&quot;the web\&quot;. They often need remedial help in one or both, which the docs don&#39;t provide.\n\n  * \&quot;Chipin\&quot; project raised ~$5K for documentation overhaul.\n\n## Pyramid Friends\n\n  * Colander/Deform: form handling.\n\n  * SQLAlchemy: SQL database connectivity and querying.\n\n  * Pyramid-specific add-ons like `pyramid_mailer`, `pyramid_zodbconn`, `pyramid_socketio`, `pyramid_mongodb`, and so forth.\n\n  * The typical Pyramid application makes use of some combination of add-ons.\n\n## Scaffolding\n\n  * A scaffold renders a project. A project is installable like any other setuptools distribution (it has a `setup.py`, etc).\n\n  * The project depends on some combination of Pyramid, Pyramid plugins, and other third-party libraries and frameworks.\n\n  * `zodb`, `alchemy` and `starter` scaffolds provided by Pyramid itself. Others are contributed to PyPI by third parties.\n\n## Bindings Packages\n\nA more generic package is specialized for convenient use under Pyramid via use\nof a bindings package.\n\n  * `deform` + `pyramid_deform`.\n\n  * `repoze.who` + `pyramid_who`.\n\n  * 2X documentation burden: document once in general package docs, document again in bindings docs. That&#39;s no fun.\n\n  * But this will happen anyway if your code is popular (Celery).\n\n## Higher Level Frameworks\n\n  * `ptah`\n\n  * `kotti`\n\n  * `poolyx`\n\n  * `substanced`\n\n## Packaging Is Like a Blast Shield\n\n  * A blast shield helps keep shrapnel out.\n\n  * It can also help keep shrapnel _in_.\n\n  * Shrapnel tends to penetrate anything not within a blast shield.\n\n  * Every piece of software eventually blows up.\n\n  * The more blast shields you have, the more the damage is contained.\n\n  * But blast shields obscure the landscape. More work required for users.\n\n  * More packages add more documentation and conceptual overhead, and more unwanted choice.\n\n## Django Avoids Setuptools\n\n  * Setup.py develop of django doesn&#39;t work.\n\n  * Avoidance of setuptools also prevents use of console scripts (e.g. django-admin).\n\n  * Django recreates some of the patterns that setuptools provides (i.e. test discovery hooks).\n\n  * Developers whom are ignorant of distribution issues are very confused when inevitably faced with them.\n\n## Django Avoids Setuptools (2)\n\n  * Django&#39;s defacto avoidance of setuptools is understandable. But it&#39;s not helping to improve Python packaging. Python packaging and distribution needs you very badly.\n\n  * Fewer documentation issues to cope with, but contributing to docs for setuptools would float all boats.\n\n## Subclassing Is Convenient\n\n  * You don&#39;t have to explain a protocol (the protocol is Python).\n\n  * But offering extensibility via subclassing is often a poorer choice than offering extensibility via composition and very explicit interfaces.\n\n  * Why? People begin depending upon the implementation details of the classes you tell them to subclass. Unless you&#39;re extremely clear about what the API of the superclass is, and the social contract to use nothing else but the documented API exists, you&#39;ll be pressured into making retroactive APIs. Impossible to recover from without breaking b/w compat.\n\n  * Not uncommon to see a subclass of a subclass of a subclass of a subclass; figuting out how the thing works can be an exercise in pain and multiple editor windows.\n\n## Globals are Convenient\n\n  * You don&#39;t have to explain a protocol for obtaining a value (the protocol is `import`).\n\n  * But the development of circular imports is inevitable.\n\n  * Global registries make it impossible to embed more than one application into the same Python process.\n\n## Module-Scope Work Is Convenient\n\nFrom Django tutorial, at module scope:\n\n    \n    from django.contrib import admin\n    admin.autodiscover()\n    \n\n## Module-Scope Work Is Convenient (2)\n\n  * These things can be done at module scope without concern:\n\n  * An import of another module or global.\n\n  * Assignment of a variable name in the module to some constant value.\n\n  * The addition of a function via a def statement.\n\n  * The addition of a class via a class statement.\n\n  * Control flow which may handles conditionals for platform-specific handling or failure handling of the above.\n\n  * Everything else is at least suspect. Test runners and other code scanners can import with abandon, and side effects are often undesirable.\n\n## Pluggable Apps / Reusable Apps\n\n  * Pluggable apps probably aren&#39;t really that pluggable, reusable apps probably aren&#39;t as reusable as you might like.\n\n  * IMO, even a framework as high-level as Django can&#39;t really offer such a feature without stretching the truth just a little bit.\n\n  * The only thing that can truly offer pluggable apps: another app. No general-purpose framework can do a great job here. (Examples: Wordpress, Jenkins, Plone).\n\n## Rendering Is Meta-View\n\n  * `render_to_response` using template in view is no fun to test.\n\n  * Returning a dict from a view callable is more fun to test.\n\n## Unit Tests\n\n  * Exclusive use of Django test client for tests will cause test suite to run more slowly than necessary.\n\n  * A slow enough test suite won&#39;t be run before commit.\n\n  * Testers who don&#39;t understand any type of testing other than \&quot;system\&quot; or \&quot;integration\&quot; testing tend to bring poor testing practices to unrelated systems.\n\n  * Using setuptools provides nice hooks for test discovery and execution.\n\n## Static Files\n\n  * Python WSGI servers are getting better at serving static files. E.g. Gunicorn supports `sendfile` on UNIX.\n\n  * Might be time to reconsider offloading media to a dedicated non-Python server and make use of what&#39;s available in WSGI-land.\n\n## Community\n\n  * Pyramid community is maybe 10% the size of the Django community.\n\n  * It&#39;s growing.\n\n  * Your success is our success. I&#39;d be very pleased to have Pyramid be considered the #2 Python web framework (at least for \&quot;Python people\&quot;). Forever.\n\n## Collaboration (Low-Level)\n\n  * Create adapter for WebOb or Werkzeug that implements the Django request API?\n\n  * Create an adapter for SQLAlchemy that implements the Django ORM API?\n\n  * These are likely losers. They are \&quot;30 year plans\&quot;. Things change so fast. Who will pay immediately? Who will benefit immediately?\n\n  * Might be better to try to use common non-domain-specific dependencies (e.g. setuptools, virtualenv, WSGI middleware, etc). It would be a great win to share documentation burden, even if we had to \&quot;fork\&quot; it for our own contextual requirements.\n\n## Collaboration (High-Level)\n\n  * Django is limited by backwards compatibility concerns. It&#39;s impractical to make large architectural changes now. Your users would kill you.\n\n  * But I could imagine somebody from the Django community creating a \&quot;Django-NG\&quot; or a Django-like system from whole cloth. Or break Django apart into something that isn&#39;t quite bw compatible.\n\n  * It might make sense to consider Pyramid or another smaller framework as a base for such an effort. If you used Pyramid, you&#39;d get URL routing, internationalization, template bindings, configuration extensibility, flexible view lookup and execution, an event system, security, documentation, Python 3 compatibility, and other things. `ptah` is such a system right now.\n\n  * Pyramid community is very enthusiastic, friendly, helpful, and experienced.\n\n## Promoting Python\n\n  * I challenge you to not be complacent.\n\n  * I challenge you to investigate how other frameworks work.\n\n  * I challenge you to embrace existing Python packaging and distribution tools.\n\n  * I challenge you to port quickly to Python 3. Commit to supporting it in your add-ons and helping folks who have existing add-ons port.\n\n  * I challenge you to speak out when folks bash competitors. Haters are everywhere, and when someone bashes Pyramid, Flask, Bottle, or Zope, and nobody defends against it, the hate will eventually come back to harm you.\n\n## Unknowns\n\n  * Django Class-Based Views Might Not Do It Right. `as_view`. Hmm. All views in Pyramid are potentially generic. They have a context passed to them. Class-based views in Pyramid are not things handed down from \&quot;good devs\&quot; to reuse, they&#39;re just normal things.\n\n  * How does Django allow for configuration extensibility? Conflict detection?\n\n  * Event system\n\n  * Alternate templating languages\n\n  * Exception views\n\n  * View predicates\n\n  * Transaction management\n\n&quot;, 
+    &quot;quality_notes&quot;: &quot;&quot;, 
+    &quot;copyright_text&quot;: &quot;Creative Commons Attribution license (reuse allowed&quot;, 
+    &quot;embed&quot;: &quot;&lt;object width=\&quot;640\&quot; height=\&quot;390\&quot;&gt;&lt;param name=\&quot;movie\&quot; value=\&quot;http://youtube.com/v/eN7h6ZbzMy0?version=3&amp;amp;hl=en_US\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowFullScreen\&quot; value=\&quot;true\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowscriptaccess\&quot; value=\&quot;always\&quot;&gt;&lt;/param&gt;&lt;embed src=\&quot;http://youtube.com/v/eN7h6ZbzMy0?version=3&amp;amp;hl=en_US\&quot; type=\&quot;application/x-shockwave-flash\&quot; width=\&quot;640\&quot; height=\&quot;390\&quot; allowscriptaccess=\&quot;always\&quot; allowfullscreen=\&quot;true\&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&quot;, 
+    &quot;thumbnail_url&quot;: &quot;<a href="http://i.ytimg.com/vi/eN7h6ZbzMy0/hqdefault.jpg" rel="nofollow">http://i.ytimg.com/vi/eN7h6ZbzMy0/hqdefault.jpg</a>&quot;, 
+    &quot;duration&quot;: null, 
+    &quot;video_ogv_length&quot;: null, 
+    &quot;video_ogv_url&quot;: null, 
+    &quot;video_ogv_download_only&quot;: false, 
+    &quot;video_mp4_length&quot;: null, 
+    &quot;video_mp4_url&quot;: null, 
+    &quot;video_mp4_download_only&quot;: false, 
+    &quot;video_webm_length&quot;: null, 
+    &quot;video_webm_url&quot;: null, 
+    &quot;video_webm_download_only&quot;: false, 
+    &quot;video_flv_length&quot;: null, 
+    &quot;video_flv_url&quot;: null, 
+    &quot;video_flv_download_only&quot;: false, 
+    &quot;source_url&quot;: &quot;<a href="http://www.youtube.com/watch?v=eN7h6ZbzMy0" rel="nofollow">http://www.youtube.com/watch?v=eN7h6ZbzMy0</a>&quot;, 
+    &quot;whiteboard&quot;: &quot;needs editing&quot;, 
+    &quot;recorded&quot;: &quot;2012-09-06&quot;, 
+    &quot;added&quot;: &quot;2012-10-08T17:39:52&quot;, 
+    &quot;updated&quot;: &quot;2014-04-08T20:28:26.966&quot;
+}</pre>
+            </div>
+        </div>
+
+            
+
+                
+
+                
+            
+
+        </div>
+        <!-- END content-main -->
+
+    </div>
+    <!-- END Content -->
+
+        <div id="push"></div>
+
+    </div>
+
+    </div><!-- ./wrapper -->
+
+    
+    
+
+    
+    <script src="/static/rest_framework/js/jquery-1.8.1-min.js"></script>
+    <script src="/static/rest_framework/js/bootstrap.min.js"></script>
+    <script src="/static/rest_framework/js/prettify-min.js"></script>
+    <script src="/static/rest_framework/js/default.js"></script>
+    
+  </body>
+
+<!-- Mirrored from pyvideo.org/api/v2/video/1407 by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 07 Jan 2016 03:19:47 GMT -->
+</html>

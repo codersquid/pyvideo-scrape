@@ -1,0 +1,954 @@
+
+
+<!DOCTYPE html>
+<html>
+    
+<!-- Mirrored from pyvideo.org/api/v2/video/?page=111&format=api by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 07 Jan 2016 03:51:47 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+    
+
+        
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+        <meta name="robots" content="NONE,NOARCHIVE" />
+        
+
+        <title>Django REST framework</title>
+
+        
+        
+            <link rel="stylesheet" type="text/css" href="/static/rest_framework/css/bootstrap.min.css"/>
+            <link rel="stylesheet" type="text/css" href="/static/rest_framework/css/bootstrap-tweaks.css"/>
+        
+        <link rel="stylesheet" type="text/css" href="/static/rest_framework/css/prettify.css"/>
+        <link rel="stylesheet" type="text/css" href="/static/rest_framework/css/default.css"/>
+        
+
+    
+    </head>
+
+  <body class=" container">
+
+    <div class="wrapper">
+
+    
+    <div class="navbar navbar-inverse">
+        <div class="navbar-inner">
+            <div class="container-fluid">
+                <span href="/">
+                    <a class='brand' rel="nofollow" href='http://www.django-rest-framework.org'>Django REST framework <span class="version">2.3.14</span></a>
+                </span>
+                <ul class="nav pull-right">
+                    
+                        
+                            <li></li>
+                        
+                    
+                </ul>
+            </div>
+        </div>
+    </div>
+    
+
+    
+    <ul class="breadcrumb">
+        
+            <li>
+                <a href="/api/v2/video/" class="active">Video List Create Api</a> 
+            </li>
+        
+    </ul>
+    
+
+    <!-- Content -->
+    <div id="content">
+
+        
+            <form id="get-form" class="pull-right">
+                <fieldset>
+                    <div class="btn-group format-selection">
+                        <a class="btn btn-primary js-tooltip" href='/api/v2/video/?page=111&amp;format=api' rel="nofollow" title="Make a GET request on the Video List Create Api resource">GET</a>
+
+                        <button class="btn btn-primary dropdown-toggle js-tooltip" data-toggle="dropdown" title="Specify a format for the GET request">
+                            <span class="caret"></span>
+                        </button>
+                        <ul class="dropdown-menu">
+                            
+                                <li>
+                                    <a class="js-tooltip format-option" href='/api/v2/video/?page=111&format=json' rel="nofollow" title="Make a GET request on the Video List Create Api resource with the format set to `json`">json</a>
+                                </li>
+                            
+                                <li>
+                                    <a class="js-tooltip format-option" href='/api/v2/video/?page=111&format=api' rel="nofollow" title="Make a GET request on the Video List Create Api resource with the format set to `api`">api</a>
+                                </li>
+                            
+                        </ul>
+                    </div>
+
+                </fieldset>
+            </form>
+        
+
+        
+            <form class="button-form" action="/api/v2/video/?page=111&amp;format=api" method="POST" class="pull-right">
+                <input type='hidden' name='csrfmiddlewaretoken' value='pT8iI6zhtQdsGFmu4tryYgFrUlipl2B3' />
+                <input type="hidden" name="_method" value="OPTIONS" />
+                <button class="btn btn-primary js-tooltip" title="Make an OPTIONS request on the Video List Create Api resource">OPTIONS</button>
+            </form>
+        
+
+        
+
+        <div class="content-main">
+            <div class="page-header"><h1>Video List Create Api</h1></div>
+            
+            
+            
+            <div class="request-info" style="clear: both" >
+                <pre class="prettyprint"><b>GET</b> /api/v2/video/?page=111&amp;format=api</pre>
+            </div>
+            <div class="response-info">
+                <pre class="prettyprint"><div class="meta nocode"><b>HTTP 200 OK</b>
+<b>Content-Type:</b> <span class="lit">application/json</span>
+<b>Vary:</b> <span class="lit">Accept</span>
+<b>Allow:</b> <span class="lit">GET, POST, HEAD, OPTIONS</span>
+
+</div>{
+    &quot;count&quot;: 3439, 
+    &quot;next&quot;: &quot;<a href="http://pyvideo.org/api/v2/video/?page=112&amp;format=api" rel="nofollow">http://pyvideo.org/api/v2/video/?page=112&amp;format=api</a>&quot;, 
+    &quot;previous&quot;: &quot;<a href="http://pyvideo.org/api/v2/video/?page=110&amp;format=api" rel="nofollow">http://pyvideo.org/api/v2/video/?page=110&amp;format=api</a>&quot;, 
+    &quot;results&quot;: [
+        {
+            &quot;category&quot;: &quot;PyCon US 2013&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;rpy2-use-r-from-the-comfort-of-python&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Laurent Gautier&quot;
+            ], 
+            &quot;tags&quot;: [
+                &quot;poster&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 1842, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;rpy2: Use R from the Comfort of Python&quot;, 
+            &quot;summary&quot;: &quot;R has become hard to avoid when working with data; there is hardly a method in statistics or visualization that is not available, and there are many methods that are originally only available in R.\r\n\r\nThe Python-to-R bridge opens the whole library of R functions, classes, and datasets to the Python programmer by exposing an embedded R process and its objects through a Python library.&quot;, 
+            &quot;description&quot;: &quot;&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;CC&quot;, 
+            &quot;embed&quot;: &quot;&lt;object width=\&quot;640\&quot; height=\&quot;390\&quot;&gt;&lt;param name=\&quot;movie\&quot; value=\&quot;http://youtube.com/v/MoA0uLcXDFQ?version=3&amp;amp;hl=en_US\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowFullScreen\&quot; value=\&quot;true\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowscriptaccess\&quot; value=\&quot;always\&quot;&gt;&lt;/param&gt;&lt;embed src=\&quot;http://youtube.com/v/MoA0uLcXDFQ?version=3&amp;amp;hl=en_US\&quot; type=\&quot;application/x-shockwave-flash\&quot; width=\&quot;640\&quot; height=\&quot;390\&quot; allowscriptaccess=\&quot;always\&quot; allowfullscreen=\&quot;true\&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://i.ytimg.com/vi/MoA0uLcXDFQ/hqdefault.jpg" rel="nofollow">http://i.ytimg.com/vi/MoA0uLcXDFQ/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: &quot;&quot;, 
+            &quot;video_mp4_download_only&quot;: true, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="https://www.youtube.com/watch?v=MoA0uLcXDFQ" rel="nofollow">https://www.youtube.com/watch?v=MoA0uLcXDFQ</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2013-03-17&quot;, 
+            &quot;added&quot;: &quot;2013-03-13T18:58:00&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:26.604&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyCon US 2013&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;serpint-controlling-raspberry-pi-gpio-with-a-se&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Louis Goessling&quot;
+            ], 
+            &quot;tags&quot;: [
+                &quot;poster&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 1833, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Serpint - Controlling Raspberry Pi GPIO with a Serial Port/Socket&quot;, 
+            &quot;summary&quot;: &quot;Serpint is software for controlling the GPIO pins on a Raspberry Pi over a socket or serial port.  It can be used to control the GPIO pins from languages that don&#39;t already have a GPIO library, but do for sockets or serial, or from programs that expect a serial port, and do that from half a world away.&quot;, 
+            &quot;description&quot;: &quot;&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;CC&quot;, 
+            &quot;embed&quot;: &quot;&lt;object width=\&quot;640\&quot; height=\&quot;390\&quot;&gt;&lt;param name=\&quot;movie\&quot; value=\&quot;http://youtube.com/v/GJtYnufXvNE?version=3&amp;amp;hl=en_US\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowFullScreen\&quot; value=\&quot;true\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowscriptaccess\&quot; value=\&quot;always\&quot;&gt;&lt;/param&gt;&lt;embed src=\&quot;http://youtube.com/v/GJtYnufXvNE?version=3&amp;amp;hl=en_US\&quot; type=\&quot;application/x-shockwave-flash\&quot; width=\&quot;640\&quot; height=\&quot;390\&quot; allowscriptaccess=\&quot;always\&quot; allowfullscreen=\&quot;true\&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://i.ytimg.com/vi/GJtYnufXvNE/hqdefault.jpg" rel="nofollow">http://i.ytimg.com/vi/GJtYnufXvNE/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: &quot;&quot;, 
+            &quot;video_mp4_download_only&quot;: true, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="https://www.youtube.com/watch?v=GJtYnufXvNE" rel="nofollow">https://www.youtube.com/watch?v=GJtYnufXvNE</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2013-03-17&quot;, 
+            &quot;added&quot;: &quot;2013-03-13T18:57:47&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:26.605&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyCon US 2013&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;server-log-analysis-with-pandas-0&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Taavi Burns&quot;
+            ], 
+            &quot;tags&quot;: [
+                &quot;talk&quot;
+            ], 
+            &quot;related_urls&quot;: [
+                {
+                    &quot;url&quot;: &quot;<a href="http://taaviburns.ca/presentations/log_analysis_with_pandas2013/index.html" rel="nofollow">http://taaviburns.ca/presentations/log_analysis_with_pandas2013/index.html</a>&quot;, 
+                    &quot;description&quot;: &quot;ipython notebooks used in the talk&quot;
+                }
+            ], 
+            &quot;id&quot;: 1745, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Server Log Analysis with Pandas&quot;, 
+            &quot;summary&quot;: &quot;Use iPython, matplotlib, and Pandas to slice, dice, and visualize your application&#39;s behaviour through its logs.&quot;, 
+            &quot;description&quot;: &quot;&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;CC&quot;, 
+            &quot;embed&quot;: &quot;&lt;object width=\&quot;640\&quot; height=\&quot;390\&quot;&gt;&lt;param name=\&quot;movie\&quot; value=\&quot;http://youtube.com/v/MbflVr-MBm0?version=3&amp;amp;hl=en_US\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowFullScreen\&quot; value=\&quot;true\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowscriptaccess\&quot; value=\&quot;always\&quot;&gt;&lt;/param&gt;&lt;embed src=\&quot;http://youtube.com/v/MbflVr-MBm0?version=3&amp;amp;hl=en_US\&quot; type=\&quot;application/x-shockwave-flash\&quot; width=\&quot;640\&quot; height=\&quot;390\&quot; allowscriptaccess=\&quot;always\&quot; allowfullscreen=\&quot;true\&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://i2.ytimg.com/vi/MbflVr-MBm0/hqdefault.jpg" rel="nofollow">http://i2.ytimg.com/vi/MbflVr-MBm0/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: &quot;&quot;, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: &quot;<a href="http://s3.us.archive.org/nextdayvideo/psf/pycon2013/Server_Log_Analysis_with_Panda.mp4?Signature=n9c7Z05AhoBwzxlBDngXk/pf56U=&amp;Expires=1363827408&amp;AWSAccessKeyId=FEWGReWX3QbNk0h3" rel="nofollow">http://s3.us.archive.org/nextdayvideo/psf/pycon2013/Server_Log_Analysis_with_Panda.mp4?Signature=n9c7Z05AhoBwzxlBDngXk%2Fpf56U%3D&amp;Expires=1363827408&amp;AWSAccessKeyId=FEWGReWX3QbNk0h3</a>&quot;, 
+            &quot;video_mp4_download_only&quot;: true, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: &quot;&quot;, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: &quot;&quot;, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="https://www.youtube.com/watch?v=MbflVr-MBm0" rel="nofollow">https://www.youtube.com/watch?v=MbflVr-MBm0</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2013-03-17&quot;, 
+            &quot;added&quot;: &quot;2013-03-13T18:55:33&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:26.606&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyCon US 2013&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;use-curses-dont-swear&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Sean Zicari&quot;
+            ], 
+            &quot;tags&quot;: [
+                &quot;talk&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 1748, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Use curses, don&#39;t swear&quot;, 
+            &quot;summary&quot;: &quot;I find it very handy to be able to fire up the command line and make changes through a well-designed CLI tool. I&#39;d like to show how the 3rd party urwid library or the built-in curses library can be used to build such tools easily.&quot;, 
+            &quot;description&quot;: &quot;&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;CC&quot;, 
+            &quot;embed&quot;: &quot;&lt;object width=\&quot;640\&quot; height=\&quot;390\&quot;&gt;&lt;param name=\&quot;movie\&quot; value=\&quot;http://youtube.com/v/eN1eZtjLEnU?version=3&amp;amp;hl=en_US\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowFullScreen\&quot; value=\&quot;true\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowscriptaccess\&quot; value=\&quot;always\&quot;&gt;&lt;/param&gt;&lt;embed src=\&quot;http://youtube.com/v/eN1eZtjLEnU?version=3&amp;amp;hl=en_US\&quot; type=\&quot;application/x-shockwave-flash\&quot; width=\&quot;640\&quot; height=\&quot;390\&quot; allowscriptaccess=\&quot;always\&quot; allowfullscreen=\&quot;true\&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://i.ytimg.com/vi/eN1eZtjLEnU/hqdefault.jpg" rel="nofollow">http://i.ytimg.com/vi/eN1eZtjLEnU/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: &quot;<a href="http://s3.us.archive.org/nextdayvideo/psf/pycon2013/Use_curses_dont_swear.mp4?Signature=LQEUBCdnaUnokEGRYb2MjCMynic=&amp;Expires=1363828652&amp;AWSAccessKeyId=FEWGReWX3QbNk0h3" rel="nofollow">http://s3.us.archive.org/nextdayvideo/psf/pycon2013/Use_curses_dont_swear.mp4?Signature=LQEUBCdnaUnokEGRYb2MjCMynic%3D&amp;Expires=1363828652&amp;AWSAccessKeyId=FEWGReWX3QbNk0h3</a>&quot;, 
+            &quot;video_mp4_download_only&quot;: true, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="https://www.youtube.com/watch?v=eN1eZtjLEnU" rel="nofollow">https://www.youtube.com/watch?v=eN1eZtjLEnU</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2013-03-17&quot;, 
+            &quot;added&quot;: &quot;2013-03-13T18:55:38&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:26.610&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyCon US 2013&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;using-python-to-code-by-voice&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Tavis Rudd&quot;
+            ], 
+            &quot;tags&quot;: [
+                &quot;talk&quot;
+            ], 
+            &quot;related_urls&quot;: [
+                {
+                    &quot;url&quot;: &quot;<a href="https://github.com/tavisrudd" rel="nofollow">https://github.com/tavisrudd</a>&quot;, 
+                    &quot;description&quot;: &quot;Tavis&#39;s github account&quot;
+                }
+            ], 
+            &quot;id&quot;: 1735, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Using Python to Code by Voice&quot;, 
+            &quot;summary&quot;: &quot;I dictate my code using a voice recognition system with Python embedded in it.  In a fast paced live demo, I will code a small system and deploy it without touching the keyboard. I hope to convince you that voice recognition is no longer a crutch for the disabled or limited to plain prose.&quot;, 
+            &quot;description&quot;: &quot;Two years ago I developed a case of Emacs Pinkie (RSI) so severe my hands went numb and I could no longer type or work. Desperate, I tried voice recognition. At first programming with it was painfully slow but, as I couldn\u2019t type, I persevered. After several months of vocab tweaking and duct-tape coding in Python and Emacs Lisp, I had a system that enabled me to code faster and more efficiently by voice than I ever had by hand.\r\n\r\nIn a fast-paced live demo, I will create a small system using Python, plus a few other languages for good measure, and deploy it without touching the keyboard. The demo gods will make a scheduled appearance. I hope to convince you that voice recognition is no longer a crutch for the disabled or limited to plain prose. It\u2019s now a highly effective tool that could benefit all programmers. &quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;CC&quot;, 
+            &quot;embed&quot;: &quot;&lt;object width=\&quot;640\&quot; height=\&quot;390\&quot;&gt;&lt;param name=\&quot;movie\&quot; value=\&quot;http://youtube.com/v/8SkdfdXWYaI?version=3&amp;amp;hl=en_US\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowFullScreen\&quot; value=\&quot;true\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowscriptaccess\&quot; value=\&quot;always\&quot;&gt;&lt;/param&gt;&lt;embed src=\&quot;http://youtube.com/v/8SkdfdXWYaI?version=3&amp;amp;hl=en_US\&quot; type=\&quot;application/x-shockwave-flash\&quot; width=\&quot;640\&quot; height=\&quot;390\&quot; allowscriptaccess=\&quot;always\&quot; allowfullscreen=\&quot;true\&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://i1.ytimg.com/vi/8SkdfdXWYaI/hqdefault.jpg" rel="nofollow">http://i1.ytimg.com/vi/8SkdfdXWYaI/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: &quot;&quot;, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: &quot;<a href="http://s3.us.archive.org/nextdayvideo/psf/pycon2013/Using_Python_to_Code_by_Voice.mp4?Signature=8iV87JN7k7IweE10nJanN/AUdVY=&amp;Expires=1363825863&amp;AWSAccessKeyId=FEWGReWX3QbNk0h3" rel="nofollow">http://s3.us.archive.org/nextdayvideo/psf/pycon2013/Using_Python_to_Code_by_Voice.mp4?Signature=8iV87JN7k7IweE10nJanN%2FAUdVY%3D&amp;Expires=1363825863&amp;AWSAccessKeyId=FEWGReWX3QbNk0h3</a>&quot;, 
+            &quot;video_mp4_download_only&quot;: true, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: &quot;&quot;, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: &quot;&quot;, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="https://www.youtube.com/watch?v=8SkdfdXWYaI" rel="nofollow">https://www.youtube.com/watch?v=8SkdfdXWYaI</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2013-03-17&quot;, 
+            &quot;added&quot;: &quot;2013-03-13T18:55:18&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:26.612&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyCon US 2013&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;we-have-we-need-disaster-relief-in-the-modern&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Jon Wong&quot;, 
+                &quot;Wes Vetter&quot;
+            ], 
+            &quot;tags&quot;: [
+                &quot;poster&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 1817, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;We Have, We Need - Disaster Relief in the Modern World&quot;, 
+            &quot;summary&quot;: &quot;**We Have, We Need** is a student-led project at the University of California, San Diego. WHWN is a supply-sharing and communication platform created for humanitarians and NGOs in disaster/crisis zones, currently targeted toward relief efforts in Haiti. Come learn how we cope with issues like frequent developer turnover, limited budgets, fluctuating team size, and varying experience levels.&quot;, 
+            &quot;description&quot;: &quot;&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;CC&quot;, 
+            &quot;embed&quot;: &quot;&lt;object width=\&quot;640\&quot; height=\&quot;390\&quot;&gt;&lt;param name=\&quot;movie\&quot; value=\&quot;http://youtube.com/v/kzK73CiQUY8?version=3&amp;amp;hl=en_US\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowFullScreen\&quot; value=\&quot;true\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowscriptaccess\&quot; value=\&quot;always\&quot;&gt;&lt;/param&gt;&lt;embed src=\&quot;http://youtube.com/v/kzK73CiQUY8?version=3&amp;amp;hl=en_US\&quot; type=\&quot;application/x-shockwave-flash\&quot; width=\&quot;640\&quot; height=\&quot;390\&quot; allowscriptaccess=\&quot;always\&quot; allowfullscreen=\&quot;true\&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://i.ytimg.com/vi/kzK73CiQUY8/hqdefault.jpg" rel="nofollow">http://i.ytimg.com/vi/kzK73CiQUY8/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: &quot;&quot;, 
+            &quot;video_mp4_download_only&quot;: true, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="https://www.youtube.com/watch?v=kzK73CiQUY8" rel="nofollow">https://www.youtube.com/watch?v=kzK73CiQUY8</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2013-03-17&quot;, 
+            &quot;added&quot;: &quot;2013-03-13T18:57:22&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:26.614&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyCon US 2013&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;why-pyramid-is-awesome-to-build-facebook-applicat&quot;, 
+            &quot;speakers&quot;: [
+                &quot;\u00c9ric Araujo&quot;
+            ], 
+            &quot;tags&quot;: [
+                &quot;poster&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 1820, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Why Pyramid is awesome: the example of Facebook applications&quot;, 
+            &quot;summary&quot;: &quot;Beside the friends, walls and photos, Facebook is a platform where anybody can build applications or games taking advantage of the huge user base and connections between people.  Any web-capable language or framework can be used to do that, but this poster will show you why Pyramid is a most excellent choice.&quot;, 
+            &quot;description&quot;: &quot;&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;CC&quot;, 
+            &quot;embed&quot;: &quot;&lt;object width=\&quot;640\&quot; height=\&quot;390\&quot;&gt;&lt;param name=\&quot;movie\&quot; value=\&quot;http://youtube.com/v/EGQBKRax-sE?version=3&amp;amp;hl=en_US\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowFullScreen\&quot; value=\&quot;true\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowscriptaccess\&quot; value=\&quot;always\&quot;&gt;&lt;/param&gt;&lt;embed src=\&quot;http://youtube.com/v/EGQBKRax-sE?version=3&amp;amp;hl=en_US\&quot; type=\&quot;application/x-shockwave-flash\&quot; width=\&quot;640\&quot; height=\&quot;390\&quot; allowscriptaccess=\&quot;always\&quot; allowfullscreen=\&quot;true\&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://i.ytimg.com/vi/EGQBKRax-sE/hqdefault.jpg" rel="nofollow">http://i.ytimg.com/vi/EGQBKRax-sE/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: &quot;&quot;, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: &quot;&quot;, 
+            &quot;video_mp4_download_only&quot;: true, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="https://www.youtube.com/watch?v=EGQBKRax-sE" rel="nofollow">https://www.youtube.com/watch?v=EGQBKRax-sE</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2013-03-17&quot;, 
+            &quot;added&quot;: &quot;2013-03-13T18:57:27&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:26.615&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyCon US 2013&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;worry-free-parsers-with-parsley&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Allen Short&quot;
+            ], 
+            &quot;tags&quot;: [
+                &quot;talk&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 1736, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Worry-Free Parsers with Parsley&quot;, 
+            &quot;summary&quot;: &quot;Writing parsers has often been a task difficult for programmers to take on. Many of the tools available for parsing require writing grammar rules and code that work very different from everything else in Python. Parsley is a library that mixes the benefits of concise rule-based grammars with a parsing model that works the way you expect Python code to work.&quot;, 
+            &quot;description&quot;: &quot;&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;CC&quot;, 
+            &quot;embed&quot;: &quot;&lt;object width=\&quot;640\&quot; height=\&quot;390\&quot;&gt;&lt;param name=\&quot;movie\&quot; value=\&quot;http://youtube.com/v/t5X3ljCOFSY?version=3&amp;amp;hl=en_US\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowFullScreen\&quot; value=\&quot;true\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowscriptaccess\&quot; value=\&quot;always\&quot;&gt;&lt;/param&gt;&lt;embed src=\&quot;http://youtube.com/v/t5X3ljCOFSY?version=3&amp;amp;hl=en_US\&quot; type=\&quot;application/x-shockwave-flash\&quot; width=\&quot;640\&quot; height=\&quot;390\&quot; allowscriptaccess=\&quot;always\&quot; allowfullscreen=\&quot;true\&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://i1.ytimg.com/vi/t5X3ljCOFSY/hqdefault.jpg" rel="nofollow">http://i1.ytimg.com/vi/t5X3ljCOFSY/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: &quot;<a href="http://s3.us.archive.org/nextdayvideo/psf/pycon2013/WorryFree_Parsers_with_Parsley.mp4?Signature=8T3VOqVLqSdImhvtYB1PENbtlwo=&amp;Expires=1363826202&amp;AWSAccessKeyId=FEWGReWX3QbNk0h3" rel="nofollow">http://s3.us.archive.org/nextdayvideo/psf/pycon2013/WorryFree_Parsers_with_Parsley.mp4?Signature=8T3VOqVLqSdImhvtYB1PENbtlwo%3D&amp;Expires=1363826202&amp;AWSAccessKeyId=FEWGReWX3QbNk0h3</a>&quot;, 
+            &quot;video_mp4_download_only&quot;: true, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="https://www.youtube.com/watch?v=t5X3ljCOFSY" rel="nofollow">https://www.youtube.com/watch?v=t5X3ljCOFSY</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2013-03-17&quot;, 
+            &quot;added&quot;: &quot;2013-03-13T18:55:19&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:26.617&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyCon US 2013&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;xblock-courseware-components-from-edx&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Ned Batchelder&quot;
+            ], 
+            &quot;tags&quot;: [
+                &quot;poster&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 1843, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;XBlock: Courseware Components from edX&quot;, 
+            &quot;summary&quot;: &quot;<a href="http://edX.org" rel="nofollow">edX.org</a> is building XBlock, an open-source component architecture for courseware.  It provides API&#39;s for creating course components of all kinds. Possible uses include: simple controls, new types of problems, new quiz structures, interactive simulations, and new navigation techniques.  We&#39;re hoping to expand awareness of XBlock, and also to hear from potential users about their needs.&quot;, 
+            &quot;description&quot;: &quot;&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;CC&quot;, 
+            &quot;embed&quot;: &quot;&lt;object width=\&quot;640\&quot; height=\&quot;390\&quot;&gt;&lt;param name=\&quot;movie\&quot; value=\&quot;http://youtube.com/v/dTS-nsf7d3Q?version=3&amp;amp;hl=en_US\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowFullScreen\&quot; value=\&quot;true\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowscriptaccess\&quot; value=\&quot;always\&quot;&gt;&lt;/param&gt;&lt;embed src=\&quot;http://youtube.com/v/dTS-nsf7d3Q?version=3&amp;amp;hl=en_US\&quot; type=\&quot;application/x-shockwave-flash\&quot; width=\&quot;640\&quot; height=\&quot;390\&quot; allowscriptaccess=\&quot;always\&quot; allowfullscreen=\&quot;true\&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://i.ytimg.com/vi/dTS-nsf7d3Q/hqdefault.jpg" rel="nofollow">http://i.ytimg.com/vi/dTS-nsf7d3Q/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: &quot;&quot;, 
+            &quot;video_mp4_download_only&quot;: true, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="https://www.youtube.com/watch?v=dTS-nsf7d3Q" rel="nofollow">https://www.youtube.com/watch?v=dTS-nsf7d3Q</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2013-03-17&quot;, 
+            &quot;added&quot;: &quot;2013-03-13T18:58:02&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:26.618&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyCon US 2013&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;5-powerful-pyramid-features&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Carlos de la Guardia&quot;
+            ], 
+            &quot;tags&quot;: [
+                &quot;talk&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 1673, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;5 powerful pyramid features&quot;, 
+            &quot;summary&quot;: &quot;Pyramid is a web framework designed to do very well the fundamentals of web applications. Even though it&#39;s minimalist in its goals, it provides strong features to let developers deal with these fundamentals. In this talk, we&#39;ll look at 5 specific Pyramid features that offer web developers unique flexibility and power. &quot;, 
+            &quot;description&quot;: &quot;&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;CC&quot;, 
+            &quot;embed&quot;: &quot;&lt;object width=\&quot;640\&quot; height=\&quot;390\&quot;&gt;&lt;param name=\&quot;movie\&quot; value=\&quot;http://youtube.com/v/kMx-kkJgoPM?version=3&amp;amp;hl=en_US\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowFullScreen\&quot; value=\&quot;true\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowscriptaccess\&quot; value=\&quot;always\&quot;&gt;&lt;/param&gt;&lt;embed src=\&quot;http://youtube.com/v/kMx-kkJgoPM?version=3&amp;amp;hl=en_US\&quot; type=\&quot;application/x-shockwave-flash\&quot; width=\&quot;640\&quot; height=\&quot;390\&quot; allowscriptaccess=\&quot;always\&quot; allowfullscreen=\&quot;true\&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://i4.ytimg.com/vi/kMx-kkJgoPM/hqdefault.jpg" rel="nofollow">http://i4.ytimg.com/vi/kMx-kkJgoPM/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: &quot;&quot;, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: &quot;<a href="http://s3.us.archive.org/nextdayvideo/psf/pycon2013/5_powerful_pyramid_features.mp4?Signature=3Eupx7GWNqXnRhR+/FR+JDL9k24=&amp;Expires=1363647343&amp;AWSAccessKeyId=FEWGReWX3QbNk0h3" rel="nofollow">http://s3.us.archive.org/nextdayvideo/psf/pycon2013/5_powerful_pyramid_features.mp4?Signature=3Eupx7GWNqXnRhR%2B%2FFR%2BJDL9k24%3D&amp;Expires=1363647343&amp;AWSAccessKeyId=FEWGReWX3QbNk0h3</a>&quot;, 
+            &quot;video_mp4_download_only&quot;: true, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: &quot;&quot;, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: &quot;&quot;, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="https://www.youtube.com/watch?v=kMx-kkJgoPM" rel="nofollow">https://www.youtube.com/watch?v=kMx-kkJgoPM</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2013-03-16&quot;, 
+            &quot;added&quot;: &quot;2013-03-13T18:53:42&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:26.619&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyCon US 2013&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;all-singing-all-dancing-python-bytecode&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Larry Hastings&quot;
+            ], 
+            &quot;tags&quot;: [
+                &quot;talk&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 1777, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;All-Singing All-Dancing Python Bytecode&quot;, 
+            &quot;summary&quot;: &quot;We all know Python is a bytecode interpreter, but what does that mean? Come find out! You&#39;ll learn what Python bytecodes are, what they do, and even how you can tinker with them. By the end of the talk you&#39;ll be an expert.  All code will be 100% Python 3--knowledge of C not required!&quot;, 
+            &quot;description&quot;: &quot;&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;CC&quot;, 
+            &quot;embed&quot;: &quot;&lt;object width=\&quot;640\&quot; height=\&quot;390\&quot;&gt;&lt;param name=\&quot;movie\&quot; value=\&quot;http://youtube.com/v/CKu6d_v4Pqo?version=3&amp;amp;hl=en_US\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowFullScreen\&quot; value=\&quot;true\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowscriptaccess\&quot; value=\&quot;always\&quot;&gt;&lt;/param&gt;&lt;embed src=\&quot;http://youtube.com/v/CKu6d_v4Pqo?version=3&amp;amp;hl=en_US\&quot; type=\&quot;application/x-shockwave-flash\&quot; width=\&quot;640\&quot; height=\&quot;390\&quot; allowscriptaccess=\&quot;always\&quot; allowfullscreen=\&quot;true\&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://i.ytimg.com/vi/CKu6d_v4Pqo/hqdefault.jpg" rel="nofollow">http://i.ytimg.com/vi/CKu6d_v4Pqo/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: &quot;<a href="http://s3.us.archive.org/nextdayvideo/psf/pycon2013/AllSinging_AllDancing_Python_B.mp4?Signature=gkZS6EiSXUb3CASVBC1wHE4nkKU=&amp;Expires=1363669932&amp;AWSAccessKeyId=FEWGReWX3QbNk0h3" rel="nofollow">http://s3.us.archive.org/nextdayvideo/psf/pycon2013/AllSinging_AllDancing_Python_B.mp4?Signature=gkZS6EiSXUb3CASVBC1wHE4nkKU%3D&amp;Expires=1363669932&amp;AWSAccessKeyId=FEWGReWX3QbNk0h3</a>&quot;, 
+            &quot;video_mp4_download_only&quot;: true, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="https://www.youtube.com/watch?v=CKu6d_v4Pqo" rel="nofollow">https://www.youtube.com/watch?v=CKu6d_v4Pqo</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2013-03-16&quot;, 
+            &quot;added&quot;: &quot;2013-03-13T18:56:22&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:26.621&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyCon US 2013&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;asset-management-in-python&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Beau Lyddon&quot;, 
+                &quot;Robert Kluin&quot;
+            ], 
+            &quot;tags&quot;: [
+                &quot;talk&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 1792, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Asset Management in Python&quot;, 
+            &quot;summary&quot;: &quot;With the growth of Coffeescript, Less, SASS, etc..., compiling the assets for your project is becoming more useful.  This talk covers using a Python library called Webassets to automate your build process.  We specifically focus on getting your Javascript and CSS compiling automatically as you work.  We show examples of integrating with common web frameworks like Django and Flask.\r\n&quot;, 
+            &quot;description&quot;: &quot;&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;CC&quot;, 
+            &quot;embed&quot;: &quot;&lt;object width=\&quot;640\&quot; height=\&quot;390\&quot;&gt;&lt;param name=\&quot;movie\&quot; value=\&quot;http://youtube.com/v/AQB9eECueSI?version=3&amp;amp;hl=en_US\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowFullScreen\&quot; value=\&quot;true\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowscriptaccess\&quot; value=\&quot;always\&quot;&gt;&lt;/param&gt;&lt;embed src=\&quot;http://youtube.com/v/AQB9eECueSI?version=3&amp;amp;hl=en_US\&quot; type=\&quot;application/x-shockwave-flash\&quot; width=\&quot;640\&quot; height=\&quot;390\&quot; allowscriptaccess=\&quot;always\&quot; allowfullscreen=\&quot;true\&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://i2.ytimg.com/vi/AQB9eECueSI/hqdefault.jpg" rel="nofollow">http://i2.ytimg.com/vi/AQB9eECueSI/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: &quot;<a href="http://s3.us.archive.org/nextdayvideo/psf/pycon2013/Asset_Management_in_Python.mp4?Signature=WGrpFAb2XZaUvEfp/aw0soeWxSc=&amp;Expires=1363812062&amp;AWSAccessKeyId=FEWGReWX3QbNk0h3" rel="nofollow">http://s3.us.archive.org/nextdayvideo/psf/pycon2013/Asset_Management_in_Python.mp4?Signature=WGrpFAb2XZaUvEfp%2Faw0soeWxSc%3D&amp;Expires=1363812062&amp;AWSAccessKeyId=FEWGReWX3QbNk0h3</a>&quot;, 
+            &quot;video_mp4_download_only&quot;: true, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="https://www.youtube.com/watch?v=AQB9eECueSI" rel="nofollow">https://www.youtube.com/watch?v=AQB9eECueSI</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2013-03-16&quot;, 
+            &quot;added&quot;: &quot;2013-03-13T18:56:45&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:26.622&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyCon US 2013&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;beyond-passwords-secure-authentication-with-mozi-0&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Dan Callahan&quot;
+            ], 
+            &quot;tags&quot;: [
+                &quot;talk&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 1764, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Beyond Passwords: Secure Authentication with Mozilla Persona&quot;, 
+            &quot;summary&quot;: &quot;Mozilla Persona is a decentralized, cross-browser authentication system that completely eliminates website passwords. It&#39;s simple, secure, and privacy-protecting. This talk explores the design of Persona with a focus on adding it as a login option to Python-based webapps, drawing from Mozilla&#39;s own experience switching many Django (and non-Django) sites away from passwords and to Persona.&quot;, 
+            &quot;description&quot;: &quot;&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;CC&quot;, 
+            &quot;embed&quot;: &quot;&lt;object width=\&quot;640\&quot; height=\&quot;390\&quot;&gt;&lt;param name=\&quot;movie\&quot; value=\&quot;http://youtube.com/v/nJff23UdNAI?version=3&amp;amp;hl=en_US\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowFullScreen\&quot; value=\&quot;true\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowscriptaccess\&quot; value=\&quot;always\&quot;&gt;&lt;/param&gt;&lt;embed src=\&quot;http://youtube.com/v/nJff23UdNAI?version=3&amp;amp;hl=en_US\&quot; type=\&quot;application/x-shockwave-flash\&quot; width=\&quot;640\&quot; height=\&quot;390\&quot; allowscriptaccess=\&quot;always\&quot; allowfullscreen=\&quot;true\&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://i3.ytimg.com/vi/nJff23UdNAI/hqdefault.jpg" rel="nofollow">http://i3.ytimg.com/vi/nJff23UdNAI/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: &quot;<a href="http://s3.us.archive.org/nextdayvideo/psf/pycon2013/Beyond_Passwords_Secure_Authen.mp4?Signature=u/EdlW4r4uLVxL2yW0vVaIQnKTM=&amp;Expires=1363665161&amp;AWSAccessKeyId=FEWGReWX3QbNk0h3" rel="nofollow">http://s3.us.archive.org/nextdayvideo/psf/pycon2013/Beyond_Passwords_Secure_Authen.mp4?Signature=u%2FEdlW4r4uLVxL2yW0vVaIQnKTM%3D&amp;Expires=1363665161&amp;AWSAccessKeyId=FEWGReWX3QbNk0h3</a>&quot;, 
+            &quot;video_mp4_download_only&quot;: true, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="https://www.youtube.com/watch?v=nJff23UdNAI" rel="nofollow">https://www.youtube.com/watch?v=nJff23UdNAI</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2013-03-16&quot;, 
+            &quot;added&quot;: &quot;2013-03-13T18:56:02&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:26.623&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyCon US 2013&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;boundaries&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Gary Bernhardt&quot;
+            ], 
+            &quot;tags&quot;: [
+                &quot;talk&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 1670, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Boundaries&quot;, 
+            &quot;summary&quot;: &quot;An exploration of the boundaries between pieces of code, including: isolated testing, behavior vs. data, mutation vs. immutability, how data shape affords parallelism, transforming interface dependencies into data dependencies, and what it might look like to build systems using all of these to guide the boundaries between objects and components.&quot;, 
+            &quot;description&quot;: &quot;&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;CC&quot;, 
+            &quot;embed&quot;: &quot;&lt;object width=\&quot;640\&quot; height=\&quot;390\&quot;&gt;&lt;param name=\&quot;movie\&quot; value=\&quot;http://youtube.com/v/eOYal8elnZk?version=3&amp;amp;hl=en_US\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowFullScreen\&quot; value=\&quot;true\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowscriptaccess\&quot; value=\&quot;always\&quot;&gt;&lt;/param&gt;&lt;embed src=\&quot;http://youtube.com/v/eOYal8elnZk?version=3&amp;amp;hl=en_US\&quot; type=\&quot;application/x-shockwave-flash\&quot; width=\&quot;640\&quot; height=\&quot;390\&quot; allowscriptaccess=\&quot;always\&quot; allowfullscreen=\&quot;true\&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://i.ytimg.com/vi/eOYal8elnZk/hqdefault.jpg" rel="nofollow">http://i.ytimg.com/vi/eOYal8elnZk/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: &quot;&quot;, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: &quot;&quot;, 
+            &quot;video_mp4_download_only&quot;: true, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: &quot;&quot;, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: &quot;&quot;, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="https://www.youtube.com/watch?v=eOYal8elnZk" rel="nofollow">https://www.youtube.com/watch?v=eOYal8elnZk</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2013-03-16&quot;, 
+            &quot;added&quot;: &quot;2013-03-13T18:53:37&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:26.624&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyCon US 2013&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;building-an-image-processing-pipeline-with-python&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Franck Chastagnol&quot;
+            ], 
+            &quot;tags&quot;: [
+                &quot;talk&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 1702, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Building an image processing pipeline with Python&quot;, 
+            &quot;summary&quot;: &quot;This talk covers the details of how to build a highly scalable image processing pipeline using Python and third-party open source libraries and tools such as OpenCV, NumPy, Tesseract, ImageMagick, Tornado, Nginx and MySQL.&quot;, 
+            &quot;description&quot;: &quot;&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;CC&quot;, 
+            &quot;embed&quot;: &quot;&lt;object width=\&quot;640\&quot; height=\&quot;390\&quot;&gt;&lt;param name=\&quot;movie\&quot; value=\&quot;http://youtube.com/v/B1d9dpqBDVA?version=3&amp;amp;hl=en_US\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowFullScreen\&quot; value=\&quot;true\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowscriptaccess\&quot; value=\&quot;always\&quot;&gt;&lt;/param&gt;&lt;embed src=\&quot;http://youtube.com/v/B1d9dpqBDVA?version=3&amp;amp;hl=en_US\&quot; type=\&quot;application/x-shockwave-flash\&quot; width=\&quot;640\&quot; height=\&quot;390\&quot; allowscriptaccess=\&quot;always\&quot; allowfullscreen=\&quot;true\&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://i3.ytimg.com/vi/B1d9dpqBDVA/hqdefault.jpg" rel="nofollow">http://i3.ytimg.com/vi/B1d9dpqBDVA/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: &quot;<a href="http://s3.us.archive.org/nextdayvideo/psf/pycon2013/Building_an_image_processing_p.mp4?Signature=EXaUQ3HgpoZ6W4Jg6n7QxG25h44=&amp;Expires=1363655847&amp;AWSAccessKeyId=FEWGReWX3QbNk0h3" rel="nofollow">http://s3.us.archive.org/nextdayvideo/psf/pycon2013/Building_an_image_processing_p.mp4?Signature=EXaUQ3HgpoZ6W4Jg6n7QxG25h44%3D&amp;Expires=1363655847&amp;AWSAccessKeyId=FEWGReWX3QbNk0h3</a>&quot;, 
+            &quot;video_mp4_download_only&quot;: true, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="https://www.youtube.com/watch?v=B1d9dpqBDVA" rel="nofollow">https://www.youtube.com/watch?v=B1d9dpqBDVA</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2013-03-16&quot;, 
+            &quot;added&quot;: &quot;2013-03-13T18:54:27&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:26.626&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyCon US 2013&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;building-full-stack-scientific-applications-in-py&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Luke Lee&quot;
+            ], 
+            &quot;tags&quot;: [
+                &quot;talk&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 1751, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Building full-stack scientific applications in Python&quot;, 
+            &quot;summary&quot;: &quot;Python has a large collection of tools for scientific computing.  However,\r\nfinding the right pieces and assembling them into a fast and scale-able app can\r\nbe a daunting task.  This talk will explore common requirements of scientific\r\napps and how to fulfill those from the Python ecosystem.  It will also provide a\r\nblueprint for building apps using tools like PyQt, PyQwt, numpy, and HDF5.&quot;, 
+            &quot;description&quot;: &quot;&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;CC&quot;, 
+            &quot;embed&quot;: &quot;&lt;object width=\&quot;640\&quot; height=\&quot;390\&quot;&gt;&lt;param name=\&quot;movie\&quot; value=\&quot;http://youtube.com/v/dQHPV6sVlls?version=3&amp;amp;hl=en_US\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowFullScreen\&quot; value=\&quot;true\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowscriptaccess\&quot; value=\&quot;always\&quot;&gt;&lt;/param&gt;&lt;embed src=\&quot;http://youtube.com/v/dQHPV6sVlls?version=3&amp;amp;hl=en_US\&quot; type=\&quot;application/x-shockwave-flash\&quot; width=\&quot;640\&quot; height=\&quot;390\&quot; allowscriptaccess=\&quot;always\&quot; allowfullscreen=\&quot;true\&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://i1.ytimg.com/vi/dQHPV6sVlls/hqdefault.jpg" rel="nofollow">http://i1.ytimg.com/vi/dQHPV6sVlls/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: &quot;<a href="http://s3.us.archive.org/nextdayvideo/psf/pycon2013/Building_fullstack_scientific_.mp4?Signature=UiaN0L3QQMRfPIxd2pzo9KlV/dg=&amp;Expires=1363809374&amp;AWSAccessKeyId=FEWGReWX3QbNk0h3" rel="nofollow">http://s3.us.archive.org/nextdayvideo/psf/pycon2013/Building_fullstack_scientific_.mp4?Signature=UiaN0L3QQMRfPIxd2pzo9KlV%2Fdg%3D&amp;Expires=1363809374&amp;AWSAccessKeyId=FEWGReWX3QbNk0h3</a>&quot;, 
+            &quot;video_mp4_download_only&quot;: true, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="https://www.youtube.com/watch?v=dQHPV6sVlls" rel="nofollow">https://www.youtube.com/watch?v=dQHPV6sVlls</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2013-03-16&quot;, 
+            &quot;added&quot;: &quot;2013-03-13T18:55:42&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:26.627&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyCon US 2013&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;chef-automating-web-application-infrastructure&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Kate Heddleston&quot;
+            ], 
+            &quot;tags&quot;: [
+                &quot;talk&quot;
+            ], 
+            &quot;related_urls&quot;: [
+                {
+                    &quot;url&quot;: &quot;<a href="https://github.com/heddle317/django-chef-application" rel="nofollow">https://github.com/heddle317/django-chef-application</a>&quot;, 
+                    &quot;description&quot;: &quot;A starter repo for configuring a Django application server using Chef.&quot;
+                }
+            ], 
+            &quot;id&quot;: 1756, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Chef: Automating web application infrastructure&quot;, 
+            &quot;summary&quot;: &quot;This talk is going to focus on using Chef to create web application projects, specifically a python project with a Django framework. Chef is a configuration tool for managing infrastructure by allowing users to automatically and reproducibly configure installations on servers. This talk will cover what is Chef, why automated server configuration is important, and how Chef can be used personally.&quot;, 
+            &quot;description&quot;: &quot;&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;CC&quot;, 
+            &quot;embed&quot;: &quot;&lt;object width=\&quot;640\&quot; height=\&quot;390\&quot;&gt;&lt;param name=\&quot;movie\&quot; value=\&quot;http://youtube.com/v/iRtb6q6RGHI?version=3&amp;amp;hl=en_US\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowFullScreen\&quot; value=\&quot;true\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowscriptaccess\&quot; value=\&quot;always\&quot;&gt;&lt;/param&gt;&lt;embed src=\&quot;http://youtube.com/v/iRtb6q6RGHI?version=3&amp;amp;hl=en_US\&quot; type=\&quot;application/x-shockwave-flash\&quot; width=\&quot;640\&quot; height=\&quot;390\&quot; allowscriptaccess=\&quot;always\&quot; allowfullscreen=\&quot;true\&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://i2.ytimg.com/vi/iRtb6q6RGHI/hqdefault.jpg" rel="nofollow">http://i2.ytimg.com/vi/iRtb6q6RGHI/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: &quot;&quot;, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: &quot;<a href="http://s3.us.archive.org/nextdayvideo/psf/pycon2013/Chef_Automating_web_applicatio.mp4?Signature=A6raCR8Q43LtmO2+0woXGl1WWD8=&amp;Expires=1363726619&amp;AWSAccessKeyId=FEWGReWX3QbNk0h3" rel="nofollow">http://s3.us.archive.org/nextdayvideo/psf/pycon2013/Chef_Automating_web_applicatio.mp4?Signature=A6raCR8Q43LtmO2%2B0woXGl1WWD8%3D&amp;Expires=1363726619&amp;AWSAccessKeyId=FEWGReWX3QbNk0h3</a>&quot;, 
+            &quot;video_mp4_download_only&quot;: true, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: &quot;&quot;, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: &quot;&quot;, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="https://www.youtube.com/watch?v=iRtb6q6RGHI" rel="nofollow">https://www.youtube.com/watch?v=iRtb6q6RGHI</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2013-03-16&quot;, 
+            &quot;added&quot;: &quot;2013-03-13T18:55:50&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:26.628&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyCon US 2013&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;community-event-planning&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Christie Koehler&quot;
+            ], 
+            &quot;tags&quot;: [
+                &quot;talk&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 1775, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Community Event Planning&quot;, 
+            &quot;summary&quot;: &quot;Hosting in-person events is a great way to develop and grow your local Python community. If you\u2019ve ever thought about hosting a code sprint, hackathon, (un)conference or workshop, this talk is for you. I\u2019ll present quick overview of what you need to know to get started planning a successful event. Event planning workbook included.&quot;, 
+            &quot;description&quot;: &quot;&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;CC&quot;, 
+            &quot;embed&quot;: &quot;&lt;object width=\&quot;640\&quot; height=\&quot;390\&quot;&gt;&lt;param name=\&quot;movie\&quot; value=\&quot;http://youtube.com/v/gTIhUoa4G14?version=3&amp;amp;hl=en_US\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowFullScreen\&quot; value=\&quot;true\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowscriptaccess\&quot; value=\&quot;always\&quot;&gt;&lt;/param&gt;&lt;embed src=\&quot;http://youtube.com/v/gTIhUoa4G14?version=3&amp;amp;hl=en_US\&quot; type=\&quot;application/x-shockwave-flash\&quot; width=\&quot;640\&quot; height=\&quot;390\&quot; allowscriptaccess=\&quot;always\&quot; allowfullscreen=\&quot;true\&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://i4.ytimg.com/vi/gTIhUoa4G14/hqdefault.jpg" rel="nofollow">http://i4.ytimg.com/vi/gTIhUoa4G14/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: &quot;<a href="http://s3.us.archive.org/nextdayvideo/psf/pycon2013/Community_Event_Planning.mp4?Signature=MjfDzFK8AiQw3u/odtIrVFQLyYI=&amp;Expires=1363668674&amp;AWSAccessKeyId=FEWGReWX3QbNk0h3" rel="nofollow">http://s3.us.archive.org/nextdayvideo/psf/pycon2013/Community_Event_Planning.mp4?Signature=MjfDzFK8AiQw3u%2FodtIrVFQLyYI%3D&amp;Expires=1363668674&amp;AWSAccessKeyId=FEWGReWX3QbNk0h3</a>&quot;, 
+            &quot;video_mp4_download_only&quot;: true, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="https://www.youtube.com/watch?v=gTIhUoa4G14" rel="nofollow">https://www.youtube.com/watch?v=gTIhUoa4G14</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2013-03-16&quot;, 
+            &quot;added&quot;: &quot;2013-03-13T18:56:19&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:26.630&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyCon US 2013&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;copyright-and-you&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Frank Siler&quot;
+            ], 
+            &quot;tags&quot;: [
+                &quot;talk&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 1689, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Copyright and You&quot;, 
+            &quot;summary&quot;: &quot;The basics of copyright law mainly as applies to the United States but also covering the fundamental tenets that govern international law.  I include quite a bit of overview material as well as talk about specific licensing schemes, including open source schemes, and some recent trends including open hardware.&quot;, 
+            &quot;description&quot;: &quot;&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;CC&quot;, 
+            &quot;embed&quot;: &quot;&lt;object width=\&quot;640\&quot; height=\&quot;390\&quot;&gt;&lt;param name=\&quot;movie\&quot; value=\&quot;http://youtube.com/v/3J3bpgIZ9cM?version=3&amp;amp;hl=en_US\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowFullScreen\&quot; value=\&quot;true\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowscriptaccess\&quot; value=\&quot;always\&quot;&gt;&lt;/param&gt;&lt;embed src=\&quot;http://youtube.com/v/3J3bpgIZ9cM?version=3&amp;amp;hl=en_US\&quot; type=\&quot;application/x-shockwave-flash\&quot; width=\&quot;640\&quot; height=\&quot;390\&quot; allowscriptaccess=\&quot;always\&quot; allowfullscreen=\&quot;true\&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://i4.ytimg.com/vi/3J3bpgIZ9cM/hqdefault.jpg" rel="nofollow">http://i4.ytimg.com/vi/3J3bpgIZ9cM/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: &quot;&quot;, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: &quot;<a href="http://s3.us.archive.org/nextdayvideo/psf/pycon2013/Copyright_and_You.mp4?Signature=iXWD7Dk30HEoMpdZ9Z9N4Z7mTiA=&amp;Expires=1363651774&amp;AWSAccessKeyId=FEWGReWX3QbNk0h3" rel="nofollow">http://s3.us.archive.org/nextdayvideo/psf/pycon2013/Copyright_and_You.mp4?Signature=iXWD7Dk30HEoMpdZ9Z9N4Z7mTiA%3D&amp;Expires=1363651774&amp;AWSAccessKeyId=FEWGReWX3QbNk0h3</a>&quot;, 
+            &quot;video_mp4_download_only&quot;: true, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: &quot;&quot;, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: &quot;&quot;, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="https://www.youtube.com/watch?v=3J3bpgIZ9cM" rel="nofollow">https://www.youtube.com/watch?v=3J3bpgIZ9cM</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2013-03-16&quot;, 
+            &quot;added&quot;: &quot;2013-03-13T18:54:07&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:26.631&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyCon US 2013&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;crypto-101&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Laurens Van Houtven&quot;
+            ], 
+            &quot;tags&quot;: [
+                &quot;talk&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 1778, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Crypto 101&quot;, 
+            &quot;summary&quot;: &quot;An introduction to applied cryptography and information security suitable for programmers of all ages and skill levels.&quot;, 
+            &quot;description&quot;: &quot;&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;CC&quot;, 
+            &quot;embed&quot;: &quot;&lt;object width=\&quot;640\&quot; height=\&quot;390\&quot;&gt;&lt;param name=\&quot;movie\&quot; value=\&quot;http://youtube.com/v/3rmCGsCYJF8?version=3&amp;amp;hl=en_US\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowFullScreen\&quot; value=\&quot;true\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowscriptaccess\&quot; value=\&quot;always\&quot;&gt;&lt;/param&gt;&lt;embed src=\&quot;http://youtube.com/v/3rmCGsCYJF8?version=3&amp;amp;hl=en_US\&quot; type=\&quot;application/x-shockwave-flash\&quot; width=\&quot;640\&quot; height=\&quot;390\&quot; allowscriptaccess=\&quot;always\&quot; allowfullscreen=\&quot;true\&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://i.ytimg.com/vi/3rmCGsCYJF8/hqdefault.jpg" rel="nofollow">http://i.ytimg.com/vi/3rmCGsCYJF8/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: &quot;&quot;, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: &quot;<a href="http://s3.us.archive.org/nextdayvideo/psf/pycon2013/Crypto_101.mp4?Signature=PJqxnkdAZqc5cr2dG3M0RRZ8kgk=&amp;Expires=1363731198&amp;AWSAccessKeyId=FEWGReWX3QbNk0h3" rel="nofollow">http://s3.us.archive.org/nextdayvideo/psf/pycon2013/Crypto_101.mp4?Signature=PJqxnkdAZqc5cr2dG3M0RRZ8kgk%3D&amp;Expires=1363731198&amp;AWSAccessKeyId=FEWGReWX3QbNk0h3</a>&quot;, 
+            &quot;video_mp4_download_only&quot;: true, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: &quot;&quot;, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: &quot;&quot;, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="https://www.youtube.com/watch?v=3rmCGsCYJF8" rel="nofollow">https://www.youtube.com/watch?v=3rmCGsCYJF8</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2013-03-16&quot;, 
+            &quot;added&quot;: &quot;2013-03-13T18:56:23&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:26.632&quot;
+        }
+    ]
+}</pre>
+            </div>
+        </div>
+
+            
+
+                
+
+                
+            
+
+        </div>
+        <!-- END content-main -->
+
+    </div>
+    <!-- END Content -->
+
+        <div id="push"></div>
+
+    </div>
+
+    </div><!-- ./wrapper -->
+
+    
+    
+
+    
+    <script src="/static/rest_framework/js/jquery-1.8.1-min.js"></script>
+    <script src="/static/rest_framework/js/bootstrap.min.js"></script>
+    <script src="/static/rest_framework/js/prettify-min.js"></script>
+    <script src="/static/rest_framework/js/default.js"></script>
+    
+  </body>
+
+<!-- Mirrored from pyvideo.org/api/v2/video/?page=111&format=api by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 07 Jan 2016 03:51:47 GMT -->
+</html>

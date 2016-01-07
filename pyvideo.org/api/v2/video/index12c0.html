@@ -1,0 +1,908 @@
+
+
+<!DOCTYPE html>
+<html>
+    
+<!-- Mirrored from pyvideo.org/api/v2/video/?page=62 by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 07 Jan 2016 03:49:10 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+    
+
+        
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+        <meta name="robots" content="NONE,NOARCHIVE" />
+        
+
+        <title>Django REST framework</title>
+
+        
+        
+            <link rel="stylesheet" type="text/css" href="/static/rest_framework/css/bootstrap.min.css"/>
+            <link rel="stylesheet" type="text/css" href="/static/rest_framework/css/bootstrap-tweaks.css"/>
+        
+        <link rel="stylesheet" type="text/css" href="/static/rest_framework/css/prettify.css"/>
+        <link rel="stylesheet" type="text/css" href="/static/rest_framework/css/default.css"/>
+        
+
+    
+    </head>
+
+  <body class=" container">
+
+    <div class="wrapper">
+
+    
+    <div class="navbar navbar-inverse">
+        <div class="navbar-inner">
+            <div class="container-fluid">
+                <span href="/">
+                    <a class='brand' rel="nofollow" href='http://www.django-rest-framework.org'>Django REST framework <span class="version">2.3.14</span></a>
+                </span>
+                <ul class="nav pull-right">
+                    
+                        
+                            <li></li>
+                        
+                    
+                </ul>
+            </div>
+        </div>
+    </div>
+    
+
+    
+    <ul class="breadcrumb">
+        
+            <li>
+                <a href="/api/v2/video/" class="active">Video List Create Api</a> 
+            </li>
+        
+    </ul>
+    
+
+    <!-- Content -->
+    <div id="content">
+
+        
+            <form id="get-form" class="pull-right">
+                <fieldset>
+                    <div class="btn-group format-selection">
+                        <a class="btn btn-primary js-tooltip" href='/api/v2/video/?page=62' rel="nofollow" title="Make a GET request on the Video List Create Api resource">GET</a>
+
+                        <button class="btn btn-primary dropdown-toggle js-tooltip" data-toggle="dropdown" title="Specify a format for the GET request">
+                            <span class="caret"></span>
+                        </button>
+                        <ul class="dropdown-menu">
+                            
+                                <li>
+                                    <a class="js-tooltip format-option" href='/api/v2/video/?page=62&format=json' rel="nofollow" title="Make a GET request on the Video List Create Api resource with the format set to `json`">json</a>
+                                </li>
+                            
+                                <li>
+                                    <a class="js-tooltip format-option" href='/api/v2/video/?page=62&format=api' rel="nofollow" title="Make a GET request on the Video List Create Api resource with the format set to `api`">api</a>
+                                </li>
+                            
+                        </ul>
+                    </div>
+
+                </fieldset>
+            </form>
+        
+
+        
+            <form class="button-form" action="/api/v2/video/?page=62" method="POST" class="pull-right">
+                <input type='hidden' name='csrfmiddlewaretoken' value='pT8iI6zhtQdsGFmu4tryYgFrUlipl2B3' />
+                <input type="hidden" name="_method" value="OPTIONS" />
+                <button class="btn btn-primary js-tooltip" title="Make an OPTIONS request on the Video List Create Api resource">OPTIONS</button>
+            </form>
+        
+
+        
+
+        <div class="content-main">
+            <div class="page-header"><h1>Video List Create Api</h1></div>
+            
+            
+            
+            <div class="request-info" style="clear: both" >
+                <pre class="prettyprint"><b>GET</b> /api/v2/video/?page=62</pre>
+            </div>
+            <div class="response-info">
+                <pre class="prettyprint"><div class="meta nocode"><b>HTTP 200 OK</b>
+<b>Content-Type:</b> <span class="lit">application/json</span>
+<b>Vary:</b> <span class="lit">Accept</span>
+<b>Allow:</b> <span class="lit">GET, POST, HEAD, OPTIONS</span>
+
+</div>{
+    &quot;count&quot;: 3439, 
+    &quot;next&quot;: &quot;<a href="http://pyvideo.org/api/v2/video/?page=63" rel="nofollow">http://pyvideo.org/api/v2/video/?page=63</a>&quot;, 
+    &quot;previous&quot;: &quot;<a href="http://pyvideo.org/api/v2/video/?page=61" rel="nofollow">http://pyvideo.org/api/v2/video/?page=61</a>&quot;, 
+    &quot;results&quot;: [
+        {
+            &quot;category&quot;: &quot;PyCon AU 2014&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;lightning-talks-8&quot;, 
+            &quot;speakers&quot;: [], 
+            &quot;tags&quot;: [], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 3124, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Lightning talks&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;<a href="http://www.youtube.com/t/terms" rel="nofollow">http://www.youtube.com/t/terms</a>&quot;, 
+            &quot;embed&quot;: &quot;&lt;object width=\&quot;640\&quot; height=\&quot;390\&quot;&gt;&lt;param name=\&quot;movie\&quot; value=\&quot;http://youtube.com/v/J2ppW681A8M?version=3&amp;amp;hl=en_US\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowFullScreen\&quot; value=\&quot;true\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowscriptaccess\&quot; value=\&quot;always\&quot;&gt;&lt;/param&gt;&lt;embed src=\&quot;http://youtube.com/v/J2ppW681A8M?version=3&amp;amp;hl=en_US\&quot; type=\&quot;application/x-shockwave-flash\&quot; width=\&quot;640\&quot; height=\&quot;390\&quot; allowscriptaccess=\&quot;always\&quot; allowfullscreen=\&quot;true\&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://i.ytimg.com/vi/J2ppW681A8M/hqdefault.jpg" rel="nofollow">http://i.ytimg.com/vi/J2ppW681A8M/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: &quot;<a href="http://mirror.linux.org.au/pub/pycon-au/pyconau2014/66-out.ogv" rel="nofollow">http://mirror.linux.org.au/pub/pycon-au/pyconau2014/66-out.ogv</a>&quot;, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: &quot;&quot;, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: &quot;&quot;, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: &quot;&quot;, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="http://www.youtube.com/watch?v=J2ppW681A8M" rel="nofollow">http://www.youtube.com/watch?v=J2ppW681A8M</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;needs editing&quot;, 
+            &quot;recorded&quot;: &quot;2014-08-07&quot;, 
+            &quot;added&quot;: &quot;2014-08-14T15:33:09.554&quot;, 
+            &quot;updated&quot;: &quot;2014-08-14T19:17:50.023&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyCon APAC 2014&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;python-powered-business-analytics-pycon-apac-201&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Wes McKinney&quot;
+            ], 
+            &quot;tags&quot;: [], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 3275, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Python-powered Business Analytics&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;In this talk, I&#39;ll discuss how the modern Python stack has enabled innovation in business analytics and general purpose small, medium, and big data workflows. I&#39;ll talk about how the architecture of pandas and related projects will need to adapt and grow to suit the needs of the next decade of data analysis. Lastly, I will also give an overview of how this all relates to my company: DataPad, an early-stage business intelligence company.\r\n\r\nAbout the speaker\r\n\r\nWes McKinney is an open-source Python hacker, author, and entrepreneur. He&#39;s the creator of pandas and author of O&#39;Reilly book Python for Data Analysis. Currently, he is the Founder and CEO of DataPad, a new analytics and business intelligence company based in San Francisco. He has also been an occasional contributor to statsmodels. He started building pandas at AQR Capital Management in response to the growing need for better data manipulation tools in Python for business analytics and data science use cases.&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;creativeCommon&quot;, 
+            &quot;embed&quot;: &quot;&lt;iframe type=&#39;text/html&#39; src=&#39;http://www.youtube.com/embed/i93jidckQ7A&#39; width=&#39;640&#39; height=&#39;360&#39; frameborder=&#39;0&#39; allowfullscreen=&#39;true&#39;/&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="https://i.ytimg.com/vi/i93jidckQ7A/hqdefault.jpg" rel="nofollow">https://i.ytimg.com/vi/i93jidckQ7A/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: &quot;&quot;, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: &quot;&quot;, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: &quot;&quot;, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: &quot;&quot;, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="https://www.youtube.com/watch?v=i93jidckQ7A" rel="nofollow">https://www.youtube.com/watch?v=i93jidckQ7A</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2014-08-07&quot;, 
+            &quot;added&quot;: &quot;2014-10-26T00:13:25.343&quot;, 
+            &quot;updated&quot;: &quot;2014-10-26T16:38:00.187&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyCon APAC 2014&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;python-under-the-sea-in-space-and-back-home-p&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Jessica McKellar&quot;
+            ], 
+            &quot;tags&quot;: [], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 3272, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Python: under the sea, in space, and back home&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;About the speaker\r\n\r\nJessica McKellar is an entrepreneur, software engineer, and open source developer from Cambridge, Massachusetts, USA. She is a Director for the Python Software Foundation and an organizer for the largest Python user group in the world. With that group she runs the Boston Python Workshop -- an introductory programming pipeline that has brought hundreds of women into the local Python community and is being replicated in cities across the US. Jessica is a veteran open source contributor and a maintainer for several open source projects, including OpenHatch and the Twisted event-driven networking engine; she wrote a chapter on Twisted for The Architecture of Open Source Applications Volume II and the second edition of O\u2019Reilly\u2019s Twisted Networking Essentials.\r\n\r\nIn a PyCon US 2014 keynote, Jessica McKellar outlined the programming-education problem that exists in US high schools, but she also highlighted some steps the community could take to help fix it. Besides, the Python Software Foundation is ready to help, including looking to fund grant proposals for Python-education-related projects. Here&#39;s her challenge for the community: by next year&#39;s PyCon, we would like to see every folk does one thing to further the cause of the next generation of Python programmers.&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;creativeCommon&quot;, 
+            &quot;embed&quot;: &quot;&lt;iframe type=&#39;text/html&#39; src=&#39;http://www.youtube.com/embed/eGwSC6UnYTg&#39; width=&#39;640&#39; height=&#39;360&#39; frameborder=&#39;0&#39; allowfullscreen=&#39;true&#39;/&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="https://i.ytimg.com/vi/eGwSC6UnYTg/hqdefault.jpg" rel="nofollow">https://i.ytimg.com/vi/eGwSC6UnYTg/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: &quot;&quot;, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: &quot;&quot;, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: &quot;&quot;, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: &quot;&quot;, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="https://www.youtube.com/watch?v=eGwSC6UnYTg" rel="nofollow">https://www.youtube.com/watch?v=eGwSC6UnYTg</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2014-08-07&quot;, 
+            &quot;added&quot;: &quot;2014-10-26T00:13:24.772&quot;, 
+            &quot;updated&quot;: &quot;2014-10-26T16:41:09.845&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyCon APAC 2014&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;rapid-web-development-with-mezzanine-pycon-apac&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Stephen McDonald&quot;
+            ], 
+            &quot;tags&quot;: [], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 3260, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Rapid Web Development with Mezzanine&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;The modern world of Python web development is chock-full of choices today - do we use a micro or a monolithic framework? Do we use a CMS or roll our own? Mezzanine is one project that aims to simplify these questions with a compelling offering for developing Python powered websites.\r\n\r\nIn this talk, Stephen McDonald the creator of Mezzanine will walk through the history of Mezzanine, covering the constraints that have dictated its design, its approach to providing simple yet flexible, rapid web development, through to the software eco-system and community that have developed around it.\r\n\r\n\r\nAbout the speaker\r\n\r\nStephen McDonald is a software engineer who has worked in the web development space since the late 90s, when Netscape Gold and ICQ reigned supreme.\r\n\r\nCurrently Stephen works with several startups using Python and Django. By day he&#39;s the technical lead at Mathspace, applying machine learning techniques to transform maths education. By night he works on scaling the news reader Kouio, to handle hundreds of millions of news articles from around the world.\r\n\r\nSomewhere in between these, Stephen is also the creator and maintainer of Mezzanine, one of the most popular CMS projects for the Django framework.&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;creativeCommon&quot;, 
+            &quot;embed&quot;: &quot;&lt;iframe type=&#39;text/html&#39; src=&#39;http://www.youtube.com/embed/LQehhjL_BvE&#39; width=&#39;640&#39; height=&#39;360&#39; frameborder=&#39;0&#39; allowfullscreen=&#39;true&#39;/&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="https://i.ytimg.com/vi/LQehhjL_BvE/hqdefault.jpg" rel="nofollow">https://i.ytimg.com/vi/LQehhjL_BvE/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: &quot;&quot;, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: &quot;&quot;, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: &quot;&quot;, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: &quot;&quot;, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="https://www.youtube.com/watch?v=LQehhjL_BvE" rel="nofollow">https://www.youtube.com/watch?v=LQehhjL_BvE</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2014-08-07&quot;, 
+            &quot;added&quot;: &quot;2014-10-26T00:13:22.504&quot;, 
+            &quot;updated&quot;: &quot;2014-10-26T16:42:18.160&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyCon AU 2014&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;serialization-formats-arent-toys-by-tom-eastman&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Tom Eastman&quot;
+            ], 
+            &quot;tags&quot;: [], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 3128, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Serialization formats aren&#39;t toys by Tom Eastman&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;Do you have an API? \r\n\r\nDo you accept input from users? Do you accept it in XML? What about YAML? Or maybe JSON? How safe are you?\r\n\r\nAre you sure?\r\n\r\nIt\u2019s not in the OWASP Top 10, but you don\u2019t have to look far to hear stories of security vulnerabilities involving deserialization of user input. Why do they keep happening?\r\n\r\nIn this talk I\u2019ll go over what the threat is, how you are making yourself vulnerable and how to mitigate the problem. I\u2019ll cover the features (not bugs, features) of formats like XML, YAML, and JSON that make them surprisingly dangerous, and how to protect your code from them.\r\n\r\nBecause here\u2019s the thing: If you are using, say, a compliant, properly implemented XML parser to parse your XML, you are NOT safe. Possibly quite the opposite.&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;<a href="http://www.youtube.com/t/terms" rel="nofollow">http://www.youtube.com/t/terms</a>&quot;, 
+            &quot;embed&quot;: &quot;&lt;object width=\&quot;640\&quot; height=\&quot;390\&quot;&gt;&lt;param name=\&quot;movie\&quot; value=\&quot;http://youtube.com/v/LrW-HSHP0ws?version=3&amp;amp;hl=en_US\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowFullScreen\&quot; value=\&quot;true\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowscriptaccess\&quot; value=\&quot;always\&quot;&gt;&lt;/param&gt;&lt;embed src=\&quot;http://youtube.com/v/LrW-HSHP0ws?version=3&amp;amp;hl=en_US\&quot; type=\&quot;application/x-shockwave-flash\&quot; width=\&quot;640\&quot; height=\&quot;390\&quot; allowscriptaccess=\&quot;always\&quot; allowfullscreen=\&quot;true\&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://i.ytimg.com/vi/LrW-HSHP0ws/hqdefault.jpg" rel="nofollow">http://i.ytimg.com/vi/LrW-HSHP0ws/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: &quot;<a href="http://mirror.linux.org.au/pub/pycon-au/pyconau2014/63-out.ogv" rel="nofollow">http://mirror.linux.org.au/pub/pycon-au/pyconau2014/63-out.ogv</a>&quot;, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: &quot;&quot;, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: &quot;&quot;, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: &quot;&quot;, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="http://www.youtube.com/watch?v=LrW-HSHP0ws" rel="nofollow">http://www.youtube.com/watch?v=LrW-HSHP0ws</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;needs editing&quot;, 
+            &quot;recorded&quot;: &quot;2014-08-07&quot;, 
+            &quot;added&quot;: &quot;2014-08-14T15:33:09.981&quot;, 
+            &quot;updated&quot;: &quot;2014-08-14T19:18:24.020&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyCon AU 2014&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;the-quest-for-the-pocket-sized-python-by-christop&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Christopher Neugebauer&quot;
+            ], 
+            &quot;tags&quot;: [], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 3126, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;The Quest for the Pocket-Sized Python by Christopher Neugebauer&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;Python&#39;s already a language of choice for developers on the web, in science, and on the desktop. In the meantime, the world of Mobile computing has exploded in the last couple of years, and developers targetting Android, iOS, and other Mobile platforms are writing their apps in Java, Objective-C, JavaScript... but definitely not Python.\r\n\r\nBut Python&#39;s a great language for solving the sort of problems that are posed in Mobile development time -- speedy development cycles, 20 years worth of libraries for solving many tasks that you throw at it, and a ready-made community to help developers. So why aren&#39;t we using Python?\r\n\r\nThis talk surveys the current landscape of Python on the major Mobile platforms, and ways you can start targeting Mobile platforms with your Python code. We&#39;ll look at considerations for Mobile web development, the state of Python-based mobile toolkits, and progress towards Python-coded native UIs.&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;<a href="http://www.youtube.com/t/terms" rel="nofollow">http://www.youtube.com/t/terms</a>&quot;, 
+            &quot;embed&quot;: &quot;&lt;object width=\&quot;640\&quot; height=\&quot;390\&quot;&gt;&lt;param name=\&quot;movie\&quot; value=\&quot;http://youtube.com/v/R1neKbS7UZM?version=3&amp;amp;hl=en_US\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowFullScreen\&quot; value=\&quot;true\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowscriptaccess\&quot; value=\&quot;always\&quot;&gt;&lt;/param&gt;&lt;embed src=\&quot;http://youtube.com/v/R1neKbS7UZM?version=3&amp;amp;hl=en_US\&quot; type=\&quot;application/x-shockwave-flash\&quot; width=\&quot;640\&quot; height=\&quot;390\&quot; allowscriptaccess=\&quot;always\&quot; allowfullscreen=\&quot;true\&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://i.ytimg.com/vi/R1neKbS7UZM/hqdefault.jpg" rel="nofollow">http://i.ytimg.com/vi/R1neKbS7UZM/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: &quot;<a href="http://mirror.linux.org.au/pub/pycon-au/pyconau2014/39-out.ogv" rel="nofollow">http://mirror.linux.org.au/pub/pycon-au/pyconau2014/39-out.ogv</a>&quot;, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: &quot;&quot;, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: &quot;&quot;, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: &quot;&quot;, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="http://www.youtube.com/watch?v=R1neKbS7UZM" rel="nofollow">http://www.youtube.com/watch?v=R1neKbS7UZM</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;needs editing&quot;, 
+            &quot;recorded&quot;: &quot;2014-08-07&quot;, 
+            &quot;added&quot;: &quot;2014-08-14T15:33:09.741&quot;, 
+            &quot;updated&quot;: &quot;2014-08-14T19:18:53.325&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyCon AU 2014&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;what-is-openstack-by-michael-still&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Michael Still&quot;
+            ], 
+            &quot;tags&quot;: [], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 3127, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;What is OpenStack? by Michael Still&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;OpenStack is one of the biggest python projects ever, and is hiring plenty of interesting python people to work on Open Source, which is cool. Yet, many people tell me that they don&#39;t really understand what OpenStack is. Let&#39;s fix that once and for all.\r\n\r\n25 minutes isn&#39;t a long time, so what I&#39;ll provide is an overview of the various components of OpenStack and how they tie together. We&#39;ll cover what bits might be of interest to your average python hacker, as well as the general problems we&#39;re trying to solve. I secretly hope this will enthuse people to come and hack on OpenStack, but its also cool if audience members walk away from the talk deciding that OpenStack is not of interest to them -- so long as they now understand vaguely what OpenStack is, then we&#39;re cool.\r\n\r\nI&#39;ll also try and cover how the OpenStack Foundation and code governance model works, but it might require talking really fast. We shall see!&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;<a href="http://www.youtube.com/t/terms" rel="nofollow">http://www.youtube.com/t/terms</a>&quot;, 
+            &quot;embed&quot;: &quot;&lt;object width=\&quot;640\&quot; height=\&quot;390\&quot;&gt;&lt;param name=\&quot;movie\&quot; value=\&quot;http://youtube.com/v/DEI5oJzzdFw?version=3&amp;amp;hl=en_US\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowFullScreen\&quot; value=\&quot;true\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowscriptaccess\&quot; value=\&quot;always\&quot;&gt;&lt;/param&gt;&lt;embed src=\&quot;http://youtube.com/v/DEI5oJzzdFw?version=3&amp;amp;hl=en_US\&quot; type=\&quot;application/x-shockwave-flash\&quot; width=\&quot;640\&quot; height=\&quot;390\&quot; allowscriptaccess=\&quot;always\&quot; allowfullscreen=\&quot;true\&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://i.ytimg.com/vi/DEI5oJzzdFw/hqdefault.jpg" rel="nofollow">http://i.ytimg.com/vi/DEI5oJzzdFw/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: &quot;<a href="http://mirror.linux.org.au/pub/pycon-au/pyconau2014/44-out.ogv" rel="nofollow">http://mirror.linux.org.au/pub/pycon-au/pyconau2014/44-out.ogv</a>&quot;, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: &quot;&quot;, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: &quot;&quot;, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: &quot;&quot;, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="http://www.youtube.com/watch?v=DEI5oJzzdFw" rel="nofollow">http://www.youtube.com/watch?v=DEI5oJzzdFw</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;needs editing&quot;, 
+            &quot;recorded&quot;: &quot;2014-08-07&quot;, 
+            &quot;added&quot;: &quot;2014-08-14T15:33:09.871&quot;, 
+            &quot;updated&quot;: &quot;2014-08-14T15:54:45.048&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyCon APAC 2014&quot;, 
+            &quot;language&quot;: &quot;Chinese&quot;, 
+            &quot;slug&quot;: &quot;grs-pycon-apac-2014&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Toomore Chiang&quot;
+            ], 
+            &quot;tags&quot;: [], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 3261, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;\u5982\u4f55\u7528 grs \u64f7\u53d6\u53f0\u7063\u4e0a\u5e02\u80a1\u7968\u80a1\u50f9\u8cc7\u8a0a&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;\u5c55\u793a\u5982\u4f55\u5229\u7528 grs \u5957\u4ef6\u4f86\u64f7\u53d6\u53f0\u7063\u80a1\u5e02\u4e0a\u5e02\u500b\u80a1\u80a1\u50f9\u8cc7\u8a0a\uff0c\u8207\u958b\u76e4\u4ea4\u6613\u671f\u9593\u5982\u4f55\u64f7\u53d6\u4e0a\u5e02\u5373\u6642\u76e4\u8cc7\u8a0a\u3002 grs \u5957\u4ef6\u5305\u542b\u5176\u4ed6\u5e38\u7528\u7684\u5de5\u5177\uff1a - \u986f\u793a\u53f0\u7063\u6642\u9593\uff1aTWTime - \u5224\u65b7\u53f0\u7063\u80a1\u5e02\u662f\u5426\u958b\u5e02\uff1aTWSEOpen - \u5404\u80a1\u5373\u6642\u76e4\u8cc7\u8a0a\uff1aRealtimeStock - \u5927\u76e4\u5373\u6642\u76e4\u8cc7\u8a0a\uff1aRealtimeWeight - \u4e0a\u5e02\u80a1\u7968\u4ee3\u78bc\u5217\u8868\uff1aTWSENo - \u55ae\u65e5\u5012\u6578\u6642\u9593\uff1aCountdown grs \u5957\u4ef6\u5305\u542b\u7c21\u6613\u7684\u6578\u503c\u5206\u6790\uff1a - \u79fb\u52d5\u5e73\u5747\u6578\u503c - \u5224\u65b7\u4e56\u96e2\u8f49\u6298\u9ede - \u56db\u5927\u8cb7\u8ce3\u9ede\u5224\u65b7 \u76ee\u524d grs \u53ea\u80fd\u64f7\u53d6\u4e0a\u5e02\u80a1\u7968\u8cc7\u8a0a\uff0c\u4e0a\u6ac3\u8cc7\u6599\u9810\u5b9a\u5728 v0.5 \u7248\u672c\u52a0\u5165\u3002 \u76f8\u95dc\u7684\u8cc7\u8a0a\uff1a pypi / &lt;<a href="https://pypi.python.org/pypi/grs" rel="nofollow">https://pypi.python.org/pypi/grs</a>&gt; github / &lt;<a href="https://github.com/toomore/grs" rel="nofollow">https://github.com/toomore/grs</a>&gt; grs docs / &lt;<a href="http://grs-docs.toomore.net%3E%5Cr%5Cn%5Cr%5Cn%5Cr%5CnAbout" rel="nofollow">http://grs-docs.toomore.net&gt;\r\n\r\n\r\nAbout</a> the speaker\r\n\r\n\u5927\u5b78\u6642\u5ff5\u8ca1\u91d1\uff0c\u4f46\u5c0d\u5beb\u7a0b\u5f0f\u5f88\u6709\u8208\u8da3\uff0c\u9047\u5230 Python \u5f8c\u5c31\u611b\u4e0a\u4e86\u3002\u5e73\u6642\u5beb\u5beb\u5c0f\u5de5\u5177\u653e\u5728 github \u4e0a\u7df4\u529f\uff0c\u6301\u7e8c\u6311\u6230\u4e0d\u4e2d\u65b7 commit \u7684\u6210\u5c31\u30022014 \u5e74\u6700\u5e0c\u671b\u9054\u6210\u7684\u76ee\u6a19\u5c31\u662f\u53ef\u4ee5\u7ad9\u5728\u53f0\u524d\u5206\u4eab\u8b70\u984c\u3002\uff08\u76ee\u524d\u5728 \&quot;\u4e9e\u6d32\u6700\u5927\u8a2d\u8a08\u5546\u54c1\u7db2\u8def\u8cfc\u7269\u5546\u57ce\&quot; \u670d\u52d9\uff09\r\n\r\nTagline\r\npython  \r\n\u500b\u4eba\u7db2\u9801\u9023\u7d50\r\n\r\n&lt;http://www.toomore.net/&gt;  \r\nTwitter\r\n@toomore  \r\n\u7d44\u7e54/\u516c\u53f8  \r\nPinkoi.com  \r\n\u982d\u929c  \r\nPython Parselmouth\r\n&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;creativeCommon&quot;, 
+            &quot;embed&quot;: &quot;&lt;iframe type=&#39;text/html&#39; src=&#39;http://www.youtube.com/embed/MSOlZeDN3qc&#39; width=&#39;640&#39; height=&#39;360&#39; frameborder=&#39;0&#39; allowfullscreen=&#39;true&#39;/&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="https://i.ytimg.com/vi/MSOlZeDN3qc/hqdefault.jpg" rel="nofollow">https://i.ytimg.com/vi/MSOlZeDN3qc/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: &quot;&quot;, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: &quot;&quot;, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: &quot;&quot;, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: &quot;&quot;, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="https://www.youtube.com/watch?v=MSOlZeDN3qc" rel="nofollow">https://www.youtube.com/watch?v=MSOlZeDN3qc</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;needs editing&quot;, 
+            &quot;recorded&quot;: &quot;2014-08-07&quot;, 
+            &quot;added&quot;: &quot;2014-10-26T00:13:22.692&quot;, 
+            &quot;updated&quot;: &quot;2014-10-26T16:44:34.299&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyCon APAC 2014&quot;, 
+            &quot;language&quot;: &quot;Chinese&quot;, 
+            &quot;slug&quot;: &quot;python-summly-pycon-apac-2014&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Andy Dai&quot;
+            ], 
+            &quot;tags&quot;: [], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 3242, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;\u7528 Python \u5efa\u7acb\u4f60\u81ea\u5df1\u7684 Summly&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;\u5728\u53bb\u5e74\u7684\u6642\u5019 Yahoo \u8cb7\u4e86 Summly \u9019\u500b\u65b0\u805e\u6458\u8981\u7684\u670d\u52d9\uff0c\u4e0d\u904e\u5176\u5be6\u900f\u904e Python \u8981\u505a\u500b\u7c21\u55ae\u7684 Summly \u662f\u5f88\u5bb9\u6613\u7684\uff01\u5728\u9019\u500b Talk \u7576\u4e2d\uff0c\u6211\u5011\u5c07\u900f\u904e\u5e7e\u500b Python Library \u52a0\u4e0a\u4e00\u4e9b\u7c21\u55ae\u7684\u6f14\u7b97\u6cd5\uff0c\u8b93\u6211\u5011\u53ef\u4ee5\u6253\u9020\u81ea\u5df1\u7684 Summly\u3002\r\n\r\n\r\nAbout the speaker\r\n\r\n\u76ee\u524d\u5728\u6d1e\u6089\u79d1\u6280 (<a href="http://dorm7.com" rel="nofollow">dorm7.com</a>) \u5de5\u4f5c\uff0c\u5e73\u5e38\u958b\u767c\u5de5\u4f5c\u4ee5 Python\u3001Django \u70ba\u4e3b\uff0c\u662f PyCon Taiwan\u3001Taipei.py\u3001Django Workshop \u7b49 Python \u793e\u7fa4\u7684\u5de5\u4f5c\u4eba\u54e1\u3002\r\n\r\nTagline\r\npython, summly  \r\n\u500b\u4eba\u7db2\u9801\u9023\u7d50\r\n\r\n&lt;http://krdai.info/&gt;  \r\nTwitter\r\n@daikeren  \r\n\u7d44\u7e54/\u516c\u53f8  \r\nDorm7 Software  \r\n\u982d\u929c  \r\nCo-Founder  &quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;creativeCommon&quot;, 
+            &quot;embed&quot;: &quot;&lt;iframe type=&#39;text/html&#39; src=&#39;http://www.youtube.com/embed/1eBOhyWkHgE&#39; width=&#39;640&#39; height=&#39;360&#39; frameborder=&#39;0&#39; allowfullscreen=&#39;true&#39;/&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="https://i.ytimg.com/vi/1eBOhyWkHgE/hqdefault.jpg" rel="nofollow">https://i.ytimg.com/vi/1eBOhyWkHgE/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: &quot;&quot;, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: &quot;&quot;, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: &quot;&quot;, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: &quot;&quot;, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="https://www.youtube.com/watch?v=1eBOhyWkHgE" rel="nofollow">https://www.youtube.com/watch?v=1eBOhyWkHgE</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2014-08-07&quot;, 
+            &quot;added&quot;: &quot;2014-10-26T00:13:18.756&quot;, 
+            &quot;updated&quot;: &quot;2014-10-26T16:46:31.925&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyCon APAC 2014&quot;, 
+            &quot;language&quot;: &quot;Chinese&quot;, 
+            &quot;slug&quot;: &quot;-pycon-apac-2014&quot;, 
+            &quot;speakers&quot;: [
+                &quot;\u52c1\u6210 \u99f1&quot;
+            ], 
+            &quot;tags&quot;: [], 
+            &quot;related_urls&quot;: [
+                {
+                    &quot;url&quot;: &quot;<a href="https://github.com/thewayiam" rel="nofollow">https://github.com/thewayiam</a>&quot;, 
+                    &quot;description&quot;: &quot;speaker github&quot;
+                }
+            ], 
+            &quot;id&quot;: 3274, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;\u7acb\u59d4\u6295\u7968\u6307\u5357 -- \u5f9e\u96f6\u958b\u59cb&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;\uff0a\u4f60\u7684\u7b2c\u4e00\u6b21\u6295\u7968\u7d93\u9a57\u5982\u4f55\uff1f - \u7acb\u59d4\u6295\u7968\u6307\u5357\u7684\u5efa\u7acb\u52d5\u6a5f \r\n\uff0a\u7acb\u59d4\u6295\u7968\u6307\u5357\uff1f - \u7db2\u7ad9\u5167\u5bb9\u5c0e\u89bd\uff08&lt;http://vote.ly.g0v.tw/&gt;\uff09 \r\n\uff0a\u5982\u4f55\u5f9e\u96fb\u6a5f\u80cc\u666f\u8de8\u5165\u8cc7\u8a0a\u9818\u57df\uff1f - \u7db2\u7ad9\u5efa\u7f6e\u904e\u7a0b &amp; \u7dda\u4e0a\u5b78\u7fd2\u7d93\u9a57\u5206\u4eab \r\n\uff0a\u4f7f\u7528\u5de5\u5177\u4ecb\u7d39\uff08python, django, scrapy, pandas\uff09 \r\n\uff0a\u4f7f\u7528\u8005\u56de\u994b\u8207\u4e0b\u4e00\u6b65\u8a08\u756b \r\n\uff0a\u958b\u653e\u900f\u660e\u7684\u529b\u91cf - \u53c3\u8207g0v\u958b\u653e\u5354\u4f5c\u7684\u5fc3\u5f97\u5206\u4eab\r\n\r\n\r\nAbout the speaker\r\n\r\n* \u96fb\u6a5f\u63a7\u5236\u80cc\u666f\uff0c2013\u5e74\u7dda\u4e0a\u81ea\u5b78Python\u3001web applicationn\uff0c\u88fd\u4f5c\u7acb\u59d4\u6295\u7968\u6307\u5357 &lt;<a href="http://vote.ly.g0v.tw/%3E%5Cr%5Cn*" rel="nofollow">http://vote.ly.g0v.tw/&gt;\r\n*</a> \u52a0\u5165g0v\u96f6\u6642\u653f\u5e9c\u8ca2\u737b\u8207\u5b78\u7fd2\r\n&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;creativeCommon&quot;, 
+            &quot;embed&quot;: &quot;&lt;iframe type=&#39;text/html&#39; src=&#39;http://www.youtube.com/embed/hBKYx0u7-ZU&#39; width=&#39;640&#39; height=&#39;360&#39; frameborder=&#39;0&#39; allowfullscreen=&#39;true&#39;/&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="https://i.ytimg.com/vi/hBKYx0u7-ZU/hqdefault.jpg" rel="nofollow">https://i.ytimg.com/vi/hBKYx0u7-ZU/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: &quot;&quot;, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: &quot;&quot;, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: &quot;&quot;, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: &quot;&quot;, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="https://www.youtube.com/watch?v=hBKYx0u7-ZU" rel="nofollow">https://www.youtube.com/watch?v=hBKYx0u7-ZU</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2014-08-07&quot;, 
+            &quot;added&quot;: &quot;2014-10-26T00:13:25.155&quot;, 
+            &quot;updated&quot;: &quot;2014-10-26T16:51:43.807&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyCon AU 2014&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;accessibility-myths-and-delusions-by-katie-cunni&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Katie Cunningham&quot;
+            ], 
+            &quot;tags&quot;: [], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 3130, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Accessibility: Myths and Delusions by Katie Cunningham&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;<a href="http://creativecommons.org/licenses/by/3.0/" rel="nofollow">http://creativecommons.org/licenses/by/3.0/</a>&quot;, 
+            &quot;embed&quot;: &quot;&lt;object width=\&quot;640\&quot; height=\&quot;390\&quot;&gt;&lt;param name=\&quot;movie\&quot; value=\&quot;http://youtube.com/v/HQxBKnrjl1w?version=3&amp;amp;hl=en_US\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowFullScreen\&quot; value=\&quot;true\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowscriptaccess\&quot; value=\&quot;always\&quot;&gt;&lt;/param&gt;&lt;embed src=\&quot;http://youtube.com/v/HQxBKnrjl1w?version=3&amp;amp;hl=en_US\&quot; type=\&quot;application/x-shockwave-flash\&quot; width=\&quot;640\&quot; height=\&quot;390\&quot; allowscriptaccess=\&quot;always\&quot; allowfullscreen=\&quot;true\&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://i.ytimg.com/vi/HQxBKnrjl1w/hqdefault.jpg" rel="nofollow">http://i.ytimg.com/vi/HQxBKnrjl1w/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: &quot;<a href="http://mirror.linux.org.au/pub/pycon-au/pyconau2014/15-out.ogv" rel="nofollow">http://mirror.linux.org.au/pub/pycon-au/pyconau2014/15-out.ogv</a>&quot;, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: &quot;&quot;, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: &quot;&quot;, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: &quot;&quot;, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="http://www.youtube.com/watch?v=HQxBKnrjl1w" rel="nofollow">http://www.youtube.com/watch?v=HQxBKnrjl1w</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;needs editing&quot;, 
+            &quot;recorded&quot;: &quot;2014-08-05&quot;, 
+            &quot;added&quot;: &quot;2014-08-14T15:33:10.323&quot;, 
+            &quot;updated&quot;: &quot;2014-08-14T15:54:14.925&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyCon AU 2014&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;python-for-every-child-in-australia-by-dr-james-r&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Dr James R. Curran&quot;
+            ], 
+            &quot;tags&quot;: [], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 3131, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Python For Every Child In Australia by Dr James R. Curran&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;<a href="http://creativecommons.org/licenses/by/3.0/" rel="nofollow">http://creativecommons.org/licenses/by/3.0/</a>&quot;, 
+            &quot;embed&quot;: &quot;&lt;object width=\&quot;640\&quot; height=\&quot;390\&quot;&gt;&lt;param name=\&quot;movie\&quot; value=\&quot;http://youtube.com/v/iVv7fCwVbp4?version=3&amp;amp;hl=en_US\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowFullScreen\&quot; value=\&quot;true\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowscriptaccess\&quot; value=\&quot;always\&quot;&gt;&lt;/param&gt;&lt;embed src=\&quot;http://youtube.com/v/iVv7fCwVbp4?version=3&amp;amp;hl=en_US\&quot; type=\&quot;application/x-shockwave-flash\&quot; width=\&quot;640\&quot; height=\&quot;390\&quot; allowscriptaccess=\&quot;always\&quot; allowfullscreen=\&quot;true\&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://i.ytimg.com/vi/iVv7fCwVbp4/hqdefault.jpg" rel="nofollow">http://i.ytimg.com/vi/iVv7fCwVbp4/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: &quot;<a href="http://mirror.linux.org.au/pub/pycon-au/pyconau2014/3-out.ogv" rel="nofollow">http://mirror.linux.org.au/pub/pycon-au/pyconau2014/3-out.ogv</a>&quot;, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: &quot;&quot;, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: &quot;&quot;, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: &quot;&quot;, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="http://www.youtube.com/watch?v=iVv7fCwVbp4" rel="nofollow">http://www.youtube.com/watch?v=iVv7fCwVbp4</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;needs editing&quot;, 
+            &quot;recorded&quot;: &quot;2014-08-05&quot;, 
+            &quot;added&quot;: &quot;2014-08-14T15:33:10.422&quot;, 
+            &quot;updated&quot;: &quot;2014-08-14T15:53:35.466&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyData Berlin 2014&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;abby-a-django-app-to-document-your-ab-tests&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Andy Goldschmidt&quot;
+            ], 
+            &quot;tags&quot;: [], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 3063, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;ABBY: A Django app to document your A/B tests&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;ABBY is a Django app that helps you manage your A/B tests. The main objective is to document all tests happening in your company, in order to better understand which measures work and which don&#39;t. Thereby leading to a better understanding of your product and your customer. ABBY offers a front-end that makes it easy to edit, delete or create tests and to add evaluation results. Further, it provides a RESTful API to integrate directly with our platform to easily handle A/B tests without touching the front-end. Another notable feature is the possibility to upload a CSV file and have the A/B test auto-evaluated, although this feature is considered highly experimental. At Jimdo, a do-it-yourself website builder, we have a team of about 180 people from different countries and with professional backgrounds just as diverse. Therefore it is crucial to have tools that allow having a common perspective on the tests. This facilitates having data informed discussions and to deduce effective solutions. In our opinion tools like ABBY are cornerstones to achieve the ultimate goal of being a data-driven company. It enables all our co-workers to review past and plan future tests to further improve our product and to raise the happiness of our customers. The proposed talk will give a detailed overview of ABBY, which eventually will be open-sourced, and its capabilities. I will further discuss the motivation behind the app and the influence it has on the way our company is becoming increasingly data driven.&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;<a href="http://creativecommons.org/licenses/by/3.0/" rel="nofollow">http://creativecommons.org/licenses/by/3.0/</a>&quot;, 
+            &quot;embed&quot;: &quot;&lt;object width=\&quot;640\&quot; height=\&quot;390\&quot;&gt;&lt;param name=\&quot;movie\&quot; value=\&quot;http://youtube.com/v/Vx9UCD6V7y4?version=3&amp;amp;hl=en_US\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowFullScreen\&quot; value=\&quot;true\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowscriptaccess\&quot; value=\&quot;always\&quot;&gt;&lt;/param&gt;&lt;embed src=\&quot;http://youtube.com/v/Vx9UCD6V7y4?version=3&amp;amp;hl=en_US\&quot; type=\&quot;application/x-shockwave-flash\&quot; width=\&quot;640\&quot; height=\&quot;390\&quot; allowscriptaccess=\&quot;always\&quot; allowfullscreen=\&quot;true\&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://i.ytimg.com/vi/Vx9UCD6V7y4/hqdefault.jpg" rel="nofollow">http://i.ytimg.com/vi/Vx9UCD6V7y4/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: &quot;&quot;, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: &quot;<a href="http://video.ep14.c3voc.de/20249.mp4" rel="nofollow">http://video.ep14.c3voc.de/20249.mp4</a>&quot;, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: &quot;&quot;, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: &quot;&quot;, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="http://www.youtube.com/watch?v=Vx9UCD6V7y4" rel="nofollow">http://www.youtube.com/watch?v=Vx9UCD6V7y4</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2014-07-27&quot;, 
+            &quot;added&quot;: &quot;2014-08-06T18:53:19.622&quot;, 
+            &quot;updated&quot;: &quot;2014-08-06T19:06:48.812&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyOhio 2014&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;bobo-a-web-framework-thats-easy-to-learn-and-re&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Jim Fulton&quot;
+            ], 
+            &quot;tags&quot;: [
+                &quot;talk&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 2835, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Bobo, a web framework that&#39;s easy to learn and remember&quot;, 
+            &quot;summary&quot;: &quot;Bobo is a lightweight web framework designed to be easy to use and\r\nremember.  In this talk, I&#39;ll give an introduction to Bobo.  I&#39;ll\r\ndiscuss micro-frameworks and why they aren&#39;t limited to small\r\nproblems.&quot;, 
+            &quot;description&quot;: &quot;&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;CC BY&quot;, 
+            &quot;embed&quot;: &quot;&lt;object width=\&quot;640\&quot; height=\&quot;390\&quot;&gt;&lt;param name=\&quot;movie\&quot; value=\&quot;http://youtube.com/v/BwycOQi7IRs?version=3&amp;amp;hl=en_US\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowFullScreen\&quot; value=\&quot;true\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowscriptaccess\&quot; value=\&quot;always\&quot;&gt;&lt;/param&gt;&lt;embed src=\&quot;http://youtube.com/v/BwycOQi7IRs?version=3&amp;amp;hl=en_US\&quot; type=\&quot;application/x-shockwave-flash\&quot; width=\&quot;640\&quot; height=\&quot;390\&quot; allowscriptaccess=\&quot;always\&quot; allowfullscreen=\&quot;true\&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://i.ytimg.com/vi/BwycOQi7IRs/hqdefault.jpg" rel="nofollow">http://i.ytimg.com/vi/BwycOQi7IRs/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: 3600, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: null, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: &quot;<a href="http://964bdd2f965bbc4ca8f5-3ebaa0e988d98119a4fead51a26da83a.r42.cf2.rackcdn.com/pyohio-2014/2835_Bobo_a_web_framework_thats_easy_to_learn_and_remem.webm" rel="nofollow">http://964bdd2f965bbc4ca8f5-3ebaa0e988d98119a4fead51a26da83a.r42.cf2.rackcdn.com/pyohio-2014/2835_Bobo_a_web_framework_thats_easy_to_learn_and_remem.webm</a>&quot;, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="http://youtu.be/BwycOQi7IRs" rel="nofollow">http://youtu.be/BwycOQi7IRs</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2014-07-27&quot;, 
+            &quot;added&quot;: &quot;2014-07-19T02:13:06.581&quot;, 
+            &quot;updated&quot;: &quot;2014-09-29T12:12:08.079&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyData Berlin 2014&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;building-the-pydata-community&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Travis Oliphant&quot;
+            ], 
+            &quot;tags&quot;: [], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 3059, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Building the PyData Community&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;<a href="http://creativecommons.org/licenses/by/3.0/" rel="nofollow">http://creativecommons.org/licenses/by/3.0/</a>&quot;, 
+            &quot;embed&quot;: &quot;&lt;object width=\&quot;640\&quot; height=\&quot;390\&quot;&gt;&lt;param name=\&quot;movie\&quot; value=\&quot;http://youtube.com/v/d9Qm3PPoYNQ?version=3&amp;amp;hl=en_US\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowFullScreen\&quot; value=\&quot;true\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowscriptaccess\&quot; value=\&quot;always\&quot;&gt;&lt;/param&gt;&lt;embed src=\&quot;http://youtube.com/v/d9Qm3PPoYNQ?version=3&amp;amp;hl=en_US\&quot; type=\&quot;application/x-shockwave-flash\&quot; width=\&quot;640\&quot; height=\&quot;390\&quot; allowscriptaccess=\&quot;always\&quot; allowfullscreen=\&quot;true\&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://i.ytimg.com/vi/d9Qm3PPoYNQ/hqdefault.jpg" rel="nofollow">http://i.ytimg.com/vi/d9Qm3PPoYNQ/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: &quot;&quot;, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: &quot;<a href="http://video.ep14.c3voc.de/20261.mp4" rel="nofollow">http://video.ep14.c3voc.de/20261.mp4</a>&quot;, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: &quot;&quot;, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: &quot;&quot;, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="http://www.youtube.com/watch?v=d9Qm3PPoYNQ" rel="nofollow">http://www.youtube.com/watch?v=d9Qm3PPoYNQ</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2014-07-27&quot;, 
+            &quot;added&quot;: &quot;2014-08-06T18:53:19.206&quot;, 
+            &quot;updated&quot;: &quot;2014-08-06T19:08:29.773&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyOhio 2014&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;building-web-apis-with-flask-restful&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Sam Kimbrel&quot;
+            ], 
+            &quot;tags&quot;: [
+                &quot;talk&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 2854, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Building Web APIs with Flask-RESTful&quot;, 
+            &quot;summary&quot;: &quot;The Flask framework\u2019s DIY nature makes it ideal for implementing REST APIs. Flask-RESTful is a Flask extension providing reusable, extensible behavior for common elements of REST APIs like content negotiation, input validation, and output marshalling. This talk will show how to use Flask-RESTful to build a REST API, demonstrating how to start from a blueprint to adapt it for your own use cases.&quot;, 
+            &quot;description&quot;: &quot;&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;CC BY&quot;, 
+            &quot;embed&quot;: &quot;&lt;object width=\&quot;640\&quot; height=\&quot;390\&quot;&gt;&lt;param name=\&quot;movie\&quot; value=\&quot;http://youtube.com/v/2v56TUT_580?version=3&amp;amp;hl=en_US\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowFullScreen\&quot; value=\&quot;true\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowscriptaccess\&quot; value=\&quot;always\&quot;&gt;&lt;/param&gt;&lt;embed src=\&quot;http://youtube.com/v/2v56TUT_580?version=3&amp;amp;hl=en_US\&quot; type=\&quot;application/x-shockwave-flash\&quot; width=\&quot;640\&quot; height=\&quot;390\&quot; allowscriptaccess=\&quot;always\&quot; allowfullscreen=\&quot;true\&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://i.ytimg.com/vi/2v56TUT_580/hqdefault.jpg" rel="nofollow">http://i.ytimg.com/vi/2v56TUT_580/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: 3600, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: null, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: &quot;<a href="http://964bdd2f965bbc4ca8f5-3ebaa0e988d98119a4fead51a26da83a.r42.cf2.rackcdn.com/pyohio-2014/2854_Building_Web_APIs_with_FlaskRESTful.webm" rel="nofollow">http://964bdd2f965bbc4ca8f5-3ebaa0e988d98119a4fead51a26da83a.r42.cf2.rackcdn.com/pyohio-2014/2854_Building_Web_APIs_with_FlaskRESTful.webm</a>&quot;, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="http://youtu.be/2v56TUT_580" rel="nofollow">http://youtu.be/2v56TUT_580</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2014-07-27&quot;, 
+            &quot;added&quot;: &quot;2014-07-19T02:13:30.867&quot;, 
+            &quot;updated&quot;: &quot;2014-08-15T12:52:50.400&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyData Berlin 2014&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;commodity-machine-learning&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Andreas Mueller&quot;
+            ], 
+            &quot;tags&quot;: [], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 3064, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Commodity Machine Learning&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;<a href="http://creativecommons.org/licenses/by/3.0/" rel="nofollow">http://creativecommons.org/licenses/by/3.0/</a>&quot;, 
+            &quot;embed&quot;: &quot;&lt;object width=\&quot;640\&quot; height=\&quot;390\&quot;&gt;&lt;param name=\&quot;movie\&quot; value=\&quot;http://youtube.com/v/kX5jrFqryAE?version=3&amp;amp;hl=en_US\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowFullScreen\&quot; value=\&quot;true\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowscriptaccess\&quot; value=\&quot;always\&quot;&gt;&lt;/param&gt;&lt;embed src=\&quot;http://youtube.com/v/kX5jrFqryAE?version=3&amp;amp;hl=en_US\&quot; type=\&quot;application/x-shockwave-flash\&quot; width=\&quot;640\&quot; height=\&quot;390\&quot; allowscriptaccess=\&quot;always\&quot; allowfullscreen=\&quot;true\&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://i.ytimg.com/vi/kX5jrFqryAE/hqdefault.jpg" rel="nofollow">http://i.ytimg.com/vi/kX5jrFqryAE/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: &quot;&quot;, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: &quot;<a href="http://video.ep14.c3voc.de/20262.mp4" rel="nofollow">http://video.ep14.c3voc.de/20262.mp4</a>&quot;, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: &quot;&quot;, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: &quot;&quot;, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="http://www.youtube.com/watch?v=kX5jrFqryAE" rel="nofollow">http://www.youtube.com/watch?v=kX5jrFqryAE</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2014-07-27&quot;, 
+            &quot;added&quot;: &quot;2014-08-06T18:53:19.749&quot;, 
+            &quot;updated&quot;: &quot;2014-08-06T19:20:25.626&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyData Berlin 2014&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;conda-a-cross-platform-package-manager-for-any-b-0&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Ilan Schnell&quot;
+            ], 
+            &quot;tags&quot;: [], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 3057, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Conda: a cross-platform package manager for any binary distribution&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;Conda is an open source package manager, which can be used to manage binary packages and virtual environments on any platform. It is the package manager of the Anaconda Python distribution, although it can be used independently of Anaconda. We will look at how conda solves many of the problems that have plagued Python packaging in the past, followed by a demonstration of its features.\r\n    We will look at the issues that have plagued packaging in the Python ecosystem in the past, and discuss how Conda solves these problems. We will show how to use conda to manage multiple environments. Finally, we will look at how to build your own conda packages.&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;<a href="http://creativecommons.org/licenses/by/3.0/" rel="nofollow">http://creativecommons.org/licenses/by/3.0/</a>&quot;, 
+            &quot;embed&quot;: &quot;&lt;object width=\&quot;640\&quot; height=\&quot;390\&quot;&gt;&lt;param name=\&quot;movie\&quot; value=\&quot;http://youtube.com/v/o47Nndkwffc?version=3&amp;amp;hl=en_US\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowFullScreen\&quot; value=\&quot;true\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowscriptaccess\&quot; value=\&quot;always\&quot;&gt;&lt;/param&gt;&lt;embed src=\&quot;http://youtube.com/v/o47Nndkwffc?version=3&amp;amp;hl=en_US\&quot; type=\&quot;application/x-shockwave-flash\&quot; width=\&quot;640\&quot; height=\&quot;390\&quot; allowscriptaccess=\&quot;always\&quot; allowfullscreen=\&quot;true\&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://i.ytimg.com/vi/o47Nndkwffc/hqdefault.jpg" rel="nofollow">http://i.ytimg.com/vi/o47Nndkwffc/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: &quot;&quot;, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: &quot;<a href="http://video.ep14.c3voc.de/20275.mp4" rel="nofollow">http://video.ep14.c3voc.de/20275.mp4</a>&quot;, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: &quot;&quot;, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: &quot;&quot;, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="http://www.youtube.com/watch?v=o47Nndkwffc" rel="nofollow">http://www.youtube.com/watch?v=o47Nndkwffc</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2014-07-27&quot;, 
+            &quot;added&quot;: &quot;2014-08-06T18:53:19.000&quot;, 
+            &quot;updated&quot;: &quot;2014-08-06T19:21:08.955&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyOhio 2014&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;configman-the-grand-unified-theorem-of-configur&quot;, 
+            &quot;speakers&quot;: [
+                &quot;K Lars Lohn&quot;
+            ], 
+            &quot;tags&quot;: [
+                &quot;talk&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 2846, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Configman - the grand unified theorem of configuration&quot;, 
+            &quot;summary&quot;: &quot;Have you ever noticed that none of the the Pythonic methods of configuration are compatible with each other? Command line modules know nothing of the multiple types of configuration files or environment variables. Configman,  the grand unified theorem of configuration, unites them all, giving a single API for all configuration and offering an inadvertent dependency injection framework with it.&quot;, 
+            &quot;description&quot;: &quot;&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;CC BY&quot;, 
+            &quot;embed&quot;: &quot;&lt;object width=\&quot;640\&quot; height=\&quot;390\&quot;&gt;&lt;param name=\&quot;movie\&quot; value=\&quot;http://youtube.com/v/RK4Wym00lsQ?version=3&amp;amp;hl=en_US\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowFullScreen\&quot; value=\&quot;true\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowscriptaccess\&quot; value=\&quot;always\&quot;&gt;&lt;/param&gt;&lt;embed src=\&quot;http://youtube.com/v/RK4Wym00lsQ?version=3&amp;amp;hl=en_US\&quot; type=\&quot;application/x-shockwave-flash\&quot; width=\&quot;640\&quot; height=\&quot;390\&quot; allowscriptaccess=\&quot;always\&quot; allowfullscreen=\&quot;true\&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://i.ytimg.com/vi/RK4Wym00lsQ/hqdefault.jpg" rel="nofollow">http://i.ytimg.com/vi/RK4Wym00lsQ/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: 3600, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: null, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: &quot;<a href="http://964bdd2f965bbc4ca8f5-3ebaa0e988d98119a4fead51a26da83a.r42.cf2.rackcdn.com/pyohio-2014/2846_Configman_the_grand_unified_theorem_of_configurati.webm" rel="nofollow">http://964bdd2f965bbc4ca8f5-3ebaa0e988d98119a4fead51a26da83a.r42.cf2.rackcdn.com/pyohio-2014/2846_Configman_the_grand_unified_theorem_of_configurati.webm</a>&quot;, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="http://youtu.be/RK4Wym00lsQ" rel="nofollow">http://youtu.be/RK4Wym00lsQ</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2014-07-27&quot;, 
+            &quot;added&quot;: &quot;2014-07-19T02:13:20.707&quot;, 
+            &quot;updated&quot;: &quot;2014-08-09T10:04:13.712&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyOhio 2014&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;digging-into-abstract-syntax-trees-for-analyzing&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Adam Haney&quot;
+            ], 
+            &quot;tags&quot;: [
+                &quot;talk&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 2838, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Digging into Abstract Syntax Trees for analyzing and modifying Python programs&quot;, 
+            &quot;summary&quot;: &quot;This talk will explain how the python interpreter uses the ast module to turn the code you write into Abstract Syntax Trees which are then executed. With an understanding of these underlying techniques we&#39;ll examine static analysis tools such as pyflakes and talk about how to create programs that analyze the structure of python scripts.&quot;, 
+            &quot;description&quot;: &quot;&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;CC BY&quot;, 
+            &quot;embed&quot;: &quot;&lt;object width=\&quot;640\&quot; height=\&quot;390\&quot;&gt;&lt;param name=\&quot;movie\&quot; value=\&quot;http://youtube.com/v/wyJZBwY6EEo?version=3&amp;amp;hl=en_US\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowFullScreen\&quot; value=\&quot;true\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowscriptaccess\&quot; value=\&quot;always\&quot;&gt;&lt;/param&gt;&lt;embed src=\&quot;http://youtube.com/v/wyJZBwY6EEo?version=3&amp;amp;hl=en_US\&quot; type=\&quot;application/x-shockwave-flash\&quot; width=\&quot;640\&quot; height=\&quot;390\&quot; allowscriptaccess=\&quot;always\&quot; allowfullscreen=\&quot;true\&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://i.ytimg.com/vi/wyJZBwY6EEo/hqdefault.jpg" rel="nofollow">http://i.ytimg.com/vi/wyJZBwY6EEo/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: 3600, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: null, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: &quot;<a href="http://964bdd2f965bbc4ca8f5-3ebaa0e988d98119a4fead51a26da83a.r42.cf2.rackcdn.com/pyohio-2014/2838_Digging_into_Abstract_Syntax_Trees_for_analyzing_a.webm" rel="nofollow">http://964bdd2f965bbc4ca8f5-3ebaa0e988d98119a4fead51a26da83a.r42.cf2.rackcdn.com/pyohio-2014/2838_Digging_into_Abstract_Syntax_Trees_for_analyzing_a.webm</a>&quot;, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="http://youtu.be/wyJZBwY6EEo" rel="nofollow">http://youtu.be/wyJZBwY6EEo</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2014-07-27&quot;, 
+            &quot;added&quot;: &quot;2014-07-19T02:13:10.513&quot;, 
+            &quot;updated&quot;: &quot;2014-09-29T12:06:32.310&quot;
+        }
+    ]
+}</pre>
+            </div>
+        </div>
+
+            
+
+                
+
+                
+            
+
+        </div>
+        <!-- END content-main -->
+
+    </div>
+    <!-- END Content -->
+
+        <div id="push"></div>
+
+    </div>
+
+    </div><!-- ./wrapper -->
+
+    
+    
+
+    
+    <script src="/static/rest_framework/js/jquery-1.8.1-min.js"></script>
+    <script src="/static/rest_framework/js/bootstrap.min.js"></script>
+    <script src="/static/rest_framework/js/prettify-min.js"></script>
+    <script src="/static/rest_framework/js/default.js"></script>
+    
+  </body>
+
+<!-- Mirrored from pyvideo.org/api/v2/video/?page=62 by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 07 Jan 2016 03:49:10 GMT -->
+</html>

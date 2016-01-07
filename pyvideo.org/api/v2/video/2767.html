@@ -1,0 +1,194 @@
+
+
+<!DOCTYPE html>
+<html>
+    
+<!-- Mirrored from pyvideo.org/api/v2/video/2767 by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 07 Jan 2016 03:45:22 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+    
+
+        
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+        <meta name="robots" content="NONE,NOARCHIVE" />
+        
+
+        <title>Django REST framework</title>
+
+        
+        
+            <link rel="stylesheet" type="text/css" href="/static/rest_framework/css/bootstrap.min.css"/>
+            <link rel="stylesheet" type="text/css" href="/static/rest_framework/css/bootstrap-tweaks.css"/>
+        
+        <link rel="stylesheet" type="text/css" href="/static/rest_framework/css/prettify.css"/>
+        <link rel="stylesheet" type="text/css" href="/static/rest_framework/css/default.css"/>
+        
+
+    
+    </head>
+
+  <body class=" container">
+
+    <div class="wrapper">
+
+    
+    <div class="navbar navbar-inverse">
+        <div class="navbar-inner">
+            <div class="container-fluid">
+                <span href="/">
+                    <a class='brand' rel="nofollow" href='http://www.django-rest-framework.org'>Django REST framework <span class="version">2.3.14</span></a>
+                </span>
+                <ul class="nav pull-right">
+                    
+                        
+                            <li></li>
+                        
+                    
+                </ul>
+            </div>
+        </div>
+    </div>
+    
+
+    
+    <ul class="breadcrumb">
+        
+            <li>
+                <a href="/api/v2/video/" >Video List Create Api</a> <span class="divider">&rsaquo;</span>
+            </li>
+        
+            <li>
+                <a href="/api/v2/video/2767" class="active">Video Retrieve Update Api</a> 
+            </li>
+        
+    </ul>
+    
+
+    <!-- Content -->
+    <div id="content">
+
+        
+            <form id="get-form" class="pull-right">
+                <fieldset>
+                    <div class="btn-group format-selection">
+                        <a class="btn btn-primary js-tooltip" href='/api/v2/video/2767' rel="nofollow" title="Make a GET request on the Video Retrieve Update Api resource">GET</a>
+
+                        <button class="btn btn-primary dropdown-toggle js-tooltip" data-toggle="dropdown" title="Specify a format for the GET request">
+                            <span class="caret"></span>
+                        </button>
+                        <ul class="dropdown-menu">
+                            
+                                <li>
+                                    <a class="js-tooltip format-option" href='/api/v2/video/2767?format=json' rel="nofollow" title="Make a GET request on the Video Retrieve Update Api resource with the format set to `json`">json</a>
+                                </li>
+                            
+                                <li>
+                                    <a class="js-tooltip format-option" href='/api/v2/video/2767?format=api' rel="nofollow" title="Make a GET request on the Video Retrieve Update Api resource with the format set to `api`">api</a>
+                                </li>
+                            
+                        </ul>
+                    </div>
+
+                </fieldset>
+            </form>
+        
+
+        
+            <form class="button-form" action="/api/v2/video/2767" method="POST" class="pull-right">
+                <input type='hidden' name='csrfmiddlewaretoken' value='pT8iI6zhtQdsGFmu4tryYgFrUlipl2B3' />
+                <input type="hidden" name="_method" value="OPTIONS" />
+                <button class="btn btn-primary js-tooltip" title="Make an OPTIONS request on the Video Retrieve Update Api resource">OPTIONS</button>
+            </form>
+        
+
+        
+
+        <div class="content-main">
+            <div class="page-header"><h1>Video Retrieve Update Api</h1></div>
+            
+            
+            
+            <div class="request-info" style="clear: both" >
+                <pre class="prettyprint"><b>GET</b> /api/v2/video/2767</pre>
+            </div>
+            <div class="response-info">
+                <pre class="prettyprint"><div class="meta nocode"><b>HTTP 200 OK</b>
+<b>Content-Type:</b> <span class="lit">application/json</span>
+<b>Vary:</b> <span class="lit">Accept</span>
+<b>Allow:</b> <span class="lit">GET, PUT, PATCH, HEAD, OPTIONS</span>
+
+</div>{
+    &quot;category&quot;: &quot;SciPy 2014&quot;, 
+    &quot;language&quot;: &quot;English&quot;, 
+    &quot;slug&quot;: &quot;epipy-visualization-of-emerging-zoonoses-through&quot;, 
+    &quot;speakers&quot;: [
+        &quot;Caitlin Rivers&quot;
+    ], 
+    &quot;tags&quot;: [
+        &quot;epipy&quot;, 
+        &quot;vis&quot;
+    ], 
+    &quot;related_urls&quot;: [], 
+    &quot;id&quot;: 2767, 
+    &quot;state&quot;: 1, 
+    &quot;title&quot;: &quot;Epipy: Visualization of Emerging Zoonoses Through Temporal Networks&quot;, 
+    &quot;summary&quot;: &quot;We introduce two new plots for visualizing infectious disease outbreaks. Case tree plots depict the emergence and growth of clusters of zoonotic disease over time. Checkerboard plots also represent temporal case clusters, but do not construct transmission trees. These plots visualize outbreak dynamics  and allow for analyses like case fatality risk stratified by generation.&quot;, 
+    &quot;description&quot;: &quot;We present two new visualizations, [case tree plots](https://github.com/cmrivers/epipy/blob/master/figs/example_casetree.png)\r\nand [checkerboard](https://github.com/cmrivers/epipy/blob/master/figs/test_checkerboard.png)\r\nplots, for visualizing emerging zoonoses.\r\n\r\nZoonoses represent an estimated 58% of all human infectious diseases, and 73%\r\nof emerging infectious diseases. Recent examples of zoonotic outbreaks include\r\nH1N1, SARS and Middle East Respiratory Syndrome, which have caused thousands of\r\ndeaths combined. The current toolkit for visualizing data from these emerging\r\ndiseases is limited.\r\n\r\nCase tree and checkerboard plots were developed to address that gap.\r\nThe visualizations are best suited for diseases like SARS for which there are a\r\nlimited number of cases, with data available on human to human transmission.\r\nThey a) allow for easy estimation of epidemiological parameters like basic\r\nreproduction number b) indicate the frequency of introductory events, e.g.\r\nspillovers in the case of zoonoses c) represent patterns of case attributes\r\nlike patient sex both by generation and over time.\r\n\r\nCase tree plots depict the emergence and growth of clusters of disease over\r\ntime. Each case is represented by a colored node. Nodes that share an\r\nepidemiological link are connected by an edge. The color of the node varies\r\nbased on the node attribute; it could represent patient sex, health status\r\n(e.g. alive, dead), or any other categorical attribute. Node placement along\r\nthe x-axis corresponds with the date of illness onset for the case.\r\n\r\nA second visualization, the checkerboard plot, was developed to complement case\r\ntree plots. They can be used in conjunction with case tree plots, or in\r\nsituations where representing a hypothetical network structure is\r\ninappropriate.\r\n\r\nThe plots are available in the open source package epipy, which is available on\r\n[github](https://github.com/cmrivers/epipy). Detailed documentation and\r\nexamples are also [available](cmrivers.github.io/epipy). In addition to these\r\nvisualizations, epipy includes functions for common epidemiology calculations\r\nlike odds ratio and relative risk.\r\n&quot;, 
+    &quot;quality_notes&quot;: &quot;&quot;, 
+    &quot;copyright_text&quot;: &quot;<a href="http://www.youtube.com/t/terms" rel="nofollow">http://www.youtube.com/t/terms</a>&quot;, 
+    &quot;embed&quot;: &quot;&lt;object width=\&quot;640\&quot; height=\&quot;390\&quot;&gt;&lt;param name=\&quot;movie\&quot; value=\&quot;http://youtube.com/v/JDtIDCVrxgk?version=3&amp;amp;hl=en_US\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowFullScreen\&quot; value=\&quot;true\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowscriptaccess\&quot; value=\&quot;always\&quot;&gt;&lt;/param&gt;&lt;embed src=\&quot;http://youtube.com/v/JDtIDCVrxgk?version=3&amp;amp;hl=en_US\&quot; type=\&quot;application/x-shockwave-flash\&quot; width=\&quot;640\&quot; height=\&quot;390\&quot; allowscriptaccess=\&quot;always\&quot; allowfullscreen=\&quot;true\&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&quot;, 
+    &quot;thumbnail_url&quot;: &quot;<a href="http://i1.ytimg.com/vi/JDtIDCVrxgk/hqdefault.jpg" rel="nofollow">http://i1.ytimg.com/vi/JDtIDCVrxgk/hqdefault.jpg</a>&quot;, 
+    &quot;duration&quot;: null, 
+    &quot;video_ogv_length&quot;: null, 
+    &quot;video_ogv_url&quot;: &quot;&quot;, 
+    &quot;video_ogv_download_only&quot;: false, 
+    &quot;video_mp4_length&quot;: null, 
+    &quot;video_mp4_url&quot;: &quot;&quot;, 
+    &quot;video_mp4_download_only&quot;: false, 
+    &quot;video_webm_length&quot;: null, 
+    &quot;video_webm_url&quot;: &quot;&quot;, 
+    &quot;video_webm_download_only&quot;: false, 
+    &quot;video_flv_length&quot;: null, 
+    &quot;video_flv_url&quot;: &quot;&quot;, 
+    &quot;video_flv_download_only&quot;: false, 
+    &quot;source_url&quot;: &quot;<a href="http://www.youtube.com/watch?v=JDtIDCVrxgk" rel="nofollow">http://www.youtube.com/watch?v=JDtIDCVrxgk</a>&quot;, 
+    &quot;whiteboard&quot;: &quot;&quot;, 
+    &quot;recorded&quot;: &quot;2014-07-14&quot;, 
+    &quot;added&quot;: &quot;2014-07-15T22:45:36.773&quot;, 
+    &quot;updated&quot;: &quot;2014-07-15T23:01:32.155&quot;
+}</pre>
+            </div>
+        </div>
+
+            
+
+                
+
+                
+            
+
+        </div>
+        <!-- END content-main -->
+
+    </div>
+    <!-- END Content -->
+
+        <div id="push"></div>
+
+    </div>
+
+    </div><!-- ./wrapper -->
+
+    
+    
+
+    
+    <script src="/static/rest_framework/js/jquery-1.8.1-min.js"></script>
+    <script src="/static/rest_framework/js/bootstrap.min.js"></script>
+    <script src="/static/rest_framework/js/prettify-min.js"></script>
+    <script src="/static/rest_framework/js/default.js"></script>
+    
+  </body>
+
+<!-- Mirrored from pyvideo.org/api/v2/video/2767 by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 07 Jan 2016 03:45:23 GMT -->
+</html>

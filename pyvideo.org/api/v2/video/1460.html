@@ -1,0 +1,201 @@
+
+
+<!DOCTYPE html>
+<html>
+    
+<!-- Mirrored from pyvideo.org/api/v2/video/1460 by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 07 Jan 2016 03:28:55 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+    
+
+        
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+        <meta name="robots" content="NONE,NOARCHIVE" />
+        
+
+        <title>Django REST framework</title>
+
+        
+        
+            <link rel="stylesheet" type="text/css" href="/static/rest_framework/css/bootstrap.min.css"/>
+            <link rel="stylesheet" type="text/css" href="/static/rest_framework/css/bootstrap-tweaks.css"/>
+        
+        <link rel="stylesheet" type="text/css" href="/static/rest_framework/css/prettify.css"/>
+        <link rel="stylesheet" type="text/css" href="/static/rest_framework/css/default.css"/>
+        
+
+    
+    </head>
+
+  <body class=" container">
+
+    <div class="wrapper">
+
+    
+    <div class="navbar navbar-inverse">
+        <div class="navbar-inner">
+            <div class="container-fluid">
+                <span href="/">
+                    <a class='brand' rel="nofollow" href='http://www.django-rest-framework.org'>Django REST framework <span class="version">2.3.14</span></a>
+                </span>
+                <ul class="nav pull-right">
+                    
+                        
+                            <li></li>
+                        
+                    
+                </ul>
+            </div>
+        </div>
+    </div>
+    
+
+    
+    <ul class="breadcrumb">
+        
+            <li>
+                <a href="/api/v2/video/" >Video List Create Api</a> <span class="divider">&rsaquo;</span>
+            </li>
+        
+            <li>
+                <a href="/api/v2/video/1460" class="active">Video Retrieve Update Api</a> 
+            </li>
+        
+    </ul>
+    
+
+    <!-- Content -->
+    <div id="content">
+
+        
+            <form id="get-form" class="pull-right">
+                <fieldset>
+                    <div class="btn-group format-selection">
+                        <a class="btn btn-primary js-tooltip" href='/api/v2/video/1460' rel="nofollow" title="Make a GET request on the Video Retrieve Update Api resource">GET</a>
+
+                        <button class="btn btn-primary dropdown-toggle js-tooltip" data-toggle="dropdown" title="Specify a format for the GET request">
+                            <span class="caret"></span>
+                        </button>
+                        <ul class="dropdown-menu">
+                            
+                                <li>
+                                    <a class="js-tooltip format-option" href='/api/v2/video/1460?format=json' rel="nofollow" title="Make a GET request on the Video Retrieve Update Api resource with the format set to `json`">json</a>
+                                </li>
+                            
+                                <li>
+                                    <a class="js-tooltip format-option" href='/api/v2/video/1460?format=api' rel="nofollow" title="Make a GET request on the Video Retrieve Update Api resource with the format set to `api`">api</a>
+                                </li>
+                            
+                        </ul>
+                    </div>
+
+                </fieldset>
+            </form>
+        
+
+        
+            <form class="button-form" action="/api/v2/video/1460" method="POST" class="pull-right">
+                <input type='hidden' name='csrfmiddlewaretoken' value='pT8iI6zhtQdsGFmu4tryYgFrUlipl2B3' />
+                <input type="hidden" name="_method" value="OPTIONS" />
+                <button class="btn btn-primary js-tooltip" title="Make an OPTIONS request on the Video Retrieve Update Api resource">OPTIONS</button>
+            </form>
+        
+
+        
+
+        <div class="content-main">
+            <div class="page-header"><h1>Video Retrieve Update Api</h1></div>
+            
+            
+            
+            <div class="request-info" style="clear: both" >
+                <pre class="prettyprint"><b>GET</b> /api/v2/video/1460</pre>
+            </div>
+            <div class="response-info">
+                <pre class="prettyprint"><div class="meta nocode"><b>HTTP 200 OK</b>
+<b>Content-Type:</b> <span class="lit">application/json</span>
+<b>Vary:</b> <span class="lit">Accept</span>
+<b>Allow:</b> <span class="lit">GET, PUT, PATCH, HEAD, OPTIONS</span>
+
+</div>{
+    &quot;category&quot;: &quot;PyCon DE 2012&quot;, 
+    &quot;language&quot;: &quot;German&quot;, 
+    &quot;slug&quot;: &quot;nagiosplugin-eine-python-bibliothek-fur-monitor&quot;, 
+    &quot;speakers&quot;: [
+        &quot;Christian Kauhaus&quot;
+    ], 
+    &quot;tags&quot;: [
+        &quot;icinga&quot;, 
+        &quot; monitoring&quot;, 
+        &quot; nagios&quot;, 
+        &quot; plugin&quot;
+    ], 
+    &quot;related_urls&quot;: [
+        {
+            &quot;url&quot;: &quot;<a href="http://de.slideshare.net/ckauhaus/nagiosplugin-pycondeckauhaus" rel="nofollow">http://de.slideshare.net/ckauhaus/nagiosplugin-pycondeckauhaus</a>&quot;, 
+            &quot;description&quot;: &quot;&quot;
+        }
+    ], 
+    &quot;id&quot;: 1460, 
+    &quot;state&quot;: 1, 
+    &quot;title&quot;: &quot;nagiosplugin - eine Python-Bibliothek f\u00fcr Monitoring-Plugins&quot;, 
+    &quot;summary&quot;: &quot;Auch wenn in der letzten Zeit sehr viel Bewegung in die Monitoring-Szene\ngekommen ist (#monitoringsucks etc.), werden die Platzhirsche Nagios/Icinga\nund ihre Standards auf absehbare Zeit nicht verschwinden. Das Nagios-Plugin-\nAPI stellt eine sehr weit verbreitete Schnittstelle zur Anbindung einzelner\nChecks an Monitoring-Systeme dar. Obwohl das API in den Grundz\u00fcgen sehr\neinfach ist, ist der Programmieraufwand f\u00fcr vollst\u00e4ndig konforme Plugins\nerstaunlich hoch.\n\nDie [_nagiosplugin_-Bibliothek](http://pypi.python.org/pypi/nagiosplugin/)\nnimmt dem Entwickler viele Details ab, so dass er sich auf den Inhalt seiner\nChecks konzentrieren kann. Der Vortrag f\u00fchrt in das Schreiben von Nagios-\nkompatiblen Plugins ein, zeigt den typischen Aufbau von Nagios-Plugins und das\nGrundprinzip eigener Plugins. Die Konfiguration und der Betrieb von\nMonitoring-Systemen im Gro\u00dfen sollen nicht thematisiert werden.\n\nEine Einf\u00fchrung stellt die notwendigen Elemente wie Klassenger\u00fcst,\nMesswerterhebung, Ranges, Statusausgabe und Performancedaten sukzessive in\naufeinander aufbauenden Beispielen vor, so dass am Ende ein einfacher, aber\npraktisch einsetzbarer Check entsteht.\n\nDer Teil \u00fcber fortgeschrittene Aspekte und Stolperfallen rei\u00dft Einzelbeispiele\nzu Themen wie mehrere Datenquellen, Timeouts, Auswertung wachsender Logfiles\nund Checks mit \&quot;Ged\u00e4chtnis\&quot; an und zeigt typischen Fehlerquellen auf.\n\nDen Abschluss bildet ein kurzer Ausblick auf die weitere Entwicklung der\n_nagiosplugin_-Bibliothek.\n\n&quot;, 
+    &quot;description&quot;: &quot;&quot;, 
+    &quot;quality_notes&quot;: &quot;&quot;, 
+    &quot;copyright_text&quot;: &quot;&quot;, 
+    &quot;embed&quot;: &quot;&lt;object width=\&quot;640\&quot; height=\&quot;390\&quot;&gt;&lt;param name=\&quot;movie\&quot; value=\&quot;http://youtube.com/v/i6ah40KmwV8?version=3&amp;amp;hl=en_US\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowFullScreen\&quot; value=\&quot;true\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowscriptaccess\&quot; value=\&quot;always\&quot;&gt;&lt;/param&gt;&lt;embed src=\&quot;http://youtube.com/v/i6ah40KmwV8?version=3&amp;amp;hl=en_US\&quot; type=\&quot;application/x-shockwave-flash\&quot; width=\&quot;640\&quot; height=\&quot;390\&quot; allowscriptaccess=\&quot;always\&quot; allowfullscreen=\&quot;true\&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&quot;, 
+    &quot;thumbnail_url&quot;: &quot;<a href="http://i2.ytimg.com/vi/i6ah40KmwV8/hqdefault.jpg" rel="nofollow">http://i2.ytimg.com/vi/i6ah40KmwV8/hqdefault.jpg</a>&quot;, 
+    &quot;duration&quot;: null, 
+    &quot;video_ogv_length&quot;: null, 
+    &quot;video_ogv_url&quot;: &quot;&quot;, 
+    &quot;video_ogv_download_only&quot;: false, 
+    &quot;video_mp4_length&quot;: null, 
+    &quot;video_mp4_url&quot;: &quot;<a href="http://s3.us.archive.org/nextdayvideo/pyconde/pyconde2012/nagiosplugin_eine_PythonBiblio.mp4?Signature=47EyOQa7uZ51++cPEVK2llY/rtI=&amp;Expires=1352037760&amp;AWSAccessKeyId=FEWGReWX3QbNk0h3" rel="nofollow">http://s3.us.archive.org/nextdayvideo/pyconde/pyconde2012/nagiosplugin_eine_PythonBiblio.mp4?Signature=47EyOQa7uZ51%2B%2BcPEVK2llY%2FrtI%3D&amp;Expires=1352037760&amp;AWSAccessKeyId=FEWGReWX3QbNk0h3</a>&quot;, 
+    &quot;video_mp4_download_only&quot;: false, 
+    &quot;video_webm_length&quot;: null, 
+    &quot;video_webm_url&quot;: &quot;&quot;, 
+    &quot;video_webm_download_only&quot;: false, 
+    &quot;video_flv_length&quot;: null, 
+    &quot;video_flv_url&quot;: &quot;&quot;, 
+    &quot;video_flv_download_only&quot;: false, 
+    &quot;source_url&quot;: &quot;<a href="https://www.youtube.com/watch?v=i6ah40KmwV8" rel="nofollow">https://www.youtube.com/watch?v=i6ah40KmwV8</a>&quot;, 
+    &quot;whiteboard&quot;: &quot;&quot;, 
+    &quot;recorded&quot;: &quot;2012-10-31&quot;, 
+    &quot;added&quot;: &quot;2012-11-02T08:14:49&quot;, 
+    &quot;updated&quot;: &quot;2014-04-08T20:28:26.913&quot;
+}</pre>
+            </div>
+        </div>
+
+            
+
+                
+
+                
+            
+
+        </div>
+        <!-- END content-main -->
+
+    </div>
+    <!-- END Content -->
+
+        <div id="push"></div>
+
+    </div>
+
+    </div><!-- ./wrapper -->
+
+    
+    
+
+    
+    <script src="/static/rest_framework/js/jquery-1.8.1-min.js"></script>
+    <script src="/static/rest_framework/js/bootstrap.min.js"></script>
+    <script src="/static/rest_framework/js/prettify-min.js"></script>
+    <script src="/static/rest_framework/js/default.js"></script>
+    
+  </body>
+
+<!-- Mirrored from pyvideo.org/api/v2/video/1460 by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 07 Jan 2016 03:28:55 GMT -->
+</html>

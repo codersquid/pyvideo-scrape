@@ -1,0 +1,193 @@
+
+
+<!DOCTYPE html>
+<html>
+    
+<!-- Mirrored from pyvideo.org/api/v2/video/1234?format=api by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 07 Jan 2016 03:46:36 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+    
+
+        
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+        <meta name="robots" content="NONE,NOARCHIVE" />
+        
+
+        <title>Django REST framework</title>
+
+        
+        
+            <link rel="stylesheet" type="text/css" href="/static/rest_framework/css/bootstrap.min.css"/>
+            <link rel="stylesheet" type="text/css" href="/static/rest_framework/css/bootstrap-tweaks.css"/>
+        
+        <link rel="stylesheet" type="text/css" href="/static/rest_framework/css/prettify.css"/>
+        <link rel="stylesheet" type="text/css" href="/static/rest_framework/css/default.css"/>
+        
+
+    
+    </head>
+
+  <body class=" container">
+
+    <div class="wrapper">
+
+    
+    <div class="navbar navbar-inverse">
+        <div class="navbar-inner">
+            <div class="container-fluid">
+                <span href="/">
+                    <a class='brand' rel="nofollow" href='http://www.django-rest-framework.org'>Django REST framework <span class="version">2.3.14</span></a>
+                </span>
+                <ul class="nav pull-right">
+                    
+                        
+                            <li></li>
+                        
+                    
+                </ul>
+            </div>
+        </div>
+    </div>
+    
+
+    
+    <ul class="breadcrumb">
+        
+            <li>
+                <a href="/api/v2/video/" >Video List Create Api</a> <span class="divider">&rsaquo;</span>
+            </li>
+        
+            <li>
+                <a href="/api/v2/video/1234" class="active">Video Retrieve Update Api</a> 
+            </li>
+        
+    </ul>
+    
+
+    <!-- Content -->
+    <div id="content">
+
+        
+            <form id="get-form" class="pull-right">
+                <fieldset>
+                    <div class="btn-group format-selection">
+                        <a class="btn btn-primary js-tooltip" href='/api/v2/video/1234?format=api' rel="nofollow" title="Make a GET request on the Video Retrieve Update Api resource">GET</a>
+
+                        <button class="btn btn-primary dropdown-toggle js-tooltip" data-toggle="dropdown" title="Specify a format for the GET request">
+                            <span class="caret"></span>
+                        </button>
+                        <ul class="dropdown-menu">
+                            
+                                <li>
+                                    <a class="js-tooltip format-option" href='/api/v2/video/1234?format=json' rel="nofollow" title="Make a GET request on the Video Retrieve Update Api resource with the format set to `json`">json</a>
+                                </li>
+                            
+                                <li>
+                                    <a class="js-tooltip format-option" href='/api/v2/video/1234?format=api' rel="nofollow" title="Make a GET request on the Video Retrieve Update Api resource with the format set to `api`">api</a>
+                                </li>
+                            
+                        </ul>
+                    </div>
+
+                </fieldset>
+            </form>
+        
+
+        
+            <form class="button-form" action="/api/v2/video/1234?format=api" method="POST" class="pull-right">
+                <input type='hidden' name='csrfmiddlewaretoken' value='pT8iI6zhtQdsGFmu4tryYgFrUlipl2B3' />
+                <input type="hidden" name="_method" value="OPTIONS" />
+                <button class="btn btn-primary js-tooltip" title="Make an OPTIONS request on the Video Retrieve Update Api resource">OPTIONS</button>
+            </form>
+        
+
+        
+
+        <div class="content-main">
+            <div class="page-header"><h1>Video Retrieve Update Api</h1></div>
+            
+            
+            
+            <div class="request-info" style="clear: both" >
+                <pre class="prettyprint"><b>GET</b> /api/v2/video/1234?format=api</pre>
+            </div>
+            <div class="response-info">
+                <pre class="prettyprint"><div class="meta nocode"><b>HTTP 200 OK</b>
+<b>Content-Type:</b> <span class="lit">application/json</span>
+<b>Vary:</b> <span class="lit">Accept</span>
+<b>Allow:</b> <span class="lit">GET, PUT, PATCH, HEAD, OPTIONS</span>
+
+</div>{
+    &quot;category&quot;: &quot;SciPy 2012&quot;, 
+    &quot;language&quot;: &quot;English&quot;, 
+    &quot;slug&quot;: &quot;fcm-a-python-library-for-flow-cytometry&quot;, 
+    &quot;speakers&quot;: [
+        &quot;Jacob Frelinger&quot;
+    ], 
+    &quot;tags&quot;: [
+        &quot;Computational Bioinformatics&quot;
+    ], 
+    &quot;related_urls&quot;: [], 
+    &quot;id&quot;: 1234, 
+    &quot;state&quot;: 1, 
+    &quot;title&quot;: &quot;Fcm - A python library for flow cytometry&quot;, 
+    &quot;summary&quot;: &quot;&quot;, 
+    &quot;description&quot;: &quot;Cellular populations in biology are often heterogeneous, and aggregate assays\nsuch as expression arrays can obscure the small differences between these\npopulations. Examples where these differences can be highly significant\ninclude the identification of antigen-specific immune cells, stem cells and\ncirculating cancer cells. As the frequency of such cells in the blood can be\nvanishingly small, assays to detect signals at the single cell level are\nessential. Flow cytometry is probably the best established single cell assay,\nand has been an integral tool in immunology and biology for decades, able to\nmeasure cellular marker levels for individual cells, as well as population\nstatistics over millions of cells.\n\nRecent technological innovations in flow cytometry have increased the number\nof cell markers capable of being resolved simultaneously, and visual analysis\n(gating) is difficult and error prone with increasing data dimensionality.\nHence there is increasing demand for tools to automate the analysis and\nmanagement of flow data, so as to increase accuracy and reproducibility.\nHowever, essentially all software used by flow cytometry laboratories is\ncommercial and based on the visual analysis paradigm. With the exception of\nthe R BioConductor project, we are not aware of any other full-featured open\nsource tools for analyzing flow data. The few open source flow software\nmodules that exist simply extracts data from FCS (flow cytometry standard)\nfiles into tabular/csv format, losing all metadata associated with the file,\nand provide no additional tools for analysis. We therefore decided to develop\nthe _fcm_ library in python that would provide a foundation for flow cytometry\ndata management and analysis.\n\nThe _fcm_ library provides functions to load fcs files, apply spectral\ncompensation, and perform standard log and log-like transforms for\nvisualization. The library also provides objects and methods for traditional\ngating-based analysis, including standard polygon, threshold, interval, and\nquadrant gates. Using _fcm_ and other common python libraries, one can quickly\nwrite scripts for doing large scale batch analysis. In addition to gating-\nbased analysis, _fcm_ provides methods to do model-based analysis, utilizing\nGPU-optimized statistical models to identify cell subsets. These statistical\nmodels provide a data-driven way to construct generative probability models\nthat scale well with the increasing dimensionality of flow data and do not\nrequire expert input to identify cell subsets. High performance computational\nroutines to fit statistical models are optimized using cython and pycuda. More\nspecialized tools for the analysis of flow data include the use of a novel\ninformation measure to optimize reagent panels and analysis strategies, and\noptimization methods for automatic determination of positivity thresholds.\n\nWe are currently using the _fcm_ library for the analysis of tetramer assays\nfor cancer immunotherapy, as well as intracellular expression of effector\nmolecules in the NIAID-sponsored External Quality Assurance Policy Oversight\nLaboratory (EQAPOL) program to standardize flow cytometry assays in HIV\nstudies. An illustrative example is the use of _fcm_ in building a pipeline\nfor the Cytostream application to automate the analysis of 459 FCS files from\n12 laboratories, reducing the analysis time of one month to a single evening.\n\n&quot;, 
+    &quot;quality_notes&quot;: &quot;&quot;, 
+    &quot;copyright_text&quot;: &quot;CC BY-SA&quot;, 
+    &quot;embed&quot;: &quot;&lt;object width=\&quot;640\&quot; height=\&quot;390\&quot;&gt;&lt;param name=\&quot;movie\&quot; value=\&quot;http://youtube.com/v/SXdIiLPQLAo?version=3&amp;amp;hl=en_US\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowFullScreen\&quot; value=\&quot;true\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowscriptaccess\&quot; value=\&quot;always\&quot;&gt;&lt;/param&gt;&lt;embed src=\&quot;http://youtube.com/v/SXdIiLPQLAo?version=3&amp;amp;hl=en_US\&quot; type=\&quot;application/x-shockwave-flash\&quot; width=\&quot;640\&quot; height=\&quot;390\&quot; allowscriptaccess=\&quot;always\&quot; allowfullscreen=\&quot;true\&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&quot;, 
+    &quot;thumbnail_url&quot;: &quot;<a href="http://i4.ytimg.com/vi/SXdIiLPQLAo/hqdefault.jpg" rel="nofollow">http://i4.ytimg.com/vi/SXdIiLPQLAo/hqdefault.jpg</a>&quot;, 
+    &quot;duration&quot;: null, 
+    &quot;video_ogv_length&quot;: null, 
+    &quot;video_ogv_url&quot;: null, 
+    &quot;video_ogv_download_only&quot;: false, 
+    &quot;video_mp4_length&quot;: null, 
+    &quot;video_mp4_url&quot;: &quot;<a href="http://s3.us.archive.org/nextdayvideo/enthought/scipy_2012/Fcm_A_python_library_for_flow_.mp4?Signature=47khe03tMWQWqHO71268Wx73pMs=&amp;Expires=1346383053&amp;AWSAccessKeyId=FEWGReWX3QbNk0h3" rel="nofollow">http://s3.us.archive.org/nextdayvideo/enthought/scipy_2012/Fcm_A_python_library_for_flow_.mp4?Signature=47khe03tMWQWqHO71268Wx73pMs%3D&amp;Expires=1346383053&amp;AWSAccessKeyId=FEWGReWX3QbNk0h3</a>&quot;, 
+    &quot;video_mp4_download_only&quot;: false, 
+    &quot;video_webm_length&quot;: null, 
+    &quot;video_webm_url&quot;: &quot;&quot;, 
+    &quot;video_webm_download_only&quot;: false, 
+    &quot;video_flv_length&quot;: null, 
+    &quot;video_flv_url&quot;: &quot;&quot;, 
+    &quot;video_flv_download_only&quot;: false, 
+    &quot;source_url&quot;: &quot;<a href="https://www.youtube.com/watch?v=SXdIiLPQLAo" rel="nofollow">https://www.youtube.com/watch?v=SXdIiLPQLAo</a>&quot;, 
+    &quot;whiteboard&quot;: &quot;&quot;, 
+    &quot;recorded&quot;: &quot;2012-07-19&quot;, 
+    &quot;added&quot;: &quot;2012-08-31T16:35:55&quot;, 
+    &quot;updated&quot;: &quot;2014-04-08T20:28:27.098&quot;
+}</pre>
+            </div>
+        </div>
+
+            
+
+                
+
+                
+            
+
+        </div>
+        <!-- END content-main -->
+
+    </div>
+    <!-- END Content -->
+
+        <div id="push"></div>
+
+    </div>
+
+    </div><!-- ./wrapper -->
+
+    
+    
+
+    
+    <script src="/static/rest_framework/js/jquery-1.8.1-min.js"></script>
+    <script src="/static/rest_framework/js/bootstrap.min.js"></script>
+    <script src="/static/rest_framework/js/prettify-min.js"></script>
+    <script src="/static/rest_framework/js/default.js"></script>
+    
+  </body>
+
+<!-- Mirrored from pyvideo.org/api/v2/video/1234?format=api by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 07 Jan 2016 03:46:36 GMT -->
+</html>

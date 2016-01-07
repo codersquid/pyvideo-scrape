@@ -1,0 +1,305 @@
+
+
+<!DOCTYPE html>
+<html>
+    
+<!-- Mirrored from pyvideo.org/api/v2/category/pycon-us-2014 by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 07 Jan 2016 03:08:06 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+    
+
+        
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+        <meta name="robots" content="NONE,NOARCHIVE" />
+        
+
+        <title>Django REST framework</title>
+
+        
+        
+            <link rel="stylesheet" type="text/css" href="/static/rest_framework/css/bootstrap.min.css"/>
+            <link rel="stylesheet" type="text/css" href="/static/rest_framework/css/bootstrap-tweaks.css"/>
+        
+        <link rel="stylesheet" type="text/css" href="/static/rest_framework/css/prettify.css"/>
+        <link rel="stylesheet" type="text/css" href="/static/rest_framework/css/default.css"/>
+        
+
+    
+    </head>
+
+  <body class=" container">
+
+    <div class="wrapper">
+
+    
+    <div class="navbar navbar-inverse">
+        <div class="navbar-inner">
+            <div class="container-fluid">
+                <span href="/">
+                    <a class='brand' rel="nofollow" href='http://www.django-rest-framework.org'>Django REST framework <span class="version">2.3.14</span></a>
+                </span>
+                <ul class="nav pull-right">
+                    
+                        
+                            <li></li>
+                        
+                    
+                </ul>
+            </div>
+        </div>
+    </div>
+    
+
+    
+    <ul class="breadcrumb">
+        
+            <li>
+                <a href="/api/v2/category/" >Category List Api</a> <span class="divider">&rsaquo;</span>
+            </li>
+        
+            <li>
+                <a href="/api/v2/category/pycon-us-2014" class="active">Category Retrieve Api</a> 
+            </li>
+        
+    </ul>
+    
+
+    <!-- Content -->
+    <div id="content">
+
+        
+            <form id="get-form" class="pull-right">
+                <fieldset>
+                    <div class="btn-group format-selection">
+                        <a class="btn btn-primary js-tooltip" href='/api/v2/category/pycon-us-2014' rel="nofollow" title="Make a GET request on the Category Retrieve Api resource">GET</a>
+
+                        <button class="btn btn-primary dropdown-toggle js-tooltip" data-toggle="dropdown" title="Specify a format for the GET request">
+                            <span class="caret"></span>
+                        </button>
+                        <ul class="dropdown-menu">
+                            
+                                <li>
+                                    <a class="js-tooltip format-option" href='/api/v2/category/pycon-us-2014?format=json' rel="nofollow" title="Make a GET request on the Category Retrieve Api resource with the format set to `json`">json</a>
+                                </li>
+                            
+                                <li>
+                                    <a class="js-tooltip format-option" href='/api/v2/category/pycon-us-2014?format=api' rel="nofollow" title="Make a GET request on the Category Retrieve Api resource with the format set to `api`">api</a>
+                                </li>
+                            
+                        </ul>
+                    </div>
+
+                </fieldset>
+            </form>
+        
+
+        
+            <form class="button-form" action="/api/v2/category/pycon-us-2014" method="POST" class="pull-right">
+                <input type='hidden' name='csrfmiddlewaretoken' value='pT8iI6zhtQdsGFmu4tryYgFrUlipl2B3' />
+                <input type="hidden" name="_method" value="OPTIONS" />
+                <button class="btn btn-primary js-tooltip" title="Make an OPTIONS request on the Category Retrieve Api resource">OPTIONS</button>
+            </form>
+        
+
+        
+
+        <div class="content-main">
+            <div class="page-header"><h1>Category Retrieve Api</h1></div>
+            
+            
+            
+            <div class="request-info" style="clear: both" >
+                <pre class="prettyprint"><b>GET</b> /api/v2/category/pycon-us-2014</pre>
+            </div>
+            <div class="response-info">
+                <pre class="prettyprint"><div class="meta nocode"><b>HTTP 200 OK</b>
+<b>Content-Type:</b> <span class="lit">application/json</span>
+<b>Vary:</b> <span class="lit">Accept</span>
+<b>Allow:</b> <span class="lit">GET, HEAD, OPTIONS</span>
+
+</div>{
+    &quot;videos&quot;: [
+        &quot;<a href="http://pyvideo.org/api/v2/video/2676" rel="nofollow">http://pyvideo.org/api/v2/video/2676</a>&quot;, 
+        &quot;<a href="http://pyvideo.org/api/v2/video/2660" rel="nofollow">http://pyvideo.org/api/v2/video/2660</a>&quot;, 
+        &quot;<a href="http://pyvideo.org/api/v2/video/2658" rel="nofollow">http://pyvideo.org/api/v2/video/2658</a>&quot;, 
+        &quot;<a href="http://pyvideo.org/api/v2/video/2644" rel="nofollow">http://pyvideo.org/api/v2/video/2644</a>&quot;, 
+        &quot;<a href="http://pyvideo.org/api/v2/video/2669" rel="nofollow">http://pyvideo.org/api/v2/video/2669</a>&quot;, 
+        &quot;<a href="http://pyvideo.org/api/v2/video/2675" rel="nofollow">http://pyvideo.org/api/v2/video/2675</a>&quot;, 
+        &quot;<a href="http://pyvideo.org/api/v2/video/2685" rel="nofollow">http://pyvideo.org/api/v2/video/2685</a>&quot;, 
+        &quot;<a href="http://pyvideo.org/api/v2/video/2697" rel="nofollow">http://pyvideo.org/api/v2/video/2697</a>&quot;, 
+        &quot;<a href="http://pyvideo.org/api/v2/video/2632" rel="nofollow">http://pyvideo.org/api/v2/video/2632</a>&quot;, 
+        &quot;<a href="http://pyvideo.org/api/v2/video/2630" rel="nofollow">http://pyvideo.org/api/v2/video/2630</a>&quot;, 
+        &quot;<a href="http://pyvideo.org/api/v2/video/2647" rel="nofollow">http://pyvideo.org/api/v2/video/2647</a>&quot;, 
+        &quot;<a href="http://pyvideo.org/api/v2/video/2689" rel="nofollow">http://pyvideo.org/api/v2/video/2689</a>&quot;, 
+        &quot;<a href="http://pyvideo.org/api/v2/video/2645" rel="nofollow">http://pyvideo.org/api/v2/video/2645</a>&quot;, 
+        &quot;<a href="http://pyvideo.org/api/v2/video/2657" rel="nofollow">http://pyvideo.org/api/v2/video/2657</a>&quot;, 
+        &quot;<a href="http://pyvideo.org/api/v2/video/2652" rel="nofollow">http://pyvideo.org/api/v2/video/2652</a>&quot;, 
+        &quot;<a href="http://pyvideo.org/api/v2/video/2671" rel="nofollow">http://pyvideo.org/api/v2/video/2671</a>&quot;, 
+        &quot;<a href="http://pyvideo.org/api/v2/video/2627" rel="nofollow">http://pyvideo.org/api/v2/video/2627</a>&quot;, 
+        &quot;<a href="http://pyvideo.org/api/v2/video/2655" rel="nofollow">http://pyvideo.org/api/v2/video/2655</a>&quot;, 
+        &quot;<a href="http://pyvideo.org/api/v2/video/2633" rel="nofollow">http://pyvideo.org/api/v2/video/2633</a>&quot;, 
+        &quot;<a href="http://pyvideo.org/api/v2/video/2674" rel="nofollow">http://pyvideo.org/api/v2/video/2674</a>&quot;, 
+        &quot;<a href="http://pyvideo.org/api/v2/video/2646" rel="nofollow">http://pyvideo.org/api/v2/video/2646</a>&quot;, 
+        &quot;<a href="http://pyvideo.org/api/v2/video/2673" rel="nofollow">http://pyvideo.org/api/v2/video/2673</a>&quot;, 
+        &quot;<a href="http://pyvideo.org/api/v2/video/2629" rel="nofollow">http://pyvideo.org/api/v2/video/2629</a>&quot;, 
+        &quot;<a href="http://pyvideo.org/api/v2/video/2654" rel="nofollow">http://pyvideo.org/api/v2/video/2654</a>&quot;, 
+        &quot;<a href="http://pyvideo.org/api/v2/video/2659" rel="nofollow">http://pyvideo.org/api/v2/video/2659</a>&quot;, 
+        &quot;<a href="http://pyvideo.org/api/v2/video/2683" rel="nofollow">http://pyvideo.org/api/v2/video/2683</a>&quot;, 
+        &quot;<a href="http://pyvideo.org/api/v2/video/2686" rel="nofollow">http://pyvideo.org/api/v2/video/2686</a>&quot;, 
+        &quot;<a href="http://pyvideo.org/api/v2/video/2684" rel="nofollow">http://pyvideo.org/api/v2/video/2684</a>&quot;, 
+        &quot;<a href="http://pyvideo.org/api/v2/video/2688" rel="nofollow">http://pyvideo.org/api/v2/video/2688</a>&quot;, 
+        &quot;<a href="http://pyvideo.org/api/v2/video/2678" rel="nofollow">http://pyvideo.org/api/v2/video/2678</a>&quot;, 
+        &quot;<a href="http://pyvideo.org/api/v2/video/2681" rel="nofollow">http://pyvideo.org/api/v2/video/2681</a>&quot;, 
+        &quot;<a href="http://pyvideo.org/api/v2/video/2701" rel="nofollow">http://pyvideo.org/api/v2/video/2701</a>&quot;, 
+        &quot;<a href="http://pyvideo.org/api/v2/video/2687" rel="nofollow">http://pyvideo.org/api/v2/video/2687</a>&quot;, 
+        &quot;<a href="http://pyvideo.org/api/v2/video/2691" rel="nofollow">http://pyvideo.org/api/v2/video/2691</a>&quot;, 
+        &quot;<a href="http://pyvideo.org/api/v2/video/2699" rel="nofollow">http://pyvideo.org/api/v2/video/2699</a>&quot;, 
+        &quot;<a href="http://pyvideo.org/api/v2/video/2663" rel="nofollow">http://pyvideo.org/api/v2/video/2663</a>&quot;, 
+        &quot;<a href="http://pyvideo.org/api/v2/video/2664" rel="nofollow">http://pyvideo.org/api/v2/video/2664</a>&quot;, 
+        &quot;<a href="http://pyvideo.org/api/v2/video/2643" rel="nofollow">http://pyvideo.org/api/v2/video/2643</a>&quot;, 
+        &quot;<a href="http://pyvideo.org/api/v2/video/2641" rel="nofollow">http://pyvideo.org/api/v2/video/2641</a>&quot;, 
+        &quot;<a href="http://pyvideo.org/api/v2/video/2650" rel="nofollow">http://pyvideo.org/api/v2/video/2650</a>&quot;, 
+        &quot;<a href="http://pyvideo.org/api/v2/video/2692" rel="nofollow">http://pyvideo.org/api/v2/video/2692</a>&quot;, 
+        &quot;<a href="http://pyvideo.org/api/v2/video/2662" rel="nofollow">http://pyvideo.org/api/v2/video/2662</a>&quot;, 
+        &quot;<a href="http://pyvideo.org/api/v2/video/2702" rel="nofollow">http://pyvideo.org/api/v2/video/2702</a>&quot;, 
+        &quot;<a href="http://pyvideo.org/api/v2/video/2695" rel="nofollow">http://pyvideo.org/api/v2/video/2695</a>&quot;, 
+        &quot;<a href="http://pyvideo.org/api/v2/video/2631" rel="nofollow">http://pyvideo.org/api/v2/video/2631</a>&quot;, 
+        &quot;<a href="http://pyvideo.org/api/v2/video/2642" rel="nofollow">http://pyvideo.org/api/v2/video/2642</a>&quot;, 
+        &quot;<a href="http://pyvideo.org/api/v2/video/2656" rel="nofollow">http://pyvideo.org/api/v2/video/2656</a>&quot;, 
+        &quot;<a href="http://pyvideo.org/api/v2/video/2693" rel="nofollow">http://pyvideo.org/api/v2/video/2693</a>&quot;, 
+        &quot;<a href="http://pyvideo.org/api/v2/video/2638" rel="nofollow">http://pyvideo.org/api/v2/video/2638</a>&quot;, 
+        &quot;<a href="http://pyvideo.org/api/v2/video/2637" rel="nofollow">http://pyvideo.org/api/v2/video/2637</a>&quot;, 
+        &quot;<a href="http://pyvideo.org/api/v2/video/2635" rel="nofollow">http://pyvideo.org/api/v2/video/2635</a>&quot;, 
+        &quot;<a href="http://pyvideo.org/api/v2/video/2649" rel="nofollow">http://pyvideo.org/api/v2/video/2649</a>&quot;, 
+        &quot;<a href="http://pyvideo.org/api/v2/video/2696" rel="nofollow">http://pyvideo.org/api/v2/video/2696</a>&quot;, 
+        &quot;<a href="http://pyvideo.org/api/v2/video/2667" rel="nofollow">http://pyvideo.org/api/v2/video/2667</a>&quot;, 
+        &quot;<a href="http://pyvideo.org/api/v2/video/2640" rel="nofollow">http://pyvideo.org/api/v2/video/2640</a>&quot;, 
+        &quot;<a href="http://pyvideo.org/api/v2/video/2661" rel="nofollow">http://pyvideo.org/api/v2/video/2661</a>&quot;, 
+        &quot;<a href="http://pyvideo.org/api/v2/video/2636" rel="nofollow">http://pyvideo.org/api/v2/video/2636</a>&quot;, 
+        &quot;<a href="http://pyvideo.org/api/v2/video/2651" rel="nofollow">http://pyvideo.org/api/v2/video/2651</a>&quot;, 
+        &quot;<a href="http://pyvideo.org/api/v2/video/2698" rel="nofollow">http://pyvideo.org/api/v2/video/2698</a>&quot;, 
+        &quot;<a href="http://pyvideo.org/api/v2/video/2648" rel="nofollow">http://pyvideo.org/api/v2/video/2648</a>&quot;, 
+        &quot;<a href="http://pyvideo.org/api/v2/video/2634" rel="nofollow">http://pyvideo.org/api/v2/video/2634</a>&quot;, 
+        &quot;<a href="http://pyvideo.org/api/v2/video/2677" rel="nofollow">http://pyvideo.org/api/v2/video/2677</a>&quot;, 
+        &quot;<a href="http://pyvideo.org/api/v2/video/2672" rel="nofollow">http://pyvideo.org/api/v2/video/2672</a>&quot;, 
+        &quot;<a href="http://pyvideo.org/api/v2/video/2668" rel="nofollow">http://pyvideo.org/api/v2/video/2668</a>&quot;, 
+        &quot;<a href="http://pyvideo.org/api/v2/video/2617" rel="nofollow">http://pyvideo.org/api/v2/video/2617</a>&quot;, 
+        &quot;<a href="http://pyvideo.org/api/v2/video/2571" rel="nofollow">http://pyvideo.org/api/v2/video/2571</a>&quot;, 
+        &quot;<a href="http://pyvideo.org/api/v2/video/2622" rel="nofollow">http://pyvideo.org/api/v2/video/2622</a>&quot;, 
+        &quot;<a href="http://pyvideo.org/api/v2/video/2607" rel="nofollow">http://pyvideo.org/api/v2/video/2607</a>&quot;, 
+        &quot;<a href="http://pyvideo.org/api/v2/video/2613" rel="nofollow">http://pyvideo.org/api/v2/video/2613</a>&quot;, 
+        &quot;<a href="http://pyvideo.org/api/v2/video/2628" rel="nofollow">http://pyvideo.org/api/v2/video/2628</a>&quot;, 
+        &quot;<a href="http://pyvideo.org/api/v2/video/2579" rel="nofollow">http://pyvideo.org/api/v2/video/2579</a>&quot;, 
+        &quot;<a href="http://pyvideo.org/api/v2/video/2619" rel="nofollow">http://pyvideo.org/api/v2/video/2619</a>&quot;, 
+        &quot;<a href="http://pyvideo.org/api/v2/video/2585" rel="nofollow">http://pyvideo.org/api/v2/video/2585</a>&quot;, 
+        &quot;<a href="http://pyvideo.org/api/v2/video/2621" rel="nofollow">http://pyvideo.org/api/v2/video/2621</a>&quot;, 
+        &quot;<a href="http://pyvideo.org/api/v2/video/2626" rel="nofollow">http://pyvideo.org/api/v2/video/2626</a>&quot;, 
+        &quot;<a href="http://pyvideo.org/api/v2/video/2578" rel="nofollow">http://pyvideo.org/api/v2/video/2578</a>&quot;, 
+        &quot;<a href="http://pyvideo.org/api/v2/video/2582" rel="nofollow">http://pyvideo.org/api/v2/video/2582</a>&quot;, 
+        &quot;<a href="http://pyvideo.org/api/v2/video/2625" rel="nofollow">http://pyvideo.org/api/v2/video/2625</a>&quot;, 
+        &quot;<a href="http://pyvideo.org/api/v2/video/2588" rel="nofollow">http://pyvideo.org/api/v2/video/2588</a>&quot;, 
+        &quot;<a href="http://pyvideo.org/api/v2/video/2586" rel="nofollow">http://pyvideo.org/api/v2/video/2586</a>&quot;, 
+        &quot;<a href="http://pyvideo.org/api/v2/video/2595" rel="nofollow">http://pyvideo.org/api/v2/video/2595</a>&quot;, 
+        &quot;<a href="http://pyvideo.org/api/v2/video/2574" rel="nofollow">http://pyvideo.org/api/v2/video/2574</a>&quot;, 
+        &quot;<a href="http://pyvideo.org/api/v2/video/2598" rel="nofollow">http://pyvideo.org/api/v2/video/2598</a>&quot;, 
+        &quot;<a href="http://pyvideo.org/api/v2/video/2611" rel="nofollow">http://pyvideo.org/api/v2/video/2611</a>&quot;, 
+        &quot;<a href="http://pyvideo.org/api/v2/video/2624" rel="nofollow">http://pyvideo.org/api/v2/video/2624</a>&quot;, 
+        &quot;<a href="http://pyvideo.org/api/v2/video/2653" rel="nofollow">http://pyvideo.org/api/v2/video/2653</a>&quot;, 
+        &quot;<a href="http://pyvideo.org/api/v2/video/2612" rel="nofollow">http://pyvideo.org/api/v2/video/2612</a>&quot;, 
+        &quot;<a href="http://pyvideo.org/api/v2/video/2572" rel="nofollow">http://pyvideo.org/api/v2/video/2572</a>&quot;, 
+        &quot;<a href="http://pyvideo.org/api/v2/video/2609" rel="nofollow">http://pyvideo.org/api/v2/video/2609</a>&quot;, 
+        &quot;<a href="http://pyvideo.org/api/v2/video/2608" rel="nofollow">http://pyvideo.org/api/v2/video/2608</a>&quot;, 
+        &quot;<a href="http://pyvideo.org/api/v2/video/2600" rel="nofollow">http://pyvideo.org/api/v2/video/2600</a>&quot;, 
+        &quot;<a href="http://pyvideo.org/api/v2/video/2575" rel="nofollow">http://pyvideo.org/api/v2/video/2575</a>&quot;, 
+        &quot;<a href="http://pyvideo.org/api/v2/video/2616" rel="nofollow">http://pyvideo.org/api/v2/video/2616</a>&quot;, 
+        &quot;<a href="http://pyvideo.org/api/v2/video/2618" rel="nofollow">http://pyvideo.org/api/v2/video/2618</a>&quot;, 
+        &quot;<a href="http://pyvideo.org/api/v2/video/2576" rel="nofollow">http://pyvideo.org/api/v2/video/2576</a>&quot;, 
+        &quot;<a href="http://pyvideo.org/api/v2/video/2594" rel="nofollow">http://pyvideo.org/api/v2/video/2594</a>&quot;, 
+        &quot;<a href="http://pyvideo.org/api/v2/video/2604" rel="nofollow">http://pyvideo.org/api/v2/video/2604</a>&quot;, 
+        &quot;<a href="http://pyvideo.org/api/v2/video/2567" rel="nofollow">http://pyvideo.org/api/v2/video/2567</a>&quot;, 
+        &quot;<a href="http://pyvideo.org/api/v2/video/2581" rel="nofollow">http://pyvideo.org/api/v2/video/2581</a>&quot;, 
+        &quot;<a href="http://pyvideo.org/api/v2/video/2620" rel="nofollow">http://pyvideo.org/api/v2/video/2620</a>&quot;, 
+        &quot;<a href="http://pyvideo.org/api/v2/video/2599" rel="nofollow">http://pyvideo.org/api/v2/video/2599</a>&quot;, 
+        &quot;<a href="http://pyvideo.org/api/v2/video/2670" rel="nofollow">http://pyvideo.org/api/v2/video/2670</a>&quot;, 
+        &quot;<a href="http://pyvideo.org/api/v2/video/2592" rel="nofollow">http://pyvideo.org/api/v2/video/2592</a>&quot;, 
+        &quot;<a href="http://pyvideo.org/api/v2/video/2577" rel="nofollow">http://pyvideo.org/api/v2/video/2577</a>&quot;, 
+        &quot;<a href="http://pyvideo.org/api/v2/video/2587" rel="nofollow">http://pyvideo.org/api/v2/video/2587</a>&quot;, 
+        &quot;<a href="http://pyvideo.org/api/v2/video/2568" rel="nofollow">http://pyvideo.org/api/v2/video/2568</a>&quot;, 
+        &quot;<a href="http://pyvideo.org/api/v2/video/2569" rel="nofollow">http://pyvideo.org/api/v2/video/2569</a>&quot;, 
+        &quot;<a href="http://pyvideo.org/api/v2/video/2682" rel="nofollow">http://pyvideo.org/api/v2/video/2682</a>&quot;, 
+        &quot;<a href="http://pyvideo.org/api/v2/video/2566" rel="nofollow">http://pyvideo.org/api/v2/video/2566</a>&quot;, 
+        &quot;<a href="http://pyvideo.org/api/v2/video/2573" rel="nofollow">http://pyvideo.org/api/v2/video/2573</a>&quot;, 
+        &quot;<a href="http://pyvideo.org/api/v2/video/2589" rel="nofollow">http://pyvideo.org/api/v2/video/2589</a>&quot;, 
+        &quot;<a href="http://pyvideo.org/api/v2/video/2615" rel="nofollow">http://pyvideo.org/api/v2/video/2615</a>&quot;, 
+        &quot;<a href="http://pyvideo.org/api/v2/video/2690" rel="nofollow">http://pyvideo.org/api/v2/video/2690</a>&quot;, 
+        &quot;<a href="http://pyvideo.org/api/v2/video/2605" rel="nofollow">http://pyvideo.org/api/v2/video/2605</a>&quot;, 
+        &quot;<a href="http://pyvideo.org/api/v2/video/2593" rel="nofollow">http://pyvideo.org/api/v2/video/2593</a>&quot;, 
+        &quot;<a href="http://pyvideo.org/api/v2/video/2606" rel="nofollow">http://pyvideo.org/api/v2/video/2606</a>&quot;, 
+        &quot;<a href="http://pyvideo.org/api/v2/video/2639" rel="nofollow">http://pyvideo.org/api/v2/video/2639</a>&quot;, 
+        &quot;<a href="http://pyvideo.org/api/v2/video/2610" rel="nofollow">http://pyvideo.org/api/v2/video/2610</a>&quot;, 
+        &quot;<a href="http://pyvideo.org/api/v2/video/2591" rel="nofollow">http://pyvideo.org/api/v2/video/2591</a>&quot;, 
+        &quot;<a href="http://pyvideo.org/api/v2/video/2584" rel="nofollow">http://pyvideo.org/api/v2/video/2584</a>&quot;, 
+        &quot;<a href="http://pyvideo.org/api/v2/video/2580" rel="nofollow">http://pyvideo.org/api/v2/video/2580</a>&quot;, 
+        &quot;<a href="http://pyvideo.org/api/v2/video/2596" rel="nofollow">http://pyvideo.org/api/v2/video/2596</a>&quot;, 
+        &quot;<a href="http://pyvideo.org/api/v2/video/2694" rel="nofollow">http://pyvideo.org/api/v2/video/2694</a>&quot;, 
+        &quot;<a href="http://pyvideo.org/api/v2/video/2583" rel="nofollow">http://pyvideo.org/api/v2/video/2583</a>&quot;, 
+        &quot;<a href="http://pyvideo.org/api/v2/video/2570" rel="nofollow">http://pyvideo.org/api/v2/video/2570</a>&quot;, 
+        &quot;<a href="http://pyvideo.org/api/v2/video/2590" rel="nofollow">http://pyvideo.org/api/v2/video/2590</a>&quot;, 
+        &quot;<a href="http://pyvideo.org/api/v2/video/2597" rel="nofollow">http://pyvideo.org/api/v2/video/2597</a>&quot;, 
+        &quot;<a href="http://pyvideo.org/api/v2/video/2565" rel="nofollow">http://pyvideo.org/api/v2/video/2565</a>&quot;, 
+        &quot;<a href="http://pyvideo.org/api/v2/video/2558" rel="nofollow">http://pyvideo.org/api/v2/video/2558</a>&quot;, 
+        &quot;<a href="http://pyvideo.org/api/v2/video/2560" rel="nofollow">http://pyvideo.org/api/v2/video/2560</a>&quot;, 
+        &quot;<a href="http://pyvideo.org/api/v2/video/2614" rel="nofollow">http://pyvideo.org/api/v2/video/2614</a>&quot;, 
+        &quot;<a href="http://pyvideo.org/api/v2/video/2561" rel="nofollow">http://pyvideo.org/api/v2/video/2561</a>&quot;, 
+        &quot;<a href="http://pyvideo.org/api/v2/video/2562" rel="nofollow">http://pyvideo.org/api/v2/video/2562</a>&quot;, 
+        &quot;<a href="http://pyvideo.org/api/v2/video/2559" rel="nofollow">http://pyvideo.org/api/v2/video/2559</a>&quot;, 
+        &quot;<a href="http://pyvideo.org/api/v2/video/2563" rel="nofollow">http://pyvideo.org/api/v2/video/2563</a>&quot;, 
+        &quot;<a href="http://pyvideo.org/api/v2/video/2680" rel="nofollow">http://pyvideo.org/api/v2/video/2680</a>&quot;, 
+        &quot;<a href="http://pyvideo.org/api/v2/video/2603" rel="nofollow">http://pyvideo.org/api/v2/video/2603</a>&quot;, 
+        &quot;<a href="http://pyvideo.org/api/v2/video/2564" rel="nofollow">http://pyvideo.org/api/v2/video/2564</a>&quot;, 
+        &quot;<a href="http://pyvideo.org/api/v2/video/2679" rel="nofollow">http://pyvideo.org/api/v2/video/2679</a>&quot;, 
+        &quot;<a href="http://pyvideo.org/api/v2/video/2623" rel="nofollow">http://pyvideo.org/api/v2/video/2623</a>&quot;
+    ], 
+    &quot;title&quot;: &quot;PyCon US 2014&quot;, 
+    &quot;description&quot;: &quot;PyCon is the largest annual gathering for the community using and developing the open-source Python programming language. It is produced and underwritten by the Python Software Foundation, the 501(c)(3) nonprofit organization dedicated to advancing and promoting Python. Through PyCon, the PSF advances its mission of growing the international community of Python programmers.\r\n\r\nBecause PyCon is backed by the non-profit PSF, we keep registration costs much lower than comparable technology conferences so that PyCon remains accessible to the widest group possible. The PSF also pays for the ongoing development of the software that runs PyCon and makes it available under a liberal open source license.\r\n\r\nPyCon is a diverse conference dedicated to providing an enjoyable experience to everyone. Help us do this by following our code of conduct.&quot;, 
+    &quot;url&quot;: &quot;<a href="https://us.pycon.org/2014/" rel="nofollow">https://us.pycon.org/2014/</a>&quot;, 
+    &quot;start_date&quot;: &quot;2014-04-09&quot;, 
+    &quot;whiteboard&quot;: &quot;&quot;, 
+    &quot;slug&quot;: &quot;pycon-us-2014&quot;, 
+    &quot;added&quot;: &quot;2014-04-11T22:27:54.382&quot;
+}</pre>
+            </div>
+        </div>
+
+            
+
+                
+
+                
+            
+
+        </div>
+        <!-- END content-main -->
+
+    </div>
+    <!-- END Content -->
+
+        <div id="push"></div>
+
+    </div>
+
+    </div><!-- ./wrapper -->
+
+    
+    
+
+    
+    <script src="/static/rest_framework/js/jquery-1.8.1-min.js"></script>
+    <script src="/static/rest_framework/js/bootstrap.min.js"></script>
+    <script src="/static/rest_framework/js/prettify-min.js"></script>
+    <script src="/static/rest_framework/js/default.js"></script>
+    
+  </body>
+
+<!-- Mirrored from pyvideo.org/api/v2/category/pycon-us-2014 by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 07 Jan 2016 03:08:37 GMT -->
+</html>

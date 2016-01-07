@@ -1,0 +1,984 @@
+
+
+<!DOCTYPE html>
+<html>
+    
+<!-- Mirrored from pyvideo.org/api/v2/video/?page=20 by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 07 Jan 2016 03:47:24 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+    
+
+        
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+        <meta name="robots" content="NONE,NOARCHIVE" />
+        
+
+        <title>Django REST framework</title>
+
+        
+        
+            <link rel="stylesheet" type="text/css" href="/static/rest_framework/css/bootstrap.min.css"/>
+            <link rel="stylesheet" type="text/css" href="/static/rest_framework/css/bootstrap-tweaks.css"/>
+        
+        <link rel="stylesheet" type="text/css" href="/static/rest_framework/css/prettify.css"/>
+        <link rel="stylesheet" type="text/css" href="/static/rest_framework/css/default.css"/>
+        
+
+    
+    </head>
+
+  <body class=" container">
+
+    <div class="wrapper">
+
+    
+    <div class="navbar navbar-inverse">
+        <div class="navbar-inner">
+            <div class="container-fluid">
+                <span href="/">
+                    <a class='brand' rel="nofollow" href='http://www.django-rest-framework.org'>Django REST framework <span class="version">2.3.14</span></a>
+                </span>
+                <ul class="nav pull-right">
+                    
+                        
+                            <li></li>
+                        
+                    
+                </ul>
+            </div>
+        </div>
+    </div>
+    
+
+    
+    <ul class="breadcrumb">
+        
+            <li>
+                <a href="/api/v2/video/" class="active">Video List Create Api</a> 
+            </li>
+        
+    </ul>
+    
+
+    <!-- Content -->
+    <div id="content">
+
+        
+            <form id="get-form" class="pull-right">
+                <fieldset>
+                    <div class="btn-group format-selection">
+                        <a class="btn btn-primary js-tooltip" href='/api/v2/video/?page=20' rel="nofollow" title="Make a GET request on the Video List Create Api resource">GET</a>
+
+                        <button class="btn btn-primary dropdown-toggle js-tooltip" data-toggle="dropdown" title="Specify a format for the GET request">
+                            <span class="caret"></span>
+                        </button>
+                        <ul class="dropdown-menu">
+                            
+                                <li>
+                                    <a class="js-tooltip format-option" href='/api/v2/video/?page=20&format=json' rel="nofollow" title="Make a GET request on the Video List Create Api resource with the format set to `json`">json</a>
+                                </li>
+                            
+                                <li>
+                                    <a class="js-tooltip format-option" href='/api/v2/video/?page=20&format=api' rel="nofollow" title="Make a GET request on the Video List Create Api resource with the format set to `api`">api</a>
+                                </li>
+                            
+                        </ul>
+                    </div>
+
+                </fieldset>
+            </form>
+        
+
+        
+            <form class="button-form" action="/api/v2/video/?page=20" method="POST" class="pull-right">
+                <input type='hidden' name='csrfmiddlewaretoken' value='pT8iI6zhtQdsGFmu4tryYgFrUlipl2B3' />
+                <input type="hidden" name="_method" value="OPTIONS" />
+                <button class="btn btn-primary js-tooltip" title="Make an OPTIONS request on the Video List Create Api resource">OPTIONS</button>
+            </form>
+        
+
+        
+
+        <div class="content-main">
+            <div class="page-header"><h1>Video List Create Api</h1></div>
+            
+            
+            
+            <div class="request-info" style="clear: both" >
+                <pre class="prettyprint"><b>GET</b> /api/v2/video/?page=20</pre>
+            </div>
+            <div class="response-info">
+                <pre class="prettyprint"><div class="meta nocode"><b>HTTP 200 OK</b>
+<b>Content-Type:</b> <span class="lit">application/json</span>
+<b>Vary:</b> <span class="lit">Accept</span>
+<b>Allow:</b> <span class="lit">GET, POST, HEAD, OPTIONS</span>
+
+</div>{
+    &quot;count&quot;: 3439, 
+    &quot;next&quot;: &quot;<a href="http://pyvideo.org/api/v2/video/?page=21" rel="nofollow">http://pyvideo.org/api/v2/video/?page=21</a>&quot;, 
+    &quot;previous&quot;: &quot;<a href="http://pyvideo.org/api/v2/video/?page=19" rel="nofollow">http://pyvideo.org/api/v2/video/?page=19</a>&quot;, 
+    &quot;results&quot;: [
+        {
+            &quot;category&quot;: &quot;PyOhio 2011&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;pyohio-2011--using-pymc-to-cluster-twitter-users-&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Timmy Wilson&quot;
+            ], 
+            &quot;tags&quot;: [
+                &quot;pymc&quot;, 
+                &quot;pyohio&quot;, 
+                &quot;pyohio2011&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 539, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;PyOhio 2011: Using pymc to cluster twitter users -- a noob&#39;s perspective&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;Using pymc to cluster twitter users -- a noob&#39;s perspective\n\nPresented by Timmy Wilson\n\nJourney through the thoughts, hopes, and sad frustrations of an average python\ndeveloper trying to understand MCMC matrix factorization. I&#39;ll work through a\nPython implementation of the paper \&quot;Bayesian Probabilistic Matrix\nFactorization using Markov Chain Monte Carlo\&quot; and talk about how it applies to\nclustering a Twitter adjacency matrix.\n\n&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;Creative Commons Attribution 2.0&quot;, 
+            &quot;embed&quot;: &quot;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://a.images.blip.tv/Pyohio-UsingPymcToClusterTwitterUsersANoobsPerspective618.png" rel="nofollow">http://a.images.blip.tv/Pyohio-UsingPymcToClusterTwitterUsersANoobsPerspective618.png</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: 211624086, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: &quot;<a href="http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pyohio-2011/539_pyohio-2011-using-pymc-to-cluster-twitter-users-a-noob-s-perspective.m4v" rel="nofollow">http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pyohio-2011/539_pyohio-2011-using-pymc-to-cluster-twitter-users-a-noob-s-perspective.m4v</a>&quot;, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: null, 
+            &quot;added&quot;: &quot;2012-02-23T04:20:00&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:25.883&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyCon US 2009&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;python-101--1-of-2&quot;, 
+            &quot;speakers&quot;: [], 
+            &quot;tags&quot;: [
+                &quot;pycon&quot;, 
+                &quot;pycon2009&quot;, 
+                &quot;python-basics&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 192, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Python 101 (1 of 2)&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;Python 101 (Part 1 of 2)\n\n  \nThis 2 part tutorial presents the basics of Python to beginning and\nintermediate programmers. It pairs well with Python 102 which follows a\nsimilar outline but goes much deeper. Rather than starting with \&quot;Hello,\nworld!\&quot;, we use the interactive Python interpreter to get hands-on familiarity\nwith much of core Python before covering blocks and scripts. The tutorial is\ndivided into short sections, each with presentation and exercises, to quickly\ncover lots of ground. Advanced topics are introduced throughout and covered in\n\&quot;extra credit\&quot; exercises such that more advanced participants can learn at\ntheir own pace.\n\n&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;Creative Commons Attribution-NonCommercial-ShareAlike 3.0&quot;, 
+            &quot;embed&quot;: &quot;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://a.images.blip.tv/Pycon-Python101Part001694-719.jpg" rel="nofollow">http://a.images.blip.tv/Pycon-Python101Part001694-719.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: 1039779806, 
+            &quot;video_mp4_url&quot;: &quot;<a href="http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2009/192_python-101-1-of-2.mp4" rel="nofollow">http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2009/192_python-101-1-of-2.mp4</a>&quot;, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: null, 
+            &quot;added&quot;: &quot;2012-02-23T04:20:00&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:25.884&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyCon US 2009&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;python-101--2-of-2&quot;, 
+            &quot;speakers&quot;: [], 
+            &quot;tags&quot;: [
+                &quot;pycon&quot;, 
+                &quot;pycon2009&quot;, 
+                &quot;python-basics&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 194, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Python 101 (2 of 2)&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;Python 101 (Part 2 of 2)\n\n  \nThis half-day tutorial presents the basics of Python to beginning and\nintermediate programmers. It pairs well with Python 102 which follows a\nsimilar outline but goes much deeper. Rather than starting with \&quot;Hello,\nworld!\&quot;, we use the interactive Python interpreter to get hands-on familiarity\nwith much of core Python before covering blocks and scripts. The tutorial is\ndivided into short sections, each with presentation and exercises, to quickly\ncover lots of ground. Advanced topics are introduced throughout and covered in\n\&quot;extra credit\&quot; exercises such that more advanced participants can learn at\ntheir own pace.\n\n&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;Creative Commons Attribution-NonCommercial-ShareAlike 3.0&quot;, 
+            &quot;embed&quot;: &quot;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://a.images.blip.tv/Pycon-Python101Part002503-307.jpg" rel="nofollow">http://a.images.blip.tv/Pycon-Python101Part002503-307.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: 1035984662, 
+            &quot;video_mp4_url&quot;: &quot;<a href="http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2009/194_python-101-2-of-2.mp4" rel="nofollow">http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2009/194_python-101-2-of-2.mp4</a>&quot;, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: null, 
+            &quot;added&quot;: &quot;2012-02-23T04:20:00&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:25.885&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;Twitter University 2014&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;python-27-python-3-sacred-love-story&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Kenneth Reitz&quot;
+            ], 
+            &quot;tags&quot;: [], 
+            &quot;related_urls&quot;: [
+                {
+                    &quot;url&quot;: &quot;<a href="https://speakerdeck.com/kennethreitz/python-2-dot-7-and-python-3-a-sacred-love-story" rel="nofollow">https://speakerdeck.com/kennethreitz/python-2-dot-7-and-python-3-a-sacred-love-story</a>&quot;, 
+                    &quot;description&quot;: &quot;slides&quot;
+                }
+            ], 
+            &quot;id&quot;: 3373, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Python 2.7 &amp; Python 3: A Sacred Love Story &quot;, 
+            &quot;summary&quot;: &quot;Kenneth Reitz, Python evangelist at Heroku and author of the popular Requests library, discusses the state of Python today, the division in the community, and how we can forge ahead into a shiny future. Pythonistas unite!&quot;, 
+            &quot;description&quot;: &quot;&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;&quot;, 
+            &quot;embed&quot;: &quot;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: &quot;&quot;, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: &quot;&quot;, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: &quot;&quot;, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: &quot;&quot;, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="https://www.youtube.com/watch?v=skYBOXE02OQ" rel="nofollow">https://www.youtube.com/watch?v=skYBOXE02OQ</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: null, 
+            &quot;added&quot;: &quot;2014-12-11T19:12:59.444&quot;, 
+            &quot;updated&quot;: &quot;2014-12-11T20:05:50.495&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;DjangoCon 2011&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;djangocon-2011--real-time-django&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Adam Miskiewicz&quot;, 
+                &quot;Ben Slavin&quot;
+            ], 
+            &quot;tags&quot;: [
+                &quot;data&quot;, 
+                &quot;djangocon&quot;, 
+                &quot;djangocon2011&quot;, 
+                &quot;realtime&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 100, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Real-Time Django&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;Real-Time Django\n\nPresented by Ben Slavin, Adam Miskiewicz\n\nThe web is live. APIs give us access to continuously changing data. We discuss\nways to get real-time data into your app, how to handle data processing and\nwhat to do when you get thousands of updates per second.\n\n&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;&quot;, 
+            &quot;embed&quot;: &quot;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://a.images.blip.tv/Robertlofthouse-RealTimeDjango172-84.jpg" rel="nofollow">http://a.images.blip.tv/Robertlofthouse-RealTimeDjango172-84.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: 60415046, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: &quot;<a href="http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/djangocon-2011/100_real-time-django.m4v" rel="nofollow">http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/djangocon-2011/100_real-time-django.m4v</a>&quot;, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: null, 
+            &quot;added&quot;: &quot;2012-02-23T04:20:00&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:25.887&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;DjangoCon 2009&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;djangocon-2009--real-time-web-and-other-buzzwords&quot;, 
+            &quot;speakers&quot;: [], 
+            &quot;tags&quot;: [
+                &quot;comet&quot;, 
+                &quot;djangocon&quot;, 
+                &quot;djangocon2009&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 19, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Real-time Web and Other Buzzwords&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;  \n\n&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;Creative Commons Attribution-NonCommercial-ShareAlike 3.0&quot;, 
+            &quot;embed&quot;: &quot;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://a.images.blip.tv/Robertlofthouse-RealtimeWebAndOtherBuzzwords380.png" rel="nofollow">http://a.images.blip.tv/Robertlofthouse-RealtimeWebAndOtherBuzzwords380.png</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: &quot;<a href="http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/djangocon-2009/19_real-time-web-and-other-buzzwords.ogv" rel="nofollow">http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/djangocon-2009/19_real-time-web-and-other-buzzwords.ogv</a>&quot;, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: null, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: null, 
+            &quot;added&quot;: &quot;2012-02-23T04:20:00&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:25.888&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;DjangoCon 2011&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;djangocon-2011--real-world-django-deployment-usin&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Noah Kantrowitz&quot;
+            ], 
+            &quot;tags&quot;: [
+                &quot;chef&quot;, 
+                &quot;deployment&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 92, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Real world Django deployment using Chef&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;Real world Django deployment using Chef\n\nPresented by Noah Kantrowitz\n\nChef, a popular configuration management tool, is gaining momentum in the\nDjango community. Learn how to deploy Django sites using Chef, be they one\nserver or a thousand.\n\n&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;&quot;, 
+            &quot;embed&quot;: &quot;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://a.images.blip.tv/Robertlofthouse-RealWorldDjangoDeploymentUsingChef158-86.jpg" rel="nofollow">http://a.images.blip.tv/Robertlofthouse-RealWorldDjangoDeploymentUsingChef158-86.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: 76742191, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: &quot;<a href="http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/djangocon-2011/92_real-world-django-deployment-using-chef.m4v" rel="nofollow">http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/djangocon-2011/92_real-world-django-deployment-using-chef.m4v</a>&quot;, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: null, 
+            &quot;added&quot;: &quot;2012-02-23T04:20:00&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:25.889&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;DjangoCon 2011&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;djangocon-2011--restful-apis--promises--amp--lies&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Tareque Hossain&quot;
+            ], 
+            &quot;tags&quot;: [
+                &quot;api&quot;, 
+                &quot;djangocon&quot;, 
+                &quot;djangocon2011&quot;, 
+                &quot;rest&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 94, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;RESTful APIs: Promises and Lies&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;RESTful APIs: Promises &amp; Lies\n\nPresented by Tareque Hossain\n\nOver the last few years RESTful APIs have become an integral part of many\ndjango projects. But some of the fundamental questions still remain\nunanswered. How do you decouple resources from models, formatting from\ndefinitions, authorization from authentication? How should you define\nresources? How do you handle pagination? Deliver facets? Prevent abuse?\nImplement versioning? Let&#39;s have a look.\n\n&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;&quot;, 
+            &quot;embed&quot;: &quot;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://a.images.blip.tv/Robertlofthouse-RESTfulAPIsPromisesLies340-439.jpg" rel="nofollow">http://a.images.blip.tv/Robertlofthouse-RESTfulAPIsPromisesLies340-439.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: 80180795, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: &quot;<a href="http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/djangocon-2011/94_restful-apis-promises-and-lies.m4v" rel="nofollow">http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/djangocon-2011/94_restful-apis-promises-and-lies.m4v</a>&quot;, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: null, 
+            &quot;added&quot;: &quot;2012-02-23T04:20:00&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:25.890&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;DjangoCon 2009&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;djangocon-2009--restful-ponies&quot;, 
+            &quot;speakers&quot;: [], 
+            &quot;tags&quot;: [
+                &quot;djangocon&quot;, 
+                &quot;djangocon2009&quot;, 
+                &quot;rest&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 26, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;RESTful Ponies&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;  \n\n&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;Creative Commons Attribution-NonCommercial-ShareAlike 3.0&quot;, 
+            &quot;embed&quot;: &quot;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://a.images.blip.tv/Robertlofthouse-RESTfulPonies488.png" rel="nofollow">http://a.images.blip.tv/Robertlofthouse-RESTfulPonies488.png</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: &quot;<a href="http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/djangocon-2009/26_restful-ponies.ogv" rel="nofollow">http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/djangocon-2009/26_restful-ponies.ogv</a>&quot;, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: null, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: null, 
+            &quot;added&quot;: &quot;2012-02-23T04:20:00&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:25.892&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;DjangoCon 2010&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;djangocon-2010--rethinking-the-reusable-applicati&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Alex Gaynor&quot;
+            ], 
+            &quot;tags&quot;: [
+                &quot;djangocon&quot;, 
+                &quot;djangocon2010&quot;, 
+                &quot;modularizing&quot;, 
+                &quot;reuse&quot;, 
+                &quot;reusing&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 51, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Rethinking the Reusable Application Paradigm&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;Rethinking the Reusable Application Paradigm\n\nPresented by Alex Gaynor\n\nFor the past few years the reusable application paradigm has been considered\none of the major selling points of Django, however the common wisdom about\nwhat it means to make an application reusable isn&#39;t really accurate. This talk\nis going to discuss ways to truly make your applications reusable across *any*\nproject.\n\nAbstract\n\nThe common wisdom about reusable application says to do things like let your\nviews take arguments for things like the form class or the template name.\nHowever, that doesn&#39;t satisfy most of the real need for extendability:\nchanging the business logic or altering models. This talk is going to look at\nways to combat these limitations:\n\n  * Class based views \n  * By making everything overidable in a view you can absolutely minimize the need to \&quot;copy-paste\&quot; when changing the logic of things around. \n  * As seen in the admin. \n  * Do less \n  * brabeion \n  * Provide the absolute minimum at the model layer, and only small wrappers for the business logic users can implement their own logic to control how things happen. \n  * Related to the idea of \&quot;application frameworks\&quot;. Providing the tools for others to build their logic around various helpers. \n  * Flexibility \n  * django-taggit \n  * Provide a concrete implementation, but allow swapping out of various layers. \n  * Don&#39;t like the Tag model, swap it out, want a new intermediary model, swap it out. \n  * django-registration \n  * Providing swappable backends to change behavior. \n  * Libraries \n  * django-filter \n  * django-fixture-generator \n  * django-templatetag-sugar \n  * django-compressor \n  * Providing tools for others to build around. \n\nBy using these techniques you can develop reusable application that work\nbeyond any single use case. Of course there are cases where you don&#39;t need any\nof these, and just need something that fits \&quot;traditional\&quot; reusable application\nparadigm, so this talk will cover when that works as well.\n\n&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;Creative Commons Attribution-NonCommercial-ShareAlike 3.0&quot;, 
+            &quot;embed&quot;: &quot;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://a.images.blip.tv/Robertlofthouse-RethinkingTheReusableApplicationParadigm774.png" rel="nofollow">http://a.images.blip.tv/Robertlofthouse-RethinkingTheReusableApplicationParadigm774.png</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: 181734999, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: null, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: &quot;<a href="http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/djangocon-2010/51_rethinking-the-reusable-application-paradigm.flv" rel="nofollow">http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/djangocon-2010/51_rethinking-the-reusable-application-paradigm.flv</a>&quot;, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: null, 
+            &quot;added&quot;: &quot;2012-02-23T04:20:00&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:25.893&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;Kiwi PyCon 2009&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;richard-clark---the-living-coder&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Richard Clark&quot;
+            ], 
+            &quot;tags&quot;: [
+                &quot;kiwipycon&quot;, 
+                &quot;technology&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 133, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Richard Clark - The living coder&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;The Living Coder\n\nPresented by Richard Clark\n\nAbstract\n\nTales, anecdotes philosophy and musings about the life that surrounds the code\nwe write.\n\nOutline\n\nThe project manager called me to his office and said \&quot;I know you did this in\ntwo weeks in perl, but applications here must be written in java, because java\nprogrammers are much easier to find\&quot;. When I left 6 months later, the same\nmanager said \&quot;You wouldn&#39;t happen to know any java programmers would you? we\nhave nobody to replace you..\&quot;. This is the story of the life that exists\naround the code we write.\n\n[VIDEO HAS ISSUES: Sound and video are poor. Slides are hard to read.]\n\n&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;Creative Commons Attribution-NonCommercial-ShareAlike 3.0&quot;, 
+            &quot;embed&quot;: &quot;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://a.images.blip.tv/Kiwipycon-RichardClarkTheLivingCoder816-505.jpg" rel="nofollow">http://a.images.blip.tv/Kiwipycon-RichardClarkTheLivingCoder816-505.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: null, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: &quot;<a href="http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/kiwi-pycon-2009/133_richard-clark-the-living-coder.flv" rel="nofollow">http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/kiwi-pycon-2009/133_richard-clark-the-living-coder.flv</a>&quot;, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: null, 
+            &quot;added&quot;: &quot;2012-02-23T04:20:00&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:25.894&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;Kiwi PyCon 2009&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;richard-jones---making-django-awesomer&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Richard Jones&quot;
+            ], 
+            &quot;tags&quot;: [
+                &quot;kiwipycon&quot;, 
+                &quot;kiwipycon2009&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 129, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Richard Jones - Making Django awesomer&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;Making Django awesomer\n\nPresented by Richard Jones\n\nAbstract\n\nIn this talk I will present a number of extensions to the core of Django that\nwill make your life a lot easier and/or awesomer.\n\nOutline\n\nI will:\n\n  1. talk about how to find extensions, \n  2. walk through installing some common extensions, \n  3. look at the functionality provided by some developer tools, and \n  4. demonstrate the power of a social networking site extension \n\nAttendees should have some familiarity with Django.\n\n[VIDEO HAS ISSUES: Sound and video are poor. Slides are hard to read.]\n\n&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;Creative Commons Attribution-NonCommercial-ShareAlike 3.0&quot;, 
+            &quot;embed&quot;: &quot;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://a.images.blip.tv/Kiwipycon-RichardJonesMakingDjangoAwesomer268-681.jpg" rel="nofollow">http://a.images.blip.tv/Kiwipycon-RichardJonesMakingDjangoAwesomer268-681.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: null, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: &quot;<a href="http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/kiwi-pycon-2009/129_richard-jones-making-django-awesomer.flv" rel="nofollow">http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/kiwi-pycon-2009/129_richard-jones-making-django-awesomer.flv</a>&quot;, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: null, 
+            &quot;added&quot;: &quot;2012-02-23T04:20:00&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:25.895&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;Kiwi PyCon 2009&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;richard-jones---tkinter-doesn--39-t-suck--honest&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Richard Jones&quot;
+            ], 
+            &quot;tags&quot;: [
+                &quot;kiwipycon&quot;, 
+                &quot;kiwipycon2009&quot;, 
+                &quot;tkinter&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 118, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Richard Jones - Tkinter doesn&#39;t suck, honest&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;Tkinter doesn&#39;t suck, honest\n\nPresented by Richard Jones\n\nAbstract\n\nIn this talk I hope to dispel the myth that Tkinter just plain sucks through\nthe use of some concrete examples of simple use resulting in effective user\ninterfaces.\n\nOutline\n\nI intend to cover some basics of getting Tkinter GUIs up and running, and then\nlook at some simple use-cases, including: - file dialogs in minutes - script\nconfiguration dialog - basics of interface design / packing - a look at the\nwidgets built in - a look at some of the extensions\n\n[VIDEO HAS ISSUES: Sound and video are poor. Slides are hard to read.]\n\n&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;Creative Commons Attribution-NonCommercial-ShareAlike 3.0&quot;, 
+            &quot;embed&quot;: &quot;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://a.images.blip.tv/Kiwipycon-RichardJonesTkinterDoesntSuckHonest798-250.jpg" rel="nofollow">http://a.images.blip.tv/Kiwipycon-RichardJonesTkinterDoesntSuckHonest798-250.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: null, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: &quot;<a href="http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/kiwi-pycon-2009/118_richard-jones-tkinter-doesn-t-suck-honest.flv" rel="nofollow">http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/kiwi-pycon-2009/118_richard-jones-tkinter-doesn-t-suck-honest.flv</a>&quot;, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: null, 
+            &quot;added&quot;: &quot;2012-02-23T04:20:00&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:25.897&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;Kiwi PyCon 2009&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;richard-tew---stackless-python-101&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Richard Tew&quot;
+            ], 
+            &quot;tags&quot;: [
+                &quot;kiwipycon&quot;, 
+                &quot;kiwipycon2009&quot;, 
+                &quot;stackless&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 121, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Richard Tew - Stackless Python 101&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;Stackless Python 101\n\nPresented by Richard Tew\n\nAbstract\n\nAn introduction to Stackless Python, showing what it is useful for and how to\nuse it.\n\nOutline\n\nThe talk would start by describing what Stackless Python is, and the reasons\nwhy you would use it. Next it would cover how to use Stackless Python. And\nfinally, what the limitations of a green threading framework like this are and\nwhat needs to be done to cater for them.\n\n[VIDEO HAS ISSUES: Sound and video are poor. Slides are hard to read.]\n\n&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;Creative Commons Attribution-NonCommercial-ShareAlike 3.0&quot;, 
+            &quot;embed&quot;: &quot;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://a.images.blip.tv/Kiwipycon-RichardTewStacklessPython101699-529.jpg" rel="nofollow">http://a.images.blip.tv/Kiwipycon-RichardTewStacklessPython101699-529.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: null, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: &quot;<a href="http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/kiwi-pycon-2009/121_richard-tew-stackless-python-101.flv" rel="nofollow">http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/kiwi-pycon-2009/121_richard-tew-stackless-python-101.flv</a>&quot;, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: null, 
+            &quot;added&quot;: &quot;2012-02-23T04:20:00&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:25.898&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;Kiwi PyCon 2009&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;robert-coup----me-wants-it--scraping-sites-to-get&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Robert Coup&quot;
+            ], 
+            &quot;tags&quot;: [
+                &quot;api&quot;, 
+                &quot;html&quot;, 
+                &quot;kiwipycon&quot;, 
+                &quot;kiwipycon2009&quot;, 
+                &quot;rest&quot;, 
+                &quot;scraping&quot;, 
+                &quot;web&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 130, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Robert Coup - /me wants it. Scraping sites to get data.&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;/me wants it. Scraping sites to get data.\n\nPresented by Robert Coup\n\nAbstract\n\nBuilding scrapers for grabbing data from websites. Tools, techniques, and\ntips.\n\nOutline\n\nLife would be so much easier if the data contained in websites was available\nraw via APIs. Alas, until that mythical day comes we either need to deal with\nunhelpful people via email and phone, or just get it ourselves. Python has\nsome great tools available to help with building scrapers and for parsing and\nformatting the data we get. Starting off with the basics - tracking what needs\nto be done, making web requests, parsing HTML, following links, and\nextricating data from Excel and PDF documents. Our scraper needs to be\nresilient against too-clever content management systems, Frontpage-era HTML,\nand plain dodgy data. We may need to pass through logins and other messiness.\nThere are some techniques and tips for approaching the problems and keeping\nyour solution flexible and as simple as possible. We&#39;ll discuss some scrapers\nbuilt for New Zealand data, and introduce a new project from the NZ open\ngovernment data group to provide a RESTful interface to scrapers - effectively\ncreating a nice API where there isn&#39;t one.\n\nSlides: [<a href="http://www.slideshare.net/rcoup/me-wants-it-scraping-sites-to-get-%5Cndata](http://www.slideshare.net/rcoup/me-wants-it-scraping-sites-to-get-data)%5Cn%5Cn[VIDEO" rel="nofollow">http://www.slideshare.net/rcoup/me-wants-it-scraping-sites-to-get-\ndata](http://www.slideshare.net/rcoup/me-wants-it-scraping-sites-to-get-data)\n\n[VIDEO</a> HAS ISSUES: Sound and video are poor. Slides are hard to read.]\n\n&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;Creative Commons Attribution-NonCommercial-ShareAlike 3.0&quot;, 
+            &quot;embed&quot;: &quot;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://a.images.blip.tv/Kiwipycon-RobertCoupMeWantsItScrapingSitesToGetData498-799.jpg" rel="nofollow">http://a.images.blip.tv/Kiwipycon-RobertCoupMeWantsItScrapingSitesToGetData498-799.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: null, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: &quot;<a href="http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/kiwi-pycon-2009/130_robert-coup-me-wants-it-scraping-sites-to-get-data.flv" rel="nofollow">http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/kiwi-pycon-2009/130_robert-coup-me-wants-it-scraping-sites-to-get-data.flv</a>&quot;, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: null, 
+            &quot;added&quot;: &quot;2012-02-23T04:20:00&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:25.899&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;Kiwi PyCon 2009&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;robert-coup---monitoring-and-debugging-your-live-&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Robert Coup&quot;
+            ], 
+            &quot;tags&quot;: [
+                &quot;debugging&quot;, 
+                &quot;im&quot;, 
+                &quot;irc&quot;, 
+                &quot;kiwipycon&quot;, 
+                &quot;kiwipycon2009&quot;, 
+                &quot;logging&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 108, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Robert Coup - Monitoring and debugging your live applications&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;Monitoring and debugging your live application\n\nPresented by Robert Coup\n\nAbstract\n\nEver wondered what is going on inside your app? Learn some tools and ideas you\ncan use for sussing it out.\n\nOutline\n\nDebugging issues in live applications can be a real nightmare. Add some more\nlogging, restart it, wait for the failure/load case and try and deduce a bit\nmore. Even with awesome test coverage you still need to debug those tricky\nproblems. This talk will introduce some ideas for monitoring and debugging\nyour live applications. The key things to cover are:\n\n  * the standard logging module and learning how to drive it well. How to log effectively so it makes sense later, and what sorts of things we should be instrumenting and measuring. \n  * how to set up a remote console session into our running application, so we can interrogate variables and run code to figure out what&#39;s going on. \n  * how to incorporate IRC or IM bots so we can interact with our apps from the desktop, and how they can interact with us. \n\n[VIDEO HAS ISSUES: Sound and video are poor. Slides are hard to read.]\n\n&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;Creative Commons Attribution-NonCommercial-ShareAlike 3.0&quot;, 
+            &quot;embed&quot;: &quot;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://a.images.blip.tv/Kiwipycon-RobertCoupMonitoringAndDebuggingYourLiveApplications239-190.jpg" rel="nofollow">http://a.images.blip.tv/Kiwipycon-RobertCoupMonitoringAndDebuggingYourLiveApplications239-190.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: null, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: &quot;<a href="http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/kiwi-pycon-2009/108_robert-coup-monitoring-and-debugging-your-live-applications.flv" rel="nofollow">http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/kiwi-pycon-2009/108_robert-coup-monitoring-and-debugging-your-live-applications.flv</a>&quot;, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: null, 
+            &quot;added&quot;: &quot;2012-02-23T04:20:00&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:25.900&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;Kiwi PyCon 2009&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;roman-joost---get-started-with-zope3&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Roman Joost&quot;
+            ], 
+            &quot;tags&quot;: [
+                &quot;kiwipycon&quot;, 
+                &quot;kiwipycon2009&quot;, 
+                &quot;web&quot;, 
+                &quot;zope&quot;, 
+                &quot;zope3&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 127, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Roman Joost - Get started with Zope3&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;Get started with Zope3\n\nPresented by Roman Joost\n\nAbstract\n\nThe talk introduces Zope 3, the main differences to Zope (2) and how to get\nstarted.\n\nOutline\n\nThe Zope application server exist for nearly a decade now. One of the biggest\nchanges to the Zope architecture was the rewrite of the framework and an\nintroduction of a component architecture. Zope 3 was born. The talk covers how\ndevelopers can bootstrap a Zope 3 project using buildout, what the differences\nbetween Zope (2) and Zope 3 is, how views and models are created and\nregistered, how third party applications are used and how common pitfalls can\nbe avoided.\n\n[VIDEO HAS ISSUES: Sound and video are poor. Slides are hard to read.]\n\n&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;Creative Commons Attribution-NonCommercial-ShareAlike 3.0&quot;, 
+            &quot;embed&quot;: &quot;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://a.images.blip.tv/Kiwipycon-RmanJoostGetStartedWithZope3461-131.jpg" rel="nofollow">http://a.images.blip.tv/Kiwipycon-RmanJoostGetStartedWithZope3461-131.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: null, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: &quot;<a href="http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/kiwi-pycon-2009/127_roman-joost-get-started-with-zope3.flv" rel="nofollow">http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/kiwi-pycon-2009/127_roman-joost-get-started-with-zope3.flv</a>&quot;, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: null, 
+            &quot;added&quot;: &quot;2012-02-23T04:20:00&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:25.902&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;Kiwi PyCon 2009&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;roman-joost---grok-or-how-zope3-reinvented-itself&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Roman Joost&quot;
+            ], 
+            &quot;tags&quot;: [
+                &quot;grok&quot;, 
+                &quot;kiwipycon&quot;, 
+                &quot;kiwipycon2009&quot;, 
+                &quot;web&quot;, 
+                &quot;zope3&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 125, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Roman Joost - Grok or how Zope3 reinvented itself&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;Grok or how Zope3 reinvented itself\n\nPresented by Roman Joost\n\nAbstract\n\nThe talk introduces how to quickly and easily create web applications with\nGrok, a web framework based on Zope3\n([http://grok.zope.org/](http://grok.zope.org/)).\n\nOutline\n\nGrok is a web application framework based on Zope 3 - the popular application\nserver. One of the main aspects of Grok is the rapid development of web\napplications without losing the flexibility Zope 3 provides. The talk covers a\nquick introduction to Zope 3 and Grok. Based on an example, I will provide a\nquick walk through on how easy it is to create sophisticated web applications\nwith Grok. Additionally, the talk outlines pitfalls for newcomers and how to\navoid them.\n\n[VIDEO HAS ISSUES: Sound and video are poor. Slides are hard to read.]\n\n&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;Creative Commons Attribution-NonCommercial-ShareAlike 3.0&quot;, 
+            &quot;embed&quot;: &quot;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://a.images.blip.tv/Kiwipycon-RomanJoostGrokOrHowZope3ReinventedItself132-644.jpg" rel="nofollow">http://a.images.blip.tv/Kiwipycon-RomanJoostGrokOrHowZope3ReinventedItself132-644.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: null, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: &quot;<a href="http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/kiwi-pycon-2009/125_roman-joost-grok-or-how-zope3-reinvented-itself.flv" rel="nofollow">http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/kiwi-pycon-2009/125_roman-joost-grok-or-how-zope3-reinvented-itself.flv</a>&quot;, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: null, 
+            &quot;added&quot;: &quot;2012-02-23T04:20:00&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:25.903&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;Kiwi PyCon 2009&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;roman-joost---interfacing-with-gimp-using-python&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Roman Joost&quot;
+            ], 
+            &quot;tags&quot;: [
+                &quot;gimp&quot;, 
+                &quot;kiwipycon&quot;, 
+                &quot;kiwipycon2009&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 119, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Roman Joost - Interfacing with GIMP using Python&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;Interfacing with GIMP using Python\n\nPresented by Roman Joost\n\nAbstract\n\nThe talk introduces how developers can extend and interface with the GNU Image\nmanipulation program using Python.\n\nOutline\n\nThe presentation will cover:\n\n  * a quick overview of programmatic interfaces for GIMP \n  * a quick introduction in plug-in writing for GIMP \n  * based on an example plug-in how to interface with GIMP \n  * potential pitfalls and how to avoid them \n  * based on an example how to interface with GEGL, the next image manipulation core for GIMP \n\n[VIDEO HAS ISSUES: Sound and video are poor. Slides are hard to read.]\n\n&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;Creative Commons Attribution-NonCommercial-ShareAlike 3.0&quot;, 
+            &quot;embed&quot;: &quot;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://a.images.blip.tv/Kiwipycon-RomanJoostInterfacingWithGIMPUsingPython423-984.jpg" rel="nofollow">http://a.images.blip.tv/Kiwipycon-RomanJoostInterfacingWithGIMPUsingPython423-984.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: null, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: &quot;<a href="http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/kiwi-pycon-2009/119_roman-joost-interfacing-with-gimp-using-python.flv" rel="nofollow">http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/kiwi-pycon-2009/119_roman-joost-interfacing-with-gimp-using-python.flv</a>&quot;, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: null, 
+            &quot;added&quot;: &quot;2012-02-23T04:20:00&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:25.904&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;DjangoCon 2011&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;djangocon-2011--rtfm----write-the-friendly-manual&quot;, 
+            &quot;speakers&quot;: [
+                &quot;James Bennett&quot;
+            ], 
+            &quot;tags&quot;: [
+                &quot;djangocon&quot;, 
+                &quot;djangocon2011&quot;, 
+                &quot;docs&quot;, 
+                &quot;web&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 79, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;RTFM -- wRite The Friendly Manual&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;RTFM - wRite The Friendly Manual\n\nPresented by James Bennett\n\nAn introduction to writing great documentation. Not just in the \&quot;here&#39;s some\ntools and how to use them\&quot; sense, but in the \&quot;here&#39;s why you should care about\ndocumentation\&quot; sense and the \&quot;how to write things people will read\&quot; sense.\n\n&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;&quot;, 
+            &quot;embed&quot;: &quot;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://a.images.blip.tv/Robertlofthouse-RTFMWRiteTheFriendlyManual657-381.jpg" rel="nofollow">http://a.images.blip.tv/Robertlofthouse-RTFMWRiteTheFriendlyManual657-381.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: 89384847, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: &quot;<a href="http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/djangocon-2011/79_rtfm-write-the-friendly-manual.m4v" rel="nofollow">http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/djangocon-2011/79_rtfm-write-the-friendly-manual.m4v</a>&quot;, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: null, 
+            &quot;added&quot;: &quot;2012-02-23T04:20:00&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:25.905&quot;
+        }
+    ]
+}</pre>
+            </div>
+        </div>
+
+            
+
+                
+
+                
+            
+
+        </div>
+        <!-- END content-main -->
+
+    </div>
+    <!-- END Content -->
+
+        <div id="push"></div>
+
+    </div>
+
+    </div><!-- ./wrapper -->
+
+    
+    
+
+    
+    <script src="/static/rest_framework/js/jquery-1.8.1-min.js"></script>
+    <script src="/static/rest_framework/js/bootstrap.min.js"></script>
+    <script src="/static/rest_framework/js/prettify-min.js"></script>
+    <script src="/static/rest_framework/js/default.js"></script>
+    
+  </body>
+
+<!-- Mirrored from pyvideo.org/api/v2/video/?page=20 by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 07 Jan 2016 03:47:24 GMT -->
+</html>

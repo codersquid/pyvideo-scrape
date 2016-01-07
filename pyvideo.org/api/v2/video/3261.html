@@ -1,0 +1,191 @@
+
+
+<!DOCTYPE html>
+<html>
+    
+<!-- Mirrored from pyvideo.org/api/v2/video/3261 by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 07 Jan 2016 03:25:19 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+    
+
+        
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+        <meta name="robots" content="NONE,NOARCHIVE" />
+        
+
+        <title>Django REST framework</title>
+
+        
+        
+            <link rel="stylesheet" type="text/css" href="/static/rest_framework/css/bootstrap.min.css"/>
+            <link rel="stylesheet" type="text/css" href="/static/rest_framework/css/bootstrap-tweaks.css"/>
+        
+        <link rel="stylesheet" type="text/css" href="/static/rest_framework/css/prettify.css"/>
+        <link rel="stylesheet" type="text/css" href="/static/rest_framework/css/default.css"/>
+        
+
+    
+    </head>
+
+  <body class=" container">
+
+    <div class="wrapper">
+
+    
+    <div class="navbar navbar-inverse">
+        <div class="navbar-inner">
+            <div class="container-fluid">
+                <span href="/">
+                    <a class='brand' rel="nofollow" href='http://www.django-rest-framework.org'>Django REST framework <span class="version">2.3.14</span></a>
+                </span>
+                <ul class="nav pull-right">
+                    
+                        
+                            <li></li>
+                        
+                    
+                </ul>
+            </div>
+        </div>
+    </div>
+    
+
+    
+    <ul class="breadcrumb">
+        
+            <li>
+                <a href="/api/v2/video/" >Video List Create Api</a> <span class="divider">&rsaquo;</span>
+            </li>
+        
+            <li>
+                <a href="/api/v2/video/3261" class="active">Video Retrieve Update Api</a> 
+            </li>
+        
+    </ul>
+    
+
+    <!-- Content -->
+    <div id="content">
+
+        
+            <form id="get-form" class="pull-right">
+                <fieldset>
+                    <div class="btn-group format-selection">
+                        <a class="btn btn-primary js-tooltip" href='/api/v2/video/3261' rel="nofollow" title="Make a GET request on the Video Retrieve Update Api resource">GET</a>
+
+                        <button class="btn btn-primary dropdown-toggle js-tooltip" data-toggle="dropdown" title="Specify a format for the GET request">
+                            <span class="caret"></span>
+                        </button>
+                        <ul class="dropdown-menu">
+                            
+                                <li>
+                                    <a class="js-tooltip format-option" href='/api/v2/video/3261?format=json' rel="nofollow" title="Make a GET request on the Video Retrieve Update Api resource with the format set to `json`">json</a>
+                                </li>
+                            
+                                <li>
+                                    <a class="js-tooltip format-option" href='/api/v2/video/3261?format=api' rel="nofollow" title="Make a GET request on the Video Retrieve Update Api resource with the format set to `api`">api</a>
+                                </li>
+                            
+                        </ul>
+                    </div>
+
+                </fieldset>
+            </form>
+        
+
+        
+            <form class="button-form" action="/api/v2/video/3261" method="POST" class="pull-right">
+                <input type='hidden' name='csrfmiddlewaretoken' value='pT8iI6zhtQdsGFmu4tryYgFrUlipl2B3' />
+                <input type="hidden" name="_method" value="OPTIONS" />
+                <button class="btn btn-primary js-tooltip" title="Make an OPTIONS request on the Video Retrieve Update Api resource">OPTIONS</button>
+            </form>
+        
+
+        
+
+        <div class="content-main">
+            <div class="page-header"><h1>Video Retrieve Update Api</h1></div>
+            
+            
+            
+            <div class="request-info" style="clear: both" >
+                <pre class="prettyprint"><b>GET</b> /api/v2/video/3261</pre>
+            </div>
+            <div class="response-info">
+                <pre class="prettyprint"><div class="meta nocode"><b>HTTP 200 OK</b>
+<b>Content-Type:</b> <span class="lit">application/json</span>
+<b>Vary:</b> <span class="lit">Accept</span>
+<b>Allow:</b> <span class="lit">GET, PUT, PATCH, HEAD, OPTIONS</span>
+
+</div>{
+    &quot;category&quot;: &quot;PyCon APAC 2014&quot;, 
+    &quot;language&quot;: &quot;Chinese&quot;, 
+    &quot;slug&quot;: &quot;grs-pycon-apac-2014&quot;, 
+    &quot;speakers&quot;: [
+        &quot;Toomore Chiang&quot;
+    ], 
+    &quot;tags&quot;: [], 
+    &quot;related_urls&quot;: [], 
+    &quot;id&quot;: 3261, 
+    &quot;state&quot;: 1, 
+    &quot;title&quot;: &quot;\u5982\u4f55\u7528 grs \u64f7\u53d6\u53f0\u7063\u4e0a\u5e02\u80a1\u7968\u80a1\u50f9\u8cc7\u8a0a&quot;, 
+    &quot;summary&quot;: &quot;&quot;, 
+    &quot;description&quot;: &quot;\u5c55\u793a\u5982\u4f55\u5229\u7528 grs \u5957\u4ef6\u4f86\u64f7\u53d6\u53f0\u7063\u80a1\u5e02\u4e0a\u5e02\u500b\u80a1\u80a1\u50f9\u8cc7\u8a0a\uff0c\u8207\u958b\u76e4\u4ea4\u6613\u671f\u9593\u5982\u4f55\u64f7\u53d6\u4e0a\u5e02\u5373\u6642\u76e4\u8cc7\u8a0a\u3002 grs \u5957\u4ef6\u5305\u542b\u5176\u4ed6\u5e38\u7528\u7684\u5de5\u5177\uff1a - \u986f\u793a\u53f0\u7063\u6642\u9593\uff1aTWTime - \u5224\u65b7\u53f0\u7063\u80a1\u5e02\u662f\u5426\u958b\u5e02\uff1aTWSEOpen - \u5404\u80a1\u5373\u6642\u76e4\u8cc7\u8a0a\uff1aRealtimeStock - \u5927\u76e4\u5373\u6642\u76e4\u8cc7\u8a0a\uff1aRealtimeWeight - \u4e0a\u5e02\u80a1\u7968\u4ee3\u78bc\u5217\u8868\uff1aTWSENo - \u55ae\u65e5\u5012\u6578\u6642\u9593\uff1aCountdown grs \u5957\u4ef6\u5305\u542b\u7c21\u6613\u7684\u6578\u503c\u5206\u6790\uff1a - \u79fb\u52d5\u5e73\u5747\u6578\u503c - \u5224\u65b7\u4e56\u96e2\u8f49\u6298\u9ede - \u56db\u5927\u8cb7\u8ce3\u9ede\u5224\u65b7 \u76ee\u524d grs \u53ea\u80fd\u64f7\u53d6\u4e0a\u5e02\u80a1\u7968\u8cc7\u8a0a\uff0c\u4e0a\u6ac3\u8cc7\u6599\u9810\u5b9a\u5728 v0.5 \u7248\u672c\u52a0\u5165\u3002 \u76f8\u95dc\u7684\u8cc7\u8a0a\uff1a pypi / &lt;<a href="https://pypi.python.org/pypi/grs" rel="nofollow">https://pypi.python.org/pypi/grs</a>&gt; github / &lt;<a href="https://github.com/toomore/grs" rel="nofollow">https://github.com/toomore/grs</a>&gt; grs docs / &lt;<a href="http://grs-docs.toomore.net%3E%5Cr%5Cn%5Cr%5Cn%5Cr%5CnAbout" rel="nofollow">http://grs-docs.toomore.net&gt;\r\n\r\n\r\nAbout</a> the speaker\r\n\r\n\u5927\u5b78\u6642\u5ff5\u8ca1\u91d1\uff0c\u4f46\u5c0d\u5beb\u7a0b\u5f0f\u5f88\u6709\u8208\u8da3\uff0c\u9047\u5230 Python \u5f8c\u5c31\u611b\u4e0a\u4e86\u3002\u5e73\u6642\u5beb\u5beb\u5c0f\u5de5\u5177\u653e\u5728 github \u4e0a\u7df4\u529f\uff0c\u6301\u7e8c\u6311\u6230\u4e0d\u4e2d\u65b7 commit \u7684\u6210\u5c31\u30022014 \u5e74\u6700\u5e0c\u671b\u9054\u6210\u7684\u76ee\u6a19\u5c31\u662f\u53ef\u4ee5\u7ad9\u5728\u53f0\u524d\u5206\u4eab\u8b70\u984c\u3002\uff08\u76ee\u524d\u5728 \&quot;\u4e9e\u6d32\u6700\u5927\u8a2d\u8a08\u5546\u54c1\u7db2\u8def\u8cfc\u7269\u5546\u57ce\&quot; \u670d\u52d9\uff09\r\n\r\nTagline\r\npython  \r\n\u500b\u4eba\u7db2\u9801\u9023\u7d50\r\n\r\n&lt;http://www.toomore.net/&gt;  \r\nTwitter\r\n@toomore  \r\n\u7d44\u7e54/\u516c\u53f8  \r\nPinkoi.com  \r\n\u982d\u929c  \r\nPython Parselmouth\r\n&quot;, 
+    &quot;quality_notes&quot;: &quot;&quot;, 
+    &quot;copyright_text&quot;: &quot;creativeCommon&quot;, 
+    &quot;embed&quot;: &quot;&lt;iframe type=&#39;text/html&#39; src=&#39;http://www.youtube.com/embed/MSOlZeDN3qc&#39; width=&#39;640&#39; height=&#39;360&#39; frameborder=&#39;0&#39; allowfullscreen=&#39;true&#39;/&gt;&quot;, 
+    &quot;thumbnail_url&quot;: &quot;<a href="https://i.ytimg.com/vi/MSOlZeDN3qc/hqdefault.jpg" rel="nofollow">https://i.ytimg.com/vi/MSOlZeDN3qc/hqdefault.jpg</a>&quot;, 
+    &quot;duration&quot;: null, 
+    &quot;video_ogv_length&quot;: null, 
+    &quot;video_ogv_url&quot;: &quot;&quot;, 
+    &quot;video_ogv_download_only&quot;: false, 
+    &quot;video_mp4_length&quot;: null, 
+    &quot;video_mp4_url&quot;: &quot;&quot;, 
+    &quot;video_mp4_download_only&quot;: false, 
+    &quot;video_webm_length&quot;: null, 
+    &quot;video_webm_url&quot;: &quot;&quot;, 
+    &quot;video_webm_download_only&quot;: false, 
+    &quot;video_flv_length&quot;: null, 
+    &quot;video_flv_url&quot;: &quot;&quot;, 
+    &quot;video_flv_download_only&quot;: false, 
+    &quot;source_url&quot;: &quot;<a href="https://www.youtube.com/watch?v=MSOlZeDN3qc" rel="nofollow">https://www.youtube.com/watch?v=MSOlZeDN3qc</a>&quot;, 
+    &quot;whiteboard&quot;: &quot;needs editing&quot;, 
+    &quot;recorded&quot;: &quot;2014-08-07&quot;, 
+    &quot;added&quot;: &quot;2014-10-26T00:13:22.692&quot;, 
+    &quot;updated&quot;: &quot;2014-10-26T16:44:34.299&quot;
+}</pre>
+            </div>
+        </div>
+
+            
+
+                
+
+                
+            
+
+        </div>
+        <!-- END content-main -->
+
+    </div>
+    <!-- END Content -->
+
+        <div id="push"></div>
+
+    </div>
+
+    </div><!-- ./wrapper -->
+
+    
+    
+
+    
+    <script src="/static/rest_framework/js/jquery-1.8.1-min.js"></script>
+    <script src="/static/rest_framework/js/bootstrap.min.js"></script>
+    <script src="/static/rest_framework/js/prettify-min.js"></script>
+    <script src="/static/rest_framework/js/default.js"></script>
+    
+  </body>
+
+<!-- Mirrored from pyvideo.org/api/v2/video/3261 by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 07 Jan 2016 03:25:19 GMT -->
+</html>

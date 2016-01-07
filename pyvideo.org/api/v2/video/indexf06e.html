@@ -1,0 +1,1006 @@
+
+
+<!DOCTYPE html>
+<html>
+    
+<!-- Mirrored from pyvideo.org/api/v2/video/?page=167&format=api by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 07 Jan 2016 03:54:35 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+    
+
+        
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+        <meta name="robots" content="NONE,NOARCHIVE" />
+        
+
+        <title>Django REST framework</title>
+
+        
+        
+            <link rel="stylesheet" type="text/css" href="/static/rest_framework/css/bootstrap.min.css"/>
+            <link rel="stylesheet" type="text/css" href="/static/rest_framework/css/bootstrap-tweaks.css"/>
+        
+        <link rel="stylesheet" type="text/css" href="/static/rest_framework/css/prettify.css"/>
+        <link rel="stylesheet" type="text/css" href="/static/rest_framework/css/default.css"/>
+        
+
+    
+    </head>
+
+  <body class=" container">
+
+    <div class="wrapper">
+
+    
+    <div class="navbar navbar-inverse">
+        <div class="navbar-inner">
+            <div class="container-fluid">
+                <span href="/">
+                    <a class='brand' rel="nofollow" href='http://www.django-rest-framework.org'>Django REST framework <span class="version">2.3.14</span></a>
+                </span>
+                <ul class="nav pull-right">
+                    
+                        
+                            <li></li>
+                        
+                    
+                </ul>
+            </div>
+        </div>
+    </div>
+    
+
+    
+    <ul class="breadcrumb">
+        
+            <li>
+                <a href="/api/v2/video/" class="active">Video List Create Api</a> 
+            </li>
+        
+    </ul>
+    
+
+    <!-- Content -->
+    <div id="content">
+
+        
+            <form id="get-form" class="pull-right">
+                <fieldset>
+                    <div class="btn-group format-selection">
+                        <a class="btn btn-primary js-tooltip" href='/api/v2/video/?page=167&amp;format=api' rel="nofollow" title="Make a GET request on the Video List Create Api resource">GET</a>
+
+                        <button class="btn btn-primary dropdown-toggle js-tooltip" data-toggle="dropdown" title="Specify a format for the GET request">
+                            <span class="caret"></span>
+                        </button>
+                        <ul class="dropdown-menu">
+                            
+                                <li>
+                                    <a class="js-tooltip format-option" href='/api/v2/video/?page=167&format=json' rel="nofollow" title="Make a GET request on the Video List Create Api resource with the format set to `json`">json</a>
+                                </li>
+                            
+                                <li>
+                                    <a class="js-tooltip format-option" href='/api/v2/video/?page=167&format=api' rel="nofollow" title="Make a GET request on the Video List Create Api resource with the format set to `api`">api</a>
+                                </li>
+                            
+                        </ul>
+                    </div>
+
+                </fieldset>
+            </form>
+        
+
+        
+            <form class="button-form" action="/api/v2/video/?page=167&amp;format=api" method="POST" class="pull-right">
+                <input type='hidden' name='csrfmiddlewaretoken' value='pT8iI6zhtQdsGFmu4tryYgFrUlipl2B3' />
+                <input type="hidden" name="_method" value="OPTIONS" />
+                <button class="btn btn-primary js-tooltip" title="Make an OPTIONS request on the Video List Create Api resource">OPTIONS</button>
+            </form>
+        
+
+        
+
+        <div class="content-main">
+            <div class="page-header"><h1>Video List Create Api</h1></div>
+            
+            
+            
+            <div class="request-info" style="clear: both" >
+                <pre class="prettyprint"><b>GET</b> /api/v2/video/?page=167&amp;format=api</pre>
+            </div>
+            <div class="response-info">
+                <pre class="prettyprint"><div class="meta nocode"><b>HTTP 200 OK</b>
+<b>Content-Type:</b> <span class="lit">application/json</span>
+<b>Vary:</b> <span class="lit">Accept</span>
+<b>Allow:</b> <span class="lit">GET, POST, HEAD, OPTIONS</span>
+
+</div>{
+    &quot;count&quot;: 3439, 
+    &quot;next&quot;: &quot;<a href="http://pyvideo.org/api/v2/video/?page=168&amp;format=api" rel="nofollow">http://pyvideo.org/api/v2/video/?page=168&amp;format=api</a>&quot;, 
+    &quot;previous&quot;: &quot;<a href="http://pyvideo.org/api/v2/video/?page=166&amp;format=api" rel="nofollow">http://pyvideo.org/api/v2/video/?page=166&amp;format=api</a>&quot;, 
+    &quot;results&quot;: [
+        {
+            &quot;category&quot;: &quot;PyCon US 2010&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;pycon-2010--faster-python-programs-through-optimi&quot;, 
+            &quot;speakers&quot;: [], 
+            &quot;tags&quot;: [
+                &quot;optimization&quot;, 
+                &quot;pycon&quot;, 
+                &quot;pycon2010&quot;, 
+                &quot;tutorial&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 293, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Faster Python Programs Through Optimization&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;Faster Python Programs Through Optimization\n\nMike M\u00c3\u00bcller\n\nAlthough Python programs may be slow for certain types of tasks, there are\nmany different ways to improve performance. This tutorial will introduce\noptimization strategies and demonstrate techniques to implement them. Another\nof the objectives of this course is to give participants the ability to decide\nwhat might be the optimal solution for a certain performance problem.\nParticipants are strongly recommended to bring laptops because all techniques\nare introduced with examples and exercises.\n\nIntended Audience\n\nPython programmers with intermediate knowledge.\n\nClass Outline\n\n  * How Fast is Fast Enough? \n  * Optimization Guidelines \n    * Premature optimization \n    * Optimization rules \n    * Seven steps for incremental optimization \n  * Optimization strategy \n    * Measuring in stones \n    * Profiling CPU usage \n    * Profiling memory usage \n  * Algorithms and Anti-patterns \n    * String Concatenation \n    * List and Generator Comprehensions \n    * The Right Data Structure \n    * Caching \n  * The Example \n  * Testing Speed \n  * Pure Python \n  * Meet Psyco, the JIT \n  * Numpy for Numeric Arrays \n  * Using multiple CPUs with pyprocessing/multiprocessing \n  * Combination of optimization strategies \n  * Results of Different Example Implementations \n\nThe following third-party packages are needed:\n\n  * psyco (version 1.5.2 or higher) \n  * numpy (version 1.2 or higher) \n  * pyprocessing (2.5 or lower only) \n  * Guppy_PE framework \n\n&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;Creative Commons Attribution-NonCommercial-ShareAlike 3.0&quot;, 
+            &quot;embed&quot;: &quot;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://a.images.blip.tv/Pycon-PyCon2010FasterPythonProgramsThroughOptimization658.png" rel="nofollow">http://a.images.blip.tv/Pycon-PyCon2010FasterPythonProgramsThroughOptimization658.png</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: 1158385595, 
+            &quot;video_ogv_url&quot;: &quot;<a href="http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2010/293_faster-python-programs-through-optimization.ogv" rel="nofollow">http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2010/293_faster-python-programs-through-optimization.ogv</a>&quot;, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: &quot;<a href="http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2010/293_faster-python-programs-through-optimization.m4v" rel="nofollow">http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2010/293_faster-python-programs-through-optimization.m4v</a>&quot;, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2010-02-19&quot;, 
+            &quot;added&quot;: &quot;2012-02-23T04:20:00&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:28.116&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyCon US 2010&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;pycon-2010--hacking-the-social-web-with-python&quot;, 
+            &quot;speakers&quot;: [
+                &quot;David Recordon&quot;, 
+                &quot;Mike Malone&quot;
+            ], 
+            &quot;tags&quot;: [
+                &quot;atom&quot;, 
+                &quot;http&quot;, 
+                &quot;json&quot;, 
+                &quot;oauth&quot;, 
+                &quot;openid&quot;, 
+                &quot;pycon&quot;, 
+                &quot;pycon2010&quot;, 
+                &quot;rss&quot;, 
+                &quot;tutorial&quot;, 
+                &quot;xml&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 286, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Hacking the Social Web with Python&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;Open Stack: Hacking the Social Web\n\nPresented by David Recordon/Mike Malone\n\nIn this tutorial we&#39;ll explain what the Open Stack is and how you can use\ntools like OAuth, OpenID, and Portable Contacts to integrate your app with the\nrest of the web. We&#39;ll cover each component in depth, and walk through example\nPython implementations for a variety of scenarios.\n\nIntended Audience\n\n  * Beginning to intermediate Python programmers interested in Web Development \n  * Python programmers who provide or consumer web service APIs \n\nClass Outline\n\n  * Intro: what is the \&quot;Open Stack\&quot; \n  * Working with HTTP in Python \n  * Working with responses: JSON, XML, Atom, RSS, HTML \n  * Decentralized identity with OpenID \n    * Implementing a Provider in Python \n    * Implementing a Relying Party in Python \n  * Delegated authorization with OAuth \n    * Implementing a Provider in Python \n    * Implementing a Consumer in Python \n  * Exchanging contacts with Portable Contacts \n  * Aggregating activity with Activity Streams \n  * Discovering how to communicate: LRDD + XRD \n  * Making markup structured: microformats \n  * The future of the Open Stack \n  * Learn more &amp; get involved: resources and communities \n  * Q&amp;A;\n\nRequirements\n\nSome experience doing web development or working with web service APIs\n\n&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;Creative Commons Attribution-NonCommercial-ShareAlike 3.0&quot;, 
+            &quot;embed&quot;: &quot;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://a.images.blip.tv/Pycon-PyCon2010HackingTheSocialWebWithPython694-349.jpg" rel="nofollow">http://a.images.blip.tv/Pycon-PyCon2010HackingTheSocialWebWithPython694-349.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: 923087859, 
+            &quot;video_ogv_url&quot;: &quot;<a href="http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2010/286_hacking-the-social-web-with-python.ogv" rel="nofollow">http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2010/286_hacking-the-social-web-with-python.ogv</a>&quot;, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: &quot;<a href="http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2010/286_hacking-the-social-web-with-python.m4v" rel="nofollow">http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2010/286_hacking-the-social-web-with-python.m4v</a>&quot;, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2010-02-19&quot;, 
+            &quot;added&quot;: &quot;2012-02-23T04:20:00&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:28.118&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyCon US 2010&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;pycon-2010--hg-and-git---can--39-t-we-all-just-ge&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Scott Chacon&quot;
+            ], 
+            &quot;tags&quot;: [
+                &quot;git&quot;, 
+                &quot;hg&quot;, 
+                &quot;mercurial&quot;, 
+                &quot;pycon&quot;, 
+                &quot;pycon2010&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 239, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Hg and Git : Can&#39;t we all just get along? (#154)&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;Hg and Git: Can&#39;t we all just get along?\n\nPresented by Scott Chacon\n\nThere is a fair amount of unnecessary animosity between developers about\nversion control systems, especially between Mercurial and Git users. In\nreality, these two systems are very similar and can actually cooperate pretty\nwell. In this talk we will show just how similar Git and Mercurial are, look\nat some of their technical differences, and see how they can work together by\nlooking at hg-git, the bidirectional Git/Mercurial bridge, implemented in\nPython.\n\n&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;Creative Commons Attribution-NonCommercial-ShareAlike 3.0&quot;, 
+            &quot;embed&quot;: &quot;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://a.images.blip.tv/Pycon-PyCon2010HgAndGitCantWeAllJustGetAlong154454-979.jpg" rel="nofollow">http://a.images.blip.tv/Pycon-PyCon2010HgAndGitCantWeAllJustGetAlong154454-979.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: 161865609, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: &quot;<a href="http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2010/239_hg-and-git-can-t-we-all-just-get-along-154.m4v" rel="nofollow">http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2010/239_hg-and-git-can-t-we-all-just-get-along-154.m4v</a>&quot;, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2010-02-19&quot;, 
+            &quot;added&quot;: &quot;2012-02-23T04:20:00&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:28.119&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyCon US 2010&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;pycon-2010--how-and-why-python-is-being-used-to-b&quot;, 
+            &quot;speakers&quot;: [], 
+            &quot;tags&quot;: [
+                &quot;casestudy&quot;, 
+                &quot;pycon&quot;, 
+                &quot;pycon2010&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 318, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;How and why Python is being used to by the Military to model real-world battlefield scenarios (#13)&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;How and why Python is being used by the Military to model real-world\nbattlefield scenarios\n\n  \nMr. Eric Silverman (ALATEC Inc. / US Army)\n\n  \nLeveraging the power of Python, military analyst and software developers out\nat White Sands Missile Range in New Mexico have converted a closed-form model,\nwhich was developed for scripted Cold War scenarios, into a more sophisticated\nand adaptive system. COMBATXXI is a premium wargaming model, which now is\npoised to answer questions that have a direct effect on military operations\ncurrently in theater, in large part because of Python.\n\n  \n[VIDEO HAS ISSUES: High pitched noise on audio]\n\n&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;Creative Commons Attribution-NonCommercial-ShareAlike 3.0&quot;, 
+            &quot;embed&quot;: &quot;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://a.images.blip.tv/Pycon-PyCon2010HowAndWhyPythonIsBeingUsedToByTheMilitaryTo898.png" rel="nofollow">http://a.images.blip.tv/Pycon-PyCon2010HowAndWhyPythonIsBeingUsedToByTheMilitaryTo898.png</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: 118955955, 
+            &quot;video_ogv_url&quot;: &quot;<a href="http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2010/318_how-and-why-python-is-being-used-to-by-the-military-to-model-real-world-battlefield-scenarios-13.ogv" rel="nofollow">http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2010/318_how-and-why-python-is-being-used-to-by-the-military-to-model-real-world-battlefield-scenarios-13.ogv</a>&quot;, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: &quot;<a href="http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2010/318_how-and-why-python-is-being-used-to-by-the-military-to-model-real-world-battlefield-scenarios-13.m4v" rel="nofollow">http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2010/318_how-and-why-python-is-being-used-to-by-the-military-to-model-real-world-battlefield-scenarios-13.m4v</a>&quot;, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2010-02-19&quot;, 
+            &quot;added&quot;: &quot;2012-02-23T04:20:00&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:28.120&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyCon US 2010&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;pycon-2010--how-are-large-applications-embedding-&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Peter Shinners&quot;
+            ], 
+            &quot;tags&quot;: [
+                &quot;deploying&quot;, 
+                &quot;embedded&quot;, 
+                &quot;pycon&quot;, 
+                &quot;pycon2010&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 279, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;How Are Large Applications Embedding Python? (#6)&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;How Are Large Applications Embedding Python?\n\nPresented by Peter Shinners\n\nAn examination of the ways Python is being embedded and deployed in the large\napplications used for computer graphics; like Renderman, Maya, Houdini, and\nNuke.\n\nThis session is for those interested in the popular techniques of embedding\nthe Python interpreter. The survey will determine the best practices for\nembedding Python at the core of a large application.\n\n&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;Creative Commons Attribution-NonCommercial-ShareAlike 3.0&quot;, 
+            &quot;embed&quot;: &quot;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://a.images.blip.tv/Pycon-PyCon2010HowAreLargeApplicationsEmbeddingPython6975-926.jpg" rel="nofollow">http://a.images.blip.tv/Pycon-PyCon2010HowAreLargeApplicationsEmbeddingPython6975-926.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: 150904861, 
+            &quot;video_ogv_url&quot;: &quot;<a href="http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2010/279_how-are-large-applications-embedding-python-6.ogv" rel="nofollow">http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2010/279_how-are-large-applications-embedding-python-6.ogv</a>&quot;, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: &quot;<a href="http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2010/279_how-are-large-applications-embedding-python-6.m4v" rel="nofollow">http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2010/279_how-are-large-applications-embedding-python-6.m4v</a>&quot;, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2010-02-19&quot;, 
+            &quot;added&quot;: &quot;2012-02-23T04:20:00&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:28.121&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyCon US 2010&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;pycon-2010--how-does-enthought-distribute-package&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Dr. Ilan Schnell&quot;
+            ], 
+            &quot;tags&quot;: [
+                &quot;enstaller&quot;, 
+                &quot;enthought&quot;, 
+                &quot;pycon&quot;, 
+                &quot;pycon2010&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 278, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;How does Enthought distribute packages? (#108)&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;How does Enthought distribute packages?\n\n  \nPresented by Dr. Ilan Schnell\n\n  \nThis presentation gives an overview of how packages are build and distributed\nfor different operating systems in the Enthought Python Distribution.\nEnstaller (<a href="http://pypi.python.org/pypi/Enstaller/4.0.0" rel="nofollow">http://pypi.python.org/pypi/Enstaller/4.0.0</a>) is a tool I wrote for\ninstalling egg-based packages, which are not necessarily Python packages, such\nas SWIG or HDF5. I will discuss the architecture of Enstaller, and in\nparticular the egg-based distribution format.\n\n  \n[VIDEO HAS ISSUES: Frezz frame in the start of the video]\n\n&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;Creative Commons Attribution-NonCommercial-ShareAlike 3.0&quot;, 
+            &quot;embed&quot;: &quot;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://a.images.blip.tv/Pycon-PyCon2010HowDoesEnthoughtDistributePackages108674-826.jpg" rel="nofollow">http://a.images.blip.tv/Pycon-PyCon2010HowDoesEnthoughtDistributePackages108674-826.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: 165694547, 
+            &quot;video_ogv_url&quot;: &quot;<a href="http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2010/278_how-does-enthought-distribute-packages-108.ogv" rel="nofollow">http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2010/278_how-does-enthought-distribute-packages-108.ogv</a>&quot;, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: &quot;<a href="http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2010/278_how-does-enthought-distribute-packages-108.m4v" rel="nofollow">http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2010/278_how-does-enthought-distribute-packages-108.m4v</a>&quot;, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2010-02-19&quot;, 
+            &quot;added&quot;: &quot;2012-02-23T04:20:00&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:28.123&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyCon US 2010&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;how-python-is-guiding-infrastructure-construction&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Roy Hyunjin Han&quot;
+            ], 
+            &quot;tags&quot;: [
+                &quot;africa&quot;, 
+                &quot;casestudy&quot;, 
+                &quot;infrastructure&quot;, 
+                &quot;pycon&quot;, 
+                &quot;pycon2010&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 337, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;How Python is guiding infrastructure construction in Africa (#84)&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;How Python is guiding infrastructure construction in Africa\n\n  \nPresented by Roy Hyunjin Han (InvisibleRoads)\n\n  \nA whirlwind tour of the roles of different Python modules in the architecture\nof a geospatial infrastructure planning system.\n\n  \nWe used Python to transform an elaborate, multistep process for finding and\nconnecting households in villages into a single, streamlined planning\nexperience. I&#39;ll explain how Python&#39;s freely available libraries empowered a\nsmall team of developers under a minimal budget and timeframe. Now just\nimagine if we had to do the same thing with Java.\n\n&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;Creative Commons Attribution-NonCommercial-ShareAlike 3.0&quot;, 
+            &quot;embed&quot;: &quot;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://a.images.blip.tv/Pycon-PyCon2010HowPythonIsGuidingInfrastructureConstructionInA743.png" rel="nofollow">http://a.images.blip.tv/Pycon-PyCon2010HowPythonIsGuidingInfrastructureConstructionInA743.png</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: &quot;<a href="http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2010/337_how-python-is-guiding-infrastructure-construction-in-africa-84.ogv" rel="nofollow">http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2010/337_how-python-is-guiding-infrastructure-construction-in-africa-84.ogv</a>&quot;, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: &quot;<a href="http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2010/337_how-python-is-guiding-infrastructure-construction-in-africa-84.m4v" rel="nofollow">http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2010/337_how-python-is-guiding-infrastructure-construction-in-africa-84.m4v</a>&quot;, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: &quot;&quot;, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2010-02-19&quot;, 
+            &quot;added&quot;: &quot;2012-02-23T04:20:00&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:28.124&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyCon US 2010&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;pycon-2010--how-python--turbogears--and-mongodb-a&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Rick Copeland&quot;
+            ], 
+            &quot;tags&quot;: [
+                &quot;jinja&quot;, 
+                &quot;mongodb&quot;, 
+                &quot;pycon&quot;, 
+                &quot;pycon2010&quot;, 
+                &quot;turbogears&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 271, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;How Python, TurboGears, and MongoDB are Transforming <a href="http://SourceForge.net" rel="nofollow">SourceForge.net</a> (#47)&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;How Python, TurboGears, and MongoDB are transforming SourceForge.net\n\n  \nPresented by Rick Copeland\n\n  \nIn mid-2009, SourceForge embarked on a quest to modernize our websites,\nstarting with the download (consumer) flow on <a href="http://SourceForge.net" rel="nofollow">SourceForge.net</a>. A small team\nwas tasked the rewrite, converting a site originally implemented in PHP with\nPython. Using a customized TurboGears as a core component, the rewrite was\ncompleted and the new site deployed in under 2 months. This talk tells the\nstory of that rewrite and explains our new technology stack, which includes\nTurboGears, MongoDB, and Jinja templates.\n\n&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;Creative Commons Attribution-NonCommercial-ShareAlike 3.0&quot;, 
+            &quot;embed&quot;: &quot;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://a.images.blip.tv/Pycon-PyCon2010HowPythonTurboGearsAndMongoDBAreTransformingSou564-509.jpg" rel="nofollow">http://a.images.blip.tv/Pycon-PyCon2010HowPythonTurboGearsAndMongoDBAreTransformingSou564-509.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: 126931888, 
+            &quot;video_ogv_url&quot;: &quot;<a href="http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2010/271_how-python-turbogears-and-mongodb-are-transforming-sourceforge-net-47.ogv" rel="nofollow">http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2010/271_how-python-turbogears-and-mongodb-are-transforming-sourceforge-net-47.ogv</a>&quot;, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: &quot;<a href="http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2010/271_how-python-turbogears-and-mongodb-are-transforming-sourceforge-net-47.m4v" rel="nofollow">http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2010/271_how-python-turbogears-and-mongodb-are-transforming-sourceforge-net-47.m4v</a>&quot;, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2010-02-19&quot;, 
+            &quot;added&quot;: &quot;2012-02-23T04:20:00&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:28.125&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyCon US 2010&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;pycon-2010--how-to-write-cross-interpreter-python&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Maciej Fijalkowski&quot;
+            ], 
+            &quot;tags&quot;: [
+                &quot;pycon&quot;, 
+                &quot;pycon2010&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 311, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;How to write cross-interpreter Python programs (#101)&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;How to write cross-interpreter Python programs\n\n  \nPresented by Maciej Fijalkowski (merlinux GmbH, pypy)\n\n  \nThis talk will cover basics about writing cross-interpreter python programs.\nWhat to do and most of all what not to do. This will help you if you want at\nsome point in time to run program on for example Java platform or faster\npython interpreter, but also if you want to keep it running between CPython\nreleases.\n\n&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;Creative Commons Attribution-NonCommercial-ShareAlike 3.0&quot;, 
+            &quot;embed&quot;: &quot;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://a.images.blip.tv/Pycon-PyCon2010HowToWriteCrossinterpreterPythonPrograms101432.png" rel="nofollow">http://a.images.blip.tv/Pycon-PyCon2010HowToWriteCrossinterpreterPythonPrograms101432.png</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: 89924085, 
+            &quot;video_ogv_url&quot;: &quot;<a href="http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2010/311_how-to-write-cross-interpreter-python-programs-101.ogv" rel="nofollow">http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2010/311_how-to-write-cross-interpreter-python-programs-101.ogv</a>&quot;, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: &quot;<a href="http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2010/311_how-to-write-cross-interpreter-python-programs-101.m4v" rel="nofollow">http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2010/311_how-to-write-cross-interpreter-python-programs-101.m4v</a>&quot;, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: &quot;&quot;, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: &quot;&quot;, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2010-02-19&quot;, 
+            &quot;added&quot;: &quot;2012-02-23T04:20:00&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:28.126&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyCon US 2010&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;pycon-2010--implementing-domain-specific-language&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Sean Jensen-Grey&quot;
+            ], 
+            &quot;tags&quot;: [
+                &quot;dsl&quot;, 
+                &quot;pycon&quot;, 
+                &quot;pycon2010&quot;, 
+                &quot;tutorial&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 251, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Implementing Domain Specific Languages In Python&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;Implementing Domain Specific Languages In Python\n\nPresented by Sean Jensen-Grey\n\nIntended Audience\n\nIntermediate\n\nClass Outline\n\n  * What are DSLs? Internal/External \n  * Why DSLs? \n  * How can they be expressed in Python? \n  * Mini Language Design \n  * Implementing External DSLs \n  * Web / AI / Enterprise \n  * Testing \n  * Documenting \n\nRequirements\n\nStudents should have their own computer with Python 2.6 installed\n\n&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;Creative Commons Attribution-NonCommercial-ShareAlike 3.0&quot;, 
+            &quot;embed&quot;: &quot;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://a.images.blip.tv/Pycon-PyCon2010ImplementingDomainSpecificLanguagesInPython841-952.jpg" rel="nofollow">http://a.images.blip.tv/Pycon-PyCon2010ImplementingDomainSpecificLanguagesInPython841-952.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: 1472851836, 
+            &quot;video_ogv_url&quot;: &quot;<a href="http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2010/251_implementing-domain-specific-languages-in-python.ogv" rel="nofollow">http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2010/251_implementing-domain-specific-languages-in-python.ogv</a>&quot;, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: &quot;<a href="http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2010/251_implementing-domain-specific-languages-in-python.m4v" rel="nofollow">http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2010/251_implementing-domain-specific-languages-in-python.m4v</a>&quot;, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2010-02-19&quot;, 
+            &quot;added&quot;: &quot;2012-02-23T04:20:00&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:28.127&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyCon US 2010&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;pycon-2010--import-this--that--and-the-other-thin&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Brett Cannon&quot;
+            ], 
+            &quot;tags&quot;: [
+                &quot;import&quot;, 
+                &quot;importers&quot;, 
+                &quot;importing&quot;, 
+                &quot;pycon&quot;, 
+                &quot;pycon2010&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 341, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Import this, that, and the other thing: custom importers (#9)&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;Import this, that, and the other thing. Custom importers\n\n  \nPresented by Brett Cannon\n\n  \nSince Python 2.3, the ability has existed to customize the import process so\nthat one can support code stored in alternative formats, e.g. zipimport and\nits support of importing code from a zip file. The aim of this talk is to make\nsure you understand how the custom import mechanism works and how to write\nyour own custom importers using importlib from Python 3.1.\n\n&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;Creative Commons Attribution-NonCommercial-ShareAlike 3.0&quot;, 
+            &quot;embed&quot;: &quot;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://a.images.blip.tv/Pycon-PyCon2010ImportThisThatAndTheOtherThingCustomImporters824.png" rel="nofollow">http://a.images.blip.tv/Pycon-PyCon2010ImportThisThatAndTheOtherThingCustomImporters824.png</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: &quot;<a href="http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2010/341_import-this-that-and-the-other-thing-custom-importers-9.ogv" rel="nofollow">http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2010/341_import-this-that-and-the-other-thing-custom-importers-9.ogv</a>&quot;, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: &quot;<a href="http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2010/341_import-this-that-and-the-other-thing-custom-importers-9.m4v" rel="nofollow">http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2010/341_import-this-that-and-the-other-thing-custom-importers-9.m4v</a>&quot;, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2010-02-19&quot;, 
+            &quot;added&quot;: &quot;2012-02-23T04:20:00&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:28.129&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyCon US 2010&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;pycon-2010--interfaces--adapters-and-factories---&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Jeff Rush&quot;
+            ], 
+            &quot;tags&quot;: [
+                &quot;adapters&quot;, 
+                &quot;interfaces&quot;, 
+                &quot;pycon&quot;, 
+                &quot;pycon2010&quot;, 
+                &quot;zope.interface&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 347, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Interfaces, Adapters and Factories (#181)&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;Interfaces, Adapters, and Factories\n\n  \nPresented by Jeff Rush\n\n  \nA step-by-step introduction to the idea of object interfaces and adapters\nusing incremental code examples, based on the zope.interface module. The case\nfor adaption to ease code brittleness will be made and how we can reason about\ninterfaces. I&#39;ll show how to automatically check code for conformance to your\ninterfaces and then cover where objects come from, the several kinds of object\nfactories in Python and how one kind can be based on interfaces.\n\n  \n[VIDEO HAS ISSUES: Beginning out of focus]\n\n&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;Creative Commons Attribution-NonCommercial-ShareAlike 3.0&quot;, 
+            &quot;embed&quot;: &quot;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://a.images.blip.tv/Pycon-PyCon2010InterfacesAdaptersAndFactories181339.png" rel="nofollow">http://a.images.blip.tv/Pycon-PyCon2010InterfacesAdaptersAndFactories181339.png</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: 123411601, 
+            &quot;video_ogv_url&quot;: &quot;<a href="http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2010/347_interfaces-adapters-and-factories-181.ogv" rel="nofollow">http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2010/347_interfaces-adapters-and-factories-181.ogv</a>&quot;, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: &quot;<a href="http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2010/347_interfaces-adapters-and-factories-181.m4v" rel="nofollow">http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2010/347_interfaces-adapters-and-factories-181.m4v</a>&quot;, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2010-02-19&quot;, 
+            &quot;added&quot;: &quot;2012-02-23T04:20:00&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:28.130&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyCon US 2010&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;pycon-2010--internationalizing-your-django-projec&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Matt Croydon&quot;
+            ], 
+            &quot;tags&quot;: [
+                &quot;i18n&quot;, 
+                &quot;internationalization&quot;, 
+                &quot;pycon&quot;, 
+                &quot;pycon2010&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 331, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Internationalizing your Django project (#74)&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;Internationalizing your Django project\n\n  \nPresented by Matt Croydon (Mediaphormedia)\n\n  \nInternationalizing your Django application isn&#39;t as hard as it sounds. This\nsession introduces the topic of internationalization and walks through what it\ntakes to use Django&#39;s internationalization tools, including how to mark\nmodels, views, and templates for translation and how to enable\ninternationalization in your application. We will also step through localizing\nyour application in a new language.\n\n&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;Creative Commons Attribution-NonCommercial-ShareAlike 3.0&quot;, 
+            &quot;embed&quot;: &quot;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://a.images.blip.tv/Pycon-PyCon2010InternationalizingYourDjangoProject74399.png" rel="nofollow">http://a.images.blip.tv/Pycon-PyCon2010InternationalizingYourDjangoProject74399.png</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: 186905210, 
+            &quot;video_ogv_url&quot;: &quot;<a href="http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2010/331_internationalizing-your-django-project-74.ogv" rel="nofollow">http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2010/331_internationalizing-your-django-project-74.ogv</a>&quot;, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: &quot;<a href="http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2010/331_internationalizing-your-django-project-74.m4v" rel="nofollow">http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2010/331_internationalizing-your-django-project-74.m4v</a>&quot;, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2010-02-19&quot;, 
+            &quot;added&quot;: &quot;2012-02-23T04:20:00&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:28.131&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyCon US 2010&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;pycon-2010--introduction-to-django&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Chander Ganesan&quot;
+            ], 
+            &quot;tags&quot;: [
+                &quot;pycon&quot;, 
+                &quot;pycon2010&quot;, 
+                &quot;tutorial&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 255, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Introduction to Django&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;Introduction to Django\n\nPresented by Chander Ganesan\n\nThe Django framework is a fast, flexible, easy to learn, and easy to use\nframework for designing and deploying web sites and services using Python. In\nthis session, we&#39;ll cover the fundamentals of development with Django,\ngenerate a Django data model, and put together a simple web site using the\nframework.\n\nIntended Audience\n\nBeginner to Intermediate Python programmers\n\nClass Outline\n\n  * Django Overview and Basic Introduction (~ 5 min) \n  * Downloading &amp; Installing Dango (~ 10 min) \n  * Creating a new project (~ 5 min) \n  * Choosing a database (~ 5 min) \n  * Creating a new application (~ 5 min) \n  * Installing &amp; Using Django contrib applications (~ 7 min) \n  * Overview of Django flow (i.e., URLconf expression, view function, HTTPResponse object, etc.) (~7 min) \n  * Generating Simple Dango Views (~ 5 min) \n  * Configuring a URLConf for basic views (~ 5 min) \n  * Creating Django Templates (template syntax, common filters and tags, loops, etc) (~ 10 min) \n  * Creating &amp; using Template Context objects (~ 5 min) \n  * Introduction to Django Models (~ 10 min) \n  * Defining basic Django models (~ 15 min) \n  * Understanding basic model fields &amp; options (~ 15 min) \n  * Generating &amp; Reviewing Model SQL (~ 5 min) \n  * Adding data to a model (~ 7 min) \n  * Simple data retrieval using models (~ 7 min) \n  * Working with QUerySets (filters, slicing, ordering, common methods) (~ 10 min) \n  * Overview of Q objects (~ 5 min) \n  * Using the Admin interface (~ 10 min) \n  * Using Generic views (~ 10 min) \n  * Access control with sessions &amp; users (~ 10 min) \n\nRequirements\n\n  * Attendees wishing to try the examples should have Python 2.6 pre-installed ([<a href="http://www.python.org](http://www.python.org)" rel="nofollow">http://www.python.org](http://www.python.org)</a>) \n  * Attendees should have Django pre-downloaded or pre-installed. ([<a href="http://www.djangoproject.com](http://www.djangoproject.com)" rel="nofollow">http://www.djangoproject.com](http://www.djangoproject.com)</a>) \n\n&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;Creative Commons Attribution-NonCommercial-ShareAlike 3.0&quot;, 
+            &quot;embed&quot;: &quot;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://a.images.blip.tv/Pycon-PyCon2010IntroductionToDjango732.png" rel="nofollow">http://a.images.blip.tv/Pycon-PyCon2010IntroductionToDjango732.png</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: 965199376, 
+            &quot;video_ogv_url&quot;: &quot;<a href="http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2010/255_introduction-to-django.ogv" rel="nofollow">http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2010/255_introduction-to-django.ogv</a>&quot;, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: &quot;<a href="http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2010/255_introduction-to-django.m4v" rel="nofollow">http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2010/255_introduction-to-django.m4v</a>&quot;, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2010-02-19&quot;, 
+            &quot;added&quot;: &quot;2012-02-23T04:20:00&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:28.132&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyCon US 2010&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;pycon-2010--introduction-to-internet-programming&quot;, 
+            &quot;speakers&quot;: [], 
+            &quot;tags&quot;: [
+                &quot;pycon&quot;, 
+                &quot;pycon2010&quot;, 
+                &quot;tutorial&quot;, 
+                &quot;web&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 249, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Introduction to Internet Programming&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;Introduction to Internet Programming (Wesley J. Chun)\n\nPython is an interpreted, cross-platform, object-oriented programming language\nthat is popular for a wide range of applications, one of which is Internet\nprogramming. This tutorial introduces current Python programmers to 3-4\ndistinct areas of Internet programming, each in self-contained lectures with a\ndemonstration of code following each lecture topic. Intended Audience\n\nDevelopers familiar with Python who are interested in exploring client/server\nnetwork programming with sockets, Internet client (FTP, NNTP, e-mail),\ndevelopment and web programming.\n\nClass Outline\n\nPython is an interpreted, cross-platform, object-oriented programming language\nthat is popular for a wide range of applications, one of which is Internet\nprogramming. This tutorial introduces current Python programmers to distinct\nareas of Internet programming, each in self-contained lectures with a\ndemonstration of code following these lecture topics (each ranging from\n20-60min in length):\n\n  * Network Programming using Sockets \n  * Internet Client Programming \n  * Web/CGI Programming and Concepts \n  * Intro to Django (time-permitting) \n\nWe start at the lowest layer, where one creates communication channels\ndirectly between clients and servers using sockets then move up one level to\ndiscuss well-known Internet protocols such as FTP. Then we move up even higher\nto address the concept of web programming, including a description and purpose\nof all \&quot;CGI\&quot; interfaces, and finally, if there&#39;s time, to give a high-level\nquick introduction to one of the most popular Python web frameworks today,\nDjango. We&#39;ll try build and implement a simple blog in 15-20 minutes! This is\nespecially for those of you who couldn&#39;t sign up for the intro to Django\ntutorial at this PyCon which will likely be full.\n\nAbout the Instructor\n\nWESLEY J. CHUN, MSCS, is the author of Prentice Hall&#39;s bestseller, \&quot;Core\nPython Programming\&quot;, its video training course, \&quot;Python Fundamentals\&quot;\n(LiveLessons DVD), and co-author of \&quot;Python Web Development with Django\&quot;. In\naddition to being a software architect and Developer Advocate for Google, he\nruns CyberWeb, a consulting business specializing in Python software\nengineering and technical training. He has over 25 years of programming,\nteaching, and writing experience, including more than a decade of Python.\nWhile at Yahoo!, he helped create Yahoo! Mail and Yahoo! People Search using\nPython. He holds degrees in Computer Science, Mathematics, and Music from the\nUniversity of California.\n\n&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;Creative Commons Attribution-NonCommercial-ShareAlike 3.0&quot;, 
+            &quot;embed&quot;: &quot;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://a.images.blip.tv/Pycon-PyCon2010IntroductionToInternetProgramming900-958.jpg" rel="nofollow">http://a.images.blip.tv/Pycon-PyCon2010IntroductionToInternetProgramming900-958.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: 1431136501, 
+            &quot;video_ogv_url&quot;: &quot;<a href="http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2010/249_introduction-to-internet-programming.ogv" rel="nofollow">http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2010/249_introduction-to-internet-programming.ogv</a>&quot;, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: &quot;<a href="http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2010/249_introduction-to-internet-programming.m4v" rel="nofollow">http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2010/249_introduction-to-internet-programming.m4v</a>&quot;, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2010-02-19&quot;, 
+            &quot;added&quot;: &quot;2012-02-23T04:20:00&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:28.134&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyCon US 2010&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;pycon-2010--introduction-to-sqlalchemy&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Johnathan Ellis&quot;
+            ], 
+            &quot;tags&quot;: [
+                &quot;ddl&quot;, 
+                &quot;elixer&quot;, 
+                &quot;formalchemy&quot;, 
+                &quot;migrate&quot;, 
+                &quot;orm&quot;, 
+                &quot;pycon&quot;, 
+                &quot;pycon2010&quot;, 
+                &quot;sqlalchemy&quot;, 
+                &quot;sqlsoup&quot;, 
+                &quot;tutorial&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 252, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Introduction to SQLAlchemy&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;Introduction to SQLAlchemy\n\nPresented by Johnathan Ellis\n\nSQLAlchemy is the premier SQL toolkit for Python. SQLAlchemy exposes the full\npower of SQL while remaining easy to use for the basics, and is flexible\nenough to work with existing database schemas as well as fresh designs.\nSQLAlchemy is used in production by leading Python web frameworks Pylons and\nTurbogears as well as many other web and non-web developers.\n\nThis tutorial teaches SQLAlchemy&#39;s object-relational mapping to automate\npainlessly loading and persisting objects from and to your database, even when\ncomplex relationships exist.\n\nIntended Audience\n\nPython experience: intermediate. You should already have some hands-on\nexperience with Python and be comfortable reading modern Python code.\n\nSQL experience: beginning. You should know how to SELECT, INSERT, and DELETE,\nand how to read queries involving JOINs, but we will only be reading the SQL\ngenerated by SA, not writing our own.\n\nORM experience: prior experience with an object-relational mapper is not\nnecessary.\n\nClass Outline\n\nIntroduction:\n\n  * Philosophy \n  * SA features \n\nFundamentals:\n\n  * Introduction to ORM \n  * Data Mapper pattern vs Active Record \n  * Tables \n  * Mapping basics \n\nQueries:\n\n  * Conditions, operators \n  * Joins \n  * lazy / eager loading \n  * Relation-based queries \n\nSessions &amp; identity map:\n\n  * detatching, attaching objects \n  * Lifecycle relations \n\nMore Mapping:\n\n  * one to one, many to many \n  * backreferences \n\nExtensions, etc.:\n\n  * DDL \n  * Migrate \n  * FormAlchemy \n  * SqlSoup \n  * Elixir \n\nRequirements\n\nLaptop with Python 2.5 or 2.6 and SQLAlchemy 0.6 installed. Code samples may\nalso work with Python 2.4 but will not be tested on that platform. SQLAlchemy\nalso supports Jython and cPython 3.x, but this tutorial will be using\n\&quot;classic\&quot; cPython.\n\n&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;Creative Commons Attribution-NonCommercial-ShareAlike 3.0&quot;, 
+            &quot;embed&quot;: &quot;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://a.images.blip.tv/Pycon-PyCon2010IntroductionToSQLAlchemy295-517.jpg" rel="nofollow">http://a.images.blip.tv/Pycon-PyCon2010IntroductionToSQLAlchemy295-517.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: 884586519, 
+            &quot;video_ogv_url&quot;: &quot;<a href="http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2010/252_introduction-to-sqlalchemy.ogv" rel="nofollow">http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2010/252_introduction-to-sqlalchemy.ogv</a>&quot;, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: &quot;<a href="http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2010/252_introduction-to-sqlalchemy.m4v" rel="nofollow">http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2010/252_introduction-to-sqlalchemy.m4v</a>&quot;, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2010-02-19&quot;, 
+            &quot;added&quot;: &quot;2012-02-23T04:20:00&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:28.135&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyCon US 2010&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;pycon-2010--introduction-to-traits&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Corran Webster&quot;
+            ], 
+            &quot;tags&quot;: [
+                &quot;pycon&quot;, 
+                &quot;pycon2010&quot;, 
+                &quot;traits&quot;, 
+                &quot;tutorial&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 235, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Introduction to Traits&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;Introduction to Traits\n\nPresented by Corran Webster\n\nThe Traits project allows you to simply add validation, initialization,\ndelegation, notification and a graphical user interface to Python object\nattributes. In this tutorial we will explore the Traits toolset and learn how\nto dramatically reduce the amount of boilerplate code you write, do rapid GUI\napplication development, and understand the ideas which underly other parts of\nthe Enthought Tool Suite (such as MayaVi and Chaco plotting toolkits).\n\nTraits and the Enthought Tool Suite are open source projects licensed under a\nBSD-style license.\n\nIntended Audience\n\nIntermediate to advanced Python programmers\n\nClass Outline\n\n  * Introduction to ETS and Traits \n  * Basic Traits + Trait types + Property Traits + Trait Validation \n  * Traits UI + Basic Traits UI + Tour of the Trait editors + Advanced Trait editors \n  * Notification in Traits + Static notification + Dynamic notification \n  * Advanced Traits UI + Customizing Views, Groups and Items + Traits UI Handlers + Buttons, Menus and Toolbars + Drag and Drop \n  * Q&amp;A;\n\nRequirements\n\nLaptop recommended (any major OS is fine), with the following software\ninstalled:\n\n  * Python 2.5 or 2.6 (<a href="http://www.python.org" rel="nofollow">www.python.org</a>) \n  * Either wxPython (<a href="http://www.wxpython.org/" rel="nofollow">http://www.wxpython.org/</a>) or PyQt (<a href="http://www.riverbankcomputing.co.uk/software/pyqt/intro" rel="nofollow">http://www.riverbankcomputing.co.uk/software/pyqt/intro</a>) \n  * Numpy and Scipy (<a href="http://www.scipy.org" rel="nofollow">http://www.scipy.org</a>) \n  * Enthought Tool Suite 3.2 or higher (<a href="http://code.enthought.com/projects" rel="nofollow">http://code.enthought.com/projects</a>) \n\nAll required software can be obtained by installing the free trial version of\nthe Enthought Python Distribution v5 or later\n(http://www.enthought.com/products/epd.php).\n\n&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;Creative Commons Attribution-NonCommercial-ShareAlike 3.0&quot;, 
+            &quot;embed&quot;: &quot;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://a.images.blip.tv/Pycon-IntroductionToTraits425-362.jpg" rel="nofollow">http://a.images.blip.tv/Pycon-IntroductionToTraits425-362.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: &quot;<a href="http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2010/235_introduction-to-traits.m4v" rel="nofollow">http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2010/235_introduction-to-traits.m4v</a>&quot;, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2010-02-19&quot;, 
+            &quot;added&quot;: &quot;2012-02-23T04:20:00&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:28.137&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyCon US 2010&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;pycon-2010--introduction-to-twisted&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Chander Ganesan&quot;
+            ], 
+            &quot;tags&quot;: [
+                &quot;pcyon2010&quot;, 
+                &quot;pycon&quot;, 
+                &quot;tutorial&quot;, 
+                &quot;twisted&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 284, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Introduction to Twisted&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;Introduction to Twisted\n\nPresented by Chander Ganesan\n\nInterested in faster networking with Python? Twisted is an event-driven\nnetworking engine written in Python that allows developers to quickly and\neasily develop and deploy network services.\n\nIn this tutorial, attendees will learn what twisted is, why to use it, how it\nworks, and how to install, develop, and deploy simple clients and servers\nusing Twisted.\n\nAttendees should bring a laptop if possible, to try out code examples in\nclass.\n\nIntended Audience\n\nIntermediate Python Programmers with an understanding of Pythons object\noriented syntax (classes, inheritance, etc.)\n\nClass Outline\n\n  * Introduction to Twisted (15 min) - Basic Concepts \n    * Event-Driven model, cooperative multi-tasking \n  * Installing Twisted &amp; Verifying Installation (10 min) \n  * Starting the Event loop (10 min) \n  * Timed Events (10 min) \n  * Understanding Twisted Factories &amp; their use (15 min) \n  * Understanding Protocol Objects &amp; their use (15 min) \n  * Creating a simple Twisted Client (25 min) \n    * Using twisted.internet.reactor.connectTCP() \n    * Creating a Client Factory \n    * Creating a Protocol \n  * Creating a simple Twisted Server (Server Factory) (25 min) \n    * Using twisted.internet.reactor.listenTCP() \n    * Creating a Server Factory \n  * Using Twisted SMTP to Send Mail (15 min) \n  * Twisted Web Basics (25 min) \n  * Introduction to the twist Daemonizer &amp; tac files (15 min) \n\nRequirements\n\n  * An understanding of Object Oriented Python (OOP concepts, inheritance, classes, etc.) \n  * Attendees wishing to try the examples should have Python 2.4 or newer and Twisted pre-installed. \n  * Attendees wishing to try the examples should have Python 2.4 or newer and Twisted pre-downloaded (we&#39;ll go over installation) \n  * Twisted may be downloaded at [<a href="http://www.twistedmatrix.com/](http://www.twistedmatrix.com)%5Cn" rel="nofollow">http://www.twistedmatrix.com/](http://www.twistedmatrix.com)\n</a>  * Windows users will require the Win32 extensions for Python as well [<a href="http://starship.python.net/crew/mhammond/win32/Downloads.html](http://starship.python.net/crew/mhammond/win32/Downloads.html)%5Cn%5Cn" rel="nofollow">http://starship.python.net/crew/mhammond/win32/Downloads.html](http://starship.python.net/crew/mhammond/win32/Downloads.html)\n\n</a>&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;Creative Commons Attribution-NonCommercial-ShareAlike 3.0&quot;, 
+            &quot;embed&quot;: &quot;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://a.images.blip.tv/Pycon-PyCon2010IntroductionToTwisted616-750.jpg" rel="nofollow">http://a.images.blip.tv/Pycon-PyCon2010IntroductionToTwisted616-750.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: 1005028048, 
+            &quot;video_ogv_url&quot;: &quot;<a href="http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2010/284_introduction-to-twisted.ogv" rel="nofollow">http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2010/284_introduction-to-twisted.ogv</a>&quot;, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: &quot;<a href="http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2010/284_introduction-to-twisted.m4v" rel="nofollow">http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2010/284_introduction-to-twisted.m4v</a>&quot;, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2010-02-19&quot;, 
+            &quot;added&quot;: &quot;2012-02-23T04:20:00&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:28.138&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyCon US 2010&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;pycon-2010--introduction-to-unittest--a-k-a--pyun&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Chander Ganesan&quot;
+            ], 
+            &quot;tags&quot;: [
+                &quot;pycon&quot;, 
+                &quot;pycon2010&quot;, 
+                &quot;pyunit&quot;, 
+                &quot;testing&quot;, 
+                &quot;unittest&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 237, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Introduction to unittest (a.k.a. PyUnit) (#96)&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;Introduction to Unittest (a.k.a. PyUnit)\n\nPresented by Chander K Ganesan\n\nThe PyUnit (unittest) unit testing framework provides an easy-to-use set of\ntools and techniques to add robust unit testing to your Python code. By\nintegrating unit testing in their code, developers allow for a robust set of\ntools to quickly and easily identify \&quot;broken\&quot; code.\n\nIn this session we&#39;ll explore the unittest module and demonstrate how to\nleverage PyUnit for unit testing.\n\n&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;Creative Commons Attribution-NonCommercial-ShareAlike 3.0&quot;, 
+            &quot;embed&quot;: &quot;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://a.images.blip.tv/Pycon-PyCon2010IntroductionToUnittestAkaPyUnit96996-668.jpg" rel="nofollow">http://a.images.blip.tv/Pycon-PyCon2010IntroductionToUnittestAkaPyUnit96996-668.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: 256757557, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: &quot;<a href="http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2010/237_introduction-to-unittest-a-k-a-pyunit-96.m4v" rel="nofollow">http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2010/237_introduction-to-unittest-a-k-a-pyunit-96.m4v</a>&quot;, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2010-02-19&quot;, 
+            &quot;added&quot;: &quot;2012-02-23T04:20:00&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:28.139&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyCon US 2010&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;pycon-2010--ironpython-tooling---67&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Dino E Viehland&quot;
+            ], 
+            &quot;tags&quot;: [
+                &quot;ironpython&quot;, 
+                &quot;pycon&quot;, 
+                &quot;pycon2010&quot;, 
+                &quot;tools&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 319, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;IronPython Tooling (#67)&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;IronPython Tooling\n\n  \nPresented by Dino E Viehland (Microsoft)\n\n  \nOne of the most popular requests for the IronPython team is tooling support.\nDuring this talk I\u00e2\u20ac\u2122ll show you some of the existing tools available to help\ncreate IronPython applications. I\u00e2\u20ac\u2122ll also look at the latest IronPython\nfeatures which can help you debug, profile and improve your applications.\nI\u00e2\u20ac\u2122ll also compare and contrast these with the solutions available for\nCPython that you may already be familiar with.\n\n&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;Creative Commons Attribution-NonCommercial-ShareAlike 3.0&quot;, 
+            &quot;embed&quot;: &quot;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://a.images.blip.tv/Pycon-PyCon2010IronPythonTooling67763.png" rel="nofollow">http://a.images.blip.tv/Pycon-PyCon2010IronPythonTooling67763.png</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: 86436947, 
+            &quot;video_ogv_url&quot;: &quot;<a href="http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2010/319_ironpython-tooling-67.ogv" rel="nofollow">http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2010/319_ironpython-tooling-67.ogv</a>&quot;, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: &quot;<a href="http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2010/319_ironpython-tooling-67.m4v" rel="nofollow">http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2010/319_ironpython-tooling-67.m4v</a>&quot;, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2010-02-19&quot;, 
+            &quot;added&quot;: &quot;2012-02-23T04:20:00&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:28.140&quot;
+        }
+    ]
+}</pre>
+            </div>
+        </div>
+
+            
+
+                
+
+                
+            
+
+        </div>
+        <!-- END content-main -->
+
+    </div>
+    <!-- END Content -->
+
+        <div id="push"></div>
+
+    </div>
+
+    </div><!-- ./wrapper -->
+
+    
+    
+
+    
+    <script src="/static/rest_framework/js/jquery-1.8.1-min.js"></script>
+    <script src="/static/rest_framework/js/bootstrap.min.js"></script>
+    <script src="/static/rest_framework/js/prettify-min.js"></script>
+    <script src="/static/rest_framework/js/default.js"></script>
+    
+  </body>
+
+<!-- Mirrored from pyvideo.org/api/v2/video/?page=167&format=api by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 07 Jan 2016 03:54:35 GMT -->
+</html>

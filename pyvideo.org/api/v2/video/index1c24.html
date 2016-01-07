@@ -1,0 +1,975 @@
+
+
+<!DOCTYPE html>
+<html>
+    
+<!-- Mirrored from pyvideo.org/api/v2/video/?page=158 by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 07 Jan 2016 03:54:01 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+    
+
+        
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+        <meta name="robots" content="NONE,NOARCHIVE" />
+        
+
+        <title>Django REST framework</title>
+
+        
+        
+            <link rel="stylesheet" type="text/css" href="/static/rest_framework/css/bootstrap.min.css"/>
+            <link rel="stylesheet" type="text/css" href="/static/rest_framework/css/bootstrap-tweaks.css"/>
+        
+        <link rel="stylesheet" type="text/css" href="/static/rest_framework/css/prettify.css"/>
+        <link rel="stylesheet" type="text/css" href="/static/rest_framework/css/default.css"/>
+        
+
+    
+    </head>
+
+  <body class=" container">
+
+    <div class="wrapper">
+
+    
+    <div class="navbar navbar-inverse">
+        <div class="navbar-inner">
+            <div class="container-fluid">
+                <span href="/">
+                    <a class='brand' rel="nofollow" href='http://www.django-rest-framework.org'>Django REST framework <span class="version">2.3.14</span></a>
+                </span>
+                <ul class="nav pull-right">
+                    
+                        
+                            <li></li>
+                        
+                    
+                </ul>
+            </div>
+        </div>
+    </div>
+    
+
+    
+    <ul class="breadcrumb">
+        
+            <li>
+                <a href="/api/v2/video/" class="active">Video List Create Api</a> 
+            </li>
+        
+    </ul>
+    
+
+    <!-- Content -->
+    <div id="content">
+
+        
+            <form id="get-form" class="pull-right">
+                <fieldset>
+                    <div class="btn-group format-selection">
+                        <a class="btn btn-primary js-tooltip" href='/api/v2/video/?page=158' rel="nofollow" title="Make a GET request on the Video List Create Api resource">GET</a>
+
+                        <button class="btn btn-primary dropdown-toggle js-tooltip" data-toggle="dropdown" title="Specify a format for the GET request">
+                            <span class="caret"></span>
+                        </button>
+                        <ul class="dropdown-menu">
+                            
+                                <li>
+                                    <a class="js-tooltip format-option" href='/api/v2/video/?page=158&format=json' rel="nofollow" title="Make a GET request on the Video List Create Api resource with the format set to `json`">json</a>
+                                </li>
+                            
+                                <li>
+                                    <a class="js-tooltip format-option" href='/api/v2/video/?page=158&format=api' rel="nofollow" title="Make a GET request on the Video List Create Api resource with the format set to `api`">api</a>
+                                </li>
+                            
+                        </ul>
+                    </div>
+
+                </fieldset>
+            </form>
+        
+
+        
+            <form class="button-form" action="/api/v2/video/?page=158" method="POST" class="pull-right">
+                <input type='hidden' name='csrfmiddlewaretoken' value='pT8iI6zhtQdsGFmu4tryYgFrUlipl2B3' />
+                <input type="hidden" name="_method" value="OPTIONS" />
+                <button class="btn btn-primary js-tooltip" title="Make an OPTIONS request on the Video List Create Api resource">OPTIONS</button>
+            </form>
+        
+
+        
+
+        <div class="content-main">
+            <div class="page-header"><h1>Video List Create Api</h1></div>
+            
+            
+            
+            <div class="request-info" style="clear: both" >
+                <pre class="prettyprint"><b>GET</b> /api/v2/video/?page=158</pre>
+            </div>
+            <div class="response-info">
+                <pre class="prettyprint"><div class="meta nocode"><b>HTTP 200 OK</b>
+<b>Content-Type:</b> <span class="lit">application/json</span>
+<b>Vary:</b> <span class="lit">Accept</span>
+<b>Allow:</b> <span class="lit">GET, POST, HEAD, OPTIONS</span>
+
+</div>{
+    &quot;count&quot;: 3439, 
+    &quot;next&quot;: &quot;<a href="http://pyvideo.org/api/v2/video/?page=159" rel="nofollow">http://pyvideo.org/api/v2/video/?page=159</a>&quot;, 
+    &quot;previous&quot;: &quot;<a href="http://pyvideo.org/api/v2/video/?page=157" rel="nofollow">http://pyvideo.org/api/v2/video/?page=157</a>&quot;, 
+    &quot;results&quot;: [
+        {
+            &quot;category&quot;: &quot;EuroPython 2011&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;relate-or-relate&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Mark Ramm-Christensen&quot;
+            ], 
+            &quot;tags&quot;: [
+                &quot;database&quot;, 
+                &quot;nosql&quot;, 
+                &quot;optimizing&quot;, 
+                &quot;performance&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 1104, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Relate or !Relate&quot;, 
+            &quot;summary&quot;: &quot;[EuroPython 2011] Mark Ramm-Christensen - 21 June 2011 in \&quot;Track Spaghetti\&quot;\n\n&quot;, 
+            &quot;description&quot;: &quot;To Relate or Not to Relate, that is the question raised by the NoSQL movement.\nThere is a lot of buzz about Couch, Casandra, MongoDB, and other non\nrelational databases, and at the same time there are decades of hard work\nthat&#39;s gone into optimizing databases built around the relational model.\n\nI would actually argue that there is no such thing as a NoSQL database - there\nare a variety of compelling options to relational database - each of which\nhave different features and different performance characteristics. So no one-\nsized fits all comparison will do. So, I&#39;ll try to outline a general taxonomy\nfor persistence mechanisms, and then proceed to comparing relational DB&#39;s to\ntheir new friends in practice.\n\nThe talk will contain quite a few stories from the trenches with CouchDB,\nMongoDB, MySQL, Postgres, Tokyo Cabinet, ZODB, and other databases, and will\nhelp you think about the data storage needs of your applications in new ways.\n\n&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;Standard YouTube License&quot;, 
+            &quot;embed&quot;: &quot;&lt;object width=\&quot;640\&quot; height=\&quot;390\&quot;&gt;&lt;param name=\&quot;movie\&quot; value=\&quot;http://youtube.com/v/rZCANK4by0Q?version=3&amp;amp;hl=en_US\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowFullScreen\&quot; value=\&quot;true\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowscriptaccess\&quot; value=\&quot;always\&quot;&gt;&lt;/param&gt;&lt;embed src=\&quot;http://youtube.com/v/rZCANK4by0Q?version=3&amp;amp;hl=en_US\&quot; type=\&quot;application/x-shockwave-flash\&quot; width=\&quot;640\&quot; height=\&quot;390\&quot; allowscriptaccess=\&quot;always\&quot; allowfullscreen=\&quot;true\&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://i.ytimg.com/vi/rZCANK4by0Q/hqdefault.jpg" rel="nofollow">http://i.ytimg.com/vi/rZCANK4by0Q/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: null, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="http://www.youtube.com/watch?v=rZCANK4by0Q" rel="nofollow">http://www.youtube.com/watch?v=rZCANK4by0Q</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2011-07-13&quot;, 
+            &quot;added&quot;: &quot;2012-08-30T21:02:32&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:27.881&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;EuroPython 2011&quot;, 
+            &quot;language&quot;: &quot;Italian&quot;, 
+            &quot;slug&quot;: &quot;rubrica-indirizzi-allennesima-potenza&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Davide Corio&quot;
+            ], 
+            &quot;tags&quot;: [
+                &quot;mobile&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 1181, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Rubrica indirizzi all&#39;ennesima potenza&quot;, 
+            &quot;summary&quot;: &quot;[EuroPython 2011] Davide Corio - 23 June 2011 in \&quot;Track Italiana Big Mac \&quot;\n\n&quot;, 
+            &quot;description&quot;: &quot;Avete presente il classico, noioso, banale esempio di rubrica indirizzi in\nPython? Si? Quindi, diamo un&#39;occhiata ad un nuovissimo, complicato ed\nentusiasmante modo di tenere la nostra rubrica e il nostro dispositivo mobile\nsincronizzati. Mischieremo differenti tecnologie come Zope, OpenERP, Funambol,\nXML-RPC e Json. Tutto per rendere la vostra vita pi\u00f9 elettrizzante!\n\n&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;Standard YouTube License&quot;, 
+            &quot;embed&quot;: &quot;&lt;object width=\&quot;640\&quot; height=\&quot;390\&quot;&gt;&lt;param name=\&quot;movie\&quot; value=\&quot;http://youtube.com/v/5IYPF0YY6jo?version=3&amp;amp;hl=en_US\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowFullScreen\&quot; value=\&quot;true\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowscriptaccess\&quot; value=\&quot;always\&quot;&gt;&lt;/param&gt;&lt;embed src=\&quot;http://youtube.com/v/5IYPF0YY6jo?version=3&amp;amp;hl=en_US\&quot; type=\&quot;application/x-shockwave-flash\&quot; width=\&quot;640\&quot; height=\&quot;390\&quot; allowscriptaccess=\&quot;always\&quot; allowfullscreen=\&quot;true\&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://i.ytimg.com/vi/5IYPF0YY6jo/hqdefault.jpg" rel="nofollow">http://i.ytimg.com/vi/5IYPF0YY6jo/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: null, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="http://www.youtube.com/watch?v=5IYPF0YY6jo" rel="nofollow">http://www.youtube.com/watch?v=5IYPF0YY6jo</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2011-07-13&quot;, 
+            &quot;added&quot;: &quot;2012-08-30T21:29:52&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:27.882&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;EuroPython 2011&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;saving-gaia-with-jquery-mobile-and-geodjango&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Calvin Cheng&quot;
+            ], 
+            &quot;tags&quot;: [
+                &quot;database&quot;, 
+                &quot;geodjango&quot;, 
+                &quot;jquery&quot;, 
+                &quot;mobile&quot;, 
+                &quot;spatial&quot;, 
+                &quot;web&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 1103, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Saving Gaia with jQuery Mobile and GeoDjango&quot;, 
+            &quot;summary&quot;: &quot;[EuroPython 2011] Calvin Cheng - 22 June 2011 in \&quot;Track Tagliatelle \&quot;\n\n&quot;, 
+            &quot;description&quot;: &quot;We had the privilege of working on a mobile web application for ETH Zurich,\nfunded by ETH North-South Centre, using Django/Postgis, jQuery mobile and\nOpenlayers technology.\n\nIn this talk, I would like to share what we have learnt technically and the\nexperiences and fun we had with polygon creation on a map and saving polygon\nvertices and related data into our spatial database via geodjango.\n\nThis mobile web app is developed based on research by Dr Koh of ETH Zurich,\nspecializing on Matrix-calibrated and edge-corrected species-area models that\nallow users to evaluate the biodiversity consequence and trade-offs of land-\nuse decisions. The development and description of these models were published\nin Conserv. Biol. 24, 994 and J. Appl. Ecol. 47, 1063.\n\n&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;Standard YouTube License&quot;, 
+            &quot;embed&quot;: &quot;&lt;object width=\&quot;640\&quot; height=\&quot;390\&quot;&gt;&lt;param name=\&quot;movie\&quot; value=\&quot;http://youtube.com/v/xE2-QKe9rGc?version=3&amp;amp;hl=en_US\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowFullScreen\&quot; value=\&quot;true\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowscriptaccess\&quot; value=\&quot;always\&quot;&gt;&lt;/param&gt;&lt;embed src=\&quot;http://youtube.com/v/xE2-QKe9rGc?version=3&amp;amp;hl=en_US\&quot; type=\&quot;application/x-shockwave-flash\&quot; width=\&quot;640\&quot; height=\&quot;390\&quot; allowscriptaccess=\&quot;always\&quot; allowfullscreen=\&quot;true\&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://i.ytimg.com/vi/xE2-QKe9rGc/hqdefault.jpg" rel="nofollow">http://i.ytimg.com/vi/xE2-QKe9rGc/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: null, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="http://www.youtube.com/watch?v=xE2-QKe9rGc" rel="nofollow">http://www.youtube.com/watch?v=xE2-QKe9rGc</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2011-07-13&quot;, 
+            &quot;added&quot;: &quot;2012-08-30T21:02:31&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:27.884&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;EuroPython 2011&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;scraping-techniques-to-extract-advertisements-fr-0&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Mirko Urru&quot;, 
+                &quot;Stefano Cotta Ramusino&quot;
+            ], 
+            &quot;tags&quot;: [
+                &quot;google&quot;, 
+                &quot;scraping&quot;, 
+                &quot;search&quot;, 
+                &quot;web&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 1102, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Scraping Techniques to Extract Advertisements from Web Pages&quot;, 
+            &quot;summary&quot;: &quot;[EuroPython 2011] Mirko Urru,Stefano Cotta Ramusino - 24 June 2011 in \&quot;Track\nTagliatelle \&quot;\n\n&quot;, 
+            &quot;description&quot;: &quot;Online Advertising is an emerging research field, at the intersection of\nInformation Retrieval, Machine Learning, Optimization, and Microeconomics. Its\nmain goal is to choose the right ads to present to a user engaged in a given\ntask, such as Sponsored Search Advertising or Contextual Advertising. The\nformer puts ads on the page returned from a Web search engine following a\nquery. The latter puts ads within the content of a generic, third party, Web\npage. The ads themselves are selected and served by automated systems based on\nthe content displayed to the user.\n\nWeb scraping is the set of techniques used to automatically get some\ninformation from a website instead of manually copying it. In particular,\nwe&#39;re interested in studying and adopting scraping techniques for: i.\naccessing tags as object members ii. finding out tags whose name, contents or\nattributes match selection criteria iii. accessing tag attributes by using a\ndictionary-like syntax.\n\nIn this talk, we focus on the adoption of scraping techniques in the\ncontextual advertising field. In particular, we present a system aimed at\nfinding the most relevant ads for a generic web page p. Starting from p, the\nsystem selects a set of its inlinks (i.e., the pages that link p) and extracts\nthe ads contained into them. Selection is performed querying the Google search\nengine, whereas extraction is made by using suitable scraping techniques.\n\n&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;Standard YouTube License&quot;, 
+            &quot;embed&quot;: &quot;&lt;object width=\&quot;640\&quot; height=\&quot;390\&quot;&gt;&lt;param name=\&quot;movie\&quot; value=\&quot;http://youtube.com/v/cCKGqKTwfqI?version=3&amp;amp;hl=en_US\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowFullScreen\&quot; value=\&quot;true\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowscriptaccess\&quot; value=\&quot;always\&quot;&gt;&lt;/param&gt;&lt;embed src=\&quot;http://youtube.com/v/cCKGqKTwfqI?version=3&amp;amp;hl=en_US\&quot; type=\&quot;application/x-shockwave-flash\&quot; width=\&quot;640\&quot; height=\&quot;390\&quot; allowscriptaccess=\&quot;always\&quot; allowfullscreen=\&quot;true\&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://i.ytimg.com/vi/cCKGqKTwfqI/hqdefault.jpg" rel="nofollow">http://i.ytimg.com/vi/cCKGqKTwfqI/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: null, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="http://www.youtube.com/watch?v=cCKGqKTwfqI" rel="nofollow">http://www.youtube.com/watch?v=cCKGqKTwfqI</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2011-07-13&quot;, 
+            &quot;added&quot;: &quot;2012-08-30T21:02:31&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:27.885&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;EuroPython 2011&quot;, 
+            &quot;language&quot;: &quot;Italian&quot;, 
+            &quot;slug&quot;: &quot;scrivere-un-tool-parallelo-e-distribuito-per-back&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Marco Nenciarini&quot;
+            ], 
+            &quot;tags&quot;: [
+                &quot;backup&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 1180, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Scrivere un tool parallelo e distribuito per backup multi-terabyte&quot;, 
+            &quot;summary&quot;: &quot;[EuroPython 2011] Marco Nenciarini - 23 June 2011 in \&quot;Track Italiana Big Mac \&quot;\n\n&quot;, 
+            &quot;description&quot;: &quot;Una trattazione sull&#39;uso di Python per implementare un tool per il backup\ngiornaliero di un data warehouse di oltre 50 terabyte, basato sulla tecnologia\nGreenplum Database.\n\nQuesto intervento racconta la nostra esperienza, dalla raccolta dei requisiti\nutente alla prima release del tool, descrivendo i principali problemi\nincontrati e i moduli Python usati per risolverli, usando metodologie agili\nper lo sviluppo.\n\nSebbene l&#39;applicazione non sia disponibile come progetto open-source, questo\nintervento fornisce degli spunti di valore a proposito dello sviluppo di\napplicazioni distribuite e parallele usando Python.\n\n&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;Standard YouTube License&quot;, 
+            &quot;embed&quot;: &quot;&lt;object width=\&quot;640\&quot; height=\&quot;390\&quot;&gt;&lt;param name=\&quot;movie\&quot; value=\&quot;http://youtube.com/v/t4eycS8ayFA?version=3&amp;amp;hl=en_US\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowFullScreen\&quot; value=\&quot;true\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowscriptaccess\&quot; value=\&quot;always\&quot;&gt;&lt;/param&gt;&lt;embed src=\&quot;http://youtube.com/v/t4eycS8ayFA?version=3&amp;amp;hl=en_US\&quot; type=\&quot;application/x-shockwave-flash\&quot; width=\&quot;640\&quot; height=\&quot;390\&quot; allowscriptaccess=\&quot;always\&quot; allowfullscreen=\&quot;true\&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://i.ytimg.com/vi/t4eycS8ayFA/hqdefault.jpg" rel="nofollow">http://i.ytimg.com/vi/t4eycS8ayFA/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: null, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="http://www.youtube.com/watch?v=t4eycS8ayFA" rel="nofollow">http://www.youtube.com/watch?v=t4eycS8ayFA</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2011-07-13&quot;, 
+            &quot;added&quot;: &quot;2012-08-30T21:28:35&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:27.886&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;EuroPython 2011&quot;, 
+            &quot;language&quot;: &quot;Italian&quot;, 
+            &quot;slug&quot;: &quot;sfrutta-la-potenza-della-gpu-con-pycuda-e-compag&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Stefano Brilli&quot;
+            ], 
+            &quot;tags&quot;: [
+                &quot;gpu&quot;, 
+                &quot;pycuda&quot;, 
+                &quot;python,&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 1179, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Sfrutta la potenza della GPU con PyCUDA (e compagni)&quot;, 
+            &quot;summary&quot;: &quot;[EuroPython 2011] Stefano Brilli - 22 June 2011 in \&quot;Track Italiana Big Mac \&quot;\n\n&quot;, 
+            &quot;description&quot;: &quot;CUDA \u00e8 una tecnologia che permette di sfruttare la potenza di calcolo delle\nmoderne schede video prodotte da NVIDIA. In questo talk, dopo una breve\nintroduzione all&#39;architettura della GPU, si vedr\u00e0 come CUDA entra all&#39;interno\ndi Python attraverso librerie come PyCUDA e non solo\u2026\n\nMediante alcuni esempi si metteranno in luce i concetti e le pratiche\nfondamentali per una buona programmazione della GPU.\n\nIl talk \u00e8 rivolto a chiunque voglia conoscere come sfruttare questa tecnologia\nall&#39;interno di Python, i casi in cui \u00e8 conveniente utilizzarla, le pratiche da\nadottare e le pratiche da non adottare per trarre il massimo dalla propria\nGPU.\n\n&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;Standard YouTube License&quot;, 
+            &quot;embed&quot;: &quot;&lt;object width=\&quot;640\&quot; height=\&quot;390\&quot;&gt;&lt;param name=\&quot;movie\&quot; value=\&quot;http://youtube.com/v/5XjxTBgETfU?version=3&amp;amp;hl=en_US\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowFullScreen\&quot; value=\&quot;true\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowscriptaccess\&quot; value=\&quot;always\&quot;&gt;&lt;/param&gt;&lt;embed src=\&quot;http://youtube.com/v/5XjxTBgETfU?version=3&amp;amp;hl=en_US\&quot; type=\&quot;application/x-shockwave-flash\&quot; width=\&quot;640\&quot; height=\&quot;390\&quot; allowscriptaccess=\&quot;always\&quot; allowfullscreen=\&quot;true\&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://i.ytimg.com/vi/5XjxTBgETfU/hqdefault.jpg" rel="nofollow">http://i.ytimg.com/vi/5XjxTBgETfU/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: null, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="http://www.youtube.com/watch?v=5XjxTBgETfU" rel="nofollow">http://www.youtube.com/watch?v=5XjxTBgETfU</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2011-07-13&quot;, 
+            &quot;added&quot;: &quot;2012-08-30T21:28:35&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:27.888&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;EuroPython 2011&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;snakes-on-a-cloud-the-openstack-project-0&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Thierry Carrez&quot;
+            ], 
+            &quot;tags&quot;: [
+                &quot;cloud&quot;, 
+                &quot;design&quot;, 
+                &quot;hosting&quot;, 
+                &quot;infrastructure&quot;, 
+                &quot;openstack&quot;, 
+                &quot;python,&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 1101, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Snakes on a cloud: the OpenStack project&quot;, 
+            &quot;summary&quot;: &quot;[EuroPython 2011] Thierry Carrez - 23 June 2011 in \&quot;Track Lasagne\&quot;\n\n&quot;, 
+            &quot;description&quot;: &quot;OpenStack is an innovative open source project written in Python, backed by\nRackspace Hosting and NASA, building a massively-scalable and reliable cloud\ncomputing platform.\n\nThe first part of this talk will clarify the place of OpenStack in the general\n\&quot;cloud\&quot; landscape and explain why a fully open cloud infrastructure stack is\nnecessary to avoid vendor lock-in. We&#39;ll then focus on the OpenStack project\ngoals, its developer community, its open design and release processes, and the\ndeveloper tools it chose.\n\nThe second part of the talk will present into more technical details the\ndifferent components of OpenStack: Nova (compute) and Swift (storage),\nincluding the Python libraries that are used (libvirt, SQLAlchemy, eventlet\u2026).\nA Q&amp;A session at the end of the talk will give the audience a chance to clear\nany remaining dark area.\n\n&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;Standard YouTube License&quot;, 
+            &quot;embed&quot;: &quot;&lt;object width=\&quot;640\&quot; height=\&quot;390\&quot;&gt;&lt;param name=\&quot;movie\&quot; value=\&quot;http://youtube.com/v/-rmctl-VB1Y?version=3&amp;amp;hl=en_US\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowFullScreen\&quot; value=\&quot;true\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowscriptaccess\&quot; value=\&quot;always\&quot;&gt;&lt;/param&gt;&lt;embed src=\&quot;http://youtube.com/v/-rmctl-VB1Y?version=3&amp;amp;hl=en_US\&quot; type=\&quot;application/x-shockwave-flash\&quot; width=\&quot;640\&quot; height=\&quot;390\&quot; allowscriptaccess=\&quot;always\&quot; allowfullscreen=\&quot;true\&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://i.ytimg.com/vi/-rmctl-VB1Y/hqdefault.jpg" rel="nofollow">http://i.ytimg.com/vi/-rmctl-VB1Y/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: null, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="http://www.youtube.com/watch?v=-rmctl-VB1Y" rel="nofollow">http://www.youtube.com/watch?v=-rmctl-VB1Y</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2011-07-13&quot;, 
+            &quot;added&quot;: &quot;2012-08-30T21:02:31&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:27.889&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;EuroPython 2011&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;social-network-analysis-in-python&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Enrico Franchi&quot;
+            ], 
+            &quot;tags&quot;: [
+                &quot;analysis&quot;, 
+                &quot;network&quot;, 
+                &quot;networking&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 1100, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Social Network Analysis in Python&quot;, 
+            &quot;summary&quot;: &quot;[EuroPython 2011] Enrico Franchi - 23 June 2011 in \&quot;Track Lasagne\&quot;\n\n&quot;, 
+            &quot;description&quot;: &quot;Network Analysis has gained a huge recognition since the widespread adoption\nof on-line social networking systems. It is a cross-disciplinary subject with\nimportant contributions from researchers of different areas such as physics,\nsociology, maths and computer science.\n\nHowever, Network Analysis is also a useful tool for the working programmer.\nThe basic techniques which will be introduced in this talk can be used, for\nexample, both to i) test the robustness and resilience to damage of a\ntechnological network and ii) understand the structure of a social network,\nwhich can in turn lead to insight on trends and preferences gathering\ninformation from modern on-line social networking systems.\n\nAlong with the concepts, working Python code is presented, both using existing\nnetwork analysis Python tools and numeric packages. The focus is mainly placed\non code, which will be shown and discussed together with the formal theory.\n\nBasic maths skills and basic knowledge of the Python programming language are\nthe only suggested prerequisites.\n\n&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;Standard YouTube License&quot;, 
+            &quot;embed&quot;: &quot;&lt;object width=\&quot;640\&quot; height=\&quot;390\&quot;&gt;&lt;param name=\&quot;movie\&quot; value=\&quot;http://youtube.com/v/QYadUMKQI3Q?version=3&amp;amp;hl=en_US\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowFullScreen\&quot; value=\&quot;true\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowscriptaccess\&quot; value=\&quot;always\&quot;&gt;&lt;/param&gt;&lt;embed src=\&quot;http://youtube.com/v/QYadUMKQI3Q?version=3&amp;amp;hl=en_US\&quot; type=\&quot;application/x-shockwave-flash\&quot; width=\&quot;640\&quot; height=\&quot;390\&quot; allowscriptaccess=\&quot;always\&quot; allowfullscreen=\&quot;true\&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://i.ytimg.com/vi/QYadUMKQI3Q/hqdefault.jpg" rel="nofollow">http://i.ytimg.com/vi/QYadUMKQI3Q/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: null, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="http://www.youtube.com/watch?v=QYadUMKQI3Q" rel="nofollow">http://www.youtube.com/watch?v=QYadUMKQI3Q</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2011-07-13&quot;, 
+            &quot;added&quot;: &quot;2012-08-30T21:02:30&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:27.890&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;EuroPython 2011&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;source-code-processing-with-python&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Kay Schluehr&quot;
+            ], 
+            &quot;tags&quot;: [
+                &quot;processing&quot;, 
+                &quot;science&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 1099, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Source code processing with Python&quot;, 
+            &quot;summary&quot;: &quot;[EuroPython 2011] Kay Schluehr - 24 June 2011 in \&quot;Track Lasagne\&quot;\n\n&quot;, 
+            &quot;description&quot;: &quot;Folklore says that having a problem and trying to solve it with regular\nexpressions gives you two problems. However not applying regular expressions\nto advanced textual search&#39;n replace doesn&#39;t solve your problem either. One\nstep above you have large portions of recursively structured text aka \&quot;source\ncode\&quot; and using context free grammars and tools supporting them gives you two\nproblems but not using them also doesn&#39;t solve your original problem. Maybe\nyou get uneasy at that point because what I say implies parsers and computing\nscience and what not and you still wake up in the night believing that you\nhave to learn automata theory but you are lucky it was just a nightmare.\nOtherwise you are laughing about the little diatribe against regexps and use\nthem without much deliberation, verifying your SQL input, mining source code\nand do all the other things they are not made for.\n\nIn my talk I&#39;m addressing daily use of grammars outside of the scope of\ncompiler implementation or natural language processing. My talk covers:\n\n  * Search &amp; Replace using grammars\n\n  * CodeTemplates for source code transformation\n\n  * Generative grammars for expression generation\n\nI&#39;m touching this from the lightweight, \&quot;pythonic\&quot; angle and you might wonder\nwhy not everyone uses those techniques already for decades in their daily\nwork. I can&#39;t answer this, I wonder about this too.\n\n&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;Standard YouTube License&quot;, 
+            &quot;embed&quot;: &quot;&lt;object width=\&quot;640\&quot; height=\&quot;390\&quot;&gt;&lt;param name=\&quot;movie\&quot; value=\&quot;http://youtube.com/v/tjF5jLD31kQ?version=3&amp;amp;hl=en_US\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowFullScreen\&quot; value=\&quot;true\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowscriptaccess\&quot; value=\&quot;always\&quot;&gt;&lt;/param&gt;&lt;embed src=\&quot;http://youtube.com/v/tjF5jLD31kQ?version=3&amp;amp;hl=en_US\&quot; type=\&quot;application/x-shockwave-flash\&quot; width=\&quot;640\&quot; height=\&quot;390\&quot; allowscriptaccess=\&quot;always\&quot; allowfullscreen=\&quot;true\&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://i.ytimg.com/vi/tjF5jLD31kQ/hqdefault.jpg" rel="nofollow">http://i.ytimg.com/vi/tjF5jLD31kQ/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: null, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="http://www.youtube.com/watch?v=tjF5jLD31kQ" rel="nofollow">http://www.youtube.com/watch?v=tjF5jLD31kQ</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2011-07-13&quot;, 
+            &quot;added&quot;: &quot;2012-08-30T21:02:30&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:27.892&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;EuroPython 2011&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;spatial-data-and-geodjango&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Bruno Reni\u00e9&quot;
+            ], 
+            &quot;tags&quot;: [
+                &quot;django&quot;, 
+                &quot;forms&quot;, 
+                &quot;geodjango&quot;, 
+                &quot;learning&quot;, 
+                &quot;mapping&quot;, 
+                &quot;spatial&quot;, 
+                &quot;web&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 1098, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Spatial data and GeoDjango&quot;, 
+            &quot;summary&quot;: &quot;[EuroPython 2011] Bruno Renie - 21 June 2011 in \&quot;Track Tagliatelle\&quot;\n\n&quot;, 
+            &quot;description&quot;: &quot;GeoDjango is the \&quot;world-class geographic web framework\&quot; everyone has probably\nheard of. The purpose of this talk, targeted at people familiar with Django\nitself, is to introduce in more details the capabilities of this framework.\n\nAfter learning the basics of Geographic Information Systems, we will see:\n\n  * how to get started with a GeoDjango installation,\n  * how to import, store and query spatial data,\n  * how to geo-enable your forms to allow user-generated spatial data,\n  * how to serialize and display your data using the different formats and mapping frameworks such as OpenLayers and Polymaps.\n\nDuring this talk we will be building a simple GeoDjango application to\nillustrate the different concepts introduced.\n\n&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;Standard YouTube License&quot;, 
+            &quot;embed&quot;: &quot;&lt;object width=\&quot;640\&quot; height=\&quot;390\&quot;&gt;&lt;param name=\&quot;movie\&quot; value=\&quot;http://youtube.com/v/wWzc-gn8IOU?version=3&amp;amp;hl=en_US\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowFullScreen\&quot; value=\&quot;true\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowscriptaccess\&quot; value=\&quot;always\&quot;&gt;&lt;/param&gt;&lt;embed src=\&quot;http://youtube.com/v/wWzc-gn8IOU?version=3&amp;amp;hl=en_US\&quot; type=\&quot;application/x-shockwave-flash\&quot; width=\&quot;640\&quot; height=\&quot;390\&quot; allowscriptaccess=\&quot;always\&quot; allowfullscreen=\&quot;true\&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://i.ytimg.com/vi/wWzc-gn8IOU/hqdefault.jpg" rel="nofollow">http://i.ytimg.com/vi/wWzc-gn8IOU/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: null, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="http://www.youtube.com/watch?v=wWzc-gn8IOU" rel="nofollow">http://www.youtube.com/watch?v=wWzc-gn8IOU</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2011-07-13&quot;, 
+            &quot;added&quot;: &quot;2012-08-30T21:02:30&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:27.893&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;EuroPython 2011&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;spotify-and-python-love-at-first-sight&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Jon \u00c5slund&quot;
+            ], 
+            &quot;tags&quot;: [
+                &quot;java&quot;, 
+                &quot;python,&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 1097, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Spotify and Python: love at first sight&quot;, 
+            &quot;summary&quot;: &quot;[EuroPython 2011] Jon \u00c5slund - 20 June 2011 in \&quot;Track Spaghetti\&quot;\n\n&quot;, 
+            &quot;description&quot;: &quot;This is a story about how Spotify started, how we evolved, where we are today\nand how Python has always been a big part of our success. Where do we use it?\nWhere do we not use it? Learn about the Unix way and the Debian way of\nmaintaining a healthy love for Python, while two-timing with other languages\nsuch as Java and C++.\n\n&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;Standard YouTube License&quot;, 
+            &quot;embed&quot;: &quot;&lt;object width=\&quot;640\&quot; height=\&quot;390\&quot;&gt;&lt;param name=\&quot;movie\&quot; value=\&quot;http://youtube.com/v/GZ9DzDJCe90?version=3&amp;amp;hl=en_US\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowFullScreen\&quot; value=\&quot;true\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowscriptaccess\&quot; value=\&quot;always\&quot;&gt;&lt;/param&gt;&lt;embed src=\&quot;http://youtube.com/v/GZ9DzDJCe90?version=3&amp;amp;hl=en_US\&quot; type=\&quot;application/x-shockwave-flash\&quot; width=\&quot;640\&quot; height=\&quot;390\&quot; allowscriptaccess=\&quot;always\&quot; allowfullscreen=\&quot;true\&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://i.ytimg.com/vi/GZ9DzDJCe90/hqdefault.jpg" rel="nofollow">http://i.ytimg.com/vi/GZ9DzDJCe90/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: null, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="http://www.youtube.com/watch?v=GZ9DzDJCe90" rel="nofollow">http://www.youtube.com/watch?v=GZ9DzDJCe90</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2011-07-13&quot;, 
+            &quot;added&quot;: &quot;2012-08-30T21:02:30&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:27.894&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;EuroPython 2011&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;spotify-horizontal-scalability-for-great-success&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Nick Barkas&quot;
+            ], 
+            &quot;tags&quot;: [
+                &quot;requests&quot;, 
+                &quot;scalability&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 1096, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Spotify: Horizontal scalability for great success&quot;, 
+            &quot;summary&quot;: &quot;[EuroPython 2011] Nick Barkas - 22 June 2011 in \&quot;Track Spaghetti\&quot;\n\n&quot;, 
+            &quot;description&quot;: &quot;If you run on CPython, it&#39;s not possible to get a single-process,\nmultithreaded Python program to use more than one CPU core at a time because\nof the Global Interpreter Lock (GIL). A common way of dealing with this is to\nrun one instance of a Python program for each core a machine has and spread\nthe load amongst those processes. This forces developers to write simple,\nstateless programs that naturally scale out to many many servers when needed,\nwhile also not having to think about things like locking and thread\nscheduling.\n\nI&#39;ll discuss some tools and methods Spotify&#39;s backend uses for managing\nmultiple identical server processes as well as load balancing with DNS, proxy\nservers, and using hashing to send repeated requests to the same process. I\nwill also talk about the difficulties that arise when you really need to share\ndata or state between processes, and how they can be dealt with.\n\n&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;Standard YouTube License&quot;, 
+            &quot;embed&quot;: &quot;&lt;object width=\&quot;640\&quot; height=\&quot;390\&quot;&gt;&lt;param name=\&quot;movie\&quot; value=\&quot;http://youtube.com/v/BBAfIYpDMX4?version=3&amp;amp;hl=en_US\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowFullScreen\&quot; value=\&quot;true\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowscriptaccess\&quot; value=\&quot;always\&quot;&gt;&lt;/param&gt;&lt;embed src=\&quot;http://youtube.com/v/BBAfIYpDMX4?version=3&amp;amp;hl=en_US\&quot; type=\&quot;application/x-shockwave-flash\&quot; width=\&quot;640\&quot; height=\&quot;390\&quot; allowscriptaccess=\&quot;always\&quot; allowfullscreen=\&quot;true\&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://i.ytimg.com/vi/BBAfIYpDMX4/hqdefault.jpg" rel="nofollow">http://i.ytimg.com/vi/BBAfIYpDMX4/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: null, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="http://www.youtube.com/watch?v=BBAfIYpDMX4" rel="nofollow">http://www.youtube.com/watch?v=BBAfIYpDMX4</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2011-07-13&quot;, 
+            &quot;added&quot;: &quot;2012-08-30T21:02:29&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:27.895&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;EuroPython 2011&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;sqlkit-empowering-database-access-0&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Alessandro Dentella&quot;
+            ], 
+            &quot;tags&quot;: [
+                &quot;database&quot;, 
+                &quot;forms&quot;, 
+                &quot;framework&quot;, 
+                &quot;gui&quot;, 
+                &quot;openoffice&quot;, 
+                &quot;python,&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 1095, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Sqlkit: empowering database access&quot;, 
+            &quot;summary&quot;: &quot;[EuroPython 2011] Alessandro Dentella - 23 June 2011 in \&quot;Track Spaghetti\&quot;\n\n&quot;, 
+            &quot;description&quot;: &quot;It&#39;s very easy to access databases with Python, and there are many ORMs\nallowing a high level of abstraction. Still, it&#39;s a long road from there to\ninteractive handling of data, even for very simple tasks.\n\nSqlkit tries to act as a bridge, offering some mega-widgets that allow you to\nbuild GUI applications or directly access data using the &#39;sqledit&#39;\napplication, shipped with sqlkit; sqlkit is built with PyGTK and SQLAlchemy.\n\nThis presentation covers some of the most powerful features of sqlkit, and\nshows how easy it is to build small programs for personal use, as well as rich\nand complex applications. It primarily focuses on two points: how easy it is\nto create data forms (eventually with one2many or many2many, thanks to a\noriginal definition of layouts), and the template system based on OpenOffice\nwhich allows easy report creation.\n\nThis presentation shows how sqlkit can be used both as application development\nframework and as a tool to help us while developing other applications (e.g.:\nDjango, OpenERP,\u2026 ).\n\nTo deliver a gradual presentation, we&#39;ll use the configuration system of\nsqledit, starting from a minimal configuration (a single URL) we&#39;ll add\nelements to that until we&#39;ll have a full application.\n\n&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;Standard YouTube License&quot;, 
+            &quot;embed&quot;: &quot;&lt;object width=\&quot;640\&quot; height=\&quot;390\&quot;&gt;&lt;param name=\&quot;movie\&quot; value=\&quot;http://youtube.com/v/7oWykWu_5z4?version=3&amp;amp;hl=en_US\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowFullScreen\&quot; value=\&quot;true\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowscriptaccess\&quot; value=\&quot;always\&quot;&gt;&lt;/param&gt;&lt;embed src=\&quot;http://youtube.com/v/7oWykWu_5z4?version=3&amp;amp;hl=en_US\&quot; type=\&quot;application/x-shockwave-flash\&quot; width=\&quot;640\&quot; height=\&quot;390\&quot; allowscriptaccess=\&quot;always\&quot; allowfullscreen=\&quot;true\&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://i.ytimg.com/vi/7oWykWu_5z4/hqdefault.jpg" rel="nofollow">http://i.ytimg.com/vi/7oWykWu_5z4/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: null, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="http://www.youtube.com/watch?v=7oWykWu_5z4" rel="nofollow">http://www.youtube.com/watch?v=7oWykWu_5z4</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2011-07-13&quot;, 
+            &quot;added&quot;: &quot;2012-08-30T21:02:29&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:27.897&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;EuroPython 2011&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;sqlmap-security-development-in-python-0&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Miroslav Stampar&quot;
+            ], 
+            &quot;tags&quot;: [
+                &quot;community&quot;, 
+                &quot;security&quot;, 
+                &quot;testing&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 1084, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;sqlmap - security development in Python&quot;, 
+            &quot;summary&quot;: &quot;[EuroPython 2011] Miroslav Stampar - 23 June 2011 in \&quot;Track Tagliatelle\&quot;\n\n&quot;, 
+            &quot;description&quot;: &quot;The \&quot;sqlmap\&quot; is one of the largest, widely used and most active Python\nprojects in the IT security community (more than 2000 commits in one year\nperiod with community of over 100 active testers). It combines it&#39;s\ndevelopers&#39; strong security knowledge together with analytical, mathematical\nand Python development skills to provide IT professionals with vibrant\nfeatures.\n\nTalk would be consisted of several parts: short introduction to project and\ndevelopers, developing and testing environment, programming cycle, program&#39;s\nworkflow, technologies used, common pitfalls and how we&#39;ve circumvent them,\nusage of mathematical models, optimizations, project&#39;s future goals.\n\nThe significant part of this talk would be the immediate insight into the\ndeveloping process of probably the world&#39;s most advanced open-source Python IT\nsecurity project today.\n\n&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;Standard YouTube License&quot;, 
+            &quot;embed&quot;: &quot;&lt;object width=\&quot;640\&quot; height=\&quot;390\&quot;&gt;&lt;param name=\&quot;movie\&quot; value=\&quot;http://youtube.com/v/1E4GPmuLs9k?version=3&amp;amp;hl=en_US\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowFullScreen\&quot; value=\&quot;true\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowscriptaccess\&quot; value=\&quot;always\&quot;&gt;&lt;/param&gt;&lt;embed src=\&quot;http://youtube.com/v/1E4GPmuLs9k?version=3&amp;amp;hl=en_US\&quot; type=\&quot;application/x-shockwave-flash\&quot; width=\&quot;640\&quot; height=\&quot;390\&quot; allowscriptaccess=\&quot;always\&quot; allowfullscreen=\&quot;true\&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://i.ytimg.com/vi/1E4GPmuLs9k/hqdefault.jpg" rel="nofollow">http://i.ytimg.com/vi/1E4GPmuLs9k/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: null, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="http://www.youtube.com/watch?v=1E4GPmuLs9k" rel="nofollow">http://www.youtube.com/watch?v=1E4GPmuLs9k</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2011-07-13&quot;, 
+            &quot;added&quot;: &quot;2012-08-30T21:02:26&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:27.898&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;EuroPython 2011&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;the-art-of-subclassing-0&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Raymond Hettinger&quot;
+            ], 
+            &quot;tags&quot;: [
+                &quot;art&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 1094, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;The Art of Subclassing&quot;, 
+            &quot;summary&quot;: &quot;[EuroPython 2011] Raymond Hettinger - 24 June 2011 in \&quot;Track Spaghetti\&quot;\n\n&quot;, 
+            &quot;description&quot;: &quot;All problems have simple, easy-to-understand, logical wrong answers.\nSubclassing in Python is no exception. Avoid the common pitfalls and learn\neverything you need to know about how subclass in Python.\n\n  * Overriding and extending\n\n  * Calling your parents\n\n  * The ellipse / circle problem - what does a subclass mean?\n\n  * Liskov Substitution Principle\n\n  * Open Closed Principle\n\n  * The facts of life when subclassing builtin types\n\n  * How to Implement Cooperative Multiple Inheritance\n\n  * A example of perfect and simple python diamond\n\n  * Beware the Concrete C API\n\n&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;Standard YouTube License&quot;, 
+            &quot;embed&quot;: &quot;&lt;object width=\&quot;640\&quot; height=\&quot;390\&quot;&gt;&lt;param name=\&quot;movie\&quot; value=\&quot;http://youtube.com/v/yrboy25WKGo?version=3&amp;amp;hl=en_US\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowFullScreen\&quot; value=\&quot;true\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowscriptaccess\&quot; value=\&quot;always\&quot;&gt;&lt;/param&gt;&lt;embed src=\&quot;http://youtube.com/v/yrboy25WKGo?version=3&amp;amp;hl=en_US\&quot; type=\&quot;application/x-shockwave-flash\&quot; width=\&quot;640\&quot; height=\&quot;390\&quot; allowscriptaccess=\&quot;always\&quot; allowfullscreen=\&quot;true\&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://i.ytimg.com/vi/yrboy25WKGo/hqdefault.jpg" rel="nofollow">http://i.ytimg.com/vi/yrboy25WKGo/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: null, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="http://www.youtube.com/watch?v=yrboy25WKGo" rel="nofollow">http://www.youtube.com/watch?v=yrboy25WKGo</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2011-07-13&quot;, 
+            &quot;added&quot;: &quot;2012-08-30T21:02:29&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:27.899&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;EuroPython 2011&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;the-development-process-of-python&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Ezio Melotti&quot;
+            ], 
+            &quot;tags&quot;: [
+                &quot;community&quot;, 
+                &quot;contribute&quot;, 
+                &quot;cpython&quot;, 
+                &quot;mercurial&quot;, 
+                &quot;workflow&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 1093, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;The development process of Python&quot;, 
+            &quot;summary&quot;: &quot;[EuroPython 2011] Ezio Melotti - 24 June 2011 in \&quot;Track Ravioli \&quot;\n\n&quot;, 
+            &quot;description&quot;: &quot;Python is an open source language, where everyone can contribute, and thanks\nto Mercurial now it&#39;s even easier. With this talk I want to unveil what\nhappens \&quot;behind the scenes\&quot; of CPython and how you can get involved and be\npart of the open source community that allows Python to be one of the most\npopular programming languages.\n\nI will explain:\n\n  * what is the workflow of the CPython development;\n\n  * how to get a clone of Python;\n\n  * how to use Mercurial to do all the most common operations;\n\n  * what is the structure of the main CPython repository;\n\n  * what other are repositories are used;\n\n  * how to use the bug tracker to report and find bugs;\n\n  * how to use remote Mercurial repos to contribute code;\n\n  * what tools are used;\n\n  * how to get in touch with the core developers;\n\n  * what are the plans for the future.\n\n&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;Standard YouTube License&quot;, 
+            &quot;embed&quot;: &quot;&lt;object width=\&quot;640\&quot; height=\&quot;390\&quot;&gt;&lt;param name=\&quot;movie\&quot; value=\&quot;http://youtube.com/v/JuH4ZpoZBYM?version=3&amp;amp;hl=en_US\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowFullScreen\&quot; value=\&quot;true\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowscriptaccess\&quot; value=\&quot;always\&quot;&gt;&lt;/param&gt;&lt;embed src=\&quot;http://youtube.com/v/JuH4ZpoZBYM?version=3&amp;amp;hl=en_US\&quot; type=\&quot;application/x-shockwave-flash\&quot; width=\&quot;640\&quot; height=\&quot;390\&quot; allowscriptaccess=\&quot;always\&quot; allowfullscreen=\&quot;true\&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://i.ytimg.com/vi/JuH4ZpoZBYM/hqdefault.jpg" rel="nofollow">http://i.ytimg.com/vi/JuH4ZpoZBYM/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: null, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="http://www.youtube.com/watch?v=JuH4ZpoZBYM" rel="nofollow">http://www.youtube.com/watch?v=JuH4ZpoZBYM</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2011-07-13&quot;, 
+            &quot;added&quot;: &quot;2012-08-30T21:02:29&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:27.901&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;EuroPython 2011&quot;, 
+            &quot;language&quot;: &quot;Italian&quot;, 
+            &quot;slug&quot;: &quot;the-myth-of-the-genius-programmer&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Brian Fitzpatrick&quot;
+            ], 
+            &quot;tags&quot;: [], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 1178, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;The Myth of the Genius Programmer&quot;, 
+            &quot;summary&quot;: &quot;[EuroPython 2011] Brian Fitzpatrick - 23 June 2011 in \&quot;Track Italiana Big Mac\n\&quot;\n\n&quot;, 
+            &quot;description&quot;: &quot;A pervasive elitism hovers in the background of collaborative software\ndevelopment: everyone secretly wants to be seen as a genius. I&#39;ll cover how to\navoid this trap and gracefully exchange personal ego for personal growth and\nsuper-charged collaboration. I&#39;ll also examine how software tools affect\nsocial behaviors, and how to successfully manage the growth of new ideas.\n\n&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;Standard YouTube License&quot;, 
+            &quot;embed&quot;: &quot;&lt;object width=\&quot;640\&quot; height=\&quot;390\&quot;&gt;&lt;param name=\&quot;movie\&quot; value=\&quot;http://youtube.com/v/IY96mgfZ_TM?version=3&amp;amp;hl=en_US\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowFullScreen\&quot; value=\&quot;true\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowscriptaccess\&quot; value=\&quot;always\&quot;&gt;&lt;/param&gt;&lt;embed src=\&quot;http://youtube.com/v/IY96mgfZ_TM?version=3&amp;amp;hl=en_US\&quot; type=\&quot;application/x-shockwave-flash\&quot; width=\&quot;640\&quot; height=\&quot;390\&quot; allowscriptaccess=\&quot;always\&quot; allowfullscreen=\&quot;true\&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://i.ytimg.com/vi/IY96mgfZ_TM/hqdefault.jpg" rel="nofollow">http://i.ytimg.com/vi/IY96mgfZ_TM/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: null, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="http://www.youtube.com/watch?v=IY96mgfZ_TM" rel="nofollow">http://www.youtube.com/watch?v=IY96mgfZ_TM</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2011-07-13&quot;, 
+            &quot;added&quot;: &quot;2012-08-30T21:28:16&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:27.902&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;EuroPython 2011&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;the-political-implications-of-having-fun-while-0&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Benno Luthiger&quot;
+            ], 
+            &quot;tags&quot;: [], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 1092, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;The political implications of having fun (while programming open source)&quot;, 
+            &quot;summary&quot;: &quot;[EuroPython 2011] Benno Luthiger - 23 June 2011 in \&quot;Track Spaghetti\&quot;\n\n&quot;, 
+            &quot;description&quot;: &quot;What are the implications for the society if people enjoy their work, because\nthis work is perceived as rewarding by itself? It is this question that\noccupies me since I have finished my Ph.D. research about the motivation of\nopen source programmers. In my research, I have been able to show that fun is\nan important driver for open source programmers. Moreover, fun plays an\nimportant role not only for hobbyists, but for developers who are paid for\ntheir work too (open or closed source).\n\nThese findings contrast with the traditional efforts of leftist parties and\nlabor unions. For those political organizations, labor is perceived as\ncompulsion and exploitation and, therefore, people have to be liberated from\nlabor. The resulting political praxis is to send people into retirement as\nsoon as possible and, on the other hand, to make the life for unemployed\npeople carefree.\n\nIs the software developers\u2018 world a little Shangri-La, apart from the real\nworld, delineated by the leftist parties, or is the open source model\ngeneralizable? What happens with the values generated through the labor if the\nwork as such is rewarding? The open source mode of production is part of our\nmodern reality and in my presentation I would like to consider this big\nreality from the perspective of open source.\n\n&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;Standard YouTube License&quot;, 
+            &quot;embed&quot;: &quot;&lt;object width=\&quot;640\&quot; height=\&quot;390\&quot;&gt;&lt;param name=\&quot;movie\&quot; value=\&quot;http://youtube.com/v/B5V7fWST3H0?version=3&amp;amp;hl=en_US\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowFullScreen\&quot; value=\&quot;true\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowscriptaccess\&quot; value=\&quot;always\&quot;&gt;&lt;/param&gt;&lt;embed src=\&quot;http://youtube.com/v/B5V7fWST3H0?version=3&amp;amp;hl=en_US\&quot; type=\&quot;application/x-shockwave-flash\&quot; width=\&quot;640\&quot; height=\&quot;390\&quot; allowscriptaccess=\&quot;always\&quot; allowfullscreen=\&quot;true\&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://i.ytimg.com/vi/B5V7fWST3H0/hqdefault.jpg" rel="nofollow">http://i.ytimg.com/vi/B5V7fWST3H0/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: null, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="http://www.youtube.com/watch?v=B5V7fWST3H0" rel="nofollow">http://www.youtube.com/watch?v=B5V7fWST3H0</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2011-07-13&quot;, 
+            &quot;added&quot;: &quot;2012-08-30T21:02:28&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:27.903&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;EuroPython 2011&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;using-storm-to-work-with-sql-databases&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Jamu Kakar&quot;
+            ], 
+            &quot;tags&quot;: [
+                &quot;database&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 1091, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Using Storm to work with SQL databases&quot;, 
+            &quot;summary&quot;: &quot;[EuroPython 2011] Jamu Kakar - 24 June 2011 in \&quot;Track Tagliatelle \&quot;\n\n&quot;, 
+            &quot;description&quot;: &quot;Storm is an object relational mapper for SQL databases, with builtin support\nfor PostgreSQL, MySQL and SQLite. It was designed and implemented as part of\nthe Landscape project at Canonical in mid-2006 and was open sourced in\nmid-2007. Since then it&#39;s been used in a variety of projects, in production\nfor many years, and has received numerous enhancements and bug fixes. The\nfeatures of Storm will be explained with a series of examples and with\ndiscussion about what&#39;s happening in each one. In addition to describing the\nconcepts and features that a developer needs to understand, a variety of best\npractices will be shared, to help developers make the best use of Storm.\n\nThe examples in this talk assume that participants have a good understanding\nof SQL, transactions, relationships between tables and other common database\nconcepts.\n\n&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;Standard YouTube License&quot;, 
+            &quot;embed&quot;: &quot;&lt;object width=\&quot;640\&quot; height=\&quot;390\&quot;&gt;&lt;param name=\&quot;movie\&quot; value=\&quot;http://youtube.com/v/JC5QqVWA8Vo?version=3&amp;amp;hl=en_US\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowFullScreen\&quot; value=\&quot;true\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowscriptaccess\&quot; value=\&quot;always\&quot;&gt;&lt;/param&gt;&lt;embed src=\&quot;http://youtube.com/v/JC5QqVWA8Vo?version=3&amp;amp;hl=en_US\&quot; type=\&quot;application/x-shockwave-flash\&quot; width=\&quot;640\&quot; height=\&quot;390\&quot; allowscriptaccess=\&quot;always\&quot; allowfullscreen=\&quot;true\&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://i.ytimg.com/vi/JC5QqVWA8Vo/hqdefault.jpg" rel="nofollow">http://i.ytimg.com/vi/JC5QqVWA8Vo/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: null, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="http://www.youtube.com/watch?v=JC5QqVWA8Vo" rel="nofollow">http://www.youtube.com/watch?v=JC5QqVWA8Vo</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2011-07-13&quot;, 
+            &quot;added&quot;: &quot;2012-08-30T21:02:28&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:27.904&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;EuroPython 2011&quot;, 
+            &quot;language&quot;: &quot;Italian&quot;, 
+            &quot;slug&quot;: &quot;uwsgi-il-coltellino-svizzero-di-macgyver-del-d&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Roberto De Ioris&quot;
+            ], 
+            &quot;tags&quot;: [
+                &quot;deploy&quot;, 
+                &quot;web&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 1176, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;uWSGI, il coltellino svizzero (di MacGyver) del deploy&quot;, 
+            &quot;summary&quot;: &quot;[EuroPython 2011] Roberto De Ioris - 21 June 2011 in \&quot;Track Italiana Big Mac\&quot;\n\n&quot;, 
+            &quot;description&quot;: &quot;La prima parte del talk introdurra&#39; la storia di uWSGI, dall&#39;idea iniziale\nalla messa in produzione dei primi lavori, fino alla sua inclusione nei\nprogetti Cherokee e Nginx.\n\nSeguira&#39; una serie di esempi di deploy in ambienti ostili (a livello di\nsicurezza, non faremo deploy nella jungla) o con risorse fortemente limitate\nfino all&#39;utilizzo delle funzionalita&#39; integrate per il clustering.\n\nIl talk si rivolge a tutti gli sviluppatori di applicazioni web che sono alla\nricerca di un ambiente robusto e veloce per i propri lavori, o a chi gia&#39;\nutilizza uWSGI e vuole conoscere qualcuna delle nuove funzionalita&#39; introdotte\nnel ramo di sviluppo.\n\n&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;Standard YouTube License&quot;, 
+            &quot;embed&quot;: &quot;&lt;object width=\&quot;640\&quot; height=\&quot;390\&quot;&gt;&lt;param name=\&quot;movie\&quot; value=\&quot;http://youtube.com/v/E5POYrUawW8?version=3&amp;amp;hl=en_US\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowFullScreen\&quot; value=\&quot;true\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowscriptaccess\&quot; value=\&quot;always\&quot;&gt;&lt;/param&gt;&lt;embed src=\&quot;http://youtube.com/v/E5POYrUawW8?version=3&amp;amp;hl=en_US\&quot; type=\&quot;application/x-shockwave-flash\&quot; width=\&quot;640\&quot; height=\&quot;390\&quot; allowscriptaccess=\&quot;always\&quot; allowfullscreen=\&quot;true\&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://i.ytimg.com/vi/E5POYrUawW8/hqdefault.jpg" rel="nofollow">http://i.ytimg.com/vi/E5POYrUawW8/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: null, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="http://www.youtube.com/watch?v=E5POYrUawW8" rel="nofollow">http://www.youtube.com/watch?v=E5POYrUawW8</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2011-07-13&quot;, 
+            &quot;added&quot;: &quot;2012-08-30T21:28:02&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:27.906&quot;
+        }
+    ]
+}</pre>
+            </div>
+        </div>
+
+            
+
+                
+
+                
+            
+
+        </div>
+        <!-- END content-main -->
+
+    </div>
+    <!-- END Content -->
+
+        <div id="push"></div>
+
+    </div>
+
+    </div><!-- ./wrapper -->
+
+    
+    
+
+    
+    <script src="/static/rest_framework/js/jquery-1.8.1-min.js"></script>
+    <script src="/static/rest_framework/js/bootstrap.min.js"></script>
+    <script src="/static/rest_framework/js/prettify-min.js"></script>
+    <script src="/static/rest_framework/js/default.js"></script>
+    
+  </body>
+
+<!-- Mirrored from pyvideo.org/api/v2/video/?page=158 by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 07 Jan 2016 03:54:01 GMT -->
+</html>

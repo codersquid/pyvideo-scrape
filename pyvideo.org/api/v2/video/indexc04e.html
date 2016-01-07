@@ -1,0 +1,923 @@
+
+
+<!DOCTYPE html>
+<html>
+    
+<!-- Mirrored from pyvideo.org/api/v2/video/?page=2&format=api by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 07 Jan 2016 03:46:37 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+    
+
+        
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+        <meta name="robots" content="NONE,NOARCHIVE" />
+        
+
+        <title>Django REST framework</title>
+
+        
+        
+            <link rel="stylesheet" type="text/css" href="/static/rest_framework/css/bootstrap.min.css"/>
+            <link rel="stylesheet" type="text/css" href="/static/rest_framework/css/bootstrap-tweaks.css"/>
+        
+        <link rel="stylesheet" type="text/css" href="/static/rest_framework/css/prettify.css"/>
+        <link rel="stylesheet" type="text/css" href="/static/rest_framework/css/default.css"/>
+        
+
+    
+    </head>
+
+  <body class=" container">
+
+    <div class="wrapper">
+
+    
+    <div class="navbar navbar-inverse">
+        <div class="navbar-inner">
+            <div class="container-fluid">
+                <span href="/">
+                    <a class='brand' rel="nofollow" href='http://www.django-rest-framework.org'>Django REST framework <span class="version">2.3.14</span></a>
+                </span>
+                <ul class="nav pull-right">
+                    
+                        
+                            <li></li>
+                        
+                    
+                </ul>
+            </div>
+        </div>
+    </div>
+    
+
+    
+    <ul class="breadcrumb">
+        
+            <li>
+                <a href="/api/v2/video/" class="active">Video List Create Api</a> 
+            </li>
+        
+    </ul>
+    
+
+    <!-- Content -->
+    <div id="content">
+
+        
+            <form id="get-form" class="pull-right">
+                <fieldset>
+                    <div class="btn-group format-selection">
+                        <a class="btn btn-primary js-tooltip" href='/api/v2/video/?page=2&amp;format=api' rel="nofollow" title="Make a GET request on the Video List Create Api resource">GET</a>
+
+                        <button class="btn btn-primary dropdown-toggle js-tooltip" data-toggle="dropdown" title="Specify a format for the GET request">
+                            <span class="caret"></span>
+                        </button>
+                        <ul class="dropdown-menu">
+                            
+                                <li>
+                                    <a class="js-tooltip format-option" href='/api/v2/video/?page=2&format=json' rel="nofollow" title="Make a GET request on the Video List Create Api resource with the format set to `json`">json</a>
+                                </li>
+                            
+                                <li>
+                                    <a class="js-tooltip format-option" href='/api/v2/video/?page=2&format=api' rel="nofollow" title="Make a GET request on the Video List Create Api resource with the format set to `api`">api</a>
+                                </li>
+                            
+                        </ul>
+                    </div>
+
+                </fieldset>
+            </form>
+        
+
+        
+            <form class="button-form" action="/api/v2/video/?page=2&amp;format=api" method="POST" class="pull-right">
+                <input type='hidden' name='csrfmiddlewaretoken' value='pT8iI6zhtQdsGFmu4tryYgFrUlipl2B3' />
+                <input type="hidden" name="_method" value="OPTIONS" />
+                <button class="btn btn-primary js-tooltip" title="Make an OPTIONS request on the Video List Create Api resource">OPTIONS</button>
+            </form>
+        
+
+        
+
+        <div class="content-main">
+            <div class="page-header"><h1>Video List Create Api</h1></div>
+            
+            
+            
+            <div class="request-info" style="clear: both" >
+                <pre class="prettyprint"><b>GET</b> /api/v2/video/?page=2&amp;format=api</pre>
+            </div>
+            <div class="response-info">
+                <pre class="prettyprint"><div class="meta nocode"><b>HTTP 200 OK</b>
+<b>Content-Type:</b> <span class="lit">application/json</span>
+<b>Vary:</b> <span class="lit">Accept</span>
+<b>Allow:</b> <span class="lit">GET, POST, HEAD, OPTIONS</span>
+
+</div>{
+    &quot;count&quot;: 3439, 
+    &quot;next&quot;: &quot;<a href="http://pyvideo.org/api/v2/video/?page=3&amp;format=api" rel="nofollow">http://pyvideo.org/api/v2/video/?page=3&amp;format=api</a>&quot;, 
+    &quot;previous&quot;: &quot;<a href="http://pyvideo.org/api/v2/video/?page=1&amp;format=api" rel="nofollow">http://pyvideo.org/api/v2/video/?page=1&amp;format=api</a>&quot;, 
+    &quot;results&quot;: [
+        {
+            &quot;category&quot;: &quot;DjangoCon EU 2011&quot;, 
+            &quot;language&quot;: null, 
+            &quot;slug&quot;: &quot;0_sprint-introductionm4v&quot;, 
+            &quot;speakers&quot;: [], 
+            &quot;tags&quot;: [], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 2498, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;0_sprint-introduction.m4v&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;&quot;, 
+            &quot;embed&quot;: &quot;&quot;, 
+            &quot;thumbnail_url&quot;: null, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: &quot;<a href="http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/djangocon-eu-2011/0_sprint-introduction.m4v" rel="nofollow">http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/djangocon-eu-2011/0_sprint-introduction.m4v</a>&quot;, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: null, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: null, 
+            &quot;added&quot;: &quot;2013-11-24T11:47:08.318&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:25.281&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;DjangoCon EU 2011&quot;, 
+            &quot;language&quot;: null, 
+            &quot;slug&quot;: &quot;0_taming-runtime-dynamic-models-with-djangom4v&quot;, 
+            &quot;speakers&quot;: [], 
+            &quot;tags&quot;: [], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 2499, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;0_taming-runtime-dynamic-models-with-django.m4v&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;&quot;, 
+            &quot;embed&quot;: &quot;&quot;, 
+            &quot;thumbnail_url&quot;: null, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: &quot;<a href="http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/djangocon-eu-2011/0_taming-runtime-dynamic-models-with-django.m4v" rel="nofollow">http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/djangocon-eu-2011/0_taming-runtime-dynamic-models-with-django.m4v</a>&quot;, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: null, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: null, 
+            &quot;added&quot;: &quot;2013-11-24T11:47:08.323&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:25.282&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;DjangoCon EU 2011&quot;, 
+            &quot;language&quot;: null, 
+            &quot;slug&quot;: &quot;0_the-best-and-worst-of-django-corem4v&quot;, 
+            &quot;speakers&quot;: [], 
+            &quot;tags&quot;: [], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 2500, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;0_the-best-and-worst-of-django-core.m4v&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;&quot;, 
+            &quot;embed&quot;: &quot;&quot;, 
+            &quot;thumbnail_url&quot;: null, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: &quot;<a href="http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/djangocon-eu-2011/0_the-best-and-worst-of-django-core.m4v" rel="nofollow">http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/djangocon-eu-2011/0_the-best-and-worst-of-django-core.m4v</a>&quot;, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: null, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: null, 
+            &quot;added&quot;: &quot;2013-11-24T11:47:08.329&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:25.283&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;DjangoCon EU 2011&quot;, 
+            &quot;language&quot;: null, 
+            &quot;slug&quot;: &quot;0_the-django-orm-and-multilingual-database-conten&quot;, 
+            &quot;speakers&quot;: [], 
+            &quot;tags&quot;: [], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 2501, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;0_the-django-orm-and-multilingual-database-contents.m4v&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;&quot;, 
+            &quot;embed&quot;: &quot;&quot;, 
+            &quot;thumbnail_url&quot;: null, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: &quot;<a href="http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/djangocon-eu-2011/0_the-django-orm-and-multilingual-database-contents.m4v" rel="nofollow">http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/djangocon-eu-2011/0_the-django-orm-and-multilingual-database-contents.m4v</a>&quot;, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: null, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: null, 
+            &quot;added&quot;: &quot;2013-11-24T11:47:08.334&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:25.284&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;DjangoCon EU 2011&quot;, 
+            &quot;language&quot;: null, 
+            &quot;slug&quot;: &quot;0_the-impact-of-djangom4v&quot;, 
+            &quot;speakers&quot;: [], 
+            &quot;tags&quot;: [], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 2502, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;0_the-impact-of-django.m4v&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;&quot;, 
+            &quot;embed&quot;: &quot;&quot;, 
+            &quot;thumbnail_url&quot;: null, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: &quot;<a href="http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/djangocon-eu-2011/0_the-impact-of-django.m4v" rel="nofollow">http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/djangocon-eu-2011/0_the-impact-of-django.m4v</a>&quot;, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: null, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: null, 
+            &quot;added&quot;: &quot;2013-11-24T11:47:08.340&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:25.285&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;DjangoCon EU 2011&quot;, 
+            &quot;language&quot;: null, 
+            &quot;slug&quot;: &quot;0_unjoinify-a-module-to-tame-the-sql-beastm4v&quot;, 
+            &quot;speakers&quot;: [], 
+            &quot;tags&quot;: [], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 2503, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;0_unjoinify-a-module-to-tame-the-sql-beast.m4v&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;&quot;, 
+            &quot;embed&quot;: &quot;&quot;, 
+            &quot;thumbnail_url&quot;: null, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: &quot;<a href="http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/djangocon-eu-2011/0_unjoinify-a-module-to-tame-the-sql-beast.m4v" rel="nofollow">http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/djangocon-eu-2011/0_unjoinify-a-module-to-tame-the-sql-beast.m4v</a>&quot;, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: null, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: null, 
+            &quot;added&quot;: &quot;2013-11-24T11:47:08.345&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:25.287&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;DjangoCon EU 2011&quot;, 
+            &quot;language&quot;: null, 
+            &quot;slug&quot;: &quot;0_whither-djangom4v&quot;, 
+            &quot;speakers&quot;: [], 
+            &quot;tags&quot;: [], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 2504, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;0_whither-django.m4v&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;&quot;, 
+            &quot;embed&quot;: &quot;&quot;, 
+            &quot;thumbnail_url&quot;: null, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: &quot;<a href="http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/djangocon-eu-2011/0_whither-django.m4v" rel="nofollow">http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/djangocon-eu-2011/0_whither-django.m4v</a>&quot;, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: null, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: null, 
+            &quot;added&quot;: &quot;2013-11-24T11:47:08.351&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:25.288&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;DjangoCon EU 2011&quot;, 
+            &quot;language&quot;: null, 
+            &quot;slug&quot;: &quot;0_who-cares-about-zopem4v&quot;, 
+            &quot;speakers&quot;: [], 
+            &quot;tags&quot;: [], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 2505, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;0_who-cares-about-zope.m4v&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;&quot;, 
+            &quot;embed&quot;: &quot;&quot;, 
+            &quot;thumbnail_url&quot;: null, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: &quot;<a href="http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/djangocon-eu-2011/0_who-cares-about-zope.m4v" rel="nofollow">http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/djangocon-eu-2011/0_who-cares-about-zope.m4v</a>&quot;, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: null, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: null, 
+            &quot;added&quot;: &quot;2013-11-24T11:47:08.356&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:25.289&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyTexas 2011&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;about-python-namespaces--and-code-objects&quot;, 
+            &quot;speakers&quot;: [], 
+            &quot;tags&quot;: [], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 549, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;About Python Namespaces (and Code Objects)&quot;, 
+            &quot;summary&quot;: &quot;An explanation of some of the underlying concepts of Python, come learn about\nnames and values placed in namespaces, modified by code objects and collected\ninto modules.\n\n&quot;, 
+            &quot;description&quot;: &quot;We&#39;ll explore namespaces using the Python interactive prompt, with graphical\ndisplay of object trees using Graphviz. Also explained will be the namespace\nconcepts of closures and early binding; how to define new objects without\nsubclassing via use of default/curried arguments and closures.\n\n&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;&quot;, 
+            &quot;embed&quot;: &quot;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://a.images.blip.tv/Nextdayvideo-AboutPythonNamespacesAndCodeObjects984-914.jpg" rel="nofollow">http://a.images.blip.tv/Nextdayvideo-AboutPythonNamespacesAndCodeObjects984-914.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: 267542990, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: &quot;<a href="http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pytexas-2011/549_about-python-namespaces-and-code-objects.m4v" rel="nofollow">http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pytexas-2011/549_about-python-namespaces-and-code-objects.m4v</a>&quot;, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: null, 
+            &quot;added&quot;: &quot;2012-02-23T04:20:00&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:25.290&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;DjangoCon 2011&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;djangocon-2011--advanced-django-form-usage&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Daniel Greenfeld&quot;, 
+                &quot;Miguel Araujo&quot;
+            ], 
+            &quot;tags&quot;: [
+                &quot;djangocon&quot;, 
+                &quot;djangocon2011&quot;, 
+                &quot;forms&quot;, 
+                &quot;web&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 82, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Advanced Django Form Usage&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;Advanced Django Form Usage\n\nPresented by Daniel Greenfeld, Miguel Araujo\n\nDjango forms are really powerful but there are edge cases that can cause a bit\nof anguish. This talk will go over how to handle many common solutions not\ncurrently described in the core documentation. It will also cover some useful\nthird-party libraries and will end with clarifications about what the state of\nform features will be in Django 1.4.\n\n&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;&quot;, 
+            &quot;embed&quot;: &quot;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://a.images.blip.tv/Robertlofthouse-AdvancedDjangoFormUsage262-618.jpg" rel="nofollow">http://a.images.blip.tv/Robertlofthouse-AdvancedDjangoFormUsage262-618.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: 103742432, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: &quot;<a href="http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/djangocon-2011/82_advanced-django-form-usage.m4v" rel="nofollow">http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/djangocon-2011/82_advanced-django-form-usage.m4v</a>&quot;, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: null, 
+            &quot;added&quot;: &quot;2012-02-23T04:20:00&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:25.291&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;DjangoCon 2011&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;djangocon-2011--advanced-security-topics&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Paul McMillan&quot;
+            ], 
+            &quot;tags&quot;: [
+                &quot;djangocon&quot;, 
+                &quot;djangocon2011&quot;, 
+                &quot;security&quot;, 
+                &quot;web&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 80, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Advanced security topics&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;Advanced security topics\n\nPresented by Paul McMillan\n\nAn in-depth look (with demonstrations) at the how and why of several advanced\nsecurity topics. Discussion of ways to improve security of the framework\nmoving forward.\n\n&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;&quot;, 
+            &quot;embed&quot;: &quot;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://a.images.blip.tv/Robertlofthouse-AdvancedSecurityTopics290-576.jpg" rel="nofollow">http://a.images.blip.tv/Robertlofthouse-AdvancedSecurityTopics290-576.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: 76996528, 
+            &quot;video_ogv_url&quot;: &quot;<a href="http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/djangocon-2011/80_advanced-security-topics.ogv" rel="nofollow">http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/djangocon-2011/80_advanced-security-topics.ogv</a>&quot;, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: &quot;<a href="http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/djangocon-2011/80_advanced-security-topics.m4v" rel="nofollow">http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/djangocon-2011/80_advanced-security-topics.m4v</a>&quot;, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: null, 
+            &quot;added&quot;: &quot;2012-02-23T04:20:00&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:25.293&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;DjangoCon 2010&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;djangocon-2010--alice-in-performanceland----down-&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Frank Wiles&quot;
+            ], 
+            &quot;tags&quot;: [
+                &quot;djangocon&quot;, 
+                &quot;djangocon2010&quot;, 
+                &quot;optimization&quot;, 
+                &quot;performance&quot;, 
+                &quot;scaling&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 41, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Alice in Performanceland -- Down the Rabbit Hole with Frank Wiles&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;Alice in Performanceland -- Down the Rabbit Hole with Frank Wiles\n\nPresented by Frank Wiles\n\nWhile pre-optimization is often the root of all evil, knowing how to think\nabout performance and scalability are important skills for any geek. Learn\nabout all the knobs you didn&#39;t know you could or should tweak.\n\nAbstract\n\nCode profiling and dealing with your database aren&#39;t the only places to find\nperformance gains. Performance and scalability are holistic endeavors.\n\n&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;Creative Commons Attribution-NonCommercial-ShareAlike 3.0&quot;, 
+            &quot;embed&quot;: &quot;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://a.images.blip.tv/Robertlofthouse-AliceInPerformancelandDownTheRabbitHoleWithFrankWiles688.png" rel="nofollow">http://a.images.blip.tv/Robertlofthouse-AliceInPerformancelandDownTheRabbitHoleWithFrankWiles688.png</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: 228380093, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: null, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: &quot;<a href="http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/djangocon-2010/41_alice-in-performanceland-down-the-rabbit-hole-with-frank-wiles.flv" rel="nofollow">http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/djangocon-2010/41_alice-in-performanceland-down-the-rabbit-hole-with-frank-wiles.flv</a>&quot;, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: null, 
+            &quot;added&quot;: &quot;2012-02-23T04:20:00&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:25.294&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;DjangoCon 2011&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;djangocon-2011--a-little-south-sanity&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Brian Luft&quot;
+            ], 
+            &quot;tags&quot;: [
+                &quot;djangocon&quot;, 
+                &quot;djangocon2011&quot;, 
+                &quot;south&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 91, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;A Little South Sanity&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;A Little South Sanity\n\nPresented by Brian Luft\n\nSouth is a useful tool in agile development environments, but learning to use\nit effectively can take some practice. In this demo-driven talk we&#39;ll walk\nthrough some common workflow examples, dissect a couple pitfalls, and call out\nthe relative strengths and weaknesses of South as a tool at each step. Finding\nSouth&#39;s sweet spot for your environment will give you the best results.\n\n&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;&quot;, 
+            &quot;embed&quot;: &quot;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://a.images.blip.tv/Robertlofthouse-ALittleSouthSanity152-343.jpg" rel="nofollow">http://a.images.blip.tv/Robertlofthouse-ALittleSouthSanity152-343.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: 80380753, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: &quot;<a href="http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/djangocon-2011/91_a-little-south-sanity.m4v" rel="nofollow">http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/djangocon-2011/91_a-little-south-sanity.m4v</a>&quot;, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: null, 
+            &quot;added&quot;: &quot;2012-02-23T04:20:00&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:25.377&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;DjangoCon 2010&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;djangocon-2010--alternative-views&quot;, 
+            &quot;speakers&quot;: [], 
+            &quot;tags&quot;: [
+                &quot;djangocon&quot;, 
+                &quot;djangocon2010&quot;, 
+                &quot;views&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 49, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Alternative views&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;Alternative views\n\nBen Firshman\n\nExploring the power of class-based views, their current status and how the\nconcepts behind them can be applied to other areas.\n\nAbstract\n\nGeneric views are quickly outgrown for all but the most simple of\napplications. They are often rewritten from scratch just to make small changes\nto functionality.\n\nIf you use class-based views, code can be reused by inheriting from more\nabstract views. They are provided with many reusable applications, but all\nimplemented in slightly different ways. It has been suggested a set of views\nbe supplied with Django to standardise the API.\n\nI will present some of the advantages and disadvantages of using class-based\nviews, and how they can help you develop more flexible applications in less\ntime.\n\n&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;Creative Commons Attribution-NonCommercial-ShareAlike 3.0&quot;, 
+            &quot;embed&quot;: &quot;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://a.images.blip.tv/Robertlofthouse-AlternativeViews292.png" rel="nofollow">http://a.images.blip.tv/Robertlofthouse-AlternativeViews292.png</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: 117921388, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: null, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: &quot;<a href="http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/djangocon-2010/49_alternative-views.flv" rel="nofollow">http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/djangocon-2010/49_alternative-views.flv</a>&quot;, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: null, 
+            &quot;added&quot;: &quot;2012-02-23T04:20:00&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:25.378&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;DjangoCon 2009&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;djangocon-2009--a-socio-political-analysis-of-ope&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Ian Bicking&quot;
+            ], 
+            &quot;tags&quot;: [
+                &quot;djangocon&quot;, 
+                &quot;djangocon2009&quot;, 
+                &quot;opensource&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 22, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;A socio-political analysis of open source community&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;DjangoCon presents A socio-political analysis of open source community\n\nPresented by Ian Bicking\n\nCovers why are we doing what we&#39;re doing and why it matters in terms of Open\nSource and the movement. Focuses on the Django community, what&#39;s being\nproduced and finding meaning in that.\n\n&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;Creative Commons Attribution-NonCommercial-ShareAlike 3.0&quot;, 
+            &quot;embed&quot;: &quot;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://a.images.blip.tv/Robertlofthouse-ASociopoliticalAnalysisOfOpenSourceCommunity386.png" rel="nofollow">http://a.images.blip.tv/Robertlofthouse-ASociopoliticalAnalysisOfOpenSourceCommunity386.png</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: &quot;<a href="http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/djangocon-2009/22_a-socio-political-analysis-of-open-source-community.ogv" rel="nofollow">http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/djangocon-2009/22_a-socio-political-analysis-of-open-source-community.ogv</a>&quot;, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: null, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: null, 
+            &quot;added&quot;: &quot;2012-02-23T04:20:00&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:25.380&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;DjangoCon 2011&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;djangocon-2011--a-summer-in-the-wild&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Alex Gaynor&quot;
+            ], 
+            &quot;tags&quot;: [
+                &quot;djangocon&quot;, 
+                &quot;djangocon2011&quot;, 
+                &quot;pypy&quot;, 
+                &quot;web&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 68, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;A Summer in the Wild&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;A summer in the wild\n\nPresented by Alex Gaynor\n\nI&#39;ve spent this past summer away from Django, working for Quora, venturing\ninto the depths of a foreign codebase, and making it faster by running on\nPyPy. This talk will feature the lessons I&#39;ve learned about Django, PyPy, and\nweb development in general.\n\n&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;&quot;, 
+            &quot;embed&quot;: &quot;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://a.images.blip.tv/Robertlofthouse-ASummerInTheWild519-270.jpg" rel="nofollow">http://a.images.blip.tv/Robertlofthouse-ASummerInTheWild519-270.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: 171183356, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: &quot;<a href="http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/djangocon-2011/68_a-summer-in-the-wild.m4v" rel="nofollow">http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/djangocon-2011/68_a-summer-in-the-wild.m4v</a>&quot;, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: null, 
+            &quot;added&quot;: &quot;2012-02-23T04:20:00&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:25.382&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyTexas 2011&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;asynchronous-web-development-with-tornado&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Josh Marshall&quot;
+            ], 
+            &quot;tags&quot;: [], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 561, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Asynchronous Web Development with Tornado&quot;, 
+            &quot;summary&quot;: &quot;An introduction to non-blocking web development with Tornado, an open-source\r\nserver and simple framework from Facebook/FriendFeed.\r\n\r\n&quot;, 
+            &quot;description&quot;: &quot;Web frameworks like Django, Flask, etc. are great for most traditional web\r\nsites. However, there is a growing need to produce web applications that are\r\nresponsive to external \&quot;events\&quot;, whether a response from Twitter&#39;s API or a\r\nnew message in an online chat room. Newer, non-blocking frameworks like\r\nTornado seek to address this in a scalable manner.\r\n\r\nThis talk will briefly introduce non-blocking principles and patterns, and\r\nmove quickly into an overview of the library, as well as use cases and anti-\r\nuse cases. A portion of the time will also be spent pointing out community\r\nlibraries that are building on Tornado&#39;s foundation.\r\n\r\nOutline:\r\n\r\n  1. Introduction\r\n    1. Why another framework?\r\n    2. Intro to Asynchronous Design\r\n  2. Overview of a Tornado project\r\n    1. a. Application\r\n    2. b. Basic (blocking) Request Handlers\r\n    3. c. Templates\r\n    4. d. Asynchronous Handlers\r\n    5. e. To block or not to block\r\n  3. Batteries included\r\n    1. Auth module\r\n    2. Options module\r\n    3. Database\r\n    4. UIModules\r\n    5. Security\r\n  4. Community\r\n    1. a. Tornad.io\r\n    2. b. No-SQL libraries\r\n    3. c. Twisted integration\r\n    4. d. Torn Admin\r\n  5. Q&amp;A;\r\n\r\n&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;&quot;, 
+            &quot;embed&quot;: &quot;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://a.images.blip.tv/Nextdayvideo-AsynchronousWebDevelopmentWithTornado459-712.jpg" rel="nofollow">http://a.images.blip.tv/Nextdayvideo-AsynchronousWebDevelopmentWithTornado459-712.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: 223180994, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: &quot;<a href="http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pytexas-2011/561_asynchronous-web-development-with-tornado.m4v" rel="nofollow">http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pytexas-2011/561_asynchronous-web-development-with-tornado.m4v</a>&quot;, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: &quot;&quot;, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: &quot;&quot;, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: null, 
+            &quot;added&quot;: &quot;2012-02-23T04:20:00&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:25.383&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyCon US 2009&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;a-tour-of-python-standard-library--1-of-3&quot;, 
+            &quot;speakers&quot;: [], 
+            &quot;tags&quot;: [
+                &quot;pycon&quot;, 
+                &quot;pycon2009&quot;, 
+                &quot;python-basics&quot;, 
+                &quot;stdlib&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 169, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;A Tour of Python Standard Library (1 of 3)&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;  \nWelcome to A Tour of Python Standard Library. Together let us explore the\nvarious modules, which will help you to build robust working programs. Once\nyou know about a particular library well, you will start replacing those 20\nodd lines of code you used to write with a 2-3 lines and feel safe that your\ncode will now work on all the platforms that Python supports. Just like the\ngalaxy, the Python Standard Library is vast and when hitch-hiking I will take\nyou through some important ones that happen to be used most often. You can\nexplore, ask questions, experiment through out the ride. Welcome! And let the\njourney begin.\n\n&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;Creative Commons Attribution-NonCommercial-ShareAlike 3.0&quot;, 
+            &quot;embed&quot;: &quot;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://a.images.blip.tv/Pycon-ATourOfPythonStandardLibraryPart001265-956.jpg" rel="nofollow">http://a.images.blip.tv/Pycon-ATourOfPythonStandardLibraryPart001265-956.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: 1040393588, 
+            &quot;video_mp4_url&quot;: &quot;<a href="http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2009/169_a-tour-of-python-standard-library-1-of-3.mp4" rel="nofollow">http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2009/169_a-tour-of-python-standard-library-1-of-3.mp4</a>&quot;, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: null, 
+            &quot;added&quot;: &quot;2012-02-23T04:20:00&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:25.389&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyCon US 2009&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;a-tour-of-python-standard-library--2-of-3&quot;, 
+            &quot;speakers&quot;: [], 
+            &quot;tags&quot;: [
+                &quot;pycon&quot;, 
+                &quot;pycon2009&quot;, 
+                &quot;python-basics&quot;, 
+                &quot;stdlib&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 170, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;A Tour of Python Standard Library (2 of 3)&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;  \nWelcome to A Tour of Python Standard Library. Together let us explore the\nvarious modules, which will help you to build robust working programs. Once\nyou know about a particular library well, you will start replacing those 20\nodd lines of code you used to write with a 2-3 lines and feel safe that your\ncode will now work on all the platforms that Python supports. Just like the\ngalaxy, the Python Standard Library is vast and when hitch-hiking I will take\nyou through some important ones that happen to be used most often. You can\nexplore, ask questions, experiment through out the ride. Welcome! And let the\njourney begin.\n\n&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;Creative Commons Attribution-NonCommercial-ShareAlike 3.0&quot;, 
+            &quot;embed&quot;: &quot;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://a.images.blip.tv/Pycon-ATourOfPythonStandardLibraryPart002810-659.jpg" rel="nofollow">http://a.images.blip.tv/Pycon-ATourOfPythonStandardLibraryPart002810-659.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: 1044059016, 
+            &quot;video_mp4_url&quot;: &quot;<a href="http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2009/170_a-tour-of-python-standard-library-2-of-3.mp4" rel="nofollow">http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2009/170_a-tour-of-python-standard-library-2-of-3.mp4</a>&quot;, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: null, 
+            &quot;added&quot;: &quot;2012-02-23T04:20:00&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:25.391&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;DjangoCon 2011&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;djangocon-2011--benevolent-designer-for-life--39-&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Idan Gazit&quot;
+            ], 
+            &quot;tags&quot;: [
+                &quot;design&quot;, 
+                &quot;djangocon&quot;, 
+                &quot;djangocon2011&quot;, 
+                &quot;ui&quot;, 
+                &quot;ux&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 84, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Benevolent Designer For Life&#39;s Keynote - Designers Make It Go to Eleven&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;Benevolent Designer for Life&#39;s Keynote: Designers make it go to eleven\n\nPresented by Idan Gazit\n\nThe open-source world is and always has been focused on code; attention and\nrespect doled out in exchange for patches. As a result, many open-source\nprojects want for design love but don&#39;t know how to secure it. We scare off\npotential contributors from the many fields beneath the aegis of \&quot;design\&quot;:\nuser experience, user interfaces, usability, interaction design, information\narchitects, graphic design, typography, and other roles assumed by the authors\nof our markup and styling. Django can be a model citizen among open-source\nprojects in changing these attitudes and coaxing contributors out of the\nwoodwork -- not just for the benefit of the framework, but for the\nconstellation of 3rd party apps which make Django great. Other FOSS\ncommunities have made efforts that we can learn from, and the fight to change\nperceptions is less uphill than you might think. This talk will cover: -\nMisconceptions of \&quot;Design.\&quot; What is design, and what do designers do? - A\nbrief trip down memory lane, and how Django came to be relatively designer-\nfriendly. - \&quot;I don&#39;t get it: what is the BDesignFL role?\&quot; - Process and tools:\nHow can Django better engage designers, for core&#39;s benefit and for the benefit\nof _your projects_. How can we help these contributors get over the \&quot;suck\&quot;\nthreshold? - What parts of core are ripe for love from designers? What 3rd\nparty projects?\n\n&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;&quot;, 
+            &quot;embed&quot;: &quot;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://a.images.blip.tv/Robertlofthouse-BenevolentDesignerForLifesKeynoteDesignersMakeItGoToE975-385.jpg" rel="nofollow">http://a.images.blip.tv/Robertlofthouse-BenevolentDesignerForLifesKeynoteDesignersMakeItGoToE975-385.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: 105739185, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: &quot;<a href="http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/djangocon-2011/84_benevolent-designer-for-life-s-keynote-designers-make-it-go-to-eleven.m4v" rel="nofollow">http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/djangocon-2011/84_benevolent-designer-for-life-s-keynote-designers-make-it-go-to-eleven.m4v</a>&quot;, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: null, 
+            &quot;added&quot;: &quot;2012-02-23T04:20:00&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:25.392&quot;
+        }
+    ]
+}</pre>
+            </div>
+        </div>
+
+            
+
+                
+
+                
+            
+
+        </div>
+        <!-- END content-main -->
+
+    </div>
+    <!-- END Content -->
+
+        <div id="push"></div>
+
+    </div>
+
+    </div><!-- ./wrapper -->
+
+    
+    
+
+    
+    <script src="/static/rest_framework/js/jquery-1.8.1-min.js"></script>
+    <script src="/static/rest_framework/js/bootstrap.min.js"></script>
+    <script src="/static/rest_framework/js/prettify-min.js"></script>
+    <script src="/static/rest_framework/js/default.js"></script>
+    
+  </body>
+
+<!-- Mirrored from pyvideo.org/api/v2/video/?page=2&format=api by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 07 Jan 2016 03:46:37 GMT -->
+</html>

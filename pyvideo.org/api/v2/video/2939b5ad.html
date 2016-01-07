@@ -1,0 +1,191 @@
+
+
+<!DOCTYPE html>
+<html>
+    
+<!-- Mirrored from pyvideo.org/api/v2/video/2939?format=api by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 07 Jan 2016 03:46:32 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+    
+
+        
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+        <meta name="robots" content="NONE,NOARCHIVE" />
+        
+
+        <title>Django REST framework</title>
+
+        
+        
+            <link rel="stylesheet" type="text/css" href="/static/rest_framework/css/bootstrap.min.css"/>
+            <link rel="stylesheet" type="text/css" href="/static/rest_framework/css/bootstrap-tweaks.css"/>
+        
+        <link rel="stylesheet" type="text/css" href="/static/rest_framework/css/prettify.css"/>
+        <link rel="stylesheet" type="text/css" href="/static/rest_framework/css/default.css"/>
+        
+
+    
+    </head>
+
+  <body class=" container">
+
+    <div class="wrapper">
+
+    
+    <div class="navbar navbar-inverse">
+        <div class="navbar-inner">
+            <div class="container-fluid">
+                <span href="/">
+                    <a class='brand' rel="nofollow" href='http://www.django-rest-framework.org'>Django REST framework <span class="version">2.3.14</span></a>
+                </span>
+                <ul class="nav pull-right">
+                    
+                        
+                            <li></li>
+                        
+                    
+                </ul>
+            </div>
+        </div>
+    </div>
+    
+
+    
+    <ul class="breadcrumb">
+        
+            <li>
+                <a href="/api/v2/video/" >Video List Create Api</a> <span class="divider">&rsaquo;</span>
+            </li>
+        
+            <li>
+                <a href="/api/v2/video/2939" class="active">Video Retrieve Update Api</a> 
+            </li>
+        
+    </ul>
+    
+
+    <!-- Content -->
+    <div id="content">
+
+        
+            <form id="get-form" class="pull-right">
+                <fieldset>
+                    <div class="btn-group format-selection">
+                        <a class="btn btn-primary js-tooltip" href='/api/v2/video/2939?format=api' rel="nofollow" title="Make a GET request on the Video Retrieve Update Api resource">GET</a>
+
+                        <button class="btn btn-primary dropdown-toggle js-tooltip" data-toggle="dropdown" title="Specify a format for the GET request">
+                            <span class="caret"></span>
+                        </button>
+                        <ul class="dropdown-menu">
+                            
+                                <li>
+                                    <a class="js-tooltip format-option" href='/api/v2/video/2939?format=json' rel="nofollow" title="Make a GET request on the Video Retrieve Update Api resource with the format set to `json`">json</a>
+                                </li>
+                            
+                                <li>
+                                    <a class="js-tooltip format-option" href='/api/v2/video/2939?format=api' rel="nofollow" title="Make a GET request on the Video Retrieve Update Api resource with the format set to `api`">api</a>
+                                </li>
+                            
+                        </ul>
+                    </div>
+
+                </fieldset>
+            </form>
+        
+
+        
+            <form class="button-form" action="/api/v2/video/2939?format=api" method="POST" class="pull-right">
+                <input type='hidden' name='csrfmiddlewaretoken' value='pT8iI6zhtQdsGFmu4tryYgFrUlipl2B3' />
+                <input type="hidden" name="_method" value="OPTIONS" />
+                <button class="btn btn-primary js-tooltip" title="Make an OPTIONS request on the Video Retrieve Update Api resource">OPTIONS</button>
+            </form>
+        
+
+        
+
+        <div class="content-main">
+            <div class="page-header"><h1>Video Retrieve Update Api</h1></div>
+            
+            
+            
+            <div class="request-info" style="clear: both" >
+                <pre class="prettyprint"><b>GET</b> /api/v2/video/2939?format=api</pre>
+            </div>
+            <div class="response-info">
+                <pre class="prettyprint"><div class="meta nocode"><b>HTTP 200 OK</b>
+<b>Content-Type:</b> <span class="lit">application/json</span>
+<b>Vary:</b> <span class="lit">Accept</span>
+<b>Allow:</b> <span class="lit">GET, PUT, PATCH, HEAD, OPTIONS</span>
+
+</div>{
+    &quot;category&quot;: &quot;EuroPython 2014&quot;, 
+    &quot;language&quot;: &quot;English&quot;, 
+    &quot;slug&quot;: &quot;practical-pybuilder&quot;, 
+    &quot;speakers&quot;: [
+        &quot;Maximilien Riehl&quot;
+    ], 
+    &quot;tags&quot;: [], 
+    &quot;related_urls&quot;: [], 
+    &quot;id&quot;: 2939, 
+    &quot;state&quot;: 1, 
+    &quot;title&quot;: &quot;Practical PyBuilder&quot;, 
+    &quot;summary&quot;: &quot;*PyBuilder* is a software build tool written in pure python which mainly targets \r\npure python applications.\r\nIt provides glue between existing build frameworks, thus empowering you to focus on the big picture of the build process.\r\n\r\nIt will be shown through demonstrations and samples how a simple, \r\nhuman-readable and declarative configuration can lead to an astonishingly \r\nwell-integrated build process which will make maintainers, developers and newcomers happy.&quot;, 
+    &quot;description&quot;: &quot;# Why another build tool\r\nStarting up a simple python project with best practices still takes a lot of boilerplate and glueing (e.G. chaining unit tests and integration tests in the build process, adding a linter, measuring coverage, ...).\r\nIt often results in extremely ugly homebrew scripts and edge-case solutions that are not reusable.\r\nThere are even programs out there (e.G. cookiecutter) that encourage boilerplate code generation!\r\n\r\n# Build orchestration\r\nPyBuilder borrows from the *maven* idea of phases (packaging, verifying, publishing, ...) to set up a fully declarative and automated build that can be run locally and remotely (build servers) in the very same way.\r\nRather than reinventing the wheel, it  provides glue between existing solutions (like unittest, coverage, flake8, ...) through a simple but powerful plugin mechanism.\r\n\r\n# The talk\r\nAfter a more theoretical talk with a colleague at PyConDE 2013, I want to show how it&#39;s actually like to work with *PyBuilder*.\r\nThis includes\r\n\r\n * starting up a project\r\n * running builds\r\n * using plugins\r\n * writing a plugin\r\n\r\nThe demo code will be made available on GitHub and I&#39;ll probably  have recordings prepped in case something goes wrong.\r\n\r\nReviewer FAQ\r\n===============\r\n\r\n### How does PyBuilder compare to other existing solutions like zc.buildout? \r\n\r\nAs opposed to solutions like zc.buildout which focus on the *building* of complex projects (many parts, complex dependencies) PyBuilder emphasizes the full build process for very simple projects. Undoubtedly, buildout is more powerful for building in that regard and there is no reason to switch to PyBuilder.\r\n\r\nHowever, for simple projects (a few packages, pure python) we believe that PyBuilder is better, especially if you&#39;re starting out with Python. The plugin architecture (as opposed to recipes) makes it easier to reason about what is going on. We are able to model dependencies between build phases  (like \&quot;coverage\&quot; needing \&quot;unit tests\&quot; and \&quot;packaging\&quot; needing \&quot;integration tests\&quot;) where recipes are not. It also seems (after looking through the recipes available for buildout) that we have more focus on QA as part of the build process (lint code, differentiate between unit/integration tests, code analysis, ...). \r\n\r\nThere is also a special focus on having the build descriptor written in Python (with fluent interfaces where possible) so that it is possible to understand what the configuration is by reading plain english, as opposed to zc.buildout (where the configuration is an ini file, or SCons which is very make-oriented).\r\n\r\nIn the end, a big difference between most build tools and PyBuilder is that PyBuilder is more about orchestration. We didn&#39;t reinvent packaging or linting,  we simply use what is already there (setuptools, flake8, pymetrics, ...). This allows users to use the tools they want without having to do the integration themselves, and still get a nice, unified build process out of it.\r\n\r\nA simple example :\r\n\r\nIn buildout, code analysis can be done with \r\n\r\n\r\n```\r\n[buildout]\r\nparts += code-analysis\r\n\r\n[code-analysis]\r\nrecipe = plone.recipe.codeanalysis\r\ndirectory = ${buildout:directory}/src\r\n```\r\n\r\nThis is not readable IMHO.\r\nIn PyBuilder it can look like this :\r\n\r\n```\r\nuse_plugin(&#39;python.flake8&#39;)\r\nproject.set_property(&#39;flake8_include_test_sources&#39;, True)\r\nproject.set_property(&#39;flake8_ignore&#39;, &#39;E501&#39;)\r\nproject.set_property(&#39;flake8_break_build&#39;, True)\r\n```\r\n\r\n\r\n### \&quot;It provides glue between existing build frameworks\&quot; - which ones ? Could you name (some at least) ?\r\n\r\nCurrently there is only a plugin for building with distutils/setuptools. Should that change (e.G. new contender) it would be easy to switch using PyBuilder.\r\n\r\nExamples where glue is needed : \r\n\r\n* Glue setuptools + unittest, so that no distribution can be shipped if tests fail\r\n* Glue setuptools + coverage + unittest, so that no distribution can be shipped if the statement coverage is too low (configurable ofc)\r\n* Glue setuptools + pip so that cloned projects can be built with their dependencies without needing to pip install manually&quot;, 
+    &quot;quality_notes&quot;: &quot;&quot;, 
+    &quot;copyright_text&quot;: &quot;<a href="http://creativecommons.org/licenses/by/3.0/" rel="nofollow">http://creativecommons.org/licenses/by/3.0/</a>&quot;, 
+    &quot;embed&quot;: &quot;&lt;object width=\&quot;640\&quot; height=\&quot;390\&quot;&gt;&lt;param name=\&quot;movie\&quot; value=\&quot;http://youtube.com/v/iQU18hAjux4?version=3&amp;amp;hl=en_US\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowFullScreen\&quot; value=\&quot;true\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowscriptaccess\&quot; value=\&quot;always\&quot;&gt;&lt;/param&gt;&lt;embed src=\&quot;http://youtube.com/v/iQU18hAjux4?version=3&amp;amp;hl=en_US\&quot; type=\&quot;application/x-shockwave-flash\&quot; width=\&quot;640\&quot; height=\&quot;390\&quot; allowscriptaccess=\&quot;always\&quot; allowfullscreen=\&quot;true\&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&quot;, 
+    &quot;thumbnail_url&quot;: &quot;<a href="http://i.ytimg.com/vi/iQU18hAjux4/hqdefault.jpg" rel="nofollow">http://i.ytimg.com/vi/iQU18hAjux4/hqdefault.jpg</a>&quot;, 
+    &quot;duration&quot;: null, 
+    &quot;video_ogv_length&quot;: null, 
+    &quot;video_ogv_url&quot;: &quot;&quot;, 
+    &quot;video_ogv_download_only&quot;: false, 
+    &quot;video_mp4_length&quot;: null, 
+    &quot;video_mp4_url&quot;: &quot;&quot;, 
+    &quot;video_mp4_download_only&quot;: false, 
+    &quot;video_webm_length&quot;: null, 
+    &quot;video_webm_url&quot;: &quot;&quot;, 
+    &quot;video_webm_download_only&quot;: false, 
+    &quot;video_flv_length&quot;: null, 
+    &quot;video_flv_url&quot;: &quot;&quot;, 
+    &quot;video_flv_download_only&quot;: false, 
+    &quot;source_url&quot;: &quot;<a href="http://www.youtube.com/watch?v=iQU18hAjux4" rel="nofollow">http://www.youtube.com/watch?v=iQU18hAjux4</a>&quot;, 
+    &quot;whiteboard&quot;: &quot;&quot;, 
+    &quot;recorded&quot;: &quot;2014-07-25&quot;, 
+    &quot;added&quot;: &quot;2014-07-31T00:46:23.974&quot;, 
+    &quot;updated&quot;: &quot;2014-07-31T01:05:09.971&quot;
+}</pre>
+            </div>
+        </div>
+
+            
+
+                
+
+                
+            
+
+        </div>
+        <!-- END content-main -->
+
+    </div>
+    <!-- END Content -->
+
+        <div id="push"></div>
+
+    </div>
+
+    </div><!-- ./wrapper -->
+
+    
+    
+
+    
+    <script src="/static/rest_framework/js/jquery-1.8.1-min.js"></script>
+    <script src="/static/rest_framework/js/bootstrap.min.js"></script>
+    <script src="/static/rest_framework/js/prettify-min.js"></script>
+    <script src="/static/rest_framework/js/default.js"></script>
+    
+  </body>
+
+<!-- Mirrored from pyvideo.org/api/v2/video/2939?format=api by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 07 Jan 2016 03:46:32 GMT -->
+</html>

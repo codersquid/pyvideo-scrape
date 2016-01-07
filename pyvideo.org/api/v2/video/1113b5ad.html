@@ -1,0 +1,199 @@
+
+
+<!DOCTYPE html>
+<html>
+    
+<!-- Mirrored from pyvideo.org/api/v2/video/1113?format=api by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 07 Jan 2016 03:46:32 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+    
+
+        
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+        <meta name="robots" content="NONE,NOARCHIVE" />
+        
+
+        <title>Django REST framework</title>
+
+        
+        
+            <link rel="stylesheet" type="text/css" href="/static/rest_framework/css/bootstrap.min.css"/>
+            <link rel="stylesheet" type="text/css" href="/static/rest_framework/css/bootstrap-tweaks.css"/>
+        
+        <link rel="stylesheet" type="text/css" href="/static/rest_framework/css/prettify.css"/>
+        <link rel="stylesheet" type="text/css" href="/static/rest_framework/css/default.css"/>
+        
+
+    
+    </head>
+
+  <body class=" container">
+
+    <div class="wrapper">
+
+    
+    <div class="navbar navbar-inverse">
+        <div class="navbar-inner">
+            <div class="container-fluid">
+                <span href="/">
+                    <a class='brand' rel="nofollow" href='http://www.django-rest-framework.org'>Django REST framework <span class="version">2.3.14</span></a>
+                </span>
+                <ul class="nav pull-right">
+                    
+                        
+                            <li></li>
+                        
+                    
+                </ul>
+            </div>
+        </div>
+    </div>
+    
+
+    
+    <ul class="breadcrumb">
+        
+            <li>
+                <a href="/api/v2/video/" >Video List Create Api</a> <span class="divider">&rsaquo;</span>
+            </li>
+        
+            <li>
+                <a href="/api/v2/video/1113" class="active">Video Retrieve Update Api</a> 
+            </li>
+        
+    </ul>
+    
+
+    <!-- Content -->
+    <div id="content">
+
+        
+            <form id="get-form" class="pull-right">
+                <fieldset>
+                    <div class="btn-group format-selection">
+                        <a class="btn btn-primary js-tooltip" href='/api/v2/video/1113?format=api' rel="nofollow" title="Make a GET request on the Video Retrieve Update Api resource">GET</a>
+
+                        <button class="btn btn-primary dropdown-toggle js-tooltip" data-toggle="dropdown" title="Specify a format for the GET request">
+                            <span class="caret"></span>
+                        </button>
+                        <ul class="dropdown-menu">
+                            
+                                <li>
+                                    <a class="js-tooltip format-option" href='/api/v2/video/1113?format=json' rel="nofollow" title="Make a GET request on the Video Retrieve Update Api resource with the format set to `json`">json</a>
+                                </li>
+                            
+                                <li>
+                                    <a class="js-tooltip format-option" href='/api/v2/video/1113?format=api' rel="nofollow" title="Make a GET request on the Video Retrieve Update Api resource with the format set to `api`">api</a>
+                                </li>
+                            
+                        </ul>
+                    </div>
+
+                </fieldset>
+            </form>
+        
+
+        
+            <form class="button-form" action="/api/v2/video/1113?format=api" method="POST" class="pull-right">
+                <input type='hidden' name='csrfmiddlewaretoken' value='pT8iI6zhtQdsGFmu4tryYgFrUlipl2B3' />
+                <input type="hidden" name="_method" value="OPTIONS" />
+                <button class="btn btn-primary js-tooltip" title="Make an OPTIONS request on the Video Retrieve Update Api resource">OPTIONS</button>
+            </form>
+        
+
+        
+
+        <div class="content-main">
+            <div class="page-header"><h1>Video Retrieve Update Api</h1></div>
+            
+            
+            
+            <div class="request-info" style="clear: both" >
+                <pre class="prettyprint"><b>GET</b> /api/v2/video/1113?format=api</pre>
+            </div>
+            <div class="response-info">
+                <pre class="prettyprint"><div class="meta nocode"><b>HTTP 200 OK</b>
+<b>Content-Type:</b> <span class="lit">application/json</span>
+<b>Vary:</b> <span class="lit">Accept</span>
+<b>Allow:</b> <span class="lit">GET, PUT, PATCH, HEAD, OPTIONS</span>
+
+</div>{
+    &quot;category&quot;: &quot;EuroPython 2011&quot;, 
+    &quot;language&quot;: &quot;English&quot;, 
+    &quot;slug&quot;: &quot;pypy-in-production&quot;, 
+    &quot;speakers&quot;: [
+        &quot;Antonio Cuni&quot;, 
+        &quot;Armin Rigo&quot;
+    ], 
+    &quot;tags&quot;: [
+        &quot;cpython&quot;, 
+        &quot;ctypes&quot;, 
+        &quot;cython&quot;, 
+        &quot;extensions&quot;, 
+        &quot;pypy&quot;, 
+        &quot;stackless&quot;
+    ], 
+    &quot;related_urls&quot;: [], 
+    &quot;id&quot;: 1113, 
+    &quot;state&quot;: 1, 
+    &quot;title&quot;: &quot;PyPy in production&quot;, 
+    &quot;summary&quot;: &quot;[EuroPython 2011] Antonio Cuni,Armin Rigo - 23 June 2011 in \&quot;Track Lasagne\&quot;\n\n&quot;, 
+    &quot;description&quot;: &quot;The PyPy project has recently gathered a lot of attention for its progress in\nspeeding up the Python language - it is the fastest Python interpreter, and\nthe most compatible and most stable &#39;alternative\u00b4 one. No longer merely a\nresearch project, PyPy is now suitable for production use. We are working on\nimprovements on calling into C libraries and generally integrating with the\nexisting Python extensions ecosystem.\n\nWe will give an overview on how the tracing Just-in-Time compiler works in\nPyPy. From there, we will then focus on what the PyPy project has achieved,\nparticularly in the past two years:\n\n  * most Python benchmarks run much faster than with CPython or Psyco\n\n  * the real-world PyPy compiler toolchain itself (200 KLocs) runs twice as fast\n\n  * already supports 32 and 64bit x86 and is in the process of supporting ARM\n\n  * full compatibility with CPython (more than Jython/IronPython)\n\n  * full (and JIT-ed) ctypes support to call C libraries from Python\n\n  * supports Stackless Python (in-progress)\n\n  * new \&quot;cpyext\&quot; layer which integrates existing CPython C extensions\n\n  * an experimental super-fast JIT-compilation of calls to C++ libraries\n\nWe want to reserve time for discussing potential future work like SWIG and/or\nCython compatibility and other areas brought up by the audience. There are\nmany interesting details that can be explored further; we will focus on the\npoints the audience is most interested in.\n\nFor more info:\n\n  * [<a href="http://pypy.org/](http://pypy.org/)%5Cn%5Cn" rel="nofollow">http://pypy.org/](http://pypy.org/)\n\n</a>  * Our blog: [<a href="http://morepypy.blogspot.com/](http://morepypy.blogspot.com/)%5Cn%5Cn" rel="nofollow">http://morepypy.blogspot.com/](http://morepypy.blogspot.com/)\n\n</a>  * Eureka program: [<a href="http://www.eurostars-eureka.eu/](http://www.eurostars-eureka.eu/)%5Cn%5Cn_Eurostars" rel="nofollow">http://www.eurostars-eureka.eu/](http://www.eurostars-eureka.eu/)\n\n_Eurostars</a> Eureka is our funding source since 2009. It is a cross-European\nfunding collaboration that targets small firms which produce research._\n\n&quot;, 
+    &quot;quality_notes&quot;: &quot;&quot;, 
+    &quot;copyright_text&quot;: &quot;Standard YouTube License&quot;, 
+    &quot;embed&quot;: &quot;&lt;object width=\&quot;640\&quot; height=\&quot;390\&quot;&gt;&lt;param name=\&quot;movie\&quot; value=\&quot;http://youtube.com/v/nTpte3_jNO0?version=3&amp;amp;hl=en_US\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowFullScreen\&quot; value=\&quot;true\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowscriptaccess\&quot; value=\&quot;always\&quot;&gt;&lt;/param&gt;&lt;embed src=\&quot;http://youtube.com/v/nTpte3_jNO0?version=3&amp;amp;hl=en_US\&quot; type=\&quot;application/x-shockwave-flash\&quot; width=\&quot;640\&quot; height=\&quot;390\&quot; allowscriptaccess=\&quot;always\&quot; allowfullscreen=\&quot;true\&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&quot;, 
+    &quot;thumbnail_url&quot;: &quot;<a href="http://i.ytimg.com/vi/nTpte3_jNO0/hqdefault.jpg" rel="nofollow">http://i.ytimg.com/vi/nTpte3_jNO0/hqdefault.jpg</a>&quot;, 
+    &quot;duration&quot;: null, 
+    &quot;video_ogv_length&quot;: null, 
+    &quot;video_ogv_url&quot;: null, 
+    &quot;video_ogv_download_only&quot;: false, 
+    &quot;video_mp4_length&quot;: null, 
+    &quot;video_mp4_url&quot;: null, 
+    &quot;video_mp4_download_only&quot;: false, 
+    &quot;video_webm_length&quot;: null, 
+    &quot;video_webm_url&quot;: null, 
+    &quot;video_webm_download_only&quot;: false, 
+    &quot;video_flv_length&quot;: null, 
+    &quot;video_flv_url&quot;: null, 
+    &quot;video_flv_download_only&quot;: false, 
+    &quot;source_url&quot;: &quot;<a href="http://www.youtube.com/watch?v=nTpte3_jNO0" rel="nofollow">http://www.youtube.com/watch?v=nTpte3_jNO0</a>&quot;, 
+    &quot;whiteboard&quot;: &quot;&quot;, 
+    &quot;recorded&quot;: &quot;2011-07-13&quot;, 
+    &quot;added&quot;: &quot;2012-08-30T21:02:34&quot;, 
+    &quot;updated&quot;: &quot;2014-04-08T20:28:27.867&quot;
+}</pre>
+            </div>
+        </div>
+
+            
+
+                
+
+                
+            
+
+        </div>
+        <!-- END content-main -->
+
+    </div>
+    <!-- END Content -->
+
+        <div id="push"></div>
+
+    </div>
+
+    </div><!-- ./wrapper -->
+
+    
+    
+
+    
+    <script src="/static/rest_framework/js/jquery-1.8.1-min.js"></script>
+    <script src="/static/rest_framework/js/bootstrap.min.js"></script>
+    <script src="/static/rest_framework/js/prettify-min.js"></script>
+    <script src="/static/rest_framework/js/default.js"></script>
+    
+  </body>
+
+<!-- Mirrored from pyvideo.org/api/v2/video/1113?format=api by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 07 Jan 2016 03:46:32 GMT -->
+</html>

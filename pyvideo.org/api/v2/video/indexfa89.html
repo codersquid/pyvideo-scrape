@@ -1,0 +1,1039 @@
+
+
+<!DOCTYPE html>
+<html>
+    
+<!-- Mirrored from pyvideo.org/api/v2/video/?page=170 by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 07 Jan 2016 03:54:45 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+    
+
+        
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+        <meta name="robots" content="NONE,NOARCHIVE" />
+        
+
+        <title>Django REST framework</title>
+
+        
+        
+            <link rel="stylesheet" type="text/css" href="/static/rest_framework/css/bootstrap.min.css"/>
+            <link rel="stylesheet" type="text/css" href="/static/rest_framework/css/bootstrap-tweaks.css"/>
+        
+        <link rel="stylesheet" type="text/css" href="/static/rest_framework/css/prettify.css"/>
+        <link rel="stylesheet" type="text/css" href="/static/rest_framework/css/default.css"/>
+        
+
+    
+    </head>
+
+  <body class=" container">
+
+    <div class="wrapper">
+
+    
+    <div class="navbar navbar-inverse">
+        <div class="navbar-inner">
+            <div class="container-fluid">
+                <span href="/">
+                    <a class='brand' rel="nofollow" href='http://www.django-rest-framework.org'>Django REST framework <span class="version">2.3.14</span></a>
+                </span>
+                <ul class="nav pull-right">
+                    
+                        
+                            <li></li>
+                        
+                    
+                </ul>
+            </div>
+        </div>
+    </div>
+    
+
+    
+    <ul class="breadcrumb">
+        
+            <li>
+                <a href="/api/v2/video/" class="active">Video List Create Api</a> 
+            </li>
+        
+    </ul>
+    
+
+    <!-- Content -->
+    <div id="content">
+
+        
+            <form id="get-form" class="pull-right">
+                <fieldset>
+                    <div class="btn-group format-selection">
+                        <a class="btn btn-primary js-tooltip" href='/api/v2/video/?page=170' rel="nofollow" title="Make a GET request on the Video List Create Api resource">GET</a>
+
+                        <button class="btn btn-primary dropdown-toggle js-tooltip" data-toggle="dropdown" title="Specify a format for the GET request">
+                            <span class="caret"></span>
+                        </button>
+                        <ul class="dropdown-menu">
+                            
+                                <li>
+                                    <a class="js-tooltip format-option" href='/api/v2/video/?page=170&format=json' rel="nofollow" title="Make a GET request on the Video List Create Api resource with the format set to `json`">json</a>
+                                </li>
+                            
+                                <li>
+                                    <a class="js-tooltip format-option" href='/api/v2/video/?page=170&format=api' rel="nofollow" title="Make a GET request on the Video List Create Api resource with the format set to `api`">api</a>
+                                </li>
+                            
+                        </ul>
+                    </div>
+
+                </fieldset>
+            </form>
+        
+
+        
+            <form class="button-form" action="/api/v2/video/?page=170" method="POST" class="pull-right">
+                <input type='hidden' name='csrfmiddlewaretoken' value='pT8iI6zhtQdsGFmu4tryYgFrUlipl2B3' />
+                <input type="hidden" name="_method" value="OPTIONS" />
+                <button class="btn btn-primary js-tooltip" title="Make an OPTIONS request on the Video List Create Api resource">OPTIONS</button>
+            </form>
+        
+
+        
+
+        <div class="content-main">
+            <div class="page-header"><h1>Video List Create Api</h1></div>
+            
+            
+            
+            <div class="request-info" style="clear: both" >
+                <pre class="prettyprint"><b>GET</b> /api/v2/video/?page=170</pre>
+            </div>
+            <div class="response-info">
+                <pre class="prettyprint"><div class="meta nocode"><b>HTTP 200 OK</b>
+<b>Content-Type:</b> <span class="lit">application/json</span>
+<b>Vary:</b> <span class="lit">Accept</span>
+<b>Allow:</b> <span class="lit">GET, POST, HEAD, OPTIONS</span>
+
+</div>{
+    &quot;count&quot;: 3439, 
+    &quot;next&quot;: &quot;<a href="http://pyvideo.org/api/v2/video/?page=171" rel="nofollow">http://pyvideo.org/api/v2/video/?page=171</a>&quot;, 
+    &quot;previous&quot;: &quot;<a href="http://pyvideo.org/api/v2/video/?page=169" rel="nofollow">http://pyvideo.org/api/v2/video/?page=169</a>&quot;, 
+    &quot;results&quot;: [
+        {
+            &quot;category&quot;: &quot;PyCon US 2010&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;pycon-2010--revisioned-databases-for-multiuser-ed&quot;, 
+            &quot;speakers&quot;: [
+                &quot;John Rittenhouse&quot;
+            ], 
+            &quot;tags&quot;: [
+                &quot;databases&quot;, 
+                &quot;pycon&quot;, 
+                &quot;pycon2010&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 344, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Revisioned Databases for MultiUser Editing (#86)&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;Revisioned Databases for MultiUser Editing\n\n  \nPresented by John Rittenhouse (CCP Games)\n\n  \nAt CCP Games (<a href="http://www.ccpgames.com" rel="nofollow">www.ccpgames.com</a>), we work on large MMO projects with tens of\ncontent editors editing the same data. To make this possible, we created a\nRevisioned Database framework that allows for us to create new multiuser\nediting systems without data synchronization between users having to be a\nmajor concern. In this talk, solutions we&#39;ve tried are discussed, the basic\nlayout of our revision database shown, the Python layer which handles it\ntransparently for the programmer detailed, and how the Python layer is used in\npractice. All of this is focused on discussing what worked well and what\npitfalls we ran into during development.\n\n&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;Creative Commons Attribution-NonCommercial-ShareAlike 3.0&quot;, 
+            &quot;embed&quot;: &quot;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://a.images.blip.tv/Pycon-PyCon2010RevisionedDatabasesForMultiUserEditing86189.png" rel="nofollow">http://a.images.blip.tv/Pycon-PyCon2010RevisionedDatabasesForMultiUserEditing86189.png</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: 401294147, 
+            &quot;video_ogv_url&quot;: &quot;<a href="http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2010/344_revisioned-databases-for-multiuser-editing-86.ogv" rel="nofollow">http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2010/344_revisioned-databases-for-multiuser-editing-86.ogv</a>&quot;, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: &quot;<a href="http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2010/344_revisioned-databases-for-multiuser-editing-86.m4v" rel="nofollow">http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2010/344_revisioned-databases-for-multiuser-editing-86.m4v</a>&quot;, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2010-02-19&quot;, 
+            &quot;added&quot;: &quot;2012-02-23T04:20:00&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:28.193&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyCon US 2010&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;pycon-2010--scaling-python-webapps-from-zero-to-5&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Jinal Jhaveri&quot;
+            ], 
+            &quot;tags&quot;: [
+                &quot;casestudy&quot;, 
+                &quot;database&quot;, 
+                &quot;memcache&quot;, 
+                &quot;paster&quot;, 
+                &quot;profiling&quot;, 
+                &quot;pycon&quot;, 
+                &quot;pycon2010&quot;, 
+                &quot;tornado&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 258, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Scaling Python webapps from zero to 50 million users - A top-down approach. (#134)&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;Scaling Python webapps from zero to 50 million users - A top-down approach\n\nPresented by Jinal Jhaveri\n\nLOLapps is one of the top providers of social games and user generated\napplications with 50+ million monthly uniques on Facebook, MySpace and Bebo.\nThis session will focus on the top-down approach we took to scale our webapps\nfor millions of users. Here are the 6 topics we will cover:\n\n  * Why is performance a big issue for Social Media \n  * How we profiled our apps and found bottlenecks using custom developed and existing middleware \n  * The web application best practices we applied and results obtained \n  * How we traced database connection leaks \n  * Our caching strategies and the changes we made to speed up the memcache client \n  * Results of our experiment using Paster and Tornado as our web servers. \n\n&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;Creative Commons Attribution-NonCommercial-ShareAlike 3.0&quot;, 
+            &quot;embed&quot;: &quot;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://a.images.blip.tv/Pycon-PyCon2010ScalingPythonWebappsFromZeroTo50MillionUsers288-77.jpg" rel="nofollow">http://a.images.blip.tv/Pycon-PyCon2010ScalingPythonWebappsFromZeroTo50MillionUsers288-77.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: 131211611, 
+            &quot;video_ogv_url&quot;: &quot;<a href="http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2010/258_scaling-python-webapps-from-zero-to-50-million-users-a-top-down-approach-134.ogv" rel="nofollow">http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2010/258_scaling-python-webapps-from-zero-to-50-million-users-a-top-down-approach-134.ogv</a>&quot;, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: &quot;<a href="http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2010/258_scaling-python-webapps-from-zero-to-50-million-users-a-top-down-approach-134.m4v" rel="nofollow">http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2010/258_scaling-python-webapps-from-zero-to-50-million-users-a-top-down-approach-134.m4v</a>&quot;, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2010-02-19&quot;, 
+            &quot;added&quot;: &quot;2012-02-23T04:20:00&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:28.194&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyCon US 2010&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;pycon-2010--scaling-your-python-application-on-ec&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Jeremy Edberg&quot;
+            ], 
+            &quot;tags&quot;: [
+                &quot;pycon&quot;, 
+                &quot;pycon2010&quot;, 
+                &quot;reddit&quot;, 
+                &quot;scaling&quot;, 
+                &quot;web&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 349, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Scaling your Python application on EC2 (#191)&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;Scaling Your Python Application on EC2\n\n  \nPresented by Jeremy Edberg\n\n  \nCome hear about the trials and tribulations of moving reddit&#39;s Python\napplication from physical hardware to EC2&#39;s cloud infrastructure, and how they\nhave scaled since moving. Will include general discussion of their learnings\nabout scaling as well cloud specific issues.\n\n  \n[VIDEO HAS ISSUES: Missing audio first few seconds]\n\n&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;Creative Commons Attribution-NonCommercial-ShareAlike 3.0&quot;, 
+            &quot;embed&quot;: &quot;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://a.images.blip.tv/Pycon-PyCon2010ScalingYourPythonApplicationOnEC2191887.png" rel="nofollow">http://a.images.blip.tv/Pycon-PyCon2010ScalingYourPythonApplicationOnEC2191887.png</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: 145496279, 
+            &quot;video_ogv_url&quot;: &quot;<a href="http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2010/349_scaling-your-python-application-on-ec2-191.ogv" rel="nofollow">http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2010/349_scaling-your-python-application-on-ec2-191.ogv</a>&quot;, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: &quot;<a href="http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2010/349_scaling-your-python-application-on-ec2-191.m4v" rel="nofollow">http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2010/349_scaling-your-python-application-on-ec2-191.m4v</a>&quot;, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2010-02-19&quot;, 
+            &quot;added&quot;: &quot;2012-02-23T04:20:00&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:28.195&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyCon US 2010&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;pycon-2010--scrape-the-web--strategies-for-progra&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Asheesh Laroia&quot;
+            ], 
+            &quot;tags&quot;: [
+                &quot;pycon&quot;, 
+                &quot;pycon2010&quot;, 
+                &quot;scraping&quot;, 
+                &quot;web&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 256, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Scrape the Web: Strategies for programming websites that don&#39;t expect it&quot;, 
+            &quot;summary&quot;: &quot;We&#39;ll discuss the basics of web scraping, and then dive into the details of\ndifferent methods and where they are most applicable. You&#39;ll leave with an\nunderstanding of when to apply different tools, and learn about automating a\nfull web browser, a \&quot;heavy hammer\&quot; that I picked up at a project for the\nElectronic Frontier Foundation.\n\n&quot;, 
+            &quot;description&quot;: &quot;Scrape the Web: Strategies for programming websites that don&#39;t expect it\n\n  \nPresented by Asheesh Laroia\n\n  \nDo you find yourself faced with websites that have data you need to extract?\nWould your life be simpler if you could programmatically input data into web\napplications, even those tuned to resist interaction by bots?\n\n  \nYear by year, the web is becoming a stronger force. Learn how to get the best\nof it.\n\n  \nWe&#39;ll discuss the basics of web scraping, and then dive into the details of\ndifferent methods and where they are most applicable. You&#39;ll leave with an\nunderstanding of when to apply different tools, and learn about automating a\nfull web browser, a \&quot;heavy hammer\&quot; that I picked up at a project for the\nElectronic Frontier Foundation.\n\n  \nAtendees should bring a laptop, if possible, to try the examples we discuss\nand optionally take notes. Code samples will be made available after class\nwith no restrictions. Intended Audience\n\n  \nIntermediate (or better) Python programmers, probably without extensive web\ntesting experience\n\n  \nClass Outline\n\n  * My motto: \&quot;The website is the API.\&quot; \n  * Choosing a parser: BeautifulSoup, lxml, HTMLParse, and html5lib. \n  * Extracting information, even in the face of bad HTML: Regular expressions, BeautifulSoup, SAX, and XPath. \n  * Automatic template reverse-engineering tools. \n  * Submitting to forms. \n  * Playing with XML-RPC \n  * DO NOT BECOME AN EVIL COMMENT SPAMMER. \n  * Countermeasures, and circumventing them: \n    * IP address limits \n    * Hidden form fields \n    * User-agent detection \n    * JavaScript \n    * CAPTCHAs \n  * Plenty of full source code to working examples: \n    * Submitting to forms for text-to-speech. \n    * Downloading music from web stores. \n    * Automating Firefox with Selenium RC to navigate a pure-JavaScript service. \n  * Q&amp;A; and workshopping \n  * Use your power for good, not evil. \n\n&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;Creative Commons Attribution-NonCommercial-ShareAlike 3.0&quot;, 
+            &quot;embed&quot;: &quot;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://a.images.blip.tv/Pycon-PyCon2010ScrapeTheWebStrategiesForProgrammingWebsitesTha613-141.jpg" rel="nofollow">http://a.images.blip.tv/Pycon-PyCon2010ScrapeTheWebStrategiesForProgrammingWebsitesTha613-141.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: 851529869, 
+            &quot;video_ogv_url&quot;: &quot;<a href="http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2010/256_scrape-the-web-strategies-for-programming-websites-that-don-t-expect-it.ogv" rel="nofollow">http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2010/256_scrape-the-web-strategies-for-programming-websites-that-don-t-expect-it.ogv</a>&quot;, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: &quot;<a href="http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2010/256_scrape-the-web-strategies-for-programming-websites-that-don-t-expect-it.m4v" rel="nofollow">http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2010/256_scrape-the-web-strategies-for-programming-websites-that-don-t-expect-it.m4v</a>&quot;, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2010-02-19&quot;, 
+            &quot;added&quot;: &quot;2012-02-23T04:20:00&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:28.196&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyCon US 2010&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;pycon-2010--seattle--a-python-based-platform-for-&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Ivan Beschastnikh&quot;, 
+                &quot;Justin Cappos&quot;, 
+                &quot;Justin Samuel&quot;
+            ], 
+            &quot;tags&quot;: [
+                &quot;api&quot;, 
+                &quot;language&quot;, 
+                &quot;mobile&quot;, 
+                &quot;network&quot;, 
+                &quot;p2p&quot;, 
+                &quot;pycon&quot;, 
+                &quot;pycon2010&quot;, 
+                &quot;seattle&quot;, 
+                &quot;security&quot;, 
+                &quot;university&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 348, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Seattle: A Python-based Platform for Easy Development and Deployment of Networked Systems and Applications (#162)&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;A Python-based Platform for Easy Development and Deployment of Networked\nSystems and Applications\n\n  \nPresented by Ivan Beschastnikh, Justin Samuel, and Justin Cappos\n\n  \nSeattle is an open-source platform for developing and deploying networked\napplications. Core feature of Seattle is that it allows safe execution of\nuntrusted code on end-user systems. In our talk we look at how we used Python\nto build a safe, restricted code execution environment for Seattle that not\nonly provides execution safety but also enforces strict resource consumption\nlimits. In addition, Seattle includes a high-level API to hide inconsistent\nOS-specific behaviors from developers. What results is a platform that\nwelcomes the participation of end-user machines for general-purpose\ndistributed programming and creates new possibilities for developers.\n\n  \n[http://seattle.cs.washington.edu/](http://seattle.cs.washington.edu/)\n\n  \n[VIDEO HAS ISSUES: Beginning of talk missing, due to technical problems.]\n\n&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;Creative Commons Attribution-NonCommercial-ShareAlike 3.0&quot;, 
+            &quot;embed&quot;: &quot;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://a.images.blip.tv/Pycon-PyCon2010SeattleAPythonbasedPlatformForEasyDevelopmentAn600-243.jpg" rel="nofollow">http://a.images.blip.tv/Pycon-PyCon2010SeattleAPythonbasedPlatformForEasyDevelopmentAn600-243.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: 177494848, 
+            &quot;video_ogv_url&quot;: &quot;<a href="http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2010/348_seattle-a-python-based-platform-for-easy-development-and-deployment-of-networked-systems-and-applications-162.ogv" rel="nofollow">http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2010/348_seattle-a-python-based-platform-for-easy-development-and-deployment-of-networked-systems-and-applications-162.ogv</a>&quot;, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: &quot;<a href="http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2010/348_seattle-a-python-based-platform-for-easy-development-and-deployment-of-networked-systems-and-applications-162.m4v" rel="nofollow">http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2010/348_seattle-a-python-based-platform-for-easy-development-and-deployment-of-networked-systems-and-applications-162.m4v</a>&quot;, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2010-02-19&quot;, 
+            &quot;added&quot;: &quot;2012-02-23T04:20:00&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:28.198&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyCon US 2010&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;pycon-2010--simple-wsgi-composition--story-of-one&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Max Ischenko&quot;
+            ], 
+            &quot;tags&quot;: [
+                &quot;nginx&quot;, 
+                &quot;pycon&quot;, 
+                &quot;pycon2010&quot;, 
+                &quot;pylons&quot;, 
+                &quot;wsgi&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 339, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Simple WSGI composition: story of one refactoring (#51)&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;Simple WSGI composition: story of one refactoring\n\n  \nPresented by Max Ischenko\n\n  \nStory of a refactoring I did to split one big, monolithic Pylons app into a\nbunch of smaller ones, using power of WSGI and nginx. The devil is in the\ndetails: how to handle common auth, site-wide look and feel, common utilities,\ndatabase management. Pros and cons of the approach, possible alternatives.\n\n  \nThe talk assumes listeners know what WSGI is and preferably have used some\nWSGI-centered framework like Pylons, Werkzeug, Paste or other.\n\n  \nThe application this talk describes powers developers.org.ua.\n\n&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;Creative Commons Attribution-NonCommercial-ShareAlike 3.0&quot;, 
+            &quot;embed&quot;: &quot;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://a.images.blip.tv/Pycon-PyCon2010SimpleWSGICompositionStoryOfOneRefactoring51585.png" rel="nofollow">http://a.images.blip.tv/Pycon-PyCon2010SimpleWSGICompositionStoryOfOneRefactoring51585.png</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: 145463857, 
+            &quot;video_ogv_url&quot;: &quot;<a href="http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2010/339_simple-wsgi-composition-story-of-one-refactoring-51.ogv" rel="nofollow">http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2010/339_simple-wsgi-composition-story-of-one-refactoring-51.ogv</a>&quot;, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: &quot;<a href="http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2010/339_simple-wsgi-composition-story-of-one-refactoring-51.m4v" rel="nofollow">http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2010/339_simple-wsgi-composition-story-of-one-refactoring-51.m4v</a>&quot;, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2010-02-19&quot;, 
+            &quot;added&quot;: &quot;2012-02-23T04:20:00&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:28.199&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyCon US 2010&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;small-acts-make-great-revolutions-crafting-pytho&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Guilherme Chapiewski&quot;, 
+                &quot;Henrique Bastos&quot;
+            ], 
+            &quot;tags&quot;: [
+                &quot;community&quot;, 
+                &quot;pycon&quot;, 
+                &quot;pycon2010&quot;, 
+                &quot;pythonrio&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 324, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Small acts make great revolutions: crafting Python and Open Source communities in Rio de Janeiro (#78)&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;Small acts make great revolutions: crafting Python and Open Source communities\nin Rio de Janeiro\n\n  \nPresented by Guilherme Chapiewski; Henrique Bastos\n\n  \nEven though we are Python lovers, we at PythOnRio (Python&#39;s Rio de Janeiro\nusers group) strongly believe in differences. Programming languages and\ntechnologies are not religions. Why do we have to compete against each other\nwhen we can take advantage of diversity by sharing our knowledge and learning\nto use the best tools for each job? By promoting this thinking we are\ngathering people from many different open source communities.\n\n  \nThat&#39;s our main recipe for the success of initiatives like Coding Dojo Rio,\nPythOnCampus, Dev in Rio, #horaextra and many other social meetings where we\nhave gathered some of the smartest people in Rio&#39;s software development\ncommunity.\n\n  \nWith this philosophy, Rio de Janeiro communities are growing and starting to\njell - they are becoming so strongly knit that the whole is greater than the\nsum of the parts.\n\n  \nIn this talk, we would like to share not only our \&quot;methods\&quot; and \&quot;formulas\&quot;,\nbut the values and experiences that are leading us to build a strong and\nactive community while having lots of fun.\n\n&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;Creative Commons Attribution-NonCommercial-ShareAlike 3.0&quot;, 
+            &quot;embed&quot;: &quot;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://a.images.blip.tv/Pycon-PyCon2010SmallActsMakeGreatRevolutionsCraftingPythonAnd957.png" rel="nofollow">http://a.images.blip.tv/Pycon-PyCon2010SmallActsMakeGreatRevolutionsCraftingPythonAnd957.png</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: 143686099, 
+            &quot;video_ogv_url&quot;: &quot;<a href="http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2010/324_small-acts-make-great-revolutions-crafting-python-and-open-source-communities-in-rio-de-janeiro-78.ogv" rel="nofollow">http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2010/324_small-acts-make-great-revolutions-crafting-python-and-open-source-communities-in-rio-de-janeiro-78.ogv</a>&quot;, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: &quot;<a href="http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2010/324_small-acts-make-great-revolutions-crafting-python-and-open-source-communities-in-rio-de-janeiro-78.m4v" rel="nofollow">http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2010/324_small-acts-make-great-revolutions-crafting-python-and-open-source-communities-in-rio-de-janeiro-78.m4v</a>&quot;, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: &quot;&quot;, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2010-02-19&quot;, 
+            &quot;added&quot;: &quot;2012-02-23T04:20:00&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:28.200&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyCon US 2010&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;pycon-2010--sprox--data-driven-web-development---&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Jorge L Vargas&quot;
+            ], 
+            &quot;tags&quot;: [
+                &quot;mongodb&quot;, 
+                &quot;pycon&quot;, 
+                &quot;pycon2010&quot;, 
+                &quot;sprox&quot;, 
+                &quot;sqlalchemy&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 330, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Sprox: data driven web development (#137)&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;Sprox: data driven web development\n\n  \nPresented by Jorge L Vargas\n\n  \nSprox is a web frontend tool built to handle the creation and manipulation of\ndata.\n\n  \nSprox is smart about your data. You should never write repetitive code again.\nSane defaults and easy overwrites is what makes Sprox guess what you need for\nyour fields.\n\n  \nThis talk will give an overview of Sprox, what it does and how to use it. Then\nwe&#39;ll explore the available backends (SQLAlchemy, MongoDB) and dive into the\ntgext.admin package, which is the \&quot;Admin Tool\&quot; for the TurboGears2 framework.\n\n&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;Creative Commons Attribution-NonCommercial-ShareAlike 3.0&quot;, 
+            &quot;embed&quot;: &quot;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://a.images.blip.tv/Pycon-PyCon2010SproxDataDrivenWebDevelopment137727.png" rel="nofollow">http://a.images.blip.tv/Pycon-PyCon2010SproxDataDrivenWebDevelopment137727.png</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: 196259593, 
+            &quot;video_ogv_url&quot;: &quot;<a href="http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2010/330_sprox-data-driven-web-development-137.ogv" rel="nofollow">http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2010/330_sprox-data-driven-web-development-137.ogv</a>&quot;, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: &quot;<a href="http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2010/330_sprox-data-driven-web-development-137.m4v" rel="nofollow">http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2010/330_sprox-data-driven-web-development-137.m4v</a>&quot;, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2010-02-19&quot;, 
+            &quot;added&quot;: &quot;2012-02-23T04:20:00&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:28.202&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyCon US 2010&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;pycon-2010--sunday-afternoon-lightning-talks&quot;, 
+            &quot;speakers&quot;: [], 
+            &quot;tags&quot;: [
+                &quot;celery&quot;, 
+                &quot;euroscipy&quot;, 
+                &quot;euroscipy2010&quot;, 
+                &quot;fork&quot;, 
+                &quot;freebsd&quot;, 
+                &quot;functionalprogramming&quot;, 
+                &quot;india&quot;, 
+                &quot;orbison&quot;, 
+                &quot;pdb&quot;, 
+                &quot;pycon&quot;, 
+                &quot;pycon2010&quot;, 
+                &quot;pyweek&quot;, 
+                &quot;sphinx&quot;, 
+                &quot;threads&quot;, 
+                &quot;unittest&quot;, 
+                &quot;vim&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 260, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Sunday Afternoon Lightning Talks&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;Plenary: Afternoon Lightning Talks\r\n\r\n(02:20) Steve Holden - Lightning talk about lightning talks\r\n\r\n(02:55) Michael Foord - Little Bit of Python podcast, upcoming unittest stuff,\r\nmock\r\n\r\n(08:00) Harald Armin Massa - The real harm of functional programming\r\n\r\n(11:41) Karl ? - FreeBSD certiciation\r\n\r\n(13:50) Peter Fein - Please Pirate\r\n\r\n(19;15) Chris McDonough - writing books with Sphinx\r\n([repoze.bfg](http://bfg.repoze.org/book));\r\n[createspace](https://www.createspace.com/)\r\n\r\n(22:05) Chris Petrilli - celery, distributed task queue\r\n\r\n(26:30) Godefroid Chapelle - vim and pdb\r\n\r\n(29:20) ? - fork() vs. threads\r\n\r\n(33:40) - doing pyweek game with a large number of contributors\r\n\r\n(38:05) Jason Huggins - Orbison\r\n\r\n(43:20) Noufal Brahim - State of Python community in India\r\n\r\n(47:40) Mike M\u00fcller - EuroSciPy 2010\r\n\r\n(49:50) David gives away stuff, sprint intros, ...\r\n\r\n&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;Creative Commons Attribution-NonCommercial-ShareAlike 3.0&quot;, 
+            &quot;embed&quot;: &quot;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://a.images.blip.tv/Pycon-PyCon2010SundayAfternoonLightningTalks917-863.jpg" rel="nofollow">http://a.images.blip.tv/Pycon-PyCon2010SundayAfternoonLightningTalks917-863.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: 292349113, 
+            &quot;video_ogv_url&quot;: &quot;<a href="http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2010/260_sunday-afternoon-lightning-talks.ogv" rel="nofollow">http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2010/260_sunday-afternoon-lightning-talks.ogv</a>&quot;, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: &quot;<a href="http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2010/260_sunday-afternoon-lightning-talks.m4v" rel="nofollow">http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2010/260_sunday-afternoon-lightning-talks.m4v</a>&quot;, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: &quot;&quot;, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: &quot;&quot;, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2010-02-19&quot;, 
+            &quot;added&quot;: &quot;2012-02-23T04:20:00&quot;, 
+            &quot;updated&quot;: &quot;2014-09-08T10:30:46.250&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyCon US 2010&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;pycon-2010--sunday-morning-lightning-talks&quot;, 
+            &quot;speakers&quot;: [], 
+            &quot;tags&quot;: [
+                &quot;contributing&quot;, 
+                &quot;cython&quot;, 
+                &quot;floss&quot;, 
+                &quot;pyar&quot;, 
+                &quot;pycloud&quot;, 
+                &quot;pycon&quot;, 
+                &quot;pycon2010&quot;, 
+                &quot;stackless&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 261, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Sunday Morning Lightning Talks&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;Sunday morning lightning talks\n\n(00:20) Tim Cooper - Lightning sound bytes\n\n(01:05) Gregg Lind, Dan Callahan - Python spring cleanup, contributing to\nFLOSS projects\n\n(05:30) Natalia Bidart, Mat\u00c3\u00adas Bordese, Facundo Batista - PyAr\n\n(10:40) D Huggins - You got your Cython in my NumPy\n\n(16:05) Ken Elkabany - PiCloud\n\n(21:20) Tim Fernando - Mobile web in Django\n\n(26:40) ? - Running a standard webapp on stackless; monkeypatching\n\n&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;Creative Commons Attribution-NonCommercial-ShareAlike 3.0&quot;, 
+            &quot;embed&quot;: &quot;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://a.images.blip.tv/Pycon-PyCon2010SundayMorningLightningTalks444-479.jpg" rel="nofollow">http://a.images.blip.tv/Pycon-PyCon2010SundayMorningLightningTalks444-479.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: 162933889, 
+            &quot;video_ogv_url&quot;: &quot;<a href="http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2010/261_sunday-morning-lightning-talks.ogv" rel="nofollow">http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2010/261_sunday-morning-lightning-talks.ogv</a>&quot;, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: &quot;<a href="http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2010/261_sunday-morning-lightning-talks.m4v" rel="nofollow">http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2010/261_sunday-morning-lightning-talks.m4v</a>&quot;, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2010-02-19&quot;, 
+            &quot;added&quot;: &quot;2012-02-23T04:20:00&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:28.204&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyCon US 2010&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;pycon-2010--supercharging-web-communications--int&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Christopher Johnson&quot;
+            ], 
+            &quot;tags&quot;: [
+                &quot;cms&quot;, 
+                &quot;crm&quot;, 
+                &quot;plone&quot;, 
+                &quot;pycon&quot;, 
+                &quot;pycon2010&quot;, 
+                &quot;web&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 346, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Supercharging Web Communications: Integrating Python-based Apps with <a href="http://Salesforce.com" rel="nofollow">Salesforce.com</a> CRM (#152)&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;Supercharging Web Communications: Integrating Python-based Apps <a href="http://with%5CnSalesforce.com" rel="nofollow">with\nSalesforce.com</a> CRM\n\n  \nPresented by Christopher Johnson\n\n  \nSalesforce.com is a leading provider of Customer Relationship Management (CRM)\nfor enterprises (over 55,000 customers) and nonprofits (over 6,000 customers).\nWhile it handles sales, marketing and support processes, it can be extended to\nautomate any business process, making it a core part of business operations.\nPython developers working with companies using <a href="http://salesforce.com" rel="nofollow">salesforce.com</a> need to be able\nto integrate applications with Salesforce. Luckily, <a href="http://Salesforce.com" rel="nofollow">Salesforce.com</a> has an\nelegant and powerful SOAP API. This presentation will introduce an example of\nusing the Python wrapper for the <a href="http://Salesforce.com" rel="nofollow">Salesforce.com</a> API (Beatbox) in an\ninteractive website. While the library itself is powerful and can be used in\ncustom Python applications, the Python community can also leverage the\nadvanced integration between the Plone Content Management System (CMS) <a href="http://and%5Cnsalesforce.com" rel="nofollow">and\nsalesforce.com</a>. We will demonstrate how a Plone website can post forms,\necommerce transactions, and event RSVPs to salesforce. Additionally, we will\nshow how developers can make <a href="http://Salesforce.com" rel="nofollow">Salesforce.com</a> data interactive in a Plone\nwebsite.\n\n&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;Creative Commons Attribution-NonCommercial-ShareAlike 3.0&quot;, 
+            &quot;embed&quot;: &quot;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://a.images.blip.tv/Pycon-PyCon2010SuperchargingWebCommunicationsIntegratingPythonbas271.png" rel="nofollow">http://a.images.blip.tv/Pycon-PyCon2010SuperchargingWebCommunicationsIntegratingPythonbas271.png</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: 234819947, 
+            &quot;video_ogv_url&quot;: &quot;<a href="http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2010/346_supercharging-web-communications-integrating-python-based-apps-with-salesforce-com-crm-152.ogv" rel="nofollow">http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2010/346_supercharging-web-communications-integrating-python-based-apps-with-salesforce-com-crm-152.ogv</a>&quot;, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: &quot;<a href="http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2010/346_supercharging-web-communications-integrating-python-based-apps-with-salesforce-com-crm-152.m4v" rel="nofollow">http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2010/346_supercharging-web-communications-integrating-python-based-apps-with-salesforce-com-crm-152.m4v</a>&quot;, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2010-02-19&quot;, 
+            &quot;added&quot;: &quot;2012-02-23T04:20:00&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:28.207&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyCon US 2010&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;pycon-2010--teaching-compilers-with-python---87&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Dr. Matthieu Amiguet&quot;
+            ], 
+            &quot;tags&quot;: [
+                &quot;ply&quot;, 
+                &quot;pycon&quot;, 
+                &quot;pycon2010&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 241, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Teaching compilers with python (#87)&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;Teaching compilers with python\n\nPresented by Dr. Matthieu Amiguet\n\nWhy choose Python to teach compilers?\n\nIn the University of Applied Sciences ARC, compilers are taught in a\nrelatively short amount of time. Focus is put on the main conceptual ideas,\nletting aside many technical details. Still, the students are expected to\nwrite a full compiler within a few weeks&#39; time.\n\nAfter trying the traditional C/Lex/Yacc based approach, and a more education-\noriented Java/Jaccie solution, we settled on Python and PLY, plus a few\nenhancements (syntax tree graphical representation, decorator to achieve\nbetter code separation).\n\nAs a result, the students get a better understanding of the compiler concepts\nand produce more interesting and creative projects.\n\n&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;Creative Commons Attribution-NonCommercial-ShareAlike 3.0&quot;, 
+            &quot;embed&quot;: &quot;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://a.images.blip.tv/Pycon-PyCon2010TeachingCompilersWithPython87495-873.jpg" rel="nofollow">http://a.images.blip.tv/Pycon-PyCon2010TeachingCompilersWithPython87495-873.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: 134437404, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: &quot;<a href="http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2010/241_teaching-compilers-with-python-87.m4v" rel="nofollow">http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2010/241_teaching-compilers-with-python-87.m4v</a>&quot;, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2010-02-19&quot;, 
+            &quot;added&quot;: &quot;2012-02-23T04:20:00&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:28.208&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyCon US 2010&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;pycon-2010--tests-and-testability---188&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Ned Batchelder&quot;
+            ], 
+            &quot;tags&quot;: [
+                &quot;pycon&quot;, 
+                &quot;pycon2010&quot;, 
+                &quot;testing&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 310, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Tests and Testability (#188)&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;Tests and Testability\n\n  \nPresented by Ned Batchelder\n\n  \nTesting software is difficult. Large complex systems don&#39;t lend themselves\nnaturally to automated testing. This isn&#39;t just because they are large, it&#39;s\nbecause developers often don&#39;t consider how testable their code is.\nTestability is as important as all the other -ilities in your code\n(portability, maintainability, efficiency, etc).\n\n  \nTestability is a characteristic of your code that makes it easier to test.\nIncreased testability can give you better tests, but it also gives you just\nplain better code. Improving testability generally means considering the\ninterfaces to your internal modules and improving them to provide better\nmodularity. This improvement often has benefits in your product code.\n\n  \nI&#39;ll discuss specific examples to demonstrate how code can be made more\ntestable. Mocks, dependency injection, and crisp API design are just a few of\nthe techniques that can improve your code&#39;s testability and make you a happier\nperson.\n\n&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;Creative Commons Attribution-NonCommercial-ShareAlike 3.0&quot;, 
+            &quot;embed&quot;: &quot;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://a.images.blip.tv/Pycon-PyCon2010TestsAndTestability188726.png" rel="nofollow">http://a.images.blip.tv/Pycon-PyCon2010TestsAndTestability188726.png</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: 163421188, 
+            &quot;video_ogv_url&quot;: &quot;<a href="http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2010/310_tests-and-testability-188.ogv" rel="nofollow">http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2010/310_tests-and-testability-188.ogv</a>&quot;, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: &quot;<a href="http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2010/310_tests-and-testability-188.m4v" rel="nofollow">http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2010/310_tests-and-testability-188.m4v</a>&quot;, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2010-02-19&quot;, 
+            &quot;added&quot;: &quot;2012-02-23T04:20:00&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:28.209&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyCon US 2010&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;pycon-2010--the-meaty-parts-of-python--closures--&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Matt Harrison&quot;
+            ], 
+            &quot;tags&quot;: [
+                &quot;callables&quot;, 
+                &quot;closures&quot;, 
+                &quot;decorators&quot;, 
+                &quot;functionalprogramming&quot;, 
+                &quot;functions&quot;, 
+                &quot;generators&quot;, 
+                &quot;iterators&quot;, 
+                &quot;listcomprehensions&quot;, 
+                &quot;pycon&quot;, 
+                &quot;pycon2010&quot;, 
+                &quot;python-advanced&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 247, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;The Meaty Parts of Python: Closures, Decorators, List Comprehension, and Functional Constructs&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;The Meaty Parts of Python: Closures, Decorators, List Comprehension, and\nFunctional Constructs\n\nPresented by Matt Harrison\n\nAre you new to Python and want to learn how to step it up to the next level?\nHave you wondered about functional programming, closures, decorators,\ngenerators or list comprehensions and when you should use them? This hands-on\ntutorial will cover these intermediate subjects in detail, by explaining the\ntheory behind them then walking through examples. It will also cover how to\ntest such programs. The session will conclude with some basic problems to work\nthrough.\n\nOutline:\n\n  * Testing (45 min) \n    * unittest \n    * doctest \n    * brief code coverage intro \n    * other testing tools \n  * Functional Programming (15 min) \n    * lambda \n    * map \n    * reduce \n    * filter \n    * Substitutes for above constructs \n  * Functions (20 min) \n    * callables \n    * arguments (args, kw) \n    * mutable parameters \n  * Scoping (10 min) \n  * Closures (5 min) \n  * Decorators (20 min) \n    * Simple decorators \n    * parameterized decorators \n    * mangling \n    * templates for decorators \n    * classmethod staticmethod \n  * Properties (5 min) \n  * List comprehensions (10 min) \n  * Iterator pattern (5 min) \n  * Generators (15 min ) \n  * Hands-on application (50 min) \n\n&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;Creative Commons Attribution-NonCommercial-ShareAlike 3.0&quot;, 
+            &quot;embed&quot;: &quot;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://a.images.blip.tv/Pycon-PyCon2010TheMeatyPartsOfPythonClosuresDecoratorsListCom541-52.jpg" rel="nofollow">http://a.images.blip.tv/Pycon-PyCon2010TheMeatyPartsOfPythonClosuresDecoratorsListCom541-52.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: 590622847, 
+            &quot;video_ogv_url&quot;: &quot;<a href="http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2010/247_the-meaty-parts-of-python-closures-decorators-list-comprehension-and-functional-constructs.ogv" rel="nofollow">http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2010/247_the-meaty-parts-of-python-closures-decorators-list-comprehension-and-functional-constructs.ogv</a>&quot;, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: &quot;<a href="http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2010/247_the-meaty-parts-of-python-closures-decorators-list-comprehension-and-functional-constructs.m4v" rel="nofollow">http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2010/247_the-meaty-parts-of-python-closures-decorators-list-comprehension-and-functional-constructs.m4v</a>&quot;, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2010-02-19&quot;, 
+            &quot;added&quot;: &quot;2012-02-23T04:20:00&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:28.211&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyCon US 2010&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;the-mighty-dictionary-55&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Brandon Rhodes&quot;
+            ], 
+            &quot;tags&quot;: [
+                &quot;dict&quot;, 
+                &quot;pycon&quot;, 
+                &quot;pycon2010&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 276, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;The Mighty Dictionary (#55)&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;The Mighty Dictionary\n\n  \nPresented by Brandon Craig Rhodes\n\n  \nBoth newcomers and experienced developers alike love Python&#39;s built-in data\ntypes \u00e2\u20ac\u201d especially dictionaries! But how do dictionaries work? What do they\ndo better than other container types, and where, on the other hand, are their\nweaknesses? Using simple, vivid diagrams that show the secrets of how the\ndictionary is implemented, and a series of progressively interesting examples\nof its behavior, we will train the Python developer&#39;s mind to picture what the\ndictionary is doing in just enough detail to make good decisions, as your data\nsets get larger, about when to use dictionaries and when other data structures\nmight be more appropriate.\n\n&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;Creative Commons Attribution-NonCommercial-ShareAlike 3.0&quot;, 
+            &quot;embed&quot;: &quot;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://a.images.blip.tv/Pycon-PyCon2010TheMightyDictionary55184-989.jpg" rel="nofollow">http://a.images.blip.tv/Pycon-PyCon2010TheMightyDictionary55184-989.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: &quot;<a href="http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2010/276_the-mighty-dictionary-55.ogv" rel="nofollow">http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2010/276_the-mighty-dictionary-55.ogv</a>&quot;, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: &quot;<a href="http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2010/276_the-mighty-dictionary-55.m4v" rel="nofollow">http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2010/276_the-mighty-dictionary-55.m4v</a>&quot;, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: &quot;&quot;, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2010-02-19&quot;, 
+            &quot;added&quot;: &quot;2012-02-23T04:20:00&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:28.213&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyCon US 2010&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;pycon-2010--the-python-and-the-elephant--large-sc&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Dr. Jimmy J Lin&quot;, 
+                &quot;Nitin Madnani&quot;
+            ], 
+            &quot;tags&quot;: [
+                &quot;dumbo&quot;, 
+                &quot;nltk&quot;, 
+                &quot;pycon&quot;, 
+                &quot;pycon2010&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 335, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;The Python and the Elephant: Large Scale Natural Language Processing with NLTK and Dumbo (#120)&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;The Python and the Elephant: Large Scale Natural Language Processing with NLTK\nand Dumbo\n\n  \nPresented by Nitin Madnani (University of Maryland, College Park); Dr. Jimmy J\nLin (University of Maryland)\n\n  \nA practical look at NLTK and Dumbo, python-powered and open-source toolkits\nand APIs for processing natural language on a large scale.\n\n  \nFor people like us who make a living trying to make a computer \&quot;understand\&quot;\nhuman language, Python is a very powerful language, given its rapid\nprototyping abilities, native unicode support and a stellar standard library.\nThis relationship has been strengthened further by an open-source, python-\nbased Natural Language ToolKit ([<a href="http://www.nltk.org](http://www.nltk.org/)" rel="nofollow">www.nltk.org](http://www.nltk.org/)</a>) which is\nbeing widely used in the community for both teaching and research purposes and\ngaining traction in the general Python community as well\n([www.nltk.org/book](http://www.nltk.org/book)). Recently, the Python\ncommunity has seen the release of Dumbo ([<a href="http://wiki.github.com/klbostee/dumb%5Cno](http://wiki.github.com/klbostee/dumbo)" rel="nofollow">http://wiki.github.com/klbostee/dumb\no](http://wiki.github.com/klbostee/dumbo)</a>), an open-source, python-based\ncloud-computing API (based on Hadoop) via the hands of Klaas Bosteels.\n\n  \nIn this talk, we show how the amalgamation of Python, NLTK and Dumbo can allow\nfor very large-scale natural language processing efficiently and elegantly.\n\n&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;Creative Commons Attribution-NonCommercial-ShareAlike 3.0&quot;, 
+            &quot;embed&quot;: &quot;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://a.images.blip.tv/Pycon-PyCon2010ThePythonAndTheElephantLargeScaleNaturalLangua697.png" rel="nofollow">http://a.images.blip.tv/Pycon-PyCon2010ThePythonAndTheElephantLargeScaleNaturalLangua697.png</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: &quot;<a href="http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2010/335_the-python-and-the-elephant-large-scale-natural-language-processing-with-nltk-and-dumbo-120.ogv" rel="nofollow">http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2010/335_the-python-and-the-elephant-large-scale-natural-language-processing-with-nltk-and-dumbo-120.ogv</a>&quot;, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: &quot;<a href="http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2010/335_the-python-and-the-elephant-large-scale-natural-language-processing-with-nltk-and-dumbo-120.m4v" rel="nofollow">http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2010/335_the-python-and-the-elephant-large-scale-natural-language-processing-with-nltk-and-dumbo-120.m4v</a>&quot;, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2010-02-19&quot;, 
+            &quot;added&quot;: &quot;2012-02-23T04:20:00&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:28.214&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyCon US 2010&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;the-ring-of-python-189&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Holger Krekel&quot;
+            ], 
+            &quot;tags&quot;: [
+                &quot;cpython&quot;, 
+                &quot;cython&quot;, 
+                &quot;ironpython&quot;, 
+                &quot;jython&quot;, 
+                &quot;pycon&quot;, 
+                &quot;pycon2010&quot;, 
+                &quot;pypy&quot;, 
+                &quot;stackless&quot;, 
+                &quot;unladenswallow&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 321, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;The Ring of Python (#189)&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;The Ring of Python\n\n  \nPresented by holger krekel (merlinux gmbh)\n\n  \nCPython 2.5/2.6/3.1, Jython, IronPython, PyPy, StacklessPython,\nUnladenSwallow, Cython ... what do we make of all these cool interpreter\nprojects and versions? Where does competition help and where does it hamper?\n\n  \nIn this interactive talk I&#39;ll highlight the main strengths of each of the\nPython interpreters. Furthermore, I&#39;ll discuss ways to leverage Python\ninterpreters in a co-operative way, discuss challenges, projects and issues\nahead and also briefly highlight &#39;execnet&#39;, one my own projects for bridging\n(Any) Python to (Any) Python. This is also the first time i am going to try\nout a new and funvisual presentation technique after several years of having\ndone mostly text-based ones\n\n&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;Creative Commons Attribution-NonCommercial-ShareAlike 3.0&quot;, 
+            &quot;embed&quot;: &quot;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://a.images.blip.tv/Pycon-PyCon2010TheRingOfPython189914.png" rel="nofollow">http://a.images.blip.tv/Pycon-PyCon2010TheRingOfPython189914.png</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: 327612140, 
+            &quot;video_ogv_url&quot;: &quot;<a href="http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2010/321_the-ring-of-python-189.ogv" rel="nofollow">http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2010/321_the-ring-of-python-189.ogv</a>&quot;, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: &quot;<a href="http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2010/321_the-ring-of-python-189.m4v" rel="nofollow">http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2010/321_the-ring-of-python-189.m4v</a>&quot;, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: &quot;&quot;, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2010-02-19&quot;, 
+            &quot;added&quot;: &quot;2012-02-23T04:20:00&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:28.215&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyCon US 2010&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;pycon-2010--the-speed-of-pypy---83&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Maciej Fijalkowski&quot;
+            ], 
+            &quot;tags&quot;: [
+                &quot;pycon&quot;, 
+                &quot;pycon2010&quot;, 
+                &quot;pypy&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 334, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;The speed of PyPy (#83)&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;The Speed of PyPy\n\n  \nPresented by Maciej Fijalkowski (merlinux GmbH, pypy)\n\n  \nThe first part of the talk will cover PyPy&#39;s speed achievements resulting from\nthe last year&#39;s work on the Just-In-Time Compiler. I&#39;ll present and discuss a\nnumber of benchmarks and compare against other Python-speed projects. I&#39;ll\nalso cover the basics of how the JIT works and what sort of programs it can\ngreatly speedup (and which ones it can&#39;t).\n\n&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;Creative Commons Attribution-NonCommercial-ShareAlike 3.0&quot;, 
+            &quot;embed&quot;: &quot;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://a.images.blip.tv/Pycon-PyCon2010TheSpeedOfPyPy83496.png" rel="nofollow">http://a.images.blip.tv/Pycon-PyCon2010TheSpeedOfPyPy83496.png</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: 138494172, 
+            &quot;video_ogv_url&quot;: &quot;<a href="http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2010/334_the-speed-of-pypy-83.ogv" rel="nofollow">http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2010/334_the-speed-of-pypy-83.ogv</a>&quot;, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: &quot;<a href="http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2010/334_the-speed-of-pypy-83.m4v" rel="nofollow">http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2010/334_the-speed-of-pypy-83.m4v</a>&quot;, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: &quot;&quot;, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: &quot;&quot;, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2010-02-19&quot;, 
+            &quot;added&quot;: &quot;2012-02-23T04:20:00&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:28.216&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyCon US 2010&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;pycon-2010--the-state-of-packaging---63&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Tarek Ziad\u00e9&quot;
+            ], 
+            &quot;tags&quot;: [
+                &quot;distribute&quot;, 
+                &quot;distutils&quot;, 
+                &quot;easy_install&quot;, 
+                &quot;packaging&quot;, 
+                &quot;pip&quot;, 
+                &quot;pycon&quot;, 
+                &quot;pycon2010&quot;, 
+                &quot;pypi&quot;, 
+                &quot;setuptools&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 283, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;The state of Packaging (#63)&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;The state of Packaging\n\n  \nPresented by Tarek Ziad\u00e9\n\n  \nThe Python Package Index (PyPI) became over the last years an essential tool\nto share your Python programs. As long as you use Distutils standards, you can\nregister and upload your work at PyPI in a few seconds.\n\n  \nProjects like Setuptools and Pip added great features on the top of this : the\nability to fetch PyPI to install a project and its dependencies. So you can\n\&quot;easy_install A-Program\&quot; and everything is done automatically for you.\n\n  \nBut all these features have shown the flaws and limitations of the current\nDistutils design, and the urgency to make it evolve with respect to the\nexisting OS-specific packaging systems.\n\n  \nThis talk will detail the biggest issues that need to be solved, and the work\nthat is being done. It will end up with a presentation of the Distutils\nroadmap, and an overview of the Distribute project, the Setuptools replacer.\n\n&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;Creative Commons Attribution-NonCommercial-ShareAlike 3.0&quot;, 
+            &quot;embed&quot;: &quot;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://a.images.blip.tv/Pycon-PyCon2010TheStateOfPackaging63241-136.jpg" rel="nofollow">http://a.images.blip.tv/Pycon-PyCon2010TheStateOfPackaging63241-136.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: 213007664, 
+            &quot;video_ogv_url&quot;: &quot;<a href="http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2010/283_the-state-of-packaging-63.ogv" rel="nofollow">http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2010/283_the-state-of-packaging-63.ogv</a>&quot;, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: &quot;<a href="http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2010/283_the-state-of-packaging-63.m4v" rel="nofollow">http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2010/283_the-state-of-packaging-63.m4v</a>&quot;, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2010-02-19&quot;, 
+            &quot;added&quot;: &quot;2012-02-23T04:20:00&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:28.218&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyCon US 2010&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;pycon-2010--the-zen-of-cherrypy---111&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Robert E Brewer&quot;
+            ], 
+            &quot;tags&quot;: [
+                &quot;cherrypy&quot;, 
+                &quot;pycon&quot;, 
+                &quot;pycon2010&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 281, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;The Zen of CherryPy (#111)&quot;, 
+            &quot;summary&quot;: &quot;&quot;, 
+            &quot;description&quot;: &quot;The Zen of CherryPy\n\n  \nPresented by Robert E Brewer\n\n  \nCherryPy will be 8 years old in June 2010! This presentation will look at the\n\&quot;Zen of CherryPy\&quot;: a set of 10 design guidelines which CherryPy has developed\nover those years, explaining why they&#39;re useful, why some are uniquely Python,\nand how to apply them in your own projects.\n\n&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;Creative Commons Attribution-NonCommercial-ShareAlike 3.0&quot;, 
+            &quot;embed&quot;: &quot;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://a.images.blip.tv/Pycon-PyCon2010TheZenOfCherryPy111227-275.jpg" rel="nofollow">http://a.images.blip.tv/Pycon-PyCon2010TheZenOfCherryPy111227-275.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: 168261538, 
+            &quot;video_ogv_url&quot;: &quot;<a href="http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2010/281_the-zen-of-cherrypy-111.ogv" rel="nofollow">http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2010/281_the-zen-of-cherrypy-111.ogv</a>&quot;, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: &quot;<a href="http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2010/281_the-zen-of-cherrypy-111.m4v" rel="nofollow">http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2010/281_the-zen-of-cherrypy-111.m4v</a>&quot;, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2010-02-19&quot;, 
+            &quot;added&quot;: &quot;2012-02-23T04:20:00&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:28.219&quot;
+        }
+    ]
+}</pre>
+            </div>
+        </div>
+
+            
+
+                
+
+                
+            
+
+        </div>
+        <!-- END content-main -->
+
+    </div>
+    <!-- END Content -->
+
+        <div id="push"></div>
+
+    </div>
+
+    </div><!-- ./wrapper -->
+
+    
+    
+
+    
+    <script src="/static/rest_framework/js/jquery-1.8.1-min.js"></script>
+    <script src="/static/rest_framework/js/bootstrap.min.js"></script>
+    <script src="/static/rest_framework/js/prettify-min.js"></script>
+    <script src="/static/rest_framework/js/default.js"></script>
+    
+  </body>
+
+<!-- Mirrored from pyvideo.org/api/v2/video/?page=170 by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 07 Jan 2016 03:54:45 GMT -->
+</html>

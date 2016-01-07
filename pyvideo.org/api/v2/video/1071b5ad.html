@@ -1,0 +1,204 @@
+
+
+<!DOCTYPE html>
+<html>
+    
+<!-- Mirrored from pyvideo.org/api/v2/video/1071?format=api by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 07 Jan 2016 03:46:32 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+    
+
+        
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+        <meta name="robots" content="NONE,NOARCHIVE" />
+        
+
+        <title>Django REST framework</title>
+
+        
+        
+            <link rel="stylesheet" type="text/css" href="/static/rest_framework/css/bootstrap.min.css"/>
+            <link rel="stylesheet" type="text/css" href="/static/rest_framework/css/bootstrap-tweaks.css"/>
+        
+        <link rel="stylesheet" type="text/css" href="/static/rest_framework/css/prettify.css"/>
+        <link rel="stylesheet" type="text/css" href="/static/rest_framework/css/default.css"/>
+        
+
+    
+    </head>
+
+  <body class=" container">
+
+    <div class="wrapper">
+
+    
+    <div class="navbar navbar-inverse">
+        <div class="navbar-inner">
+            <div class="container-fluid">
+                <span href="/">
+                    <a class='brand' rel="nofollow" href='http://www.django-rest-framework.org'>Django REST framework <span class="version">2.3.14</span></a>
+                </span>
+                <ul class="nav pull-right">
+                    
+                        
+                            <li></li>
+                        
+                    
+                </ul>
+            </div>
+        </div>
+    </div>
+    
+
+    
+    <ul class="breadcrumb">
+        
+            <li>
+                <a href="/api/v2/video/" >Video List Create Api</a> <span class="divider">&rsaquo;</span>
+            </li>
+        
+            <li>
+                <a href="/api/v2/video/1071" class="active">Video Retrieve Update Api</a> 
+            </li>
+        
+    </ul>
+    
+
+    <!-- Content -->
+    <div id="content">
+
+        
+            <form id="get-form" class="pull-right">
+                <fieldset>
+                    <div class="btn-group format-selection">
+                        <a class="btn btn-primary js-tooltip" href='/api/v2/video/1071?format=api' rel="nofollow" title="Make a GET request on the Video Retrieve Update Api resource">GET</a>
+
+                        <button class="btn btn-primary dropdown-toggle js-tooltip" data-toggle="dropdown" title="Specify a format for the GET request">
+                            <span class="caret"></span>
+                        </button>
+                        <ul class="dropdown-menu">
+                            
+                                <li>
+                                    <a class="js-tooltip format-option" href='/api/v2/video/1071?format=json' rel="nofollow" title="Make a GET request on the Video Retrieve Update Api resource with the format set to `json`">json</a>
+                                </li>
+                            
+                                <li>
+                                    <a class="js-tooltip format-option" href='/api/v2/video/1071?format=api' rel="nofollow" title="Make a GET request on the Video Retrieve Update Api resource with the format set to `api`">api</a>
+                                </li>
+                            
+                        </ul>
+                    </div>
+
+                </fieldset>
+            </form>
+        
+
+        
+            <form class="button-form" action="/api/v2/video/1071?format=api" method="POST" class="pull-right">
+                <input type='hidden' name='csrfmiddlewaretoken' value='pT8iI6zhtQdsGFmu4tryYgFrUlipl2B3' />
+                <input type="hidden" name="_method" value="OPTIONS" />
+                <button class="btn btn-primary js-tooltip" title="Make an OPTIONS request on the Video Retrieve Update Api resource">OPTIONS</button>
+            </form>
+        
+
+        
+
+        <div class="content-main">
+            <div class="page-header"><h1>Video Retrieve Update Api</h1></div>
+            
+            
+            
+            <div class="request-info" style="clear: both" >
+                <pre class="prettyprint"><b>GET</b> /api/v2/video/1071?format=api</pre>
+            </div>
+            <div class="response-info">
+                <pre class="prettyprint"><div class="meta nocode"><b>HTTP 200 OK</b>
+<b>Content-Type:</b> <span class="lit">application/json</span>
+<b>Vary:</b> <span class="lit">Accept</span>
+<b>Allow:</b> <span class="lit">GET, PUT, PATCH, HEAD, OPTIONS</span>
+
+</div>{
+    &quot;category&quot;: &quot;EuroPython 2011&quot;, 
+    &quot;language&quot;: &quot;English&quot;, 
+    &quot;slug&quot;: &quot;experiences-making-cpu-bound-tasks-run-much-faste&quot;, 
+    &quot;speakers&quot;: [
+        &quot;Ian Ozsvald&quot;
+    ], 
+    &quot;tags&quot;: [
+        &quot;cython&quot;, 
+        &quot;git&quot;, 
+        &quot;multiprocessing&quot;, 
+        &quot;network&quot;, 
+        &quot;numpy&quot;, 
+        &quot;nvidia&quot;, 
+        &quot;profiling&quot;, 
+        &quot;pycuda&quot;, 
+        &quot;runsnakerun&quot;, 
+        &quot;tutorial&quot;, 
+        &quot;windows&quot;, 
+        &quot;wxpython&quot;
+    ], 
+    &quot;related_urls&quot;: [], 
+    &quot;id&quot;: 1071, 
+    &quot;state&quot;: 1, 
+    &quot;title&quot;: &quot;Experiences making CPU-bound tasks run much faster&quot;, 
+    &quot;summary&quot;: &quot;[EuroPython 2011] Ian Ozsvald - 22 June 2011 in \&quot;Training Pizza Margherita \&quot;\n\n&quot;, 
+    &quot;description&quot;: &quot;UPDATE - post-event I&#39;ve created a [49 page PDF write-\nup](http://ianozsvald.com/2011/06/29/high-performance-python-tutorial-v0-1\n-from-my-4-hour-tutorial-at-europython-2011/) which summarises the 4 hour\ntutorial\n\nAs a long-time R&amp;D consultant I&#39;m often working to make slow, experimental\ncode run faster for tasks like physics simulation, flood modeling and natural\nlanguage processing. Python allows a smooth progression from rough-and-ready\n(but slow) algorithms through to finely tuned tasks that efficiently use as\nmuch CPU power as you can bring to bear. Speed-ups of 10-500* can be expected\nfor the Mandelbrot code we&#39;ll use.\n\nIn this talk I&#39;ll cover a set of libraries that make CPU-bound tasks run much\nfaster. We&#39;ll begin with a look at profiling using RunSnakeRun and\nline_profiler to identify our bottleneck. We&#39;ll take a look at slow algorithms\nin Python and how they can run faster using numpy and numexpr.\n\nNext we&#39;ll cover the use of multiprocessing to utilise multiple CPU cores\nalong with Cython or ShedSkin to easily use C code in a friendly Python\nwrapper. Multiprocessing on a quad-core system can often provide a 4* speed-up\nfor the right tasks. Next parallelpython will let us run our code on a network\nof machines.\n\nFinally we&#39;ll look at pyCUDA to utilise an NVIDIA GPU. CUDA can give the best\nimprovements for mathematical problems (over 100* on the right tasks) but\nworks on a narrower set of problems.\n\nHow it&#39;ll work: The tutorial will be hands on, you&#39;ll be converting example\nfiles from normal Python to faster variants using the tools below. All of it\nis optional, you&#39;ll get the most benefit by having everything installed. We&#39;ll\nwork in groups and open discussion is encouraged.\n\nNOTE - you are expected to have all these tools installed _before_ the\ntutorial (if you don&#39;t, you might find it hard to follow what&#39;s going on!).\n\nI&#39;ll be using Python 2.7.1 on a Macbook (Snow Leopard). All of these tools run\non Windows and Linux, as long as your versions are fairly recent everything\nshould run just fine.\n\nMy versions (roughly ordered by importance):\n\n  * Python 2.7.1\n  * RunSnakeRun 2.0.1b6 (with wxPython 2.8.12.0 Unicode)\n  * line_profiler (1.0b2)\n  * Cython 0.14.1\n  * ShedSkin 0.7.1\n  * numpy 1.5.1\n  * numexpr 1.4.2\n  * ParallelPython 1.6.1\n  * pyCUDA HEAD from git as of 14th June 2011 (with CUDA 4.0 drivers)\n  * PyPy 1.5\n\nSome background reading:\n\n  * [<a href="http://ianozsvald.com/2010/07/14/22937-faster-python-math-using-pycuda/](http://ianozsvald.com/2010/07/14/22937-faster-python-math-using-pycuda/)%5Cn" rel="nofollow">http://ianozsvald.com/2010/07/14/22937-faster-python-math-using-pycuda/](http://ianozsvald.com/2010/07/14/22937-faster-python-math-using-pycuda/)\n</a>  * [<a href="http://ianozsvald.com/2008/11/17/making-python-math-196-faster-with-shedskin/](http://ianozsvald.com/2008/11/17/making-python-math-196-faster-with-shedskin/)%5Cn%5Cn" rel="nofollow">http://ianozsvald.com/2008/11/17/making-python-math-196-faster-with-shedskin/](http://ianozsvald.com/2008/11/17/making-python-math-196-faster-with-shedskin/)\n\n</a>&quot;, 
+    &quot;quality_notes&quot;: &quot;&quot;, 
+    &quot;copyright_text&quot;: &quot;Standard YouTube License&quot;, 
+    &quot;embed&quot;: &quot;&lt;object width=\&quot;640\&quot; height=\&quot;390\&quot;&gt;&lt;param name=\&quot;movie\&quot; value=\&quot;http://youtube.com/v/F7NOKSP_vlQ?version=3&amp;amp;hl=en_US\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowFullScreen\&quot; value=\&quot;true\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowscriptaccess\&quot; value=\&quot;always\&quot;&gt;&lt;/param&gt;&lt;embed src=\&quot;http://youtube.com/v/F7NOKSP_vlQ?version=3&amp;amp;hl=en_US\&quot; type=\&quot;application/x-shockwave-flash\&quot; width=\&quot;640\&quot; height=\&quot;390\&quot; allowscriptaccess=\&quot;always\&quot; allowfullscreen=\&quot;true\&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&quot;, 
+    &quot;thumbnail_url&quot;: &quot;<a href="http://i.ytimg.com/vi/F7NOKSP_vlQ/hqdefault.jpg" rel="nofollow">http://i.ytimg.com/vi/F7NOKSP_vlQ/hqdefault.jpg</a>&quot;, 
+    &quot;duration&quot;: null, 
+    &quot;video_ogv_length&quot;: null, 
+    &quot;video_ogv_url&quot;: null, 
+    &quot;video_ogv_download_only&quot;: false, 
+    &quot;video_mp4_length&quot;: null, 
+    &quot;video_mp4_url&quot;: null, 
+    &quot;video_mp4_download_only&quot;: false, 
+    &quot;video_webm_length&quot;: null, 
+    &quot;video_webm_url&quot;: null, 
+    &quot;video_webm_download_only&quot;: false, 
+    &quot;video_flv_length&quot;: null, 
+    &quot;video_flv_url&quot;: null, 
+    &quot;video_flv_download_only&quot;: false, 
+    &quot;source_url&quot;: &quot;<a href="http://www.youtube.com/watch?v=F7NOKSP_vlQ" rel="nofollow">http://www.youtube.com/watch?v=F7NOKSP_vlQ</a>&quot;, 
+    &quot;whiteboard&quot;: &quot;&quot;, 
+    &quot;recorded&quot;: &quot;2011-07-18&quot;, 
+    &quot;added&quot;: &quot;2012-08-30T21:02:23&quot;, 
+    &quot;updated&quot;: &quot;2014-04-08T20:28:27.776&quot;
+}</pre>
+            </div>
+        </div>
+
+            
+
+                
+
+                
+            
+
+        </div>
+        <!-- END content-main -->
+
+    </div>
+    <!-- END Content -->
+
+        <div id="push"></div>
+
+    </div>
+
+    </div><!-- ./wrapper -->
+
+    
+    
+
+    
+    <script src="/static/rest_framework/js/jquery-1.8.1-min.js"></script>
+    <script src="/static/rest_framework/js/bootstrap.min.js"></script>
+    <script src="/static/rest_framework/js/prettify-min.js"></script>
+    <script src="/static/rest_framework/js/default.js"></script>
+    
+  </body>
+
+<!-- Mirrored from pyvideo.org/api/v2/video/1071?format=api by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 07 Jan 2016 03:46:32 GMT -->
+</html>

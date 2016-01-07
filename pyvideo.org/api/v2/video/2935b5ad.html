@@ -1,0 +1,191 @@
+
+
+<!DOCTYPE html>
+<html>
+    
+<!-- Mirrored from pyvideo.org/api/v2/video/2935?format=api by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 07 Jan 2016 03:46:32 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+    
+
+        
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+        <meta name="robots" content="NONE,NOARCHIVE" />
+        
+
+        <title>Django REST framework</title>
+
+        
+        
+            <link rel="stylesheet" type="text/css" href="/static/rest_framework/css/bootstrap.min.css"/>
+            <link rel="stylesheet" type="text/css" href="/static/rest_framework/css/bootstrap-tweaks.css"/>
+        
+        <link rel="stylesheet" type="text/css" href="/static/rest_framework/css/prettify.css"/>
+        <link rel="stylesheet" type="text/css" href="/static/rest_framework/css/default.css"/>
+        
+
+    
+    </head>
+
+  <body class=" container">
+
+    <div class="wrapper">
+
+    
+    <div class="navbar navbar-inverse">
+        <div class="navbar-inner">
+            <div class="container-fluid">
+                <span href="/">
+                    <a class='brand' rel="nofollow" href='http://www.django-rest-framework.org'>Django REST framework <span class="version">2.3.14</span></a>
+                </span>
+                <ul class="nav pull-right">
+                    
+                        
+                            <li></li>
+                        
+                    
+                </ul>
+            </div>
+        </div>
+    </div>
+    
+
+    
+    <ul class="breadcrumb">
+        
+            <li>
+                <a href="/api/v2/video/" >Video List Create Api</a> <span class="divider">&rsaquo;</span>
+            </li>
+        
+            <li>
+                <a href="/api/v2/video/2935" class="active">Video Retrieve Update Api</a> 
+            </li>
+        
+    </ul>
+    
+
+    <!-- Content -->
+    <div id="content">
+
+        
+            <form id="get-form" class="pull-right">
+                <fieldset>
+                    <div class="btn-group format-selection">
+                        <a class="btn btn-primary js-tooltip" href='/api/v2/video/2935?format=api' rel="nofollow" title="Make a GET request on the Video Retrieve Update Api resource">GET</a>
+
+                        <button class="btn btn-primary dropdown-toggle js-tooltip" data-toggle="dropdown" title="Specify a format for the GET request">
+                            <span class="caret"></span>
+                        </button>
+                        <ul class="dropdown-menu">
+                            
+                                <li>
+                                    <a class="js-tooltip format-option" href='/api/v2/video/2935?format=json' rel="nofollow" title="Make a GET request on the Video Retrieve Update Api resource with the format set to `json`">json</a>
+                                </li>
+                            
+                                <li>
+                                    <a class="js-tooltip format-option" href='/api/v2/video/2935?format=api' rel="nofollow" title="Make a GET request on the Video Retrieve Update Api resource with the format set to `api`">api</a>
+                                </li>
+                            
+                        </ul>
+                    </div>
+
+                </fieldset>
+            </form>
+        
+
+        
+            <form class="button-form" action="/api/v2/video/2935?format=api" method="POST" class="pull-right">
+                <input type='hidden' name='csrfmiddlewaretoken' value='pT8iI6zhtQdsGFmu4tryYgFrUlipl2B3' />
+                <input type="hidden" name="_method" value="OPTIONS" />
+                <button class="btn btn-primary js-tooltip" title="Make an OPTIONS request on the Video Retrieve Update Api resource">OPTIONS</button>
+            </form>
+        
+
+        
+
+        <div class="content-main">
+            <div class="page-header"><h1>Video Retrieve Update Api</h1></div>
+            
+            
+            
+            <div class="request-info" style="clear: both" >
+                <pre class="prettyprint"><b>GET</b> /api/v2/video/2935?format=api</pre>
+            </div>
+            <div class="response-info">
+                <pre class="prettyprint"><div class="meta nocode"><b>HTTP 200 OK</b>
+<b>Content-Type:</b> <span class="lit">application/json</span>
+<b>Vary:</b> <span class="lit">Accept</span>
+<b>Allow:</b> <span class="lit">GET, PUT, PATCH, HEAD, OPTIONS</span>
+
+</div>{
+    &quot;category&quot;: &quot;EuroPython 2014&quot;, 
+    &quot;language&quot;: &quot;English&quot;, 
+    &quot;slug&quot;: &quot;post-mortem-debugging-with-heap-dumps&quot;, 
+    &quot;speakers&quot;: [
+        &quot;Anselm Kruis&quot;
+    ], 
+    &quot;tags&quot;: [], 
+    &quot;related_urls&quot;: [], 
+    &quot;id&quot;: 2935, 
+    &quot;state&quot;: 1, 
+    &quot;title&quot;: &quot;Post-Mortem Debugging with Heap-Dumps&quot;, 
+    &quot;summary&quot;: &quot;UNIX core-dumps, Windows minidumps or Java heap-dumps are well established technologies for post-mortem defect analysis.\r\nI&#39;ll present a similar technology for Python. An improved pickling mechanism makes it possible to serialise the state of a Python \r\nprogram for subsequent analysis with a conventional Python-debugger.&quot;, 
+    &quot;description&quot;: &quot;Post-Mortem Debugging with Heap-Dumps\r\n=====================================\r\n\r\nUNIX core-dumps, Windows minidumps and analogous solutions of other operating systems are well established technologies for \r\npost-mortem defect analysis of native-code processes. In principle those dumps can be used to analyse \u201einterpreted\u201c \r\nprograms running within a native-code interpreter-process. However in practise this approach is tedious and not always successful \\[1\\].\r\nTherefore operating system independent dump methods were developed for some \u201einterpreted\u201c languages \\[2\\]. \r\nA prominent example are Java heap dumps \\[3\\]. \r\n\r\nUnfortunately up to now there was no practically usable dump-method for Python. Various attempts were made \r\nto utilise OS-level dump methods \\[4, 5\\]. In 2012 Eli Finer published the Python module *pydump* \\[6\\].\r\nThis module pickles the traceback of an exception and subsequently uses the pdb debugger to analyse the unpickled traceback.\r\nUnfortunately *pydump* fails on PicklingErrors.\r\n\r\nIn my talk I&#39;ll present the Python package [*pyheapdump*](https://pypi.python.org/pypi/pyheapdump). It has the same operation principle as Eli&#39;s *pydump*, but \r\nis an independent implementation. *pyheapdump* uses an extended pickler \r\n([sPickle](https://pypi.python.org/pypi/sPickle)) to serialise all relevant objects \r\nof a Python process to a file. Later on a fault tolerant unpickler recreates the objects and a common Python\r\ndebugger can be used to analyse the dump. The pickler extensions make it possible to:\r\n\r\n * pickle and unpickle many commonly not pickleable objects [7].\r\n * replace the remaining not pickleable objects by surrogate objects so that the resulting object graph is\r\n   almost isomorphic to the original object graph.\r\n   \r\nWhich objects are relevant? In its default operation mode *pyheapdump* \r\nuses the frame-stacks of all threads as start point for pickling. Following the \r\nusual rules for pickling the dump includes all local variables and all objects \r\nreachable from a local variable and so on. That is usually enough for a successful defect analysis.\r\n\r\nCompared with other Python post-mortem debugging methods *pyheapdump* has several advantages:\r\n\r\n * It is a pure Python solution and independent from the operation system.\r\n * Creation of the pyheapdump and fault analysis can be performed different computers.\r\n * It is not obstructive. It does not modify / monkey-patch or disturb the dumped \r\n   process in any way, with the exception of loading additional modules.\r\n * If used with the Pydev-debugger, it supports multi-threaded applications.\r\n * If used with the Pydev-debugger and Stackless Python, it supports tasklets. \r\n\r\nThe implementation of *pyheapdump* is fairly small, because it draws most of its functionality \r\nfrom the underlying sPickle package and from the new Stackless-Support \\[8\\] of the\r\nPydev-Debugger. Therefore it is - despite of its short history - already a useful piece of software.\r\n\r\nOutline of the talk\r\n-------------------\r\n\r\n1.\tIntroduction to the problem\r\n2.\tPrevious works\r\n3.\tThe concept of *pyheapdump*\r\n4.\tLive demonstration\r\n5.\tOpen problems and further development\r\n6.\tQuestions and Answers\r\n\r\nReferences\r\n----------\r\n\r\n1. Andraz Tori, Python, 2011-01-16: *gdb and a very large core dump*, blog at &lt;<a href="http://www.zemanta.com/blog/python-gdb-large-core-dump/%3E%5Cr%5Cn2" rel="nofollow">http://www.zemanta.com/blog/python-gdb-large-core-dump/&gt;\r\n2</a>. David Pacheco, ACM Queue - Programming Languages Volume 9 Issue 10, October 2011: \r\n   *Postmortem Debugging in Dynamic Environments*, \r\n   PDF &lt;<a href="http://dl.acm.org/ft_gateway.cfm?id=2039361&amp;ftid=1050739&amp;dwn=1&amp;CFID=290171300&amp;CFTOKEN=95099236%3E%5Cr%5Cn3" rel="nofollow">http://dl.acm.org/ft_gateway.cfm?id=2039361&amp;ftid=1050739&amp;dwn=1&amp;CFID=290171300&amp;CFTOKEN=95099236&gt;\r\n3</a>. Chris Bailey, Andrew Johnson, Kevin Grigorenko, IBM developerWorks, 2011-03-15: \r\n   *Debugging from dumps - Diagnose more than memory leaks with Memory Analyzer*, \r\n   PDF &lt;<a href="http://www.ibm.com/developerworks/library/j-memoryanalyzer/j-memoryanalyzer-pdf.pdf%3E%5Cr%5Cn4" rel="nofollow">http://www.ibm.com/developerworks/library/j-memoryanalyzer/j-memoryanalyzer-pdf.pdf&gt;\r\n4</a>. Brian Curtin, 2011-09-29: *minidumper - Python crash dumps on Windows*, \r\n   blog at &lt;<a href="http://blog.briancurtin.com/posts/20110929minidumper-python-crash-dumps-on-windows.html%3E%5Cr%5Cn5" rel="nofollow">http://blog.briancurtin.com/posts/20110929minidumper-python-crash-dumps-on-windows.html&gt;\r\n5</a>. David Malcolm, Fedora Feature, 2010-04-06: *Easier Python Debugging* \r\n   at &lt;<a href="http://fedoraproject.org/wiki/Features/EasierPythonDebugging%3E%5Cr%5Cn6" rel="nofollow">http://fedoraproject.org/wiki/Features/EasierPythonDebugging&gt;\r\n6</a>. Eli Finer, Github-Project, 2012: *pydump* at &lt;<a href="https://github.com/gooli/pydump%3E%5Cr%5Cn7" rel="nofollow">https://github.com/gooli/pydump&gt;\r\n7</a>. Anselm Kruis, EuroPython 2011: *Advanced Pickling with Stackless Python and sPickle*,\r\n   archived talk at &lt;<a href="https://ep2013.europython.eu/conference/talks/advanced-pickling-with-stackless-python-and-spickle%3E%5Cr%5Cn8" rel="nofollow">https://ep2013.europython.eu/conference/talks/advanced-pickling-with-stackless-python-and-spickle&gt;\r\n8</a>. Fabio Zadrozny, 2013-12-12: *PyDev 3.1.0 released*, \r\n   blog at &lt;<a href="http://pydev.blogspot.de/2013/12/pydev-310-released.html%3E%5Cr%5Cn%5Cr%5Cn" rel="nofollow">http://pydev.blogspot.de/2013/12/pydev-310-released.html&gt;\r\n\r\n</a>&quot;, 
+    &quot;quality_notes&quot;: &quot;&quot;, 
+    &quot;copyright_text&quot;: &quot;<a href="http://creativecommons.org/licenses/by/3.0/" rel="nofollow">http://creativecommons.org/licenses/by/3.0/</a>&quot;, 
+    &quot;embed&quot;: &quot;&lt;object width=\&quot;640\&quot; height=\&quot;390\&quot;&gt;&lt;param name=\&quot;movie\&quot; value=\&quot;http://youtube.com/v/0Xt-au2QnRg?version=3&amp;amp;hl=en_US\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowFullScreen\&quot; value=\&quot;true\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowscriptaccess\&quot; value=\&quot;always\&quot;&gt;&lt;/param&gt;&lt;embed src=\&quot;http://youtube.com/v/0Xt-au2QnRg?version=3&amp;amp;hl=en_US\&quot; type=\&quot;application/x-shockwave-flash\&quot; width=\&quot;640\&quot; height=\&quot;390\&quot; allowscriptaccess=\&quot;always\&quot; allowfullscreen=\&quot;true\&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&quot;, 
+    &quot;thumbnail_url&quot;: &quot;<a href="http://i.ytimg.com/vi/0Xt-au2QnRg/hqdefault.jpg" rel="nofollow">http://i.ytimg.com/vi/0Xt-au2QnRg/hqdefault.jpg</a>&quot;, 
+    &quot;duration&quot;: null, 
+    &quot;video_ogv_length&quot;: null, 
+    &quot;video_ogv_url&quot;: &quot;&quot;, 
+    &quot;video_ogv_download_only&quot;: false, 
+    &quot;video_mp4_length&quot;: null, 
+    &quot;video_mp4_url&quot;: &quot;&quot;, 
+    &quot;video_mp4_download_only&quot;: false, 
+    &quot;video_webm_length&quot;: null, 
+    &quot;video_webm_url&quot;: &quot;&quot;, 
+    &quot;video_webm_download_only&quot;: false, 
+    &quot;video_flv_length&quot;: null, 
+    &quot;video_flv_url&quot;: &quot;&quot;, 
+    &quot;video_flv_download_only&quot;: false, 
+    &quot;source_url&quot;: &quot;<a href="http://www.youtube.com/watch?v=0Xt-au2QnRg" rel="nofollow">http://www.youtube.com/watch?v=0Xt-au2QnRg</a>&quot;, 
+    &quot;whiteboard&quot;: &quot;&quot;, 
+    &quot;recorded&quot;: &quot;2014-07-25&quot;, 
+    &quot;added&quot;: &quot;2014-07-31T00:46:23.566&quot;, 
+    &quot;updated&quot;: &quot;2014-07-31T01:04:31.601&quot;
+}</pre>
+            </div>
+        </div>
+
+            
+
+                
+
+                
+            
+
+        </div>
+        <!-- END content-main -->
+
+    </div>
+    <!-- END Content -->
+
+        <div id="push"></div>
+
+    </div>
+
+    </div><!-- ./wrapper -->
+
+    
+    
+
+    
+    <script src="/static/rest_framework/js/jquery-1.8.1-min.js"></script>
+    <script src="/static/rest_framework/js/bootstrap.min.js"></script>
+    <script src="/static/rest_framework/js/prettify-min.js"></script>
+    <script src="/static/rest_framework/js/default.js"></script>
+    
+  </body>
+
+<!-- Mirrored from pyvideo.org/api/v2/video/2935?format=api by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 07 Jan 2016 03:46:32 GMT -->
+</html>

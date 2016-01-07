@@ -1,0 +1,195 @@
+
+
+<!DOCTYPE html>
+<html>
+    
+<!-- Mirrored from pyvideo.org/api/v2/video/445 by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 07 Jan 2016 03:32:58 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+    
+
+        
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+        <meta name="robots" content="NONE,NOARCHIVE" />
+        
+
+        <title>Django REST framework</title>
+
+        
+        
+            <link rel="stylesheet" type="text/css" href="/static/rest_framework/css/bootstrap.min.css"/>
+            <link rel="stylesheet" type="text/css" href="/static/rest_framework/css/bootstrap-tweaks.css"/>
+        
+        <link rel="stylesheet" type="text/css" href="/static/rest_framework/css/prettify.css"/>
+        <link rel="stylesheet" type="text/css" href="/static/rest_framework/css/default.css"/>
+        
+
+    
+    </head>
+
+  <body class=" container">
+
+    <div class="wrapper">
+
+    
+    <div class="navbar navbar-inverse">
+        <div class="navbar-inner">
+            <div class="container-fluid">
+                <span href="/">
+                    <a class='brand' rel="nofollow" href='http://www.django-rest-framework.org'>Django REST framework <span class="version">2.3.14</span></a>
+                </span>
+                <ul class="nav pull-right">
+                    
+                        
+                            <li></li>
+                        
+                    
+                </ul>
+            </div>
+        </div>
+    </div>
+    
+
+    
+    <ul class="breadcrumb">
+        
+            <li>
+                <a href="/api/v2/video/" >Video List Create Api</a> <span class="divider">&rsaquo;</span>
+            </li>
+        
+            <li>
+                <a href="/api/v2/video/445" class="active">Video Retrieve Update Api</a> 
+            </li>
+        
+    </ul>
+    
+
+    <!-- Content -->
+    <div id="content">
+
+        
+            <form id="get-form" class="pull-right">
+                <fieldset>
+                    <div class="btn-group format-selection">
+                        <a class="btn btn-primary js-tooltip" href='/api/v2/video/445' rel="nofollow" title="Make a GET request on the Video Retrieve Update Api resource">GET</a>
+
+                        <button class="btn btn-primary dropdown-toggle js-tooltip" data-toggle="dropdown" title="Specify a format for the GET request">
+                            <span class="caret"></span>
+                        </button>
+                        <ul class="dropdown-menu">
+                            
+                                <li>
+                                    <a class="js-tooltip format-option" href='/api/v2/video/445?format=json' rel="nofollow" title="Make a GET request on the Video Retrieve Update Api resource with the format set to `json`">json</a>
+                                </li>
+                            
+                                <li>
+                                    <a class="js-tooltip format-option" href='/api/v2/video/445?format=api' rel="nofollow" title="Make a GET request on the Video Retrieve Update Api resource with the format set to `api`">api</a>
+                                </li>
+                            
+                        </ul>
+                    </div>
+
+                </fieldset>
+            </form>
+        
+
+        
+            <form class="button-form" action="/api/v2/video/445" method="POST" class="pull-right">
+                <input type='hidden' name='csrfmiddlewaretoken' value='pT8iI6zhtQdsGFmu4tryYgFrUlipl2B3' />
+                <input type="hidden" name="_method" value="OPTIONS" />
+                <button class="btn btn-primary js-tooltip" title="Make an OPTIONS request on the Video Retrieve Update Api resource">OPTIONS</button>
+            </form>
+        
+
+        
+
+        <div class="content-main">
+            <div class="page-header"><h1>Video Retrieve Update Api</h1></div>
+            
+            
+            
+            <div class="request-info" style="clear: both" >
+                <pre class="prettyprint"><b>GET</b> /api/v2/video/445</pre>
+            </div>
+            <div class="response-info">
+                <pre class="prettyprint"><div class="meta nocode"><b>HTTP 200 OK</b>
+<b>Content-Type:</b> <span class="lit">application/json</span>
+<b>Vary:</b> <span class="lit">Accept</span>
+<b>Allow:</b> <span class="lit">GET, PUT, PATCH, HEAD, OPTIONS</span>
+
+</div>{
+    &quot;category&quot;: &quot;PyCon US 2011&quot;, 
+    &quot;language&quot;: &quot;English&quot;, 
+    &quot;slug&quot;: &quot;pycon-2011--api-design-anti-patterns&quot;, 
+    &quot;speakers&quot;: [
+        &quot;Alex Martelli&quot;
+    ], 
+    &quot;tags&quot;: [
+        &quot;api&quot;, 
+        &quot;pycon&quot;, 
+        &quot;pycon2011&quot;
+    ], 
+    &quot;related_urls&quot;: [], 
+    &quot;id&quot;: 445, 
+    &quot;state&quot;: 1, 
+    &quot;title&quot;: &quot;API Design anti-patterns&quot;, 
+    &quot;summary&quot;: &quot;&quot;, 
+    &quot;description&quot;: &quot;API Design Anti-Patterns\n\nPresented by Alex Martelli\n\nDesigning interfaces so that other code can interact with ours (whether our\ncode is a library, framework, application, website...) is a very common and\nclearly crucial activity, but fraught with dangers -- stuff we all keep doing\nwrong time after time. This talks shows some common cases of API design errors\nencountered in the wild, with tips on how to avoid them when you design your\nnext API.\n\nAbstract\n\nWhenever we write code we should always be thinking about how other code\n(whether our own, or other people&#39;s) will interact with ours (an \&quot;API\&quot;, in\ncommon parlance). Indeed, the most common and terrible mistake in API design\nis... not doing any! -- i.e., not providing any designed, architected way for\nother code to interact with ours. That&#39;s fortunately less common when \&quot;our\ncode\&quot; is a library or framework;-), but, alas!, sadly widespread when \&quot;our\ncode\&quot; is an application or website -- that&#39;s why questions about screen-\nscraping the web and simulating keystrokes and mouse gestures need be so\ntragically frequent all over the web.\n\nOnce past the obvious hurdle of not having any API at all, there&#39;s still\nplenty of ways we can go badly wrong in the process of designing one -- and\nmany of those ways fall into recognizable categories, i.e., patterns.\nSpecifically, since they&#39;re frequently observed categories of defective\ndesign, they&#39;re anti-patterns -- and that&#39;s what this talk is in fact about\n(as the smartest among you could tell from the title...).\n\nI&#39;m eminently qualified to present on this subject, since, in a lifetime spent\nmostly stumbling into software (after actually qualifying to design hardware\nin college, but only doing that for a few years), I&#39;ve been responsible for\nmore of my shares of API design fumbles (plus, of course, just like every\nother programmer, I&#39;ve done my share of swearing at the design fumbles of\nother API designers). And, as novelist Richard Bach reminds us, \&quot;You teach\nbest what you most need to learn\&quot;!-)\n\n&quot;, 
+    &quot;quality_notes&quot;: &quot;&quot;, 
+    &quot;copyright_text&quot;: &quot;Creative Commons Attribution-NonCommercial-ShareAlike 3.0&quot;, 
+    &quot;embed&quot;: &quot;&quot;, 
+    &quot;thumbnail_url&quot;: &quot;<a href="http://a.images.blip.tv/Pycon-PyCon2011APIDesignAntipatterns897.png" rel="nofollow">http://a.images.blip.tv/Pycon-PyCon2011APIDesignAntipatterns897.png</a>&quot;, 
+    &quot;duration&quot;: null, 
+    &quot;video_ogv_length&quot;: 222617966, 
+    &quot;video_ogv_url&quot;: null, 
+    &quot;video_ogv_download_only&quot;: false, 
+    &quot;video_mp4_length&quot;: null, 
+    &quot;video_mp4_url&quot;: &quot;<a href="http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2011/445_api-design-anti-patterns.mp4" rel="nofollow">http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2011/445_api-design-anti-patterns.mp4</a>&quot;, 
+    &quot;video_mp4_download_only&quot;: false, 
+    &quot;video_webm_length&quot;: null, 
+    &quot;video_webm_url&quot;: null, 
+    &quot;video_webm_download_only&quot;: false, 
+    &quot;video_flv_length&quot;: null, 
+    &quot;video_flv_url&quot;: null, 
+    &quot;video_flv_download_only&quot;: false, 
+    &quot;source_url&quot;: &quot;&quot;, 
+    &quot;whiteboard&quot;: &quot;&quot;, 
+    &quot;recorded&quot;: &quot;2011-03-11&quot;, 
+    &quot;added&quot;: &quot;2012-02-23T04:20:00&quot;, 
+    &quot;updated&quot;: &quot;2014-04-08T20:28:27.947&quot;
+}</pre>
+            </div>
+        </div>
+
+            
+
+                
+
+                
+            
+
+        </div>
+        <!-- END content-main -->
+
+    </div>
+    <!-- END Content -->
+
+        <div id="push"></div>
+
+    </div>
+
+    </div><!-- ./wrapper -->
+
+    
+    
+
+    
+    <script src="/static/rest_framework/js/jquery-1.8.1-min.js"></script>
+    <script src="/static/rest_framework/js/bootstrap.min.js"></script>
+    <script src="/static/rest_framework/js/prettify-min.js"></script>
+    <script src="/static/rest_framework/js/default.js"></script>
+    
+  </body>
+
+<!-- Mirrored from pyvideo.org/api/v2/video/445 by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 07 Jan 2016 03:32:59 GMT -->
+</html>

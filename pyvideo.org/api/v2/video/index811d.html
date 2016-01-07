@@ -1,0 +1,965 @@
+
+
+<!DOCTYPE html>
+<html>
+    
+<!-- Mirrored from pyvideo.org/api/v2/video/?page=75&format=api by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 07 Jan 2016 03:50:00 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+    
+
+        
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+        <meta name="robots" content="NONE,NOARCHIVE" />
+        
+
+        <title>Django REST framework</title>
+
+        
+        
+            <link rel="stylesheet" type="text/css" href="/static/rest_framework/css/bootstrap.min.css"/>
+            <link rel="stylesheet" type="text/css" href="/static/rest_framework/css/bootstrap-tweaks.css"/>
+        
+        <link rel="stylesheet" type="text/css" href="/static/rest_framework/css/prettify.css"/>
+        <link rel="stylesheet" type="text/css" href="/static/rest_framework/css/default.css"/>
+        
+
+    
+    </head>
+
+  <body class=" container">
+
+    <div class="wrapper">
+
+    
+    <div class="navbar navbar-inverse">
+        <div class="navbar-inner">
+            <div class="container-fluid">
+                <span href="/">
+                    <a class='brand' rel="nofollow" href='http://www.django-rest-framework.org'>Django REST framework <span class="version">2.3.14</span></a>
+                </span>
+                <ul class="nav pull-right">
+                    
+                        
+                            <li></li>
+                        
+                    
+                </ul>
+            </div>
+        </div>
+    </div>
+    
+
+    
+    <ul class="breadcrumb">
+        
+            <li>
+                <a href="/api/v2/video/" class="active">Video List Create Api</a> 
+            </li>
+        
+    </ul>
+    
+
+    <!-- Content -->
+    <div id="content">
+
+        
+            <form id="get-form" class="pull-right">
+                <fieldset>
+                    <div class="btn-group format-selection">
+                        <a class="btn btn-primary js-tooltip" href='/api/v2/video/?page=75&amp;format=api' rel="nofollow" title="Make a GET request on the Video List Create Api resource">GET</a>
+
+                        <button class="btn btn-primary dropdown-toggle js-tooltip" data-toggle="dropdown" title="Specify a format for the GET request">
+                            <span class="caret"></span>
+                        </button>
+                        <ul class="dropdown-menu">
+                            
+                                <li>
+                                    <a class="js-tooltip format-option" href='/api/v2/video/?page=75&format=json' rel="nofollow" title="Make a GET request on the Video List Create Api resource with the format set to `json`">json</a>
+                                </li>
+                            
+                                <li>
+                                    <a class="js-tooltip format-option" href='/api/v2/video/?page=75&format=api' rel="nofollow" title="Make a GET request on the Video List Create Api resource with the format set to `api`">api</a>
+                                </li>
+                            
+                        </ul>
+                    </div>
+
+                </fieldset>
+            </form>
+        
+
+        
+            <form class="button-form" action="/api/v2/video/?page=75&amp;format=api" method="POST" class="pull-right">
+                <input type='hidden' name='csrfmiddlewaretoken' value='pT8iI6zhtQdsGFmu4tryYgFrUlipl2B3' />
+                <input type="hidden" name="_method" value="OPTIONS" />
+                <button class="btn btn-primary js-tooltip" title="Make an OPTIONS request on the Video List Create Api resource">OPTIONS</button>
+            </form>
+        
+
+        
+
+        <div class="content-main">
+            <div class="page-header"><h1>Video List Create Api</h1></div>
+            
+            
+            
+            <div class="request-info" style="clear: both" >
+                <pre class="prettyprint"><b>GET</b> /api/v2/video/?page=75&amp;format=api</pre>
+            </div>
+            <div class="response-info">
+                <pre class="prettyprint"><div class="meta nocode"><b>HTTP 200 OK</b>
+<b>Content-Type:</b> <span class="lit">application/json</span>
+<b>Vary:</b> <span class="lit">Accept</span>
+<b>Allow:</b> <span class="lit">GET, POST, HEAD, OPTIONS</span>
+
+</div>{
+    &quot;count&quot;: 3439, 
+    &quot;next&quot;: &quot;<a href="http://pyvideo.org/api/v2/video/?page=76&amp;format=api" rel="nofollow">http://pyvideo.org/api/v2/video/?page=76&amp;format=api</a>&quot;, 
+    &quot;previous&quot;: &quot;<a href="http://pyvideo.org/api/v2/video/?page=74&amp;format=api" rel="nofollow">http://pyvideo.org/api/v2/video/?page=74&amp;format=api</a>&quot;, 
+    &quot;results&quot;: [
+        {
+            &quot;category&quot;: &quot;SciPy 2014&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;the-road-to-modelr-building-a-commercial-web-app&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Matt Hall&quot;
+            ], 
+            &quot;tags&quot;: [], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 2816, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;The Road to Modelr: Building a Commercial Web Application on an Open Source Foundation&quot;, 
+            &quot;summary&quot;: &quot;Lessons learned along the bumpy road from Python noob to an open source geophysics web application, with a commercial web service front end.&quot;, 
+            &quot;description&quot;: &quot;Software for applied geoscientists in the petroleum industry is usually expensive, hard to use, Windows or Linux only, and slow to evolve. Furthermore, it is almost always stridently proprietary and therefore black-box. Open source software is rare. There are few developers working outside of seismic processing and enterprise database development, and consequently there is very little in the web and mobile domain. Reconciling a commitment to open source with a desire to earn a good living is one of the great conundrums of software engineering. We have chosen a hybrid approach of open core (like OpendTect, which has proprietary add-ons) and software-as-a-service (like <a href="http://WordPress.org" rel="nofollow">WordPress.org</a> vs <a href="http://WordPress.com" rel="nofollow">WordPress.com</a>). \r\n\r\nOpen source back-end\r\n--------------------\r\n\r\nOur open core is a Python web app for producing synthetic seismic models, in much the same way that the now-deprecated [Google Image Charts API](https://developers.google.com/chart/image/) used to work: the user provides a URL, which contains all the relevant data, and a JPEG image generated by matplotlib is returned. Along with the image, we return some computed data about the model, such as the elastic properties of the rocks involved. The mode of the tool is described by \&quot;scripts\&quot;, which for now reside on the server, but which we plan to allow users to provide as part of the API. Scripts have various parameters, such as the P-wave and S-wave velocities, and the bulk density of the rocks in the model, and it is these parameters that make up most of the data in the API call. Other parameters include the type and frequency of wavelet to use, and the computation method for the reflectivity (for example the Zoeppritz equations, or the Aki\\u2013Richards approximation). The app has no user interface to speak of, only a web API. It is licensed under the Apache 2 license and can be found [on GitHub](https://github.com/agile-geoscience/modelr). We are running an instance of our app on a \&quot;T1.micro\&quot; [Amazon EC2 instance](http://aws.amazon.com/ec2/) running Ubuntu.\r\n\r\nProprietary front-end\r\n---------------------\r\n\r\nThe commercial, proprietary front end is a Python web app that lives in the [Google App Engine](https://developers.google.com/appengine/) walled garden. This app, which uses the [Twitter Bootstrap framework](http://getbootstrap.com/), is serving at [modelr.io](https://www.modelr.io/) and provides a user object in which a geoscientist can save rocks and scenarios  consisting of a script and all its parameters. We chose App Engine for its strong infrastructure, good track record, and the easy availability of tools like the datastore, memcache, login, and so on. We also host support channels and materials through this front end, which has a very lightweight \&quot;demo\&quot; mode, and otherwise requires a $9/month subscription to use, handled by [Stripe](https://stripe.com/ca). This necessitated serving both the front and back ends over HTTPS, something we wanted to do anyway, because of industry mistrust of the cloud.\r\n\r\nSummary\r\n-------\r\nSome of the things we picked up along the way:\r\n\r\n* We started with a strong need of our own, so had clear milestones from day 1.\r\n* We left the project alone for months, but good documentation and GitHub meant this was not a problem.\r\n* Sprinting with a professional developer at the start meant less thrashing later.\r\n* The cloud landscape is exciting, but it&#39;s easy to be distracted by all the APIs. Keeping it simple is a constant struggle.\r\n* Pushing through Xeno&#39;s paradox to get to a live, public-facing app took stamina and focus.\r\n* There&#39;s nothing like having other users to get you to up your coding game.\r\n\r\nWe hope that by telling this story of the early days of a commercial scientific web application, built by a bunch of consulting scientists in Nova Scotia, not a tech startup in San Francisco, we can speed others along the path to creating a rich ecosystem of new geoscience tools and web APIs.\r\n&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;<a href="http://www.youtube.com/t/terms" rel="nofollow">http://www.youtube.com/t/terms</a>&quot;, 
+            &quot;embed&quot;: &quot;&lt;object width=\&quot;640\&quot; height=\&quot;390\&quot;&gt;&lt;param name=\&quot;movie\&quot; value=\&quot;http://youtube.com/v/TgOk_3JEcwY?version=3&amp;amp;hl=en_US\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowFullScreen\&quot; value=\&quot;true\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowscriptaccess\&quot; value=\&quot;always\&quot;&gt;&lt;/param&gt;&lt;embed src=\&quot;http://youtube.com/v/TgOk_3JEcwY?version=3&amp;amp;hl=en_US\&quot; type=\&quot;application/x-shockwave-flash\&quot; width=\&quot;640\&quot; height=\&quot;390\&quot; allowscriptaccess=\&quot;always\&quot; allowfullscreen=\&quot;true\&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://i1.ytimg.com/vi/TgOk_3JEcwY/hqdefault.jpg" rel="nofollow">http://i1.ytimg.com/vi/TgOk_3JEcwY/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: &quot;&quot;, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: &quot;&quot;, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: &quot;&quot;, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: &quot;&quot;, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="http://www.youtube.com/watch?v=TgOk_3JEcwY" rel="nofollow">http://www.youtube.com/watch?v=TgOk_3JEcwY</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2014-07-10&quot;, 
+            &quot;added&quot;: &quot;2014-07-15T22:45:42.613&quot;, 
+            &quot;updated&quot;: &quot;2014-07-16T14:54:50.385&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;SciPy 2014&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;zero-dependency-python&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Kester Tong&quot;, 
+                &quot;Matthew Turk&quot;
+            ], 
+            &quot;tags&quot;: [], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 2810, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Zero Dependency Python&quot;, 
+            &quot;summary&quot;: &quot;We present a new method for distributing and using Python that requires no dependencies beyond the Google Chrome web browser based on Portable Native Client (PNaCl).  We will demonstrate an IPython notebook run completely client side with no out-of-browser components, backed by Google Drive, an HTML5 File System, and able to pass numpy arrays as typed arrays without serialization as JSON.&quot;, 
+            &quot;description&quot;: &quot;We present a new method for distributing and using Python that requires no\r\ndependencies beyond the Google Chrome web browser.  By combining the static\r\nlinking methodology of traditional supercomputer-style deployments of Python\r\nwith the technology Portable Native Client (PNaCl) we have constructed a method\r\nfor building, deploying, and sharing fully-sandboxed scientific python stacks\r\nthat require no client-side installation: the entire IPython notebook and\r\nscientific python stack, in a website, at native speeds.  We will present this\r\ntechnology, along with some of its potential applications, describing its\r\nshortcomings and future extensibility.  We will conclude by demonstrating an\r\nIPython notebook run completely client side with no out-of-browser components,\r\nbacked by Google Drive and an HTML5 File System, and able to pass numpy arrays\r\nas typed arrays into the browser without serialization as JSON.\r\n\r\n1. We will begin by briefly describing the problems with deploying scientific python\r\nas a stack, particularly the dependency graph, installation time, and so\r\non.\r\n\r\n2. We&#39;ll describe the PNaCl technology and build system for\r\nscientific python, including how individuals can create their own .pexes with\r\ntheir own application stack\r\n\r\n3. We&#39;ll describe potential applications,\r\nsuch as bundling safe, sandboxed executables with scripts and lessons\r\n\r\n4. We will demonstrate a complete system for running the IPython notebook in a\r\nsandboxed, Google Chrome window\r\n\r\n5. We&#39;ll conclude by describing methods that this system could be extended to run sandboxed python executables on any\r\nsystem, independent of the Chrome web browser, such as supercomputers and\r\nnon-virtualized hosting providers\r\n&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;<a href="http://www.youtube.com/t/terms" rel="nofollow">http://www.youtube.com/t/terms</a>&quot;, 
+            &quot;embed&quot;: &quot;&lt;object width=\&quot;640\&quot; height=\&quot;390\&quot;&gt;&lt;param name=\&quot;movie\&quot; value=\&quot;http://youtube.com/v/bITvUUyvUAY?version=3&amp;amp;hl=en_US\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowFullScreen\&quot; value=\&quot;true\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowscriptaccess\&quot; value=\&quot;always\&quot;&gt;&lt;/param&gt;&lt;embed src=\&quot;http://youtube.com/v/bITvUUyvUAY?version=3&amp;amp;hl=en_US\&quot; type=\&quot;application/x-shockwave-flash\&quot; width=\&quot;640\&quot; height=\&quot;390\&quot; allowscriptaccess=\&quot;always\&quot; allowfullscreen=\&quot;true\&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://i1.ytimg.com/vi/bITvUUyvUAY/hqdefault.jpg" rel="nofollow">http://i1.ytimg.com/vi/bITvUUyvUAY/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: &quot;&quot;, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: &quot;&quot;, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: &quot;&quot;, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: &quot;&quot;, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="http://www.youtube.com/watch?v=bITvUUyvUAY" rel="nofollow">http://www.youtube.com/watch?v=bITvUUyvUAY</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2014-07-10&quot;, 
+            &quot;added&quot;: &quot;2014-07-15T22:45:41.984&quot;, 
+            &quot;updated&quot;: &quot;2014-07-15T23:14:39.287&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;SciPy 2014&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;a-common-scientific-compute-environment-for-resea&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Dav Clark&quot;
+            ], 
+            &quot;tags&quot;: [
+                &quot;devops&quot;, 
+                &quot;reproducible research&quot;
+            ], 
+            &quot;related_urls&quot;: [
+                {
+                    &quot;url&quot;: &quot;<a href="https://berkeley.app.box.com/s/m80jxh3fabbvu93otreh" rel="nofollow">https://berkeley.app.box.com/s/m80jxh3fabbvu93otreh</a>&quot;, 
+                    &quot;description&quot;: &quot;slides&quot;
+                }, 
+                {
+                    &quot;url&quot;: &quot;<a href="https://berkeley.app.box.com/s/w424gdjot3tgksidyyfl" rel="nofollow">https://berkeley.app.box.com/s/w424gdjot3tgksidyyfl</a>&quot;, 
+                    &quot;description&quot;: &quot;proceedings draft&quot;
+                }, 
+                {
+                    &quot;url&quot;: &quot;<a href="http://collaboratool.berkeley.edu/" rel="nofollow">http://collaboratool.berkeley.edu/</a>&quot;, 
+                    &quot;description&quot;: &quot;project page&quot;
+                }
+            ], 
+            &quot;id&quot;: 2718, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;A Common Scientific Compute Environment for Research and Education&quot;, 
+            &quot;summary&quot;: &quot;I provide an overview of the challenges we\u2019ve tackled at UC Berkeley deploying scientific compute environments in both educational and research contexts. After a discussion of how these needs can be served by devops tools like Docker and Ansible, I argue that a coherent, easy-to-understand philosophy around reproducible compute environments is fundamental.\r\n&quot;, 
+            &quot;description&quot;: &quot;As the line between developer and researcher becomes ever more blurred, the challenge of sharing your compute environment with students and colleagues becomes ever more complex. Large, private organizations have been grappling with this issue for a while, spawning a great deal of enthusiasm around tools like Docker, Puppet, Vagrant, and Packer. And let\u2019s not forget notable python-based upstarts, Ansible and Salt! These tools can generate immense enthusiasm, followed by the question, \u201cWhy are we doing this?\u201d\r\n\r\nThe problem is that researcher / developers can become overwhelmed by the complexity and variety inherent in devops tools - all the while losing sight of the real reason for using these tools: a philosophy of documenting your research compute environments in a reproducible fashion, with a focus on scripting as much as is reasonable.\r\n\r\nAt UC Berkeley, members of the D-Lab, the Statistical Compute Facility, Computer Science and Research IT have organized a project to develop the Berkeley Common Environment (BCE). I\u2019ll provide an overview of the challenges we\u2019ve tackled in both educational and research contexts, and the needs served by the above-mentioned devops tools. In the end, I argue that a coherent, easy-to-understand philosophy around scientific compute environments is fundamental - the tools are just a way to make your collaboration architecture a little easier for the people building these environments a few times a year. What we should focus on, though, is end-user experience and research community buy-in.&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;<a href="http://www.youtube.com/t/terms" rel="nofollow">http://www.youtube.com/t/terms</a>&quot;, 
+            &quot;embed&quot;: &quot;&lt;object width=\&quot;640\&quot; height=\&quot;390\&quot;&gt;&lt;param name=\&quot;movie\&quot; value=\&quot;http://youtube.com/v/e7jaZ5SFvFk?version=3&amp;amp;hl=en_US\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowFullScreen\&quot; value=\&quot;true\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowscriptaccess\&quot; value=\&quot;always\&quot;&gt;&lt;/param&gt;&lt;embed src=\&quot;http://youtube.com/v/e7jaZ5SFvFk?version=3&amp;amp;hl=en_US\&quot; type=\&quot;application/x-shockwave-flash\&quot; width=\&quot;640\&quot; height=\&quot;390\&quot; allowscriptaccess=\&quot;always\&quot; allowfullscreen=\&quot;true\&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://i1.ytimg.com/vi/e7jaZ5SFvFk/hqdefault.jpg" rel="nofollow">http://i1.ytimg.com/vi/e7jaZ5SFvFk/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: &quot;&quot;, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: &quot;&quot;, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: &quot;&quot;, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: &quot;&quot;, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="http://www.youtube.com/watch?v=e7jaZ5SFvFk" rel="nofollow">http://www.youtube.com/watch?v=e7jaZ5SFvFk</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2014-07-09&quot;, 
+            &quot;added&quot;: &quot;2014-07-09T19:24:50.870&quot;, 
+            &quot;updated&quot;: &quot;2014-07-30T13:04:54.962&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;SciPy 2014&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;airspeed-velocity-tracking-performance-of-python&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Michael Droettboom&quot;
+            ], 
+            &quot;tags&quot;: [
+                &quot;benchmarking&quot;, 
+                &quot;performance&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 2732, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Airspeed Velocity: Tracking Performance of Python Projects Over Their Lifetime&quot;, 
+            &quot;summary&quot;: &quot;Presenting \&quot;airspeed velocity\&quot;, a new tool for benchmarking Python software projects over their lifetime.&quot;, 
+            &quot;description&quot;: &quot;As software projects mature and become more robust against bugs, they may also lose some of their runtime performance and memory efficiency.  Airspeed velocity (asv) is a new tool to help find those performance degradations before they get out to end users.  It automatically runs a benchmark suite over a range of commits in a project&#39;s repository, as well as in a matrix of configurations of Python versions and other dependencies.  The results, possibly from multiple machines, are then collated and published in a web-based report.\r\n\r\nWhile filling a similar role as projects such as \&quot;codespeed\&quot; and \&quot;vbench\&quot;, airspeed velocity is designed to be easier to set up and deploy, since it uses only a DVCS repository as its database and the report is deployable to any static web server.\r\n\r\nAirspeed velocity provides an easy way to write benchmarks, inspired by \&quot;nosetests\&quot; and \&quot;py.test\&quot;.  It is possible to benchmark runtime, memory usage, or any user-defined metric.\r\n\r\nOther features either implemented or in the planning stages include:\r\n\r\n1. tight integration with existing profiling tools, such as RunSnakeRun\r\n2. parameterized benchmarks to investigate how an algorithm scales with data size\r\n3. automatic search for degrading commits\r\n\r\nThe presentation will provide a demo of airspeed velocity, and discuss its early usage for benchmarking the astropy project.&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;<a href="http://www.youtube.com/t/terms" rel="nofollow">http://www.youtube.com/t/terms</a>&quot;, 
+            &quot;embed&quot;: &quot;&lt;object width=\&quot;640\&quot; height=\&quot;390\&quot;&gt;&lt;param name=\&quot;movie\&quot; value=\&quot;http://youtube.com/v/OsxJ5O6h8s0?version=3&amp;amp;hl=en_US\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowFullScreen\&quot; value=\&quot;true\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowscriptaccess\&quot; value=\&quot;always\&quot;&gt;&lt;/param&gt;&lt;embed src=\&quot;http://youtube.com/v/OsxJ5O6h8s0?version=3&amp;amp;hl=en_US\&quot; type=\&quot;application/x-shockwave-flash\&quot; width=\&quot;640\&quot; height=\&quot;390\&quot; allowscriptaccess=\&quot;always\&quot; allowfullscreen=\&quot;true\&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://i1.ytimg.com/vi/OsxJ5O6h8s0/hqdefault.jpg" rel="nofollow">http://i1.ytimg.com/vi/OsxJ5O6h8s0/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: &quot;&quot;, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: &quot;&quot;, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: &quot;&quot;, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: &quot;&quot;, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="http://www.youtube.com/watch?v=OsxJ5O6h8s0" rel="nofollow">http://www.youtube.com/watch?v=OsxJ5O6h8s0</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2014-07-09&quot;, 
+            &quot;added&quot;: &quot;2014-07-09T19:24:56.547&quot;, 
+            &quot;updated&quot;: &quot;2014-07-09T19:24:56.547&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;SciPy 2014&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;anatomy-of-matplotlib-part-1&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Benjamin Root&quot;
+            ], 
+            &quot;tags&quot;: [
+                &quot;matplotlib&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 2757, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Anatomy of Matplotlib - Part 1&quot;, 
+            &quot;summary&quot;: &quot;This tutorial will be the introduction to matplotlib. Users will learn the types of plots and experiment with them. Then the fundamental concepts and terminologies of matplotlib are introduced. Next, we will learn how to change the \&quot;look and feel\&quot; of their plots. Finally, users will be introduced to other toolkits that extends matplotlib.&quot;, 
+            &quot;description&quot;: &quot;Introduction\r\n============\r\n\r\nPurpose of matplotlib\r\n---------------------\r\n\r\nOnline Documentation\r\n--------------------\r\n### [<a href="http://matplotlib.org](http://matplotlib.org" rel="nofollow">matplotlib.org](http://matplotlib.org</a> \&quot;\&quot;)\r\n### Mailing Lists and StackOverflow\r\n### Github Repository\r\n### Bug Reports &amp; Feature Requests\r\n\r\nWhat is this \&quot;backend\&quot; thing I keep hearing about?\r\n==================================================\r\n### Interactive versus non-interactive\r\n### Agg\r\n### Tk, Qt, GTK, MacOSX, Wx, Cairo\r\n\r\nPlotting Functions\r\n==================\r\n### Graphs (plot, scatter, bar, stem, etc.)\r\n### Images (imshow, pcolor, pcolormesh, contour[f], etc.)\r\n### Lesser Knowns: (pie, acorr, hexbin, streamplot, etc.)\r\n\r\nWhat goes in a Figure?\r\n======================\r\n### Axes\r\n### Axis\r\n### ticks (and ticklines and ticklabels) (both major &amp; minor)\r\n### axis labels\r\n### axes title\r\n### figure suptitle\r\n### axis spines\r\n### colorbars (and the oddities thereof)\r\n### axis scale\r\n### axis gridlines\r\n### legend\r\n\r\nManipulating the \&quot;Look-and-Feel\&quot;\r\n================================\r\n\r\n### Introducing matplotlibrc\r\n### Properties\r\n- color (and edgecolor, linecolor, facecolor, etc...)\r\n- linewidth and edgewidth and markeredgewidth (and the oddity that happens in errorbar())\r\n- linestyle\r\n- fonts\r\n- zorder\r\n- visible\r\n\r\nWhat are toolkits?\r\n==================\r\n### axes_grid1\r\n### mplot3d\r\n### basemap\r\n&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;<a href="http://www.youtube.com/t/terms" rel="nofollow">http://www.youtube.com/t/terms</a>&quot;, 
+            &quot;embed&quot;: &quot;&lt;object width=\&quot;640\&quot; height=\&quot;390\&quot;&gt;&lt;param name=\&quot;movie\&quot; value=\&quot;http://youtube.com/v/A2adyFMsut0?version=3&amp;amp;hl=en_US\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowFullScreen\&quot; value=\&quot;true\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowscriptaccess\&quot; value=\&quot;always\&quot;&gt;&lt;/param&gt;&lt;embed src=\&quot;http://youtube.com/v/A2adyFMsut0?version=3&amp;amp;hl=en_US\&quot; type=\&quot;application/x-shockwave-flash\&quot; width=\&quot;640\&quot; height=\&quot;390\&quot; allowscriptaccess=\&quot;always\&quot; allowfullscreen=\&quot;true\&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://i1.ytimg.com/vi/A2adyFMsut0/hqdefault.jpg" rel="nofollow">http://i1.ytimg.com/vi/A2adyFMsut0/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: null, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="http://www.youtube.com/watch?v=A2adyFMsut0" rel="nofollow">http://www.youtube.com/watch?v=A2adyFMsut0</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2014-07-09&quot;, 
+            &quot;added&quot;: &quot;2014-07-10T22:35:23.504&quot;, 
+            &quot;updated&quot;: &quot;2014-07-10T22:35:23.504&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;SciPy 2014&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;anatomy-of-matplotlib-part-2&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Benjamin Root&quot;
+            ], 
+            &quot;tags&quot;: [
+                &quot;matplotlib&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 2756, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Anatomy of Matplotlib - Part 2&quot;, 
+            &quot;summary&quot;: &quot;This tutorial will be the introduction to matplotlib. Users will learn the types of plots and experiment with them. Then the fundamental concepts and terminologies of matplotlib are introduced. Next, we will learn how to change the \&quot;look and feel\&quot; of their plots. Finally, users will be introduced to other toolkits that extends matplotlib.&quot;, 
+            &quot;description&quot;: &quot;Introduction\r\n============\r\n\r\nPurpose of matplotlib\r\n---------------------\r\n\r\nOnline Documentation\r\n--------------------\r\n### [<a href="http://matplotlib.org](http://matplotlib.org" rel="nofollow">matplotlib.org](http://matplotlib.org</a> \&quot;\&quot;)\r\n### Mailing Lists and StackOverflow\r\n### Github Repository\r\n### Bug Reports &amp; Feature Requests\r\n\r\nWhat is this \&quot;backend\&quot; thing I keep hearing about?\r\n==================================================\r\n### Interactive versus non-interactive\r\n### Agg\r\n### Tk, Qt, GTK, MacOSX, Wx, Cairo\r\n\r\nPlotting Functions\r\n==================\r\n### Graphs (plot, scatter, bar, stem, etc.)\r\n### Images (imshow, pcolor, pcolormesh, contour[f], etc.)\r\n### Lesser Knowns: (pie, acorr, hexbin, streamplot, etc.)\r\n\r\nWhat goes in a Figure?\r\n======================\r\n### Axes\r\n### Axis\r\n### ticks (and ticklines and ticklabels) (both major &amp; minor)\r\n### axis labels\r\n### axes title\r\n### figure suptitle\r\n### axis spines\r\n### colorbars (and the oddities thereof)\r\n### axis scale\r\n### axis gridlines\r\n### legend\r\n\r\nManipulating the \&quot;Look-and-Feel\&quot;\r\n================================\r\n\r\n### Introducing matplotlibrc\r\n### Properties\r\n- color (and edgecolor, linecolor, facecolor, etc...)\r\n- linewidth and edgewidth and markeredgewidth (and the oddity that happens in errorbar())\r\n- linestyle\r\n- fonts\r\n- zorder\r\n- visible\r\n\r\nWhat are toolkits?\r\n==================\r\n### axes_grid1\r\n### mplot3d\r\n### basemap\r\n&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;<a href="http://www.youtube.com/t/terms" rel="nofollow">http://www.youtube.com/t/terms</a>&quot;, 
+            &quot;embed&quot;: &quot;&lt;object width=\&quot;640\&quot; height=\&quot;390\&quot;&gt;&lt;param name=\&quot;movie\&quot; value=\&quot;http://youtube.com/v/YXdaLmzYEKU?version=3&amp;amp;hl=en_US\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowFullScreen\&quot; value=\&quot;true\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowscriptaccess\&quot; value=\&quot;always\&quot;&gt;&lt;/param&gt;&lt;embed src=\&quot;http://youtube.com/v/YXdaLmzYEKU?version=3&amp;amp;hl=en_US\&quot; type=\&quot;application/x-shockwave-flash\&quot; width=\&quot;640\&quot; height=\&quot;390\&quot; allowscriptaccess=\&quot;always\&quot; allowfullscreen=\&quot;true\&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://i1.ytimg.com/vi/YXdaLmzYEKU/hqdefault.jpg" rel="nofollow">http://i1.ytimg.com/vi/YXdaLmzYEKU/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: null, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="http://www.youtube.com/watch?v=YXdaLmzYEKU" rel="nofollow">http://www.youtube.com/watch?v=YXdaLmzYEKU</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2014-07-09&quot;, 
+            &quot;added&quot;: &quot;2014-07-10T22:35:23.090&quot;, 
+            &quot;updated&quot;: &quot;2014-07-10T22:35:23.090&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;SciPy 2014&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;anatomy-of-matplotlib-part-3&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Benjamin Root&quot;
+            ], 
+            &quot;tags&quot;: [
+                &quot;matplotlib&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 2755, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Anatomy of Matplotlib - Part 3&quot;, 
+            &quot;summary&quot;: &quot;This tutorial will be the introduction to matplotlib. Users will learn the types of plots and experiment with them. Then the fundamental concepts and terminologies of matplotlib are introduced. Next, we will learn how to change the \&quot;look and feel\&quot; of their plots. Finally, users will be introduced to other toolkits that extends matplotlib.&quot;, 
+            &quot;description&quot;: &quot;Introduction\r\n============\r\n\r\nPurpose of matplotlib\r\n---------------------\r\n\r\nOnline Documentation\r\n--------------------\r\n### [<a href="http://matplotlib.org](http://matplotlib.org" rel="nofollow">matplotlib.org](http://matplotlib.org</a> \&quot;\&quot;)\r\n### Mailing Lists and StackOverflow\r\n### Github Repository\r\n### Bug Reports &amp; Feature Requests\r\n\r\nWhat is this \&quot;backend\&quot; thing I keep hearing about?\r\n==================================================\r\n### Interactive versus non-interactive\r\n### Agg\r\n### Tk, Qt, GTK, MacOSX, Wx, Cairo\r\n\r\nPlotting Functions\r\n==================\r\n### Graphs (plot, scatter, bar, stem, etc.)\r\n### Images (imshow, pcolor, pcolormesh, contour[f], etc.)\r\n### Lesser Knowns: (pie, acorr, hexbin, streamplot, etc.)\r\n\r\nWhat goes in a Figure?\r\n======================\r\n### Axes\r\n### Axis\r\n### ticks (and ticklines and ticklabels) (both major &amp; minor)\r\n### axis labels\r\n### axes title\r\n### figure suptitle\r\n### axis spines\r\n### colorbars (and the oddities thereof)\r\n### axis scale\r\n### axis gridlines\r\n### legend\r\n\r\nManipulating the \&quot;Look-and-Feel\&quot;\r\n================================\r\n\r\n### Introducing matplotlibrc\r\n### Properties\r\n- color (and edgecolor, linecolor, facecolor, etc...)\r\n- linewidth and edgewidth and markeredgewidth (and the oddity that happens in errorbar())\r\n- linestyle\r\n- fonts\r\n- zorder\r\n- visible\r\n\r\nWhat are toolkits?\r\n==================\r\n### axes_grid1\r\n### mplot3d\r\n### basemap\r\n&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;<a href="http://www.youtube.com/t/terms" rel="nofollow">http://www.youtube.com/t/terms</a>&quot;, 
+            &quot;embed&quot;: &quot;&lt;object width=\&quot;640\&quot; height=\&quot;390\&quot;&gt;&lt;param name=\&quot;movie\&quot; value=\&quot;http://youtube.com/v/QFIfLiw7gAI?version=3&amp;amp;hl=en_US\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowFullScreen\&quot; value=\&quot;true\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowscriptaccess\&quot; value=\&quot;always\&quot;&gt;&lt;/param&gt;&lt;embed src=\&quot;http://youtube.com/v/QFIfLiw7gAI?version=3&amp;amp;hl=en_US\&quot; type=\&quot;application/x-shockwave-flash\&quot; width=\&quot;640\&quot; height=\&quot;390\&quot; allowscriptaccess=\&quot;always\&quot; allowfullscreen=\&quot;true\&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://i1.ytimg.com/vi/QFIfLiw7gAI/hqdefault.jpg" rel="nofollow">http://i1.ytimg.com/vi/QFIfLiw7gAI/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: null, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="http://www.youtube.com/watch?v=QFIfLiw7gAI" rel="nofollow">http://www.youtube.com/watch?v=QFIfLiw7gAI</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2014-07-09&quot;, 
+            &quot;added&quot;: &quot;2014-07-10T22:35:22.700&quot;, 
+            &quot;updated&quot;: &quot;2014-07-10T22:35:22.700&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;SciPy 2014&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;astropy-and-astronomical-tools-part-i&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Erik Bray&quot;, 
+                &quot;Perry Greenfield&quot;, 
+                &quot;Thomas Robitaille&quot;, 
+                &quot;Tom Aldcroft&quot;
+            ], 
+            &quot;tags&quot;: [
+                &quot;astropy&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 2739, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Astropy and astronomical tools Part I&quot;, 
+            &quot;summary&quot;: &quot;The introductory session will start with an overview of the astropy project and the goals of the tutorial, followed by the basics on accessing astronomical data and the associated attributes of such data, including the units and coordinates. Also covered is how to use the new and powerful quantities facility, which allows physical quantities to be explicitly bound to the units they are defined in.&quot;, 
+            &quot;description&quot;: &quot;**Outline**\r\n\r\n* Overview of astropy (15 minutes) [Greenfield]\r\n    - Exercise: Import astropy, demonstrate that tools are present and echo simple examples given. (15 minutes: allowing for typical start-up problems)\r\n* Units/quantities (15 minutes) [Droettboom]\r\n    - Exercise: Solve problems using standard units; define new unit; use unit equivalencies; define blackbody function using quantities/units (15 minutes)\r\n* Tables (20 minutes) [Aldcroft]\r\n    - Exercise: read in provided table files and apply requested table manipulations (20 minutes)\r\n* Break (15 minutes)\r\n* Accessing and updating data\r\n    - FITS (30 minutes) [Bray]\r\n        + Exercise: Open supplied data files; manipulate header information; manipulate data; write results; update and append to existing file (30 minutes)\r\n    - ascii tables (15 minutes) [Aldcroft]\r\n        + Exercise: Open supplied ascii files, modify and convert into csv files (15 minutes) \r\n* coordinates (sky/time) (15 minutes) [Robitaille]\r\n    - Exercises: solve coordinate/time conversion problems; read in various string representations for coordinates/times; print alternate string representations (15 minutes)\r\n\r\n&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;<a href="http://www.youtube.com/t/terms" rel="nofollow">http://www.youtube.com/t/terms</a>&quot;, 
+            &quot;embed&quot;: &quot;&lt;object width=\&quot;640\&quot; height=\&quot;390\&quot;&gt;&lt;param name=\&quot;movie\&quot; value=\&quot;http://youtube.com/v/eiSg1enFFV4?version=3&amp;amp;hl=en_US\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowFullScreen\&quot; value=\&quot;true\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowscriptaccess\&quot; value=\&quot;always\&quot;&gt;&lt;/param&gt;&lt;embed src=\&quot;http://youtube.com/v/eiSg1enFFV4?version=3&amp;amp;hl=en_US\&quot; type=\&quot;application/x-shockwave-flash\&quot; width=\&quot;640\&quot; height=\&quot;390\&quot; allowscriptaccess=\&quot;always\&quot; allowfullscreen=\&quot;true\&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://i1.ytimg.com/vi/eiSg1enFFV4/hqdefault.jpg" rel="nofollow">http://i1.ytimg.com/vi/eiSg1enFFV4/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: null, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="http://www.youtube.com/watch?v=eiSg1enFFV4" rel="nofollow">http://www.youtube.com/watch?v=eiSg1enFFV4</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2014-07-09&quot;, 
+            &quot;added&quot;: &quot;2014-07-10T22:35:13.374&quot;, 
+            &quot;updated&quot;: &quot;2014-07-10T22:35:13.374&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;SciPy 2014&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;bayesian-statistical-analysis-using-python-part-1&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Chris Fonnesbeck&quot;
+            ], 
+            &quot;tags&quot;: [
+                &quot;bayesian&quot;, 
+                &quot;statistics&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 2760, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Bayesian Statistical Analysis using Python - Part 1&quot;, 
+            &quot;summary&quot;: &quot;This hands-on tutorial will introduce statistical analysis in Python using Bayesian methods. Bayesian statistics offer a flexible &amp; powerful way of  analyzing data, but are computationally-intensive, for which Python is ideal. As a gentle introduction, we will solve simple problems using NumPy and SciPy, before moving on to Markov chain Monte Carlo methods to build more complex models using PyMC.&quot;, 
+            &quot;description&quot;: &quot;The aim of this course is to introduce new users to the Bayesian approach of statistical modeling and analysis, so that they can use Python packages such as NumPy, SciPy and [PyMC](https://github.com/pymc-devs/pymc) effectively to analyze their own data. It is designed to get users quickly up and running with Bayesian methods, incorporating just enough statistical background to allow users to understand, in general terms, what they are implementing. The tutorial will be example-driven, with illustrative case studies using real data. Selected methods will include approximation methods, importance sampling, Markov chain Monte Carlo (MCMC) methods such as Metropolis-Hastings and Slice sampling. In addition to model fitting, the tutorial will address important techniques for model checking, model comparison, and steps for preparing data and processing model output. Tutorial content will be derived from the instructor&#39;s book *Bayesian Statistical Computing using Python*, to be published by Springer in late 2014.\r\n\r\n![PyMC forest plot](http://d.pr/i/pqWT+)\r\n\r\n![DAG](http://d.pr/i/AHZV+)\r\n\r\nAll course content will be available as a GitHub repository, including IPython notebooks and example data.\r\n\r\n## Tutorial Outline\r\n\r\n1.  Overview of Bayesian statistics.\r\n2.  Bayesian Inference with NumPy and SciPy\r\n3.  Markov chain Monte Carlo (MCMC)\r\n4.  The Essentials of PyMC\r\n5.  Fitting Linear Regression Models\r\n6.  Hierarchical Modeling\r\n7.  Model Checking and Validation\r\n\r\n## Installation Instructions\r\n\r\nThe easiest way to install the Python packages required for this tutorial is via [Anaconda](https://store.continuum.io/cshop/anaconda/), a scientific Python distribution offered by Continuum analytics. Several other tutorials will be recommending a similar setup. \r\n\r\nOne of the key features of Anaconda is a command line utility called `conda` that can be used to manage third party packages. We have built a PyMC package for `conda` that can be installed from your terminal via the following command:\r\n\r\n    conda install -c <a href="https://conda.binstar.org/pymc" rel="nofollow">https://conda.binstar.org/pymc</a> pymc\r\n\r\nThis should install any prerequisite packages that are required to run PyMC.\r\n\r\nOne caveat is that conda does not yet have a build of PyMC for **Python 3**. Therefore, you would have to build it yourself via pip:\r\n\r\n    pip install git+git://github.com/pymc-devs/pymc.git@2.3\r\n\r\nFor those of you on Mac OS X that are already using the [Homebrew](http://brew.sh) package manager, I have prepared a script that will install the entire Python scientific stack, including PyMC 2.3. You can download the script [here](https://gist.github.com/fonnesbeck/7de008b05e670d919b71) and run it via:\r\n\r\n    sh install_superpack_brew.sh&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;<a href="http://www.youtube.com/t/terms" rel="nofollow">http://www.youtube.com/t/terms</a>&quot;, 
+            &quot;embed&quot;: &quot;&lt;object width=\&quot;640\&quot; height=\&quot;390\&quot;&gt;&lt;param name=\&quot;movie\&quot; value=\&quot;http://youtube.com/v/vOBB_ycQ0RA?version=3&amp;amp;hl=en_US\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowFullScreen\&quot; value=\&quot;true\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowscriptaccess\&quot; value=\&quot;always\&quot;&gt;&lt;/param&gt;&lt;embed src=\&quot;http://youtube.com/v/vOBB_ycQ0RA?version=3&amp;amp;hl=en_US\&quot; type=\&quot;application/x-shockwave-flash\&quot; width=\&quot;640\&quot; height=\&quot;390\&quot; allowscriptaccess=\&quot;always\&quot; allowfullscreen=\&quot;true\&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://i1.ytimg.com/vi/vOBB_ycQ0RA/hqdefault.jpg" rel="nofollow">http://i1.ytimg.com/vi/vOBB_ycQ0RA/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: &quot;&quot;, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: &quot;&quot;, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: &quot;&quot;, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: &quot;&quot;, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="http://www.youtube.com/watch?v=vOBB_ycQ0RA" rel="nofollow">http://www.youtube.com/watch?v=vOBB_ycQ0RA</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2014-07-09&quot;, 
+            &quot;added&quot;: &quot;2014-07-10T22:35:24.776&quot;, 
+            &quot;updated&quot;: &quot;2014-07-10T22:35:24.776&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;SciPy 2014&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;bayesian-statistical-analysis-using-python-part-0&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Chris Fonnesbeck&quot;
+            ], 
+            &quot;tags&quot;: [
+                &quot;bayesian&quot;, 
+                &quot;statistics&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 2759, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Bayesian Statistical Analysis using Python - Part 2&quot;, 
+            &quot;summary&quot;: &quot;This hands-on tutorial will introduce statistical analysis in Python using Bayesian methods. Bayesian statistics offer a flexible &amp; powerful way of  analyzing data, but are computationally-intensive, for which Python is ideal. As a gentle introduction, we will solve simple problems using NumPy and SciPy, before moving on to Markov chain Monte Carlo methods to build more complex models using PyMC.&quot;, 
+            &quot;description&quot;: &quot;The aim of this course is to introduce new users to the Bayesian approach of statistical modeling and analysis, so that they can use Python packages such as NumPy, SciPy and [PyMC](https://github.com/pymc-devs/pymc) effectively to analyze their own data. It is designed to get users quickly up and running with Bayesian methods, incorporating just enough statistical background to allow users to understand, in general terms, what they are implementing. The tutorial will be example-driven, with illustrative case studies using real data. Selected methods will include approximation methods, importance sampling, Markov chain Monte Carlo (MCMC) methods such as Metropolis-Hastings and Slice sampling. In addition to model fitting, the tutorial will address important techniques for model checking, model comparison, and steps for preparing data and processing model output. Tutorial content will be derived from the instructor&#39;s book *Bayesian Statistical Computing using Python*, to be published by Springer in late 2014.\r\n\r\n![PyMC forest plot](http://d.pr/i/pqWT+)\r\n\r\n![DAG](http://d.pr/i/AHZV+)\r\n\r\nAll course content will be available as a GitHub repository, including IPython notebooks and example data.\r\n\r\n## Tutorial Outline\r\n\r\n1.  Overview of Bayesian statistics.\r\n2.  Bayesian Inference with NumPy and SciPy\r\n3.  Markov chain Monte Carlo (MCMC)\r\n4.  The Essentials of PyMC\r\n5.  Fitting Linear Regression Models\r\n6.  Hierarchical Modeling\r\n7.  Model Checking and Validation\r\n\r\n## Installation Instructions\r\n\r\nThe easiest way to install the Python packages required for this tutorial is via [Anaconda](https://store.continuum.io/cshop/anaconda/), a scientific Python distribution offered by Continuum analytics. Several other tutorials will be recommending a similar setup. \r\n\r\nOne of the key features of Anaconda is a command line utility called `conda` that can be used to manage third party packages. We have built a PyMC package for `conda` that can be installed from your terminal via the following command:\r\n\r\n    conda install -c <a href="https://conda.binstar.org/pymc" rel="nofollow">https://conda.binstar.org/pymc</a> pymc\r\n\r\nThis should install any prerequisite packages that are required to run PyMC.\r\n\r\nOne caveat is that conda does not yet have a build of PyMC for **Python 3**. Therefore, you would have to build it yourself via pip:\r\n\r\n    pip install git+git://github.com/pymc-devs/pymc.git@2.3\r\n\r\nFor those of you on Mac OS X that are already using the [Homebrew](http://brew.sh) package manager, I have prepared a script that will install the entire Python scientific stack, including PyMC 2.3. You can download the script [here](https://gist.github.com/fonnesbeck/7de008b05e670d919b71) and run it via:\r\n\r\n    sh install_superpack_brew.sh&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;<a href="http://www.youtube.com/t/terms" rel="nofollow">http://www.youtube.com/t/terms</a>&quot;, 
+            &quot;embed&quot;: &quot;&lt;object width=\&quot;640\&quot; height=\&quot;390\&quot;&gt;&lt;param name=\&quot;movie\&quot; value=\&quot;http://youtube.com/v/gFYPCdWB2-w?version=3&amp;amp;hl=en_US\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowFullScreen\&quot; value=\&quot;true\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowscriptaccess\&quot; value=\&quot;always\&quot;&gt;&lt;/param&gt;&lt;embed src=\&quot;http://youtube.com/v/gFYPCdWB2-w?version=3&amp;amp;hl=en_US\&quot; type=\&quot;application/x-shockwave-flash\&quot; width=\&quot;640\&quot; height=\&quot;390\&quot; allowscriptaccess=\&quot;always\&quot; allowfullscreen=\&quot;true\&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://i1.ytimg.com/vi/gFYPCdWB2-w/hqdefault.jpg" rel="nofollow">http://i1.ytimg.com/vi/gFYPCdWB2-w/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: null, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="http://www.youtube.com/watch?v=gFYPCdWB2-w" rel="nofollow">http://www.youtube.com/watch?v=gFYPCdWB2-w</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2014-07-09&quot;, 
+            &quot;added&quot;: &quot;2014-07-10T22:35:24.351&quot;, 
+            &quot;updated&quot;: &quot;2014-07-10T22:35:24.351&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;SciPy 2014&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;bayesian-statistical-analysis-using-python-part&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Chris Fonnesbeck&quot;
+            ], 
+            &quot;tags&quot;: [
+                &quot;bayesian&quot;, 
+                &quot;statistics&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 2758, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Bayesian Statistical Analysis using Python - Part 3&quot;, 
+            &quot;summary&quot;: &quot;This hands-on tutorial will introduce statistical analysis in Python using Bayesian methods. Bayesian statistics offer a flexible &amp; powerful way of  analyzing data, but are computationally-intensive, for which Python is ideal. As a gentle introduction, we will solve simple problems using NumPy and SciPy, before moving on to Markov chain Monte Carlo methods to build more complex models using PyMC.&quot;, 
+            &quot;description&quot;: &quot;The aim of this course is to introduce new users to the Bayesian approach of statistical modeling and analysis, so that they can use Python packages such as NumPy, SciPy and [PyMC](https://github.com/pymc-devs/pymc) effectively to analyze their own data. It is designed to get users quickly up and running with Bayesian methods, incorporating just enough statistical background to allow users to understand, in general terms, what they are implementing. The tutorial will be example-driven, with illustrative case studies using real data. Selected methods will include approximation methods, importance sampling, Markov chain Monte Carlo (MCMC) methods such as Metropolis-Hastings and Slice sampling. In addition to model fitting, the tutorial will address important techniques for model checking, model comparison, and steps for preparing data and processing model output. Tutorial content will be derived from the instructor&#39;s book *Bayesian Statistical Computing using Python*, to be published by Springer in late 2014.\r\n\r\n![PyMC forest plot](http://d.pr/i/pqWT+)\r\n\r\n![DAG](http://d.pr/i/AHZV+)\r\n\r\nAll course content will be available as a GitHub repository, including IPython notebooks and example data.\r\n\r\n## Tutorial Outline\r\n\r\n1.  Overview of Bayesian statistics.\r\n2.  Bayesian Inference with NumPy and SciPy\r\n3.  Markov chain Monte Carlo (MCMC)\r\n4.  The Essentials of PyMC\r\n5.  Fitting Linear Regression Models\r\n6.  Hierarchical Modeling\r\n7.  Model Checking and Validation\r\n\r\n## Installation Instructions\r\n\r\nThe easiest way to install the Python packages required for this tutorial is via [Anaconda](https://store.continuum.io/cshop/anaconda/), a scientific Python distribution offered by Continuum analytics. Several other tutorials will be recommending a similar setup. \r\n\r\nOne of the key features of Anaconda is a command line utility called `conda` that can be used to manage third party packages. We have built a PyMC package for `conda` that can be installed from your terminal via the following command:\r\n\r\n    conda install -c <a href="https://conda.binstar.org/pymc" rel="nofollow">https://conda.binstar.org/pymc</a> pymc\r\n\r\nThis should install any prerequisite packages that are required to run PyMC.\r\n\r\nOne caveat is that conda does not yet have a build of PyMC for **Python 3**. Therefore, you would have to build it yourself via pip:\r\n\r\n    pip install git+git://github.com/pymc-devs/pymc.git@2.3\r\n\r\nFor those of you on Mac OS X that are already using the [Homebrew](http://brew.sh) package manager, I have prepared a script that will install the entire Python scientific stack, including PyMC 2.3. You can download the script [here](https://gist.github.com/fonnesbeck/7de008b05e670d919b71) and run it via:\r\n\r\n    sh install_superpack_brew.sh&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;<a href="http://www.youtube.com/t/terms" rel="nofollow">http://www.youtube.com/t/terms</a>&quot;, 
+            &quot;embed&quot;: &quot;&lt;object width=\&quot;640\&quot; height=\&quot;390\&quot;&gt;&lt;param name=\&quot;movie\&quot; value=\&quot;http://youtube.com/v/54sFjp7AvXM?version=3&amp;amp;hl=en_US\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowFullScreen\&quot; value=\&quot;true\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowscriptaccess\&quot; value=\&quot;always\&quot;&gt;&lt;/param&gt;&lt;embed src=\&quot;http://youtube.com/v/54sFjp7AvXM?version=3&amp;amp;hl=en_US\&quot; type=\&quot;application/x-shockwave-flash\&quot; width=\&quot;640\&quot; height=\&quot;390\&quot; allowscriptaccess=\&quot;always\&quot; allowfullscreen=\&quot;true\&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://i1.ytimg.com/vi/54sFjp7AvXM/hqdefault.jpg" rel="nofollow">http://i1.ytimg.com/vi/54sFjp7AvXM/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: null, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="http://www.youtube.com/watch?v=54sFjp7AvXM" rel="nofollow">http://www.youtube.com/watch?v=54sFjp7AvXM</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2014-07-09&quot;, 
+            &quot;added&quot;: &quot;2014-07-10T22:35:23.938&quot;, 
+            &quot;updated&quot;: &quot;2014-07-10T22:35:23.939&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;SciPy 2014&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;bokeh-interactive-visualizations-in-the-browser&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Bryan Van de Ven&quot;
+            ], 
+            &quot;tags&quot;: [
+                &quot;bokeh&quot;, 
+                &quot;vis&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 2736, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Bokeh: Interactive Visualizations in the Browser&quot;, 
+            &quot;summary&quot;: &quot;Bokeh is a Python visualization library for large datasets that natively uses the latest web technologies. Its goal is to provide concise construction of novel graphics, while delivering high-performance interactivity over large data to thin clients. This talk will cover the motivation and architecture behind Bokeh, demonstrate interesting uses and capability, and discuss future plans. &quot;, 
+            &quot;description&quot;: &quot;With support from the DARPA XDATA Initiative, and contributions from community members, the Bokeh visualization library (<a href="http://bokeh.pydata.org" rel="nofollow">http://bokeh.pydata.org</a>) has grown into a large, successful open source project with heavy interest and following on GitHub (<a href="https://github.com/ContinuumIO/bokeh" rel="nofollow">https://github.com/ContinuumIO/bokeh</a>). The principal goals of Bokeh are to provide capability to developers and domain experts:\r\n\r\n* easily create novel and powerful visualizations\r\n* that extract insight from remote, possibly large data sets\r\n* published to the web for others to explore and interact\r\n\r\nThis talk will describe how the architecture of Bokeh enables these goals, and demonstrate how it can be leveraged by anyone using python for analysis to visualize and present their work. We will talk about current development and future plans, including a brief discussion of Joseph Cottam&#39;s exciting academic work on abstract rendering for large data sets that is going into Bokeh (<a href="https://github.com/JosephCottam/AbstractRendering).%5Cr%5Cn%5Cr%5Cn%5Cr%5Cn%5Cr%5Cn%5Cr%5Cn" rel="nofollow">https://github.com/JosephCottam/AbstractRendering).\r\n\r\n\r\n\r\n\r\n</a>&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;<a href="http://www.youtube.com/t/terms" rel="nofollow">http://www.youtube.com/t/terms</a>&quot;, 
+            &quot;embed&quot;: &quot;&lt;object width=\&quot;640\&quot; height=\&quot;390\&quot;&gt;&lt;param name=\&quot;movie\&quot; value=\&quot;http://youtube.com/v/B9NpLOyp-dI?version=3&amp;amp;hl=en_US\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowFullScreen\&quot; value=\&quot;true\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowscriptaccess\&quot; value=\&quot;always\&quot;&gt;&lt;/param&gt;&lt;embed src=\&quot;http://youtube.com/v/B9NpLOyp-dI?version=3&amp;amp;hl=en_US\&quot; type=\&quot;application/x-shockwave-flash\&quot; width=\&quot;640\&quot; height=\&quot;390\&quot; allowscriptaccess=\&quot;always\&quot; allowfullscreen=\&quot;true\&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://i1.ytimg.com/vi/B9NpLOyp-dI/hqdefault.jpg" rel="nofollow">http://i1.ytimg.com/vi/B9NpLOyp-dI/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: null, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="http://www.youtube.com/watch?v=B9NpLOyp-dI" rel="nofollow">http://www.youtube.com/watch?v=B9NpLOyp-dI</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2014-07-09&quot;, 
+            &quot;added&quot;: &quot;2014-07-10T22:35:11.964&quot;, 
+            &quot;updated&quot;: &quot;2014-07-10T22:35:11.964&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;SciPy 2014&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;conda-a-cross-platform-package-manager-for-any-b&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Aaron Meurer&quot;, 
+                &quot;Ilan Schnell&quot;
+            ], 
+            &quot;tags&quot;: [
+                &quot;conda&quot;, 
+                &quot;packaging&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 2735, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Conda: A Cross Platform Package Manager for any Binary Distribution&quot;, 
+            &quot;summary&quot;: &quot;Conda is an open source package manager, which can be used to manage binary packages and virtual environments on any platform. It is the package manager of the Anaconda Python distribution, although it can be used independently of Anaconda.  We will look at how conda solves many of the problems that have plagued Python packaging in the past, followed by a demonstration of its features.&quot;, 
+            &quot;description&quot;: &quot;We will look at the issues that have plagued packaging in the Python ecosystem in the past, and discuss how Conda solves these problems. We will show how to use conda to manage multiple environments. Finally, we will look at how to build your own conda packages. \r\n\r\n- What is the packaging problem? We will briefly look at the history of the problem and the various solutions to it.  There are two sides to the packaging problem: the problem of installing existing packages and the problem of building packages to be installed. We look at the history of distutils, setuptools, distribute, and pip, the some of the problems they solved, and issues that arose, particularly for the scientific Python community. \r\n\r\n- We will look at the conda package format, the design decisions that guided the format, and the implications of those decisions. A conda package is a bz2 compressed tarfile of all the files installed in a prefix, along with a metadata directory for the package. A conda package is typically installed by hard linking these files into the install prefix. Conda packages should be relocatable, so that they can be installed into any prefix. This allows conda packages to be installed into many virtual environments at once. A conda package is not Python specific. \r\n\r\n- We will look at how basic commands for installation and environment management. Conda uses a SAT solver to solve package dependency constraints, which is a simple, rigorous, and modern way to ensure that the set of packages that are installed are consistent with one another. \r\n\r\n- Conda has an extensive build framework which allows anybody to build their own conda packages. We will show how to use these tools and how to upload them to Binstar, a free packaging hosting service.&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;<a href="http://www.youtube.com/t/terms" rel="nofollow">http://www.youtube.com/t/terms</a>&quot;, 
+            &quot;embed&quot;: &quot;&lt;object width=\&quot;640\&quot; height=\&quot;390\&quot;&gt;&lt;param name=\&quot;movie\&quot; value=\&quot;http://youtube.com/v/UaIvrDWrIWM?version=3&amp;amp;hl=en_US\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowFullScreen\&quot; value=\&quot;true\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowscriptaccess\&quot; value=\&quot;always\&quot;&gt;&lt;/param&gt;&lt;embed src=\&quot;http://youtube.com/v/UaIvrDWrIWM?version=3&amp;amp;hl=en_US\&quot; type=\&quot;application/x-shockwave-flash\&quot; width=\&quot;640\&quot; height=\&quot;390\&quot; allowscriptaccess=\&quot;always\&quot; allowfullscreen=\&quot;true\&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://i1.ytimg.com/vi/UaIvrDWrIWM/hqdefault.jpg" rel="nofollow">http://i1.ytimg.com/vi/UaIvrDWrIWM/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: null, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="http://www.youtube.com/watch?v=UaIvrDWrIWM" rel="nofollow">http://www.youtube.com/watch?v=UaIvrDWrIWM</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2014-07-09&quot;, 
+            &quot;added&quot;: &quot;2014-07-10T22:35:11.562&quot;, 
+            &quot;updated&quot;: &quot;2014-07-10T22:35:11.562&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;SciPy 2014&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;creating-a-browser-based-virtual-computer-lab-for&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Ramalingam Saravanan&quot;
+            ], 
+            &quot;tags&quot;: [], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 2721, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Creating a browser based virtual computer lab for classroom instruction&quot;, 
+            &quot;summary&quot;: &quot;With laptops and tablets becoming more powerful and more ubiquitous in the classroom, traditional computer labs with rows of expensive desktops are beginning to lose their relevance. This presentation will discuss browser-based virtual computer labs for teaching Python, using a notebook interface, as an alternative approach to classroom instruction.&quot;, 
+            &quot;description&quot;: &quot;One of the difficulties in using Python for scientific applications is that one needs a fairly complete set of Python data processing and visualization packages to be installed, beyond the standard Python distribution. Freely available scientific Python distributions like Enthought Canopy and Anaconda address this problem. A typical approach to teaching Python is to use a dedicated computer lab, where one of these distributions is installed on a set of machines with identical computing environments for use by students. With laptop computers becoming cheap and ubiquitous, an alternative approach is to allow students to use their own computers, where they install one of the scientific Python distributions by themselves. This approach requires more set-up time, because the software often requires some minor tweaking for each software platform, but requires no dedicated hardware and has the advantage of allowing students to easily run programs after class on their own computers. This presentation discusses a third approach that involves creating a software environment for Python using \u201ccloud computing\u201d. There are already commercial products available that provide well-supported Python computing environments in the cloud. This presentation focuses on alternative \u201croll your own\u201d solutions using open-source software that are specifically targeted for use in an interactive classroom instruction setting.\r\n\r\nCreating a virtual computing lab usually involves instantiating a server using a cloud infrastructure provider, such as Amazon Web Services. A new server can be set-up within minutes, with a scientific Python distribution automatically installed during set-up. Students can then login to their own accounts on the server using a browser-based interface to execute Python programs and visualize graphical output. Typically, each student would use a notebook interface to work on lessons.\r\n\r\nDifferent approaches can be used to create separate accounts for multiple users. The simplest would be to create different user accounts on a Linux virtual machine. If greater isolation is required, lightweight linux containers can be created on-demand for each user. Although IPython Notebook can currently be run as a public server to work with multiple notebooks simultaneously, true multi-user support is expected to be implemented further down the road. However, there are a few open-source projects, such as JiffyLab, that already support a multi-user IPython Notebook environment. Another option is to use the open-source GraphTerm server, which supports a multi-user  \u201cgraphical terminal\u201d environment with a notebook interface. The pros and cons of these different approaches to building a virtual computer lab will be discussed.\r\n\r\nAlso discussed will be additional features that could be useful in a virtual computing lab such as the capability for the instructor to chat with the students and monitor their individual progress using a \u201cdashboard\u201d. Allowing students to collaborate in groups, with ability to view and edit each others\u2019 code, can help promote classroom interaction. Enhancements to the notebook interface, such as \u201cfill in the blanks\u201d notebooks, can facilitate more structured instruction. The implementation of some of these features in the GraphTerm server will be discussed.\r\n\r\nLINKS:\r\n\r\n[JiffyLab source](https://github.com/ptone/jiffylab)\r\n\r\n[GraphTerm source](https://github.com/mitotic/graphterm)\r\n\r\n[GraphTerm talk from SciPy 2013](http://conference.scipy.org/proceedings/scipy2013/pdfs/saravanan.pdf)\r\n&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;<a href="http://www.youtube.com/t/terms" rel="nofollow">http://www.youtube.com/t/terms</a>&quot;, 
+            &quot;embed&quot;: &quot;&lt;object width=\&quot;640\&quot; height=\&quot;390\&quot;&gt;&lt;param name=\&quot;movie\&quot; value=\&quot;http://youtube.com/v/LiZJMYxvJbQ?version=3&amp;amp;hl=en_US\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowFullScreen\&quot; value=\&quot;true\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowscriptaccess\&quot; value=\&quot;always\&quot;&gt;&lt;/param&gt;&lt;embed src=\&quot;http://youtube.com/v/LiZJMYxvJbQ?version=3&amp;amp;hl=en_US\&quot; type=\&quot;application/x-shockwave-flash\&quot; width=\&quot;640\&quot; height=\&quot;390\&quot; allowscriptaccess=\&quot;always\&quot; allowfullscreen=\&quot;true\&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://i1.ytimg.com/vi/LiZJMYxvJbQ/hqdefault.jpg" rel="nofollow">http://i1.ytimg.com/vi/LiZJMYxvJbQ/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: null, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="http://www.youtube.com/watch?v=LiZJMYxvJbQ" rel="nofollow">http://www.youtube.com/watch?v=LiZJMYxvJbQ</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2014-07-09&quot;, 
+            &quot;added&quot;: &quot;2014-07-09T19:24:52.034&quot;, 
+            &quot;updated&quot;: &quot;2014-07-09T19:24:52.034&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;SciPy 2014&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;frequentism-and-bayesianism-whats-the-big-deal&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Jake VanderPlas&quot;
+            ], 
+            &quot;tags&quot;: [
+                &quot;statistics&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 2714, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Frequentism and Bayesianism: What&#39;s the Big Deal?&quot;, 
+            &quot;summary&quot;: &quot;Statistical analysis comes in two main flavors: frequentist and Bayesian. The subtle differences between the two can lead to widely divergent approaches to common data analysis tasks. After a brief discussion of the philosophical distinctions between the views, I\u2019ll utilize well-known Python libraries to demonstrate how this philosophy affects practical approaches to several common analysis tasks.&quot;, 
+            &quot;description&quot;: &quot;In scientific data mining and machine learning, a fundamental division is that of the frequentist and Bayesian approaches to statistics. Often the fodder for impassioned debate among statisticians and other practitioners, the subtle philosophical differences between the two camps can lead to surprisingly different practical approaches to the analysis of scientific data. \r\n\r\nIn this talk I will delve into both the philosophical and practical aspects of Bayesian and frequentist approaches, drawing from a [series of posts](http://jakevdp.github.io/blog/2014/03/11/frequentism-and-bayesianism-a-practical-intro/) from my blog.\r\n\r\nI&#39;ll start by addressing the philosophical differences between frequentism and Bayesianism, which boil down to different definitions of probability. I&#39;ll next move briefly into the mathematical details behind the two approaches, at a level which will be informative to a general scientific audience. I&#39;ll then show some examples of the two approaches applied to some increasingly more complicated problems using standard Python packages, namely: [NumPy](http://numpy.org), [SciPy](http://scipy.org), [Matplotlib](http://matplotlib.org), and [emcee](http://dan.iel.fm/emcee/).\r\n\r\nWith this combination of philosophy and practical examples, the audience should walk away with a much better understanding of the differences between frequentist and Bayesian approaches to statistical analysis, and especially how the philosophy of each approach affects the practical aspects of computation in data-intensive scientific research.&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;<a href="http://www.youtube.com/t/terms" rel="nofollow">http://www.youtube.com/t/terms</a>&quot;, 
+            &quot;embed&quot;: &quot;&lt;object width=\&quot;640\&quot; height=\&quot;390\&quot;&gt;&lt;param name=\&quot;movie\&quot; value=\&quot;http://youtube.com/v/KhAUfqhLakw?version=3&amp;amp;hl=en_US\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowFullScreen\&quot; value=\&quot;true\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowscriptaccess\&quot; value=\&quot;always\&quot;&gt;&lt;/param&gt;&lt;embed src=\&quot;http://youtube.com/v/KhAUfqhLakw?version=3&amp;amp;hl=en_US\&quot; type=\&quot;application/x-shockwave-flash\&quot; width=\&quot;640\&quot; height=\&quot;390\&quot; allowscriptaccess=\&quot;always\&quot; allowfullscreen=\&quot;true\&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://i1.ytimg.com/vi/KhAUfqhLakw/hqdefault.jpg" rel="nofollow">http://i1.ytimg.com/vi/KhAUfqhLakw/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: null, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="http://www.youtube.com/watch?v=KhAUfqhLakw" rel="nofollow">http://www.youtube.com/watch?v=KhAUfqhLakw</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2014-07-09&quot;, 
+            &quot;added&quot;: &quot;2014-07-09T19:24:49.302&quot;, 
+            &quot;updated&quot;: &quot;2014-07-09T19:24:49.302&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;SciPy 2014&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;fundamentals-of-the-ipython-display-architecture&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Brian Granger&quot;, 
+                &quot;Jonathan Frederic&quot;
+            ], 
+            &quot;tags&quot;: [
+                &quot;ipython&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 2743, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Fundamentals of the IPython Display Architecture+Interactive Widgets&quot;, 
+            &quot;summary&quot;: &quot;In this tutorial, attendees will learn how to use the IPython Notebook\u2019s display architecture and interactive widgets. As we cover these topics, attendees will learn about the underlying architecture, how to use IPython\u2019s existing APIs, and how to extend them for their own purposes. This tutorial will not cover the basics of the IPython Notebook.\r\n&quot;, 
+            &quot;description&quot;: &quot;IPython provides an architecture for interactive computing. The IPython Notebook is a web-based interactive computing environment for exploratory and reproducible computing. With the IPython Notebook, users create documents, called notebooks, that contain formatted text, figures, equations, programming code, and code output.\r\n\r\nThe IPython Notebook generalizes the notion of output to include images, LaTeX, video, HTML, JavaScript, PDF, etc. These output formats are displayed in the Notebook using IPython\u2019s display architecture, embedded in notebook documents and rendered on the IPython Notebook Viewer. By taking advantage of these rich output formats users can build notebooks that include rich representations and visualizations of data and other content. In this tutorial, we will describe the display architecture, existing Python APIs and libraries that already use it (mpld3, vincent, polotly, etc.), and how users can define custom display logic for their own Python objects.\r\n\r\nAs of version 2.0, the IPython Notebook also includes interactive JavaScript widgets.  These widgets provide a way for users to interact with UI controls in the browser that are tied to Python code in running in the kernel. We will begin by covering the highest-level API for these widgets, \u201cinteract,\u201d which automatically builds a user interface for exploring a Python function. Next we will describe the lower-level widget objects that are included with IPython: sliders, text boxes, buttons, etc. However, the full potential of the widget framework lies with its extensibility.  Users can create their own custom widgets using Python, JavaScript, HTML and CSS. We will conclude with a detailed look at custom widget creation.\r\n&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;<a href="http://www.youtube.com/t/terms" rel="nofollow">http://www.youtube.com/t/terms</a>&quot;, 
+            &quot;embed&quot;: &quot;&lt;object width=\&quot;640\&quot; height=\&quot;390\&quot;&gt;&lt;param name=\&quot;movie\&quot; value=\&quot;http://youtube.com/v/aIXED26Wppg?version=3&amp;amp;hl=en_US\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowFullScreen\&quot; value=\&quot;true\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowscriptaccess\&quot; value=\&quot;always\&quot;&gt;&lt;/param&gt;&lt;embed src=\&quot;http://youtube.com/v/aIXED26Wppg?version=3&amp;amp;hl=en_US\&quot; type=\&quot;application/x-shockwave-flash\&quot; width=\&quot;640\&quot; height=\&quot;390\&quot; allowscriptaccess=\&quot;always\&quot; allowfullscreen=\&quot;true\&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://i1.ytimg.com/vi/aIXED26Wppg/hqdefault.jpg" rel="nofollow">http://i1.ytimg.com/vi/aIXED26Wppg/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: null, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="http://www.youtube.com/watch?v=aIXED26Wppg" rel="nofollow">http://www.youtube.com/watch?v=aIXED26Wppg</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2014-07-09&quot;, 
+            &quot;added&quot;: &quot;2014-07-10T22:35:15.024&quot;, 
+            &quot;updated&quot;: &quot;2014-07-10T22:35:15.024&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;SciPy 2014&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;geospatial-data-in-python-database-desktop-and&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Carson Farmer&quot;
+            ], 
+            &quot;tags&quot;: [
+                &quot;geospatial&quot;, 
+                &quot;gis&quot;, 
+                &quot;tutorial&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 2709, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Geospatial data in Python: Database, Desktop, and the Web part 1&quot;, 
+            &quot;summary&quot;: &quot;Using the wide range of tools and libraries available for working with geospatial data, it is now possible to transport geospatial data from a database to a web-interface in only a few lines of code. In this tutorial, we explore some of these libraries and work through examples which showcase the power of Python for geospatial data.&quot;, 
+            &quot;description&quot;: &quot;Tools and libraries for working with geospatial data in Python are currently undergoing rapid development and expansion. Libraries such as shapely, fiona, rasterio, geopandas, and others now provide Pythonic ways of reading, writing, editing, and manipulating geographic data. In this tutorial, participants will be exposed to a number of new and legacy geospatial libraries in Python, with a focus on simple and rapid interaction with geospatial data.\r\n\r\nWe will utilize Python to interact with geographic data from a database to a web interface, all the while showcasing how Python can be used to access data from online resources, query spatially enabled databases, perform coordinate transformations and geoprocessing functions, and export geospatial data to web-enabled formats for visualizing and sharing with others. Time permitting, we will also briefly explore Python plugin development for the QGIS Desktop GIS environment.\r\n\r\nThis tutorial should be accessible to anyone who has basic Python knowledge (though familiarity with Pandas, NumPy, matplotlib, etc. will be helpful) as well as familiarity with IPython Notebook. We will take some time at the start of the tutorial to go over installation strategies for geospatial libraries (GDAL/OGR, Proj.4, GEOS) and their Python bindings (Shapely, Fiona, GeoPandas) on Windows, Mac, and Linux. Some knowledge of geospatial concepts such as map projections and GIS data formats will also be helpful.\r\n\r\n### Outline\r\n- Introduction to geospatial data\r\n    - Map projections, data formats, and looking at maps\r\n- Introduction to geospatial libraries\r\n    - GDAL/OGR (Fiona); Shapely (GEOS); PostGIS; GeoPandas; and more\r\n- GeoPandas\r\n    - Reading data from various sources\r\n    - Data manipulation and plotting\r\n    - Writing data to various sources\r\n    - Getting data from the web\r\n    - Pushing data to the web (for maps)\r\n- Putting it all together\r\n    - Quick example: From database to web\r\n- Introduction to QGIS Desktop GIS (time permitting)\r\n    - Python interface (PyQGIS)\r\n    - Building a simple plugin\r\n    - Plugin deployment\r\n&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;<a href="http://www.youtube.com/t/terms" rel="nofollow">http://www.youtube.com/t/terms</a>&quot;, 
+            &quot;embed&quot;: &quot;&lt;object width=\&quot;640\&quot; height=\&quot;390\&quot;&gt;&lt;param name=\&quot;movie\&quot; value=\&quot;http://youtube.com/v/ctdjAir4TUg?version=3&amp;amp;hl=en_US\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowFullScreen\&quot; value=\&quot;true\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowscriptaccess\&quot; value=\&quot;always\&quot;&gt;&lt;/param&gt;&lt;embed src=\&quot;http://youtube.com/v/ctdjAir4TUg?version=3&amp;amp;hl=en_US\&quot; type=\&quot;application/x-shockwave-flash\&quot; width=\&quot;640\&quot; height=\&quot;390\&quot; allowscriptaccess=\&quot;always\&quot; allowfullscreen=\&quot;true\&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://i1.ytimg.com/vi/ctdjAir4TUg/hqdefault.jpg" rel="nofollow">http://i1.ytimg.com/vi/ctdjAir4TUg/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: null, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="http://www.youtube.com/watch?v=ctdjAir4TUg" rel="nofollow">http://www.youtube.com/watch?v=ctdjAir4TUg</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2014-07-09&quot;, 
+            &quot;added&quot;: &quot;2014-07-09T19:24:47.197&quot;, 
+            &quot;updated&quot;: &quot;2014-07-09T19:24:47.197&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;SciPy 2014&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;geospatial-data-in-python-database-desktop-and-0&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Carson Farmer&quot;
+            ], 
+            &quot;tags&quot;: [
+                &quot;geospatial&quot;, 
+                &quot;gis&quot;, 
+                &quot;tutorial&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 2710, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Geospatial data in Python: Database, Desktop, and the Web part 2&quot;, 
+            &quot;summary&quot;: &quot;Using the wide range of tools and libraries available for working with geospatial data, it is now possible to transport geospatial data from a database to a web-interface in only a few lines of code. In this tutorial, we explore some of these libraries and work through examples which showcase the power of Python for geospatial data.&quot;, 
+            &quot;description&quot;: &quot;&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;<a href="http://www.youtube.com/t/terms" rel="nofollow">http://www.youtube.com/t/terms</a>&quot;, 
+            &quot;embed&quot;: &quot;&lt;object width=\&quot;640\&quot; height=\&quot;390\&quot;&gt;&lt;param name=\&quot;movie\&quot; value=\&quot;http://youtube.com/v/t-BJnls4o_s?version=3&amp;amp;hl=en_US\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowFullScreen\&quot; value=\&quot;true\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowscriptaccess\&quot; value=\&quot;always\&quot;&gt;&lt;/param&gt;&lt;embed src=\&quot;http://youtube.com/v/t-BJnls4o_s?version=3&amp;amp;hl=en_US\&quot; type=\&quot;application/x-shockwave-flash\&quot; width=\&quot;640\&quot; height=\&quot;390\&quot; allowscriptaccess=\&quot;always\&quot; allowfullscreen=\&quot;true\&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://i1.ytimg.com/vi/t-BJnls4o_s/hqdefault.jpg" rel="nofollow">http://i1.ytimg.com/vi/t-BJnls4o_s/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: null, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="http://www.youtube.com/watch?v=t-BJnls4o_s" rel="nofollow">http://www.youtube.com/watch?v=t-BJnls4o_s</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2014-07-09&quot;, 
+            &quot;added&quot;: &quot;2014-07-09T19:24:47.590&quot;, 
+            &quot;updated&quot;: &quot;2014-07-09T19:24:47.590&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;SciPy 2014&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;geospatial-data-in-python-database-desktop-and-1&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Carson Farmer&quot;
+            ], 
+            &quot;tags&quot;: [
+                &quot;geospatial&quot;, 
+                &quot;gis&quot;, 
+                &quot;tutorial&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 2761, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Geospatial data in Python: Database, Desktop and the Web - Part 3&quot;, 
+            &quot;summary&quot;: &quot;Using the wide range of tools and libraries available for working with geospatial data, it is now possible to transport geospatial data from a database to a web-interface in only a few lines of code. In this tutorial, we explore some of these libraries and work through examples which showcase the power of Python for geospatial data.&quot;, 
+            &quot;description&quot;: &quot;Tools and libraries for working with geospatial data in Python are currently undergoing rapid development and expansion. Libraries such as shapely, fiona, rasterio, geopandas, and others now provide Pythonic ways of reading, writing, editing, and manipulating geographic data. In this tutorial, participants will be exposed to a number of new and legacy geospatial libraries in Python, with a focus on simple and rapid interaction with geospatial data.\r\n\r\nWe will utilize Python to interact with geographic data from a database to a web interface, all the while showcasing how Python can be used to access data from online resources, query spatially enabled databases, perform coordinate transformations and geoprocessing functions, and export geospatial data to web-enabled formats for visualizing and sharing with others. Time permitting, we will also briefly explore Python plugin development for the QGIS Desktop GIS environment.\r\n\r\nThis tutorial should be accessible to anyone who has basic Python knowledge (though familiarity with Pandas, NumPy, matplotlib, etc. will be helpful) as well as familiarity with IPython Notebook. We will take some time at the start of the tutorial to go over installation strategies for geospatial libraries (GDAL/OGR, Proj.4, GEOS) and their Python bindings (Shapely, Fiona, GeoPandas) on Windows, Mac, and Linux. Some knowledge of geospatial concepts such as map projections and GIS data formats will also be helpful.\r\n\r\n### Outline\r\n- Introduction to geospatial data\r\n    - Map projections, data formats, and looking at maps\r\n- Introduction to geospatial libraries\r\n    - GDAL/OGR (Fiona); Shapely (GEOS); PostGIS; GeoPandas; and more\r\n- GeoPandas\r\n    - Reading data from various sources\r\n    - Data manipulation and plotting\r\n    - Writing data to various sources\r\n    - Getting data from the web\r\n    - Pushing data to the web (for maps)\r\n- Putting it all together\r\n    - Quick example: From database to web\r\n- Introduction to QGIS Desktop GIS (time permitting)\r\n    - Python interface (PyQGIS)\r\n    - Building a simple plugin\r\n    - Plugin deployment\r\n&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;<a href="http://www.youtube.com/t/terms" rel="nofollow">http://www.youtube.com/t/terms</a>&quot;, 
+            &quot;embed&quot;: &quot;&lt;object width=\&quot;640\&quot; height=\&quot;390\&quot;&gt;&lt;param name=\&quot;movie\&quot; value=\&quot;http://youtube.com/v/0VSEfF0i1mI?version=3&amp;amp;hl=en_US\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowFullScreen\&quot; value=\&quot;true\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowscriptaccess\&quot; value=\&quot;always\&quot;&gt;&lt;/param&gt;&lt;embed src=\&quot;http://youtube.com/v/0VSEfF0i1mI?version=3&amp;amp;hl=en_US\&quot; type=\&quot;application/x-shockwave-flash\&quot; width=\&quot;640\&quot; height=\&quot;390\&quot; allowscriptaccess=\&quot;always\&quot; allowfullscreen=\&quot;true\&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://i1.ytimg.com/vi/0VSEfF0i1mI/hqdefault.jpg" rel="nofollow">http://i1.ytimg.com/vi/0VSEfF0i1mI/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: null, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="http://www.youtube.com/watch?v=0VSEfF0i1mI" rel="nofollow">http://www.youtube.com/watch?v=0VSEfF0i1mI</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2014-07-09&quot;, 
+            &quot;added&quot;: &quot;2014-07-10T22:35:25.195&quot;, 
+            &quot;updated&quot;: &quot;2014-07-10T22:35:25.195&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;SciPy 2014&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;hdf5-is-for-lovers-part-2&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Anthony Scopatz&quot;
+            ], 
+            &quot;tags&quot;: [
+                &quot;HDF5&quot;, 
+                &quot;PyTables&quot;, 
+                &quot;tutorial&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 2708, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;HDF5 is for Lovers part 2&quot;, 
+            &quot;summary&quot;: &quot;HDF5 is a hierarchical, binary database format that has become the de facto standard for \r\nscientific computing. While the spec may be used in a relatively simple way it also supports several high-level features that prove invaluable. HDF5 bindings exist for almost every language - including two Python libraries (PyTables and h5py). This tutorial will cover HDF5 through the lens of PyTables.&quot;, 
+            &quot;description&quot;: &quot;Description\r\n------------\r\nHDF5 is a hierarchical, binary database format that has become the de facto standard for \r\nscientific computing.  While the specification may be used in a relatively simple way \r\n(persistence of static arrays) it also supports several high-level features that prove \r\ninvaluable.  These include chunking, ragged data, extensible data, parallel I/O, \r\ncompression, complex selection, and in-core calculations.  Moreover, HDF5 bindings\r\nexist for almost every language - including two Python libraries (PyTables and h5py). This tutorial will cover HDF5 itself through the lens of PyTables.\r\n\r\nThis tutorial will discuss tools, strategies, and hacks for really squeezing every ounce\r\nof performance out of HDF5 in new or existing projects.  It will also go over fundamental \r\nlimitations in the specification and provide creative and subtle strategies for getting around \r\nthem.  Overall, this tutorial will show how HDF5 plays nicely with all parts of an application \r\nmaking the code and data both faster and smaller.  With such powerful features at the \r\ndeveloper&#39;s disposal, what is not to love?!\r\n\r\nKnowledge of Python, NumPy, C or C++, and basic HDF5 is recommended but not required.\r\n\r\nOutline\r\n--------------\r\n* Meaning in layout (20 min)\r\n\r\n    - Tips for choosing your hierarchy\r\n\r\n* Advanced datatypes (20 min)\r\n\r\n    - Tables\r\n    - Nested types\r\n    - Tricks with malloc() and byte-counting\r\n\r\n* **Exercise on above topics** (20 min)\r\n\r\n* Chunking (20 min)\r\n\r\n    - How it works\r\n    - How to properly select your chunksize\r\n\r\n* Queries and Selections (20 min)\r\n\r\n    - In-core vs Out-of-core calculations\r\n    - PyTables.where()\r\n    - Datasets vs Dataspaces\r\n\r\n* **Exercise on above topics** (20 min)\r\n\r\n* The Starving CPU Problem (1 hr)\r\n\r\n    - Why you should always use compression\r\n    - Compression algorithms available\r\n    - Choosing the correct one\r\n    - Exercise\r\n\r\n* Integration with other databases (1 hr)\r\n\r\n    - Migrating to/from SQL\r\n    - HDF5 in other databases (JSON example)\r\n    - Other Databases in HDF5 (JSON example)\r\n    - Exercise\r\n&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;<a href="http://www.youtube.com/t/terms" rel="nofollow">http://www.youtube.com/t/terms</a>&quot;, 
+            &quot;embed&quot;: &quot;&lt;object width=\&quot;640\&quot; height=\&quot;390\&quot;&gt;&lt;param name=\&quot;movie\&quot; value=\&quot;http://youtube.com/v/EcM6g9Yp004?version=3&amp;amp;hl=en_US\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowFullScreen\&quot; value=\&quot;true\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowscriptaccess\&quot; value=\&quot;always\&quot;&gt;&lt;/param&gt;&lt;embed src=\&quot;http://youtube.com/v/EcM6g9Yp004?version=3&amp;amp;hl=en_US\&quot; type=\&quot;application/x-shockwave-flash\&quot; width=\&quot;640\&quot; height=\&quot;390\&quot; allowscriptaccess=\&quot;always\&quot; allowfullscreen=\&quot;true\&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://i1.ytimg.com/vi/EcM6g9Yp004/hqdefault.jpg" rel="nofollow">http://i1.ytimg.com/vi/EcM6g9Yp004/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: null, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="http://www.youtube.com/watch?v=EcM6g9Yp004" rel="nofollow">http://www.youtube.com/watch?v=EcM6g9Yp004</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2014-07-09&quot;, 
+            &quot;added&quot;: &quot;2014-07-09T19:24:46.779&quot;, 
+            &quot;updated&quot;: &quot;2014-07-09T19:24:46.779&quot;
+        }
+    ]
+}</pre>
+            </div>
+        </div>
+
+            
+
+                
+
+                
+            
+
+        </div>
+        <!-- END content-main -->
+
+    </div>
+    <!-- END Content -->
+
+        <div id="push"></div>
+
+    </div>
+
+    </div><!-- ./wrapper -->
+
+    
+    
+
+    
+    <script src="/static/rest_framework/js/jquery-1.8.1-min.js"></script>
+    <script src="/static/rest_framework/js/bootstrap.min.js"></script>
+    <script src="/static/rest_framework/js/prettify-min.js"></script>
+    <script src="/static/rest_framework/js/default.js"></script>
+    
+  </body>
+
+<!-- Mirrored from pyvideo.org/api/v2/video/?page=75&format=api by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 07 Jan 2016 03:50:00 GMT -->
+</html>

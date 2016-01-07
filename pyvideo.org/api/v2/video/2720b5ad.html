@@ -1,0 +1,191 @@
+
+
+<!DOCTYPE html>
+<html>
+    
+<!-- Mirrored from pyvideo.org/api/v2/video/2720?format=api by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 07 Jan 2016 03:46:37 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+    
+
+        
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+        <meta name="robots" content="NONE,NOARCHIVE" />
+        
+
+        <title>Django REST framework</title>
+
+        
+        
+            <link rel="stylesheet" type="text/css" href="/static/rest_framework/css/bootstrap.min.css"/>
+            <link rel="stylesheet" type="text/css" href="/static/rest_framework/css/bootstrap-tweaks.css"/>
+        
+        <link rel="stylesheet" type="text/css" href="/static/rest_framework/css/prettify.css"/>
+        <link rel="stylesheet" type="text/css" href="/static/rest_framework/css/default.css"/>
+        
+
+    
+    </head>
+
+  <body class=" container">
+
+    <div class="wrapper">
+
+    
+    <div class="navbar navbar-inverse">
+        <div class="navbar-inner">
+            <div class="container-fluid">
+                <span href="/">
+                    <a class='brand' rel="nofollow" href='http://www.django-rest-framework.org'>Django REST framework <span class="version">2.3.14</span></a>
+                </span>
+                <ul class="nav pull-right">
+                    
+                        
+                            <li></li>
+                        
+                    
+                </ul>
+            </div>
+        </div>
+    </div>
+    
+
+    
+    <ul class="breadcrumb">
+        
+            <li>
+                <a href="/api/v2/video/" >Video List Create Api</a> <span class="divider">&rsaquo;</span>
+            </li>
+        
+            <li>
+                <a href="/api/v2/video/2720" class="active">Video Retrieve Update Api</a> 
+            </li>
+        
+    </ul>
+    
+
+    <!-- Content -->
+    <div id="content">
+
+        
+            <form id="get-form" class="pull-right">
+                <fieldset>
+                    <div class="btn-group format-selection">
+                        <a class="btn btn-primary js-tooltip" href='/api/v2/video/2720?format=api' rel="nofollow" title="Make a GET request on the Video Retrieve Update Api resource">GET</a>
+
+                        <button class="btn btn-primary dropdown-toggle js-tooltip" data-toggle="dropdown" title="Specify a format for the GET request">
+                            <span class="caret"></span>
+                        </button>
+                        <ul class="dropdown-menu">
+                            
+                                <li>
+                                    <a class="js-tooltip format-option" href='/api/v2/video/2720?format=json' rel="nofollow" title="Make a GET request on the Video Retrieve Update Api resource with the format set to `json`">json</a>
+                                </li>
+                            
+                                <li>
+                                    <a class="js-tooltip format-option" href='/api/v2/video/2720?format=api' rel="nofollow" title="Make a GET request on the Video Retrieve Update Api resource with the format set to `api`">api</a>
+                                </li>
+                            
+                        </ul>
+                    </div>
+
+                </fieldset>
+            </form>
+        
+
+        
+            <form class="button-form" action="/api/v2/video/2720?format=api" method="POST" class="pull-right">
+                <input type='hidden' name='csrfmiddlewaretoken' value='pT8iI6zhtQdsGFmu4tryYgFrUlipl2B3' />
+                <input type="hidden" name="_method" value="OPTIONS" />
+                <button class="btn btn-primary js-tooltip" title="Make an OPTIONS request on the Video Retrieve Update Api resource">OPTIONS</button>
+            </form>
+        
+
+        
+
+        <div class="content-main">
+            <div class="page-header"><h1>Video Retrieve Update Api</h1></div>
+            
+            
+            
+            <div class="request-info" style="clear: both" >
+                <pre class="prettyprint"><b>GET</b> /api/v2/video/2720?format=api</pre>
+            </div>
+            <div class="response-info">
+                <pre class="prettyprint"><div class="meta nocode"><b>HTTP 200 OK</b>
+<b>Content-Type:</b> <span class="lit">application/json</span>
+<b>Vary:</b> <span class="lit">Accept</span>
+<b>Allow:</b> <span class="lit">GET, PUT, PATCH, HEAD, OPTIONS</span>
+
+</div>{
+    &quot;category&quot;: &quot;SciPy 2014&quot;, 
+    &quot;language&quot;: &quot;English&quot;, 
+    &quot;slug&quot;: &quot;the-failure-of-python-object-serializations-why&quot;, 
+    &quot;speakers&quot;: [
+        &quot;Michael McKerns&quot;
+    ], 
+    &quot;tags&quot;: [], 
+    &quot;related_urls&quot;: [], 
+    &quot;id&quot;: 2720, 
+    &quot;state&quot;: 1, 
+    &quot;title&quot;: &quot;The Failure of Python Object Serializations: Why HPC in Python is Broken and How to Fix it&quot;, 
+    &quot;summary&quot;: &quot;Parallel and asynchronous computing in python is crippled by pickle&#39;s poor object serialization. Dill, a more robust serialization package, strives to serialize all of python.  Dill has been used to enable state persistence and recovery, global caching, and the coordination of distributed parallel calculations across a network of the world&#39;s largest computers.&quot;, 
+    &quot;description&quot;: &quot;Parallel and asynchronous computing in python is crippled by pickle&#39;s poor object serialization. However, a more robust serialization package would drastically improve the situation. To leverage the cores found in modern processors we need to communicate functions between different processes -- and that means callables must be serialized without pickle barfing.  Similarly, parallel and distributed computing with MPI, GPUs, sockets, and across other process boundaries all need serialized functions (or other callables).  So why is pickling in python so broken?  Python&#39;s ability to leverage these awesome communication technologies is limited by python&#39;s own inability to be a fully serializable language.  In actuality, serialization in python is quite limited, and for really no good reason.\r\n\r\nMany raise security concerns for full object serialization, however it can be argued that it is not pickle&#39;s responsibility to do proper authentication. In fact, one could apply rather insecure serialization of all objects the objects were all sent across RSA-encrypted ssh-tunnels, for example. \r\n\r\nDill is a serialization package that strives to serialize all of python.  We have forked python&#39;s multiprocessing to use dill. Dill can also be leveraged by mpi4py, ipython, and other parallel or distributed python packages. Dill serves as the backbone for a distributed parallel computing framework that is being used to design the next generation of large-scale heterogeneous computing platforms, and has been leveraged in large-scale calculations of risk and uncertainty.  Dill has been used to enable state persistence and recovery, global caching, and the coordination of distributed parallel calculations across a network of the world&#39;s largest computers.\r\n\r\n\r\n[http://pythonhosted.org/dill](http://pythonhosted.org/dill \&quot;\&quot;)\r\n\r\n[https://github.com/uqfoundation](https://github.com/uqfoundation \&quot;\&quot;)\r\n\r\n[http://matthewrocklin.com/blog/work/2013/12/05/Parallelism-and-Serialization/](http://matthewrocklin.com/blog/work/2013/12/05/Parallelism-and-Serialization/ \&quot;\&quot;)\r\n\r\n[http://stackoverflow.com/questions/19984152/what-can-multiprocessing-and-dill-do-together?rq=1](http://stackoverflow.com/questions/19984152/what-can-multiprocessing-and-dill-do-together?rq=1 \&quot;\&quot;)\r\n\r\n[https://groups.google.com/forum/#!topic/mpi4py/1fd4FwdgpWY](https://groups.google.com/forum/#!topic/mpi4py/1fd4FwdgpWY \&quot;\&quot;)\r\n\r\n[http://nbviewer.ipython.org/gist/anonymous/5241793](http://nbviewer.ipython.org/gist/anonymous/5241793 \&quot;\&quot;)&quot;, 
+    &quot;quality_notes&quot;: &quot;&quot;, 
+    &quot;copyright_text&quot;: &quot;<a href="http://www.youtube.com/t/terms" rel="nofollow">http://www.youtube.com/t/terms</a>&quot;, 
+    &quot;embed&quot;: &quot;&lt;object width=\&quot;640\&quot; height=\&quot;390\&quot;&gt;&lt;param name=\&quot;movie\&quot; value=\&quot;http://youtube.com/v/oSoT0m8SgrU?version=3&amp;amp;hl=en_US\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowFullScreen\&quot; value=\&quot;true\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowscriptaccess\&quot; value=\&quot;always\&quot;&gt;&lt;/param&gt;&lt;embed src=\&quot;http://youtube.com/v/oSoT0m8SgrU?version=3&amp;amp;hl=en_US\&quot; type=\&quot;application/x-shockwave-flash\&quot; width=\&quot;640\&quot; height=\&quot;390\&quot; allowscriptaccess=\&quot;always\&quot; allowfullscreen=\&quot;true\&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&quot;, 
+    &quot;thumbnail_url&quot;: &quot;<a href="http://i1.ytimg.com/vi/oSoT0m8SgrU/hqdefault.jpg" rel="nofollow">http://i1.ytimg.com/vi/oSoT0m8SgrU/hqdefault.jpg</a>&quot;, 
+    &quot;duration&quot;: null, 
+    &quot;video_ogv_length&quot;: null, 
+    &quot;video_ogv_url&quot;: null, 
+    &quot;video_ogv_download_only&quot;: false, 
+    &quot;video_mp4_length&quot;: null, 
+    &quot;video_mp4_url&quot;: null, 
+    &quot;video_mp4_download_only&quot;: false, 
+    &quot;video_webm_length&quot;: null, 
+    &quot;video_webm_url&quot;: null, 
+    &quot;video_webm_download_only&quot;: false, 
+    &quot;video_flv_length&quot;: null, 
+    &quot;video_flv_url&quot;: null, 
+    &quot;video_flv_download_only&quot;: false, 
+    &quot;source_url&quot;: &quot;<a href="http://www.youtube.com/watch?v=oSoT0m8SgrU" rel="nofollow">http://www.youtube.com/watch?v=oSoT0m8SgrU</a>&quot;, 
+    &quot;whiteboard&quot;: &quot;&quot;, 
+    &quot;recorded&quot;: &quot;2014-07-09&quot;, 
+    &quot;added&quot;: &quot;2014-07-09T19:24:51.603&quot;, 
+    &quot;updated&quot;: &quot;2014-07-09T19:24:51.603&quot;
+}</pre>
+            </div>
+        </div>
+
+            
+
+                
+
+                
+            
+
+        </div>
+        <!-- END content-main -->
+
+    </div>
+    <!-- END Content -->
+
+        <div id="push"></div>
+
+    </div>
+
+    </div><!-- ./wrapper -->
+
+    
+    
+
+    
+    <script src="/static/rest_framework/js/jquery-1.8.1-min.js"></script>
+    <script src="/static/rest_framework/js/bootstrap.min.js"></script>
+    <script src="/static/rest_framework/js/prettify-min.js"></script>
+    <script src="/static/rest_framework/js/default.js"></script>
+    
+  </body>
+
+<!-- Mirrored from pyvideo.org/api/v2/video/2720?format=api by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 07 Jan 2016 03:46:37 GMT -->
+</html>

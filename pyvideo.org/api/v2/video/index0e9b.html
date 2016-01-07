@@ -1,0 +1,939 @@
+
+
+<!DOCTYPE html>
+<html>
+    
+<!-- Mirrored from pyvideo.org/api/v2/video/?page=88 by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 07 Jan 2016 03:50:37 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+    
+
+        
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+        <meta name="robots" content="NONE,NOARCHIVE" />
+        
+
+        <title>Django REST framework</title>
+
+        
+        
+            <link rel="stylesheet" type="text/css" href="/static/rest_framework/css/bootstrap.min.css"/>
+            <link rel="stylesheet" type="text/css" href="/static/rest_framework/css/bootstrap-tweaks.css"/>
+        
+        <link rel="stylesheet" type="text/css" href="/static/rest_framework/css/prettify.css"/>
+        <link rel="stylesheet" type="text/css" href="/static/rest_framework/css/default.css"/>
+        
+
+    
+    </head>
+
+  <body class=" container">
+
+    <div class="wrapper">
+
+    
+    <div class="navbar navbar-inverse">
+        <div class="navbar-inner">
+            <div class="container-fluid">
+                <span href="/">
+                    <a class='brand' rel="nofollow" href='http://www.django-rest-framework.org'>Django REST framework <span class="version">2.3.14</span></a>
+                </span>
+                <ul class="nav pull-right">
+                    
+                        
+                            <li></li>
+                        
+                    
+                </ul>
+            </div>
+        </div>
+    </div>
+    
+
+    
+    <ul class="breadcrumb">
+        
+            <li>
+                <a href="/api/v2/video/" class="active">Video List Create Api</a> 
+            </li>
+        
+    </ul>
+    
+
+    <!-- Content -->
+    <div id="content">
+
+        
+            <form id="get-form" class="pull-right">
+                <fieldset>
+                    <div class="btn-group format-selection">
+                        <a class="btn btn-primary js-tooltip" href='/api/v2/video/?page=88' rel="nofollow" title="Make a GET request on the Video List Create Api resource">GET</a>
+
+                        <button class="btn btn-primary dropdown-toggle js-tooltip" data-toggle="dropdown" title="Specify a format for the GET request">
+                            <span class="caret"></span>
+                        </button>
+                        <ul class="dropdown-menu">
+                            
+                                <li>
+                                    <a class="js-tooltip format-option" href='/api/v2/video/?page=88&format=json' rel="nofollow" title="Make a GET request on the Video List Create Api resource with the format set to `json`">json</a>
+                                </li>
+                            
+                                <li>
+                                    <a class="js-tooltip format-option" href='/api/v2/video/?page=88&format=api' rel="nofollow" title="Make a GET request on the Video List Create Api resource with the format set to `api`">api</a>
+                                </li>
+                            
+                        </ul>
+                    </div>
+
+                </fieldset>
+            </form>
+        
+
+        
+            <form class="button-form" action="/api/v2/video/?page=88" method="POST" class="pull-right">
+                <input type='hidden' name='csrfmiddlewaretoken' value='pT8iI6zhtQdsGFmu4tryYgFrUlipl2B3' />
+                <input type="hidden" name="_method" value="OPTIONS" />
+                <button class="btn btn-primary js-tooltip" title="Make an OPTIONS request on the Video List Create Api resource">OPTIONS</button>
+            </form>
+        
+
+        
+
+        <div class="content-main">
+            <div class="page-header"><h1>Video List Create Api</h1></div>
+            
+            
+            
+            <div class="request-info" style="clear: both" >
+                <pre class="prettyprint"><b>GET</b> /api/v2/video/?page=88</pre>
+            </div>
+            <div class="response-info">
+                <pre class="prettyprint"><div class="meta nocode"><b>HTTP 200 OK</b>
+<b>Content-Type:</b> <span class="lit">application/json</span>
+<b>Vary:</b> <span class="lit">Accept</span>
+<b>Allow:</b> <span class="lit">GET, POST, HEAD, OPTIONS</span>
+
+</div>{
+    &quot;count&quot;: 3439, 
+    &quot;next&quot;: &quot;<a href="http://pyvideo.org/api/v2/video/?page=89" rel="nofollow">http://pyvideo.org/api/v2/video/?page=89</a>&quot;, 
+    &quot;previous&quot;: &quot;<a href="http://pyvideo.org/api/v2/video/?page=87" rel="nofollow">http://pyvideo.org/api/v2/video/?page=87</a>&quot;, 
+    &quot;results&quot;: [
+        {
+            &quot;category&quot;: &quot;PyCon FR 2013&quot;, 
+            &quot;language&quot;: &quot;French&quot;, 
+            &quot;slug&quot;: &quot;shit-happens&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Olivier Hervieu&quot;
+            ], 
+            &quot;tags&quot;: [], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 3753, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Shit happens...&quot;, 
+            &quot;summary&quot;: &quot;Les erreurs sont le cauchemar des d\u00e9veloppeurs. En parler d\u00e9clenche des discussion passionn\u00e9es (et avouons-le, souvent des trolls) et m\u00eame si les premiers langages de programmation ont d\u00e9sormais plus de 60 ans, personne ne peut dire qu&#39;elle est la meilleure mani\u00e8re de g\u00e9rer ces &amp;#@!&amp; d&#39;erreurs. Codes de retour, exceptions, monads, ..., je donnerai un aper\u00e7u des diff\u00e9rents outils qu&#39;ont des langages comme C/Python/Ruby/Haskell/Go pour g\u00e9rer les erreurs. La plupart des concepts d\u00e9montr\u00e9s seront applicables \u00e0 d&#39;autres langages que Python (m\u00eame si les exemples de code seront majoritairement \u00e9crits en python).\n\nNe r\u00eavez pas, je n&#39;aurai pas corrig\u00e9 vos erreurs \u00e0 l&#39;issue de cette pr\u00e9sentation, mais vous aurez une meilleure id\u00e9e de comment les dresser.&quot;, 
+            &quot;description&quot;: &quot;&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;&quot;, 
+            &quot;embed&quot;: &quot;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="https://i.ytimg.com/vi/5xJEKKaYJvs/maxresdefault.jpg" rel="nofollow">https://i.ytimg.com/vi/5xJEKKaYJvs/maxresdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: 2166, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: null, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="https://www.youtube.com/watch?v=5xJEKKaYJvs" rel="nofollow">https://www.youtube.com/watch?v=5xJEKKaYJvs</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2013-11-30&quot;, 
+            &quot;added&quot;: &quot;2015-07-31T17:40:41.194&quot;, 
+            &quot;updated&quot;: &quot;2015-07-31T17:40:41.195&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyCon FR 2013&quot;, 
+            &quot;language&quot;: &quot;French&quot;, 
+            &quot;slug&quot;: &quot;traquer-les-fuites-memoire-en-python&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Victor Stinner&quot;
+            ], 
+            &quot;tags&quot;: [], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 3751, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Traquer les fuites m\u00e9moire en Python&quot;, 
+            &quot;summary&quot;: &quot;Les fuites m\u00e9moire en Python ne peuvent pas \u00eatre analys\u00e9es avec les outils traditionnels car Python repose sur les compteurs de r\u00e9f\u00e9rence. Je vais pr\u00e9senter des outils sp\u00e9cifiques \u00e0 Python pour vous aider \u00e0 localiser vos fuites m\u00e9moires.\n\n- Consommation globale du processus (m\u00e9moire RSS)\n- Comprendre les cycles de r\u00e9f\u00e9rence\n- G\u00e9n\u00e9rer une image repr\u00e9sentant les liens entre les objets\n- Utilisation de gc.get_objects() et calcul manuel de la taille des objets\n- Tracer les allocations m\u00e9moires \u00e0 leur cr\u00e9ation\n- PEP 445: Add new APIs to customize Python memory allocators implement\u00e9e dans Python 3.4\n- Projet pytracemalloc&quot;, 
+            &quot;description&quot;: &quot;&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;&quot;, 
+            &quot;embed&quot;: &quot;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="https://i.ytimg.com/vi/oQ17KDBr24I/maxresdefault.jpg" rel="nofollow">https://i.ytimg.com/vi/oQ17KDBr24I/maxresdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: 1845, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: null, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="https://www.youtube.com/watch?v=oQ17KDBr24I" rel="nofollow">https://www.youtube.com/watch?v=oQ17KDBr24I</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2013-11-30&quot;, 
+            &quot;added&quot;: &quot;2015-07-31T17:40:40.866&quot;, 
+            &quot;updated&quot;: &quot;2015-07-31T17:40:40.866&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyCon FR 2013&quot;, 
+            &quot;language&quot;: &quot;French&quot;, 
+            &quot;slug&quot;: &quot;tu-peux-webtest&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Gael Pasgrimaud&quot;
+            ], 
+            &quot;tags&quot;: [], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 3731, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Tu peux webtest&quot;, 
+            &quot;summary&quot;: &quot;WebTest est une librairie framework agnostique permettant de tester n&#39;importe quelle application WSGI et plus encore.\n\nApr\u00e8s un bref rappel de ce qu&#39;est la norme WSGI, cette pr\u00e9sentation vous permettra d&#39;appr\u00e9cier l&#39;\u00e9tendue des possibilit\u00e9s de la librairie.&quot;, 
+            &quot;description&quot;: &quot;&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;&quot;, 
+            &quot;embed&quot;: &quot;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="https://i.ytimg.com/vi/prFLLfKQ9Do/maxresdefault.jpg" rel="nofollow">https://i.ytimg.com/vi/prFLLfKQ9Do/maxresdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: 1226, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: null, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="https://www.youtube.com/watch?v=prFLLfKQ9Do" rel="nofollow">https://www.youtube.com/watch?v=prFLLfKQ9Do</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2013-11-30&quot;, 
+            &quot;added&quot;: &quot;2015-07-31T17:40:38.229&quot;, 
+            &quot;updated&quot;: &quot;2015-07-31T17:40:38.230&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyCon FR 2013&quot;, 
+            &quot;language&quot;: &quot;French&quot;, 
+            &quot;slug&quot;: &quot;vagrant-packer-et-ruby-pour-automatiser-des-buil&quot;, 
+            &quot;speakers&quot;: [
+                &quot;David Cournapeau&quot;
+            ], 
+            &quot;tags&quot;: [], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 3741, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Vagrant, packer et ruby pour automatiser des builds complexes&quot;, 
+            &quot;summary&quot;: &quot;Vagrant, packer et un peu de ruby pour automatiser des builds complexes.\n\nIntroduction\n\nTout le monde n&#39;a pas la chance de ne d\u00e9pendre que de paquets 100 % python. Python est devenu un outil de choix pour le calcul num\u00e9rique, mais des paquets tels que numpy, scipy ou scikit-learn d\u00e9pendent de librairies C, C++ et m\u00eame Fortran qui d\u00e9pendent fortement des plateformes.\n\nJ&#39;aimerais pr\u00e9senter les outils packer et vagrant comme une solution pour produire des builds 100 % reproductibles. S&#39;appuyant sur la virtualisation, ils permettent d&#39;appliquer les principes de reproduction non seulement pour unix, mais aussi os x et m\u00eame windows.\n\nLe concept de provisionnement, et son application au probl\u00e8me de \&quot;packaging\&quot;\n\nCette section pr\u00e9sentera tout d&#39;abord la n\u00e9cessit\u00e9 de reproduction pour la compilation, et justifiera pourquoi les VM sont les outils les plus ad\u00e9quats aujourd&#39;hui si l&#39;on veut supporter toutes les plateformes usuelles, en particulier windows:\n\n- architectures \&quot;3-tier\&quot; pour le provisionnement\n- outils disponibles pour chacune des 3 couches\n- pr\u00e9sentation de vagrant et packer\n\nvagrant, un outil simple pour la r\u00e9utilisation de VM\n\nCette section commencera par illustrer les probl\u00e8mes usuels du partage des VM entre d\u00e9veloppeurs, et montrera comment vagrant peut r\u00e9soudre ces probl\u00e8mes:\n\n- le provisionnement comme solution au manque de transparence usuel avec les VMs\n- flexibilit\u00e9 et tra\u00e7abilit\u00e9 gr\u00e2ce \u00e0 la combinaison chef/puppet/salt + vagrant\n\npacker, un compl\u00e9ment \u00e0 vagrant\n\nVagrant suppose l&#39;existence de &#39;base box&#39;, qui sont des images d&#39;OS avec juste ce qu&#39;il faut pour \&quot;bootstrapper\&quot; la suite du provisionnement. Packer est un outil qui permet de cr\u00e9er ses propres images:\n\n- illustration du fonctionnement de packer\n- cibler plusieurs technologies de virtualisation \u00e0 partir d&#39; un m\u00eame template: virtualbox, vmware, mais aussi ec2.\n\nExample pour la compilation de paquets &#39;wheel&#39; pour numpy/scipy\n\nCette partie sera plus didactique, et bas\u00e9 sur un exemple r\u00e9el pour compiler un wheel de numpy et scipy sur windows. L&#39;exemple utilisera \u00e0 la fois vagrant, packer et chef.&quot;, 
+            &quot;description&quot;: &quot;&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;&quot;, 
+            &quot;embed&quot;: &quot;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="https://i.ytimg.com/vi/iTU5CRuY96I/maxresdefault.jpg" rel="nofollow">https://i.ytimg.com/vi/iTU5CRuY96I/maxresdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: 1903, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: null, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="https://www.youtube.com/watch?v=iTU5CRuY96I" rel="nofollow">https://www.youtube.com/watch?v=iTU5CRuY96I</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2013-11-30&quot;, 
+            &quot;added&quot;: &quot;2015-07-31T17:40:39.556&quot;, 
+            &quot;updated&quot;: &quot;2015-07-31T17:40:39.556&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyCon FR 2013&quot;, 
+            &quot;language&quot;: &quot;French&quot;, 
+            &quot;slug&quot;: &quot;zeroservices&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Boris Feld&quot;
+            ], 
+            &quot;tags&quot;: [], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 3722, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;ZeroServices&quot;, 
+            &quot;summary&quot;: &quot;Qui n&#39;a jamais eut besoin d&#39;\u00e9crire des services r\u00e9seau qui se d\u00e9couvrent automatiquement, qui d\u00e9tectent la perte d&#39;un des service, qui permet la diffusion en unicast, en multicast ou broadcast ? ZeroServices vous simplifie la vie. ZeroServices est construit autour de ZeroMQ et de Tornado et vous permet d&#39;\u00e9crire des services r\u00e9seau sans efforts.\n\nPr\u00e9sentation de ZeroServices, une libraire python \u00e9crite gr\u00e2ce au couple Tornado/ZeroMQ qui facilite l&#39;\u00e9criture de services r\u00e9seaux d\u00e9centralis\u00e9s. Gr\u00e2ce \u00e0 la d\u00e9couverte automatique des pairs, \u00e0 l&#39;\u00e9mission de message en unicast et/ou multicast et \u00e0 la d\u00e9tection des services morts, ZeroServices permet d&#39;\u00e9crire des services r\u00e9seaux facilement et rapidement.\n\nCette conf\u00e9rence pr\u00e9sentera ZeroServices, d\u00e9taillera le fonctionnement et enfin pr\u00e9sentera les capacit\u00e9s de la librairie avec une d\u00e9mo de service de chat.\n\nZeroServices est h\u00e9berg\u00e9 ici : <a href="https://github.com/Lothiraldan/ZeroServices" rel="nofollow">https://github.com/Lothiraldan/ZeroServices</a>&quot;, 
+            &quot;description&quot;: &quot;&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;&quot;, 
+            &quot;embed&quot;: &quot;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="https://i.ytimg.com/vi/YUmp768O7Ro/maxresdefault.jpg" rel="nofollow">https://i.ytimg.com/vi/YUmp768O7Ro/maxresdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: 1145, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: null, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="https://www.youtube.com/watch?v=YUmp768O7Ro" rel="nofollow">https://www.youtube.com/watch?v=YUmp768O7Ro</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2013-11-30&quot;, 
+            &quot;added&quot;: &quot;2015-07-31T17:40:36.325&quot;, 
+            &quot;updated&quot;: &quot;2015-07-31T17:40:36.326&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;ChiPy&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;civiclab-and-between-the-bars&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Benjamin Sugar&quot;
+            ], 
+            &quot;tags&quot;: [], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 2448, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;CivicLab and Between the Bars&quot;, 
+            &quot;summary&quot;: &quot;In this talk, I will present on a slice of the maker movement called \&quot;civic making\&quot; and a new space that has opened up in Chicago to encourage this type creation, CivicLab.  As an example of \&quot;civic making\&quot; I will discuss Between the Bars, a paper based blogging platform for those who are incarcerated, built in Django.  I will also discuss our choice in framework and the pros/cons of our approach.&quot;, 
+            &quot;description&quot;: &quot;&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;CC BY&quot;, 
+            &quot;embed&quot;: &quot;&lt;object width=\&quot;640\&quot; height=\&quot;390\&quot;&gt;&lt;param name=\&quot;movie\&quot; value=\&quot;http://youtube.com/v/-PbcJjr_SFE?version=3&amp;amp;hl=en_US\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowFullScreen\&quot; value=\&quot;true\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowscriptaccess\&quot; value=\&quot;always\&quot;&gt;&lt;/param&gt;&lt;embed src=\&quot;http://youtube.com/v/-PbcJjr_SFE?version=3&amp;amp;hl=en_US\&quot; type=\&quot;application/x-shockwave-flash\&quot; width=\&quot;640\&quot; height=\&quot;390\&quot; allowscriptaccess=\&quot;always\&quot; allowfullscreen=\&quot;true\&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://i1.ytimg.com/vi/-PbcJjr_SFE/hqdefault.jpg" rel="nofollow">http://i1.ytimg.com/vi/-PbcJjr_SFE/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: 15, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: &quot;&quot;, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: &quot;<a href="http://cf9ce50bbcc7255cb659-8cbed8cf7e3a131cd8f1c3e383d10041.r93.stream.cf2.rackcdn.com/chipy/2448_CivicLab_and_Between_the_bars.mp4" rel="nofollow">http://cf9ce50bbcc7255cb659-8cbed8cf7e3a131cd8f1c3e383d10041.r93.stream.cf2.rackcdn.com/chipy/2448_CivicLab_and_Between_the_bars.mp4</a>&quot;, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: &quot;&quot;, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: &quot;&quot;, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="https://www.youtube.com/watch?v=-PbcJjr_SFE" rel="nofollow">https://www.youtube.com/watch?v=-PbcJjr_SFE</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2013-11-14&quot;, 
+            &quot;added&quot;: &quot;2013-11-18T02:16:54.568&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:25.975&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;ChiPy&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;how-open-source-hardware-will-change-the-world&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Paul Ebreo&quot;
+            ], 
+            &quot;tags&quot;: [], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 2450, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;How Open Source Hardware Will Change the World&quot;, 
+            &quot;summary&quot;: &quot;What if there was an open source project that changed how we produce the most fundamental apsects of our lives? From the food we eat, to the houses we live in, this project wants to open source the tools we use to obtain what we need to live. Come to the ChiPy meeting to find out the name of the project.\r\n &quot;, 
+            &quot;description&quot;: &quot;&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;CC BY-SA&quot;, 
+            &quot;embed&quot;: &quot;&lt;object width=\&quot;640\&quot; height=\&quot;390\&quot;&gt;&lt;param name=\&quot;movie\&quot; value=\&quot;http://youtube.com/v/RLRDnC9SQWk?version=3&amp;amp;hl=en_US\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowFullScreen\&quot; value=\&quot;true\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowscriptaccess\&quot; value=\&quot;always\&quot;&gt;&lt;/param&gt;&lt;embed src=\&quot;http://youtube.com/v/RLRDnC9SQWk?version=3&amp;amp;hl=en_US\&quot; type=\&quot;application/x-shockwave-flash\&quot; width=\&quot;640\&quot; height=\&quot;390\&quot; allowscriptaccess=\&quot;always\&quot; allowfullscreen=\&quot;true\&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://i1.ytimg.com/vi/RLRDnC9SQWk/hqdefault.jpg" rel="nofollow">http://i1.ytimg.com/vi/RLRDnC9SQWk/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: 8, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: &quot;&quot;, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: &quot;<a href="http://cf9ce50bbcc7255cb659-8cbed8cf7e3a131cd8f1c3e383d10041.r93.stream.cf2.rackcdn.com/chipy/2450_How_Open_Source_Hardware_Will_Change_the_World.mp4" rel="nofollow">http://cf9ce50bbcc7255cb659-8cbed8cf7e3a131cd8f1c3e383d10041.r93.stream.cf2.rackcdn.com/chipy/2450_How_Open_Source_Hardware_Will_Change_the_World.mp4</a>&quot;, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: &quot;&quot;, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: &quot;&quot;, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="https://www.youtube.com/watch?v=RLRDnC9SQWk" rel="nofollow">https://www.youtube.com/watch?v=RLRDnC9SQWk</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2013-11-14&quot;, 
+            &quot;added&quot;: &quot;2013-11-18T02:16:59.704&quot;, 
+            &quot;updated&quot;: &quot;2014-07-25T11:48:18.296&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;ChiPy&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;measure-it&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Peter Fein&quot;
+            ], 
+            &quot;tags&quot;: [], 
+            &quot;related_urls&quot;: [
+                {
+                    &quot;url&quot;: &quot;<a href="https://github.com/wearpants/measure_it" rel="nofollow">https://github.com/wearpants/measure_it</a>&quot;, 
+                    &quot;description&quot;: &quot;measure_it project&quot;
+                }
+            ], 
+            &quot;id&quot;: 2449, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Measure It&quot;, 
+            &quot;summary&quot;: &quot;measure_it provides timing and counting for iterators (and other code segments).&quot;, 
+            &quot;description&quot;: &quot;&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;CC BY&quot;, 
+            &quot;embed&quot;: &quot;&lt;object width=\&quot;640\&quot; height=\&quot;390\&quot;&gt;&lt;param name=\&quot;movie\&quot; value=\&quot;http://youtube.com/v/A_C4Z4RDDgI?version=3&amp;amp;hl=en_US\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowFullScreen\&quot; value=\&quot;true\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowscriptaccess\&quot; value=\&quot;always\&quot;&gt;&lt;/param&gt;&lt;embed src=\&quot;http://youtube.com/v/A_C4Z4RDDgI?version=3&amp;amp;hl=en_US\&quot; type=\&quot;application/x-shockwave-flash\&quot; width=\&quot;640\&quot; height=\&quot;390\&quot; allowscriptaccess=\&quot;always\&quot; allowfullscreen=\&quot;true\&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://i1.ytimg.com/vi/A_C4Z4RDDgI/hqdefault.jpg" rel="nofollow">http://i1.ytimg.com/vi/A_C4Z4RDDgI/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: 40, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: &quot;&quot;, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: &quot;<a href="http://cf9ce50bbcc7255cb659-8cbed8cf7e3a131cd8f1c3e383d10041.r93.stream.cf2.rackcdn.com/chipy/2449_Measure_It.mp4" rel="nofollow">http://cf9ce50bbcc7255cb659-8cbed8cf7e3a131cd8f1c3e383d10041.r93.stream.cf2.rackcdn.com/chipy/2449_Measure_It.mp4</a>&quot;, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: &quot;&quot;, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: &quot;&quot;, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="https://www.youtube.com/watch?v=A_C4Z4RDDgI" rel="nofollow">https://www.youtube.com/watch?v=A_C4Z4RDDgI</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2013-11-14&quot;, 
+            &quot;added&quot;: &quot;2013-11-18T02:16:57.036&quot;, 
+            &quot;updated&quot;: &quot;2014-07-26T12:32:32.915&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;ChiPy&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;monoids-in-python&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Philip Doctor&quot;
+            ], 
+            &quot;tags&quot;: [], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 2447, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Monoids in Python&quot;, 
+            &quot;summary&quot;: &quot;Monoids are largely badly explained, but actually quite beautiful.  I would like to take a brief tour of what a monoid is and how they can help out with mundane every day tasks in python.&quot;, 
+            &quot;description&quot;: &quot;&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;CC BY&quot;, 
+            &quot;embed&quot;: &quot;&lt;object width=\&quot;640\&quot; height=\&quot;390\&quot;&gt;&lt;param name=\&quot;movie\&quot; value=\&quot;http://youtube.com/v/50qhv8C3s9I?version=3&amp;amp;hl=en_US\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowFullScreen\&quot; value=\&quot;true\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowscriptaccess\&quot; value=\&quot;always\&quot;&gt;&lt;/param&gt;&lt;embed src=\&quot;http://youtube.com/v/50qhv8C3s9I?version=3&amp;amp;hl=en_US\&quot; type=\&quot;application/x-shockwave-flash\&quot; width=\&quot;640\&quot; height=\&quot;390\&quot; allowscriptaccess=\&quot;always\&quot; allowfullscreen=\&quot;true\&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://i1.ytimg.com/vi/50qhv8C3s9I/hqdefault.jpg" rel="nofollow">http://i1.ytimg.com/vi/50qhv8C3s9I/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: 20, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: &quot;&quot;, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: &quot;<a href="http://cf9ce50bbcc7255cb659-8cbed8cf7e3a131cd8f1c3e383d10041.r93.stream.cf2.rackcdn.com/chipy/2447_Monoids_in_Python.mp4" rel="nofollow">http://cf9ce50bbcc7255cb659-8cbed8cf7e3a131cd8f1c3e383d10041.r93.stream.cf2.rackcdn.com/chipy/2447_Monoids_in_Python.mp4</a>&quot;, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: &quot;&quot;, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: &quot;&quot;, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="https://www.youtube.com/watch?v=50qhv8C3s9I" rel="nofollow">https://www.youtube.com/watch?v=50qhv8C3s9I</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2013-11-14&quot;, 
+            &quot;added&quot;: &quot;2013-11-15T13:22:56.237&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:25.979&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;ChiPy&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;pydata-recap-lightning-talk&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Jason Wirth&quot;
+            ], 
+            &quot;tags&quot;: [], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 2452, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;PyData Recap Lightning Talk&quot;, 
+            &quot;summary&quot;: &quot;Recap of last weeks PyData conference in NYC. &quot;, 
+            &quot;description&quot;: &quot;&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;CC BY&quot;, 
+            &quot;embed&quot;: &quot;&lt;object width=\&quot;640\&quot; height=\&quot;390\&quot;&gt;&lt;param name=\&quot;movie\&quot; value=\&quot;http://youtube.com/v/I7B2BtgjfgY?version=3&amp;amp;hl=en_US\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowFullScreen\&quot; value=\&quot;true\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowscriptaccess\&quot; value=\&quot;always\&quot;&gt;&lt;/param&gt;&lt;embed src=\&quot;http://youtube.com/v/I7B2BtgjfgY?version=3&amp;amp;hl=en_US\&quot; type=\&quot;application/x-shockwave-flash\&quot; width=\&quot;640\&quot; height=\&quot;390\&quot; allowscriptaccess=\&quot;always\&quot; allowfullscreen=\&quot;true\&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://i1.ytimg.com/vi/I7B2BtgjfgY/hqdefault.jpg" rel="nofollow">http://i1.ytimg.com/vi/I7B2BtgjfgY/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: 9, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: &quot;&quot;, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: &quot;<a href="http://cf9ce50bbcc7255cb659-8cbed8cf7e3a131cd8f1c3e383d10041.r93.stream.cf2.rackcdn.com/chipy/2452_PyData_Recap_Lightning_Talk.mp4" rel="nofollow">http://cf9ce50bbcc7255cb659-8cbed8cf7e3a131cd8f1c3e383d10041.r93.stream.cf2.rackcdn.com/chipy/2452_PyData_Recap_Lightning_Talk.mp4</a>&quot;, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: &quot;&quot;, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: &quot;&quot;, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="https://www.youtube.com/watch?v=I7B2BtgjfgY" rel="nofollow">https://www.youtube.com/watch?v=I7B2BtgjfgY</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2013-11-14&quot;, 
+            &quot;added&quot;: &quot;2013-11-18T02:17:04.784&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:25.980&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;ChiPy&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;what-happened-at-aaronswhack&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Sheila Miguez&quot;
+            ], 
+            &quot;tags&quot;: [], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 2451, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;What happened at #aaronswhack?&quot;, 
+            &quot;summary&quot;: &quot;Many python programmers showed up to participate in the Chicago #aaronswhack. Here&#39;s a list of what they worked on, and here are pointers to local projects as well as worldwide projects.&quot;, 
+            &quot;description&quot;: &quot;&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;CC BY&quot;, 
+            &quot;embed&quot;: &quot;&lt;object width=\&quot;640\&quot; height=\&quot;390\&quot;&gt;&lt;param name=\&quot;movie\&quot; value=\&quot;http://youtube.com/v/UJdPBKCPDnw?version=3&amp;amp;hl=en_US\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowFullScreen\&quot; value=\&quot;true\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowscriptaccess\&quot; value=\&quot;always\&quot;&gt;&lt;/param&gt;&lt;embed src=\&quot;http://youtube.com/v/UJdPBKCPDnw?version=3&amp;amp;hl=en_US\&quot; type=\&quot;application/x-shockwave-flash\&quot; width=\&quot;640\&quot; height=\&quot;390\&quot; allowscriptaccess=\&quot;always\&quot; allowfullscreen=\&quot;true\&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://i1.ytimg.com/vi/UJdPBKCPDnw/hqdefault.jpg" rel="nofollow">http://i1.ytimg.com/vi/UJdPBKCPDnw/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: 4, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: &quot;&quot;, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: &quot;<a href="http://cf9ce50bbcc7255cb659-8cbed8cf7e3a131cd8f1c3e383d10041.r93.stream.cf2.rackcdn.com/chipy/2451_What_happened_at_aaronswhack.mp4" rel="nofollow">http://cf9ce50bbcc7255cb659-8cbed8cf7e3a131cd8f1c3e383d10041.r93.stream.cf2.rackcdn.com/chipy/2451_What_happened_at_aaronswhack.mp4</a>&quot;, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: &quot;&quot;, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: &quot;&quot;, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="https://www.youtube.com/watch?v=UJdPBKCPDnw" rel="nofollow">https://www.youtube.com/watch?v=UJdPBKCPDnw</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2013-11-14&quot;, 
+            &quot;added&quot;: &quot;2013-11-18T02:17:02.194&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:25.981&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyCon DE 2013&quot;, 
+            &quot;language&quot;: &quot;German&quot;, 
+            &quot;slug&quot;: &quot;batou-multicomponenthostenvironment-depl&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Christian Theune&quot;
+            ], 
+            &quot;tags&quot;: [
+                &quot;administration&quot;, 
+                &quot;deployment&quot;, 
+                &quot;konvergenz&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 2436, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;batou - multi(component|host|environment|.*) deployment&quot;, 
+            &quot;summary&quot;: &quot;batou ist ein Werkzeug um das Deployment f\u00fcr server-basierte Anwendungen zu automatisieren.\r\n\r\nEs basiert auf vielen Ideen von Puppet, Fabric und anderen Werkzeugen, bietet aber einen spezifische Modellierungsansatz, der das Konzept von \&quot;Konvergenz\&quot; einfach umsetzbar macht.\r\n\r\nIn dem Vortrag m\u00f6chte ich erl\u00e4utern warum Deployments zu automatisieren schwierig ist, was \&quot;Konvergenz\&quot; dazu beitragen kann um es einfach zu machen, und wie das in Batou ganz praktisch aussieht.&quot;, 
+            &quot;description&quot;: &quot;&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;&quot;, 
+            &quot;embed&quot;: &quot;&lt;object width=\&quot;640\&quot; height=\&quot;390\&quot;&gt;&lt;param name=\&quot;movie\&quot; value=\&quot;http://youtube.com/v/-MKBAw6-8T0?version=3&amp;amp;hl=en_US\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowFullScreen\&quot; value=\&quot;true\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowscriptaccess\&quot; value=\&quot;always\&quot;&gt;&lt;/param&gt;&lt;embed src=\&quot;http://youtube.com/v/-MKBAw6-8T0?version=3&amp;amp;hl=en_US\&quot; type=\&quot;application/x-shockwave-flash\&quot; width=\&quot;640\&quot; height=\&quot;390\&quot; allowscriptaccess=\&quot;always\&quot; allowfullscreen=\&quot;true\&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://i1.ytimg.com/vi/-MKBAw6-8T0/hqdefault.jpg" rel="nofollow">http://i1.ytimg.com/vi/-MKBAw6-8T0/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: 30, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: &quot;&quot;, 
+            &quot;video_mp4_download_only&quot;: true, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="https://www.youtube.com/watch?v=-MKBAw6-8T0" rel="nofollow">https://www.youtube.com/watch?v=-MKBAw6-8T0</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2013-10-17&quot;, 
+            &quot;added&quot;: &quot;2013-10-18T09:48:48&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:25.983&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyCon DE 2013&quot;, 
+            &quot;language&quot;: &quot;German&quot;, 
+            &quot;slug&quot;: &quot;boostpython-die-nabelschnur-zu-python&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Reinhard Wobst&quot;
+            ], 
+            &quot;tags&quot;: [
+                &quot;boost.python&quot;, 
+                &quot;embedded python&quot;, 
+                &quot;python-c-api&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 2424, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;boost.python - die Nabelschnur zu Python&quot;, 
+            &quot;summary&quot;: &quot;Mit boost.python kann man Klassen und Klasseninstanzen an einen eingebetteten Python-Interpreter weiterreichen und die Instanzen dort ver\u00e4ndern; ebenso lassen sich Python-Objekte bequem in C++ verarbeiten. Gegen\u00fcber der Python-C-API entf\u00e4llt das fehlertr\u00e4chtige Referenz-Handling, und der Stil ist n\u00e4her an Python. Eigentlich ist diese Bibliothek die erste Wahl f\u00fcr diese Situation, doch leider ist die Dokumentation v\u00f6llig unzureichend. Hilfe gibt es im Netz, doch unstrukturiert und nicht immer optimal. Der Vortrag geht auf Missverst\u00e4ndnisse und typische Fehler ein, die bei der Nutzung wenigstens anfangs auftreten, zeigt die (noch vorhandenen) Grenzen auf und bietet einige \&quot;Kochrezepte\&quot;. Au\u00dferdem zeigt er, wozu das alles in der Praxis gut sein kann.&quot;, 
+            &quot;description&quot;: &quot;&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;&quot;, 
+            &quot;embed&quot;: &quot;&lt;object width=\&quot;640\&quot; height=\&quot;390\&quot;&gt;&lt;param name=\&quot;movie\&quot; value=\&quot;http://youtube.com/v/dx0HfAHbhf8?version=3&amp;amp;hl=en_US\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowFullScreen\&quot; value=\&quot;true\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowscriptaccess\&quot; value=\&quot;always\&quot;&gt;&lt;/param&gt;&lt;embed src=\&quot;http://youtube.com/v/dx0HfAHbhf8?version=3&amp;amp;hl=en_US\&quot; type=\&quot;application/x-shockwave-flash\&quot; width=\&quot;640\&quot; height=\&quot;390\&quot; allowscriptaccess=\&quot;always\&quot; allowfullscreen=\&quot;true\&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://i1.ytimg.com/vi/dx0HfAHbhf8/hqdefault.jpg" rel="nofollow">http://i1.ytimg.com/vi/dx0HfAHbhf8/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: 60, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: &quot;&quot;, 
+            &quot;video_mp4_download_only&quot;: true, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="https://www.youtube.com/watch?v=dx0HfAHbhf8" rel="nofollow">https://www.youtube.com/watch?v=dx0HfAHbhf8</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2013-10-17&quot;, 
+            &quot;added&quot;: &quot;2013-10-18T06:15:57&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:25.984&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyCon DE 2013&quot;, 
+            &quot;language&quot;: &quot;German&quot;, 
+            &quot;slug&quot;: &quot;continuous-building-with-pybuilder&quot;, 
+            &quot;speakers&quot;: [
+                &quot;YADT Project&quot;
+            ], 
+            &quot;tags&quot;: [
+                &quot;automation&quot;, 
+                &quot;build&quot;, 
+                &quot;buildtool&quot;, 
+                &quot;lifecycle&quot;, 
+                &quot;maven&quot;, 
+                &quot;pybuilder&quot;, 
+                &quot;python&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 2422, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Continuous building with Pybuilder&quot;, 
+            &quot;summary&quot;: &quot;Pybuilder ist ein erweiterbares und benutzerfreundliches *continuous Build Tool*\r\nf\u00fcr Python, welches die Arbeit mit fremden (und eigenen) Python-Projekten\r\nangenehmer macht. Damit lassen sich diverse Buildtools wie coverage, unittest,\r\npip oder auch setuptools zentral instrumentieren. Und das Beste zum Schlu\u00df : 100% open source!&quot;, 
+            &quot;description&quot;: &quot;&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;&quot;, 
+            &quot;embed&quot;: &quot;&lt;object width=\&quot;640\&quot; height=\&quot;390\&quot;&gt;&lt;param name=\&quot;movie\&quot; value=\&quot;http://youtube.com/v/5Yqk6SYnLVs?version=3&amp;amp;hl=en_US\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowFullScreen\&quot; value=\&quot;true\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowscriptaccess\&quot; value=\&quot;always\&quot;&gt;&lt;/param&gt;&lt;embed src=\&quot;http://youtube.com/v/5Yqk6SYnLVs?version=3&amp;amp;hl=en_US\&quot; type=\&quot;application/x-shockwave-flash\&quot; width=\&quot;640\&quot; height=\&quot;390\&quot; allowscriptaccess=\&quot;always\&quot; allowfullscreen=\&quot;true\&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://i1.ytimg.com/vi/5Yqk6SYnLVs/hqdefault.jpg" rel="nofollow">http://i1.ytimg.com/vi/5Yqk6SYnLVs/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: 30, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: &quot;&quot;, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: &quot;&quot;, 
+            &quot;video_mp4_download_only&quot;: true, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: &quot;&quot;, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: &quot;&quot;, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="https://www.youtube.com/watch?v=5Yqk6SYnLVs" rel="nofollow">https://www.youtube.com/watch?v=5Yqk6SYnLVs</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2013-10-17&quot;, 
+            &quot;added&quot;: &quot;2013-10-17T12:54:58&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:25.985&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyCon DE 2013&quot;, 
+            &quot;language&quot;: &quot;German&quot;, 
+            &quot;slug&quot;: &quot;continuum-data-analytics-stack&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Dr. Yves Hilpisch&quot;
+            ], 
+            &quot;tags&quot;: [
+                &quot;data analytics&quot;, 
+                &quot;financial analytics&quot;, 
+                &quot;python&quot;, 
+                &quot;visualization&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 2425, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Continuum Data Analytics Stack&quot;, 
+            &quot;summary&quot;: &quot;Continuum Analytics bietet mit Anaconda Accelerate eine kommerzielle, skalierbare und unternehmenstaugliche Python-Distribution. Diese basiert auf der beliebten Open Source Distribution Anaconda.\r\n\r\nGegen\u00fcber der freien Distribution verf\u00fcgt Accelerate \u00fcber Bibliotheken wie NumbaPro oder IOPro, die eine nachhaltige Beschleunigung von typischen Data Analytics Aufgaben mit Python  erlauben.\r\n\r\nBokeh, eine Open Source Bibliothek, etabliert einen neuen Standard f\u00fcr die interaktive, Web-basierte Visualisierung von gro\u00dfen Datenmengen.\r\n\r\nDer Talk illustriert die Leistungsf\u00e4higkeit des \&quot;Continuum Data Analytics Stack\&quot; an Hand einer Reihe von praxisnahen Beispielen, z.B. aus dem Finanzumfeld, und gew\u00e4hrt auch einen Einblick in aktuelle sowie geplante Entwicklungen und Erweiterungen.&quot;, 
+            &quot;description&quot;: &quot;&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;&quot;, 
+            &quot;embed&quot;: &quot;&lt;object width=\&quot;640\&quot; height=\&quot;390\&quot;&gt;&lt;param name=\&quot;movie\&quot; value=\&quot;http://youtube.com/v/NMotyZCztEI?version=3&amp;amp;hl=en_US\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowFullScreen\&quot; value=\&quot;true\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowscriptaccess\&quot; value=\&quot;always\&quot;&gt;&lt;/param&gt;&lt;embed src=\&quot;http://youtube.com/v/NMotyZCztEI?version=3&amp;amp;hl=en_US\&quot; type=\&quot;application/x-shockwave-flash\&quot; width=\&quot;640\&quot; height=\&quot;390\&quot; allowscriptaccess=\&quot;always\&quot; allowfullscreen=\&quot;true\&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://i1.ytimg.com/vi/NMotyZCztEI/hqdefault.jpg" rel="nofollow">http://i1.ytimg.com/vi/NMotyZCztEI/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: 60, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: &quot;&quot;, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: &quot;&quot;, 
+            &quot;video_mp4_download_only&quot;: true, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: &quot;&quot;, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: &quot;&quot;, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="https://www.youtube.com/watch?v=NMotyZCztEI" rel="nofollow">https://www.youtube.com/watch?v=NMotyZCztEI</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2013-10-17&quot;, 
+            &quot;added&quot;: &quot;2013-10-18T06:16:04&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:25.987&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyCon DE 2013&quot;, 
+            &quot;language&quot;: &quot;German&quot;, 
+            &quot;slug&quot;: &quot;die-dinge-im-internet-der-dinge-mit-python-verbin&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Andreas Schreiber&quot;
+            ], 
+            &quot;tags&quot;: [
+                &quot;internet of things&quot;, 
+                &quot;mqtt&quot;, 
+                &quot;quantified self&quot;, 
+                &quot;raspberry pi&quot;, 
+                &quot;temperaturmessung&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 2418, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Die Dinge im Internet der Dinge mit Python verbinden...&quot;, 
+            &quot;summary&quot;: &quot;Das Internet der Dinge besteht aus kleinen, manchmal intelligenten, Ger\u00e4ten und Sensoren, die \u00fcber das Internet verbunden sind. Typische Sensoren sind Wettermessger\u00e4te oder medizinische Ger\u00e4te. Das Internet der Dinge wird nun bald real da sein, was durch g\u00fcnstige kleine Einplatinencomputer wie Raspberry Pi oder Arduino mit beeinflusst wird. Allerdings haben diese Ger\u00e4te nicht viel Rechenleistung. Au\u00dferdem sind sie in machen Umgebungen auch nur mit eingeschr\u00e4nkter Netzwerkbandbreite angebunden. Um nun (viele) solche Ger\u00e4te zu verbinden und Daten austauschen zu lassen sind sehr leichtgewichtige Protokolle und Implementierungen notwendig.\r\n\r\nDer Vortrag ist \u00fcber das Protokoll [Message Queuing Telemetry Transport](http://mqtt.org/) (MQTT), ein sehr geeignetes Protokoll zum Verbinden kleiner Ger\u00e4te und Sensoren. MQTT basiert auf einer Publish/Subscribe-Architektur. Es eignet sich gut zum Schicken von Daten von Sensoren zu anderen Ger\u00e4ten. Zum Beispiel lassen sich Temperaturmesswerte von einem Temperaturf\u00fchler ohne viel Overhead zu einem Server schicken oder zu einem Smartphone als Push-Nachricht \u00fcbermitteln. Ein andere Anwendung von MQTT sind Chat-Systeme, z.B. ist das [Facebook-Messaging](https://www.facebook.com/messages/) auf Basis von MQTT implementiert.\r\n\r\nIn dem Vortrag geht es vor allem um Open-Source-Implementierungen von MQTT. Speziell wird der freie MQTT-Broker [Mosquitto](http://mosquitto.org/) und dessen Python-Client-Bibliothek vorgestellt. Mosquitto ist eine leichtgewichtige Implementierung die effizient auf g\u00fcnstigen Einplatinenrechnern oder Smartphones l\u00e4uft. An ein paar Bespielen in Python wird im Vortrag verdeutlicht wie leicht sich Anwendungen auf Basis von MQTT realisieren lassen: Die \u00dcbertragung von Temperaturmesswerten per Raspberry Pi zu einem Server, das Senden von Push-Nachrichten zu Android-Smartphones und das Senden von Smartphones aus einer Kivy-App heraus.&quot;, 
+            &quot;description&quot;: &quot;&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;&quot;, 
+            &quot;embed&quot;: &quot;&lt;object width=\&quot;640\&quot; height=\&quot;390\&quot;&gt;&lt;param name=\&quot;movie\&quot; value=\&quot;http://youtube.com/v/TM7lO_B-BPw?version=3&amp;amp;hl=en_US\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowFullScreen\&quot; value=\&quot;true\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowscriptaccess\&quot; value=\&quot;always\&quot;&gt;&lt;/param&gt;&lt;embed src=\&quot;http://youtube.com/v/TM7lO_B-BPw?version=3&amp;amp;hl=en_US\&quot; type=\&quot;application/x-shockwave-flash\&quot; width=\&quot;640\&quot; height=\&quot;390\&quot; allowscriptaccess=\&quot;always\&quot; allowfullscreen=\&quot;true\&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://i1.ytimg.com/vi/TM7lO_B-BPw/hqdefault.jpg" rel="nofollow">http://i1.ytimg.com/vi/TM7lO_B-BPw/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: 60, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: &quot;&quot;, 
+            &quot;video_mp4_download_only&quot;: true, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="https://www.youtube.com/watch?v=TM7lO_B-BPw" rel="nofollow">https://www.youtube.com/watch?v=TM7lO_B-BPw</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2013-10-17&quot;, 
+            &quot;added&quot;: &quot;2013-10-17T12:35:39&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:25.988&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyCon DE 2013&quot;, 
+            &quot;language&quot;: &quot;German&quot;, 
+            &quot;slug&quot;: &quot;fritzconnection&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Klaus Bremer&quot;
+            ], 
+            &quot;tags&quot;: [
+                &quot;fritzbox&quot;, 
+                &quot;python-api&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 2432, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;FritzConnection&quot;, 
+            &quot;summary&quot;: &quot;Die AVM Fritzbox ist ein weit verbreiteter Router f\u00fcr den Internet-Zugang und bietet dar\u00fcber hinaus auch Funktionen einer Telefonanlage.\r\n\r\nFritzConnection ist eine Sammlung von Modulen, die eine Python-API zur FritzBox implementieren.\r\n\r\nDer Vortrag gibt einen \u00dcberblick \u00fcber das Funktionsprinzip, den Stand der Entwicklung sowie Beispiele f\u00fcr den Einsatz.\r\n\r\nDer Sourcecode ist verf\u00fcgbar auf Bitbucket:\r\nhttps://bitbucket.org/kbr/fritzconnection&quot;, 
+            &quot;description&quot;: &quot;&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;&quot;, 
+            &quot;embed&quot;: &quot;&lt;object width=\&quot;640\&quot; height=\&quot;390\&quot;&gt;&lt;param name=\&quot;movie\&quot; value=\&quot;http://youtube.com/v/rV2GFvurBp0?version=3&amp;amp;hl=en_US\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowFullScreen\&quot; value=\&quot;true\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowscriptaccess\&quot; value=\&quot;always\&quot;&gt;&lt;/param&gt;&lt;embed src=\&quot;http://youtube.com/v/rV2GFvurBp0?version=3&amp;amp;hl=en_US\&quot; type=\&quot;application/x-shockwave-flash\&quot; width=\&quot;640\&quot; height=\&quot;390\&quot; allowscriptaccess=\&quot;always\&quot; allowfullscreen=\&quot;true\&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://i1.ytimg.com/vi/rV2GFvurBp0/hqdefault.jpg" rel="nofollow">http://i1.ytimg.com/vi/rV2GFvurBp0/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: 30, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: &quot;&quot;, 
+            &quot;video_mp4_download_only&quot;: true, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="https://www.youtube.com/watch?v=rV2GFvurBp0" rel="nofollow">https://www.youtube.com/watch?v=rV2GFvurBp0</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2013-10-17&quot;, 
+            &quot;added&quot;: &quot;2013-10-18T07:40:48&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:25.989&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyCon DE 2013&quot;, 
+            &quot;language&quot;: &quot;German&quot;, 
+            &quot;slug&quot;: &quot;gehirnwellen-fur-hacker&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Andreas Klostermann&quot;
+            ], 
+            &quot;tags&quot;: [
+                &quot;biology&quot;, 
+                &quot;brain computer interfaces&quot;, 
+                &quot;eeg&quot;, 
+                &quot;medicine&quot;, 
+                &quot;neurofeedback&quot;, 
+                &quot;raspberry pi&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 2420, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Gehirnwellen f\u00fcr Hacker&quot;, 
+            &quot;summary&quot;: &quot;Dieser Vortrag beschreibt das Neurosky Mindwave Headset, wie man es mit Python von einem Linuxsystem aus ansteuert.\r\n\r\nMinimale biophysikalische Grundlagen zu Gehirnstr\u00f6men werden erkl\u00e4rt um ein Gef\u00fchl f\u00fcr F\u00e4higkeiten und Grenzen dieses Systems zu vermitteln.\r\n\r\nEs werden Anwendungen im Neurofeedback vorgestellt, wie sie zum Beispiel gegen das Aufmerksamkeitsdefizit-/Hyperaktivit\u00e4tsst\u00f6rungssyndrom (ADHS)  als unterst\u00fctzende Ma\u00dfnahme eingesetzt werden k\u00f6nnten.\r\n\r\nZum Thema Brain Computer Interfaces stelle ich vor was mit diesem Headset funktioniert und was nicht.&quot;, 
+            &quot;description&quot;: &quot;&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;&quot;, 
+            &quot;embed&quot;: &quot;&lt;object width=\&quot;640\&quot; height=\&quot;390\&quot;&gt;&lt;param name=\&quot;movie\&quot; value=\&quot;http://youtube.com/v/CMKV4hlcU8Y?version=3&amp;amp;hl=en_US\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowFullScreen\&quot; value=\&quot;true\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowscriptaccess\&quot; value=\&quot;always\&quot;&gt;&lt;/param&gt;&lt;embed src=\&quot;http://youtube.com/v/CMKV4hlcU8Y?version=3&amp;amp;hl=en_US\&quot; type=\&quot;application/x-shockwave-flash\&quot; width=\&quot;640\&quot; height=\&quot;390\&quot; allowscriptaccess=\&quot;always\&quot; allowfullscreen=\&quot;true\&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://i1.ytimg.com/vi/CMKV4hlcU8Y/hqdefault.jpg" rel="nofollow">http://i1.ytimg.com/vi/CMKV4hlcU8Y/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: 60, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: &quot;&quot;, 
+            &quot;video_mp4_download_only&quot;: true, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="https://www.youtube.com/watch?v=CMKV4hlcU8Y" rel="nofollow">https://www.youtube.com/watch?v=CMKV4hlcU8Y</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2013-10-17&quot;, 
+            &quot;added&quot;: &quot;2013-10-17T12:44:20&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:25.991&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyCon DE 2013&quot;, 
+            &quot;language&quot;: &quot;German&quot;, 
+            &quot;slug&quot;: &quot;handling-big-data-with-python&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Florian Wilhelm&quot;
+            ], 
+            &quot;tags&quot;: [], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 2430, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Handling Big Data with Python&quot;, 
+            &quot;summary&quot;: &quot;The talk gives a small introduction of how Blue Yonder applies machine learning and Predictive Analytics in various fields as well as the challenges of Big Data. Using the example of Blue Yonder&#39;s machine learning software NeuroBayes, we show the made efforts and hit dead ends in order to provide a flexible and yet easy to use interface for NeuroBayes to Data Scientists. Since NeuroBayes is written in FORTRAN for performance reasons different interface approaches were tried which lead us eventually to a Python interface. In the talk we elaborate on the up- and downsides of the different approaches and the various reasons why Python won the race with an emphasize on the benefits of the Python ecosystem itself. \r\nAlso, we discuss performance as well as scalability issues with Python and how we address them. In detail, we show the application of Cython to speed up calculations in the Python interface layer as well as distributed computing in a private cloud called Stratosphere. Scalability and efficiency is of utmost importance when data processing is time critical.  Our overall goal is to give the audience an overview how Python fits in the software ecosystem of a company handling Big Data.\r\n&quot;, 
+            &quot;description&quot;: &quot;&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;&quot;, 
+            &quot;embed&quot;: &quot;&lt;object width=\&quot;640\&quot; height=\&quot;390\&quot;&gt;&lt;param name=\&quot;movie\&quot; value=\&quot;http://youtube.com/v/CxinlY8yGUM?version=3&amp;amp;hl=en_US\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowFullScreen\&quot; value=\&quot;true\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowscriptaccess\&quot; value=\&quot;always\&quot;&gt;&lt;/param&gt;&lt;embed src=\&quot;http://youtube.com/v/CxinlY8yGUM?version=3&amp;amp;hl=en_US\&quot; type=\&quot;application/x-shockwave-flash\&quot; width=\&quot;640\&quot; height=\&quot;390\&quot; allowscriptaccess=\&quot;always\&quot; allowfullscreen=\&quot;true\&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://i1.ytimg.com/vi/CxinlY8yGUM/hqdefault.jpg" rel="nofollow">http://i1.ytimg.com/vi/CxinlY8yGUM/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: 30, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: &quot;&quot;, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: &quot;&quot;, 
+            &quot;video_mp4_download_only&quot;: true, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: &quot;&quot;, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: &quot;&quot;, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="https://www.youtube.com/watch?v=CxinlY8yGUM" rel="nofollow">https://www.youtube.com/watch?v=CxinlY8yGUM</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2013-10-17&quot;, 
+            &quot;added&quot;: &quot;2013-10-18T06:16:44&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:25.992&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyCon DE 2013&quot;, 
+            &quot;language&quot;: &quot;German&quot;, 
+            &quot;slug&quot;: &quot;high-level-programmierung-in-der-raumfahrt&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Felix Huber&quot;
+            ], 
+            &quot;tags&quot;: [], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 2431, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;High-Level Programmierung in der Raumfahrt&quot;, 
+            &quot;summary&quot;: &quot;Field Programmable Gate Arrays (FPGA) werden normalerweise auf Registerebene programmiert mit Hardwarebeschreibungssprachen wie Verilog oder VHDL. Dies ist vergleichbar mit Assemblerprogrammierung eines Mikroprozessors. Die Sprache Handel-C (sic!) hat sich zum Ziel gemacht, Hardwarebeschreibung mit C-Syntax zu erm\u00f6glichen, unabh\u00e4ngig von der zu Grunde liegenden Hardware. Dazu mu\u00df das Problem die Synchronizit\u00e4t durch die inh\u00e4rente Parallelit\u00e4t einer Hardwarefunktion gel\u00f6st werden. Mit Handel-C ist es nun m\u00f6glich, einen Algorithmus in C zu schreiben, auf einem Rechner zu simulieren und anschlie\u00dfend aus dem identischen Quellcode eine Hardwareimplementierung zu synthetisieren. Dabei gehen die Vorteile einer Hochsprache nicht verloren, im Gegenteil: durch den global optimierenden Compiler werden weniger Ressourcen auf dem FPGA ben\u00f6tigt. Zusammen mit Bibliotheken f\u00fcr Fest- und Flie\u00dfkommaarithmetik, Graphikausgabe und Tastatur bedient sich ein FPGA dann wie ein embedded Prozessor mit einem Geschwindigkeitszuwachs von Faktor 100.&quot;, 
+            &quot;description&quot;: &quot;&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;&quot;, 
+            &quot;embed&quot;: &quot;&lt;object width=\&quot;640\&quot; height=\&quot;390\&quot;&gt;&lt;param name=\&quot;movie\&quot; value=\&quot;http://youtube.com/v/2w7K5wUL9IE?version=3&amp;amp;hl=en_US\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowFullScreen\&quot; value=\&quot;true\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowscriptaccess\&quot; value=\&quot;always\&quot;&gt;&lt;/param&gt;&lt;embed src=\&quot;http://youtube.com/v/2w7K5wUL9IE?version=3&amp;amp;hl=en_US\&quot; type=\&quot;application/x-shockwave-flash\&quot; width=\&quot;640\&quot; height=\&quot;390\&quot; allowscriptaccess=\&quot;always\&quot; allowfullscreen=\&quot;true\&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://i1.ytimg.com/vi/2w7K5wUL9IE/hqdefault.jpg" rel="nofollow">http://i1.ytimg.com/vi/2w7K5wUL9IE/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: 60, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: &quot;&quot;, 
+            &quot;video_mp4_download_only&quot;: true, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="https://www.youtube.com/watch?v=2w7K5wUL9IE" rel="nofollow">https://www.youtube.com/watch?v=2w7K5wUL9IE</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2013-10-17&quot;, 
+            &quot;added&quot;: &quot;2013-10-18T06:16:50&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:25.993&quot;
+        }
+    ]
+}</pre>
+            </div>
+        </div>
+
+            
+
+                
+
+                
+            
+
+        </div>
+        <!-- END content-main -->
+
+    </div>
+    <!-- END Content -->
+
+        <div id="push"></div>
+
+    </div>
+
+    </div><!-- ./wrapper -->
+
+    
+    
+
+    
+    <script src="/static/rest_framework/js/jquery-1.8.1-min.js"></script>
+    <script src="/static/rest_framework/js/bootstrap.min.js"></script>
+    <script src="/static/rest_framework/js/prettify-min.js"></script>
+    <script src="/static/rest_framework/js/default.js"></script>
+    
+  </body>
+
+<!-- Mirrored from pyvideo.org/api/v2/video/?page=88 by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 07 Jan 2016 03:50:37 GMT -->
+</html>

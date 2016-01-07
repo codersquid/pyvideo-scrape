@@ -1,0 +1,960 @@
+
+
+<!DOCTYPE html>
+<html>
+    
+<!-- Mirrored from pyvideo.org/api/v2/video/?page=150 by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 07 Jan 2016 03:53:35 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+    
+
+        
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+        <meta name="robots" content="NONE,NOARCHIVE" />
+        
+
+        <title>Django REST framework</title>
+
+        
+        
+            <link rel="stylesheet" type="text/css" href="/static/rest_framework/css/bootstrap.min.css"/>
+            <link rel="stylesheet" type="text/css" href="/static/rest_framework/css/bootstrap-tweaks.css"/>
+        
+        <link rel="stylesheet" type="text/css" href="/static/rest_framework/css/prettify.css"/>
+        <link rel="stylesheet" type="text/css" href="/static/rest_framework/css/default.css"/>
+        
+
+    
+    </head>
+
+  <body class=" container">
+
+    <div class="wrapper">
+
+    
+    <div class="navbar navbar-inverse">
+        <div class="navbar-inner">
+            <div class="container-fluid">
+                <span href="/">
+                    <a class='brand' rel="nofollow" href='http://www.django-rest-framework.org'>Django REST framework <span class="version">2.3.14</span></a>
+                </span>
+                <ul class="nav pull-right">
+                    
+                        
+                            <li></li>
+                        
+                    
+                </ul>
+            </div>
+        </div>
+    </div>
+    
+
+    
+    <ul class="breadcrumb">
+        
+            <li>
+                <a href="/api/v2/video/" class="active">Video List Create Api</a> 
+            </li>
+        
+    </ul>
+    
+
+    <!-- Content -->
+    <div id="content">
+
+        
+            <form id="get-form" class="pull-right">
+                <fieldset>
+                    <div class="btn-group format-selection">
+                        <a class="btn btn-primary js-tooltip" href='/api/v2/video/?page=150' rel="nofollow" title="Make a GET request on the Video List Create Api resource">GET</a>
+
+                        <button class="btn btn-primary dropdown-toggle js-tooltip" data-toggle="dropdown" title="Specify a format for the GET request">
+                            <span class="caret"></span>
+                        </button>
+                        <ul class="dropdown-menu">
+                            
+                                <li>
+                                    <a class="js-tooltip format-option" href='/api/v2/video/?page=150&format=json' rel="nofollow" title="Make a GET request on the Video List Create Api resource with the format set to `json`">json</a>
+                                </li>
+                            
+                                <li>
+                                    <a class="js-tooltip format-option" href='/api/v2/video/?page=150&format=api' rel="nofollow" title="Make a GET request on the Video List Create Api resource with the format set to `api`">api</a>
+                                </li>
+                            
+                        </ul>
+                    </div>
+
+                </fieldset>
+            </form>
+        
+
+        
+            <form class="button-form" action="/api/v2/video/?page=150" method="POST" class="pull-right">
+                <input type='hidden' name='csrfmiddlewaretoken' value='pT8iI6zhtQdsGFmu4tryYgFrUlipl2B3' />
+                <input type="hidden" name="_method" value="OPTIONS" />
+                <button class="btn btn-primary js-tooltip" title="Make an OPTIONS request on the Video List Create Api resource">OPTIONS</button>
+            </form>
+        
+
+        
+
+        <div class="content-main">
+            <div class="page-header"><h1>Video List Create Api</h1></div>
+            
+            
+            
+            <div class="request-info" style="clear: both" >
+                <pre class="prettyprint"><b>GET</b> /api/v2/video/?page=150</pre>
+            </div>
+            <div class="response-info">
+                <pre class="prettyprint"><div class="meta nocode"><b>HTTP 200 OK</b>
+<b>Content-Type:</b> <span class="lit">application/json</span>
+<b>Vary:</b> <span class="lit">Accept</span>
+<b>Allow:</b> <span class="lit">GET, POST, HEAD, OPTIONS</span>
+
+</div>{
+    &quot;count&quot;: 3439, 
+    &quot;next&quot;: &quot;<a href="http://pyvideo.org/api/v2/video/?page=151" rel="nofollow">http://pyvideo.org/api/v2/video/?page=151</a>&quot;, 
+    &quot;previous&quot;: &quot;<a href="http://pyvideo.org/api/v2/video/?page=149" rel="nofollow">http://pyvideo.org/api/v2/video/?page=149</a>&quot;, 
+    &quot;results&quot;: [
+        {
+            &quot;category&quot;: &quot;PyCon AU 2011&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;fun-with-app-engine-150&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Greg Darke&quot;
+            ], 
+            &quot;tags&quot;: [
+                &quot;coroutines&quot;, 
+                &quot;generators&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 981, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Fun with App Engine 1.5.0&quot;, 
+            &quot;summary&quot;: &quot;Using generators as coroutines in App Engine to get more done.\n\n&quot;, 
+            &quot;description&quot;: &quot;&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;Creative Commons Attribution license&quot;, 
+            &quot;embed&quot;: &quot;&lt;object width=\&quot;640\&quot; height=\&quot;390\&quot;&gt;&lt;param name=\&quot;movie\&quot; value=\&quot;http://youtube.com/v/BMiCnYR8YYc?version=3&amp;amp;hl=en_US\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowFullScreen\&quot; value=\&quot;true\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowscriptaccess\&quot; value=\&quot;always\&quot;&gt;&lt;/param&gt;&lt;embed src=\&quot;http://youtube.com/v/BMiCnYR8YYc?version=3&amp;amp;hl=en_US\&quot; type=\&quot;application/x-shockwave-flash\&quot; width=\&quot;640\&quot; height=\&quot;390\&quot; allowscriptaccess=\&quot;always\&quot; allowfullscreen=\&quot;true\&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://i.ytimg.com/vi/BMiCnYR8YYc/hqdefault.jpg" rel="nofollow">http://i.ytimg.com/vi/BMiCnYR8YYc/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: &quot;&quot;, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: &quot;&quot;, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: &quot;&quot;, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: &quot;&quot;, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="http://www.youtube.com/watch?v=BMiCnYR8YYc" rel="nofollow">http://www.youtube.com/watch?v=BMiCnYR8YYc</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2011-08-22&quot;, 
+            &quot;added&quot;: &quot;2012-08-19T11:09:22&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:27.673&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyCon AU 2011&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;hosting-python-web-applications&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Graham P Dumpleton&quot;
+            ], 
+            &quot;tags&quot;: [
+                &quot;hosting&quot;, 
+                &quot;web&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 1002, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Hosting Python Web Applications&quot;, 
+            &quot;summary&quot;: &quot;Web applications which are able to dynamically deliver up content\nhave&amp;nbsp_place_holder;become a crucial part of the Internet landscape, with\nPython becoming an increasingly popular choice for the implementation of all\nmanner of web applications. In order though for users to be able to access\nyour web application you need to host it. The choices available are however\nmany and varied with accurate information on which may be a good choice not\nalways easy to find.\n\n&quot;, 
+            &quot;description&quot;: &quot;&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;Creative Commons Attribution license&quot;, 
+            &quot;embed&quot;: &quot;&lt;object width=\&quot;640\&quot; height=\&quot;390\&quot;&gt;&lt;param name=\&quot;movie\&quot; value=\&quot;http://youtube.com/v/PWIvm-uloMg?version=3&amp;amp;hl=en_US\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowFullScreen\&quot; value=\&quot;true\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowscriptaccess\&quot; value=\&quot;always\&quot;&gt;&lt;/param&gt;&lt;embed src=\&quot;http://youtube.com/v/PWIvm-uloMg?version=3&amp;amp;hl=en_US\&quot; type=\&quot;application/x-shockwave-flash\&quot; width=\&quot;640\&quot; height=\&quot;390\&quot; allowscriptaccess=\&quot;always\&quot; allowfullscreen=\&quot;true\&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://i.ytimg.com/vi/PWIvm-uloMg/hqdefault.jpg" rel="nofollow">http://i.ytimg.com/vi/PWIvm-uloMg/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: &quot;&quot;, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: &quot;&quot;, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: &quot;&quot;, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: &quot;&quot;, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="http://www.youtube.com/watch?v=PWIvm-uloMg" rel="nofollow">http://www.youtube.com/watch?v=PWIvm-uloMg</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2011-08-22&quot;, 
+            &quot;added&quot;: &quot;2012-08-19T11:09:27&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:27.675&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyCon AU 2011&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;how-python-evolves-and-how-you-can-help-make-it&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Nick Coghlan&quot;
+            ], 
+            &quot;tags&quot;: [
+                &quot;cpython&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 997, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;How Python Evolves (and How You Can Help Make It Happen)&quot;, 
+            &quot;summary&quot;: &quot;The CPython reference interpreter lies at the heart of a much wider Python\necosystem. The decisions that shape the future development of CPython ripple\nout and have a broad impact on the entire Python community. This talk covers\nthe special place CPython occupies in the broader Python community, how the\ndecisions that affect CPython&#39;s development are made, and how new developers\ncan become involved in that process..\n\n&quot;, 
+            &quot;description&quot;: &quot;&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;Creative Commons Attribution license&quot;, 
+            &quot;embed&quot;: &quot;&lt;object width=\&quot;640\&quot; height=\&quot;390\&quot;&gt;&lt;param name=\&quot;movie\&quot; value=\&quot;http://youtube.com/v/UZIq_9KgFEY?version=3&amp;amp;hl=en_US\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowFullScreen\&quot; value=\&quot;true\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowscriptaccess\&quot; value=\&quot;always\&quot;&gt;&lt;/param&gt;&lt;embed src=\&quot;http://youtube.com/v/UZIq_9KgFEY?version=3&amp;amp;hl=en_US\&quot; type=\&quot;application/x-shockwave-flash\&quot; width=\&quot;640\&quot; height=\&quot;390\&quot; allowscriptaccess=\&quot;always\&quot; allowfullscreen=\&quot;true\&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://i.ytimg.com/vi/UZIq_9KgFEY/hqdefault.jpg" rel="nofollow">http://i.ytimg.com/vi/UZIq_9KgFEY/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: &quot;&quot;, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: &quot;&quot;, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: &quot;&quot;, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: &quot;&quot;, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="http://www.youtube.com/watch?v=UZIq_9KgFEY" rel="nofollow">http://www.youtube.com/watch?v=UZIq_9KgFEY</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2011-08-22&quot;, 
+            &quot;added&quot;: &quot;2012-08-19T11:09:26&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:27.676&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyCon AU 2011&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;how-to-maintain-big-app-stacks-without-losing-you&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Dylan Jay&quot;
+            ], 
+            &quot;tags&quot;: [
+                &quot;deploy&quot;, 
+                &quot;django&quot;, 
+                &quot;puppet&quot;, 
+                &quot;tutorial&quot;, 
+                &quot;web&quot;, 
+                &quot;zc.buildout&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 984, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;How to maintain big app stacks without losing your mind&quot;, 
+            &quot;summary&quot;: &quot;zc.buildout is a powerful build/configure/deployment tool for creating\napplications from multiple parts, some not python. It&#39;s perfect for sharing a\ndevelopment environment or deploy applications to many hosts. This tutorial\nwill cover basic concepts, similarity to other tools such as virtual-env,\npuppet etc as well as practical examples. zc.buildout has successful been used\nwith web applications such as Plone, django and pyramid.\n\n&quot;, 
+            &quot;description&quot;: &quot;&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;Creative Commons Attribution license&quot;, 
+            &quot;embed&quot;: &quot;&lt;object width=\&quot;640\&quot; height=\&quot;390\&quot;&gt;&lt;param name=\&quot;movie\&quot; value=\&quot;http://youtube.com/v/XCzk8n9eQ2Q?version=3&amp;amp;hl=en_US\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowFullScreen\&quot; value=\&quot;true\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowscriptaccess\&quot; value=\&quot;always\&quot;&gt;&lt;/param&gt;&lt;embed src=\&quot;http://youtube.com/v/XCzk8n9eQ2Q?version=3&amp;amp;hl=en_US\&quot; type=\&quot;application/x-shockwave-flash\&quot; width=\&quot;640\&quot; height=\&quot;390\&quot; allowscriptaccess=\&quot;always\&quot; allowfullscreen=\&quot;true\&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://i.ytimg.com/vi/XCzk8n9eQ2Q/hqdefault.jpg" rel="nofollow">http://i.ytimg.com/vi/XCzk8n9eQ2Q/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: &quot;&quot;, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: &quot;&quot;, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: &quot;&quot;, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: &quot;&quot;, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="http://www.youtube.com/watch?v=XCzk8n9eQ2Q" rel="nofollow">http://www.youtube.com/watch?v=XCzk8n9eQ2Q</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2011-08-22&quot;, 
+            &quot;added&quot;: &quot;2012-08-19T11:09:23&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:27.677&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyCon AU 2011&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;infinite-8-bit-platformer&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Chris McCormick&quot;
+            ], 
+            &quot;tags&quot;: [
+                &quot;pygame&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 987, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Infinite 8-bit Platformer&quot;, 
+            &quot;summary&quot;: &quot;Infinite 8-bit Platformer is a Free Software multiplayer user-created-content\nplatform video game written in Pygame. It&#39;s a bit like a cross between a wiki\nand a game, because the players can also create and edit the levels. In this\ntalk we will look at the development of the game over the last three years,\nincluding what has changed since PyCon 2010. We&#39;ll examine the sound,\ngraphics, and networking architecture which is built upon pygame and asyncore\n(PodSixNet).\n\n&quot;, 
+            &quot;description&quot;: &quot;&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;Creative Commons Attribution license&quot;, 
+            &quot;embed&quot;: &quot;&lt;object width=\&quot;640\&quot; height=\&quot;390\&quot;&gt;&lt;param name=\&quot;movie\&quot; value=\&quot;http://youtube.com/v/qv-BGCFRP4Q?version=3&amp;amp;hl=en_US\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowFullScreen\&quot; value=\&quot;true\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowscriptaccess\&quot; value=\&quot;always\&quot;&gt;&lt;/param&gt;&lt;embed src=\&quot;http://youtube.com/v/qv-BGCFRP4Q?version=3&amp;amp;hl=en_US\&quot; type=\&quot;application/x-shockwave-flash\&quot; width=\&quot;640\&quot; height=\&quot;390\&quot; allowscriptaccess=\&quot;always\&quot; allowfullscreen=\&quot;true\&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://i.ytimg.com/vi/qv-BGCFRP4Q/hqdefault.jpg" rel="nofollow">http://i.ytimg.com/vi/qv-BGCFRP4Q/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: &quot;&quot;, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: &quot;&quot;, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: &quot;&quot;, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: &quot;&quot;, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="http://www.youtube.com/watch?v=qv-BGCFRP4Q" rel="nofollow">http://www.youtube.com/watch?v=qv-BGCFRP4Q</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2011-08-22&quot;, 
+            &quot;added&quot;: &quot;2012-08-19T11:09:23&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:27.678&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyCon AU 2011&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;keynote-audrey-roy&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Audrey Roy&quot;
+            ], 
+            &quot;tags&quot;: [], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 1005, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Keynote: Audrey Roy&quot;, 
+            &quot;summary&quot;: &quot;Keynote presentation\n\n&quot;, 
+            &quot;description&quot;: &quot;&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;Creative Commons Attribution license&quot;, 
+            &quot;embed&quot;: &quot;&lt;object width=\&quot;640\&quot; height=\&quot;390\&quot;&gt;&lt;param name=\&quot;movie\&quot; value=\&quot;http://youtube.com/v/76YfICi8LcA?version=3&amp;amp;hl=en_US\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowFullScreen\&quot; value=\&quot;true\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowscriptaccess\&quot; value=\&quot;always\&quot;&gt;&lt;/param&gt;&lt;embed src=\&quot;http://youtube.com/v/76YfICi8LcA?version=3&amp;amp;hl=en_US\&quot; type=\&quot;application/x-shockwave-flash\&quot; width=\&quot;640\&quot; height=\&quot;390\&quot; allowscriptaccess=\&quot;always\&quot; allowfullscreen=\&quot;true\&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://i.ytimg.com/vi/76YfICi8LcA/hqdefault.jpg" rel="nofollow">http://i.ytimg.com/vi/76YfICi8LcA/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: &quot;&quot;, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: &quot;&quot;, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: &quot;&quot;, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: &quot;&quot;, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="http://www.youtube.com/watch?v=76YfICi8LcA" rel="nofollow">http://www.youtube.com/watch?v=76YfICi8LcA</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2011-08-22&quot;, 
+            &quot;added&quot;: &quot;2012-08-19T11:09:28&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:27.680&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyCon AU 2011&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;lightning-talks-saturday&quot;, 
+            &quot;speakers&quot;: [], 
+            &quot;tags&quot;: [], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 986, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Lightning talks: Saturday&quot;, 
+            &quot;summary&quot;: &quot;Lightning talks. See the whiteboard in the foyer for signup.\n\n&quot;, 
+            &quot;description&quot;: &quot;&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;Creative Commons Attribution license&quot;, 
+            &quot;embed&quot;: &quot;&lt;object width=\&quot;640\&quot; height=\&quot;390\&quot;&gt;&lt;param name=\&quot;movie\&quot; value=\&quot;http://youtube.com/v/mNy83D7Rhoo?version=3&amp;amp;hl=en_US\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowFullScreen\&quot; value=\&quot;true\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowscriptaccess\&quot; value=\&quot;always\&quot;&gt;&lt;/param&gt;&lt;embed src=\&quot;http://youtube.com/v/mNy83D7Rhoo?version=3&amp;amp;hl=en_US\&quot; type=\&quot;application/x-shockwave-flash\&quot; width=\&quot;640\&quot; height=\&quot;390\&quot; allowscriptaccess=\&quot;always\&quot; allowfullscreen=\&quot;true\&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://i.ytimg.com/vi/mNy83D7Rhoo/hqdefault.jpg" rel="nofollow">http://i.ytimg.com/vi/mNy83D7Rhoo/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: &quot;&quot;, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: &quot;&quot;, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: &quot;&quot;, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: &quot;&quot;, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="http://www.youtube.com/watch?v=mNy83D7Rhoo" rel="nofollow">http://www.youtube.com/watch?v=mNy83D7Rhoo</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;needs to be broken down&quot;, 
+            &quot;recorded&quot;: &quot;2011-08-22&quot;, 
+            &quot;added&quot;: &quot;2012-08-19T11:09:23&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:27.681&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyCon AU 2011&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;networking-libraries-in-python&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Senthil Kumuran&quot;
+            ], 
+            &quot;tags&quot;: [
+                &quot;framework&quot;, 
+                &quot;network&quot;, 
+                &quot;networking&quot;, 
+                &quot;pycurl&quot;, 
+                &quot;tornado&quot;, 
+                &quot;twisted&quot;, 
+                &quot;urllib&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 992, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Networking Libraries in Python&quot;, 
+            &quot;summary&quot;: &quot;This talk will explore the core networking libraries available in Python.\n\n&quot;, 
+            &quot;description&quot;: &quot;  1. Python Standard Library. http and urllib package (Python3 and Python2). \n  2. Capabilities of other 3rd party networking libraries - pycurl and httplib2. When to use them and why they exist. \n  3. Asychronous Network IO using Twisted Matrix Framework. \n  4. Tornado framework capablities - Generic overview. \n\n&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;Creative Commons Attribution license&quot;, 
+            &quot;embed&quot;: &quot;&lt;object width=\&quot;640\&quot; height=\&quot;390\&quot;&gt;&lt;param name=\&quot;movie\&quot; value=\&quot;http://youtube.com/v/xnoW4twC4xo?version=3&amp;amp;hl=en_US\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowFullScreen\&quot; value=\&quot;true\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowscriptaccess\&quot; value=\&quot;always\&quot;&gt;&lt;/param&gt;&lt;embed src=\&quot;http://youtube.com/v/xnoW4twC4xo?version=3&amp;amp;hl=en_US\&quot; type=\&quot;application/x-shockwave-flash\&quot; width=\&quot;640\&quot; height=\&quot;390\&quot; allowscriptaccess=\&quot;always\&quot; allowfullscreen=\&quot;true\&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://i.ytimg.com/vi/xnoW4twC4xo/hqdefault.jpg" rel="nofollow">http://i.ytimg.com/vi/xnoW4twC4xo/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: &quot;&quot;, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: &quot;&quot;, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: &quot;&quot;, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: &quot;&quot;, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="http://www.youtube.com/watch?v=xnoW4twC4xo" rel="nofollow">http://www.youtube.com/watch?v=xnoW4twC4xo</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2011-08-22&quot;, 
+            &quot;added&quot;: &quot;2012-08-19T11:09:25&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:27.682&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyCon AU 2011&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;panel-python-in-the-webs&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Dylan Jay&quot;, 
+                &quot;Malcolm Tredinnick&quot;, 
+                &quot;Richard Jones&quot;, 
+                &quot;Russell Keith-Magee&quot;
+            ], 
+            &quot;tags&quot;: [
+                &quot;panel&quot;, 
+                &quot;web&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 985, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Panel: Python in the webs&quot;, 
+            &quot;summary&quot;: &quot;This will be a panel discussion wherein we wax philosophical about the state\nof web frameworks in Python - talking about invention, reinvention, multitudes\nof choice, how all of them suck, etc. Panelists will include Dylan Jay,\nMalcolm Tredinnick, Russell Keith-Magee and Richard Jones.\n\n&quot;, 
+            &quot;description&quot;: &quot;&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;Creative Commons Attribution license&quot;, 
+            &quot;embed&quot;: &quot;&lt;object width=\&quot;640\&quot; height=\&quot;390\&quot;&gt;&lt;param name=\&quot;movie\&quot; value=\&quot;http://youtube.com/v/0aBCpu53z9Q?version=3&amp;amp;hl=en_US\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowFullScreen\&quot; value=\&quot;true\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowscriptaccess\&quot; value=\&quot;always\&quot;&gt;&lt;/param&gt;&lt;embed src=\&quot;http://youtube.com/v/0aBCpu53z9Q?version=3&amp;amp;hl=en_US\&quot; type=\&quot;application/x-shockwave-flash\&quot; width=\&quot;640\&quot; height=\&quot;390\&quot; allowscriptaccess=\&quot;always\&quot; allowfullscreen=\&quot;true\&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://i.ytimg.com/vi/0aBCpu53z9Q/hqdefault.jpg" rel="nofollow">http://i.ytimg.com/vi/0aBCpu53z9Q/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: &quot;&quot;, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: &quot;&quot;, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: &quot;&quot;, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: &quot;&quot;, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="http://www.youtube.com/watch?v=0aBCpu53z9Q" rel="nofollow">http://www.youtube.com/watch?v=0aBCpu53z9Q</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2011-08-22&quot;, 
+            &quot;added&quot;: &quot;2012-08-19T11:09:23&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:27.683&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyCon AU 2011&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;pants-network-programming-made-easy&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Christopher Davis&quot;
+            ], 
+            &quot;tags&quot;: [
+                &quot;api&quot;, 
+                &quot;network&quot;, 
+                &quot;pants&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 998, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Pants - Network Programming Made Easy&quot;, 
+            &quot;summary&quot;: &quot;Pants (<a href="http://pantsweb.org" rel="nofollow">pantsweb.org</a>) is an open source library that aims to make network\nprogramming in Python a breeze. This talk will outline challenges in network\nprogramming and how Pants approaches them. The audience will be briefly\nintroduced to Pants&#39; API through example code, and to its capabilities through\nbenchmarks and comparisons with alternate frameworks..\n\n&quot;, 
+            &quot;description&quot;: &quot;&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;Creative Commons Attribution license&quot;, 
+            &quot;embed&quot;: &quot;&lt;object width=\&quot;640\&quot; height=\&quot;390\&quot;&gt;&lt;param name=\&quot;movie\&quot; value=\&quot;http://youtube.com/v/ZCW41URyqAQ?version=3&amp;amp;hl=en_US\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowFullScreen\&quot; value=\&quot;true\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowscriptaccess\&quot; value=\&quot;always\&quot;&gt;&lt;/param&gt;&lt;embed src=\&quot;http://youtube.com/v/ZCW41URyqAQ?version=3&amp;amp;hl=en_US\&quot; type=\&quot;application/x-shockwave-flash\&quot; width=\&quot;640\&quot; height=\&quot;390\&quot; allowscriptaccess=\&quot;always\&quot; allowfullscreen=\&quot;true\&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://i.ytimg.com/vi/ZCW41URyqAQ/hqdefault.jpg" rel="nofollow">http://i.ytimg.com/vi/ZCW41URyqAQ/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: &quot;&quot;, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: &quot;&quot;, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: &quot;&quot;, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: &quot;&quot;, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="http://www.youtube.com/watch?v=ZCW41URyqAQ" rel="nofollow">http://www.youtube.com/watch?v=ZCW41URyqAQ</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2011-08-22&quot;, 
+            &quot;added&quot;: &quot;2012-08-19T11:09:26&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:27.685&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyCon AU 2011&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;pyramid-lighter-faster-better-web-apps&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Dylan Jay&quot;
+            ], 
+            &quot;tags&quot;: [
+                &quot;framework&quot;, 
+                &quot;pylons&quot;, 
+                &quot;pyramid&quot;, 
+                &quot;tutorial&quot;, 
+                &quot;web&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 991, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Pyramid: Lighter, faster, better web apps&quot;, 
+            &quot;summary&quot;: &quot;Introduction to the Pyramid, the new web framework taking the python world by\nstorm. This tutorial will cover the basics of a hello world app and cover some\nof the advanced features of pyramid that give it it&#39;s power such as traversal.\nPyramid is part of the pylons project and is a successor to pylons and a\ncontinuation of the BFG framework. It&#39;s very simple to learn, runs fast yet\nhas powerful concepts which help keep large web app creation a sane process..\n\n&quot;, 
+            &quot;description&quot;: &quot;&quot;, 
+            &quot;quality_notes&quot;: &quot;&lt;p&gt;Audio missing initially but kicks in after a few seconds.&lt;/p&gt;&quot;, 
+            &quot;copyright_text&quot;: &quot;Creative Commons Attribution license&quot;, 
+            &quot;embed&quot;: &quot;&lt;object width=\&quot;640\&quot; height=\&quot;390\&quot;&gt;&lt;param name=\&quot;movie\&quot; value=\&quot;http://youtube.com/v/DBV0MsRu72M?version=3&amp;amp;hl=en_US\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowFullScreen\&quot; value=\&quot;true\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowscriptaccess\&quot; value=\&quot;always\&quot;&gt;&lt;/param&gt;&lt;embed src=\&quot;http://youtube.com/v/DBV0MsRu72M?version=3&amp;amp;hl=en_US\&quot; type=\&quot;application/x-shockwave-flash\&quot; width=\&quot;640\&quot; height=\&quot;390\&quot; allowscriptaccess=\&quot;always\&quot; allowfullscreen=\&quot;true\&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://i.ytimg.com/vi/DBV0MsRu72M/hqdefault.jpg" rel="nofollow">http://i.ytimg.com/vi/DBV0MsRu72M/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: &quot;&quot;, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: &quot;&quot;, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: &quot;&quot;, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: &quot;&quot;, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="http://www.youtube.com/watch?v=DBV0MsRu72M" rel="nofollow">http://www.youtube.com/watch?v=DBV0MsRu72M</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2011-08-22&quot;, 
+            &quot;added&quot;: &quot;2012-08-19T11:09:24&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:27.686&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyCon AU 2011&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;say-what-you-mean-meta-programming-a-declarative&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Ryan F Kelly&quot;
+            ], 
+            &quot;tags&quot;: [
+                &quot;api&quot;, 
+                &quot;django&quot;, 
+                &quot;orm&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 989, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Say What You Mean: Meta-Programming a Declarative API&quot;, 
+            &quot;summary&quot;: &quot;This talk will explore the use of python&#39;s meta-programming facilities to\ncreate a simple declarative API so that you can *say what you mean* - write\ncode that focuses on the what and the why without being cluttered by the how.\nIf you&#39;ve ever wondered how the Django ORM or SQLObject work their magic, this\nis the talk for you.\n\n&quot;, 
+            &quot;description&quot;: &quot;&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;Creative Commons Attribution license&quot;, 
+            &quot;embed&quot;: &quot;&lt;object width=\&quot;640\&quot; height=\&quot;390\&quot;&gt;&lt;param name=\&quot;movie\&quot; value=\&quot;http://youtube.com/v/nRDC6GtfB4g?version=3&amp;amp;hl=en_US\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowFullScreen\&quot; value=\&quot;true\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowscriptaccess\&quot; value=\&quot;always\&quot;&gt;&lt;/param&gt;&lt;embed src=\&quot;http://youtube.com/v/nRDC6GtfB4g?version=3&amp;amp;hl=en_US\&quot; type=\&quot;application/x-shockwave-flash\&quot; width=\&quot;640\&quot; height=\&quot;390\&quot; allowscriptaccess=\&quot;always\&quot; allowfullscreen=\&quot;true\&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://i.ytimg.com/vi/nRDC6GtfB4g/hqdefault.jpg" rel="nofollow">http://i.ytimg.com/vi/nRDC6GtfB4g/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: &quot;&quot;, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: &quot;&quot;, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: &quot;&quot;, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: &quot;&quot;, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="http://www.youtube.com/watch?v=nRDC6GtfB4g" rel="nofollow">http://www.youtube.com/watch?v=nRDC6GtfB4g</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2011-08-22&quot;, 
+            &quot;added&quot;: &quot;2012-08-19T11:09:24&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:27.687&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyCon AU 2011&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;state-of-cpython-and-python-ecosystem&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Senthil Kumaran&quot;
+            ], 
+            &quot;tags&quot;: [
+                &quot;cpython&quot;, 
+                &quot;ironpython&quot;, 
+                &quot;jython&quot;, 
+                &quot;pypy&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 999, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;State of CPython and Python Ecosystem&quot;, 
+            &quot;summary&quot;: &quot;This a high level overview of the State of CPython interpreter and other\npython interpreters. The talk will mention about the\n&amp;nbsp_place_holder;changes in 3.2 release and changes coming up in 3.3 release\nand status of Python2.7. It will also give the details of current state of\nPyPy Project, IronPython project and Jython Project..\n\n&quot;, 
+            &quot;description&quot;: &quot;&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;Creative Commons Attribution license&quot;, 
+            &quot;embed&quot;: &quot;&lt;object width=\&quot;640\&quot; height=\&quot;390\&quot;&gt;&lt;param name=\&quot;movie\&quot; value=\&quot;http://youtube.com/v/hx_rCN8pcfk?version=3&amp;amp;hl=en_US\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowFullScreen\&quot; value=\&quot;true\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowscriptaccess\&quot; value=\&quot;always\&quot;&gt;&lt;/param&gt;&lt;embed src=\&quot;http://youtube.com/v/hx_rCN8pcfk?version=3&amp;amp;hl=en_US\&quot; type=\&quot;application/x-shockwave-flash\&quot; width=\&quot;640\&quot; height=\&quot;390\&quot; allowscriptaccess=\&quot;always\&quot; allowfullscreen=\&quot;true\&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://i.ytimg.com/vi/hx_rCN8pcfk/hqdefault.jpg" rel="nofollow">http://i.ytimg.com/vi/hx_rCN8pcfk/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: &quot;&quot;, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: &quot;&quot;, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: &quot;&quot;, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: &quot;&quot;, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="http://www.youtube.com/watch?v=hx_rCN8pcfk" rel="nofollow">http://www.youtube.com/watch?v=hx_rCN8pcfk</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2011-08-22&quot;, 
+            &quot;added&quot;: &quot;2012-08-19T11:09:26&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:27.688&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyCon AU 2011&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;sysadmins-vs-developers-a-take-from-the-other-si&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Benjamin A Smith&quot;
+            ], 
+            &quot;tags&quot;: [], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 988, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Sysadmins vs Developers, a take from the other side of the fence&quot;, 
+            &quot;summary&quot;: &quot;A 30 minute foray into the world of the system administrator, focusing on\nsituations shared between sysadmins and developers, however differ from\nperspective, motivations and problems. The primary goal here is to provide\nsome light hearted anecdotes, examples and situations, that developers will\nrelate to from their&amp;nbsp_place_holder;experiences&amp;nbsp_place_holder;and\ngarner a new appreciation for the role of the sysadmin.\n\n&quot;, 
+            &quot;description&quot;: &quot;&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;Creative Commons Attribution license&quot;, 
+            &quot;embed&quot;: &quot;&lt;object width=\&quot;640\&quot; height=\&quot;390\&quot;&gt;&lt;param name=\&quot;movie\&quot; value=\&quot;http://youtube.com/v/tyDiw7Nqu7w?version=3&amp;amp;hl=en_US\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowFullScreen\&quot; value=\&quot;true\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowscriptaccess\&quot; value=\&quot;always\&quot;&gt;&lt;/param&gt;&lt;embed src=\&quot;http://youtube.com/v/tyDiw7Nqu7w?version=3&amp;amp;hl=en_US\&quot; type=\&quot;application/x-shockwave-flash\&quot; width=\&quot;640\&quot; height=\&quot;390\&quot; allowscriptaccess=\&quot;always\&quot; allowfullscreen=\&quot;true\&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://i.ytimg.com/vi/tyDiw7Nqu7w/hqdefault.jpg" rel="nofollow">http://i.ytimg.com/vi/tyDiw7Nqu7w/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: &quot;&quot;, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: &quot;&quot;, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: &quot;&quot;, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: &quot;&quot;, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="http://www.youtube.com/watch?v=tyDiw7Nqu7w" rel="nofollow">http://www.youtube.com/watch?v=tyDiw7Nqu7w</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2011-08-22&quot;, 
+            &quot;added&quot;: &quot;2012-08-19T11:09:24&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:27.690&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyCon AU 2011&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;teaching-python-to-the-young-and-impressionable&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Georgina Wilcox&quot;, 
+                &quot;Katie M Bell&quot;
+            ], 
+            &quot;tags&quot;: [
+                &quot;network&quot;, 
+                &quot;outreach&quot;, 
+                &quot;science&quot;, 
+                &quot;teaching&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 990, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Teaching Python to the young and impressionable&quot;, 
+            &quot;summary&quot;: &quot;We present two outreach programmes run by Sydney University for high school\nstudents: the National Computer Science School (<a href="http://www.ncss.edu.au" rel="nofollow">http://www.ncss.edu.au</a>) and\nthe Girls&#39; Programming Network (<a href="http://sydney.edu.au/it/gpn" rel="nofollow">http://sydney.edu.au/it/gpn</a>). For the past\nfour years we have been teaching Python to students in grades 9-12, and based\non this experience we will discuss why Python is a good first language and the\nparts of it which are still difficult for students to grasp.\n\n&quot;, 
+            &quot;description&quot;: &quot;&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;Creative Commons Attribution license&quot;, 
+            &quot;embed&quot;: &quot;&lt;object width=\&quot;640\&quot; height=\&quot;390\&quot;&gt;&lt;param name=\&quot;movie\&quot; value=\&quot;http://youtube.com/v/S56dbRk_jSQ?version=3&amp;amp;hl=en_US\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowFullScreen\&quot; value=\&quot;true\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowscriptaccess\&quot; value=\&quot;always\&quot;&gt;&lt;/param&gt;&lt;embed src=\&quot;http://youtube.com/v/S56dbRk_jSQ?version=3&amp;amp;hl=en_US\&quot; type=\&quot;application/x-shockwave-flash\&quot; width=\&quot;640\&quot; height=\&quot;390\&quot; allowscriptaccess=\&quot;always\&quot; allowfullscreen=\&quot;true\&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://i.ytimg.com/vi/S56dbRk_jSQ/hqdefault.jpg" rel="nofollow">http://i.ytimg.com/vi/S56dbRk_jSQ/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: &quot;&quot;, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: &quot;&quot;, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: &quot;&quot;, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: &quot;&quot;, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="http://www.youtube.com/watch?v=S56dbRk_jSQ" rel="nofollow">http://www.youtube.com/watch?v=S56dbRk_jSQ</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2011-08-22&quot;, 
+            &quot;added&quot;: &quot;2012-08-19T11:09:24&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:27.691&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyCon AU 2011&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;the-ncss-challenge-teaching-programming-via-auto&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Tim Dawborn&quot;
+            ], 
+            &quot;tags&quot;: [
+                &quot;embedded&quot;, 
+                &quot;teaching&quot;, 
+                &quot;testing&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 982, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;The NCSS Challenge: teaching programming via automated testing&quot;, 
+            &quot;summary&quot;: &quot;The NCSS Challenge (<a href="http://challenge.ncss.edu.au/" rel="nofollow">http://challenge.ncss.edu.au/</a>) is an online programming\ncompetition for Australian high school students. There are four different\ncourses being run during 2011: Introductory Python, Intermediate Python,\nAdvanced Python, and Embedded Systems (using the Arduino). In 2010 we had over\n1700 students participate in the Challenge. There are a number of interesting\ntechnical challenges which had to be overcome in order to facilitate such a\nsystem.\n\n&quot;, 
+            &quot;description&quot;: &quot;&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;Creative Commons Attribution license&quot;, 
+            &quot;embed&quot;: &quot;&lt;object width=\&quot;640\&quot; height=\&quot;390\&quot;&gt;&lt;param name=\&quot;movie\&quot; value=\&quot;http://youtube.com/v/y-WPPdhTKBU?version=3&amp;amp;hl=en_US\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowFullScreen\&quot; value=\&quot;true\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowscriptaccess\&quot; value=\&quot;always\&quot;&gt;&lt;/param&gt;&lt;embed src=\&quot;http://youtube.com/v/y-WPPdhTKBU?version=3&amp;amp;hl=en_US\&quot; type=\&quot;application/x-shockwave-flash\&quot; width=\&quot;640\&quot; height=\&quot;390\&quot; allowscriptaccess=\&quot;always\&quot; allowfullscreen=\&quot;true\&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://i.ytimg.com/vi/y-WPPdhTKBU/hqdefault.jpg" rel="nofollow">http://i.ytimg.com/vi/y-WPPdhTKBU/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: &quot;&quot;, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: &quot;&quot;, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: &quot;&quot;, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: &quot;&quot;, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="http://www.youtube.com/watch?v=y-WPPdhTKBU" rel="nofollow">http://www.youtube.com/watch?v=y-WPPdhTKBU</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2011-08-22&quot;, 
+            &quot;added&quot;: &quot;2012-08-19T11:09:22&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:27.692&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyCon AU 2011&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;weather-field-warping-using-python&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Nathan Faggian&quot;
+            ], 
+            &quot;tags&quot;: [
+                &quot;numpy&quot;, 
+                &quot;prototyping&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 1003, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Weather field warping using Python&quot;, 
+            &quot;summary&quot;: &quot;Python is a great language for prototyping computer vision algorithms, the\navailability of libraries such as Numpy and Scipy make for rapid development\nsimilar to that of Matlab, R and IDL. At the Bureau of Meteorology (BoM) we\nare solving the interesting problem of weather field warping. Warping (aka\nnon-linear image registration) is used, for example, to determine what the\npredicted temperature will be hourly if we only have predictions every three\nhours\n\n&quot;, 
+            &quot;description&quot;: &quot;&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;Creative Commons Attribution license&quot;, 
+            &quot;embed&quot;: &quot;&lt;object width=\&quot;640\&quot; height=\&quot;390\&quot;&gt;&lt;param name=\&quot;movie\&quot; value=\&quot;http://youtube.com/v/LRQJvXtpU90?version=3&amp;amp;hl=en_US\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowFullScreen\&quot; value=\&quot;true\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowscriptaccess\&quot; value=\&quot;always\&quot;&gt;&lt;/param&gt;&lt;embed src=\&quot;http://youtube.com/v/LRQJvXtpU90?version=3&amp;amp;hl=en_US\&quot; type=\&quot;application/x-shockwave-flash\&quot; width=\&quot;640\&quot; height=\&quot;390\&quot; allowscriptaccess=\&quot;always\&quot; allowfullscreen=\&quot;true\&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://i.ytimg.com/vi/LRQJvXtpU90/hqdefault.jpg" rel="nofollow">http://i.ytimg.com/vi/LRQJvXtpU90/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: &quot;&quot;, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: &quot;&quot;, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: &quot;&quot;, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: &quot;&quot;, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="http://www.youtube.com/watch?v=LRQJvXtpU90" rel="nofollow">http://www.youtube.com/watch?v=LRQJvXtpU90</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2011-08-22&quot;, 
+            &quot;added&quot;: &quot;2012-08-19T11:09:27&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:27.693&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyCon AU 2011&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;web-micro-framework-battle&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Richard Jones&quot;
+            ], 
+            &quot;tags&quot;: [
+                &quot;web&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 983, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Web micro-framework battle&quot;, 
+            &quot;summary&quot;: &quot;In this talk I&#39;ll be running through the current choices of web micro\nframeworks and comparing them by implementing a simple application.\n\n&quot;, 
+            &quot;description&quot;: &quot;&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;Creative Commons Attribution license&quot;, 
+            &quot;embed&quot;: &quot;&lt;object width=\&quot;640\&quot; height=\&quot;390\&quot;&gt;&lt;param name=\&quot;movie\&quot; value=\&quot;http://youtube.com/v/AYjPIMe0BhA?version=3&amp;amp;hl=en_US\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowFullScreen\&quot; value=\&quot;true\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowscriptaccess\&quot; value=\&quot;always\&quot;&gt;&lt;/param&gt;&lt;embed src=\&quot;http://youtube.com/v/AYjPIMe0BhA?version=3&amp;amp;hl=en_US\&quot; type=\&quot;application/x-shockwave-flash\&quot; width=\&quot;640\&quot; height=\&quot;390\&quot; allowscriptaccess=\&quot;always\&quot; allowfullscreen=\&quot;true\&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://i.ytimg.com/vi/AYjPIMe0BhA/hqdefault.jpg" rel="nofollow">http://i.ytimg.com/vi/AYjPIMe0BhA/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: &quot;&quot;, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: &quot;&quot;, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: &quot;&quot;, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: &quot;&quot;, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="http://www.youtube.com/watch?v=AYjPIMe0BhA" rel="nofollow">http://www.youtube.com/watch?v=AYjPIMe0BhA</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2011-08-22&quot;, 
+            &quot;added&quot;: &quot;2012-08-19T11:09:22&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:27.695&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;PyCon AU 2011&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;zookeepr-home-grown-conference-management-softwa&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Brianna Laugher&quot;
+            ], 
+            &quot;tags&quot;: [
+                &quot;conference&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 996, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Zookeepr: Home-grown conference management software&quot;, 
+            &quot;summary&quot;: &quot;Zookeepr [<a href="http://zookeepr.org/" rel="nofollow">http://zookeepr.org/</a>] is a comprehensive web-based conference\nmanagement system, written in Python and built on Pylons. It has an unusual\ndevelopment history: custom created for the annual Linux.conf.au conference,\nthere are yearly spikes in event-focused feature development, but relatively\nlittle of the ongoing development typically seen in open source projects.\n\n&quot;, 
+            &quot;description&quot;: &quot;&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;Creative Commons Attribution license&quot;, 
+            &quot;embed&quot;: &quot;&lt;object width=\&quot;640\&quot; height=\&quot;390\&quot;&gt;&lt;param name=\&quot;movie\&quot; value=\&quot;http://youtube.com/v/AwT6dEn3FMI?version=3&amp;amp;hl=en_US\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowFullScreen\&quot; value=\&quot;true\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowscriptaccess\&quot; value=\&quot;always\&quot;&gt;&lt;/param&gt;&lt;embed src=\&quot;http://youtube.com/v/AwT6dEn3FMI?version=3&amp;amp;hl=en_US\&quot; type=\&quot;application/x-shockwave-flash\&quot; width=\&quot;640\&quot; height=\&quot;390\&quot; allowscriptaccess=\&quot;always\&quot; allowfullscreen=\&quot;true\&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://i.ytimg.com/vi/AwT6dEn3FMI/hqdefault.jpg" rel="nofollow">http://i.ytimg.com/vi/AwT6dEn3FMI/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: &quot;&quot;, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: &quot;&quot;, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: &quot;&quot;, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: &quot;&quot;, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="http://www.youtube.com/watch?v=AwT6dEn3FMI" rel="nofollow">http://www.youtube.com/watch?v=AwT6dEn3FMI</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2011-08-22&quot;, 
+            &quot;added&quot;: &quot;2012-08-19T11:09:25&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:27.696&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;EuroPython 2011&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;europython-2011-video-reportage&quot;, 
+            &quot;speakers&quot;: [], 
+            &quot;tags&quot;: [], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 1007, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;EuroPython 2011: Video Reportage!&quot;, 
+            &quot;summary&quot;: &quot;Here is a report that condenses in 3 minutes the adventure of 2011! Thanks to\nall participants, speakers and sponsors who made this great event in Italy\ndedicated to Python!\n\n&quot;, 
+            &quot;description&quot;: &quot;Montage of EuroPython 2011.\n\n&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;Standard YouTube License&quot;, 
+            &quot;embed&quot;: &quot;&lt;object width=\&quot;640\&quot; height=\&quot;390\&quot;&gt;&lt;param name=\&quot;movie\&quot; value=\&quot;http://youtube.com/v/eu_vAisNHVA?version=3&amp;amp;hl=en_US\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowFullScreen\&quot; value=\&quot;true\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowscriptaccess\&quot; value=\&quot;always\&quot;&gt;&lt;/param&gt;&lt;embed src=\&quot;http://youtube.com/v/eu_vAisNHVA?version=3&amp;amp;hl=en_US\&quot; type=\&quot;application/x-shockwave-flash\&quot; width=\&quot;640\&quot; height=\&quot;390\&quot; allowscriptaccess=\&quot;always\&quot; allowfullscreen=\&quot;true\&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://i.ytimg.com/vi/eu_vAisNHVA/hqdefault.jpg" rel="nofollow">http://i.ytimg.com/vi/eu_vAisNHVA/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: null, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="http://www.youtube.com/watch?v=eu_vAisNHVA" rel="nofollow">http://www.youtube.com/watch?v=eu_vAisNHVA</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2011-08-11&quot;, 
+            &quot;added&quot;: &quot;2012-08-30T21:02:06&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:27.697&quot;
+        }
+    ]
+}</pre>
+            </div>
+        </div>
+
+            
+
+                
+
+                
+            
+
+        </div>
+        <!-- END content-main -->
+
+    </div>
+    <!-- END Content -->
+
+        <div id="push"></div>
+
+    </div>
+
+    </div><!-- ./wrapper -->
+
+    
+    
+
+    
+    <script src="/static/rest_framework/js/jquery-1.8.1-min.js"></script>
+    <script src="/static/rest_framework/js/bootstrap.min.js"></script>
+    <script src="/static/rest_framework/js/prettify-min.js"></script>
+    <script src="/static/rest_framework/js/default.js"></script>
+    
+  </body>
+
+<!-- Mirrored from pyvideo.org/api/v2/video/?page=150 by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 07 Jan 2016 03:53:35 GMT -->
+</html>

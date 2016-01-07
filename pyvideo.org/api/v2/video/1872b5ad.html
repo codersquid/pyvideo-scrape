@@ -1,0 +1,201 @@
+
+
+<!DOCTYPE html>
+<html>
+    
+<!-- Mirrored from pyvideo.org/api/v2/video/1872?format=api by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 07 Jan 2016 03:46:36 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+    
+
+        
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+        <meta name="robots" content="NONE,NOARCHIVE" />
+        
+
+        <title>Django REST framework</title>
+
+        
+        
+            <link rel="stylesheet" type="text/css" href="/static/rest_framework/css/bootstrap.min.css"/>
+            <link rel="stylesheet" type="text/css" href="/static/rest_framework/css/bootstrap-tweaks.css"/>
+        
+        <link rel="stylesheet" type="text/css" href="/static/rest_framework/css/prettify.css"/>
+        <link rel="stylesheet" type="text/css" href="/static/rest_framework/css/default.css"/>
+        
+
+    
+    </head>
+
+  <body class=" container">
+
+    <div class="wrapper">
+
+    
+    <div class="navbar navbar-inverse">
+        <div class="navbar-inner">
+            <div class="container-fluid">
+                <span href="/">
+                    <a class='brand' rel="nofollow" href='http://www.django-rest-framework.org'>Django REST framework <span class="version">2.3.14</span></a>
+                </span>
+                <ul class="nav pull-right">
+                    
+                        
+                            <li></li>
+                        
+                    
+                </ul>
+            </div>
+        </div>
+    </div>
+    
+
+    
+    <ul class="breadcrumb">
+        
+            <li>
+                <a href="/api/v2/video/" >Video List Create Api</a> <span class="divider">&rsaquo;</span>
+            </li>
+        
+            <li>
+                <a href="/api/v2/video/1872" class="active">Video Retrieve Update Api</a> 
+            </li>
+        
+    </ul>
+    
+
+    <!-- Content -->
+    <div id="content">
+
+        
+            <form id="get-form" class="pull-right">
+                <fieldset>
+                    <div class="btn-group format-selection">
+                        <a class="btn btn-primary js-tooltip" href='/api/v2/video/1872?format=api' rel="nofollow" title="Make a GET request on the Video Retrieve Update Api resource">GET</a>
+
+                        <button class="btn btn-primary dropdown-toggle js-tooltip" data-toggle="dropdown" title="Specify a format for the GET request">
+                            <span class="caret"></span>
+                        </button>
+                        <ul class="dropdown-menu">
+                            
+                                <li>
+                                    <a class="js-tooltip format-option" href='/api/v2/video/1872?format=json' rel="nofollow" title="Make a GET request on the Video Retrieve Update Api resource with the format set to `json`">json</a>
+                                </li>
+                            
+                                <li>
+                                    <a class="js-tooltip format-option" href='/api/v2/video/1872?format=api' rel="nofollow" title="Make a GET request on the Video Retrieve Update Api resource with the format set to `api`">api</a>
+                                </li>
+                            
+                        </ul>
+                    </div>
+
+                </fieldset>
+            </form>
+        
+
+        
+            <form class="button-form" action="/api/v2/video/1872?format=api" method="POST" class="pull-right">
+                <input type='hidden' name='csrfmiddlewaretoken' value='pT8iI6zhtQdsGFmu4tryYgFrUlipl2B3' />
+                <input type="hidden" name="_method" value="OPTIONS" />
+                <button class="btn btn-primary js-tooltip" title="Make an OPTIONS request on the Video Retrieve Update Api resource">OPTIONS</button>
+            </form>
+        
+
+        
+
+        <div class="content-main">
+            <div class="page-header"><h1>Video Retrieve Update Api</h1></div>
+            
+            
+            
+            <div class="request-info" style="clear: both" >
+                <pre class="prettyprint"><b>GET</b> /api/v2/video/1872?format=api</pre>
+            </div>
+            <div class="response-info">
+                <pre class="prettyprint"><div class="meta nocode"><b>HTTP 200 OK</b>
+<b>Content-Type:</b> <span class="lit">application/json</span>
+<b>Vary:</b> <span class="lit">Accept</span>
+<b>Allow:</b> <span class="lit">GET, PUT, PATCH, HEAD, OPTIONS</span>
+
+</div>{
+    &quot;category&quot;: &quot;SciPy 2013&quot;, 
+    &quot;language&quot;: &quot;English&quot;, 
+    &quot;slug&quot;: &quot;symbolic-computing-sympy-scipy2013-tutorial-part-1&quot;, 
+    &quot;speakers&quot;: [
+        &quot;Aaron Meurer&quot;, 
+        &quot;Mateusz Paprocki&quot;, 
+        &quot;Ondrej Certik&quot;
+    ], 
+    &quot;tags&quot;: [
+        &quot;mathematics&quot;, 
+        &quot;sympy&quot;
+    ], 
+    &quot;related_urls&quot;: [
+        {
+            &quot;url&quot;: &quot;<a href="http://mattpap.github.io/scipy-2011-tutorial/html/index.html" rel="nofollow">http://mattpap.github.io/scipy-2011-tutorial/html/index.html</a>&quot;, 
+            &quot;description&quot;: &quot;Guide to symbolic mathematics with SymPy&quot;
+        }
+    ], 
+    &quot;id&quot;: 1872, 
+    &quot;state&quot;: 1, 
+    &quot;title&quot;: &quot;Symbolic Computing with SymPy, SciPy2013 Tutorial, Part 1 of 6&quot;, 
+    &quot;summary&quot;: &quot;SymPy is a pure Python library for symbolic mathematics. It aims to become a full-featured computer algebra system (CAS) while keeping the code as simple as possible in order to be comprehensible and easily extensible. SymPy is written entirely in Python and does not require any external libraries.&quot;, 
+    &quot;description&quot;: &quot;In this tutorial we will introduce attendees to SymPy. We will start by showing how to install and configure this Python module. Then we will proceed to the basics of constructing and manipulating mathematical expressions in SymPy. We will also discuss the most common issues and differences from other computer algebra systems, and how to deal with them. In the last part of this tutorial we will show how to solve simple, yet illustrative, mathematical problems with SymPy.\r\n\r\nThis knowledge should be enough for attendees to start using SymPy for solving mathematical problems and hacking SymPy&#39;s internals (though hacking core modules may require additional expertise).\r\n\r\nWe expect attendees of this tutorial to have basic knowledge of Python and mathematics. However, any more advanced topics will be explained during presentation.\r\n\r\nOutline\r\n\r\n* installing, configuring and running SymPy\r\n* basics of expressions in SymPy\r\n* traversal and manipulation of expressions\r\n* common issues and differences from other CAS\r\n* setting up and using printers\r\n* querying expression properties\r\n* not only symbolics: numerical computing (mpmath)\r\n* Mathematical problem solving with SymPy\r\n\r\nRequired Packages\r\n\r\nPython 2.x or 3.x, SymPy (most recent version) Optional packages: IPython, matplotlib, NetworkX, GMPY, numpy, scipy&quot;, 
+    &quot;quality_notes&quot;: &quot;&quot;, 
+    &quot;copyright_text&quot;: &quot;&quot;, 
+    &quot;embed&quot;: &quot;&lt;iframe width=\&quot;560\&quot; height=\&quot;315\&quot; src=\&quot;//www.youtube.com/embed/dAgShwIx72c\&quot; frameborder=\&quot;0\&quot; allowfullscreen&gt;&lt;/iframe&gt;&quot;, 
+    &quot;thumbnail_url&quot;: &quot;<a href="http://i1.ytimg.com/vi/dAgShwIx72c/hqdefault.jpg" rel="nofollow">http://i1.ytimg.com/vi/dAgShwIx72c/hqdefault.jpg</a>&quot;, 
+    &quot;duration&quot;: null, 
+    &quot;video_ogv_length&quot;: null, 
+    &quot;video_ogv_url&quot;: &quot;&quot;, 
+    &quot;video_ogv_download_only&quot;: false, 
+    &quot;video_mp4_length&quot;: null, 
+    &quot;video_mp4_url&quot;: &quot;&quot;, 
+    &quot;video_mp4_download_only&quot;: false, 
+    &quot;video_webm_length&quot;: null, 
+    &quot;video_webm_url&quot;: &quot;&quot;, 
+    &quot;video_webm_download_only&quot;: false, 
+    &quot;video_flv_length&quot;: null, 
+    &quot;video_flv_url&quot;: &quot;&quot;, 
+    &quot;video_flv_download_only&quot;: false, 
+    &quot;source_url&quot;: &quot;<a href="http://youtu.be/dAgShwIx72c" rel="nofollow">http://youtu.be/dAgShwIx72c</a>&quot;, 
+    &quot;whiteboard&quot;: &quot;&quot;, 
+    &quot;recorded&quot;: null, 
+    &quot;added&quot;: &quot;2013-06-30T20:32:19&quot;, 
+    &quot;updated&quot;: &quot;2014-04-08T20:28:25.927&quot;
+}</pre>
+            </div>
+        </div>
+
+            
+
+                
+
+                
+            
+
+        </div>
+        <!-- END content-main -->
+
+    </div>
+    <!-- END Content -->
+
+        <div id="push"></div>
+
+    </div>
+
+    </div><!-- ./wrapper -->
+
+    
+    
+
+    
+    <script src="/static/rest_framework/js/jquery-1.8.1-min.js"></script>
+    <script src="/static/rest_framework/js/bootstrap.min.js"></script>
+    <script src="/static/rest_framework/js/prettify-min.js"></script>
+    <script src="/static/rest_framework/js/default.js"></script>
+    
+  </body>
+
+<!-- Mirrored from pyvideo.org/api/v2/video/1872?format=api by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 07 Jan 2016 03:46:36 GMT -->
+</html>

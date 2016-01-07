@@ -1,0 +1,191 @@
+
+
+<!DOCTYPE html>
+<html>
+    
+<!-- Mirrored from pyvideo.org/api/v2/video/1933?format=api by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 07 Jan 2016 03:46:36 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+    
+
+        
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+        <meta name="robots" content="NONE,NOARCHIVE" />
+        
+
+        <title>Django REST framework</title>
+
+        
+        
+            <link rel="stylesheet" type="text/css" href="/static/rest_framework/css/bootstrap.min.css"/>
+            <link rel="stylesheet" type="text/css" href="/static/rest_framework/css/bootstrap-tweaks.css"/>
+        
+        <link rel="stylesheet" type="text/css" href="/static/rest_framework/css/prettify.css"/>
+        <link rel="stylesheet" type="text/css" href="/static/rest_framework/css/default.css"/>
+        
+
+    
+    </head>
+
+  <body class=" container">
+
+    <div class="wrapper">
+
+    
+    <div class="navbar navbar-inverse">
+        <div class="navbar-inner">
+            <div class="container-fluid">
+                <span href="/">
+                    <a class='brand' rel="nofollow" href='http://www.django-rest-framework.org'>Django REST framework <span class="version">2.3.14</span></a>
+                </span>
+                <ul class="nav pull-right">
+                    
+                        
+                            <li></li>
+                        
+                    
+                </ul>
+            </div>
+        </div>
+    </div>
+    
+
+    
+    <ul class="breadcrumb">
+        
+            <li>
+                <a href="/api/v2/video/" >Video List Create Api</a> <span class="divider">&rsaquo;</span>
+            </li>
+        
+            <li>
+                <a href="/api/v2/video/1933" class="active">Video Retrieve Update Api</a> 
+            </li>
+        
+    </ul>
+    
+
+    <!-- Content -->
+    <div id="content">
+
+        
+            <form id="get-form" class="pull-right">
+                <fieldset>
+                    <div class="btn-group format-selection">
+                        <a class="btn btn-primary js-tooltip" href='/api/v2/video/1933?format=api' rel="nofollow" title="Make a GET request on the Video Retrieve Update Api resource">GET</a>
+
+                        <button class="btn btn-primary dropdown-toggle js-tooltip" data-toggle="dropdown" title="Specify a format for the GET request">
+                            <span class="caret"></span>
+                        </button>
+                        <ul class="dropdown-menu">
+                            
+                                <li>
+                                    <a class="js-tooltip format-option" href='/api/v2/video/1933?format=json' rel="nofollow" title="Make a GET request on the Video Retrieve Update Api resource with the format set to `json`">json</a>
+                                </li>
+                            
+                                <li>
+                                    <a class="js-tooltip format-option" href='/api/v2/video/1933?format=api' rel="nofollow" title="Make a GET request on the Video Retrieve Update Api resource with the format set to `api`">api</a>
+                                </li>
+                            
+                        </ul>
+                    </div>
+
+                </fieldset>
+            </form>
+        
+
+        
+            <form class="button-form" action="/api/v2/video/1933?format=api" method="POST" class="pull-right">
+                <input type='hidden' name='csrfmiddlewaretoken' value='pT8iI6zhtQdsGFmu4tryYgFrUlipl2B3' />
+                <input type="hidden" name="_method" value="OPTIONS" />
+                <button class="btn btn-primary js-tooltip" title="Make an OPTIONS request on the Video Retrieve Update Api resource">OPTIONS</button>
+            </form>
+        
+
+        
+
+        <div class="content-main">
+            <div class="page-header"><h1>Video Retrieve Update Api</h1></div>
+            
+            
+            
+            <div class="request-info" style="clear: both" >
+                <pre class="prettyprint"><b>GET</b> /api/v2/video/1933?format=api</pre>
+            </div>
+            <div class="response-info">
+                <pre class="prettyprint"><div class="meta nocode"><b>HTTP 200 OK</b>
+<b>Content-Type:</b> <span class="lit">application/json</span>
+<b>Vary:</b> <span class="lit">Accept</span>
+<b>Allow:</b> <span class="lit">GET, PUT, PATCH, HEAD, OPTIONS</span>
+
+</div>{
+    &quot;category&quot;: &quot;SciPy 2013&quot;, 
+    &quot;language&quot;: &quot;English&quot;, 
+    &quot;slug&quot;: &quot;version-control-and-unit-testing-for-scientific-s-&quot;, 
+    &quot;speakers&quot;: [], 
+    &quot;tags&quot;: [
+        &quot;Tech&quot;
+    ], 
+    &quot;related_urls&quot;: [], 
+    &quot;id&quot;: 1933, 
+    &quot;state&quot;: 1, 
+    &quot;title&quot;: &quot;Version Control and Unit Testing for Scientific Software, SciPy2013 Tutorial, Part 2 of 3&quot;, 
+    &quot;summary&quot;: &quot;Presenters: Matt Davis, Katy Huff\n\nDescription\n\nWriting software can be a frustrating process but developers have come up with ways to make it less stressful and error prone. Version control saves the history of your project and makes it easier for multiple people to participate in development. Unit testing and testing frameworks help ensure the correctness of your code and help you find errors by quickly executing and testing your entire code base. These tools can save you time and stress and are valuable to anyone writing software of any description.\n\nThis collaborative, hands-on tutorial will cover version control with Git plus writing and running unit tests in Python (and IPython!) using the nose testing framework. Attendees should be comfortable with the basics of Python and the command line but no experience with scientific Python is necessary.\n\nOutline\n\nThe tutorial will be split into two two-hour lessons. The first lesson will cover git/GitHub and the second lesson will cover unit testing. Throughout the entirety of the tutorial students will be working in pairs. Our teaching style is to have frequent, short exercises for students. Ideally instructors aren&#39;t talking for more than a few minutes before they stop and students do something on their own machines. Instructors then give an explanation and example, then move on to the next item.\n\nLesson 1: git/GitHub\n\nStudents will work in pairs and in each pair one student will make a GitHub repo, then give the other student commit access on that repo. Students will take turns making modifications to learn various bits of git functionality.\n\nLesson 2: Unit Testing\n\nContinuing to work in pairs, students will use test driven development to construct a small scientific program in the IPython Notebook and then take their work to .py files to see how nose works from the command line.\n\nRequired Packages\n\nIn addition to standard Python this tutorial will require the nose testing framework, the IPython Notebook, and the command line interface to Git. Installing Git varies by platform. Windows users should install Git Bash (aka msysgit), Mac users should install the Mac OS X Command Line Tools, and Linux users should use the packaging system for their particular Linux distribution. The Anaconda CE Python installer includes nose and the IPython Notebook.\n\nDocumentation\n\nMaterial will be adapted from existing Software Carpentry lessons, especially: <a href="https://github.com/swcarpentry/boot-camps/tree/master/version-control/git/git-and-github" rel="nofollow">https://github.com/swcarpentry/boot-camps/tree/master/version-control/git/git-and-github</a> <a href="https://github.com/swcarpentry/boot-camps/tree/master/python/sw_engineering%5Cn%5CnOther" rel="nofollow">https://github.com/swcarpentry/boot-camps/tree/master/python/sw_engineering\n\nOther</a> links: <a href="http://software-carpentry.org/" rel="nofollow">http://software-carpentry.org/</a> - The software carpentry organization with links to many lessons and past boot camps. <a href="https://github.com/swcarpentry/boot-camps" rel="nofollow">https://github.com/swcarpentry/boot-camps</a> - Standard Software Carpentry boot camp curriculum. <a href="https://github.com/thehackerwithin/PyTrieste/wiki" rel="nofollow">https://github.com/thehackerwithin/PyTrieste/wiki</a> - Early Software Carpentry curriculum from a two week boot camp at the International Center for Theoretical Physics. <a href="https://code.google.com/p/hacker-within/w/list" rel="nofollow">https://code.google.com/p/hacker-within/w/list</a> - Lesson notes for a three hour lightning lesson at the American Nuclear Society Conference 2011. <a href="http://software-carpentry.org/blog/2012/02/trieste-italy-workshop-week-1.html" rel="nofollow">http://software-carpentry.org/blog/2012/02/trieste-italy-workshop-week-1.html</a> - A blog post about the first week of the two week ICTP boot camp. <a href="http://software-carpentry.org/blog/2012/04/lessons-learned-at-the-university-of-chicago.html" rel="nofollow">http://software-carpentry.org/blog/2012/04/lessons-learned-at-the-university-of-chicago.html</a> - A blog post about a two day boot camp at the University of Chicago. <a href="http://software-carpentry.org/blog/2011/11/knowledge-of-the-second-kind.html" rel="nofollow">http://software-carpentry.org/blog/2011/11/knowledge-of-the-second-kind.html</a> - A blog post about what the hacker within did before it was absorbed into Software Carpentry (it&#39;s no longer really its own entity).&quot;, 
+    &quot;description&quot;: &quot;&quot;, 
+    &quot;quality_notes&quot;: &quot;&quot;, 
+    &quot;copyright_text&quot;: &quot;<a href="http://www.youtube.com/t/terms" rel="nofollow">http://www.youtube.com/t/terms</a>&quot;, 
+    &quot;embed&quot;: &quot;&lt;object width=\&quot;640\&quot; height=\&quot;390\&quot;&gt;&lt;param name=\&quot;movie\&quot; value=\&quot;http://youtube.com/v/-shepsIjEZs?version=3&amp;amp;hl=en_US\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowFullScreen\&quot; value=\&quot;true\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowscriptaccess\&quot; value=\&quot;always\&quot;&gt;&lt;/param&gt;&lt;embed src=\&quot;http://youtube.com/v/-shepsIjEZs?version=3&amp;amp;hl=en_US\&quot; type=\&quot;application/x-shockwave-flash\&quot; width=\&quot;640\&quot; height=\&quot;390\&quot; allowscriptaccess=\&quot;always\&quot; allowfullscreen=\&quot;true\&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&quot;, 
+    &quot;thumbnail_url&quot;: &quot;<a href="http://i1.ytimg.com/vi/-shepsIjEZs/hqdefault.jpg" rel="nofollow">http://i1.ytimg.com/vi/-shepsIjEZs/hqdefault.jpg</a>&quot;, 
+    &quot;duration&quot;: null, 
+    &quot;video_ogv_length&quot;: null, 
+    &quot;video_ogv_url&quot;: null, 
+    &quot;video_ogv_download_only&quot;: false, 
+    &quot;video_mp4_length&quot;: null, 
+    &quot;video_mp4_url&quot;: null, 
+    &quot;video_mp4_download_only&quot;: false, 
+    &quot;video_webm_length&quot;: null, 
+    &quot;video_webm_url&quot;: null, 
+    &quot;video_webm_download_only&quot;: false, 
+    &quot;video_flv_length&quot;: null, 
+    &quot;video_flv_url&quot;: null, 
+    &quot;video_flv_download_only&quot;: false, 
+    &quot;source_url&quot;: &quot;<a href="http://www.youtube.com/watch?v=-shepsIjEZs" rel="nofollow">http://www.youtube.com/watch?v=-shepsIjEZs</a>&quot;, 
+    &quot;whiteboard&quot;: &quot;needs editing&quot;, 
+    &quot;recorded&quot;: &quot;2013-06-27&quot;, 
+    &quot;added&quot;: &quot;2013-07-01T19:52:11&quot;, 
+    &quot;updated&quot;: &quot;2014-04-08T20:28:26.512&quot;
+}</pre>
+            </div>
+        </div>
+
+            
+
+                
+
+                
+            
+
+        </div>
+        <!-- END content-main -->
+
+    </div>
+    <!-- END Content -->
+
+        <div id="push"></div>
+
+    </div>
+
+    </div><!-- ./wrapper -->
+
+    
+    
+
+    
+    <script src="/static/rest_framework/js/jquery-1.8.1-min.js"></script>
+    <script src="/static/rest_framework/js/bootstrap.min.js"></script>
+    <script src="/static/rest_framework/js/prettify-min.js"></script>
+    <script src="/static/rest_framework/js/default.js"></script>
+    
+  </body>
+
+<!-- Mirrored from pyvideo.org/api/v2/video/1933?format=api by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 07 Jan 2016 03:46:36 GMT -->
+</html>

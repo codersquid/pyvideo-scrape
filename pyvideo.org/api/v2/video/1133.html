@@ -1,0 +1,199 @@
+
+
+<!DOCTYPE html>
+<html>
+    
+<!-- Mirrored from pyvideo.org/api/v2/video/1133 by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 07 Jan 2016 03:21:33 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+    
+
+        
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+        <meta name="robots" content="NONE,NOARCHIVE" />
+        
+
+        <title>Django REST framework</title>
+
+        
+        
+            <link rel="stylesheet" type="text/css" href="/static/rest_framework/css/bootstrap.min.css"/>
+            <link rel="stylesheet" type="text/css" href="/static/rest_framework/css/bootstrap-tweaks.css"/>
+        
+        <link rel="stylesheet" type="text/css" href="/static/rest_framework/css/prettify.css"/>
+        <link rel="stylesheet" type="text/css" href="/static/rest_framework/css/default.css"/>
+        
+
+    
+    </head>
+
+  <body class=" container">
+
+    <div class="wrapper">
+
+    
+    <div class="navbar navbar-inverse">
+        <div class="navbar-inner">
+            <div class="container-fluid">
+                <span href="/">
+                    <a class='brand' rel="nofollow" href='http://www.django-rest-framework.org'>Django REST framework <span class="version">2.3.14</span></a>
+                </span>
+                <ul class="nav pull-right">
+                    
+                        
+                            <li></li>
+                        
+                    
+                </ul>
+            </div>
+        </div>
+    </div>
+    
+
+    
+    <ul class="breadcrumb">
+        
+            <li>
+                <a href="/api/v2/video/" >Video List Create Api</a> <span class="divider">&rsaquo;</span>
+            </li>
+        
+            <li>
+                <a href="/api/v2/video/1133" class="active">Video Retrieve Update Api</a> 
+            </li>
+        
+    </ul>
+    
+
+    <!-- Content -->
+    <div id="content">
+
+        
+            <form id="get-form" class="pull-right">
+                <fieldset>
+                    <div class="btn-group format-selection">
+                        <a class="btn btn-primary js-tooltip" href='/api/v2/video/1133' rel="nofollow" title="Make a GET request on the Video Retrieve Update Api resource">GET</a>
+
+                        <button class="btn btn-primary dropdown-toggle js-tooltip" data-toggle="dropdown" title="Specify a format for the GET request">
+                            <span class="caret"></span>
+                        </button>
+                        <ul class="dropdown-menu">
+                            
+                                <li>
+                                    <a class="js-tooltip format-option" href='/api/v2/video/1133?format=json' rel="nofollow" title="Make a GET request on the Video Retrieve Update Api resource with the format set to `json`">json</a>
+                                </li>
+                            
+                                <li>
+                                    <a class="js-tooltip format-option" href='/api/v2/video/1133?format=api' rel="nofollow" title="Make a GET request on the Video Retrieve Update Api resource with the format set to `api`">api</a>
+                                </li>
+                            
+                        </ul>
+                    </div>
+
+                </fieldset>
+            </form>
+        
+
+        
+            <form class="button-form" action="/api/v2/video/1133" method="POST" class="pull-right">
+                <input type='hidden' name='csrfmiddlewaretoken' value='pT8iI6zhtQdsGFmu4tryYgFrUlipl2B3' />
+                <input type="hidden" name="_method" value="OPTIONS" />
+                <button class="btn btn-primary js-tooltip" title="Make an OPTIONS request on the Video Retrieve Update Api resource">OPTIONS</button>
+            </form>
+        
+
+        
+
+        <div class="content-main">
+            <div class="page-header"><h1>Video Retrieve Update Api</h1></div>
+            
+            
+            
+            <div class="request-info" style="clear: both" >
+                <pre class="prettyprint"><b>GET</b> /api/v2/video/1133</pre>
+            </div>
+            <div class="response-info">
+                <pre class="prettyprint"><div class="meta nocode"><b>HTTP 200 OK</b>
+<b>Content-Type:</b> <span class="lit">application/json</span>
+<b>Vary:</b> <span class="lit">Accept</span>
+<b>Allow:</b> <span class="lit">GET, PUT, PATCH, HEAD, OPTIONS</span>
+
+</div>{
+    &quot;category&quot;: &quot;EuroPython 2011&quot;, 
+    &quot;language&quot;: &quot;English&quot;, 
+    &quot;slug&quot;: &quot;its-the-message-stupid-python-amqp&quot;, 
+    &quot;speakers&quot;: [
+        &quot;Muharem Hrnjadovic&quot;
+    ], 
+    &quot;tags&quot;: [
+        &quot;amqp&quot;, 
+        &quot;asynchronous&quot;, 
+        &quot;patterns&quot;, 
+        &quot;performance&quot;, 
+        &quot;queues&quot;, 
+        &quot;scalability&quot;, 
+        &quot;technology&quot;
+    ], 
+    &quot;related_urls&quot;: [], 
+    &quot;id&quot;: 1133, 
+    &quot;state&quot;: 1, 
+    &quot;title&quot;: &quot;It&#39;s the message, stupid: python &amp; amqp&quot;, 
+    &quot;summary&quot;: &quot;[EuroPython 2011] Muharem Hrnjadovic - 21 June 2011 in \&quot;Track Ravioli\&quot;\n\n&quot;, 
+    &quot;description&quot;: &quot;Messaging is a well established domain in information technology and can\ngreatly improve the scalability and throughput of a system when employed\nappropriately. Message queues can be used to achieve\n\n  * spatial decoupling i.e. the systems that produce and consume messages may be deployed on different machines, networks, continents etc.\n  * temporal decoupling i.e. a system can enqueue a message and carry on without waiting for the message consumer.\n\nWe use e.g. messaging in [OpenQuake](http://openquake.org) to distribute\ncalculations of [seismic hazard](http://openquake.org/about/gem/) and the\nrespective risk to human lives and infrastructure.\n\nThere is a huge number of messaging patterns identified in the\n[industry](http://www.amazon.com/dp/0321200683/) and a small selection of\nthese will be presented to whet your appetite :-)\n\n[AMQP](http://www.amqp.org/) is a fairly new and open messaging standard with\na number of freely available open source message brokers\n([RabbitMQ](http://www.rabbitmq.com/), [ZeroMQ](http://www.zeromq.org/),\n[qpid](http://qpid.apache.org/) etc.) with different features and performance\ntrade-offs.\n\nIn the course of the presentation you will be - introduced to AMQP concepts\nand jargon - introduced to available Python AMQP bindings (focussing on an\nasynchronous ([txAMQP](https://launchpad.net/txamqp)) and a synchronous\nvariant (most likely [kombu](http://ask.github.com/kombu/)) - shown code\nexamples demonstrating how to use these Python bindings\n\nThe presentation (45 minutes in total) is structured as follows:\n\n  * 7.5 minutes for messaging concepts and patterns\n  * 7.5 minutes for AMQP concepts\n  * 5 minutes for an overview of the Python bindings for AMQP\n  * 10 minutes for txAMQP examples (asynchronous bindings)\n  * 10 minutes for kombu examples (synchronous bindings)\n  * 5 minutes for questions\n\nReferences:\n\n  * [<a href="http://www.amqp.org/](http://www.amqp.org/)%5Cn" rel="nofollow">http://www.amqp.org/](http://www.amqp.org/)\n</a>  * [<a href="http://www.rabbitmq.com/](http://www.rabbitmq.com/)%5Cn" rel="nofollow">http://www.rabbitmq.com/](http://www.rabbitmq.com/)\n</a>  * [<a href="http://www.zeromq.org/](http://www.zeromq.org/)%5Cn" rel="nofollow">http://www.zeromq.org/](http://www.zeromq.org/)\n</a>  * [<a href="http://qpid.apache.org/](http://qpid.apache.org/)%5Cn" rel="nofollow">http://qpid.apache.org/](http://qpid.apache.org/)\n</a>  * [<a href="https://launchpad.net/txamqp](https://launchpad.net/txamqp)%5Cn" rel="nofollow">https://launchpad.net/txamqp](https://launchpad.net/txamqp)\n</a>  * [<a href="http://ask.github.com/kombu/](http://ask.github.com/kombu/)%5Cn" rel="nofollow">http://ask.github.com/kombu/](http://ask.github.com/kombu/)\n</a>  * [<a href="http://www.amazon.com/dp/0321200683/](http://www.amazon.com/dp/0321200683/)%5Cn%5Cn" rel="nofollow">http://www.amazon.com/dp/0321200683/](http://www.amazon.com/dp/0321200683/)\n\n</a>&quot;, 
+    &quot;quality_notes&quot;: &quot;&quot;, 
+    &quot;copyright_text&quot;: &quot;Standard YouTube License&quot;, 
+    &quot;embed&quot;: &quot;&lt;object width=\&quot;640\&quot; height=\&quot;390\&quot;&gt;&lt;param name=\&quot;movie\&quot; value=\&quot;http://youtube.com/v/dIwsKYNbtnI?version=3&amp;amp;hl=en_US\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowFullScreen\&quot; value=\&quot;true\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowscriptaccess\&quot; value=\&quot;always\&quot;&gt;&lt;/param&gt;&lt;embed src=\&quot;http://youtube.com/v/dIwsKYNbtnI?version=3&amp;amp;hl=en_US\&quot; type=\&quot;application/x-shockwave-flash\&quot; width=\&quot;640\&quot; height=\&quot;390\&quot; allowscriptaccess=\&quot;always\&quot; allowfullscreen=\&quot;true\&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&quot;, 
+    &quot;thumbnail_url&quot;: &quot;<a href="http://i.ytimg.com/vi/dIwsKYNbtnI/hqdefault.jpg" rel="nofollow">http://i.ytimg.com/vi/dIwsKYNbtnI/hqdefault.jpg</a>&quot;, 
+    &quot;duration&quot;: null, 
+    &quot;video_ogv_length&quot;: null, 
+    &quot;video_ogv_url&quot;: null, 
+    &quot;video_ogv_download_only&quot;: false, 
+    &quot;video_mp4_length&quot;: null, 
+    &quot;video_mp4_url&quot;: null, 
+    &quot;video_mp4_download_only&quot;: false, 
+    &quot;video_webm_length&quot;: null, 
+    &quot;video_webm_url&quot;: null, 
+    &quot;video_webm_download_only&quot;: false, 
+    &quot;video_flv_length&quot;: null, 
+    &quot;video_flv_url&quot;: null, 
+    &quot;video_flv_download_only&quot;: false, 
+    &quot;source_url&quot;: &quot;<a href="http://www.youtube.com/watch?v=dIwsKYNbtnI" rel="nofollow">http://www.youtube.com/watch?v=dIwsKYNbtnI</a>&quot;, 
+    &quot;whiteboard&quot;: &quot;&quot;, 
+    &quot;recorded&quot;: &quot;2011-07-13&quot;, 
+    &quot;added&quot;: &quot;2012-08-30T21:02:40&quot;, 
+    &quot;updated&quot;: &quot;2014-04-08T20:28:27.838&quot;
+}</pre>
+            </div>
+        </div>
+
+            
+
+                
+
+                
+            
+
+        </div>
+        <!-- END content-main -->
+
+    </div>
+    <!-- END Content -->
+
+        <div id="push"></div>
+
+    </div>
+
+    </div><!-- ./wrapper -->
+
+    
+    
+
+    
+    <script src="/static/rest_framework/js/jquery-1.8.1-min.js"></script>
+    <script src="/static/rest_framework/js/bootstrap.min.js"></script>
+    <script src="/static/rest_framework/js/prettify-min.js"></script>
+    <script src="/static/rest_framework/js/default.js"></script>
+    
+  </body>
+
+<!-- Mirrored from pyvideo.org/api/v2/video/1133 by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 07 Jan 2016 03:21:33 GMT -->
+</html>

@@ -1,0 +1,194 @@
+
+
+<!DOCTYPE html>
+<html>
+    
+<!-- Mirrored from pyvideo.org/api/v2/video/1211 by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 07 Jan 2016 03:43:47 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+    
+
+        
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+        <meta name="robots" content="NONE,NOARCHIVE" />
+        
+
+        <title>Django REST framework</title>
+
+        
+        
+            <link rel="stylesheet" type="text/css" href="/static/rest_framework/css/bootstrap.min.css"/>
+            <link rel="stylesheet" type="text/css" href="/static/rest_framework/css/bootstrap-tweaks.css"/>
+        
+        <link rel="stylesheet" type="text/css" href="/static/rest_framework/css/prettify.css"/>
+        <link rel="stylesheet" type="text/css" href="/static/rest_framework/css/default.css"/>
+        
+
+    
+    </head>
+
+  <body class=" container">
+
+    <div class="wrapper">
+
+    
+    <div class="navbar navbar-inverse">
+        <div class="navbar-inner">
+            <div class="container-fluid">
+                <span href="/">
+                    <a class='brand' rel="nofollow" href='http://www.django-rest-framework.org'>Django REST framework <span class="version">2.3.14</span></a>
+                </span>
+                <ul class="nav pull-right">
+                    
+                        
+                            <li></li>
+                        
+                    
+                </ul>
+            </div>
+        </div>
+    </div>
+    
+
+    
+    <ul class="breadcrumb">
+        
+            <li>
+                <a href="/api/v2/video/" >Video List Create Api</a> <span class="divider">&rsaquo;</span>
+            </li>
+        
+            <li>
+                <a href="/api/v2/video/1211" class="active">Video Retrieve Update Api</a> 
+            </li>
+        
+    </ul>
+    
+
+    <!-- Content -->
+    <div id="content">
+
+        
+            <form id="get-form" class="pull-right">
+                <fieldset>
+                    <div class="btn-group format-selection">
+                        <a class="btn btn-primary js-tooltip" href='/api/v2/video/1211' rel="nofollow" title="Make a GET request on the Video Retrieve Update Api resource">GET</a>
+
+                        <button class="btn btn-primary dropdown-toggle js-tooltip" data-toggle="dropdown" title="Specify a format for the GET request">
+                            <span class="caret"></span>
+                        </button>
+                        <ul class="dropdown-menu">
+                            
+                                <li>
+                                    <a class="js-tooltip format-option" href='/api/v2/video/1211?format=json' rel="nofollow" title="Make a GET request on the Video Retrieve Update Api resource with the format set to `json`">json</a>
+                                </li>
+                            
+                                <li>
+                                    <a class="js-tooltip format-option" href='/api/v2/video/1211?format=api' rel="nofollow" title="Make a GET request on the Video Retrieve Update Api resource with the format set to `api`">api</a>
+                                </li>
+                            
+                        </ul>
+                    </div>
+
+                </fieldset>
+            </form>
+        
+
+        
+            <form class="button-form" action="/api/v2/video/1211" method="POST" class="pull-right">
+                <input type='hidden' name='csrfmiddlewaretoken' value='pT8iI6zhtQdsGFmu4tryYgFrUlipl2B3' />
+                <input type="hidden" name="_method" value="OPTIONS" />
+                <button class="btn btn-primary js-tooltip" title="Make an OPTIONS request on the Video Retrieve Update Api resource">OPTIONS</button>
+            </form>
+        
+
+        
+
+        <div class="content-main">
+            <div class="page-header"><h1>Video Retrieve Update Api</h1></div>
+            
+            
+            
+            <div class="request-info" style="clear: both" >
+                <pre class="prettyprint"><b>GET</b> /api/v2/video/1211</pre>
+            </div>
+            <div class="response-info">
+                <pre class="prettyprint"><div class="meta nocode"><b>HTTP 200 OK</b>
+<b>Content-Type:</b> <span class="lit">application/json</span>
+<b>Vary:</b> <span class="lit">Accept</span>
+<b>Allow:</b> <span class="lit">GET, PUT, PATCH, HEAD, OPTIONS</span>
+
+</div>{
+    &quot;category&quot;: &quot;SciPy 2012&quot;, 
+    &quot;language&quot;: &quot;English&quot;, 
+    &quot;slug&quot;: &quot;a-tale-of-four-libraries&quot;, 
+    &quot;speakers&quot;: [
+        &quot;Alejandro Weinstein&quot;, 
+        &quot;Michael Wakin&quot;
+    ], 
+    &quot;tags&quot;: [
+        &quot;General&quot;
+    ], 
+    &quot;related_urls&quot;: [], 
+    &quot;id&quot;: 1211, 
+    &quot;state&quot;: 1, 
+    &quot;title&quot;: &quot;A tale of four libraries&quot;, 
+    &quot;summary&quot;: &quot;&quot;, 
+    &quot;description&quot;: &quot;In addition to bringing efficient array computing and standard mathematical\ntools to Python, the NumPy/SciPy libraries provide an ecosystem where multiple\nlibraries can coexist and interact. This talk describes a success story where\nwe integrate several libraries, developed by different groups, to solve our\nresearch problems. A brief description of our research and how we use these\ncomponents follows.\n\nOur research focuses on using Reinforcement Learning (RL) to gather\ninformation in domains described by an underlying linked dataset. For\ninstance, we are interested in problems such as the following: given a\nWikipedia article as a seed, finding other articles that are interesting\nrelative to the starting point. Of particular interest is to find articles\nthat are more than one-click away from the seed, since these articles are in\ngeneral harder to find by a human.\n\nIn addition to the staples of scientific Python computing NumPy, SciPy,\nMatplotlib, and IPython, we use the libraries RL-Glue/RL-Library, NetworkX,\nGensim, and scikit-learn.\n\nReinforcement Learning considers the interaction between a given environment\nand an agent. The objective is to design an agent able to learn a policy that\nallows it to maximize its total expected reward. We use the RL-Glue/RL-Library\nlibraries for our RL experiments. This libraries provide the infrastructure to\nconnect an environment and an agent, each one described by an independent\nPython program.\n\nWe represent the linked datasets we work with as graphs. For this we use\nNetworkX, which provides data structures to efficiently represent graphs\ntogether with implementations of many classic graph algorithms. We use\nNetworkX graphs to describe the environments implemented in RL-Glue/RL-\nLibrary. We also use these graphs to create, analyze and visualize graphs\nbuilt from unstructured data.\n\nOne of the contributions of our research is the idea of representing the items\nin the datasets as vectors belonging to a linear space. To this end, we build\na Latent Semantic Analysis (LSA) model to project documents onto a vector\nspace. This allows us, in addition to being able to compute similarities\nbetween documents, to leverage a variety of RL techniques that require a\nvector representation. We use the Gensim library to build the LSA model. This\nlibrary provides all the machinery to build, among other options, the LSA\nmodel. One place where Gensim shines is in its capability to handle big data\nsets, like the entire Wikipedia, that do not fit in memory. We also combine\nthe vector representation of the items as property of the NetworkX nodes.\n\nFinally, we also use the manifold learning capabilities of sckit-learn, like\nthe ISOMAP algorithm, to perform some exploratory data analysis. By reducing\nthe dimensionality of the LSA vectors obtained using Gensim from 400 to 3, we\nare able to visualize the relative position of the vectors together with their\nconnections.\n\nIn summary, this talk shows, by combining a variety of libraries to solve our\nresearch problems, that the NumPy/SciPy ecosystem has become the lingua-franca\nof scientific Python computing.\n\n&quot;, 
+    &quot;quality_notes&quot;: &quot;&quot;, 
+    &quot;copyright_text&quot;: &quot;CC BY-SA&quot;, 
+    &quot;embed&quot;: &quot;&lt;object width=\&quot;640\&quot; height=\&quot;390\&quot;&gt;&lt;param name=\&quot;movie\&quot; value=\&quot;http://youtube.com/v/BqMD0PE-akQ?version=3&amp;amp;hl=en_US\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowFullScreen\&quot; value=\&quot;true\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowscriptaccess\&quot; value=\&quot;always\&quot;&gt;&lt;/param&gt;&lt;embed src=\&quot;http://youtube.com/v/BqMD0PE-akQ?version=3&amp;amp;hl=en_US\&quot; type=\&quot;application/x-shockwave-flash\&quot; width=\&quot;640\&quot; height=\&quot;390\&quot; allowscriptaccess=\&quot;always\&quot; allowfullscreen=\&quot;true\&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&quot;, 
+    &quot;thumbnail_url&quot;: &quot;<a href="http://i3.ytimg.com/vi/BqMD0PE-akQ/hqdefault.jpg" rel="nofollow">http://i3.ytimg.com/vi/BqMD0PE-akQ/hqdefault.jpg</a>&quot;, 
+    &quot;duration&quot;: null, 
+    &quot;video_ogv_length&quot;: null, 
+    &quot;video_ogv_url&quot;: null, 
+    &quot;video_ogv_download_only&quot;: false, 
+    &quot;video_mp4_length&quot;: null, 
+    &quot;video_mp4_url&quot;: &quot;<a href="http://s3.us.archive.org/nextdayvideo/enthought/scipy_2012/A_tale_of_four_libraries.mp4?Signature=ISV7dA31tpzM+iwMs5xiUQ+kADo=&amp;Expires=1346381648&amp;AWSAccessKeyId=FEWGReWX3QbNk0h3" rel="nofollow">http://s3.us.archive.org/nextdayvideo/enthought/scipy_2012/A_tale_of_four_libraries.mp4?Signature=ISV7dA31tpzM%2BiwMs5xiUQ%2BkADo%3D&amp;Expires=1346381648&amp;AWSAccessKeyId=FEWGReWX3QbNk0h3</a>&quot;, 
+    &quot;video_mp4_download_only&quot;: false, 
+    &quot;video_webm_length&quot;: null, 
+    &quot;video_webm_url&quot;: &quot;&quot;, 
+    &quot;video_webm_download_only&quot;: false, 
+    &quot;video_flv_length&quot;: null, 
+    &quot;video_flv_url&quot;: &quot;&quot;, 
+    &quot;video_flv_download_only&quot;: false, 
+    &quot;source_url&quot;: &quot;<a href="http://youtube.com/watch?v=BqMD0PE-akQ" rel="nofollow">http://youtube.com/watch?v=BqMD0PE-akQ</a>&quot;, 
+    &quot;whiteboard&quot;: &quot;&quot;, 
+    &quot;recorded&quot;: &quot;2012-07-18&quot;, 
+    &quot;added&quot;: &quot;2012-08-31T16:35:06&quot;, 
+    &quot;updated&quot;: &quot;2014-04-08T20:28:27.135&quot;
+}</pre>
+            </div>
+        </div>
+
+            
+
+                
+
+                
+            
+
+        </div>
+        <!-- END content-main -->
+
+    </div>
+    <!-- END Content -->
+
+        <div id="push"></div>
+
+    </div>
+
+    </div><!-- ./wrapper -->
+
+    
+    
+
+    
+    <script src="/static/rest_framework/js/jquery-1.8.1-min.js"></script>
+    <script src="/static/rest_framework/js/bootstrap.min.js"></script>
+    <script src="/static/rest_framework/js/prettify-min.js"></script>
+    <script src="/static/rest_framework/js/default.js"></script>
+    
+  </body>
+
+<!-- Mirrored from pyvideo.org/api/v2/video/1211 by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 07 Jan 2016 03:43:47 GMT -->
+</html>

@@ -1,0 +1,197 @@
+
+
+<!DOCTYPE html>
+<html>
+    
+<!-- Mirrored from pyvideo.org/api/v2/video/380?format=api by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 07 Jan 2016 03:46:34 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+    
+
+        
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+        <meta name="robots" content="NONE,NOARCHIVE" />
+        
+
+        <title>Django REST framework</title>
+
+        
+        
+            <link rel="stylesheet" type="text/css" href="/static/rest_framework/css/bootstrap.min.css"/>
+            <link rel="stylesheet" type="text/css" href="/static/rest_framework/css/bootstrap-tweaks.css"/>
+        
+        <link rel="stylesheet" type="text/css" href="/static/rest_framework/css/prettify.css"/>
+        <link rel="stylesheet" type="text/css" href="/static/rest_framework/css/default.css"/>
+        
+
+    
+    </head>
+
+  <body class=" container">
+
+    <div class="wrapper">
+
+    
+    <div class="navbar navbar-inverse">
+        <div class="navbar-inner">
+            <div class="container-fluid">
+                <span href="/">
+                    <a class='brand' rel="nofollow" href='http://www.django-rest-framework.org'>Django REST framework <span class="version">2.3.14</span></a>
+                </span>
+                <ul class="nav pull-right">
+                    
+                        
+                            <li></li>
+                        
+                    
+                </ul>
+            </div>
+        </div>
+    </div>
+    
+
+    
+    <ul class="breadcrumb">
+        
+            <li>
+                <a href="/api/v2/video/" >Video List Create Api</a> <span class="divider">&rsaquo;</span>
+            </li>
+        
+            <li>
+                <a href="/api/v2/video/380" class="active">Video Retrieve Update Api</a> 
+            </li>
+        
+    </ul>
+    
+
+    <!-- Content -->
+    <div id="content">
+
+        
+            <form id="get-form" class="pull-right">
+                <fieldset>
+                    <div class="btn-group format-selection">
+                        <a class="btn btn-primary js-tooltip" href='/api/v2/video/380?format=api' rel="nofollow" title="Make a GET request on the Video Retrieve Update Api resource">GET</a>
+
+                        <button class="btn btn-primary dropdown-toggle js-tooltip" data-toggle="dropdown" title="Specify a format for the GET request">
+                            <span class="caret"></span>
+                        </button>
+                        <ul class="dropdown-menu">
+                            
+                                <li>
+                                    <a class="js-tooltip format-option" href='/api/v2/video/380?format=json' rel="nofollow" title="Make a GET request on the Video Retrieve Update Api resource with the format set to `json`">json</a>
+                                </li>
+                            
+                                <li>
+                                    <a class="js-tooltip format-option" href='/api/v2/video/380?format=api' rel="nofollow" title="Make a GET request on the Video Retrieve Update Api resource with the format set to `api`">api</a>
+                                </li>
+                            
+                        </ul>
+                    </div>
+
+                </fieldset>
+            </form>
+        
+
+        
+            <form class="button-form" action="/api/v2/video/380?format=api" method="POST" class="pull-right">
+                <input type='hidden' name='csrfmiddlewaretoken' value='pT8iI6zhtQdsGFmu4tryYgFrUlipl2B3' />
+                <input type="hidden" name="_method" value="OPTIONS" />
+                <button class="btn btn-primary js-tooltip" title="Make an OPTIONS request on the Video Retrieve Update Api resource">OPTIONS</button>
+            </form>
+        
+
+        
+
+        <div class="content-main">
+            <div class="page-header"><h1>Video Retrieve Update Api</h1></div>
+            
+            
+            
+            <div class="request-info" style="clear: both" >
+                <pre class="prettyprint"><b>GET</b> /api/v2/video/380?format=api</pre>
+            </div>
+            <div class="response-info">
+                <pre class="prettyprint"><div class="meta nocode"><b>HTTP 200 OK</b>
+<b>Content-Type:</b> <span class="lit">application/json</span>
+<b>Vary:</b> <span class="lit">Accept</span>
+<b>Allow:</b> <span class="lit">GET, PUT, PATCH, HEAD, OPTIONS</span>
+
+</div>{
+    &quot;category&quot;: &quot;PyCon US 2011&quot;, 
+    &quot;language&quot;: &quot;English&quot;, 
+    &quot;slug&quot;: &quot;pycon-2011--optimal-aircraft-engine-tuner-selecti&quot;, 
+    &quot;speakers&quot;: [
+        &quot;Jeffrey Armstrong&quot;
+    ], 
+    &quot;tags&quot;: [
+        &quot;aircraftenginetuning&quot;, 
+        &quot;casestudy&quot;, 
+        &quot;pycon&quot;, 
+        &quot;pycon2011&quot;, 
+        &quot;scipy&quot;
+    ], 
+    &quot;related_urls&quot;: [], 
+    &quot;id&quot;: 380, 
+    &quot;state&quot;: 1, 
+    &quot;title&quot;: &quot;Optimal Aircraft Engine Tuner Selection in Python&quot;, 
+    &quot;summary&quot;: &quot;&quot;, 
+    &quot;description&quot;: &quot;Optimal Aircraft Engine Tuner Selection in Python\n\nPresented by Jeffrey Armstrong\n\nA numerical algorithm for designing on-board aircraft engine diagnostics has\nbeen implemented in Python. Employing the optimization techniques within\nSciPy, the code performs a search for an optimal vector of parameters for\nestimating engine variables, including exhaust temperatures and thrust. The\nalgorithm exploits the numerical strengths of Python and SciPy for speed and\ninteroperability.\n\nAbstract\n\nAn emerging field of aircraft engine diagnostics is the inclusion of on-board\nengine performance tracking algorithms. These algorithms utilize data provided\nby a limited number of engine sensors to determine the current engine\nperformance, which tends to degrade over time. However, estimating engine\nperformance instantaneously is problematic due to the limited number of\nsensors normally available on a commercial aircraft engine.\n\nOne common practice is to estimate and track engine performance in software\nusing a Kalman filter, a mathematical construct for tuning a numerical model\nto better track actual measurements (1). A new technique has been devised to\noptimize the design of this filter in aircraft engine applications (2). An\noptimization procedure to aid in the design of the filter has been implemented\nin Python and exercised against the significant number of minimization and\noptimization strategies available in SciPy. The talk focuses on the design of\nthis optimization procedure in Python. The object-oriented nature of Python\noffers benefits over alternative numerical languages; speed, availability, and\nmaintainability played central roles in the selection of Python as the\nimplementation language. The availability of the multiprocessing module\nallowed for full utilization of modern multi-core CPUs, in contrast with often\nlimited commercial numerical computing packages, further improving\ncomputational speed.\n\nSome difficulties were encountered during this design exercise. Discussion of\nthese obstacles and their eventual solution is presented. Specifically,\niterative solvers for the discrete algebraic Riccati equation and the discrete\nLyapunov equation had to be authored in Python (3,4). Additional framework for\nworking with discrete state-space control systems was created, exploiting the\nobject-oriented features of the language (5).\n\nThe Python implementation was able to verify the solution of the optimization\nproblem. Comparison with an alternative, reference MATLAB implementation will\nbe presented briefly. The results of this research is planned to be presented\nat the American Society for Mechanical Engineers Turbo Expo 2011 Conference in\nJune, 2011 (6). The algorithm design in Python is meant to showcase the\nability to perform controls engineering tasks in the Python language\nefficiently.\n\n1. \u201cKalman Filter,\u201d Wikipedia: [<a href="http://en.wikipedia.org/wiki/Kalman_filter](ht%5Cntp://en.wikipedia.org/wiki/Kalman_filter)%5Cn%5Cn2" rel="nofollow">http://en.wikipedia.org/wiki/Kalman_filter](ht\ntp://en.wikipedia.org/wiki/Kalman_filter)\n\n2</a>. Simon, D. L. and Garg, S., \u201cOptimal Tuner Selection for Kalman Filter-Based\nAircraft Engine Performance Estimation\u201d. Journal of Engineering for Gas\nTurbines and Power. March 2010, Vol. 132.\n\n3. \u201cAlgebraic Riccati Equation,\u201d Wikipedia: [<a href="http://en.wikipedia.org/wiki/Alge%5Cnbraic_Riccati_equation](http://en.wikipedia.org/wiki/Algebraic_Riccati_equatio%5Cnn)%5Cn%5Cn4" rel="nofollow">http://en.wikipedia.org/wiki/Alge\nbraic_Riccati_equation](http://en.wikipedia.org/wiki/Algebraic_Riccati_equatio\nn)\n\n4</a>. \u201cLyapunov Equation,\u201d Wikipedia: [<a href="http://en.wikipedia.org/wiki/Lyapunov_equa%5Cntion](http://en.wikipedia.org/wiki/Lyapunov_equation)%5Cn%5Cn5" rel="nofollow">http://en.wikipedia.org/wiki/Lyapunov_equa\ntion](http://en.wikipedia.org/wiki/Lyapunov_equation)\n\n5</a>. \u201cState Space,\u201d Wikipedia: [<a href="http://en.wikipedia.org/wiki/State-%5Cnspace](http://en.wikipedia.org/wiki/State-space)%5Cn%5Cn6" rel="nofollow">http://en.wikipedia.org/wiki/State-\nspace](http://en.wikipedia.org/wiki/State-space)\n\n6</a>. Simon, D. L., Armstrong, J. B., \&quot;Application of an Optimal Tuner Selection\nApproach for On-Board Self-Tuning Engine Models,\&quot; Proceedings of the ASME\nTurbo Expo 2011, GT2011-46408, 2011 (To Be Published).\n\n&quot;, 
+    &quot;quality_notes&quot;: &quot;&quot;, 
+    &quot;copyright_text&quot;: &quot;Creative Commons Attribution-NonCommercial-ShareAlike 3.0&quot;, 
+    &quot;embed&quot;: &quot;&quot;, 
+    &quot;thumbnail_url&quot;: &quot;<a href="http://a.images.blip.tv/Pycon-PyCon2011OptimalAircraftEngineTunerSelectionInPython133-714.jpg" rel="nofollow">http://a.images.blip.tv/Pycon-PyCon2011OptimalAircraftEngineTunerSelectionInPython133-714.jpg</a>&quot;, 
+    &quot;duration&quot;: null, 
+    &quot;video_ogv_length&quot;: 136860815, 
+    &quot;video_ogv_url&quot;: null, 
+    &quot;video_ogv_download_only&quot;: false, 
+    &quot;video_mp4_length&quot;: null, 
+    &quot;video_mp4_url&quot;: &quot;<a href="http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2011/380_optimal-aircraft-engine-tuner-selection-in-python.mp4" rel="nofollow">http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2011/380_optimal-aircraft-engine-tuner-selection-in-python.mp4</a>&quot;, 
+    &quot;video_mp4_download_only&quot;: false, 
+    &quot;video_webm_length&quot;: null, 
+    &quot;video_webm_url&quot;: null, 
+    &quot;video_webm_download_only&quot;: false, 
+    &quot;video_flv_length&quot;: null, 
+    &quot;video_flv_url&quot;: null, 
+    &quot;video_flv_download_only&quot;: false, 
+    &quot;source_url&quot;: &quot;&quot;, 
+    &quot;whiteboard&quot;: &quot;&quot;, 
+    &quot;recorded&quot;: &quot;2011-03-11&quot;, 
+    &quot;added&quot;: &quot;2012-02-23T04:20:00&quot;, 
+    &quot;updated&quot;: &quot;2014-04-08T20:28:28.004&quot;
+}</pre>
+            </div>
+        </div>
+
+            
+
+                
+
+                
+            
+
+        </div>
+        <!-- END content-main -->
+
+    </div>
+    <!-- END Content -->
+
+        <div id="push"></div>
+
+    </div>
+
+    </div><!-- ./wrapper -->
+
+    
+    
+
+    
+    <script src="/static/rest_framework/js/jquery-1.8.1-min.js"></script>
+    <script src="/static/rest_framework/js/bootstrap.min.js"></script>
+    <script src="/static/rest_framework/js/prettify-min.js"></script>
+    <script src="/static/rest_framework/js/default.js"></script>
+    
+  </body>
+
+<!-- Mirrored from pyvideo.org/api/v2/video/380?format=api by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 07 Jan 2016 03:46:34 GMT -->
+</html>

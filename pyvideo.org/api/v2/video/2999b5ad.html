@@ -1,0 +1,191 @@
+
+
+<!DOCTYPE html>
+<html>
+    
+<!-- Mirrored from pyvideo.org/api/v2/video/2999?format=api by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 07 Jan 2016 03:46:32 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+    
+
+        
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+        <meta name="robots" content="NONE,NOARCHIVE" />
+        
+
+        <title>Django REST framework</title>
+
+        
+        
+            <link rel="stylesheet" type="text/css" href="/static/rest_framework/css/bootstrap.min.css"/>
+            <link rel="stylesheet" type="text/css" href="/static/rest_framework/css/bootstrap-tweaks.css"/>
+        
+        <link rel="stylesheet" type="text/css" href="/static/rest_framework/css/prettify.css"/>
+        <link rel="stylesheet" type="text/css" href="/static/rest_framework/css/default.css"/>
+        
+
+    
+    </head>
+
+  <body class=" container">
+
+    <div class="wrapper">
+
+    
+    <div class="navbar navbar-inverse">
+        <div class="navbar-inner">
+            <div class="container-fluid">
+                <span href="/">
+                    <a class='brand' rel="nofollow" href='http://www.django-rest-framework.org'>Django REST framework <span class="version">2.3.14</span></a>
+                </span>
+                <ul class="nav pull-right">
+                    
+                        
+                            <li></li>
+                        
+                    
+                </ul>
+            </div>
+        </div>
+    </div>
+    
+
+    
+    <ul class="breadcrumb">
+        
+            <li>
+                <a href="/api/v2/video/" >Video List Create Api</a> <span class="divider">&rsaquo;</span>
+            </li>
+        
+            <li>
+                <a href="/api/v2/video/2999" class="active">Video Retrieve Update Api</a> 
+            </li>
+        
+    </ul>
+    
+
+    <!-- Content -->
+    <div id="content">
+
+        
+            <form id="get-form" class="pull-right">
+                <fieldset>
+                    <div class="btn-group format-selection">
+                        <a class="btn btn-primary js-tooltip" href='/api/v2/video/2999?format=api' rel="nofollow" title="Make a GET request on the Video Retrieve Update Api resource">GET</a>
+
+                        <button class="btn btn-primary dropdown-toggle js-tooltip" data-toggle="dropdown" title="Specify a format for the GET request">
+                            <span class="caret"></span>
+                        </button>
+                        <ul class="dropdown-menu">
+                            
+                                <li>
+                                    <a class="js-tooltip format-option" href='/api/v2/video/2999?format=json' rel="nofollow" title="Make a GET request on the Video Retrieve Update Api resource with the format set to `json`">json</a>
+                                </li>
+                            
+                                <li>
+                                    <a class="js-tooltip format-option" href='/api/v2/video/2999?format=api' rel="nofollow" title="Make a GET request on the Video Retrieve Update Api resource with the format set to `api`">api</a>
+                                </li>
+                            
+                        </ul>
+                    </div>
+
+                </fieldset>
+            </form>
+        
+
+        
+            <form class="button-form" action="/api/v2/video/2999?format=api" method="POST" class="pull-right">
+                <input type='hidden' name='csrfmiddlewaretoken' value='pT8iI6zhtQdsGFmu4tryYgFrUlipl2B3' />
+                <input type="hidden" name="_method" value="OPTIONS" />
+                <button class="btn btn-primary js-tooltip" title="Make an OPTIONS request on the Video Retrieve Update Api resource">OPTIONS</button>
+            </form>
+        
+
+        
+
+        <div class="content-main">
+            <div class="page-header"><h1>Video Retrieve Update Api</h1></div>
+            
+            
+            
+            <div class="request-info" style="clear: both" >
+                <pre class="prettyprint"><b>GET</b> /api/v2/video/2999?format=api</pre>
+            </div>
+            <div class="response-info">
+                <pre class="prettyprint"><div class="meta nocode"><b>HTTP 200 OK</b>
+<b>Content-Type:</b> <span class="lit">application/json</span>
+<b>Vary:</b> <span class="lit">Accept</span>
+<b>Allow:</b> <span class="lit">GET, PUT, PATCH, HEAD, OPTIONS</span>
+
+</div>{
+    &quot;category&quot;: &quot;EuroPython 2014&quot;, 
+    &quot;language&quot;: &quot;English&quot;, 
+    &quot;slug&quot;: &quot;compress-me-stupid&quot;, 
+    &quot;speakers&quot;: [
+        &quot;Valentin Haenal&quot;
+    ], 
+    &quot;tags&quot;: [], 
+    &quot;related_urls&quot;: [], 
+    &quot;id&quot;: 2999, 
+    &quot;state&quot;: 1, 
+    &quot;title&quot;: &quot;Compress Me, Stupid!&quot;, 
+    &quot;summary&quot;: &quot;Compression is a general technique for reducing the size of datasets that normally lie on disk or that should be sent remotely.  But time has come to use it as a means to accelerate applications that uses in-memory data too.\r\n\r\n[Blosc](http://www.blosc.org) is a high-performance meta-compressor that is meant to do that.&quot;, 
+    &quot;description&quot;: &quot;Compression is a technique to reduce the number of bits needed to\r\nrepresent a given dataset. A very common use-case in the distributed\r\ndigital age is to reduce the size of files in order to reduce the time\r\nand bandwidth requirements of sending a file from one location to\r\nanother.\r\n\r\nThere are a large variety of different algorithms and implementations of\r\nso called \&quot;codecs\&quot; - a term is derived from the fact that programs that\r\nimplement a compression algorithm commonly constitute of both a\r\ncompressor and a corresponding decompressor. There are many different\r\nspecial purpose compressors that exploit specifics in the structure of the\r\ninput data, for example: MP3, Ogg and FLAC for audio data such as music,\r\nGIF, JPEG and PNG for images and  MPEG for encoding video. Also, there\r\nare many general purpose codecs that make no assumptions about the\r\nstructure of the data, for example: Zlib(DEFLATE), Bzip2(BWT) and LZMA.\r\n\r\nHowever, and due to the ever growing divide between memory access latency and CPU clock\r\nspeed a new use-case beyond faster file transfers and more efficient use\r\nof disk-space has emerged: \&quot;in-memory compression\&quot;.\r\n\r\n\r\nKeeping data in RAM that is compressed also means that the CPU has to\r\ndo more work in order to make use of it.  However, if the compressor\r\nis fast enough, this decompression overhead could pay off, and\r\napplications could work with compressed data transparently, and so not\r\neven noticing the slowdown due to the extra effort for\r\ncompression/decompression.\r\n\r\nThis technique can be very beneficial in a variety of scenarios where\r\nRAM availability is critical.  For example, in-memory caching systems\r\nlike Memcached or Redis could store more data using the same resources\r\nthereby optimizing resource usage.  Another use case is to use\r\ncompression for in-memory data containers, \u00e0 la NumPy&#39;s ndarray or\r\nPandas&#39; DataFrame, allowing for improved memory usage and potentially\r\nallow for accelerated computations.\r\n\r\nIn our talk, we will explain first why we are in a moment of computer\r\nhistory that [in-memory compression can be beneficial for modern\r\napplications] [1].\r\n\r\nThen, we will introduce [Blosc] [2], a high speed\r\nmeta-compressor, allowing other existing compressors (BloscLZ, LZ4,\r\nSnappy or even Zlib) to leverage the SIMD and multithreading framework\r\nthat it provides and help achieving extremely fast operation\r\n(frequently faster than a plain memcpy() system call).\r\n\r\nFinally, we will show some existing data handling libraries ([Bloscpack] [3], [PyTables] [4], [BLZ] [5]) -- all written in Python -- that\r\nalready use Blosc today for fulfilling the promise of faster operations by\r\ndoing in-memory compressing.\r\n\r\n[1]: <a href="http://www.pytables.org/docs/CISE-12-2-ScientificPro.pdf%5Cr%5Cn[2]" rel="nofollow">http://www.pytables.org/docs/CISE-12-2-ScientificPro.pdf\r\n[2]</a>: <a href="http://www.blosc.org%5Cr%5Cn[3]" rel="nofollow">http://www.blosc.org\r\n[3]</a>: <a href="https://github.com/Blosc/bloscpack%5Cr%5Cn[4]" rel="nofollow">https://github.com/Blosc/bloscpack\r\n[4]</a>: <a href="http://www.pytables.org%5Cr%5Cn[5]" rel="nofollow">http://www.pytables.org\r\n[5]</a>: <a href="http://continuum.io/blog/blz-format" rel="nofollow">http://continuum.io/blog/blz-format</a>&quot;, 
+    &quot;quality_notes&quot;: &quot;&quot;, 
+    &quot;copyright_text&quot;: &quot;<a href="http://creativecommons.org/licenses/by/3.0/" rel="nofollow">http://creativecommons.org/licenses/by/3.0/</a>&quot;, 
+    &quot;embed&quot;: &quot;&lt;object width=\&quot;640\&quot; height=\&quot;390\&quot;&gt;&lt;param name=\&quot;movie\&quot; value=\&quot;http://youtube.com/v/rilU44j_wUU?version=3&amp;amp;hl=en_US\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowFullScreen\&quot; value=\&quot;true\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowscriptaccess\&quot; value=\&quot;always\&quot;&gt;&lt;/param&gt;&lt;embed src=\&quot;http://youtube.com/v/rilU44j_wUU?version=3&amp;amp;hl=en_US\&quot; type=\&quot;application/x-shockwave-flash\&quot; width=\&quot;640\&quot; height=\&quot;390\&quot; allowscriptaccess=\&quot;always\&quot; allowfullscreen=\&quot;true\&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&quot;, 
+    &quot;thumbnail_url&quot;: &quot;<a href="http://i.ytimg.com/vi/rilU44j_wUU/hqdefault.jpg" rel="nofollow">http://i.ytimg.com/vi/rilU44j_wUU/hqdefault.jpg</a>&quot;, 
+    &quot;duration&quot;: null, 
+    &quot;video_ogv_length&quot;: null, 
+    &quot;video_ogv_url&quot;: &quot;&quot;, 
+    &quot;video_ogv_download_only&quot;: false, 
+    &quot;video_mp4_length&quot;: null, 
+    &quot;video_mp4_url&quot;: &quot;&quot;, 
+    &quot;video_mp4_download_only&quot;: false, 
+    &quot;video_webm_length&quot;: null, 
+    &quot;video_webm_url&quot;: &quot;&quot;, 
+    &quot;video_webm_download_only&quot;: false, 
+    &quot;video_flv_length&quot;: null, 
+    &quot;video_flv_url&quot;: &quot;&quot;, 
+    &quot;video_flv_download_only&quot;: false, 
+    &quot;source_url&quot;: &quot;<a href="http://www.youtube.com/watch?v=rilU44j_wUU" rel="nofollow">http://www.youtube.com/watch?v=rilU44j_wUU</a>&quot;, 
+    &quot;whiteboard&quot;: &quot;&quot;, 
+    &quot;recorded&quot;: &quot;2014-07-23&quot;, 
+    &quot;added&quot;: &quot;2014-07-31T00:46:30.854&quot;, 
+    &quot;updated&quot;: &quot;2014-07-31T23:19:07.339&quot;
+}</pre>
+            </div>
+        </div>
+
+            
+
+                
+
+                
+            
+
+        </div>
+        <!-- END content-main -->
+
+    </div>
+    <!-- END Content -->
+
+        <div id="push"></div>
+
+    </div>
+
+    </div><!-- ./wrapper -->
+
+    
+    
+
+    
+    <script src="/static/rest_framework/js/jquery-1.8.1-min.js"></script>
+    <script src="/static/rest_framework/js/bootstrap.min.js"></script>
+    <script src="/static/rest_framework/js/prettify-min.js"></script>
+    <script src="/static/rest_framework/js/default.js"></script>
+    
+  </body>
+
+<!-- Mirrored from pyvideo.org/api/v2/video/2999?format=api by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 07 Jan 2016 03:46:32 GMT -->
+</html>

@@ -1,0 +1,908 @@
+
+
+<!DOCTYPE html>
+<html>
+    
+<!-- Mirrored from pyvideo.org/api/v2/video/?page=104 by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 07 Jan 2016 03:51:23 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+    
+
+        
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+        <meta name="robots" content="NONE,NOARCHIVE" />
+        
+
+        <title>Django REST framework</title>
+
+        
+        
+            <link rel="stylesheet" type="text/css" href="/static/rest_framework/css/bootstrap.min.css"/>
+            <link rel="stylesheet" type="text/css" href="/static/rest_framework/css/bootstrap-tweaks.css"/>
+        
+        <link rel="stylesheet" type="text/css" href="/static/rest_framework/css/prettify.css"/>
+        <link rel="stylesheet" type="text/css" href="/static/rest_framework/css/default.css"/>
+        
+
+    
+    </head>
+
+  <body class=" container">
+
+    <div class="wrapper">
+
+    
+    <div class="navbar navbar-inverse">
+        <div class="navbar-inner">
+            <div class="container-fluid">
+                <span href="/">
+                    <a class='brand' rel="nofollow" href='http://www.django-rest-framework.org'>Django REST framework <span class="version">2.3.14</span></a>
+                </span>
+                <ul class="nav pull-right">
+                    
+                        
+                            <li></li>
+                        
+                    
+                </ul>
+            </div>
+        </div>
+    </div>
+    
+
+    
+    <ul class="breadcrumb">
+        
+            <li>
+                <a href="/api/v2/video/" class="active">Video List Create Api</a> 
+            </li>
+        
+    </ul>
+    
+
+    <!-- Content -->
+    <div id="content">
+
+        
+            <form id="get-form" class="pull-right">
+                <fieldset>
+                    <div class="btn-group format-selection">
+                        <a class="btn btn-primary js-tooltip" href='/api/v2/video/?page=104' rel="nofollow" title="Make a GET request on the Video List Create Api resource">GET</a>
+
+                        <button class="btn btn-primary dropdown-toggle js-tooltip" data-toggle="dropdown" title="Specify a format for the GET request">
+                            <span class="caret"></span>
+                        </button>
+                        <ul class="dropdown-menu">
+                            
+                                <li>
+                                    <a class="js-tooltip format-option" href='/api/v2/video/?page=104&format=json' rel="nofollow" title="Make a GET request on the Video List Create Api resource with the format set to `json`">json</a>
+                                </li>
+                            
+                                <li>
+                                    <a class="js-tooltip format-option" href='/api/v2/video/?page=104&format=api' rel="nofollow" title="Make a GET request on the Video List Create Api resource with the format set to `api`">api</a>
+                                </li>
+                            
+                        </ul>
+                    </div>
+
+                </fieldset>
+            </form>
+        
+
+        
+            <form class="button-form" action="/api/v2/video/?page=104" method="POST" class="pull-right">
+                <input type='hidden' name='csrfmiddlewaretoken' value='pT8iI6zhtQdsGFmu4tryYgFrUlipl2B3' />
+                <input type="hidden" name="_method" value="OPTIONS" />
+                <button class="btn btn-primary js-tooltip" title="Make an OPTIONS request on the Video List Create Api resource">OPTIONS</button>
+            </form>
+        
+
+        
+
+        <div class="content-main">
+            <div class="page-header"><h1>Video List Create Api</h1></div>
+            
+            
+            
+            <div class="request-info" style="clear: both" >
+                <pre class="prettyprint"><b>GET</b> /api/v2/video/?page=104</pre>
+            </div>
+            <div class="response-info">
+                <pre class="prettyprint"><div class="meta nocode"><b>HTTP 200 OK</b>
+<b>Content-Type:</b> <span class="lit">application/json</span>
+<b>Vary:</b> <span class="lit">Accept</span>
+<b>Allow:</b> <span class="lit">GET, POST, HEAD, OPTIONS</span>
+
+</div>{
+    &quot;count&quot;: 3439, 
+    &quot;next&quot;: &quot;<a href="http://pyvideo.org/api/v2/video/?page=105" rel="nofollow">http://pyvideo.org/api/v2/video/?page=105</a>&quot;, 
+    &quot;previous&quot;: &quot;<a href="http://pyvideo.org/api/v2/video/?page=103" rel="nofollow">http://pyvideo.org/api/v2/video/?page=103</a>&quot;, 
+    &quot;results&quot;: [
+        {
+            &quot;category&quot;: &quot;SciPy 2013&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;exploring-disease-genetics-from-thousands-of-indi-&quot;, 
+            &quot;speakers&quot;: [], 
+            &quot;tags&quot;: [
+                &quot;Tech&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 1998, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Exploring disease genetics from thousands of individual genomes with Gemini; SciPy 2013 Presentation&quot;, 
+            &quot;summary&quot;: &quot;Authors: Quinlan, Aaron, University of Virginia; Paila, Uma, University of Virginia; Chapman, Brad, Harvard School of Public Health; Kirchner, Rory,\n\nTrack: Bioinformatics\n\nThe throughput of DNA sequencing has increased by five orders of magnitude in the last decade and geneticists can now sequence a complete human genome in 24 hours for less than $5000. This tremendous increase in efficiency has led to large-scale studies of the relationship between inherited genetic variation and human disease. While collecting genetic variation from the genomes of thousands of humans is now possible, unraveling the genetic basis of disease remains a tremendous analytical challenge. Interpretation is especially difficult since many genetic variants associated with human disease lie outside the genomic regions that encode genes. To address this challenge, we have developed GEMINI, a flexible Python analysis framework for exploring human genetic variation. By leveraging Numpy, SQLITE, and several powerful Python packages in the genomics domain, GEMINI integrates genome-scale genetic variation from 1000s of individuals with a wealth of genome annotations that are crucial for disease interpretation.\n\nGEMINI provides a powerful analysis framework allowing researchers to conduct otherwise complicated analyses with an easy to use analysis interface. It provides methods for ad hoc data exploration, a programming interface for custom analyses, and both command line and graphical tools for common analysis tasks. We demonstrate GEMINI&#39;s utility for exploring variation for personal genomes and family based genetic studies. Thanks to advances such as IPython.parallel, we further illustrate the framework&#39;s ability to scale to studies involving thousands of human samples.&quot;, 
+            &quot;description&quot;: &quot;&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;<a href="http://www.youtube.com/t/terms" rel="nofollow">http://www.youtube.com/t/terms</a>&quot;, 
+            &quot;embed&quot;: &quot;&lt;object width=\&quot;640\&quot; height=\&quot;390\&quot;&gt;&lt;param name=\&quot;movie\&quot; value=\&quot;http://youtube.com/v/p-UWmDG6yj4?version=3&amp;amp;hl=en_US\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowFullScreen\&quot; value=\&quot;true\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowscriptaccess\&quot; value=\&quot;always\&quot;&gt;&lt;/param&gt;&lt;embed src=\&quot;http://youtube.com/v/p-UWmDG6yj4?version=3&amp;amp;hl=en_US\&quot; type=\&quot;application/x-shockwave-flash\&quot; width=\&quot;640\&quot; height=\&quot;390\&quot; allowscriptaccess=\&quot;always\&quot; allowfullscreen=\&quot;true\&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://i1.ytimg.com/vi/p-UWmDG6yj4/hqdefault.jpg" rel="nofollow">http://i1.ytimg.com/vi/p-UWmDG6yj4/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: null, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="http://www.youtube.com/watch?v=p-UWmDG6yj4" rel="nofollow">http://www.youtube.com/watch?v=p-UWmDG6yj4</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;needs editing&quot;, 
+            &quot;recorded&quot;: &quot;2013-07-01&quot;, 
+            &quot;added&quot;: &quot;2013-07-04T10:08:36&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:26.394&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;SciPy 2013&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;ginga-an-open-source-astronomical-image-viewer-a-0&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Eric Jeschke&quot;
+            ], 
+            &quot;tags&quot;: [
+                &quot;astronomy&quot;, 
+                &quot;astrophysics&quot;, 
+                &quot;ginga&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 1969, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Ginga: an open-source astronomical image viewer and toolkit&quot;, 
+            &quot;summary&quot;: &quot;Ginga is a new astronomical image viewer written in python. It uses and inter-operates with several key scientific python packages: numpy, pyfits, and scipy.&quot;, 
+            &quot;description&quot;: &quot;Authors: Jeschke, Eric, Subaru Telescope, National Astronomical Observatory of Japan\n\nTrack: Astronomy and Astrophysics\n\nGinga is a new astronomical image viewer written in python. It uses and inter-operates with several key scientific python packages: numpy, pyfits, and scipy. A key differentiator for this image viewer, compared to older-generation FITS viewers, is that all the key components are written as python classes, allowing for the first time a powerful FITS image display widget to be directly embedded in, and tightly coupled with, python code.\n\nWe call Ginga a toolkit for programming FITS viewers because it includes a choice of base classes for programming custom viewers for two different modern widget sets: Gtk and Qt, available on the three common desktop platforms. In addition, a reference viewer is included with the source code based on a plugin architecture in which the viewer can be extended with plugins scripted in python. The code is released under a BSD license similar to other major python packages and is available on github.\n\nGinga has been introduced only recently as a tool to the astronomical community, but since SciPy has a developer focus this talk concentrates on programming with the Ginga toolkit. We cover two cases: using the bare image widget to build custom viewers and writing plugins for the existing full-featured Ginga viewer. The talk may be of interest to anyone developing code in python needing to display scientific image (CCD or CMOS) data and astronomers interested in python-based quick look and analysis tools.&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;<a href="http://www.youtube.com/t/terms" rel="nofollow">http://www.youtube.com/t/terms</a>&quot;, 
+            &quot;embed&quot;: &quot;&lt;object width=\&quot;640\&quot; height=\&quot;390\&quot;&gt;&lt;param name=\&quot;movie\&quot; value=\&quot;http://youtube.com/v/nZKy_nYUxCs?version=3&amp;amp;hl=en_US\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowFullScreen\&quot; value=\&quot;true\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowscriptaccess\&quot; value=\&quot;always\&quot;&gt;&lt;/param&gt;&lt;embed src=\&quot;http://youtube.com/v/nZKy_nYUxCs?version=3&amp;amp;hl=en_US\&quot; type=\&quot;application/x-shockwave-flash\&quot; width=\&quot;640\&quot; height=\&quot;390\&quot; allowscriptaccess=\&quot;always\&quot; allowfullscreen=\&quot;true\&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://i1.ytimg.com/vi/nZKy_nYUxCs/hqdefault.jpg" rel="nofollow">http://i1.ytimg.com/vi/nZKy_nYUxCs/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: null, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="http://www.youtube.com/watch?v=nZKy_nYUxCs" rel="nofollow">http://www.youtube.com/watch?v=nZKy_nYUxCs</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2013-07-01&quot;, 
+            &quot;added&quot;: &quot;2013-07-04T10:08:32&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:26.396&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;SciPy 2013&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;ginga-an-open-source-astronomical-image-viewer-a-1&quot;, 
+            &quot;speakers&quot;: [], 
+            &quot;tags&quot;: [
+                &quot;Tech&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 2046, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Ginga: an open-source astronomical image viewer and toolkit; SciPy 2013 Presentation&quot;, 
+            &quot;summary&quot;: &quot;Authors: Jeschke, Eric, Subaru Telescope, National Astronomical Observatory of Japan\n\nTrack: Astronomy and Astrophysics\n\nGinga is a new astronomical image viewer written in python. It uses and inter-operates with several key scientific python packages: numpy, pyfits, and scipy. A key differentiator for this image viewer, compared to older-generation FITS viewers, is that all the key components are written as python classes, allowing for the first time a powerful FITS image display widget to be directly embedded in, and tightly coupled with, python code.\n\nWe call Ginga a toolkit for programming FITS viewers because it includes a choice of base classes for programming custom viewers for two different modern widget sets: Gtk and Qt, available on the three common desktop platforms. In addition, a reference viewer is included with the source code based on a plugin architecture in which the viewer can be extended with plugins scripted in python. The code is released under a BSD license similar to other major python packages and is available on github.\n\nGinga has been introduced only recently as a tool to the astronomical community, but since SciPy has a developer focus this talk concentrates on programming with the Ginga toolkit. We cover two cases: using the bare image widget to build custom viewers and writing plugins for the existing full-featured Ginga viewer. The talk may be of interest to anyone developing code in python needing to display scientific image (CCD or CMOS) data and astronomers interested in python-based quick look and analysis tools.&quot;, 
+            &quot;description&quot;: &quot;&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;<a href="http://www.youtube.com/t/terms" rel="nofollow">http://www.youtube.com/t/terms</a>&quot;, 
+            &quot;embed&quot;: &quot;&lt;object width=\&quot;640\&quot; height=\&quot;390\&quot;&gt;&lt;param name=\&quot;movie\&quot; value=\&quot;http://youtube.com/v/nZKy_nYUxCs?version=3&amp;amp;hl=en_US\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowFullScreen\&quot; value=\&quot;true\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowscriptaccess\&quot; value=\&quot;always\&quot;&gt;&lt;/param&gt;&lt;embed src=\&quot;http://youtube.com/v/nZKy_nYUxCs?version=3&amp;amp;hl=en_US\&quot; type=\&quot;application/x-shockwave-flash\&quot; width=\&quot;640\&quot; height=\&quot;390\&quot; allowscriptaccess=\&quot;always\&quot; allowfullscreen=\&quot;true\&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://i1.ytimg.com/vi/nZKy_nYUxCs/hqdefault.jpg" rel="nofollow">http://i1.ytimg.com/vi/nZKy_nYUxCs/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: null, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="http://www.youtube.com/watch?v=nZKy_nYUxCs" rel="nofollow">http://www.youtube.com/watch?v=nZKy_nYUxCs</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;needs editing&quot;, 
+            &quot;recorded&quot;: &quot;2013-07-01&quot;, 
+            &quot;added&quot;: &quot;2013-07-04T10:08:43&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:26.397&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;SciPy 2013&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;gis-panel-discussion-0&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Andrew Wilson&quot;, 
+                &quot;Sergio Rey&quot;, 
+                &quot;Shaun Walbridge&quot;
+            ], 
+            &quot;tags&quot;: [
+                &quot;geospatial data analysis&quot;, 
+                &quot;gis&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 1980, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;GIS Panel Discussion&quot;, 
+            &quot;summary&quot;: &quot;Authors: Panel participants: Sergio Ray (Arizona State U), Shaun Walbridge (ESRI), Andrew Wilson (TWDB)\r\n\r\nTrack: GIS - Geospatial Data Analysis&quot;, 
+            &quot;description&quot;: &quot;&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;<a href="http://www.youtube.com/t/terms" rel="nofollow">http://www.youtube.com/t/terms</a>&quot;, 
+            &quot;embed&quot;: &quot;&lt;object width=\&quot;640\&quot; height=\&quot;390\&quot;&gt;&lt;param name=\&quot;movie\&quot; value=\&quot;http://youtube.com/v/Dn540ERYcxo?version=3&amp;amp;hl=en_US\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowFullScreen\&quot; value=\&quot;true\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowscriptaccess\&quot; value=\&quot;always\&quot;&gt;&lt;/param&gt;&lt;embed src=\&quot;http://youtube.com/v/Dn540ERYcxo?version=3&amp;amp;hl=en_US\&quot; type=\&quot;application/x-shockwave-flash\&quot; width=\&quot;640\&quot; height=\&quot;390\&quot; allowscriptaccess=\&quot;always\&quot; allowfullscreen=\&quot;true\&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://i1.ytimg.com/vi/Dn540ERYcxo/hqdefault.jpg" rel="nofollow">http://i1.ytimg.com/vi/Dn540ERYcxo/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: &quot;&quot;, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: &quot;&quot;, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: &quot;&quot;, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: &quot;&quot;, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="http://www.youtube.com/watch?v=Dn540ERYcxo" rel="nofollow">http://www.youtube.com/watch?v=Dn540ERYcxo</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2013-07-01&quot;, 
+            &quot;added&quot;: &quot;2013-07-04T10:08:34&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:26.399&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;SciPy 2013&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;gis-panel-discussion-scipy-2013-presentation&quot;, 
+            &quot;speakers&quot;: [], 
+            &quot;tags&quot;: [
+                &quot;Tech&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 2058, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;GIS Panel Discussion; SciPy 2013 Presentation&quot;, 
+            &quot;summary&quot;: &quot;Authors: Panel participants: Sergio Ray (Arizona State U), Shaun Walbridge (ESRI), Andrew Wilson (TWDB)\n\nTrack: GIS - Geospatial Data Analysis&quot;, 
+            &quot;description&quot;: &quot;&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;<a href="http://www.youtube.com/t/terms" rel="nofollow">http://www.youtube.com/t/terms</a>&quot;, 
+            &quot;embed&quot;: &quot;&lt;object width=\&quot;640\&quot; height=\&quot;390\&quot;&gt;&lt;param name=\&quot;movie\&quot; value=\&quot;http://youtube.com/v/Dn540ERYcxo?version=3&amp;amp;hl=en_US\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowFullScreen\&quot; value=\&quot;true\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowscriptaccess\&quot; value=\&quot;always\&quot;&gt;&lt;/param&gt;&lt;embed src=\&quot;http://youtube.com/v/Dn540ERYcxo?version=3&amp;amp;hl=en_US\&quot; type=\&quot;application/x-shockwave-flash\&quot; width=\&quot;640\&quot; height=\&quot;390\&quot; allowscriptaccess=\&quot;always\&quot; allowfullscreen=\&quot;true\&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://i1.ytimg.com/vi/Dn540ERYcxo/hqdefault.jpg" rel="nofollow">http://i1.ytimg.com/vi/Dn540ERYcxo/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: null, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="http://www.youtube.com/watch?v=Dn540ERYcxo" rel="nofollow">http://www.youtube.com/watch?v=Dn540ERYcxo</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;needs editing&quot;, 
+            &quot;recorded&quot;: &quot;2013-07-01&quot;, 
+            &quot;added&quot;: &quot;2013-07-04T10:08:46&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:26.400&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;SciPy 2013&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;graphterm-a-notebook-like-graphical-terminal-int-1&quot;, 
+            &quot;speakers&quot;: [], 
+            &quot;tags&quot;: [
+                &quot;Tech&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 2115, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;GraphTerm: A notebook-like graphical terminal interface; SciPy 2013 Presentation&quot;, 
+            &quot;summary&quot;: &quot;GraphTerm: A notebook-like graphical terminal interface for collaboration and inline data visualization\n\nAuthors: Ramalingam Saravanan, Texas A&amp;M University\n\nTrack: Reproducible Science\n\nThe notebook interface, which blends text and graphics, has been in use for a number of years in commercial mathematical software and is now finding more widespread usage in scientific Python with the availability browser-based front-ends like the Sage and IPython notebooks. This talk will describe a new open-source Python project, GraphTerm, that takes a slightly different approach to blending text and graphics to create a notebook-like interface. Rather than operating at the application level, it works at the unix shell level by extending the command line interface to incorporate elements of the graphical user interface. The xterm terminal escape sequences are augmented to allow any program to interactively display inline graphics (or other HTML content) simply by writing to standard output.\n\nGraphTerm is designed to be a drop-in replacement for the standard unix terminal, with additional features for multiplexing sessions and easy deployment in the cloud. The interface aims to be tablet-friendly, with features like clickable/tappable directory listings for navigating folders etc. The user can switch, as needed, between standard a-line-at-a-time shell mode and the notebook mode, where multiple lines of code are entered in cells, allowing for in-place editing and re-execution. Multiple users can share terminal sessions for collaborative computing.\n\nGraphTerm is implemented in Python, using the Tornado web framework for the server component and HTML+Javascript for the browser client. The presentation will discuss the architecture of GraphTerm as well as provide specific usage examples, such as inline visualization of meteorological data using matplotlib, and collaborative presentations using Landslide, a python-based slideshow tool.&quot;, 
+            &quot;description&quot;: &quot;&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;<a href="http://www.youtube.com/t/terms" rel="nofollow">http://www.youtube.com/t/terms</a>&quot;, 
+            &quot;embed&quot;: &quot;&lt;object width=\&quot;640\&quot; height=\&quot;390\&quot;&gt;&lt;param name=\&quot;movie\&quot; value=\&quot;http://youtube.com/v/nO0ceHmTlDQ?version=3&amp;amp;hl=en_US\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowFullScreen\&quot; value=\&quot;true\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowscriptaccess\&quot; value=\&quot;always\&quot;&gt;&lt;/param&gt;&lt;embed src=\&quot;http://youtube.com/v/nO0ceHmTlDQ?version=3&amp;amp;hl=en_US\&quot; type=\&quot;application/x-shockwave-flash\&quot; width=\&quot;640\&quot; height=\&quot;390\&quot; allowscriptaccess=\&quot;always\&quot; allowfullscreen=\&quot;true\&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://i1.ytimg.com/vi/nO0ceHmTlDQ/hqdefault.jpg" rel="nofollow">http://i1.ytimg.com/vi/nO0ceHmTlDQ/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: null, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="http://www.youtube.com/watch?v=nO0ceHmTlDQ" rel="nofollow">http://www.youtube.com/watch?v=nO0ceHmTlDQ</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;needs editing&quot;, 
+            &quot;recorded&quot;: &quot;2013-07-01&quot;, 
+            &quot;added&quot;: &quot;2013-07-04T10:08:56&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:26.401&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;SciPy 2013&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;hyperopt-a-python-library-for-optimizing-machine-1&quot;, 
+            &quot;speakers&quot;: [], 
+            &quot;tags&quot;: [
+                &quot;Tech&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 2125, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Hyperopt: A Python library for optimizing machine learning algorithms; SciPy 2013&quot;, 
+            &quot;summary&quot;: &quot;Hyperopt: A Python library for optimizing the hyperparameters of machine learning algorithms\n\nAuthors: Bergstra, James, University of Waterloo; Yamins, Dan, Massachusetts Institute of Technology; Cox, David D., Harvard University\n\nTrack: Machine Learning\n\nMost machine learning algorithms have hyperparameters that have a great impact on end-to-end system performance, and adjusting hyperparameters to optimize end-to-end performance can be a daunting task. Hyperparameters come in many varieties--continuous-valued ones with and without bounds, discrete ones that are either ordered or not, and conditional ones that do not even always apply (e.g., the parameters of an optional pre-processing stage)--so conventional continuous and combinatorial optimization algorithms either do not directly apply, or else operate without leveraging structure in the search space. Typically, the optimization of hyperparameters is carried out before-hand by domain experts on unrelated problems, or manually for the problem at hand with the assistance of grid search. However, even random search has been shown to be competitive [1].\n\nBetter hyperparameter optimization algorithms (HOAs) are needed for two reasons:\n\nHOAs formalize the practice of model evaluation, so that benchmarking experiments can be reproduced by different people.\n\nLearning algorithm designers can deliver flexible fully-configurable implementations (of e.g. Deep Learning algorithms) to non-experts, so long as they also provide a corresponding HOA.\n\nHyperopt provides serial and parallelizable HOAs via a Python library [2, 3]. Fundamental to its design is a protocol for communication between (a) the description of a hyperparameter search space, (b) a hyperparameter evaluation function (machine learning system), and (c) a hyperparameter search algorithm. This protocol makes it possible to make generic HOAs (such as the bundled \&quot;TPE\&quot; algorithm) work for a range of specific search problems. Specific machine learning algorithms (or algorithm families) are implemented as hyperopt search spaces in related projects: Deep Belief Networks [4], convolutional vision architectures [5], and scikit-learn classifiers [6]. My presentation will explain what problem hyperopt solves, how to use it, and how it can deliver accurate models from data alone, without operator intervention.&quot;, 
+            &quot;description&quot;: &quot;&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;<a href="http://www.youtube.com/t/terms" rel="nofollow">http://www.youtube.com/t/terms</a>&quot;, 
+            &quot;embed&quot;: &quot;&lt;object width=\&quot;640\&quot; height=\&quot;390\&quot;&gt;&lt;param name=\&quot;movie\&quot; value=\&quot;http://youtube.com/v/Mp1xnPfE4PY?version=3&amp;amp;hl=en_US\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowFullScreen\&quot; value=\&quot;true\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowscriptaccess\&quot; value=\&quot;always\&quot;&gt;&lt;/param&gt;&lt;embed src=\&quot;http://youtube.com/v/Mp1xnPfE4PY?version=3&amp;amp;hl=en_US\&quot; type=\&quot;application/x-shockwave-flash\&quot; width=\&quot;640\&quot; height=\&quot;390\&quot; allowscriptaccess=\&quot;always\&quot; allowfullscreen=\&quot;true\&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://i1.ytimg.com/vi/Mp1xnPfE4PY/hqdefault.jpg" rel="nofollow">http://i1.ytimg.com/vi/Mp1xnPfE4PY/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: null, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="http://www.youtube.com/watch?v=Mp1xnPfE4PY" rel="nofollow">http://www.youtube.com/watch?v=Mp1xnPfE4PY</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;needs editing&quot;, 
+            &quot;recorded&quot;: &quot;2013-07-01&quot;, 
+            &quot;added&quot;: &quot;2013-07-04T10:08:58&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:26.403&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;SciPy 2013&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;import-without-a-filesystem-scipy-2013-presentat-1&quot;, 
+            &quot;speakers&quot;: [], 
+            &quot;tags&quot;: [
+                &quot;Tech&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 2134, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Import without a filesystem, SciPy 2013 Presentation&quot;, 
+            &quot;summary&quot;: &quot;Presenter: Pat Marion\n\nAuthors: Pat Marion, Kitware; Aron Ahmadia; Bradley M. Froehle, University of California, Berkeley\n\nTrack: General\n\nScientific Python is growing in popularity among HPC and supercomputing communities, but suffers from a seemingly simple and fundamental problem: importing modules from a shared network filesystem at extreme scale will cripple the performance of a parallel Python program.\n\nAt SciPy &#39;12, the presentation titled \&quot;Solving the import problem: Scalable Dynamic Loading Network File Systems\&quot; analyzed the issue and proposed several remedies, but concluded there was more work to be done. Now, this talk introduces a new technique that leverages the linker to embed C-extension modules, and uses Python freeze to embed pure python modules. The result is a program that imports the Python standard library and scientific Python modules such as NumPy without accessing the filesystem. It achieves near-instant, and always-constant, import time even at full machine scale on today&#39;s largest supercomputers. The same technique is also relevant to Python app developers on mobile and embedded systems where filesystem access and dynamic loading inflate app startup time.\n\nThis talk will discuss the concepts involved using a simple hello-world demonstration, and overview a real-world example where Python was used to compute at full machine scale on Argonne&#39;s Intrepid BlueGene/P supercomputer.&quot;, 
+            &quot;description&quot;: &quot;&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;<a href="http://www.youtube.com/t/terms" rel="nofollow">http://www.youtube.com/t/terms</a>&quot;, 
+            &quot;embed&quot;: &quot;&lt;object width=\&quot;640\&quot; height=\&quot;390\&quot;&gt;&lt;param name=\&quot;movie\&quot; value=\&quot;http://youtube.com/v/EOiEIWMYkwE?version=3&amp;amp;hl=en_US\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowFullScreen\&quot; value=\&quot;true\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowscriptaccess\&quot; value=\&quot;always\&quot;&gt;&lt;/param&gt;&lt;embed src=\&quot;http://youtube.com/v/EOiEIWMYkwE?version=3&amp;amp;hl=en_US\&quot; type=\&quot;application/x-shockwave-flash\&quot; width=\&quot;640\&quot; height=\&quot;390\&quot; allowscriptaccess=\&quot;always\&quot; allowfullscreen=\&quot;true\&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://i1.ytimg.com/vi/EOiEIWMYkwE/hqdefault.jpg" rel="nofollow">http://i1.ytimg.com/vi/EOiEIWMYkwE/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: null, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="http://www.youtube.com/watch?v=EOiEIWMYkwE" rel="nofollow">http://www.youtube.com/watch?v=EOiEIWMYkwE</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;needs editing&quot;, 
+            &quot;recorded&quot;: &quot;2013-07-01&quot;, 
+            &quot;added&quot;: &quot;2013-07-04T10:08:59&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:26.404&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;SciPy 2013&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;inferpy-probabilistic-programming-and-bayesian-1&quot;, 
+            &quot;speakers&quot;: [], 
+            &quot;tags&quot;: [
+                &quot;Tech&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 2105, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Infer.py: Probabilistic Programming and Bayesian Inference from Python; SciPy 2013 Presentation&quot;, 
+            &quot;summary&quot;: &quot;Authors: Zinkov, Rob\n\nTrack: Machine Learning\n\nInfer.py is a wrapper around Microsoft Research&#39;s <a href="http://Infer.NET" rel="nofollow">Infer.NET</a> inference engine. Infer.py allows you to represent complex graphical models in terms of short pieces of code. In this talk, I will show how many popular machine learning algorithms can be modeled as short probabilistic programs and then simply trained. I will then show how to introspect on the models which were learned and debug these programs when they don&#39;t produce desired results.&quot;, 
+            &quot;description&quot;: &quot;&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;<a href="http://www.youtube.com/t/terms" rel="nofollow">http://www.youtube.com/t/terms</a>&quot;, 
+            &quot;embed&quot;: &quot;&lt;object width=\&quot;640\&quot; height=\&quot;390\&quot;&gt;&lt;param name=\&quot;movie\&quot; value=\&quot;http://youtube.com/v/x2od7tsPjQE?version=3&amp;amp;hl=en_US\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowFullScreen\&quot; value=\&quot;true\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowscriptaccess\&quot; value=\&quot;always\&quot;&gt;&lt;/param&gt;&lt;embed src=\&quot;http://youtube.com/v/x2od7tsPjQE?version=3&amp;amp;hl=en_US\&quot; type=\&quot;application/x-shockwave-flash\&quot; width=\&quot;640\&quot; height=\&quot;390\&quot; allowscriptaccess=\&quot;always\&quot; allowfullscreen=\&quot;true\&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://i1.ytimg.com/vi/x2od7tsPjQE/hqdefault.jpg" rel="nofollow">http://i1.ytimg.com/vi/x2od7tsPjQE/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: null, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="http://www.youtube.com/watch?v=x2od7tsPjQE" rel="nofollow">http://www.youtube.com/watch?v=x2od7tsPjQE</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;needs editing&quot;, 
+            &quot;recorded&quot;: &quot;2013-07-01&quot;, 
+            &quot;added&quot;: &quot;2013-07-04T10:08:54&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:26.406&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;SciPy 2013&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;ipython-powered-slideshow-reveal-ed-scipy-2013-p-1&quot;, 
+            &quot;speakers&quot;: [], 
+            &quot;tags&quot;: [
+                &quot;Tech&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 2119, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;IPython-powered Slideshow Reveal-ed; SciPy 2013 Presentation&quot;, 
+            &quot;summary&quot;: &quot;Authors: Avila, Damian, OQUANTA;\n\nTrack: Reproducible Science\n\nIn the last years, Python have gained a lot of interest in the scientific community because of several useful tools, well-suited to do scientific computing research, have been developed [1]. IPython [2], a comprehensive environment for interactive and exploratory computing, has arose as must-have application to run in the daily scientific work-flow because provide not only enhanced interactive Python shells (terminal and qt-based) but also an interactive browser-based notebook with rich media support [3]. The oral presentation of our research results to the public (specialized and non-specialized) is one of the final steps in the scientific research work-flow, and recently, the IPython notebook has began to be used for these oral communications in several conferences.\nDespite the fact that we can present our talks with the IPython notebook or a derived static html through the nbviewer service [4], there is not a native IPython presentation tool aimed to easily present our results. So, in this paper, we describe a new IPython-Reveal.js-powered slideshow, designed specifically to be rendered directly from the IPython notebook, and powered with several features to address the most common tasks performed during the oral presentation and spreading of our scientific work, such as:\n\nMain slides (horizontal)\nNested slides (vertical)\nFragments views\nTransitions\nThemes\nSpeaker notes\nExport to pdf\nTo conclude, we have developed a better visualization tool for the IPython notebook, suited for the final step of our scientific research work-flow, providing us with an enhanced experience in the oral presentation and communication of our results [5 - 6 - 7].&quot;, 
+            &quot;description&quot;: &quot;&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;<a href="http://www.youtube.com/t/terms" rel="nofollow">http://www.youtube.com/t/terms</a>&quot;, 
+            &quot;embed&quot;: &quot;&lt;object width=\&quot;640\&quot; height=\&quot;390\&quot;&gt;&lt;param name=\&quot;movie\&quot; value=\&quot;http://youtube.com/v/rBS6hmiK-H8?version=3&amp;amp;hl=en_US\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowFullScreen\&quot; value=\&quot;true\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowscriptaccess\&quot; value=\&quot;always\&quot;&gt;&lt;/param&gt;&lt;embed src=\&quot;http://youtube.com/v/rBS6hmiK-H8?version=3&amp;amp;hl=en_US\&quot; type=\&quot;application/x-shockwave-flash\&quot; width=\&quot;640\&quot; height=\&quot;390\&quot; allowscriptaccess=\&quot;always\&quot; allowfullscreen=\&quot;true\&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://i1.ytimg.com/vi/rBS6hmiK-H8/hqdefault.jpg" rel="nofollow">http://i1.ytimg.com/vi/rBS6hmiK-H8/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: null, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="http://www.youtube.com/watch?v=rBS6hmiK-H8" rel="nofollow">http://www.youtube.com/watch?v=rBS6hmiK-H8</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;needs editing&quot;, 
+            &quot;recorded&quot;: &quot;2013-07-01&quot;, 
+            &quot;added&quot;: &quot;2013-07-04T10:08:57&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:26.407&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;SciPy 2013&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;julia-and-python-a-dynamic-duo-for-scientific-co-1&quot;, 
+            &quot;speakers&quot;: [], 
+            &quot;tags&quot;: [
+                &quot;Tech&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 2130, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Julia and Python: a dynamic duo for scientific computing; SciPy 2013 Presentation&quot;, 
+            &quot;summary&quot;: &quot;Authors: Bezanson, Jeff, MIT; Karpinski, Stefan, MIT\n\nTrack: General\n\nJulia is a recent addition to the collection of tools a scientist has available for tackling computational problems. It combines the simple programming model of a dynamic language like Python with the performance of a compiled language, while exposing expressive high-level features such as a sophisticated type system, dynamic multiple dispatch, Lisp-style macros and metaprogramming.\n\nJulia can natively make zero-overhead calls to C and Fortran libraries without wrappers or data copying. Moreover, Julia can now call Python as well [3], with automatic bidirectional type conversion, bidirectional callbacks, and copy-free sharing of lists, dictionaries, and NumPy arrays. This is as simple as:\n\njulia&amp;gt; using PyCall\njulia&amp;gt; @pyimport scipy.optimize as so\njulia&amp;gt; so.newton(x-&amp;gt;cos(x)-x, 1)\n0.7390851332151607\nConversely, Python code can dynamically load the Julia runtime library and execute arbitrary Julia code. We have exploited this possibility to run Julia within the IPython environment [4]:\n\nIn [1]: %load_ext juliamagic\nIn [2]: jfib = %julia fib(n) = n &amp;lt; 2 ? n : fib(n-1) + fib(n-2)\nOut[2]: &amp;lt;PyCall.jlwrap fib&amp;gt;\nIn [3]: jfib(20)\nOut[3]: 6765\nIn this talk we&#39;ll give an introduction to the Julia language and demonstrate how you can use Julia where it makes sense for you, while continuing to use your favorite scientific libraries and existing Python and C code.&quot;, 
+            &quot;description&quot;: &quot;&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;<a href="http://www.youtube.com/t/terms" rel="nofollow">http://www.youtube.com/t/terms</a>&quot;, 
+            &quot;embed&quot;: &quot;&lt;object width=\&quot;640\&quot; height=\&quot;390\&quot;&gt;&lt;param name=\&quot;movie\&quot; value=\&quot;http://youtube.com/v/Eb8CMuNKdJ0?version=3&amp;amp;hl=en_US\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowFullScreen\&quot; value=\&quot;true\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowscriptaccess\&quot; value=\&quot;always\&quot;&gt;&lt;/param&gt;&lt;embed src=\&quot;http://youtube.com/v/Eb8CMuNKdJ0?version=3&amp;amp;hl=en_US\&quot; type=\&quot;application/x-shockwave-flash\&quot; width=\&quot;640\&quot; height=\&quot;390\&quot; allowscriptaccess=\&quot;always\&quot; allowfullscreen=\&quot;true\&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://i1.ytimg.com/vi/Eb8CMuNKdJ0/hqdefault.jpg" rel="nofollow">http://i1.ytimg.com/vi/Eb8CMuNKdJ0/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: null, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="http://www.youtube.com/watch?v=Eb8CMuNKdJ0" rel="nofollow">http://www.youtube.com/watch?v=Eb8CMuNKdJ0</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;needs editing&quot;, 
+            &quot;recorded&quot;: &quot;2013-07-01&quot;, 
+            &quot;added&quot;: &quot;2013-07-04T10:08:59&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:26.408&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;SciPy 2013&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;larvamap-a-python-powered-larval-transport-mode-1&quot;, 
+            &quot;speakers&quot;: [], 
+            &quot;tags&quot;: [
+                &quot;Tech&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 2074, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;LarvaMap - A python powered larval transport modeling system; SciPy 2013 Presentation&quot;, 
+            &quot;summary&quot;: &quot;Authors: Wilcox, Kyle, Applied Science Associates (ASA); Crosby, Alex, Applied Science Associates (ASA)\n\nTrack: GIS - Geospatial Data Analysis\n\nLarvaMap is an open-access larval transport modeling tool. The idea behind LarvaMap is to make it easy for researchers everywhere to use sophisticated larval transport models to explore and test hypotheses about the early life of marine organisms.\n\nLarvaMap integrates four components: an ocean circulation model, a larval behavior library, a python Lagrangian particle model, and a web-system for running the transport models.\n\nAn open-source particle transport model was written in python to support LarvaMap. The model utilizes a parallel multi-process architecture. Remote data are cached to a local file in small chunks when a process requires data, and the local data are shared between all of the active processes as the model runs. The caching approach improves performance and reduces the load on data servers by limiting the frequency and total number of web requests as well as the size of the data being moved over the internet.\n\nModel outputs include particle trajectories in common formats (i.e. netCDF-CF and ESRI Shapefile), a web accessible geojson representation of the particle centroid trajectory, and a stochastic GeoTIFF representation of the probabilities associated with a collection of modeling runs. The common interoperable data formats allow a variety of tools to be used for in-depth analysis of the model results.&quot;, 
+            &quot;description&quot;: &quot;&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;<a href="http://www.youtube.com/t/terms" rel="nofollow">http://www.youtube.com/t/terms</a>&quot;, 
+            &quot;embed&quot;: &quot;&lt;object width=\&quot;640\&quot; height=\&quot;390\&quot;&gt;&lt;param name=\&quot;movie\&quot; value=\&quot;http://youtube.com/v/fbQExUiJXrk?version=3&amp;amp;hl=en_US\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowFullScreen\&quot; value=\&quot;true\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowscriptaccess\&quot; value=\&quot;always\&quot;&gt;&lt;/param&gt;&lt;embed src=\&quot;http://youtube.com/v/fbQExUiJXrk?version=3&amp;amp;hl=en_US\&quot; type=\&quot;application/x-shockwave-flash\&quot; width=\&quot;640\&quot; height=\&quot;390\&quot; allowscriptaccess=\&quot;always\&quot; allowfullscreen=\&quot;true\&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://i1.ytimg.com/vi/fbQExUiJXrk/hqdefault.jpg" rel="nofollow">http://i1.ytimg.com/vi/fbQExUiJXrk/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: null, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="http://www.youtube.com/watch?v=fbQExUiJXrk" rel="nofollow">http://www.youtube.com/watch?v=fbQExUiJXrk</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;needs editing&quot;, 
+            &quot;recorded&quot;: &quot;2013-07-01&quot;, 
+            &quot;added&quot;: &quot;2013-07-04T10:08:48&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:26.410&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;SciPy 2013&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;lpedit-an-editor-to-facilitate-reproducible-anal-1&quot;, 
+            &quot;speakers&quot;: [], 
+            &quot;tags&quot;: [
+                &quot;Tech&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 2095, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;lpEdit: An editor to facilitate reproducible analysis; SciPy 2013 Presentation&quot;, 
+            &quot;summary&quot;: &quot;lpEdit: An editor to facilitate reproducible analysis via literate programming\n\nAuthors: Richards, Adam, Duke University, CNRS France; Kosinski Andrzej, Duke University; Bonneaud, Camille,\n\nTrack: Reproducible Science\n\nThere is evidence to suggest that a surprising proportion of published experiments in science are difficult if not impossible to reproduce. The concepts of data sharing, leaving an audit trail and extensive documentation are essential to reproducible research, whether it is in the laboratory or as part of an analysis. In this work, we introduce a tool for documentation that aims to make analyses more reproducible in the general scientific community.\n\nThe application, lpEdit, is a cross-platform editor, written with PyQt4, that enables a broad range of scientists to carry out the analytic component of their work in a reproducible manner---through the use of literate programming. Literate programming mixes code and prose to produce a final report that reads like an article or book. A major target audience of lpEdit are the researchers getting started with statistics or programming, so the hurdles associated with setting up a proper pipeline are kept to a minimum and the learning burden is reduced through the use of templates and documentation. The documentation for lpEdit is centered around learning by example, and accordingly we use several increasingly involved examples to demonstrate the software&#39;s capabilities.\n\nBecause it is commonly used, we begin with an example of Sweave in lpEdit and then in the same way R may be embedded into LaTeX we go on to show how Python can also be used. Next, we demonstrate how both R and Python code may be embedded into reStructuredText (reST). Finally, we walk through a more complete example, where we perform a functional analysis of high-throughput sequencing data, using the transcriptome of the butterfly species Pieris brassicae. There is substantial flexibility that is made available through the use of LaTeX and reST, which facilitates reproducibility through the creation of reports, presentations and web pages.&quot;, 
+            &quot;description&quot;: &quot;&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;<a href="http://www.youtube.com/t/terms" rel="nofollow">http://www.youtube.com/t/terms</a>&quot;, 
+            &quot;embed&quot;: &quot;&lt;object width=\&quot;640\&quot; height=\&quot;390\&quot;&gt;&lt;param name=\&quot;movie\&quot; value=\&quot;http://youtube.com/v/1HCeSwMirIA?version=3&amp;amp;hl=en_US\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowFullScreen\&quot; value=\&quot;true\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowscriptaccess\&quot; value=\&quot;always\&quot;&gt;&lt;/param&gt;&lt;embed src=\&quot;http://youtube.com/v/1HCeSwMirIA?version=3&amp;amp;hl=en_US\&quot; type=\&quot;application/x-shockwave-flash\&quot; width=\&quot;640\&quot; height=\&quot;390\&quot; allowscriptaccess=\&quot;always\&quot; allowfullscreen=\&quot;true\&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://i1.ytimg.com/vi/1HCeSwMirIA/hqdefault.jpg" rel="nofollow">http://i1.ytimg.com/vi/1HCeSwMirIA/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: null, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="http://www.youtube.com/watch?v=1HCeSwMirIA" rel="nofollow">http://www.youtube.com/watch?v=1HCeSwMirIA</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;needs editing&quot;, 
+            &quot;recorded&quot;: &quot;2013-07-01&quot;, 
+            &quot;added&quot;: &quot;2013-07-04T10:08:53&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:26.411&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;SciPy 2013&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;metaseq-a-python-framework-for-integrating-seque-1&quot;, 
+            &quot;speakers&quot;: [], 
+            &quot;tags&quot;: [
+                &quot;Tech&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 2081, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;metaseq: a Python framework for integrating sequencing analyses; SciPy 2013 Presentation&quot;, 
+            &quot;summary&quot;: &quot;metaseq: a Python framework for integrating high-throughput sequencing analyses\n\nAuthors: Dale, Ryan, National Institute of Diabetes and Digestive and Kidney Diseases, National Institutes of\n\nTrack: Bioinformatics\n\nmetaseq is a Python package that ties together a growing ecosystem of bioinformatics Python tools and file formats, focusing on flexibility and interactive exploration of high-throughput sequencing data (e.g., ChIP-seq, RNA-seq, and RIP-seq).\n\nThis talk will use a worked example to illustrate some practical bioinformatics applications of metaseq&#39;s features. For example, its filetype adapters provide random-access, uniform support for commonly-used formats (BAM, bigBed/bigWig, and, via tabix, any tab-delimited format). Combined with multiprocessing and a rebinning routine compiled by Cython, this allows relatively rapid population of NumPy arrays of binned signal over thousands of genes (or other features of interest).\n\nmetaseq&#39;s \&quot;mini-browser\&quot; framework connects these arrays -- or any other plot that considers genomic intervals, such as scatterplots of control vs treatment RNA-seq signal -- via callbacks to interactive creation of matplotlib figures that show the local genomic signal and gene models.\nAlternatively, callbacks can upload data and display them in the UCSC genome browser for further visualization alongside the wealth of publicly available data.&quot;, 
+            &quot;description&quot;: &quot;&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;<a href="http://www.youtube.com/t/terms" rel="nofollow">http://www.youtube.com/t/terms</a>&quot;, 
+            &quot;embed&quot;: &quot;&lt;object width=\&quot;640\&quot; height=\&quot;390\&quot;&gt;&lt;param name=\&quot;movie\&quot; value=\&quot;http://youtube.com/v/w7wgIZJsUUI?version=3&amp;amp;hl=en_US\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowFullScreen\&quot; value=\&quot;true\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowscriptaccess\&quot; value=\&quot;always\&quot;&gt;&lt;/param&gt;&lt;embed src=\&quot;http://youtube.com/v/w7wgIZJsUUI?version=3&amp;amp;hl=en_US\&quot; type=\&quot;application/x-shockwave-flash\&quot; width=\&quot;640\&quot; height=\&quot;390\&quot; allowscriptaccess=\&quot;always\&quot; allowfullscreen=\&quot;true\&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://i1.ytimg.com/vi/w7wgIZJsUUI/hqdefault.jpg" rel="nofollow">http://i1.ytimg.com/vi/w7wgIZJsUUI/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: null, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="http://www.youtube.com/watch?v=w7wgIZJsUUI" rel="nofollow">http://www.youtube.com/watch?v=w7wgIZJsUUI</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;needs editing&quot;, 
+            &quot;recorded&quot;: &quot;2013-07-01&quot;, 
+            &quot;added&quot;: &quot;2013-07-04T10:08:50&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:26.413&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;SciPy 2013&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;mist-micro-simulation-tool-to-support-disease-mo-0&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Jacob Barhak&quot;
+            ], 
+            &quot;tags&quot;: [
+                &quot;bioinformatics&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 1975, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;MIST: Micro-Simulation Tool to Support Disease Modeling&quot;, 
+            &quot;summary&quot;: &quot;MIST stands for Misco-Simulation Tool. It is a modeling and simulation framework that supports computational Chronic Disease Modeling activities.&quot;, 
+            &quot;description&quot;: &quot;Authors: Jacob Barhak\n\nTrack: Bioinformatics\n\nMIST stands for Misco-Simulation Tool. It is a modeling and simulation framework that supports computational Chronic Disease Modeling activities. It is a fork from the IEST = Indirect Estimation and Simulation Tool GPL modeling framework.\n\nMIST removes complexity associated with the estimation engine, with parameter definitions, and with rule restrictions. This significantly simplifies the system and allows its development in the Micro-simulation path less encumbered.\n\nThe incentive to split MIST was to adapt the code to use newer compiler technology to speed up simulations. There is wrong skepticism in the medical disease modeling community towards using Interpreters for simulations due to performance issues. The use of advanced compiler technology with Python may remedy this misconception and provide optimized python based simulations. MIST is a first step in this direction.\n\nMIST takes care of a few documented and known issues. It also moves to use new scientific Python stacks such as Anaconda and PythonXY as its platform. This improves its accessibility to less sophisticated users that can now benefit from easier installation.\n\nThe Reference Model for disease progression intends to use MIST as its main platform. Yet MIST is equipped with a Micro-simulation compiler designed to accommodate Monte Carlo simulations for other purposes.&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;<a href="http://www.youtube.com/t/terms" rel="nofollow">http://www.youtube.com/t/terms</a>&quot;, 
+            &quot;embed&quot;: &quot;&lt;object width=\&quot;640\&quot; height=\&quot;390\&quot;&gt;&lt;param name=\&quot;movie\&quot; value=\&quot;http://youtube.com/v/AD896WakR94?version=3&amp;amp;hl=en_US\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowFullScreen\&quot; value=\&quot;true\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowscriptaccess\&quot; value=\&quot;always\&quot;&gt;&lt;/param&gt;&lt;embed src=\&quot;http://youtube.com/v/AD896WakR94?version=3&amp;amp;hl=en_US\&quot; type=\&quot;application/x-shockwave-flash\&quot; width=\&quot;640\&quot; height=\&quot;390\&quot; allowscriptaccess=\&quot;always\&quot; allowfullscreen=\&quot;true\&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://i1.ytimg.com/vi/AD896WakR94/hqdefault.jpg" rel="nofollow">http://i1.ytimg.com/vi/AD896WakR94/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: null, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="http://www.youtube.com/watch?v=AD896WakR94" rel="nofollow">http://www.youtube.com/watch?v=AD896WakR94</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2013-07-01&quot;, 
+            &quot;added&quot;: &quot;2013-07-04T10:08:33&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:26.414&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;SciPy 2013&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;mist-micro-simulation-tool-to-support-disease-mo-1&quot;, 
+            &quot;speakers&quot;: [], 
+            &quot;tags&quot;: [
+                &quot;Tech&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 2052, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;MIST: Micro-Simulation Tool to Support Disease Modeling; SciPy 2013 Presentation&quot;, 
+            &quot;summary&quot;: &quot;Authors: Jacob Barhak\n\nTrack: Bioinformatics\n\nMIST stands for Misco-Simulation Tool. It is a modeling and simulation framework that supports computational Chronic Disease Modeling activities. It is a fork from the IEST = Indirect Estimation and Simulation Tool GPL modeling framework.\n\nMIST removes complexity associated with the estimation engine, with parameter definitions, and with rule restrictions. This significantly simplifies the system and allows its development in the Micro-simulation path less encumbered.\n\nThe incentive to split MIST was to adapt the code to use newer compiler technology to speed up simulations. There is wrong skepticism in the medical disease modeling community towards using Interpreters for simulations due to performance issues. The use of advanced compiler technology with Python may remedy this misconception and provide optimized python based simulations. MIST is a first step in this direction.\n\nMIST takes care of a few documented and known issues. It also moves to use new scientific Python stacks such as Anaconda and PythonXY as its platform. This improves its accessibility to less sophisticated users that can now benefit from easier installation.\n\nThe Reference Model for disease progression intends to use MIST as its main platform. Yet MIST is equipped with a Micro-simulation compiler designed to accommodate Monte Carlo simulations for other purposes.&quot;, 
+            &quot;description&quot;: &quot;&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;<a href="http://www.youtube.com/t/terms" rel="nofollow">http://www.youtube.com/t/terms</a>&quot;, 
+            &quot;embed&quot;: &quot;&lt;object width=\&quot;640\&quot; height=\&quot;390\&quot;&gt;&lt;param name=\&quot;movie\&quot; value=\&quot;http://youtube.com/v/AD896WakR94?version=3&amp;amp;hl=en_US\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowFullScreen\&quot; value=\&quot;true\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowscriptaccess\&quot; value=\&quot;always\&quot;&gt;&lt;/param&gt;&lt;embed src=\&quot;http://youtube.com/v/AD896WakR94?version=3&amp;amp;hl=en_US\&quot; type=\&quot;application/x-shockwave-flash\&quot; width=\&quot;640\&quot; height=\&quot;390\&quot; allowscriptaccess=\&quot;always\&quot; allowfullscreen=\&quot;true\&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://i1.ytimg.com/vi/AD896WakR94/hqdefault.jpg" rel="nofollow">http://i1.ytimg.com/vi/AD896WakR94/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: null, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="http://www.youtube.com/watch?v=AD896WakR94" rel="nofollow">http://www.youtube.com/watch?v=AD896WakR94</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;needs editing&quot;, 
+            &quot;recorded&quot;: &quot;2013-07-01&quot;, 
+            &quot;added&quot;: &quot;2013-07-04T10:08:44&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:26.415&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;SciPy 2013&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;modeling-the-earth-with-fatiando-a-terra-scipy-2-1&quot;, 
+            &quot;speakers&quot;: [], 
+            &quot;tags&quot;: [
+                &quot;Tech&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 2089, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Modeling the Earth with Fatiando a Terra; SciPy 2013 Presentation&quot;, 
+            &quot;summary&quot;: &quot;Authors: Uieda, Leonardo, Observatorio Nacional; Oliveira Jr, Vanderlei C., Observatorio Nacional; Barbosa, V\n\nTrack: General\n\nSolid Earth geophysics is the science of using physical observations of the Earth to infer its inner structure. Generally, this is done with a variety of numerical modeling techniques and inverse problems. The development of new algorithms usually involves copy and pasting of code, which leads to errors and poor code reuse. Added to this is a modeling pipeline composed of various tools that don&#39;t communicate with each other (Fortran/C for computations, large complicated I/O files, Matlab/VTK for visualization, etc).\n\nFatiando a Terra is a Python library that aims to unify the modeling pipeline inside of the Python language. This allows users to replace the traditional shell scripting with more versatile and powerful Python scripting. Together with the new IPython notebook, Fatiando a Terra can integrate all stages of the geophysical modeling process, like data pre-processing, inversion, statistical analysis, and visualization. However, the library can also be used for quickly developing stand-alone programs that can be integrated into existing pipelines. Plus, because functions inside Fatiando a Terra use a common data and mesh format, existing algorithms can be combined and new ideas can build upon existing functionality. This flexibility facilitates reproducible computations, prototyping of new algorithms, and interactive teaching exercises.\n\nAlthough the project has so far focused on potential field methods (gravity and magnetics), some numerical tools for other geophysical methods have been developed as well. The library already contains: fast implementations of forward modeling algorithms (using Numpy and Cython), generic inverse problem solvers, unified geometry classes (prism meshes, polygons, etc), functions to automate repetitive plotting tasks with Matplotlib (automatic griding, simple GUIs, picking, projections, etc) and Mayavi (automatic conversion of geometry classes to VTK, drawing continents, etc). In the future, we plan to continuously implement classic and state-of-the-art algorithms as well as sample problems to help teach geophysics.&quot;, 
+            &quot;description&quot;: &quot;&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;<a href="http://www.youtube.com/t/terms" rel="nofollow">http://www.youtube.com/t/terms</a>&quot;, 
+            &quot;embed&quot;: &quot;&lt;object width=\&quot;640\&quot; height=\&quot;390\&quot;&gt;&lt;param name=\&quot;movie\&quot; value=\&quot;http://youtube.com/v/Ec38h1oB8cc?version=3&amp;amp;hl=en_US\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowFullScreen\&quot; value=\&quot;true\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowscriptaccess\&quot; value=\&quot;always\&quot;&gt;&lt;/param&gt;&lt;embed src=\&quot;http://youtube.com/v/Ec38h1oB8cc?version=3&amp;amp;hl=en_US\&quot; type=\&quot;application/x-shockwave-flash\&quot; width=\&quot;640\&quot; height=\&quot;390\&quot; allowscriptaccess=\&quot;always\&quot; allowfullscreen=\&quot;true\&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://i1.ytimg.com/vi/Ec38h1oB8cc/hqdefault.jpg" rel="nofollow">http://i1.ytimg.com/vi/Ec38h1oB8cc/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: null, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="http://www.youtube.com/watch?v=Ec38h1oB8cc" rel="nofollow">http://www.youtube.com/watch?v=Ec38h1oB8cc</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;needs editing&quot;, 
+            &quot;recorded&quot;: &quot;2013-07-01&quot;, 
+            &quot;added&quot;: &quot;2013-07-04T10:08:52&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:26.417&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;SciPy 2013&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;multidimensional-data-exploration-with-glue-scip-1&quot;, 
+            &quot;speakers&quot;: [], 
+            &quot;tags&quot;: [
+                &quot;Tech&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 2084, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Multidimensional Data Exploration with Glue; SciPy 2013 Presentation&quot;, 
+            &quot;summary&quot;: &quot;Authors: Beaumont, Christopher, U. Hawaii; Robitaille, Thomas, MPIA; Borkin, Michelle, Harvard; Goodman, Alys\n\nTrack: General\n\nModern research projects incorporate data from several sources, and new insights are increasingly driven by the ability to interpret data in the context of other data. Glue (<a href="http://glueviz.org" rel="nofollow">http://glueviz.org</a>) is a graphical environment built on top of the standard Python science stack to visualize relationships within and between data sets. With Glue, users can load and visualize multiple related data sets simultaneously. Users specify the logical connections that exist between data, and Glue transparently uses this information as needed to enable visualization across files. This functionality makes it trivial, for example, to interactively overplot catalogs on top of images.\n\nThe central philosophy behind Glue is that the structure of research data is highly customized and problem-specific. Glue aims to accomodate and to simplify the \&quot;data munging\&quot; process, so that researchers can more naturally explore what their data has to say. The result is a cleaner scientific workflow, and more rapid interaction with data.&quot;, 
+            &quot;description&quot;: &quot;&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;<a href="http://www.youtube.com/t/terms" rel="nofollow">http://www.youtube.com/t/terms</a>&quot;, 
+            &quot;embed&quot;: &quot;&lt;object width=\&quot;640\&quot; height=\&quot;390\&quot;&gt;&lt;param name=\&quot;movie\&quot; value=\&quot;http://youtube.com/v/47LNpvDlKUk?version=3&amp;amp;hl=en_US\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowFullScreen\&quot; value=\&quot;true\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowscriptaccess\&quot; value=\&quot;always\&quot;&gt;&lt;/param&gt;&lt;embed src=\&quot;http://youtube.com/v/47LNpvDlKUk?version=3&amp;amp;hl=en_US\&quot; type=\&quot;application/x-shockwave-flash\&quot; width=\&quot;640\&quot; height=\&quot;390\&quot; allowscriptaccess=\&quot;always\&quot; allowfullscreen=\&quot;true\&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://i1.ytimg.com/vi/47LNpvDlKUk/hqdefault.jpg" rel="nofollow">http://i1.ytimg.com/vi/47LNpvDlKUk/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: null, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="http://www.youtube.com/watch?v=47LNpvDlKUk" rel="nofollow">http://www.youtube.com/watch?v=47LNpvDlKUk</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;needs editing&quot;, 
+            &quot;recorded&quot;: &quot;2013-07-01&quot;, 
+            &quot;added&quot;: &quot;2013-07-04T10:08:50&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:26.418&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;SciPy 2013&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;mystic-a-framework-for-predictive-science-scipy-1&quot;, 
+            &quot;speakers&quot;: [], 
+            &quot;tags&quot;: [
+                &quot;Tech&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 2109, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Mystic: a framework for predictive science; SciPy 2013 Presentation&quot;, 
+            &quot;summary&quot;: &quot;Authors: Michael McKerns @ California Institute of Technology, Houman Owhadi @ California Institute of Technology\n\nTrack: Machine Learning\n\nWe have built a robust framework (mystic) that lowers the barrier to solving complex problems in predictive science. Mystic is built to rigorously solve high-dimensional non-convex optimization problems with highly nonlinear complex constraints. Mystic is capable of solving global optimization problems with thousands of parameters and thousands of constraints, and makes it almost trivial to leverage high-performance parallel computing. Mystic&#39;s unique ability to apply highly complex and statistical constraints can be used to find optimal probability distributions, calculate risk, uncertainty, sensitivity, and probability of failure in real-world inverse problems. Mystic is easy to use, open source, and pure python.\n\nBy providing a simple interface to a lot of underlying complexity, mystic enables a non-specialist user unprecedented access to optimizer configurability. Typically, both termination conditions and initial conditions are hard-coded into an optimization algorithm -- however, in mystic, conditionals are both dynamic and dynamically configurable, and thus enable tuning of the optimizer to solve a much broader range of problems. Mystic provides box constraints and penalty functions, as well as an advanced toolkit that can directly utilize all available information as constraints. With the ability to scale up to thousands of parameters, mystic can solve optimization problems that are orders of magnitude larger and of greater complexity than conventional solvers are capable of. In mystic, it&#39;s easy to create new algorithms to couple optimizers or launch multiple optimizers in parallel, thus allowing highly efficient local search algorithms to provide fast global optimization.\n\nCalculations of uncertainty, risk, probability of failure, certification, and experiment design are formulated as global optimizations -- and are used to directly provide optimal scenarios for success or failure. Mystic has been used in calculations of materials failure under hypervelocity impact, elasto-plastic failure in structures under seismic ground acceleration, structure prediction in nanomaterials, and risk in financial portfolios.&quot;, 
+            &quot;description&quot;: &quot;&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;<a href="http://www.youtube.com/t/terms" rel="nofollow">http://www.youtube.com/t/terms</a>&quot;, 
+            &quot;embed&quot;: &quot;&lt;object width=\&quot;640\&quot; height=\&quot;390\&quot;&gt;&lt;param name=\&quot;movie\&quot; value=\&quot;http://youtube.com/v/o-nwSnLC6DU?version=3&amp;amp;hl=en_US\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowFullScreen\&quot; value=\&quot;true\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowscriptaccess\&quot; value=\&quot;always\&quot;&gt;&lt;/param&gt;&lt;embed src=\&quot;http://youtube.com/v/o-nwSnLC6DU?version=3&amp;amp;hl=en_US\&quot; type=\&quot;application/x-shockwave-flash\&quot; width=\&quot;640\&quot; height=\&quot;390\&quot; allowscriptaccess=\&quot;always\&quot; allowfullscreen=\&quot;true\&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://i1.ytimg.com/vi/o-nwSnLC6DU/hqdefault.jpg" rel="nofollow">http://i1.ytimg.com/vi/o-nwSnLC6DU/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: null, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="http://www.youtube.com/watch?v=o-nwSnLC6DU" rel="nofollow">http://www.youtube.com/watch?v=o-nwSnLC6DU</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;needs editing&quot;, 
+            &quot;recorded&quot;: &quot;2013-07-01&quot;, 
+            &quot;added&quot;: &quot;2013-07-04T10:08:55&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:26.419&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;SciPy 2013&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;optimizing-geographic-processing-and-analysis-for-&quot;, 
+            &quot;speakers&quot;: [], 
+            &quot;tags&quot;: [
+                &quot;Tech&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 1986, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Optimizing Geographic Processing and Analysis for Big Data; SciPy 2013 Presentation&quot;, 
+            &quot;summary&quot;: &quot;Authors: Brittain, Carissa, GeoDecisions; Gleason, Jason, GeoDecisions\n\nTrack: GIS - Geospatial Data Analysis\n\nConsidering performance becomes more and more important as the size of datasets increase. Many factors, some outside a developer&#39;s control, can seriously impact performance; sometimes to the point that a processing script or database becomes unusable. The example discussed here is an arcpy geoprocessing script that required more than 26 hrs to process and load 24 hrs of wind velocity data from across the United States. Changing the script to apply basic optimization strategies reduced that processing time to under an hour. Benchmark tests and database inspection while applying each strategy showed the results of each change and allowed for calculating each change&#39;s impact on the final performance. Understanding and applying even basic optimization methods can have a large return on effort when working with large datasets and can have a significant impact on processing time.&quot;, 
+            &quot;description&quot;: &quot;&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;<a href="http://www.youtube.com/t/terms" rel="nofollow">http://www.youtube.com/t/terms</a>&quot;, 
+            &quot;embed&quot;: &quot;&lt;object width=\&quot;640\&quot; height=\&quot;390\&quot;&gt;&lt;param name=\&quot;movie\&quot; value=\&quot;http://youtube.com/v/9B0JBnFj7cg?version=3&amp;amp;hl=en_US\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowFullScreen\&quot; value=\&quot;true\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowscriptaccess\&quot; value=\&quot;always\&quot;&gt;&lt;/param&gt;&lt;embed src=\&quot;http://youtube.com/v/9B0JBnFj7cg?version=3&amp;amp;hl=en_US\&quot; type=\&quot;application/x-shockwave-flash\&quot; width=\&quot;640\&quot; height=\&quot;390\&quot; allowscriptaccess=\&quot;always\&quot; allowfullscreen=\&quot;true\&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://i1.ytimg.com/vi/9B0JBnFj7cg/hqdefault.jpg" rel="nofollow">http://i1.ytimg.com/vi/9B0JBnFj7cg/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: null, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="http://www.youtube.com/watch?v=9B0JBnFj7cg" rel="nofollow">http://www.youtube.com/watch?v=9B0JBnFj7cg</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;needs editing&quot;, 
+            &quot;recorded&quot;: &quot;2013-07-01&quot;, 
+            &quot;added&quot;: &quot;2013-07-04T10:08:34&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:26.422&quot;
+        }
+    ]
+}</pre>
+            </div>
+        </div>
+
+            
+
+                
+
+                
+            
+
+        </div>
+        <!-- END content-main -->
+
+    </div>
+    <!-- END Content -->
+
+        <div id="push"></div>
+
+    </div>
+
+    </div><!-- ./wrapper -->
+
+    
+    
+
+    
+    <script src="/static/rest_framework/js/jquery-1.8.1-min.js"></script>
+    <script src="/static/rest_framework/js/bootstrap.min.js"></script>
+    <script src="/static/rest_framework/js/prettify-min.js"></script>
+    <script src="/static/rest_framework/js/default.js"></script>
+    
+  </body>
+
+<!-- Mirrored from pyvideo.org/api/v2/video/?page=104 by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 07 Jan 2016 03:51:23 GMT -->
+</html>

@@ -1,0 +1,908 @@
+
+
+<!DOCTYPE html>
+<html>
+    
+<!-- Mirrored from pyvideo.org/api/v2/video/?page=105&format=api by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 07 Jan 2016 03:51:26 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+    
+
+        
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+        <meta name="robots" content="NONE,NOARCHIVE" />
+        
+
+        <title>Django REST framework</title>
+
+        
+        
+            <link rel="stylesheet" type="text/css" href="/static/rest_framework/css/bootstrap.min.css"/>
+            <link rel="stylesheet" type="text/css" href="/static/rest_framework/css/bootstrap-tweaks.css"/>
+        
+        <link rel="stylesheet" type="text/css" href="/static/rest_framework/css/prettify.css"/>
+        <link rel="stylesheet" type="text/css" href="/static/rest_framework/css/default.css"/>
+        
+
+    
+    </head>
+
+  <body class=" container">
+
+    <div class="wrapper">
+
+    
+    <div class="navbar navbar-inverse">
+        <div class="navbar-inner">
+            <div class="container-fluid">
+                <span href="/">
+                    <a class='brand' rel="nofollow" href='http://www.django-rest-framework.org'>Django REST framework <span class="version">2.3.14</span></a>
+                </span>
+                <ul class="nav pull-right">
+                    
+                        
+                            <li></li>
+                        
+                    
+                </ul>
+            </div>
+        </div>
+    </div>
+    
+
+    
+    <ul class="breadcrumb">
+        
+            <li>
+                <a href="/api/v2/video/" class="active">Video List Create Api</a> 
+            </li>
+        
+    </ul>
+    
+
+    <!-- Content -->
+    <div id="content">
+
+        
+            <form id="get-form" class="pull-right">
+                <fieldset>
+                    <div class="btn-group format-selection">
+                        <a class="btn btn-primary js-tooltip" href='/api/v2/video/?page=105&amp;format=api' rel="nofollow" title="Make a GET request on the Video List Create Api resource">GET</a>
+
+                        <button class="btn btn-primary dropdown-toggle js-tooltip" data-toggle="dropdown" title="Specify a format for the GET request">
+                            <span class="caret"></span>
+                        </button>
+                        <ul class="dropdown-menu">
+                            
+                                <li>
+                                    <a class="js-tooltip format-option" href='/api/v2/video/?page=105&format=json' rel="nofollow" title="Make a GET request on the Video List Create Api resource with the format set to `json`">json</a>
+                                </li>
+                            
+                                <li>
+                                    <a class="js-tooltip format-option" href='/api/v2/video/?page=105&format=api' rel="nofollow" title="Make a GET request on the Video List Create Api resource with the format set to `api`">api</a>
+                                </li>
+                            
+                        </ul>
+                    </div>
+
+                </fieldset>
+            </form>
+        
+
+        
+            <form class="button-form" action="/api/v2/video/?page=105&amp;format=api" method="POST" class="pull-right">
+                <input type='hidden' name='csrfmiddlewaretoken' value='pT8iI6zhtQdsGFmu4tryYgFrUlipl2B3' />
+                <input type="hidden" name="_method" value="OPTIONS" />
+                <button class="btn btn-primary js-tooltip" title="Make an OPTIONS request on the Video List Create Api resource">OPTIONS</button>
+            </form>
+        
+
+        
+
+        <div class="content-main">
+            <div class="page-header"><h1>Video List Create Api</h1></div>
+            
+            
+            
+            <div class="request-info" style="clear: both" >
+                <pre class="prettyprint"><b>GET</b> /api/v2/video/?page=105&amp;format=api</pre>
+            </div>
+            <div class="response-info">
+                <pre class="prettyprint"><div class="meta nocode"><b>HTTP 200 OK</b>
+<b>Content-Type:</b> <span class="lit">application/json</span>
+<b>Vary:</b> <span class="lit">Accept</span>
+<b>Allow:</b> <span class="lit">GET, POST, HEAD, OPTIONS</span>
+
+</div>{
+    &quot;count&quot;: 3439, 
+    &quot;next&quot;: &quot;<a href="http://pyvideo.org/api/v2/video/?page=106&amp;format=api" rel="nofollow">http://pyvideo.org/api/v2/video/?page=106&amp;format=api</a>&quot;, 
+    &quot;previous&quot;: &quot;<a href="http://pyvideo.org/api/v2/video/?page=104&amp;format=api" rel="nofollow">http://pyvideo.org/api/v2/video/?page=104&amp;format=api</a>&quot;, 
+    &quot;results&quot;: [
+        {
+            &quot;category&quot;: &quot;SciPy 2013&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;os-deduplication-with-sidus-single-instance-dist-1&quot;, 
+            &quot;speakers&quot;: [], 
+            &quot;tags&quot;: [
+                &quot;Tech&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 2097, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;OS deduplication with SIDUS (single-instance distributing universal system); SciPy 2013 Presentation&quot;, 
+            &quot;summary&quot;: &quot;Authors: Quemener, Emmanuel, Centre Blaise Pascal (Lyon, France); Corvellec, Marianne, McGill University (Montreal)\n\nTrack: Reproducible Science\n\nDeveloping scientific programs to be run on multiple platforms takes caution. Python is typically great as a glue language (COTS approach, for &#39;Component Off the Shelf&#39;). But massive integration requires a technical platform which may be difficult to even deploy. It may be tempting to stick to the same environment for both development and operation. But environments on HPC nodes are very different from those on workstations. Even if Python comes with &#39;batteries included&#39;, it relies on external (C or Fortran) libraries, especially via SciPy. So you want to be careful when running your Python codes on a cluster, after developing it on your workstation. In the end, how do you compare two scientific results from the same program run on two different machines? In the variability, how do you tell the part due to the hardware from the part due to the software? As a scientist, you typically port your Python code from your workstation to cluster nodes. You want to have a uniform software base, so that discrepancies between runs can be attributed to hardware differences, or to the actual code, if edited. SIDUS (single-instance distributing universal system) is your solution for extreme deduplication of an operating system (OS). SIDUS offers scientists a framework for conducting reproducible experiments. Two nodes booting on the same SIDUS base run the exact same system. This way, actually relevant tests can be carried out. We recently used Python to evaluate performance for a cluster-distributed file system. Unexpectedly, early results showed lack of reproducibility over time as well as over the different nodes. Using SIDUS, it was possible to discard that discrepancies might come from the OS. We could identify that they were due to C-states (CPU power-saving modes), which are responsible for large fluctuations in global performance losses (up to 50%).&quot;, 
+            &quot;description&quot;: &quot;&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;<a href="http://www.youtube.com/t/terms" rel="nofollow">http://www.youtube.com/t/terms</a>&quot;, 
+            &quot;embed&quot;: &quot;&lt;object width=\&quot;640\&quot; height=\&quot;390\&quot;&gt;&lt;param name=\&quot;movie\&quot; value=\&quot;http://youtube.com/v/J5myH0y_bks?version=3&amp;amp;hl=en_US\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowFullScreen\&quot; value=\&quot;true\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowscriptaccess\&quot; value=\&quot;always\&quot;&gt;&lt;/param&gt;&lt;embed src=\&quot;http://youtube.com/v/J5myH0y_bks?version=3&amp;amp;hl=en_US\&quot; type=\&quot;application/x-shockwave-flash\&quot; width=\&quot;640\&quot; height=\&quot;390\&quot; allowscriptaccess=\&quot;always\&quot; allowfullscreen=\&quot;true\&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://i1.ytimg.com/vi/J5myH0y_bks/hqdefault.jpg" rel="nofollow">http://i1.ytimg.com/vi/J5myH0y_bks/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: null, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="http://www.youtube.com/watch?v=J5myH0y_bks" rel="nofollow">http://www.youtube.com/watch?v=J5myH0y_bks</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;needs editing&quot;, 
+            &quot;recorded&quot;: &quot;2013-07-01&quot;, 
+            &quot;added&quot;: &quot;2013-07-04T10:08:53&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:26.423&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;SciPy 2013&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;processing-biggish-data-on-commodity-hardware-si-1&quot;, 
+            &quot;speakers&quot;: [], 
+            &quot;tags&quot;: [
+                &quot;Tech&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 2121, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Processing biggish data on commodity hardware: simple Python patterns; SciPy 2013 Presentation&quot;, 
+            &quot;summary&quot;: &quot;Authors: Author: Gael Varoquaux Institution: INRIA, Parietal team\n\nTrack: Machine Learning\n\nWhile big data spans many terabytes and requires distributed computing, most mere mortals deal with gigabytes. In this talk I will discuss our experience in applying efficiently machine learning to hundreds of gigabytes on commodity hardware. In particular, I will discuss patterns implemented in two Python libraries, joblib and scikit-learn, dissecting why they help addressing big data and how to implement them efficiently with simple tools.\n\nIn particular, I will cover:\n\nOn the fly data reduction\nOn-line algorithms and out-of-core computing\nParallel computing patterns: performance outside of a framework\nCaching of common operations, with efficient hashing of arbitrary\nPython objects and a robust datastore relying on Posix disk semantics\nThe talk will illustrate the high-level concepts introduced with detailed technical discussions on Python implementations, based both on examples using scikit-learn and joblib and on an analysis of how these libraries work. The goal here is less to sell the libraries themselves than to share the insights gained in using and developing them.&quot;, 
+            &quot;description&quot;: &quot;&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;<a href="http://www.youtube.com/t/terms" rel="nofollow">http://www.youtube.com/t/terms</a>&quot;, 
+            &quot;embed&quot;: &quot;&lt;object width=\&quot;640\&quot; height=\&quot;390\&quot;&gt;&lt;param name=\&quot;movie\&quot; value=\&quot;http://youtube.com/v/-W-UZTDZ2r0?version=3&amp;amp;hl=en_US\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowFullScreen\&quot; value=\&quot;true\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowscriptaccess\&quot; value=\&quot;always\&quot;&gt;&lt;/param&gt;&lt;embed src=\&quot;http://youtube.com/v/-W-UZTDZ2r0?version=3&amp;amp;hl=en_US\&quot; type=\&quot;application/x-shockwave-flash\&quot; width=\&quot;640\&quot; height=\&quot;390\&quot; allowscriptaccess=\&quot;always\&quot; allowfullscreen=\&quot;true\&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://i1.ytimg.com/vi/-W-UZTDZ2r0/hqdefault.jpg" rel="nofollow">http://i1.ytimg.com/vi/-W-UZTDZ2r0/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: null, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="http://www.youtube.com/watch?v=-W-UZTDZ2r0" rel="nofollow">http://www.youtube.com/watch?v=-W-UZTDZ2r0</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;needs editing&quot;, 
+            &quot;recorded&quot;: &quot;2013-07-01&quot;, 
+            &quot;added&quot;: &quot;2013-07-04T10:08:57&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:26.425&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;SciPy 2013&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;pyop2-a-framework-for-performance-portable-unstr-1&quot;, 
+            &quot;speakers&quot;: [], 
+            &quot;tags&quot;: [
+                &quot;Tech&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 2132, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;PyOP2: a Framework for Performance-Portable Unstructured Mesh-based Simulations, SciPy 2013&quot;, 
+            &quot;summary&quot;: &quot;Authors: Rathgeber, Florian, Imperial College London, UK; Markall, Graham R., Imperial College London, UK; Mi\n\nTrack: General\n\nWe present PyOP2, a high-level domain-specific language embedded in Python for mesh-based simulation codes. Through a simple interface, numerical kernels are efficiently scheduled and executed over unstructured meshes in parallel. Without any code changes required, an application can run on a range of hardware platforms, while implementation details of the parallel execution are abstracted from the programmer. Performance portability is achieved by generating optimized low-level OpenMP, MPI, CUDA or OpenCL code for multi-core CPUs or GPUs at runtime and just-in-time compiling the generated code.\n\nPyOP2 is suitable as an intermediate representation for scientific computations, which we demonstrate with a finite-element tool chain using the domain-specific Unified Form Language UFL and the form compiler FFC from the FEniCS project. Finite-element methods are widely used to approximately solve partial differential equations on unstructured domains. The local assembly operation executes the same kernel for every entity of the mesh and is therefore a natural fit for the PyOP2 computation model. We show how these kernels are generated automatically from the weak form of an equation given in UFL. Global assembly and linear solves are passed through to platform-specific linear algebra backends integrated into PyOP2 through a modular interface. Using this tool chain, scientists can drive finite-element computations from an input notation very close to the mathematical model and transparently benefit from performance-portable parallel execution on their hardware architecture of choice without requiring specialist knowledge in numerical analysis or parallel programming.&quot;, 
+            &quot;description&quot;: &quot;&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;<a href="http://www.youtube.com/t/terms" rel="nofollow">http://www.youtube.com/t/terms</a>&quot;, 
+            &quot;embed&quot;: &quot;&lt;object width=\&quot;640\&quot; height=\&quot;390\&quot;&gt;&lt;param name=\&quot;movie\&quot; value=\&quot;http://youtube.com/v/W0u4vW_eJc4?version=3&amp;amp;hl=en_US\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowFullScreen\&quot; value=\&quot;true\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowscriptaccess\&quot; value=\&quot;always\&quot;&gt;&lt;/param&gt;&lt;embed src=\&quot;http://youtube.com/v/W0u4vW_eJc4?version=3&amp;amp;hl=en_US\&quot; type=\&quot;application/x-shockwave-flash\&quot; width=\&quot;640\&quot; height=\&quot;390\&quot; allowscriptaccess=\&quot;always\&quot; allowfullscreen=\&quot;true\&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://i1.ytimg.com/vi/W0u4vW_eJc4/hqdefault.jpg" rel="nofollow">http://i1.ytimg.com/vi/W0u4vW_eJc4/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: null, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="http://www.youtube.com/watch?v=W0u4vW_eJc4" rel="nofollow">http://www.youtube.com/watch?v=W0u4vW_eJc4</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;needs editing&quot;, 
+            &quot;recorded&quot;: &quot;2013-07-01&quot;, 
+            &quot;added&quot;: &quot;2013-07-04T10:08:59&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:26.426&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;SciPy 2013&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;python-and-the-ska-0&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Ludwig Schwardt&quot;, 
+                &quot;Simon Ratcliffe&quot;
+            ], 
+            &quot;tags&quot;: [
+                &quot;astronomy&quot;, 
+                &quot;astrophysics&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 1973, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Python and the SKA&quot;, 
+            &quot;summary&quot;: &quot;We will discuss some of the challenges specific to the radio astronomy environment and how we believe Python can contribute, particularly when it comes to the trade off between development time and performance.&quot;, 
+            &quot;description&quot;: &quot;Authors: Simon Ratcliffe SKA South Africa, Ludwig Schwardt SKA South Africa\n\nTrack: Astronomy and Astrophysics\n\nThe Square Kilometer Array will be one of the prime scientific data generates in the next few decades.\n\nConstruction is scheduled to commence in late 2016 and last for the best part of a decade. Current estimates put data volume generation near 1 Exabyte per day with 2-3 ExaFLOPs of processing required to handle this data.\n\nAs a host country, South Africa is constructing a large precursor telescope known as MeerKAT. Once complete this will be the most sensitive telescope of it&#39;s kind in the world - until dwarfed by the SKA.\n\nWe make extensive use of Python from the entire Monitor and Control system through to data handling and processing.\n\nThis talk looks at our current usage of Python, and our desire to see the entire high performance processing chain being able to call itself Pythonic.\n\nWe will discuss some of the challenges specific to the radio astronomy environment and how we believe Python can contribute, particularly when it comes to the trade off between development time and performance.&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;<a href="http://www.youtube.com/t/terms" rel="nofollow">http://www.youtube.com/t/terms</a>&quot;, 
+            &quot;embed&quot;: &quot;&lt;object width=\&quot;640\&quot; height=\&quot;390\&quot;&gt;&lt;param name=\&quot;movie\&quot; value=\&quot;http://youtube.com/v/dRFiI29y7KA?version=3&amp;amp;hl=en_US\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowFullScreen\&quot; value=\&quot;true\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowscriptaccess\&quot; value=\&quot;always\&quot;&gt;&lt;/param&gt;&lt;embed src=\&quot;http://youtube.com/v/dRFiI29y7KA?version=3&amp;amp;hl=en_US\&quot; type=\&quot;application/x-shockwave-flash\&quot; width=\&quot;640\&quot; height=\&quot;390\&quot; allowscriptaccess=\&quot;always\&quot; allowfullscreen=\&quot;true\&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://i1.ytimg.com/vi/dRFiI29y7KA/hqdefault.jpg" rel="nofollow">http://i1.ytimg.com/vi/dRFiI29y7KA/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: null, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="http://www.youtube.com/watch?v=dRFiI29y7KA" rel="nofollow">http://www.youtube.com/watch?v=dRFiI29y7KA</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2013-07-01&quot;, 
+            &quot;added&quot;: &quot;2013-07-04T10:08:33&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:26.428&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;SciPy 2013&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;python-and-the-ska-scipy-2013-presentation&quot;, 
+            &quot;speakers&quot;: [], 
+            &quot;tags&quot;: [
+                &quot;Tech&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 2051, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Python and the SKA; SciPy 2013 Presentation&quot;, 
+            &quot;summary&quot;: &quot;Authors: Simon Ratcliffe SKA South Africa, Ludwig Schwardt SKA South Africa\n\nTrack: Astronomy and Astrophysics\n\nThe Square Kilometer Array will be one of the prime scientific data generates in the next few decades.\n\nConstruction is scheduled to commence in late 2016 and last for the best part of a decade. Current estimates put data volume generation near 1 Exabyte per day with 2-3 ExaFLOPs of processing required to handle this data.\n\nAs a host country, South Africa is constructing a large precursor telescope known as MeerKAT. Once complete this will be the most sensitive telescope of it&#39;s kind in the world - until dwarfed by the SKA.\n\nWe make extensive use of Python from the entire Monitor and Control system through to data handling and processing.\n\nThis talk looks at our current usage of Python, and our desire to see the entire high performance processing chain being able to call itself Pythonic.\n\nWe will discuss some of the challenges specific to the radio astronomy environment and how we believe Python can contribute, particularly when it comes to the trade off between development time and performance.&quot;, 
+            &quot;description&quot;: &quot;&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;<a href="http://www.youtube.com/t/terms" rel="nofollow">http://www.youtube.com/t/terms</a>&quot;, 
+            &quot;embed&quot;: &quot;&lt;object width=\&quot;640\&quot; height=\&quot;390\&quot;&gt;&lt;param name=\&quot;movie\&quot; value=\&quot;http://youtube.com/v/dRFiI29y7KA?version=3&amp;amp;hl=en_US\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowFullScreen\&quot; value=\&quot;true\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowscriptaccess\&quot; value=\&quot;always\&quot;&gt;&lt;/param&gt;&lt;embed src=\&quot;http://youtube.com/v/dRFiI29y7KA?version=3&amp;amp;hl=en_US\&quot; type=\&quot;application/x-shockwave-flash\&quot; width=\&quot;640\&quot; height=\&quot;390\&quot; allowscriptaccess=\&quot;always\&quot; allowfullscreen=\&quot;true\&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://i1.ytimg.com/vi/dRFiI29y7KA/hqdefault.jpg" rel="nofollow">http://i1.ytimg.com/vi/dRFiI29y7KA/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: null, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="http://www.youtube.com/watch?v=dRFiI29y7KA" rel="nofollow">http://www.youtube.com/watch?v=dRFiI29y7KA</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;needs editing&quot;, 
+            &quot;recorded&quot;: &quot;2013-07-01&quot;, 
+            &quot;added&quot;: &quot;2013-07-04T10:08:44&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:26.429&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;SciPy 2013&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;pythran-enabling-static-optimization-of-scientif-1&quot;, 
+            &quot;speakers&quot;: [], 
+            &quot;tags&quot;: [
+                &quot;Tech&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 2129, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Pythran: Enabling Static Optimization of Scientific Python Programs; SciPy 2013 Presentation&quot;, 
+            &quot;summary&quot;: &quot;Authors: Guelton, Serge, ENS ; Brunet, Pierrick, T\u00e9l\u00e9com Bretagne ; Raynaud, Alan, T\u00e9l\u00e9com Bretagne; Adrien Merlini, T\u00e9l\u00e9com Bretagne; Mehdi Amini, SILKAN\n\nTrack: General\n\nPythran is a young open source static compiler that turns Python modules into native ones. Based on the fact that scientific modules do not rely much on the dynamic features of the language, it trades them against powerful, eventually inter procedural, optimizations, such as:\n\nautomatic detection of pure functions;\ntemporary allocation removal;\nconstant folding;\nnumpy ufunc fusion and parallelisation;\nexplicit parallelism through OpenMP annotations;\nfalse variable polymorphism pruning;\nAVX/SSE vector instruction generation.\nIn addition to these compilation steps, Pythran provides a C++ runtime that leverages on the C++ STL for generic containers, and the Numeric Template Toolbox (nt2) for numpy support. It takes advantage of modern C++11 features such as variadic templates, type inference, move semantics and perfect forwarding, as well as classical ones such as expression templates.\n\nThe input code remains compatible with the Python interpreter, and output code is generally as efficient as the annotated Cython equivalent, if not more, without the backward compatibility loss. Numpy expressions runs as fast as if compiled with numexpr, without change on the original code.&quot;, 
+            &quot;description&quot;: &quot;&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;<a href="http://www.youtube.com/t/terms" rel="nofollow">http://www.youtube.com/t/terms</a>&quot;, 
+            &quot;embed&quot;: &quot;&lt;object width=\&quot;640\&quot; height=\&quot;390\&quot;&gt;&lt;param name=\&quot;movie\&quot; value=\&quot;http://youtube.com/v/KT5-uGEpnGw?version=3&amp;amp;hl=en_US\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowFullScreen\&quot; value=\&quot;true\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowscriptaccess\&quot; value=\&quot;always\&quot;&gt;&lt;/param&gt;&lt;embed src=\&quot;http://youtube.com/v/KT5-uGEpnGw?version=3&amp;amp;hl=en_US\&quot; type=\&quot;application/x-shockwave-flash\&quot; width=\&quot;640\&quot; height=\&quot;390\&quot; allowscriptaccess=\&quot;always\&quot; allowfullscreen=\&quot;true\&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://i1.ytimg.com/vi/KT5-uGEpnGw/hqdefault.jpg" rel="nofollow">http://i1.ytimg.com/vi/KT5-uGEpnGw/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: null, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="http://www.youtube.com/watch?v=KT5-uGEpnGw" rel="nofollow">http://www.youtube.com/watch?v=KT5-uGEpnGw</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;needs editing&quot;, 
+            &quot;recorded&quot;: &quot;2013-07-01&quot;, 
+            &quot;added&quot;: &quot;2013-07-04T10:08:58&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:26.430&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;SciPy 2013&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;roadmap-to-a-sentience-stack-scipy-2013-presenta-1&quot;, 
+            &quot;speakers&quot;: [], 
+            &quot;tags&quot;: [
+                &quot;Tech&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 2103, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Roadmap to a Sentience Stack; SciPy 2013 Presentation&quot;, 
+            &quot;summary&quot;: &quot;Authors: Eric Neuman\n\nTrack: Machine Learning\n\nRace cars don&#39;t look like cheetahs, so why do attempts at machine sentience try to look like brains? An exploration of the unique challenges and immediate options along one possible path to machine sentience.\n\nThe \&quot;Do Anything Machine\&quot; is the first component in the theoretical Sentience Stack, an open source stack of software that when put together can be configured to learn to be a sentient mind. This approach is inspired by the LAMP stack, the collection of disparate decoupled open-source components (Linux, Apache, MySQL and PHP) that were once commonly used together to make it easy to create websites. LAMP reduced the barriers preventing everyone from building great dynamic websites. It also made it possible for individual components to be swapped out or optimized for a given project allowing the needs of individual projects to push the boundaries as needed. All of these things helped to enable the explosion of growth that created the internet as we know it, and enable it to continue improving.\n\nAlthough currently in its very earliest stages, the Sentience Stack project will rely heavily on Python&#39;s extensive meta-programming capabilities and deep integration into the open source community.&quot;, 
+            &quot;description&quot;: &quot;&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;<a href="http://www.youtube.com/t/terms" rel="nofollow">http://www.youtube.com/t/terms</a>&quot;, 
+            &quot;embed&quot;: &quot;&lt;object width=\&quot;640\&quot; height=\&quot;390\&quot;&gt;&lt;param name=\&quot;movie\&quot; value=\&quot;http://youtube.com/v/a9JY8KbeUQE?version=3&amp;amp;hl=en_US\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowFullScreen\&quot; value=\&quot;true\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowscriptaccess\&quot; value=\&quot;always\&quot;&gt;&lt;/param&gt;&lt;embed src=\&quot;http://youtube.com/v/a9JY8KbeUQE?version=3&amp;amp;hl=en_US\&quot; type=\&quot;application/x-shockwave-flash\&quot; width=\&quot;640\&quot; height=\&quot;390\&quot; allowscriptaccess=\&quot;always\&quot; allowfullscreen=\&quot;true\&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://i1.ytimg.com/vi/a9JY8KbeUQE/hqdefault.jpg" rel="nofollow">http://i1.ytimg.com/vi/a9JY8KbeUQE/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: null, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="http://www.youtube.com/watch?v=a9JY8KbeUQE" rel="nofollow">http://www.youtube.com/watch?v=a9JY8KbeUQE</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;needs editing&quot;, 
+            &quot;recorded&quot;: &quot;2013-07-01&quot;, 
+            &quot;added&quot;: &quot;2013-07-04T10:08:54&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:26.432&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;SciPy 2013&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;scientific-computing-and-the-materials-genome-ini-&quot;, 
+            &quot;speakers&quot;: [], 
+            &quot;tags&quot;: [
+                &quot;Tech&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 2003, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Scientific Computing and the Materials Genome Initiative; SciPy 2013 Presentation&quot;, 
+            &quot;summary&quot;: &quot;Authors: Reid, Andrew, National Institute of Standards and Technology\n\nTrack: General\n\nIt is a commonplace notion that, as computers continue to become more powerful and more widely available, the communities surrounding various computational tools and techniques gain the ability to tackle larger and more interesting problems.\n\nThe US government&#39;s Materials Genome Initiative for Global Competitiveness (MGI), announced in June of 2011, has the goal of reducing the time to discover, develop, manufacture, and deploy advanced materials by a factor of two, while reducing the associated costs. Among the approaches foreseen in the initiative, there are two that are of particular interest to computational science. These are, firstly, more sophisticated computational models of materials systems, and secondly, data management tools that will better organize materials data, making data more easily discoverable, providing validation and provenance information, and simplifying the incorporation of data into new models.\n\nThe scientific python community has long had its eye not only on the computational solution of scientific and engineering problems, but also on the related issues surrounding the management of large volumes of data, version control for codes, and management of the computational scientific workflow, including reproducibility. This community is well positioned to address MGI-related issues. This talk will describe how MGI goals are being translated into more specific computational problems at NIST and other institutions, and will describe some of the challenges and issues that we have already seen in working towards its goals. The role of the Python language in general, and scientific Python tools in particular, will be highlighted. In addition, the talk will describe areas of overlap and opportunities for contributions between the MGI and the scientific python community.&quot;, 
+            &quot;description&quot;: &quot;&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;<a href="http://www.youtube.com/t/terms" rel="nofollow">http://www.youtube.com/t/terms</a>&quot;, 
+            &quot;embed&quot;: &quot;&lt;object width=\&quot;640\&quot; height=\&quot;390\&quot;&gt;&lt;param name=\&quot;movie\&quot; value=\&quot;http://youtube.com/v/57hqE4m6Us0?version=3&amp;amp;hl=en_US\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowFullScreen\&quot; value=\&quot;true\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowscriptaccess\&quot; value=\&quot;always\&quot;&gt;&lt;/param&gt;&lt;embed src=\&quot;http://youtube.com/v/57hqE4m6Us0?version=3&amp;amp;hl=en_US\&quot; type=\&quot;application/x-shockwave-flash\&quot; width=\&quot;640\&quot; height=\&quot;390\&quot; allowscriptaccess=\&quot;always\&quot; allowfullscreen=\&quot;true\&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://i1.ytimg.com/vi/57hqE4m6Us0/hqdefault.jpg" rel="nofollow">http://i1.ytimg.com/vi/57hqE4m6Us0/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: null, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="http://www.youtube.com/watch?v=57hqE4m6Us0" rel="nofollow">http://www.youtube.com/watch?v=57hqE4m6Us0</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;needs editing&quot;, 
+            &quot;recorded&quot;: &quot;2013-07-01&quot;, 
+            &quot;added&quot;: &quot;2013-07-04T10:08:37&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:26.433&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;SciPy 2013&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;scipy-2013-conference-welcome-and-introduction-1&quot;, 
+            &quot;speakers&quot;: [], 
+            &quot;tags&quot;: [
+                &quot;Tech&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 2138, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;SciPy 2013 Conference Welcome and Introduction&quot;, 
+            &quot;summary&quot;: &quot;The annual SciPy Conference allows participants from academic, commercial, and governmental organizations to showcase their latest Scientific Python projects, learn from skilled users and developers, and collaborate on code development.\n\nThe conference consists of two days of tutorials followed by two days of presentations, and concludes with two days of developer sprints on projects of interest to the attendees.&quot;, 
+            &quot;description&quot;: &quot;&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;<a href="http://www.youtube.com/t/terms" rel="nofollow">http://www.youtube.com/t/terms</a>&quot;, 
+            &quot;embed&quot;: &quot;&lt;object width=\&quot;640\&quot; height=\&quot;390\&quot;&gt;&lt;param name=\&quot;movie\&quot; value=\&quot;http://youtube.com/v/Oiy_hk4Qbbo?version=3&amp;amp;hl=en_US\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowFullScreen\&quot; value=\&quot;true\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowscriptaccess\&quot; value=\&quot;always\&quot;&gt;&lt;/param&gt;&lt;embed src=\&quot;http://youtube.com/v/Oiy_hk4Qbbo?version=3&amp;amp;hl=en_US\&quot; type=\&quot;application/x-shockwave-flash\&quot; width=\&quot;640\&quot; height=\&quot;390\&quot; allowscriptaccess=\&quot;always\&quot; allowfullscreen=\&quot;true\&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://i1.ytimg.com/vi/Oiy_hk4Qbbo/hqdefault.jpg" rel="nofollow">http://i1.ytimg.com/vi/Oiy_hk4Qbbo/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: null, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="http://www.youtube.com/watch?v=Oiy_hk4Qbbo" rel="nofollow">http://www.youtube.com/watch?v=Oiy_hk4Qbbo</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;needs editing&quot;, 
+            &quot;recorded&quot;: &quot;2013-07-01&quot;, 
+            &quot;added&quot;: &quot;2013-07-04T10:09:00&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:26.435&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;SciPy 2013&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;scipy-2013-keynote-ipython-the-method-behind-th-1&quot;, 
+            &quot;speakers&quot;: [], 
+            &quot;tags&quot;: [
+                &quot;Tech&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 2136, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;SciPy 2013 Keynote: IPython: the method behind the madness&quot;, 
+            &quot;summary&quot;: &quot;Presenter: Fernando Perez\n\nIPython began its life as a personal \&quot;afternoon hack\&quot;, but almost 12 years later it has become a large and complex project, where we try to think in a comprehensive and coherent way about many related problems in scientific computing. Despite all the moving parts in IPython, there are actually very few key ideas that drive our vision, and I will discuss how we seek to turn this vision into concrete technical constructs. We focus on making the computer a tool for insight and communication, and we will see how every piece of the IPython architecture is driven by these ideas.\n\nI will also look at IPython in the context of the broader SciPy ecosystem: both how the project&#39;s user and developer community has evolved over time, and how it maintains an ongoing dialogue with the rest of this ecosystem. We have learned some important lessons along the way that I hope to share, as well as considering the challenges that lie ahead.&quot;, 
+            &quot;description&quot;: &quot;&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;<a href="http://www.youtube.com/t/terms" rel="nofollow">http://www.youtube.com/t/terms</a>&quot;, 
+            &quot;embed&quot;: &quot;&lt;object width=\&quot;640\&quot; height=\&quot;390\&quot;&gt;&lt;param name=\&quot;movie\&quot; value=\&quot;http://youtube.com/v/j9YpkSX7NNM?version=3&amp;amp;hl=en_US\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowFullScreen\&quot; value=\&quot;true\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowscriptaccess\&quot; value=\&quot;always\&quot;&gt;&lt;/param&gt;&lt;embed src=\&quot;http://youtube.com/v/j9YpkSX7NNM?version=3&amp;amp;hl=en_US\&quot; type=\&quot;application/x-shockwave-flash\&quot; width=\&quot;640\&quot; height=\&quot;390\&quot; allowscriptaccess=\&quot;always\&quot; allowfullscreen=\&quot;true\&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://i1.ytimg.com/vi/j9YpkSX7NNM/hqdefault.jpg" rel="nofollow">http://i1.ytimg.com/vi/j9YpkSX7NNM/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: null, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="http://www.youtube.com/watch?v=j9YpkSX7NNM" rel="nofollow">http://www.youtube.com/watch?v=j9YpkSX7NNM</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;needs editing&quot;, 
+            &quot;recorded&quot;: &quot;2013-07-01&quot;, 
+            &quot;added&quot;: &quot;2013-07-04T10:09:00&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:26.436&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;SciPy 2013&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;scipy-2013-keynote-the-new-scientific-publishers-0&quot;, 
+            &quot;speakers&quot;: [
+                &quot;William Schroeder&quot;
+            ], 
+            &quot;tags&quot;: [
+                &quot;open science&quot;, 
+                &quot;reproducibility&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 1963, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;SciPy 2013 Keynote: The New Scientific Publishers&quot;, 
+            &quot;summary&quot;: &quot;...As software becomes increasingly important to the practice of science, and data becomes larger and more complex, the conventional scientific journal is no longer an adequate vehicle to communicate scientific findings and ensure reproducibility. So who are the new scientific publishers filling these needs, and what roles will they play in the future of science?&quot;, 
+            &quot;description&quot;: &quot;Presenter: William Schroeder, Kitware\r\n\r\nTrack: Keynotes\r\n\r\nScientific societies such as the Royal Society were formed in the 17th century with the goals of sharing information and ensuring reproducibility. Very quickly scientific letters and publications were assembled into collected transactions and eventually journals. For hundreds of years publishers served admirably as disseminators of scientific knowledge. Publications, and the associated peer review process, became central to the scientific process, greatly impacting how science is practiced, knowledge disseminated, and careers made. However, as software becomes increasingly important to the practice of science, and data becomes larger and more complex, the conventional scientific journal is no longer an adequate vehicle to communicate scientific findings and ensure reproducibility. So who are the new scientific publishers filling these needs, and what roles will they play in the future of science?\r\n\r\nIn this presentation we&#39;ll discuss the central mandate of reproducibility, and the role of Open Science, in particular Open Access, Open Source and Open Data, and how emerging communities and organizations are filling the needs of the scientific community. We&#39;ll also discuss the challenges of curating the avalanche of scientific knowledge, whether it be software, data or publications, and how these communities and organizations can work together to support science progress, and ensure continued technological innovation.&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;<a href="http://www.youtube.com/t/terms" rel="nofollow">http://www.youtube.com/t/terms</a>&quot;, 
+            &quot;embed&quot;: &quot;&lt;object width=\&quot;640\&quot; height=\&quot;390\&quot;&gt;&lt;param name=\&quot;movie\&quot; value=\&quot;http://youtube.com/v/7FIjpuwE0BQ?version=3&amp;amp;hl=en_US\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowFullScreen\&quot; value=\&quot;true\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowscriptaccess\&quot; value=\&quot;always\&quot;&gt;&lt;/param&gt;&lt;embed src=\&quot;http://youtube.com/v/7FIjpuwE0BQ?version=3&amp;amp;hl=en_US\&quot; type=\&quot;application/x-shockwave-flash\&quot; width=\&quot;640\&quot; height=\&quot;390\&quot; allowscriptaccess=\&quot;always\&quot; allowfullscreen=\&quot;true\&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://i1.ytimg.com/vi/7FIjpuwE0BQ/hqdefault.jpg" rel="nofollow">http://i1.ytimg.com/vi/7FIjpuwE0BQ/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: &quot;&quot;, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: &quot;&quot;, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: &quot;&quot;, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: &quot;&quot;, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="http://www.youtube.com/watch?v=7FIjpuwE0BQ" rel="nofollow">http://www.youtube.com/watch?v=7FIjpuwE0BQ</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2013-07-01&quot;, 
+            &quot;added&quot;: &quot;2013-07-04T10:08:31&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:26.437&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;SciPy 2013&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;scipy-2013-keynote-the-new-scientific-publishers-1&quot;, 
+            &quot;speakers&quot;: [], 
+            &quot;tags&quot;: [
+                &quot;Tech&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 2041, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;SciPy 2013 Keynote: The New Scientific Publishers&quot;, 
+            &quot;summary&quot;: &quot;Presenter: William Schroeder, Kitware\n\nTrack: Keynotes\n\nScientific societies such as the Royal Society were formed in the 17th century with the goals of sharing information and ensuring reproducibility. Very quickly scientific letters and publications were assembled into collected transactions and eventually journals. For hundreds of years publishers served admirably as disseminators of scientific knowledge. Publications, and the associated peer review process, became central to the scientific process, greatly impacting how science is practiced, knowledge disseminated, and careers made. However, as software becomes increasingly important to the practice of science, and data becomes larger and more complex, the conventional scientific journal is no longer an adequate vehicle to communicate scientific findings and ensure reproducibility. So who are the new scientific publishers filling these needs, and what roles will they play in the future of science?\n\nIn this presentation we&#39;ll discuss the central mandate of reproducibility, and the role of Open Science, in particular Open Access, Open Source and Open Data, and how emerging communities and organizations are filling the needs of the scientific community. We&#39;ll also discuss the challenges of curating the avalanche of scientific knowledge, whether it be software, data or publications, and how these communities and organizations can work together to support science progress, and ensure continued technological innovation.&quot;, 
+            &quot;description&quot;: &quot;&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;<a href="http://www.youtube.com/t/terms" rel="nofollow">http://www.youtube.com/t/terms</a>&quot;, 
+            &quot;embed&quot;: &quot;&lt;object width=\&quot;640\&quot; height=\&quot;390\&quot;&gt;&lt;param name=\&quot;movie\&quot; value=\&quot;http://youtube.com/v/7FIjpuwE0BQ?version=3&amp;amp;hl=en_US\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowFullScreen\&quot; value=\&quot;true\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowscriptaccess\&quot; value=\&quot;always\&quot;&gt;&lt;/param&gt;&lt;embed src=\&quot;http://youtube.com/v/7FIjpuwE0BQ?version=3&amp;amp;hl=en_US\&quot; type=\&quot;application/x-shockwave-flash\&quot; width=\&quot;640\&quot; height=\&quot;390\&quot; allowscriptaccess=\&quot;always\&quot; allowfullscreen=\&quot;true\&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://i1.ytimg.com/vi/7FIjpuwE0BQ/hqdefault.jpg" rel="nofollow">http://i1.ytimg.com/vi/7FIjpuwE0BQ/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: null, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="http://www.youtube.com/watch?v=7FIjpuwE0BQ" rel="nofollow">http://www.youtube.com/watch?v=7FIjpuwE0BQ</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;needs editing&quot;, 
+            &quot;recorded&quot;: &quot;2013-07-01&quot;, 
+            &quot;added&quot;: &quot;2013-07-04T10:08:42&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:26.439&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;SciPy 2013&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;scipy-2013-keynote-trends-in-machine-learning-an-1&quot;, 
+            &quot;speakers&quot;: [], 
+            &quot;tags&quot;: [
+                &quot;Tech&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 2093, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;SciPy 2013 Keynote: Trends in Machine Learning and the SciPy community&quot;, 
+            &quot;summary&quot;: &quot;Presenter: Olivier Grisel\n\nTrack: Keynotes\n\nThis will give an overview of recent trends in Machine Learning namely: Deep Learning, Probabilistic Programming and Distributed Computing for Machine Learning and will demonstrate how the SciPy community at large is building innovative tools to follow those trends and sometimes even lead them.&quot;, 
+            &quot;description&quot;: &quot;&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;<a href="http://www.youtube.com/t/terms" rel="nofollow">http://www.youtube.com/t/terms</a>&quot;, 
+            &quot;embed&quot;: &quot;&lt;object width=\&quot;640\&quot; height=\&quot;390\&quot;&gt;&lt;param name=\&quot;movie\&quot; value=\&quot;http://youtube.com/v/S6IbD86Dbvc?version=3&amp;amp;hl=en_US\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowFullScreen\&quot; value=\&quot;true\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowscriptaccess\&quot; value=\&quot;always\&quot;&gt;&lt;/param&gt;&lt;embed src=\&quot;http://youtube.com/v/S6IbD86Dbvc?version=3&amp;amp;hl=en_US\&quot; type=\&quot;application/x-shockwave-flash\&quot; width=\&quot;640\&quot; height=\&quot;390\&quot; allowscriptaccess=\&quot;always\&quot; allowfullscreen=\&quot;true\&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://i1.ytimg.com/vi/S6IbD86Dbvc/hqdefault.jpg" rel="nofollow">http://i1.ytimg.com/vi/S6IbD86Dbvc/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: null, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="http://www.youtube.com/watch?v=S6IbD86Dbvc" rel="nofollow">http://www.youtube.com/watch?v=S6IbD86Dbvc</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;needs editing&quot;, 
+            &quot;recorded&quot;: &quot;2013-07-01&quot;, 
+            &quot;added&quot;: &quot;2013-07-04T10:08:52&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:26.440&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;SciPy 2013&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;sci-wms-a-python-based-web-map-service-for-met-o-1&quot;, 
+            &quot;speakers&quot;: [], 
+            &quot;tags&quot;: [
+                &quot;Tech&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 2072, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;SCI-WMS: A Python Based Web Map Service For Met-Ocean Data; SciPy 2013 Presentation&quot;, 
+            &quot;summary&quot;: &quot;SCI-WMS: A Python Based Web Map Service For Met-Ocean Data Accessible Over OpenDAP Or As NetCDF\n\nAuthors: Crosby, Alexander\n\nTrack: GIS - Geospatial Data Analysis\n\nSCI-WMS is a Python based web map service (WMS) designed as a web service for visualization of local or remote data such that they can be overlaid in georeferenced mapping environments like web maps or geographic information systems (GIS). The service follows the Open Geospatial Consortium (OGC) WMS specifications and is focused on the visualization of gridded data and unstructured meshes commonly stored in NetCDF files or available from distributed servers over the OpenDAP protocol. WMS servers are commonly used to visualize large archives of numerically modeled and observed data, and SCI-WMS is currently used in several U.S. Integrated Ocean Observing System (IOOS) projects around the country including the IOOS Super-regional Modeling Testbed and regional data portals. SCI-WMS was originally developed to fill a need for standards based visualization and data access tools to examine differences between unstructured mesh ocean models like FVCOM and ADCIRC, and the available visualization styles attempt to preserve as much of the complex topology as possible in the unstructured meshes. Support for regularly gridded datasets expanded the applicability of SCI-WMS for use with more commonly available ocean and meteorological model output as well as satellite derived observations.&quot;, 
+            &quot;description&quot;: &quot;&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;<a href="http://www.youtube.com/t/terms" rel="nofollow">http://www.youtube.com/t/terms</a>&quot;, 
+            &quot;embed&quot;: &quot;&lt;object width=\&quot;640\&quot; height=\&quot;390\&quot;&gt;&lt;param name=\&quot;movie\&quot; value=\&quot;http://youtube.com/v/iH6fDRPLCYk?version=3&amp;amp;hl=en_US\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowFullScreen\&quot; value=\&quot;true\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowscriptaccess\&quot; value=\&quot;always\&quot;&gt;&lt;/param&gt;&lt;embed src=\&quot;http://youtube.com/v/iH6fDRPLCYk?version=3&amp;amp;hl=en_US\&quot; type=\&quot;application/x-shockwave-flash\&quot; width=\&quot;640\&quot; height=\&quot;390\&quot; allowscriptaccess=\&quot;always\&quot; allowfullscreen=\&quot;true\&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://i1.ytimg.com/vi/iH6fDRPLCYk/hqdefault.jpg" rel="nofollow">http://i1.ytimg.com/vi/iH6fDRPLCYk/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: null, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="http://www.youtube.com/watch?v=iH6fDRPLCYk" rel="nofollow">http://www.youtube.com/watch?v=iH6fDRPLCYk</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;needs editing&quot;, 
+            &quot;recorded&quot;: &quot;2013-07-01&quot;, 
+            &quot;added&quot;: &quot;2013-07-04T10:08:48&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:26.441&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;SciPy 2013&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;skdata-data-seets-and-algorithm-evaluation-proto-1&quot;, 
+            &quot;speakers&quot;: [], 
+            &quot;tags&quot;: [
+                &quot;Tech&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 2107, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Skdata: Data seets and algorithm evaluation protocols in Python; SciPy 2013 Presentation&quot;, 
+            &quot;summary&quot;: &quot;Authors: Bergstra, James, University of Waterloo: Pinto, Nicolas, Massachusetts Institute of Technology; Cox, David D., Harvard University\n\nTrack: Machine Learning\n\nMachine learning benchmark data sets come in all shapes and sizes, yet classification algorithm implementations often insist on operating on sanitized input, such as (x, y) pairs with vector-valued input x and integer class label y. Researchers and practitioners are well aware of how much work (and even sometimes judgement) is required to get from the URL of a new data set to an ndarray fit for e.g. pandas or sklearn. The skdata library [1] handles that work for a growing number of benchmark data sets, so that one-off in-house scripts for downloading and parsing data sets can be replaced with library code that is reliable, community-tested, and documented.\n\nSkdata consists primarily of independent submodules that deal with individual data sets. Each [new-style] submodule has three important sub-sub-module files:\n\na &#39;dataset&#39; file with the nitty-gritty details of how to download, extract, and parse a particular data set;\n\na &#39;view&#39; file with any standard evaluation protocols from relevant literature; and\n\na &#39;main&#39; file with CLI entry points for e.g. downloading and visualizing the data set.\n\nVarious skdata utilities help to manage the data sets themselves, which are stored in the user&#39;s \&quot;~/.skdata\&quot; directory.\n\nThe evaluation protocols represent the logic that turns parsed (but potentially ideosyncratic) data into one or more standardized learning tasks. The basic approach has been developed over years of combined experience by the authors, and used extensively in recent work (e.g. [2]). The presentation will cover the design of data set submodules, and the basic interactions between a learning algorithm and an evaluation protocol.&quot;, 
+            &quot;description&quot;: &quot;&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;<a href="http://www.youtube.com/t/terms" rel="nofollow">http://www.youtube.com/t/terms</a>&quot;, 
+            &quot;embed&quot;: &quot;&lt;object width=\&quot;640\&quot; height=\&quot;390\&quot;&gt;&lt;param name=\&quot;movie\&quot; value=\&quot;http://youtube.com/v/u5amehIiImo?version=3&amp;amp;hl=en_US\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowFullScreen\&quot; value=\&quot;true\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowscriptaccess\&quot; value=\&quot;always\&quot;&gt;&lt;/param&gt;&lt;embed src=\&quot;http://youtube.com/v/u5amehIiImo?version=3&amp;amp;hl=en_US\&quot; type=\&quot;application/x-shockwave-flash\&quot; width=\&quot;640\&quot; height=\&quot;390\&quot; allowscriptaccess=\&quot;always\&quot; allowfullscreen=\&quot;true\&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://i1.ytimg.com/vi/u5amehIiImo/hqdefault.jpg" rel="nofollow">http://i1.ytimg.com/vi/u5amehIiImo/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: null, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="http://www.youtube.com/watch?v=u5amehIiImo" rel="nofollow">http://www.youtube.com/watch?v=u5amehIiImo</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;needs editing&quot;, 
+            &quot;recorded&quot;: &quot;2013-07-01&quot;, 
+            &quot;added&quot;: &quot;2013-07-04T10:08:55&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:26.443&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;SciPy 2013&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;streamed-clustering-of-lightning-mapping-data-in&quot;, 
+            &quot;speakers&quot;: [], 
+            &quot;tags&quot;: [
+                &quot;Tech&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 1883, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Streamed Clustering of Lightning Mapping Data in Python Using sklearn; SciPy 2013 Presentation&quot;, 
+            &quot;summary&quot;: &quot;Authors: Bruning, Eric C., Texas Tech University\n\nTrack: GIS - Geospatial Data Analysis\n\nLightning mapping at radio frequencies (here with VHF Lightning Mapping Array data) is typically performed by a time-of-arrival source retrieval method. Thereafter, it is common to cluster the located sources into flash-level entities (often comprised of 10^2 - 10^3 sources) using space and time separation thresholds. A previously-used clustering algorithm was a one-off implementation in Fortran, and was designed without reference to the machine learning literature. This study replaces the previous algorithm, which had been wrapped into the Python-based lmatools workflow, with the general-purpose DBSCAN implementation in Python&#39;s sklearn package. The legacy code included substantial, file format-specific, I/O boilerplate. The new code clarifies the boundary between algorithm and I/O, and promotes clean integration with the rest of the lmatools infrastructure, aiding maintainability.\n\nA chunked, streamed processing method was developed to account for continuous data rates that may exceed 10^5 four-coordinate (space and time) source vectors per minute. The chunking method exploits known physical limits to lightning flash duration, allowing the N^2 implementation of DBSCAN in sklearn to achieve real-time processing rates within available memory. The streaming technique is expected to be useful in future work as a flexible building block for end-to-end real-time and post-processing scripts and interactive analysis tools.\n\nThe algorithm is expected to find immediate use in our analysis of data from the NSF-sponsored Deep Convective Clouds and Chemistry campaign. The open nature of the underlying clustering libraries promotes code reuse by other research groups. Accounts of source-to-flash clustering in the literature are complemented by the availability of this open, objective reference implementation for clustering of lightning mapping datasets.&quot;, 
+            &quot;description&quot;: &quot;&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;<a href="http://www.youtube.com/t/terms" rel="nofollow">http://www.youtube.com/t/terms</a>&quot;, 
+            &quot;embed&quot;: &quot;&lt;object width=\&quot;640\&quot; height=\&quot;390\&quot;&gt;&lt;param name=\&quot;movie\&quot; value=\&quot;http://youtube.com/v/0Z17Q22HEMI?version=3&amp;amp;hl=en_US\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowFullScreen\&quot; value=\&quot;true\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowscriptaccess\&quot; value=\&quot;always\&quot;&gt;&lt;/param&gt;&lt;embed src=\&quot;http://youtube.com/v/0Z17Q22HEMI?version=3&amp;amp;hl=en_US\&quot; type=\&quot;application/x-shockwave-flash\&quot; width=\&quot;640\&quot; height=\&quot;390\&quot; allowscriptaccess=\&quot;always\&quot; allowfullscreen=\&quot;true\&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://i1.ytimg.com/vi/0Z17Q22HEMI/hqdefault.jpg" rel="nofollow">http://i1.ytimg.com/vi/0Z17Q22HEMI/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: null, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="http://www.youtube.com/watch?v=0Z17Q22HEMI" rel="nofollow">http://www.youtube.com/watch?v=0Z17Q22HEMI</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;needs editing&quot;, 
+            &quot;recorded&quot;: &quot;2013-07-01&quot;, 
+            &quot;added&quot;: &quot;2013-07-01T19:52:05&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:26.444&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;SciPy 2013&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;stuff-to-do-with-your-genomic-intervals-scipy-20-1&quot;, 
+            &quot;speakers&quot;: [], 
+            &quot;tags&quot;: [
+                &quot;Tech&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 2078, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;Stuff to do with your genomic intervals; SciPy 2013 Presentation&quot;, 
+            &quot;summary&quot;: &quot;Authors: Pedersen, Brent; University of Colorado\n\nTrack: Bioinformatics\n\nAfter traditional bioinformatic analyses, we are often left with a set of genomic regions; for example: ChIP-Seq peaks, transcription-factor binding sites, differentially methylated regions, or sites of loss-of-heterozygosity. This talk will go over the difficulties commonly encountered at this stage of an investigation and cover some additional analyses, using python libraries, that can help to provide insight into the function of a set of intervals. Some of the libraries covered will be pybedtools, cruzdb, pandas, and shuffler. The focus will be on annotation, exploratory data analysis and calculation of simple enrichment metrics with those tools. The format will be a walk-through (in the IPython notebook) of a set of these analyses that utilizes ENCODE and other publicly available data to annotate an example dataset.&quot;, 
+            &quot;description&quot;: &quot;&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;<a href="http://www.youtube.com/t/terms" rel="nofollow">http://www.youtube.com/t/terms</a>&quot;, 
+            &quot;embed&quot;: &quot;&lt;object width=\&quot;640\&quot; height=\&quot;390\&quot;&gt;&lt;param name=\&quot;movie\&quot; value=\&quot;http://youtube.com/v/R5wB2C8vI1c?version=3&amp;amp;hl=en_US\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowFullScreen\&quot; value=\&quot;true\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowscriptaccess\&quot; value=\&quot;always\&quot;&gt;&lt;/param&gt;&lt;embed src=\&quot;http://youtube.com/v/R5wB2C8vI1c?version=3&amp;amp;hl=en_US\&quot; type=\&quot;application/x-shockwave-flash\&quot; width=\&quot;640\&quot; height=\&quot;390\&quot; allowscriptaccess=\&quot;always\&quot; allowfullscreen=\&quot;true\&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://i1.ytimg.com/vi/R5wB2C8vI1c/hqdefault.jpg" rel="nofollow">http://i1.ytimg.com/vi/R5wB2C8vI1c/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: null, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="http://www.youtube.com/watch?v=R5wB2C8vI1c" rel="nofollow">http://www.youtube.com/watch?v=R5wB2C8vI1c</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;needs editing&quot;, 
+            &quot;recorded&quot;: &quot;2013-07-01&quot;, 
+            &quot;added&quot;: &quot;2013-07-04T10:08:49&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:26.445&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;SciPy 2013&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;sunpy-python-for-solar-physicists-0&quot;, 
+            &quot;speakers&quot;: [
+                &quot;Stuart Mumford&quot;
+            ], 
+            &quot;tags&quot;: [
+                &quot;astronomy&quot;, 
+                &quot;astrophysics&quot;, 
+                &quot;SunPy&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 1964, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;SunPy - Python for Solar Physicists&quot;, 
+            &quot;summary&quot;: &quot;SunPy is a project designed to provide a free, open and easy-to-use Python alternative to IDL and SolarSoft. SunPy provides unified, coordinate-aware data objects for many common solar data types and integrates into these plotting and analysis tools.&quot;, 
+            &quot;description&quot;: &quot;Authors: Mumford, Stuart, University of Sheffield / SunPy\n\nTrack: Astronomy and Astrophysics\n\nModern solar physicists have, at their disposal, an abundance of space and ground based instruments providing a large amount of data to analyse the complex Sun every day. The NASA Solar Dynamics Observatory satellite, for example, collects around 1.2 TB of data every 24 hours which requires extensive reconstruction before it is ready for scientific use. Currently most data processing and analysis for all solar data is done using IDL and the &#39;SolarSoft&#39; library. SunPy is a project designed to provide a free, open and easy-to-use Python alternative to IDL and SolarSoft.\n\nSunPy provides unified, coordinate-aware data objects for many common solar data types and integrates into these plotting and analysis tools. Providing this base will give the global solar physics community the opportunity to use Python for future data processing and analysis routines. The astronomy and astrophysics community, through the implementation and adoption of AstroPy and pyRAF, have already demonstrated that Python is well suited for the analysis and processing of space science data.\n\nIn this presentation, we give key examples of SunPy&#39;s structure and scope, as well as the major improvements that have taken place to provide a stable base for future expansion. We discuss recent improvements to file I/O and visualisation, as well as improvements to the structure and interface of the map objects.\n\nWe discuss the many challenges which SunPy faces if it is to achieve its goal of becoming a key package for solar physics. The SunPy developers hope to increase the the visibility and uptake of SunPy, and encourage people to contribute to the project, while maintaining a high quality code base, which is facilitated by the use of a social version control system (git and GitHub).&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;<a href="http://www.youtube.com/t/terms" rel="nofollow">http://www.youtube.com/t/terms</a>&quot;, 
+            &quot;embed&quot;: &quot;&lt;object width=\&quot;640\&quot; height=\&quot;390\&quot;&gt;&lt;param name=\&quot;movie\&quot; value=\&quot;http://youtube.com/v/bXPPTCkaVu8?version=3&amp;amp;hl=en_US\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowFullScreen\&quot; value=\&quot;true\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowscriptaccess\&quot; value=\&quot;always\&quot;&gt;&lt;/param&gt;&lt;embed src=\&quot;http://youtube.com/v/bXPPTCkaVu8?version=3&amp;amp;hl=en_US\&quot; type=\&quot;application/x-shockwave-flash\&quot; width=\&quot;640\&quot; height=\&quot;390\&quot; allowscriptaccess=\&quot;always\&quot; allowfullscreen=\&quot;true\&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://i1.ytimg.com/vi/bXPPTCkaVu8/hqdefault.jpg" rel="nofollow">http://i1.ytimg.com/vi/bXPPTCkaVu8/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: null, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="http://www.youtube.com/watch?v=bXPPTCkaVu8" rel="nofollow">http://www.youtube.com/watch?v=bXPPTCkaVu8</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;&quot;, 
+            &quot;recorded&quot;: &quot;2013-07-01&quot;, 
+            &quot;added&quot;: &quot;2013-07-04T10:08:31&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:26.447&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;SciPy 2013&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;sunpy-python-for-solar-physicists-scipy-2013-p&quot;, 
+            &quot;speakers&quot;: [], 
+            &quot;tags&quot;: [
+                &quot;Tech&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 2043, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;SunPy - Python for Solar Physicists; SciPy 2013 Presentation&quot;, 
+            &quot;summary&quot;: &quot;Authors: Mumford, Stuart, University of Sheffield / SunPy\n\nTrack: Astronomy and Astrophysics\n\nModern solar physicists have, at their disposal, an abundance of space and ground based instruments providing a large amount of data to analyse the complex Sun every day. The NASA Solar Dynamics Observatory satellite, for example, collects around 1.2 TB of data every 24 hours which requires extensive reconstruction before it is ready for scientific use. Currently most data processing and analysis for all solar data is done using IDL and the &#39;SolarSoft&#39; library. SunPy is a project designed to provide a free, open and easy-to-use Python alternative to IDL and SolarSoft.\n\nSunPy provides unified, coordinate-aware data objects for many common solar data types and integrates into these plotting and analysis tools. Providing this base will give the global solar physics community the opportunity to use Python for future data processing and analysis routines. The astronomy and astrophysics community, through the implementation and adoption of AstroPy and pyRAF, have already demonstrated that Python is well suited for the analysis and processing of space science data.\n\nIn this presentation, we give key examples of SunPy&#39;s structure and scope, as well as the major improvements that have taken place to provide a stable base for future expansion. We discuss recent improvements to file I/O and visualisation, as well as improvements to the structure and interface of the map objects.\n\nWe discuss the many challenges which SunPy faces if it is to achieve its goal of becoming a key package for solar physics. The SunPy developers hope to increase the the visibility and uptake of SunPy, and encourage people to contribute to the project, while maintaining a high quality code base, which is facilitated by the use of a social version control system (git and GitHub).&quot;, 
+            &quot;description&quot;: &quot;&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;<a href="http://www.youtube.com/t/terms" rel="nofollow">http://www.youtube.com/t/terms</a>&quot;, 
+            &quot;embed&quot;: &quot;&lt;object width=\&quot;640\&quot; height=\&quot;390\&quot;&gt;&lt;param name=\&quot;movie\&quot; value=\&quot;http://youtube.com/v/bXPPTCkaVu8?version=3&amp;amp;hl=en_US\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowFullScreen\&quot; value=\&quot;true\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowscriptaccess\&quot; value=\&quot;always\&quot;&gt;&lt;/param&gt;&lt;embed src=\&quot;http://youtube.com/v/bXPPTCkaVu8?version=3&amp;amp;hl=en_US\&quot; type=\&quot;application/x-shockwave-flash\&quot; width=\&quot;640\&quot; height=\&quot;390\&quot; allowscriptaccess=\&quot;always\&quot; allowfullscreen=\&quot;true\&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://i1.ytimg.com/vi/bXPPTCkaVu8/hqdefault.jpg" rel="nofollow">http://i1.ytimg.com/vi/bXPPTCkaVu8/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: null, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="http://www.youtube.com/watch?v=bXPPTCkaVu8" rel="nofollow">http://www.youtube.com/watch?v=bXPPTCkaVu8</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;needs editing&quot;, 
+            &quot;recorded&quot;: &quot;2013-07-01&quot;, 
+            &quot;added&quot;: &quot;2013-07-04T10:08:42&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:26.448&quot;
+        }, 
+        {
+            &quot;category&quot;: &quot;SciPy 2013&quot;, 
+            &quot;language&quot;: &quot;English&quot;, 
+            &quot;slug&quot;: &quot;the-advantages-of-a-scientific-ide-scipy-2013-pr-1&quot;, 
+            &quot;speakers&quot;: [], 
+            &quot;tags&quot;: [
+                &quot;Tech&quot;
+            ], 
+            &quot;related_urls&quot;: [], 
+            &quot;id&quot;: 2113, 
+            &quot;state&quot;: 1, 
+            &quot;title&quot;: &quot;The advantages of a scientific IDE; SciPy 2013 Presentation&quot;, 
+            &quot;summary&quot;: &quot;Authors: Cordoba, Carlos, The Spyder Project\n\nTrack: Reproducible Science\n\nThe enormous progress made by the IPython project during the last two years, has made many of us --the Python scientific community-- think that we are quite close to provide an application that can rival the big two M&#39;s of the computing scientific world: Matlab and Mathematica.\n\nHowever, after following the project on GitHub and its mailing list for almost the same time and specially after reading its roadmap for the next two years, we at Spyder believe that its real focus is different from that aim. IPython developers are working hard to build several powerful and flexible interfaces to evaluate and document code, but they seem to have some troubles on going from a console application to a GUI one (e.g see GitHub Issues 1747, 2203, 2522, 2974 and 2985).\n\nWe consider Spyder can really help to solve these issues, by integrating IPython in a richer and more intuitive, yet powerful, environment. After working with the mentioned M&#39;s, most people expects not only a good evaluation interface but also easy access to rich text documentation, an specialized editor and a namespace browser, tied with good debugging facilities. Spyder already has all these features and, right now, also the best integration with the IPython Qt frontend.\n\nThis shows that Spyder can be the perfect complement to IPython, providing what it&#39;s missing and aiming to reach a wider audience (not just researchers and graduate students). As the current Spyder maintainer, I would like to assist to SciPy to show more concretely to the community what our added value to the scientific Python ecosystem is. We would also like to get in closer contact with her and have a direct feedback to define what should be the features we need to work or improve on the next releases.&quot;, 
+            &quot;description&quot;: &quot;&quot;, 
+            &quot;quality_notes&quot;: &quot;&quot;, 
+            &quot;copyright_text&quot;: &quot;<a href="http://www.youtube.com/t/terms" rel="nofollow">http://www.youtube.com/t/terms</a>&quot;, 
+            &quot;embed&quot;: &quot;&lt;object width=\&quot;640\&quot; height=\&quot;390\&quot;&gt;&lt;param name=\&quot;movie\&quot; value=\&quot;http://youtube.com/v/k2yuB7IBpOY?version=3&amp;amp;hl=en_US\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowFullScreen\&quot; value=\&quot;true\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowscriptaccess\&quot; value=\&quot;always\&quot;&gt;&lt;/param&gt;&lt;embed src=\&quot;http://youtube.com/v/k2yuB7IBpOY?version=3&amp;amp;hl=en_US\&quot; type=\&quot;application/x-shockwave-flash\&quot; width=\&quot;640\&quot; height=\&quot;390\&quot; allowscriptaccess=\&quot;always\&quot; allowfullscreen=\&quot;true\&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&quot;, 
+            &quot;thumbnail_url&quot;: &quot;<a href="http://i1.ytimg.com/vi/k2yuB7IBpOY/hqdefault.jpg" rel="nofollow">http://i1.ytimg.com/vi/k2yuB7IBpOY/hqdefault.jpg</a>&quot;, 
+            &quot;duration&quot;: null, 
+            &quot;video_ogv_length&quot;: null, 
+            &quot;video_ogv_url&quot;: null, 
+            &quot;video_ogv_download_only&quot;: false, 
+            &quot;video_mp4_length&quot;: null, 
+            &quot;video_mp4_url&quot;: null, 
+            &quot;video_mp4_download_only&quot;: false, 
+            &quot;video_webm_length&quot;: null, 
+            &quot;video_webm_url&quot;: null, 
+            &quot;video_webm_download_only&quot;: false, 
+            &quot;video_flv_length&quot;: null, 
+            &quot;video_flv_url&quot;: null, 
+            &quot;video_flv_download_only&quot;: false, 
+            &quot;source_url&quot;: &quot;<a href="http://www.youtube.com/watch?v=k2yuB7IBpOY" rel="nofollow">http://www.youtube.com/watch?v=k2yuB7IBpOY</a>&quot;, 
+            &quot;whiteboard&quot;: &quot;needs editing&quot;, 
+            &quot;recorded&quot;: &quot;2013-07-01&quot;, 
+            &quot;added&quot;: &quot;2013-07-04T10:08:56&quot;, 
+            &quot;updated&quot;: &quot;2014-04-08T20:28:26.450&quot;
+        }
+    ]
+}</pre>
+            </div>
+        </div>
+
+            
+
+                
+
+                
+            
+
+        </div>
+        <!-- END content-main -->
+
+    </div>
+    <!-- END Content -->
+
+        <div id="push"></div>
+
+    </div>
+
+    </div><!-- ./wrapper -->
+
+    
+    
+
+    
+    <script src="/static/rest_framework/js/jquery-1.8.1-min.js"></script>
+    <script src="/static/rest_framework/js/bootstrap.min.js"></script>
+    <script src="/static/rest_framework/js/prettify-min.js"></script>
+    <script src="/static/rest_framework/js/default.js"></script>
+    
+  </body>
+
+<!-- Mirrored from pyvideo.org/api/v2/video/?page=105&format=api by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 07 Jan 2016 03:51:26 GMT -->
+</html>

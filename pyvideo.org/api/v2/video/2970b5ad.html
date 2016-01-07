@@ -1,0 +1,191 @@
+
+
+<!DOCTYPE html>
+<html>
+    
+<!-- Mirrored from pyvideo.org/api/v2/video/2970?format=api by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 07 Jan 2016 03:46:32 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+    
+
+        
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+        <meta name="robots" content="NONE,NOARCHIVE" />
+        
+
+        <title>Django REST framework</title>
+
+        
+        
+            <link rel="stylesheet" type="text/css" href="/static/rest_framework/css/bootstrap.min.css"/>
+            <link rel="stylesheet" type="text/css" href="/static/rest_framework/css/bootstrap-tweaks.css"/>
+        
+        <link rel="stylesheet" type="text/css" href="/static/rest_framework/css/prettify.css"/>
+        <link rel="stylesheet" type="text/css" href="/static/rest_framework/css/default.css"/>
+        
+
+    
+    </head>
+
+  <body class=" container">
+
+    <div class="wrapper">
+
+    
+    <div class="navbar navbar-inverse">
+        <div class="navbar-inner">
+            <div class="container-fluid">
+                <span href="/">
+                    <a class='brand' rel="nofollow" href='http://www.django-rest-framework.org'>Django REST framework <span class="version">2.3.14</span></a>
+                </span>
+                <ul class="nav pull-right">
+                    
+                        
+                            <li></li>
+                        
+                    
+                </ul>
+            </div>
+        </div>
+    </div>
+    
+
+    
+    <ul class="breadcrumb">
+        
+            <li>
+                <a href="/api/v2/video/" >Video List Create Api</a> <span class="divider">&rsaquo;</span>
+            </li>
+        
+            <li>
+                <a href="/api/v2/video/2970" class="active">Video Retrieve Update Api</a> 
+            </li>
+        
+    </ul>
+    
+
+    <!-- Content -->
+    <div id="content">
+
+        
+            <form id="get-form" class="pull-right">
+                <fieldset>
+                    <div class="btn-group format-selection">
+                        <a class="btn btn-primary js-tooltip" href='/api/v2/video/2970?format=api' rel="nofollow" title="Make a GET request on the Video Retrieve Update Api resource">GET</a>
+
+                        <button class="btn btn-primary dropdown-toggle js-tooltip" data-toggle="dropdown" title="Specify a format for the GET request">
+                            <span class="caret"></span>
+                        </button>
+                        <ul class="dropdown-menu">
+                            
+                                <li>
+                                    <a class="js-tooltip format-option" href='/api/v2/video/2970?format=json' rel="nofollow" title="Make a GET request on the Video Retrieve Update Api resource with the format set to `json`">json</a>
+                                </li>
+                            
+                                <li>
+                                    <a class="js-tooltip format-option" href='/api/v2/video/2970?format=api' rel="nofollow" title="Make a GET request on the Video Retrieve Update Api resource with the format set to `api`">api</a>
+                                </li>
+                            
+                        </ul>
+                    </div>
+
+                </fieldset>
+            </form>
+        
+
+        
+            <form class="button-form" action="/api/v2/video/2970?format=api" method="POST" class="pull-right">
+                <input type='hidden' name='csrfmiddlewaretoken' value='pT8iI6zhtQdsGFmu4tryYgFrUlipl2B3' />
+                <input type="hidden" name="_method" value="OPTIONS" />
+                <button class="btn btn-primary js-tooltip" title="Make an OPTIONS request on the Video Retrieve Update Api resource">OPTIONS</button>
+            </form>
+        
+
+        
+
+        <div class="content-main">
+            <div class="page-header"><h1>Video Retrieve Update Api</h1></div>
+            
+            
+            
+            <div class="request-info" style="clear: both" >
+                <pre class="prettyprint"><b>GET</b> /api/v2/video/2970?format=api</pre>
+            </div>
+            <div class="response-info">
+                <pre class="prettyprint"><div class="meta nocode"><b>HTTP 200 OK</b>
+<b>Content-Type:</b> <span class="lit">application/json</span>
+<b>Vary:</b> <span class="lit">Accept</span>
+<b>Allow:</b> <span class="lit">GET, PUT, PATCH, HEAD, OPTIONS</span>
+
+</div>{
+    &quot;category&quot;: &quot;EuroPython 2014&quot;, 
+    &quot;language&quot;: &quot;English&quot;, 
+    &quot;slug&quot;: &quot;elasticsearch-from-the-bottom-up&quot;, 
+    &quot;speakers&quot;: [
+        &quot;Alex Brasetvik&quot;
+    ], 
+    &quot;tags&quot;: [], 
+    &quot;related_urls&quot;: [], 
+    &quot;id&quot;: 2970, 
+    &quot;state&quot;: 1, 
+    &quot;title&quot;: &quot;Elasticsearch from the bottom up&quot;, 
+    &quot;summary&quot;: &quot;This talk will teach you about Elasticsearch and Lucene&#39;s architecture.\r\n\r\nThe key data structure in search is the powerful inverted index, which is actually simple to understand. We start there, then ascend through abstraction layers to get an overview of how a distributed search cluster processes searches and changes.&quot;, 
+    &quot;description&quot;: &quot;## Who I am and motivation\r\nI work with hosted Elasticsearch and have interacted with lots of developers. We see what many struggle with.\r\n\r\nSome relevant theory helps a lot. What follows has already lead to many \&quot;Aha!\&quot;-moments and developers piecing things together herself.\r\n\r\n## The inverted index\r\nThe most important index structure is actually very simple. It is essentially a sorted dictionary of terms, with a list of postings per term.\r\n\r\nWe show three simple sample documents and the resulting inverted index.\r\n\r\n## The index term\r\nThe index term is the \&quot;unit of search\&quot;, and the terms we make decide how we can search.\r\n\r\nWith the inverted index and its sorted dictionary, we can quickly search for terms given their prefix.\r\n\r\n## Importance of text analysis\r\nThus, we need to transform our search problems into string prefix problems.\r\n\r\nThis is done with text analysis, which is the process of making of index terms. It is highly important when implementing search.\r\n\r\n## Building indexes\r\nThe way indexes are built must balance how compact an index is, how easily we can search in it, how fast we can index documents - and the time it takes for changes to be visible.\r\n\r\nLucene, and thus Elasticsearch, builds them in segments.\r\n\r\n## Index segments\r\nA Lucene index consists of index segments, i.e. immutable mini-indexes.\r\n\r\nA search on an index is done by doing the search on all segments and merging the results.\r\n\r\nSegments are immutable:\r\n\r\nThis enables important compression techniques.\r\nDeletes are not immediate, just a marker.\r\nSegments are occasionally merged to larger segments. Then documents are finally deleted.\r\nNew segments are made by buffering changes in memory, and written when flushing happens. Flushes are largely caused by refreshing every second, due to real time needs.\r\n\r\n## Caches\r\nCaches like filter- and field caches are managed per segment. They are essential for performance.\r\n\r\nImmutable segments make for simple reasoning about caches. New segments only cause partial cache invalidations.\r\n\r\n## Elasticsearch indexes\r\nMuch like a Lucene index is made up of many segments, an Elasticsearch index is made up of many Lucene indexes.\r\n\r\nTwo Elasticsearch indexes with 1 shard is essentially the same as one Elasticsearch index with 2 shards.\r\n\r\nSearch all shards and merge. Much like segments, but this time possibly across machines.\r\n\r\nShard / Index routing enables various partitioning strategies. Simpler than it sounds, so one important example:\r\n\r\nEssential for time based data, like logs: can efficiently skip searching entire indexes - and roll out old data by deleting the entire index.\r\n\r\n## Common pitfalls\r\nWe must design our indexing for how we search - not the searches for how things are indexed. Be careful with wildcards and regexes.\r\n\r\nSince segments are immutable, deleting documents is expensive while deleting an entire index is cheap.\r\n\r\nUpdating documents is essentially a delete and re-index. Heavy updating might cause problems.\r\n\r\nHave enough memory and then some. Elasticsearch is very reliant on its caches.\r\n\r\n## Summary\r\nWe&#39;ve seen how index structures are used, and why proper text processing is essential for performant searches.\r\n\r\nAlso, you now know what index segments are, and how they affect both indexing and searching strategies.\r\n\r\n## Questions&quot;, 
+    &quot;quality_notes&quot;: &quot;&quot;, 
+    &quot;copyright_text&quot;: &quot;<a href="http://creativecommons.org/licenses/by/3.0/" rel="nofollow">http://creativecommons.org/licenses/by/3.0/</a>&quot;, 
+    &quot;embed&quot;: &quot;&lt;object width=\&quot;640\&quot; height=\&quot;390\&quot;&gt;&lt;param name=\&quot;movie\&quot; value=\&quot;http://youtube.com/v/PpX7J-G2PEo?version=3&amp;amp;hl=en_US\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowFullScreen\&quot; value=\&quot;true\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowscriptaccess\&quot; value=\&quot;always\&quot;&gt;&lt;/param&gt;&lt;embed src=\&quot;http://youtube.com/v/PpX7J-G2PEo?version=3&amp;amp;hl=en_US\&quot; type=\&quot;application/x-shockwave-flash\&quot; width=\&quot;640\&quot; height=\&quot;390\&quot; allowscriptaccess=\&quot;always\&quot; allowfullscreen=\&quot;true\&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&quot;, 
+    &quot;thumbnail_url&quot;: &quot;<a href="http://i.ytimg.com/vi/PpX7J-G2PEo/hqdefault.jpg" rel="nofollow">http://i.ytimg.com/vi/PpX7J-G2PEo/hqdefault.jpg</a>&quot;, 
+    &quot;duration&quot;: null, 
+    &quot;video_ogv_length&quot;: null, 
+    &quot;video_ogv_url&quot;: &quot;&quot;, 
+    &quot;video_ogv_download_only&quot;: false, 
+    &quot;video_mp4_length&quot;: null, 
+    &quot;video_mp4_url&quot;: &quot;&quot;, 
+    &quot;video_mp4_download_only&quot;: false, 
+    &quot;video_webm_length&quot;: null, 
+    &quot;video_webm_url&quot;: &quot;&quot;, 
+    &quot;video_webm_download_only&quot;: false, 
+    &quot;video_flv_length&quot;: null, 
+    &quot;video_flv_url&quot;: &quot;&quot;, 
+    &quot;video_flv_download_only&quot;: false, 
+    &quot;source_url&quot;: &quot;<a href="http://www.youtube.com/watch?v=PpX7J-G2PEo" rel="nofollow">http://www.youtube.com/watch?v=PpX7J-G2PEo</a>&quot;, 
+    &quot;whiteboard&quot;: &quot;&quot;, 
+    &quot;recorded&quot;: &quot;2014-07-24&quot;, 
+    &quot;added&quot;: &quot;2014-07-31T00:46:27.350&quot;, 
+    &quot;updated&quot;: &quot;2014-07-31T01:21:08.033&quot;
+}</pre>
+            </div>
+        </div>
+
+            
+
+                
+
+                
+            
+
+        </div>
+        <!-- END content-main -->
+
+    </div>
+    <!-- END Content -->
+
+        <div id="push"></div>
+
+    </div>
+
+    </div><!-- ./wrapper -->
+
+    
+    
+
+    
+    <script src="/static/rest_framework/js/jquery-1.8.1-min.js"></script>
+    <script src="/static/rest_framework/js/bootstrap.min.js"></script>
+    <script src="/static/rest_framework/js/prettify-min.js"></script>
+    <script src="/static/rest_framework/js/default.js"></script>
+    
+  </body>
+
+<!-- Mirrored from pyvideo.org/api/v2/video/2970?format=api by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 07 Jan 2016 03:46:32 GMT -->
+</html>

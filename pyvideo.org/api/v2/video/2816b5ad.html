@@ -1,0 +1,191 @@
+
+
+<!DOCTYPE html>
+<html>
+    
+<!-- Mirrored from pyvideo.org/api/v2/video/2816?format=api by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 07 Jan 2016 03:46:37 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+    
+
+        
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+        <meta name="robots" content="NONE,NOARCHIVE" />
+        
+
+        <title>Django REST framework</title>
+
+        
+        
+            <link rel="stylesheet" type="text/css" href="/static/rest_framework/css/bootstrap.min.css"/>
+            <link rel="stylesheet" type="text/css" href="/static/rest_framework/css/bootstrap-tweaks.css"/>
+        
+        <link rel="stylesheet" type="text/css" href="/static/rest_framework/css/prettify.css"/>
+        <link rel="stylesheet" type="text/css" href="/static/rest_framework/css/default.css"/>
+        
+
+    
+    </head>
+
+  <body class=" container">
+
+    <div class="wrapper">
+
+    
+    <div class="navbar navbar-inverse">
+        <div class="navbar-inner">
+            <div class="container-fluid">
+                <span href="/">
+                    <a class='brand' rel="nofollow" href='http://www.django-rest-framework.org'>Django REST framework <span class="version">2.3.14</span></a>
+                </span>
+                <ul class="nav pull-right">
+                    
+                        
+                            <li></li>
+                        
+                    
+                </ul>
+            </div>
+        </div>
+    </div>
+    
+
+    
+    <ul class="breadcrumb">
+        
+            <li>
+                <a href="/api/v2/video/" >Video List Create Api</a> <span class="divider">&rsaquo;</span>
+            </li>
+        
+            <li>
+                <a href="/api/v2/video/2816" class="active">Video Retrieve Update Api</a> 
+            </li>
+        
+    </ul>
+    
+
+    <!-- Content -->
+    <div id="content">
+
+        
+            <form id="get-form" class="pull-right">
+                <fieldset>
+                    <div class="btn-group format-selection">
+                        <a class="btn btn-primary js-tooltip" href='/api/v2/video/2816?format=api' rel="nofollow" title="Make a GET request on the Video Retrieve Update Api resource">GET</a>
+
+                        <button class="btn btn-primary dropdown-toggle js-tooltip" data-toggle="dropdown" title="Specify a format for the GET request">
+                            <span class="caret"></span>
+                        </button>
+                        <ul class="dropdown-menu">
+                            
+                                <li>
+                                    <a class="js-tooltip format-option" href='/api/v2/video/2816?format=json' rel="nofollow" title="Make a GET request on the Video Retrieve Update Api resource with the format set to `json`">json</a>
+                                </li>
+                            
+                                <li>
+                                    <a class="js-tooltip format-option" href='/api/v2/video/2816?format=api' rel="nofollow" title="Make a GET request on the Video Retrieve Update Api resource with the format set to `api`">api</a>
+                                </li>
+                            
+                        </ul>
+                    </div>
+
+                </fieldset>
+            </form>
+        
+
+        
+            <form class="button-form" action="/api/v2/video/2816?format=api" method="POST" class="pull-right">
+                <input type='hidden' name='csrfmiddlewaretoken' value='pT8iI6zhtQdsGFmu4tryYgFrUlipl2B3' />
+                <input type="hidden" name="_method" value="OPTIONS" />
+                <button class="btn btn-primary js-tooltip" title="Make an OPTIONS request on the Video Retrieve Update Api resource">OPTIONS</button>
+            </form>
+        
+
+        
+
+        <div class="content-main">
+            <div class="page-header"><h1>Video Retrieve Update Api</h1></div>
+            
+            
+            
+            <div class="request-info" style="clear: both" >
+                <pre class="prettyprint"><b>GET</b> /api/v2/video/2816?format=api</pre>
+            </div>
+            <div class="response-info">
+                <pre class="prettyprint"><div class="meta nocode"><b>HTTP 200 OK</b>
+<b>Content-Type:</b> <span class="lit">application/json</span>
+<b>Vary:</b> <span class="lit">Accept</span>
+<b>Allow:</b> <span class="lit">GET, PUT, PATCH, HEAD, OPTIONS</span>
+
+</div>{
+    &quot;category&quot;: &quot;SciPy 2014&quot;, 
+    &quot;language&quot;: &quot;English&quot;, 
+    &quot;slug&quot;: &quot;the-road-to-modelr-building-a-commercial-web-app&quot;, 
+    &quot;speakers&quot;: [
+        &quot;Matt Hall&quot;
+    ], 
+    &quot;tags&quot;: [], 
+    &quot;related_urls&quot;: [], 
+    &quot;id&quot;: 2816, 
+    &quot;state&quot;: 1, 
+    &quot;title&quot;: &quot;The Road to Modelr: Building a Commercial Web Application on an Open Source Foundation&quot;, 
+    &quot;summary&quot;: &quot;Lessons learned along the bumpy road from Python noob to an open source geophysics web application, with a commercial web service front end.&quot;, 
+    &quot;description&quot;: &quot;Software for applied geoscientists in the petroleum industry is usually expensive, hard to use, Windows or Linux only, and slow to evolve. Furthermore, it is almost always stridently proprietary and therefore black-box. Open source software is rare. There are few developers working outside of seismic processing and enterprise database development, and consequently there is very little in the web and mobile domain. Reconciling a commitment to open source with a desire to earn a good living is one of the great conundrums of software engineering. We have chosen a hybrid approach of open core (like OpendTect, which has proprietary add-ons) and software-as-a-service (like <a href="http://WordPress.org" rel="nofollow">WordPress.org</a> vs <a href="http://WordPress.com" rel="nofollow">WordPress.com</a>). \r\n\r\nOpen source back-end\r\n--------------------\r\n\r\nOur open core is a Python web app for producing synthetic seismic models, in much the same way that the now-deprecated [Google Image Charts API](https://developers.google.com/chart/image/) used to work: the user provides a URL, which contains all the relevant data, and a JPEG image generated by matplotlib is returned. Along with the image, we return some computed data about the model, such as the elastic properties of the rocks involved. The mode of the tool is described by \&quot;scripts\&quot;, which for now reside on the server, but which we plan to allow users to provide as part of the API. Scripts have various parameters, such as the P-wave and S-wave velocities, and the bulk density of the rocks in the model, and it is these parameters that make up most of the data in the API call. Other parameters include the type and frequency of wavelet to use, and the computation method for the reflectivity (for example the Zoeppritz equations, or the Aki\\u2013Richards approximation). The app has no user interface to speak of, only a web API. It is licensed under the Apache 2 license and can be found [on GitHub](https://github.com/agile-geoscience/modelr). We are running an instance of our app on a \&quot;T1.micro\&quot; [Amazon EC2 instance](http://aws.amazon.com/ec2/) running Ubuntu.\r\n\r\nProprietary front-end\r\n---------------------\r\n\r\nThe commercial, proprietary front end is a Python web app that lives in the [Google App Engine](https://developers.google.com/appengine/) walled garden. This app, which uses the [Twitter Bootstrap framework](http://getbootstrap.com/), is serving at [modelr.io](https://www.modelr.io/) and provides a user object in which a geoscientist can save rocks and scenarios  consisting of a script and all its parameters. We chose App Engine for its strong infrastructure, good track record, and the easy availability of tools like the datastore, memcache, login, and so on. We also host support channels and materials through this front end, which has a very lightweight \&quot;demo\&quot; mode, and otherwise requires a $9/month subscription to use, handled by [Stripe](https://stripe.com/ca). This necessitated serving both the front and back ends over HTTPS, something we wanted to do anyway, because of industry mistrust of the cloud.\r\n\r\nSummary\r\n-------\r\nSome of the things we picked up along the way:\r\n\r\n* We started with a strong need of our own, so had clear milestones from day 1.\r\n* We left the project alone for months, but good documentation and GitHub meant this was not a problem.\r\n* Sprinting with a professional developer at the start meant less thrashing later.\r\n* The cloud landscape is exciting, but it&#39;s easy to be distracted by all the APIs. Keeping it simple is a constant struggle.\r\n* Pushing through Xeno&#39;s paradox to get to a live, public-facing app took stamina and focus.\r\n* There&#39;s nothing like having other users to get you to up your coding game.\r\n\r\nWe hope that by telling this story of the early days of a commercial scientific web application, built by a bunch of consulting scientists in Nova Scotia, not a tech startup in San Francisco, we can speed others along the path to creating a rich ecosystem of new geoscience tools and web APIs.\r\n&quot;, 
+    &quot;quality_notes&quot;: &quot;&quot;, 
+    &quot;copyright_text&quot;: &quot;<a href="http://www.youtube.com/t/terms" rel="nofollow">http://www.youtube.com/t/terms</a>&quot;, 
+    &quot;embed&quot;: &quot;&lt;object width=\&quot;640\&quot; height=\&quot;390\&quot;&gt;&lt;param name=\&quot;movie\&quot; value=\&quot;http://youtube.com/v/TgOk_3JEcwY?version=3&amp;amp;hl=en_US\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowFullScreen\&quot; value=\&quot;true\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowscriptaccess\&quot; value=\&quot;always\&quot;&gt;&lt;/param&gt;&lt;embed src=\&quot;http://youtube.com/v/TgOk_3JEcwY?version=3&amp;amp;hl=en_US\&quot; type=\&quot;application/x-shockwave-flash\&quot; width=\&quot;640\&quot; height=\&quot;390\&quot; allowscriptaccess=\&quot;always\&quot; allowfullscreen=\&quot;true\&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&quot;, 
+    &quot;thumbnail_url&quot;: &quot;<a href="http://i1.ytimg.com/vi/TgOk_3JEcwY/hqdefault.jpg" rel="nofollow">http://i1.ytimg.com/vi/TgOk_3JEcwY/hqdefault.jpg</a>&quot;, 
+    &quot;duration&quot;: null, 
+    &quot;video_ogv_length&quot;: null, 
+    &quot;video_ogv_url&quot;: &quot;&quot;, 
+    &quot;video_ogv_download_only&quot;: false, 
+    &quot;video_mp4_length&quot;: null, 
+    &quot;video_mp4_url&quot;: &quot;&quot;, 
+    &quot;video_mp4_download_only&quot;: false, 
+    &quot;video_webm_length&quot;: null, 
+    &quot;video_webm_url&quot;: &quot;&quot;, 
+    &quot;video_webm_download_only&quot;: false, 
+    &quot;video_flv_length&quot;: null, 
+    &quot;video_flv_url&quot;: &quot;&quot;, 
+    &quot;video_flv_download_only&quot;: false, 
+    &quot;source_url&quot;: &quot;<a href="http://www.youtube.com/watch?v=TgOk_3JEcwY" rel="nofollow">http://www.youtube.com/watch?v=TgOk_3JEcwY</a>&quot;, 
+    &quot;whiteboard&quot;: &quot;&quot;, 
+    &quot;recorded&quot;: &quot;2014-07-10&quot;, 
+    &quot;added&quot;: &quot;2014-07-15T22:45:42.613&quot;, 
+    &quot;updated&quot;: &quot;2014-07-16T14:54:50.385&quot;
+}</pre>
+            </div>
+        </div>
+
+            
+
+                
+
+                
+            
+
+        </div>
+        <!-- END content-main -->
+
+    </div>
+    <!-- END Content -->
+
+        <div id="push"></div>
+
+    </div>
+
+    </div><!-- ./wrapper -->
+
+    
+    
+
+    
+    <script src="/static/rest_framework/js/jquery-1.8.1-min.js"></script>
+    <script src="/static/rest_framework/js/bootstrap.min.js"></script>
+    <script src="/static/rest_framework/js/prettify-min.js"></script>
+    <script src="/static/rest_framework/js/default.js"></script>
+    
+  </body>
+
+<!-- Mirrored from pyvideo.org/api/v2/video/2816?format=api by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 07 Jan 2016 03:46:37 GMT -->
+</html>

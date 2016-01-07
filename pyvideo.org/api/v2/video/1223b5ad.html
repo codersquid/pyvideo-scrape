@@ -1,0 +1,193 @@
+
+
+<!DOCTYPE html>
+<html>
+    
+<!-- Mirrored from pyvideo.org/api/v2/video/1223?format=api by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 07 Jan 2016 03:46:36 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+    
+
+        
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+        <meta name="robots" content="NONE,NOARCHIVE" />
+        
+
+        <title>Django REST framework</title>
+
+        
+        
+            <link rel="stylesheet" type="text/css" href="/static/rest_framework/css/bootstrap.min.css"/>
+            <link rel="stylesheet" type="text/css" href="/static/rest_framework/css/bootstrap-tweaks.css"/>
+        
+        <link rel="stylesheet" type="text/css" href="/static/rest_framework/css/prettify.css"/>
+        <link rel="stylesheet" type="text/css" href="/static/rest_framework/css/default.css"/>
+        
+
+    
+    </head>
+
+  <body class=" container">
+
+    <div class="wrapper">
+
+    
+    <div class="navbar navbar-inverse">
+        <div class="navbar-inner">
+            <div class="container-fluid">
+                <span href="/">
+                    <a class='brand' rel="nofollow" href='http://www.django-rest-framework.org'>Django REST framework <span class="version">2.3.14</span></a>
+                </span>
+                <ul class="nav pull-right">
+                    
+                        
+                            <li></li>
+                        
+                    
+                </ul>
+            </div>
+        </div>
+    </div>
+    
+
+    
+    <ul class="breadcrumb">
+        
+            <li>
+                <a href="/api/v2/video/" >Video List Create Api</a> <span class="divider">&rsaquo;</span>
+            </li>
+        
+            <li>
+                <a href="/api/v2/video/1223" class="active">Video Retrieve Update Api</a> 
+            </li>
+        
+    </ul>
+    
+
+    <!-- Content -->
+    <div id="content">
+
+        
+            <form id="get-form" class="pull-right">
+                <fieldset>
+                    <div class="btn-group format-selection">
+                        <a class="btn btn-primary js-tooltip" href='/api/v2/video/1223?format=api' rel="nofollow" title="Make a GET request on the Video Retrieve Update Api resource">GET</a>
+
+                        <button class="btn btn-primary dropdown-toggle js-tooltip" data-toggle="dropdown" title="Specify a format for the GET request">
+                            <span class="caret"></span>
+                        </button>
+                        <ul class="dropdown-menu">
+                            
+                                <li>
+                                    <a class="js-tooltip format-option" href='/api/v2/video/1223?format=json' rel="nofollow" title="Make a GET request on the Video Retrieve Update Api resource with the format set to `json`">json</a>
+                                </li>
+                            
+                                <li>
+                                    <a class="js-tooltip format-option" href='/api/v2/video/1223?format=api' rel="nofollow" title="Make a GET request on the Video Retrieve Update Api resource with the format set to `api`">api</a>
+                                </li>
+                            
+                        </ul>
+                    </div>
+
+                </fieldset>
+            </form>
+        
+
+        
+            <form class="button-form" action="/api/v2/video/1223?format=api" method="POST" class="pull-right">
+                <input type='hidden' name='csrfmiddlewaretoken' value='pT8iI6zhtQdsGFmu4tryYgFrUlipl2B3' />
+                <input type="hidden" name="_method" value="OPTIONS" />
+                <button class="btn btn-primary js-tooltip" title="Make an OPTIONS request on the Video Retrieve Update Api resource">OPTIONS</button>
+            </form>
+        
+
+        
+
+        <div class="content-main">
+            <div class="page-header"><h1>Video Retrieve Update Api</h1></div>
+            
+            
+            
+            <div class="request-info" style="clear: both" >
+                <pre class="prettyprint"><b>GET</b> /api/v2/video/1223?format=api</pre>
+            </div>
+            <div class="response-info">
+                <pre class="prettyprint"><div class="meta nocode"><b>HTTP 200 OK</b>
+<b>Content-Type:</b> <span class="lit">application/json</span>
+<b>Vary:</b> <span class="lit">Accept</span>
+<b>Allow:</b> <span class="lit">GET, PUT, PATCH, HEAD, OPTIONS</span>
+
+</div>{
+    &quot;category&quot;: &quot;SciPy 2012&quot;, 
+    &quot;language&quot;: &quot;English&quot;, 
+    &quot;slug&quot;: &quot;total-recall-flmake-and-the-quest-for-reproducib&quot;, 
+    &quot;speakers&quot;: [
+        &quot;Anthony Scopatz&quot;
+    ], 
+    &quot;tags&quot;: [
+        &quot;General&quot;
+    ], 
+    &quot;related_urls&quot;: [], 
+    &quot;id&quot;: 1223, 
+    &quot;state&quot;: 1, 
+    &quot;title&quot;: &quot;Total Recall: flmake and the Quest for Reproducibility&quot;, 
+    &quot;summary&quot;: &quot;&quot;, 
+    &quot;description&quot;: &quot;[FLASH](http://flash.uchicago.edu/site/) is a high-performance computing (HPC)\nmulti-physics code which is used to perform astrophysical and high-energy\ndensity physics simulations. It runs on the full range of systems from laptops\nto workstations to 100,000 processor super computers - such as the Blue Gene/P\nat Argonne National Laboratory.\n\nHistorically, FLASH was born from a collection of unconnected legacy codes\nwritten primarily in Fortran and merged into a single project. Over the past\n13 years major sections have been rewritten in other languages. For instance,\nI/O is now implemented in C. However building, testing, and documentation are\nall performed in Python.\n\nFLASH has a unique architecture which compiles _simulation specific_\nexecutables for each new type of run. This is aided by an object-oriented-\nesque inheritance model that is implemented by inspecting the file system&#39;s\ndirectory hierarchy. This allows FLASH to compile to faster machine code than\na compile-once strategy. However it also places a greater importance on the\nPython build system.\n\nTo run a FLASH simulation, the user must go through three basic steps: setup,\nbuild, and execution. Canonically, each of these tasks are independently\nhandled by the user. However, with the recent advent of [flmake](http://flash.\nuchicago.edu/site/flashcode/user_support/tools4b/usersguide/flmake/index.htm)\n- a Python workflow management utility for FLASH - such tasks may now be\nperformed in a repeatable way.\n\nPrevious workflow management tools have been written for FLASH. (For example,\nthe \&quot;Milad system\&quot; was implemented entirely in Makefiles.) However, none of\nthe priorattempts have placed reproducibility as their primary concern. This\nis in part becausefully capturing the setup metadata requires alterations to\nthe build system.\n\nThe development of flmake started by rewriting the existing build systemto\nallow FLASH to be run outside of the main line subversion repository. It\nseparates outproject and simulation directories independent of the FLASH\nsource directory. Thesedirectories are typically under their own version\ncontrol.\n\nMoreover for each of the important tasks (setup, build, run, etc), a sidecar\nmetadata _description_ file is either written or appended to. This is a simple\ndictionary-of-dictionaries JSON file which stores the environment of the\nsystem and the state of the code when each flmake command is run. This\nmetadata includes the version information of both the FLASH main line and\nproject repositories. However, it also may include _all_ local modifications\nsince the last commit. A patch is automatically generated using the Python\nstandard library `difflib` module and stored directly in the description.\n\nAlong with universally unique identifiers, logging, and Python run control\nfiles, the flmake utility may use the description files to fully reproduce a\nsimulation by re-executing each command in its original environment and state.\nWhile `flmake reproduce` makes a useful debugging tool, it fundamentally\nincreases the scientific merit of FLASH simulations.\n\nThe methods described above may be used whenever source code itself is\ndistributed. While this is true for FLASH (uncommon amongst compiledcodes),\nmost Python packages also distribute their source. Therefore the same\nreproducibility strategy is applicable and highly recommended for Python\nsimulation codes. Thus flmake shows that reproducibility - which is notably\nabsent from most computational science projects - is easily attainable using\nonly version control and standard library modules.\n\n&quot;, 
+    &quot;quality_notes&quot;: &quot;&quot;, 
+    &quot;copyright_text&quot;: &quot;CC BY-SA&quot;, 
+    &quot;embed&quot;: &quot;&lt;object width=\&quot;640\&quot; height=\&quot;390\&quot;&gt;&lt;param name=\&quot;movie\&quot; value=\&quot;http://youtube.com/v/ce4UU0ltbPA?version=3&amp;amp;hl=en_US\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowFullScreen\&quot; value=\&quot;true\&quot;&gt;&lt;/param&gt;&lt;param name=\&quot;allowscriptaccess\&quot; value=\&quot;always\&quot;&gt;&lt;/param&gt;&lt;embed src=\&quot;http://youtube.com/v/ce4UU0ltbPA?version=3&amp;amp;hl=en_US\&quot; type=\&quot;application/x-shockwave-flash\&quot; width=\&quot;640\&quot; height=\&quot;390\&quot; allowscriptaccess=\&quot;always\&quot; allowfullscreen=\&quot;true\&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&quot;, 
+    &quot;thumbnail_url&quot;: &quot;<a href="http://i4.ytimg.com/vi/ce4UU0ltbPA/hqdefault.jpg" rel="nofollow">http://i4.ytimg.com/vi/ce4UU0ltbPA/hqdefault.jpg</a>&quot;, 
+    &quot;duration&quot;: null, 
+    &quot;video_ogv_length&quot;: null, 
+    &quot;video_ogv_url&quot;: null, 
+    &quot;video_ogv_download_only&quot;: false, 
+    &quot;video_mp4_length&quot;: null, 
+    &quot;video_mp4_url&quot;: &quot;<a href="http://s3.us.archive.org/nextdayvideo/enthought/scipy_2012/Total_Recall_flmake_and_the_Quest_for_Reproducibility.mp4?Signature=RXHp35B0p8ekEKA0Uds/6w73sRs=&amp;Expires=1346382337&amp;AWSAccessKeyId=FEWGReWX3QbNk0h3" rel="nofollow">http://s3.us.archive.org/nextdayvideo/enthought/scipy_2012/Total_Recall_flmake_and_the_Quest_for_Reproducibility.mp4?Signature=RXHp35B0p8ekEKA0Uds%2F6w73sRs%3D&amp;Expires=1346382337&amp;AWSAccessKeyId=FEWGReWX3QbNk0h3</a>&quot;, 
+    &quot;video_mp4_download_only&quot;: false, 
+    &quot;video_webm_length&quot;: null, 
+    &quot;video_webm_url&quot;: &quot;&quot;, 
+    &quot;video_webm_download_only&quot;: false, 
+    &quot;video_flv_length&quot;: null, 
+    &quot;video_flv_url&quot;: &quot;&quot;, 
+    &quot;video_flv_download_only&quot;: false, 
+    &quot;source_url&quot;: &quot;<a href="http://youtube.com/watch?v=ce4UU0ltbPA" rel="nofollow">http://youtube.com/watch?v=ce4UU0ltbPA</a>&quot;, 
+    &quot;whiteboard&quot;: &quot;&quot;, 
+    &quot;recorded&quot;: &quot;2012-07-19&quot;, 
+    &quot;added&quot;: &quot;2012-08-31T16:35:32&quot;, 
+    &quot;updated&quot;: &quot;2014-04-08T20:28:27.126&quot;
+}</pre>
+            </div>
+        </div>
+
+            
+
+                
+
+                
+            
+
+        </div>
+        <!-- END content-main -->
+
+    </div>
+    <!-- END Content -->
+
+        <div id="push"></div>
+
+    </div>
+
+    </div><!-- ./wrapper -->
+
+    
+    
+
+    
+    <script src="/static/rest_framework/js/jquery-1.8.1-min.js"></script>
+    <script src="/static/rest_framework/js/bootstrap.min.js"></script>
+    <script src="/static/rest_framework/js/prettify-min.js"></script>
+    <script src="/static/rest_framework/js/default.js"></script>
+    
+  </body>
+
+<!-- Mirrored from pyvideo.org/api/v2/video/1223?format=api by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 07 Jan 2016 03:46:36 GMT -->
+</html>
